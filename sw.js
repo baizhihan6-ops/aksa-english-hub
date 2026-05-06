@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aksa-hub-v1';
+const CACHE_NAME = 'aksa-hub-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -6,24 +6,61 @@ const urlsToCache = [
   './icon.png'
 ];
 
-// 1. 安装阶段：强行把核心文件塞进手机本地缓存
-self.addEventListener('install', event => {
+// Install: cache core files
+self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Opened cache');
+      .then(function(cache) {
+        console.log('AKSA Hub: caching core files');
         return cache.addAll(urlsToCache);
+      })
+      .then(function() {
+        return self.skipWaiting();
       })
   );
 });
 
-// 2. 运行阶段：拦截网络请求，优先从手机本地拿数据（实现离线秒开）
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        // 如果本地有缓存，直接秒开；如果没有，再耗费流量去网上去拉取
-        return response || fetch(event.request);
-      })
+// Activate: clean up old caches
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(name) {
+          return name !== CACHE_NAME;
+        }).map(function(name) {
+          console.log('AKSA Hub: deleting old cache', name);
+          return caches.delete(name);
+        })
+      );
+    }).then(function() {
+      return self.clients.claim();
+    })
   );
+});
+
+// Fetch: cache-first strategy for core files, network-first for everything else
+self.addEventListener('fetch', function(event) {
+  var url = new URL(event.request.url);
+  // Cache-first for same-origin core files
+  if (url.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(event.request).then(function(cached) {
+        var fetched = fetch(event.request).then(function(response) {
+          if (response && response.status === 200) {
+            var clone = response.clone();
+            caches.open(CACHE_NAME).then(function(cache) {
+              cache.put(event.request, clone);
+            });
+          }
+          return response;
+        }).catch(function() {
+          return cached;
+        });
+        return cached || fetched;
+      })
+    );
+  } else {
+    // Cross-origin: network-only (fonts, etc.)
+    event.respondWith(fetch(event.request));
+  }
 });
