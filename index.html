@@ -1889,27 +1889,30 @@ function openMemoUI(idx, targetWord) {
 
 function startRecognition(idx) {
   var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var recId = (idx !== undefined) ? idx : activeMemoId;
   try {
     activeRec = new SpeechRecognition();
   } catch(e) {
-    showRecError(idx || activeMemoId, '❌ Could not start recording. Please try again.');
+    showRecError(recId, '❌ Could not start recording. Please try again.');
     return;
   }
   activeRec.lang = 'en-US';
   activeRec.continuous = true;
   activeRec.interimResults = false;
+  // Capture the ID in closure to avoid race conditions
+  var capturedId = recId;
   activeRec.onresult = function(e) {
     for (var i = e.resultIndex; i < e.results.length; ++i) {
       if (e.results[i].isFinal) accumulatedTranscript += e.results[i][0].transcript + " ";
     }
   };
   activeRec.onerror = function(e) {
-    var id = activeMemoId;
+    var id = capturedId;
     var errMap = {
-      'not-allowed': '❌ Microphone access denied. Please allow microphone in browser settings.',
-      'no-speech': '⚠️ No speech detected. Please speak louder or check your microphone.',
-      'audio-capture': '❌ No microphone found. Please connect a microphone.',
-      'network': '⚠️ Network error. Speech recognition needs internet.',
+      'not-allowed': '❌ Microphone access denied. Please allow microphone in browser settings (click 🔒 in address bar).',
+      'no-speech': '⚠️ No speech detected. Please speak closer to the microphone and try again.',
+      'audio-capture': '❌ No microphone found. Please connect a microphone and try again.',
+      'network': '⚠️ Network error. Speech recognition requires internet connection.',
       'aborted': ''
     };
     var msg = errMap[e.error] || ('❌ Recording error: ' + (e.error || 'unknown'));
@@ -1919,10 +1922,22 @@ function startRecognition(idx) {
       var panel = document.getElementById('memo-' + id);
       if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
       if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
-      if (activeRec) { activeRec = null; }
+      activeRec = null;
     }
   };
-  activeRec.start();
+  // Must wrap start() - Chrome throws synchronously on permission denied
+  try {
+    activeRec.start();
+  } catch (e) {
+    var id = capturedId;
+    activeRec = null;
+    if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+    if (id !== null) {
+      var panel = document.getElementById('memo-' + id);
+      if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+      showRecError(id, '❌ Microphone not accessible. Please click the lock icon 🔒 in the address bar → allow microphone, then refresh the page.');
+    }
+  }
 }
 
 function toggleMemoPause(idx) {
