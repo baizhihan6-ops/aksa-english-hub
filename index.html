@@ -1839,9 +1839,10 @@ function formatTime(sec) {
 }
 
 function closeAllMemos() {
+    memoPaused = true; // prevent onend auto-restart
     if(activeRec) { try { activeRec.stop(); } catch(e) {} activeRec = null; }
     if(memoTimer) { clearInterval(memoTimer); memoTimer = null; }
-    activeMemoId = null; memoSeconds = 0;
+    activeMemoId = null; memoSeconds = 0; accumulatedTranscript = "";
     document.querySelectorAll('.voice-memo-panel').forEach(function(p) { p.style.display = 'none'; p.classList.remove('active', 'paused'); });
     document.querySelectorAll('.eval-result').forEach(function(r) { r.style.display = 'none'; });
 }
@@ -1897,34 +1898,75 @@ function startRecognition(idx) {
     return;
   }
   activeRec.lang = 'en-US';
-  activeRec.continuous = true;
-  activeRec.interimResults = false;
+  // Use non-continuous mode + interim results for better cross-browser compat
+  activeRec.continuous = false;
+  activeRec.interimResults = true;
+  activeRec.maxAlternatives = 1;
   // Capture the ID in closure to avoid race conditions
   var capturedId = recId;
+  var hasStarted = false;
+
+  activeRec.onstart = function() {
+    hasStarted = true;
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC ●';
+    // Clear any previous error
+    var resDiv = document.getElementById('res-' + capturedId);
+    if (resDiv) { resDiv.style.display = 'none'; }
+  };
+
+  activeRec.onaudiostart = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> LISTENING';
+  };
+
+  activeRec.onaudioend = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC';
+  };
+
   activeRec.onresult = function(e) {
     for (var i = e.resultIndex; i < e.results.length; ++i) {
       if (e.results[i].isFinal) accumulatedTranscript += e.results[i][0].transcript + " ";
+      // Show live interim results as feedback
+      if (!e.results[i].isFinal) {
+        var statusEl = document.getElementById('status-' + capturedId);
+        if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> ' + e.results[i][0].transcript.substring(0, 30);
+      }
     }
   };
+
   activeRec.onerror = function(e) {
     var id = capturedId;
+    if (e.error === 'no-speech') {
+      // Auto-restart on no-speech — don't close the panel
+      if (!memoPaused && activeRec && memoTimer) {
+        try { activeRec.start(); } catch(e2) {}
+      }
+      return;
+    }
+    if (e.error === 'aborted') return;
     var errMap = {
-      'not-allowed': '❌ Microphone access denied. Please allow microphone in browser settings (click 🔒 in address bar).',
-      'no-speech': '⚠️ No speech detected. Please speak closer to the microphone and try again.',
-      'audio-capture': '❌ No microphone found. Please connect a microphone and try again.',
-      'network': '⚠️ Network error. Speech recognition requires internet connection.',
-      'aborted': ''
+      'not-allowed': '❌ Microphone access denied. Click 🔒 in address bar → allow microphone → refresh page.',
+      'audio-capture': '❌ No microphone found. Please connect a microphone.',
+      'network': '⚠️ Network error. Speech recognition needs internet connection.'
     };
     var msg = errMap[e.error] || ('❌ Recording error: ' + (e.error || 'unknown'));
     if (msg && id !== null) showRecError(id, msg);
-    // Clean up recording UI on error
-    if (e.error !== 'aborted') {
-      var panel = document.getElementById('memo-' + id);
-      if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
-      if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
-      activeRec = null;
+    // Clean up for fatal errors
+    var panel = document.getElementById('memo-' + id);
+    if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+    if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+    activeRec = null;
+  };
+
+  activeRec.onend = function() {
+    // Auto-restart if not manually paused/stopped (non-continuous mode needs this)
+    if (!memoPaused && activeRec && hasStarted && memoTimer) {
+      try { activeRec.start(); } catch(e2) {}
     }
   };
+
   // Must wrap start() - Chrome throws synchronously on permission denied
   try {
     activeRec.start();
@@ -1935,7 +1977,7 @@ function startRecognition(idx) {
     if (id !== null) {
       var panel = document.getElementById('memo-' + id);
       if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
-      showRecError(id, '❌ Microphone not accessible. Please click the lock icon 🔒 in the address bar → allow microphone, then refresh the page.');
+      showRecError(id, '❌ Microphone not accessible. Click 🔒 in address bar → allow microphone → refresh page.');
     }
   }
 }
