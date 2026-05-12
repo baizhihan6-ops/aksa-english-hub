@@ -1835,11 +1835,13 @@ function showRecError(idx, msg) {
   resDiv.style.display = "block";
 }
 
+function isAndroid() { return /android/i.test(navigator.userAgent); }
+
 function openMemoUI(idx, targetWord) {
   if (!hasSpeechRecognition()) {
     var tip = isIOS()
-      ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome or Edge on a computer/Android phone.<br><small>Tip: You can still use the 🔊 Listen button for pronunciation practice.</small>'
-      : '❌ Your browser does not support speech recording. Please use Chrome, Edge, or an Android phone.';
+      ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome on a computer or Android phone.<br><small>Tip: You can still use the 🔊 Listen button for practice.</small>'
+      : '❌ Your browser does not support speech recording. Please use Chrome on a computer or Android phone.';
     showRecError(idx, tip);
     return;
   }
@@ -1856,16 +1858,38 @@ function openMemoUI(idx, targetWord) {
   var statusEl = document.getElementById('status-' + idx);
   var pauseBtn = document.getElementById('btn-pause-' + idx);
   if (timerEl) timerEl.innerText = "00:00";
-  if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC';
+  if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REQUESTING MIC...';
   if (pauseBtn) pauseBtn.innerText = '⏸';
-  memoTimer = setInterval(function() {
-    if (!memoPaused) {
-      memoSeconds++;
-      var t = document.getElementById('timer-' + idx);
-      if (t) t.innerText = formatTime(memoSeconds);
-    }
-  }, 1000);
-  startRecognition(idx);
+
+  // Android fix: request mic permission via getUserMedia BEFORE SpeechRecognition
+  // Without this, Chrome on Android/Huawei/Xiaomi may silently fail
+  var requestMic = (navigator.mediaDevices && navigator.mediaDevices.getUserMedia)
+    ? navigator.mediaDevices.getUserMedia({ audio: true })
+    : Promise.reject(new Error('getUserMedia not available'));
+
+  requestMic.then(function(stream) {
+    // Permission granted — stop stream, we just needed the permission prompt
+    if (stream) { stream.getTracks().forEach(function(t) { t.stop(); }); }
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> STARTING...';
+    // Now safe to start speech recognition
+    memoTimer = setInterval(function() {
+      if (!memoPaused) {
+        memoSeconds++;
+        var t = document.getElementById('timer-' + idx);
+        if (t) t.innerText = formatTime(memoSeconds);
+      }
+    }, 1000);
+    startRecognition(idx);
+  }).catch(function(err) {
+    // Microphone permission denied or hardware not available
+    panel.style.display = 'none';
+    panel.classList.remove('active', 'paused');
+    if (activeRec) { activeRec = null; }
+    var hint = isAndroid()
+      ? '❌ Microphone blocked. On Android: open phone Settings → Apps → Chrome → Permissions → Microphone → Allow. Then refresh this page. Or check if Google Play Services is installed.'
+      : '❌ Microphone not accessible. Please allow microphone in browser settings (click 🔒 in address bar) and try again.';
+    showRecError(idx, hint);
+  });
 }
 
 function startRecognition(idx) {
@@ -1878,8 +1902,8 @@ function startRecognition(idx) {
     return;
   }
   activeRec.lang = 'en-US';
-  // Use non-continuous mode + interim results for better cross-browser compat
-  activeRec.continuous = false;
+  // Android works better with continuous=true; iOS/desktop fine either way
+  activeRec.continuous = true;
   activeRec.interimResults = true;
   activeRec.maxAlternatives = 1;
   // Capture the ID in closure to avoid race conditions
@@ -1941,10 +1965,8 @@ function startRecognition(idx) {
   };
 
   activeRec.onend = function() {
-    // Auto-restart if not manually paused/stopped (non-continuous mode needs this)
-    if (!memoPaused && activeRec && hasStarted && memoTimer) {
-      try { activeRec.start(); } catch(e2) {}
-    }
+    // continuous=true keeps recognition alive; only reaches here on manual stop
+    hasStarted = false;
   };
 
   // Must wrap start() - Chrome throws synchronously on permission denied
@@ -1957,7 +1979,10 @@ function startRecognition(idx) {
     if (id !== null) {
       var panel = document.getElementById('memo-' + id);
       if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
-      showRecError(id, '❌ Microphone not accessible. Click 🔒 in address bar → allow microphone → refresh page.');
+      var startErrMsg = isAndroid()
+        ? '❌ Microphone not accessible. Please check: 1) Phone Settings → Chrome → Microphone → Allow. 2) Make sure Google Play Services is installed. Then refresh.'
+        : '❌ Microphone not accessible. Click 🔒 in address bar → allow microphone → refresh page.';
+      showRecError(id, startErrMsg);
     }
   }
 }
