@@ -1840,8 +1840,8 @@ function isAndroid() { return /android/i.test(navigator.userAgent); }
 function openMemoUI(idx, targetWord) {
   if (!hasSpeechRecognition()) {
     var tip = isIOS()
-      ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome on a computer or Android phone.<br><small>Tip: You can still use the 🔊 Listen button for practice.</small>'
-      : '❌ Your browser does not support speech recording. Please use Chrome on a computer or Android phone.';
+      ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome or Edge on a computer or Android phone.<br><small>Tip: You can still use the 🔊 Listen button for practice.</small>'
+      : '❌ Your browser does not support speech recording. Please use Chrome or Edge on a computer or Android phone.';
     showRecError(idx, tip);
     return;
   }
@@ -1862,7 +1862,7 @@ function openMemoUI(idx, targetWord) {
   if (pauseBtn) pauseBtn.innerText = '⏸';
 
   // Android fix: request mic permission via getUserMedia BEFORE SpeechRecognition
-  // Without this, Chrome on Android/Huawei/Xiaomi may silently fail
+  // Without this, Chrome/Edge on Android (Huawei/Xiaomi/OPPO etc.) may silently fail
   var requestMic = (navigator.mediaDevices && navigator.mediaDevices.getUserMedia)
     ? navigator.mediaDevices.getUserMedia({ audio: true })
     : Promise.reject(new Error('getUserMedia not available'));
@@ -1886,7 +1886,7 @@ function openMemoUI(idx, targetWord) {
     panel.classList.remove('active', 'paused');
     if (activeRec) { activeRec = null; }
     var hint = isAndroid()
-      ? '❌ Microphone blocked. On Android: open phone Settings → Apps → Chrome → Permissions → Microphone → Allow. Then refresh this page. Or check if Google Play Services is installed.'
+      ? '❌ Microphone blocked. On Android: open phone Settings → Apps → Chrome (or Edge) → Permissions → Microphone → Allow. Then refresh this page. If still not working, check that Google Play Services is installed.'
       : '❌ Microphone not accessible. Please allow microphone in browser settings (click 🔒 in address bar) and try again.';
     showRecError(idx, hint);
   });
@@ -1980,7 +1980,7 @@ function startRecognition(idx) {
       var panel = document.getElementById('memo-' + id);
       if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
       var startErrMsg = isAndroid()
-        ? '❌ Microphone not accessible. Please check: 1) Phone Settings → Chrome → Microphone → Allow. 2) Make sure Google Play Services is installed. Then refresh.'
+        ? '❌ Microphone not accessible. On your phone: Settings → Apps → Chrome/Edge → Permissions → Microphone → Allow. Also check that Google Play Services is installed. Then refresh.'
         : '❌ Microphone not accessible. Click 🔒 in address bar → allow microphone → refresh page.';
       showRecError(id, startErrMsg);
     }
