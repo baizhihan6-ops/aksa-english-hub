@@ -1997,21 +1997,27 @@ function startRecognition(idx) {
     return;
   }
   activeRec.lang = 'en-US';
-  // Android works better with continuous=true; iOS/desktop fine either way
   activeRec.continuous = true;
   activeRec.interimResults = true;
   activeRec.maxAlternatives = 1;
   // Capture the ID in closure to avoid race conditions
   var capturedId = recId;
   var hasStarted = false;
+  var noSpeechCount = 0;
+  var MAX_NO_SPEECH = 3;
 
   activeRec.onstart = function() {
     hasStarted = true;
+    noSpeechCount = 0;
     var statusEl = document.getElementById('status-' + capturedId);
-    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC ●';
-    // Clear any previous error
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC ● SPEAK NOW';
     var resDiv = document.getElementById('res-' + capturedId);
     if (resDiv) { resDiv.style.display = 'none'; }
+  };
+
+  activeRec.onspeechstart = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> HEARD! Converting...';
   };
 
   activeRec.onaudiostart = function() {
@@ -2024,10 +2030,15 @@ function startRecognition(idx) {
     if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC';
   };
 
+  activeRec.onnomatch = function() {
+    // Speech was heard but not recognized — different from no-speech
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#ff0"></span> HEARD, RETRY...';
+  };
+
   activeRec.onresult = function(e) {
     for (var i = e.resultIndex; i < e.results.length; ++i) {
       if (e.results[i].isFinal) accumulatedTranscript += e.results[i][0].transcript + " ";
-      // Show live interim results as feedback
       if (!e.results[i].isFinal) {
         var statusEl = document.getElementById('status-' + capturedId);
         if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> ' + e.results[i][0].transcript.substring(0, 30);
@@ -2038,13 +2049,37 @@ function startRecognition(idx) {
   activeRec.onerror = function(e) {
     var id = capturedId;
     if (e.error === 'no-speech') {
-      // Auto-restart on no-speech — don't close the panel
+      noSpeechCount++;
+      if (noSpeechCount >= MAX_NO_SPEECH) {
+        // Too many retries — likely Google speech servers unreachable (common in China)
+        var panel = document.getElementById('memo-' + id);
+        if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+        if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+        activeRec = null;
+        showRecError(id, '⚠️ No speech detected after ' + MAX_NO_SPEECH + ' tries.<br><br>This usually means Google speech servers are unreachable on this phone.<br><br>Workaround: use the 🔊 Listen button to hear pronunciation and practice by repeating aloud. Recording feature requires Google services.');
+        return;
+      }
+      // Show feedback and retry
+      var statusEl = document.getElementById('status-' + capturedId);
+      if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> RETRY ' + noSpeechCount + '/' + MAX_NO_SPEECH + '...';
       if (!memoPaused && activeRec && memoTimer) {
-        try { activeRec.start(); } catch(e2) {}
+        setTimeout(function() {
+          if (activeRec && !memoPaused && memoTimer) {
+            try { activeRec.start(); } catch(e2) {}
+          }
+        }, 800);
       }
       return;
     }
     if (e.error === 'aborted') return;
+    if (e.error === 'network') {
+      var panel2 = document.getElementById('memo-' + id);
+      if (panel2) { panel2.style.display = 'none'; panel2.classList.remove('active', 'paused'); }
+      if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+      activeRec = null;
+      showRecError(id, '⚠️ Network error. Speech recognition needs a stable internet connection to Google servers. If you are in China, this feature may not work without VPN.');
+      return;
+    }
     var errMap = {
       'not-allowed': '❌ Microphone access denied. Click 🔒 in address bar → allow microphone → refresh page.',
       'audio-capture': '❌ No microphone found. Please connect a microphone.',
