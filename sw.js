@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aksa-hub-v2';
+const CACHE_NAME = 'aksa-hub-v3';
 const urlsToCache = [
   './',
   './index.html',
@@ -38,11 +38,34 @@ self.addEventListener('activate', function(event) {
   );
 });
 
-// Fetch: cache-first strategy for core files, network-first for everything else
+// Fetch: keep the app shell fresh, fall back to cache when offline.
 self.addEventListener('fetch', function(event) {
   var url = new URL(event.request.url);
-  // Cache-first for same-origin core files
+  var indexUrl = new URL('./index.html', self.location.href).toString();
+
   if (url.origin === self.location.origin) {
+    var isPageRequest = event.request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('/index.html');
+    if (isPageRequest) {
+      event.respondWith(
+        fetch(event.request).then(function(response) {
+          if (response && response.status === 200) {
+            var clone = response.clone();
+            caches.open(CACHE_NAME).then(function(cache) {
+              cache.put(event.request, clone);
+              cache.put(indexUrl, response.clone());
+            });
+          }
+          return response;
+        }).catch(function() {
+          return caches.match(event.request).then(function(cached) {
+            return cached || caches.match(indexUrl);
+          });
+        })
+      );
+      return;
+    }
+
+    // Stale-while-revalidate for same-origin assets.
     event.respondWith(
       caches.match(event.request).then(function(cached) {
         var fetched = fetch(event.request).then(function(response) {

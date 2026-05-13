@@ -255,6 +255,8 @@ body { background: #f5f6f8; color: var(--text-main); min-height: 100vh; overflow
 .eval-result { display: none; font-size: 11px; font-weight: 600; padding: 6px 8px; border-radius: 6px; margin-top: 10px; width: 100%; text-align: center; }
 .eval-result.success { display: block; background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
 .eval-result.error { display: block; background: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
+.eval-result .apk-install-link { display: inline-flex; align-items: center; justify-content: center; margin-top: 8px; padding: 7px 12px; border-radius: 999px; background: #111827; color: #fff; text-decoration: none; font-weight: 800; }
+.eval-result small { display: block; margin-top: 6px; line-height: 1.5; color: #7f1d1d; }
 .voice-memo-panel { display: none; background: #1c1c1e; color: #fff; border-radius: 10px; padding: 12px; margin-top: 12px; align-items: center; justify-content: space-between; box-shadow: inset 0 2px 10px rgba(0,0,0,0.5); flex-wrap: wrap; gap: 8px; }
 .memo-left { display: flex; flex-direction: column; align-items: flex-start; }
 .memo-timer { font-family: monospace; font-size: 15px; font-weight: bold; color: #fff; letter-spacing: 1px; margin-bottom: 4px; }
@@ -1906,6 +1908,27 @@ let activeRec = null, activeMemoId = null, memoTimer = null, memoSeconds = 0, me
 function isIOS() { return /iPhone|iPad|iPod/i.test(navigator.userAgent); }
 function isSafari() { return /^((?!chrome|android).)*safari/i.test(navigator.userAgent); }
 function hasSpeechRecognition() { return !!(window.SpeechRecognition || window.webkitSpeechRecognition); }
+function isAndroid() { return /android/i.test(navigator.userAgent); }
+function isStandalonePWA() {
+  return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true;
+}
+function isCapacitorRuntime() {
+  try {
+    return typeof Capacitor !== 'undefined' && Capacitor.isNativePlatform && Capacitor.isNativePlatform();
+  } catch(e) {
+    return false;
+  }
+}
+function shouldUseApkForSpeech() {
+  return isAndroid() && !isCapacitorRuntime();
+}
+function getAndroidApkSpeechMessage() {
+  var source = isStandalonePWA() ? 'Android PWA' : 'Android browser';
+  return '❌ ' + source + ' recording is disabled for China users because browser speech recognition depends on Google speech services.<br><br>' +
+    'Please install the Android APK for local phone speech recognition.' +
+    '<br><a class="apk-install-link" href="AKSA-English-Hub.apk" download>Download Android APK</a>' +
+    '<small>After installing, allow Microphone permission when Android asks. If recording still fails in the APK, install or enable a speech engine such as Google Voice Typing, Samsung Voice Input, Baidu Input or iFlytek.</small>';
+}
 
 function formatTime(sec) {
     var m = Math.floor(sec / 60).toString().padStart(2, '0');
@@ -1930,9 +1953,12 @@ function showRecError(idx, msg) {
   resDiv.style.display = "block";
 }
 
-function isAndroid() { return /android/i.test(navigator.userAgent); }
-
 function openMemoUI(idx, targetWord) {
+  if (shouldUseApkForSpeech()) {
+    closeAllMemos();
+    showRecError(idx, getAndroidApkSpeechMessage());
+    return;
+  }
   if (!hasSpeechRecognition()) {
     var tip = isIOS()
       ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome or Edge on a computer or Android phone.<br><small>Tip: You can still use the 🔊 Listen button for practice.</small>'
@@ -2360,6 +2386,11 @@ function updateSpeechStatus() {
   // Speech Recognition
   var hasRec = hasSpeechRecognition();
   if (rec) {
+    if (shouldUseApkForSpeech()) {
+      rec.className = 'status-pill warn';
+      rec.innerText = isStandalonePWA() ? 'Android PWA: install APK for recording' : 'Android web: APK needed for recording';
+      return;
+    }
     rec.className = hasRec ? 'status-pill ok' : 'status-pill warn';
     if (hasRec) {
       rec.innerText = 'Speak check ready';
