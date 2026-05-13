@@ -4,5 +4,6 @@ android/app/build/
 android/.gradle/
 android/captures/
 android/local.properties
+server/.env
 *.apk
 !AKSA-English-Hub.apk

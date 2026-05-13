@@ -1,9 +1,10 @@
-const CACHE_NAME = 'aksa-hub-v3';
+const CACHE_NAME = 'aksa-hub-v4';
 const urlsToCache = [
   './',
   './index.html',
   './manifest.json',
-  './icon.png'
+  './icon.png',
+  './speech-cloud.js'
 ];
 
 // Install: cache core files
@@ -44,6 +45,11 @@ self.addEventListener('fetch', function(event) {
   var indexUrl = new URL('./index.html', self.location.href).toString();
 
   if (url.origin === self.location.origin) {
+    if (url.pathname.endsWith('/speech-config.js') || url.pathname.includes('/api/')) {
+      event.respondWith(fetch(event.request));
+      return;
+    }
+
     var isPageRequest = event.request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('/index.html');
     if (isPageRequest) {
       event.respondWith(

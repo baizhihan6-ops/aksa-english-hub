@@ -4,7 +4,8 @@
   "description": "",
   "main": "sw.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "speech:server": "node server/index.js",
+    "test": "node --check server/index.js && node --check server/xunfei-ise.js && node --check speech-cloud.js && node --check speech-config.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,12 @@
   "homepage": "https://github.com/baizhihan6-ops/aksa-english-hub#readme",
   "dependencies": {
     "@capacitor-community/speech-recognition": "^7.0.1",
-    "@capacitor/core": "^8.3.4"
+    "@capacitor/core": "^8.3.4",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fast-xml-parser": "^5.8.0",
+    "ws": "^8.20.1"
   },
   "devDependencies": {
     "@capacitor/android": "^8.3.4",
