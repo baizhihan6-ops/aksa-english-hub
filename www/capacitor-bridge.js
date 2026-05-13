@@ -5,14 +5,15 @@
 var isCapacitorApp = false;
 var nativeSpeechAvailable = false;
 
-// Detect if running inside Capacitor WebView
+// Detect if running inside Capacitor WebView on a real device (not browser)
 try {
-  if (typeof Capacitor !== 'undefined' && Capacitor.isPluginAvailable('SpeechRecognition')) {
+  if (typeof Capacitor !== 'undefined' && Capacitor.isNativePlatform() && Capacitor.isPluginAvailable('SpeechRecognition')) {
     isCapacitorApp = true;
     nativeSpeechAvailable = true;
   }
 } catch(e) {
   isCapacitorApp = false;
+  nativeSpeechAvailable = false;
 }
 
 // Override the hasSpeechRecognition check for Capacitor
@@ -132,7 +133,7 @@ startRecognition = function(idx) {
 // Override toggleMemoPause for Capacitor
 var _origToggleMemoPause = toggleMemoPause;
 toggleMemoPause = function(idx) {
-  if (!nativeSpeechAvailable || !capRecActive) {
+  if (!nativeSpeechAvailable) {
     _origToggleMemoPause(idx);
     return;
   }
@@ -162,7 +163,7 @@ toggleMemoPause = function(idx) {
 // Override finishMemo for Capacitor
 var _origFinishMemo = finishMemo;
 finishMemo = function(idx, targetWord) {
-  if (nativeSpeechAvailable && capRecActive) {
+  if (nativeSpeechAvailable) {
     capRecActive = false;
     if (capRecListener) { capRecListener.remove(); capRecListener = null; }
     try { Capacitor.Plugins.SpeechRecognition.stop(); } catch(e) {}
@@ -173,7 +174,7 @@ finishMemo = function(idx, targetWord) {
 // Override closeAllMemos for Capacitor
 var _origCloseAllMemos = closeAllMemos;
 closeAllMemos = function() {
-  if (capRecActive) {
+  if (nativeSpeechAvailable) {
     capRecActive = false;
     if (capRecListener) { capRecListener.remove(); capRecListener = null; }
     try { Capacitor.Plugins.SpeechRecognition.stop(); } catch(e) {}
