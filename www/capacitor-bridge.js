@@ -33,6 +33,44 @@ isIOS = function() {
 var capRecActive = false;
 var capRecListener = null;
 
+// Override openMemoUI for Capacitor — skip getUserMedia, go straight to native
+var _origOpenMemoUI = openMemoUI;
+openMemoUI = function(idx, targetWord) {
+  if (!nativeSpeechAvailable) {
+    _origOpenMemoUI(idx, targetWord);
+    return;
+  }
+  // Capacitor native path: skip getUserMedia (handled by Android permissions)
+  if (!hasSpeechRecognition()) {
+    _origOpenMemoUI(idx, targetWord);
+    return;
+  }
+  _origCloseAllMemos();
+  activeMemoId = idx;
+  memoSeconds = 0;
+  memoPaused = false;
+  accumulatedTranscript = "";
+  var panel = document.getElementById('memo-' + idx);
+  if (!panel) { showRecError(idx, '❌ Recording panel not found. Please refresh the page.'); return; }
+  panel.style.display = 'flex';
+  panel.classList.add('active');
+  var timerEl = document.getElementById('timer-' + idx);
+  var statusEl = document.getElementById('status-' + idx);
+  var pauseBtn = document.getElementById('btn-pause-' + idx);
+  if (timerEl) timerEl.innerText = "00:00";
+  if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> REQUESTING MIC...';
+  if (pauseBtn) pauseBtn.innerText = '⏸';
+  // Skip getUserMedia — native plugin handles permissions via Android
+  memoTimer = setInterval(function() {
+    if (!memoPaused) {
+      memoSeconds++;
+      var t = document.getElementById('timer-' + idx);
+      if (t) t.innerText = formatTime(memoSeconds);
+    }
+  }, 1000);
+  startRecognition(idx);
+};
+
 // Override startRecognition for Capacitor
 var _origStartRecognition = startRecognition;
 startRecognition = function(idx) {
