@@ -30,7 +30,11 @@ app.get('/health', (req, res) => {
   });
 });
 
-app.post('/api/pronunciation', async (req, res) => {
+const pronunciationPaths = ['/api/pronunciation', '/api/pronunciation/'];
+
+app.options(pronunciationPaths, cors());
+
+app.post(pronunciationPaths, async (req, res) => {
   try {
     const { targetText, audio, mimeType, durationSec } = req.body || {};
     if (!targetText || typeof targetText !== 'string') {

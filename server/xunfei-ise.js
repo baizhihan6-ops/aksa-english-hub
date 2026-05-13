@@ -68,21 +68,12 @@ function parseIseXml(xml, targetText) {
   return result;
 }
 
-function buildFrame(status, audioChunk, targetText) {
-  const frame = {
-    data: {
-      status,
-      data: audioChunk.toString('base64'),
-      data_type: 1,
-      encoding: 'raw',
-    },
-  };
-
-  if (status === 0) {
-    frame.common = {
+function buildParamFrame(targetText) {
+  return JSON.stringify({
+    common: {
       app_id: process.env.XFYUN_APP_ID,
-    };
-    frame.business = {
+    },
+    business: {
       category: process.env.XFYUN_ISE_CATEGORY || 'read_sentence',
       sub: process.env.XFYUN_ISE_SUB || 'ise',
       ent: process.env.XFYUN_ISE_ENT || 'en_vip',
@@ -92,15 +83,29 @@ function buildFrame(status, audioChunk, targetText) {
       text: `\uFEFF${targetText}`,
       tte: 'utf-8',
       rstcd: 'utf8',
-      group: 'pupil',
-    };
-  }
+      ttp_skip: true,
+    },
+    data: {
+      status: 0,
+      data: '',
+    },
+  });
+}
 
-  if (status === 2) {
-    frame.data.data = '';
-  }
-
-  return JSON.stringify(frame);
+function buildAudioFrame(status, aus, audioChunk) {
+  return JSON.stringify({
+    business: {
+      cmd: 'auw',
+      aus,
+      aue: 'raw',
+    },
+    data: {
+      status,
+      data: audioChunk.toString('base64'),
+      data_type: 1,
+      encoding: 'raw',
+    },
+  });
 }
 
 function sendChunks(ws, pcmBuffer, targetText) {
@@ -114,24 +119,32 @@ function sendChunks(ws, pcmBuffer, targetText) {
         return;
       }
 
-      if (offset >= pcmBuffer.length) {
-        ws.send(buildFrame(2, Buffer.alloc(0), targetText), resolve);
-        return;
-      }
-
+      const isLast = offset + CHUNK_SIZE >= pcmBuffer.length;
       const chunk = pcmBuffer.slice(offset, offset + CHUNK_SIZE);
       offset += CHUNK_SIZE;
-      ws.send(buildFrame(first ? 0 : 1, chunk, targetText), (err) => {
+      const status = isLast ? 2 : 1;
+      const aus = isLast ? 4 : (first ? 1 : 2);
+      ws.send(buildAudioFrame(status, aus, chunk), (err) => {
         if (err) {
           reject(err);
           return;
         }
         first = false;
+        if (isLast) {
+          resolve();
+          return;
+        }
         setTimeout(sendNext, 40);
       });
     }
 
-    sendNext();
+    ws.send(buildParamFrame(targetText), (err) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+      setTimeout(sendNext, 40);
+    });
   });
 }
 
