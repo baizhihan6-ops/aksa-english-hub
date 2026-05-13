@@ -1,0 +1,2647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AKSA English Hub — 2026</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e1e1e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+:root {
+  --aksa-red: #c62828; --aksa-dark: #1e1e1e; --aksa-blue: #005aa0;
+  --aksa-green: #8cbe29; --bg-color: #eef2f7; --text-main: #2c3e50;
+  --text-light: #7f8c8d; --text-dark: #1a1a1a;
+  --shadow-sm: 0 4px 15px rgba(0,0,0,0.05);
+  --shadow-hover: 0 10px 25px rgba(0,0,0,0.12);
+  --brown-800: #3a1a08; --matcha: #4a7040; --surface: #ffffff;
+  --line-soft: #e6ebf2; --ink-muted: #667085; --gold: #c99a35;
+  --nav-h: 64px;
+}
+
+html { scroll-behavior: smooth; font-family: 'Segoe UI', -apple-system, sans-serif; }
+body { background: #f5f6f8; color: var(--text-main); min-height: 100vh; overflow-x: hidden; padding-bottom: calc(var(--nav-h) + 20px + env(safe-area-inset-bottom, 0px)); }
+
+/* Bottom Navigation */
+.bottom-nav { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 10000; background: #1a1a2e; border-top: 1px solid rgba(255,255,255,0.08); height: var(--nav-h); padding: 0 2px; padding-bottom: env(safe-area-inset-bottom, 0); }
+.bottom-nav-btn { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; border: none; background: transparent; color: rgba(255,255,255,0.5); font-size: 9px; font-weight: 700; cursor: pointer; transition: all 0.2s; -webkit-tap-highlight-color: transparent; padding: 4px 2px; }
+.bottom-nav-btn.active { color: var(--aksa-green); }
+.bottom-nav-btn .nav-icon { font-size: 18px; line-height: 1; }
+.bottom-nav-btn .nav-label { letter-spacing: 0.5px; text-transform: uppercase; }
+@media (min-width: 769px) { .bottom-nav { display: none; } body { padding-bottom: 60px; } }
+
+/* Views */
+.page-view { display: none; width: 100%; min-height: 100vh; animation: fadeView 0.25s ease forwards; position: relative; padding-bottom: 20px; }
+.page-view.active { display: block; }
+@keyframes fadeView { from { opacity: 0; } to { opacity: 1; } }
+
+.back-btn { position: fixed; top: 16px; left: 16px; z-index: 9999; background: rgba(30,30,30,0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); border-radius: 24px; padding: 8px 16px; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; display: none; align-items: center; gap: 6px; transition: all 0.2s; -webkit-tap-highlight-color: transparent; }
+.back-btn:active { background: rgba(30,30,30,0.95); transform: translateX(-3px); }
+.back-btn.light-mode { background: #fff; color: var(--aksa-dark); border-color: #ddd; box-shadow: var(--shadow-sm); }
+
+.profile-btn { position: absolute; top: 16px; right: 16px; z-index: 100; width: 44px; height: 44px; border-radius: 50%; background: #ffffff; color: var(--aksa-dark); display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 800; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.25); border: 2px solid transparent; transition: transform 0.2s; text-transform: uppercase; -webkit-tap-highlight-color: transparent; }
+.profile-btn:active { transform: scale(0.95); border-color: var(--aksa-green); }
+
+/* No AI fab needed */
+
+/* Modal */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); z-index: 10000; display: none; justify-content: center; align-items: center; padding: 20px; }
+.modal-card { background: #fff; border-radius: 20px; padding: 32px 24px; width: 100%; max-width: 380px; box-shadow: 0 20px 50px rgba(0,0,0,0.3); text-align: center; animation: slideUp 0.4s ease forwards; }
+@keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.modal-title { font-size: 20px; font-weight: 900; color: var(--aksa-dark); margin-bottom: 8px; font-family: 'Montserrat', sans-serif; }
+.modal-desc { font-size: 13px; color: var(--text-light); margin-bottom: 24px; line-height: 1.5; }
+.input-group { margin-bottom: 16px; text-align: left; }
+.input-group label { display: block; font-size: 11px; font-weight: 700; color: var(--text-main); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+.input-group input { width: 100%; padding: 14px 16px; border: 2px solid #eee; border-radius: 12px; font-size: 16px; outline: none; transition: border-color 0.2s; -webkit-appearance: none; }
+.input-group input:focus { border-color: var(--aksa-blue); }
+.btn-submit { background: var(--aksa-dark); color: #fff; border: none; padding: 15px; width: 100%; border-radius: 12px; font-size: 15px; font-weight: 800; cursor: pointer; transition: transform 0.2s; margin-top: 8px; text-transform: uppercase; -webkit-tap-highlight-color: transparent; }
+.btn-submit:active { transform: scale(0.98); }
+
+/* Home */
+.home-hero-bg { background: #1a1a2e; padding: 48px 20px 80px; text-align: center; color: #fff; position: relative; overflow: hidden; }
+.home-hero-bg::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 70% 20%, rgba(255,255,255,0.05) 0%, transparent 60%); pointer-events: none; }
+.home-logo-bw { display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+.logo-container-bw { display: flex; align-items: center; background-color: #1a1a1a; padding: 8px 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); color: #ffffff; border-radius: 8px; }
+.logo-aksa-text { font-size: 32px; font-weight: 900; line-height: 1; letter-spacing: -1px; margin-right: 10px; font-family: 'Arial Black', 'Montserrat', sans-serif; }
+.logo-pg-text { font-size: 13px; font-weight: 700; line-height: 1.1; text-align: left; font-family: Arial, sans-serif; }
+.home-badge { background: #ffffff; color: #111; padding: 4px 12px; border-radius: 20px; font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 16px; display: inline-block; font-family: 'Montserrat', sans-serif; }
+.home-title { font-size: 28px; font-weight: 900; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; }
+.home-slogan { font-size: 13px; font-weight: 700; color: #f5c98a; letter-spacing: 1.5px; margin-top: 8px; text-transform: uppercase; font-family: 'Montserrat', sans-serif; }
+@media (min-width: 600px) { .home-title { font-size: 36px; } .home-slogan { font-size: 15px; } }
+
+.module-grid { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 900px; margin: -40px auto 30px; padding: 0 16px; position: relative; z-index: 10; }
+@media (min-width: 600px) { .module-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .module-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+.module-card { background: #fff; border: 1px solid #e8ecf1; border-radius: 14px; padding: 22px 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; border-left: 4px solid transparent; display: flex; flex-direction: column; -webkit-tap-highlight-color: transparent; min-height: 170px; }
+.module-card:active { transform: scale(0.98); }
+@media (min-width: 769px) { .module-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-left-color: var(--aksa-dark); } }
+.mc-icon { font-size: 28px; margin-bottom: 14px; }
+.mc-title { font-size: 16px; font-weight: 700; color: var(--text-dark); margin-bottom: 6px; }
+.mc-desc { font-size: 12px; color: var(--text-light); line-height: 1.6; margin-bottom: 16px; flex-grow: 1; }
+.mc-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f0f0f0; padding-top: 12px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.tag-ready { color: #2e7d32; background: #e8f5e9; padding: 4px 10px; border-radius: 12px; }
+.tag-ai { color: #1565c0; background: #e3f2fd; padding: 4px 10px; border-radius: 12px; }
+.tag-spring { color: #c2185b; background: #fce4ec; padding: 4px 10px; border-radius: 12px; }
+
+/* Dashboard */
+.dash-header { background: #1a1a2e; color: white; padding: 44px 16px 66px; text-align: center; position: relative; }
+.user-avatar-lg { width: 80px; height: 80px; background: var(--aksa-green); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 900; margin: 0 auto 12px; border: 4px solid rgba(255,255,255,0.2); box-shadow: 0 10px 20px rgba(0,0,0,0.2); text-transform: uppercase; }
+.user-name { font-size: 22px; font-weight: 800; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; margin-bottom: 4px; }
+.user-dept { font-size: 13px; opacity: 0.8; font-weight: 500; margin-bottom: 10px; }
+.btn-reset-profile { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: white; border-radius: 15px; padding: 6px 12px; font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; text-transform: uppercase; letter-spacing: 0.5px; -webkit-tap-highlight-color: transparent; }
+.btn-reset-profile:active { background: rgba(255,255,255,0.3); }
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 0 16px; max-width: 800px; margin: -36px auto 24px; position: relative; z-index: 10; }
+.stat-card { background: white; padding: 16px 8px; border-radius: 14px; box-shadow: var(--shadow-sm); text-align: center; display: flex; flex-direction: column; gap: 6px; }
+.stat-val { font-size: 24px; font-weight: 900; color: var(--aksa-blue); font-family: 'Montserrat', sans-serif; }
+.stat-label { font-size: 10px; color: var(--text-light); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.dash-content { max-width: 800px; margin: 0 auto; padding: 0 16px; }
+.progress-card { background: white; padding: 20px; border-radius: 14px; box-shadow: var(--shadow-sm); margin-bottom: 20px; }
+.progress-header { display: flex; justify-content: space-between; margin-bottom: 12px; font-weight: 800; color: var(--aksa-dark); font-size: 15px; }
+.progress-bar-bg { height: 12px; background: #f0f0f0; border-radius: 6px; overflow: hidden; margin-bottom: 8px; }
+.progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--aksa-green), #a8df38); width: 0%; transition: width 1s cubic-bezier(0.4, 0, 0.2, 1); border-radius: 6px; }
+.progress-desc { font-size: 12px; color: var(--text-light); text-align: right; font-weight: 600; }
+.btn-checkin { background: var(--aksa-dark); color: white; border: none; padding: 16px; width: 100%; border-radius: 14px; font-size: 15px; font-weight: 800; cursor: pointer; transition: all 0.2s; box-shadow: 0 8px 20px rgba(0,0,0,0.15); display: flex; justify-content: center; align-items: center; gap: 8px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Montserrat', sans-serif; -webkit-tap-highlight-color: transparent; }
+.btn-checkin:active { transform: scale(0.98); }
+.btn-checkin.done { background: #e0e0e0; color: #888; box-shadow: none; pointer-events: none; }
+.btn-export { background: #fff; color: var(--aksa-dark); border: 2px solid var(--aksa-dark); padding: 14px; width: 100%; border-radius: 14px; font-size: 15px; font-weight: 800; cursor: pointer; transition: all 0.2s; display: flex; justify-content: center; align-items: center; gap: 8px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Montserrat', sans-serif; -webkit-tap-highlight-color: transparent; margin-top: 14px; }
+.btn-export:active { background: #f0f0f0; transform: scale(0.98); }
+
+/* Dialogue */
+.hero { position: relative; background: #1a1a2e; padding: 48px 16px 18px; overflow: hidden; }
+.hero-inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; text-align: center; }
+.hero h1 { font-size: clamp(22px, 5vw, 32px); font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 8px; }
+.hero h1 em { font-style: normal; color: #f5c98a; }
+.hero-sub { color: rgba(255,255,255,0.62); font-size: 13px; font-weight: 300; line-height: 1.65; max-width: 440px; margin: 0 auto 20px; padding: 0 8px; }
+.time-chip { display: inline-flex; align-items: center; gap: 7px; background: rgba(255,255,255,0.10); border: 1px solid rgba(255,255,255,0.17); border-radius: 12px; padding: 6px 14px; margin-bottom: 24px; font-size: 12px; color: rgba(255,255,255,0.78); }
+.lesson-shell { max-width: 1080px; margin: -14px auto 40px; padding: 0 12px; position: relative; z-index: 3; }
+.lesson-layout { display: grid; grid-template-columns: 1fr; gap: 14px; align-items: start; }
+@media (min-width: 820px) { .lesson-layout { grid-template-columns: minmax(240px, 310px) 1fr; } }
+.lesson-menu { background: #fff; border: 1px solid #e8ecf1; border-radius: 12px; padding: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+@media (min-width: 820px) { .lesson-menu { position: sticky; top: 80px; } }
+.lesson-menu-title { font-size: 11px; font-weight: 900; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 4px 10px; }
+.lesson-tab { width: 100%; text-align: left; border: 1px solid transparent; background: transparent; color: var(--text-main); border-radius: 12px; padding: 12px; cursor: pointer; display: grid; gap: 4px; transition: all 0.2s; -webkit-tap-highlight-color: transparent; }
+.lesson-tab:active { background: #f5f7fb; }
+.lesson-tab.active { background: #111827; color: #fff; box-shadow: 0 10px 24px rgba(17,24,39,0.20); }
+.lesson-kicker { font-size: 10px; font-weight: 800; opacity: 0.68; }
+.lesson-name { font-size: 13px; font-weight: 850; line-height: 1.35; }
+.lesson-meta { font-size: 10px; opacity: 0.68; }
+.lesson-board { background: #fff; border-radius: 14px; border: 1px solid #e8ecf1; box-shadow: 0 2px 8px rgba(0,0,0,0.04); overflow: hidden; }
+.lesson-head { padding: 18px; border-bottom: 1px solid var(--line-soft); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
+.lesson-title { font-size: 19px; font-weight: 900; color: #111827; margin-bottom: 4px; }
+@media (min-width: 820px) { .lesson-title { font-size: 22px; } }
+.lesson-summary { font-size: 12px; color: var(--ink-muted); line-height: 1.6; max-width: 620px; }
+.lesson-chip { background: #fff7e1; color: #8a5d08; border: 1px solid #f3dfad; border-radius: 999px; padding: 6px 10px; font-size: 10px; font-weight: 800; white-space: nowrap; }
+
+.content { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; padding: 0 16px; }
+.controls { display: flex; gap: 10px; justify-content: center; margin: 14px 0; }
+.btn-play, .btn-stop { border-radius: 24px; padding: 10px 20px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; border: none; -webkit-tap-highlight-color: transparent; }
+.btn-play { background: var(--aksa-dark); color: #fff; box-shadow: 0 4px 16px rgba(0,0,0,0.20); }
+.btn-stop { background: #fff; color: #1e1e1e; border: 1px solid #ddd; }
+.dialogue { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 22px; }
+.line { display: flex; gap: 8px; align-items: flex-start; opacity: 0; transform: translateY(18px); transition: opacity 0.44s ease, transform 0.44s ease; }
+.line.visible { opacity: 1; transform: translateY(0); }
+.line.you { flex-direction: row-reverse; }
+.avatar { width: 34px; height: 34px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; margin-top: 20px; box-shadow: var(--shadow-sm); }
+@media (min-width: 600px) { .avatar { width: 38px; height: 38px; font-size: 11px; } }
+.av-h { background: var(--brown-800); color: #f5c98a; }
+.av-j { background: var(--matcha); color: #e0f0d8; }
+.bubble-col { max-width: 82%; display: flex; flex-direction: column; }
+.line.you .bubble-col { align-items: flex-end; }
+.spk { font-size: 9px; font-weight: 700; text-transform: uppercase; margin-bottom: 3px; padding: 0 4px; color: #999; }
+.line:not(.you) .spk { color: #8a6642; }
+.line.you .spk { color: var(--matcha); }
+.bubble { border-radius: 16px; padding: 11px 13px; line-height: 1.6; }
+.line:not(.you) .bubble { background: #fff; border: 1px solid var(--line-soft); border-top-left-radius: 4px; box-shadow: 0 8px 20px rgba(16,24,40,0.05); }
+.line.you .bubble { background: linear-gradient(135deg, #345e3a, #4a7040); border-top-right-radius: 4px; color: #fff; box-shadow: 0 10px 24px rgba(74,112,64,0.22); }
+.en { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+.zh { font-size: 11px; color: rgba(0,0,0,0.5); border-top: 1px solid rgba(0,0,0,0.06); padding-top: 4px; line-height: 1.55; }
+.line.you .zh { color: rgba(255,255,255,0.7); border-color: rgba(255,255,255,0.2); }
+.play-btn { margin-top: 6px; display: inline-flex; align-items: center; gap: 5px; background: none; border: 1px solid #ddd; border-radius: 20px; padding: 3px 10px; font-size: 10px; font-weight: 500; cursor: pointer; color: #555; -webkit-tap-highlight-color: transparent; }
+.line.you .play-btn { border-color: rgba(255,255,255,0.3); color: #fff; }
+.play-btn.playing { background: var(--aksa-dark); border-color: var(--aksa-dark); color: #fff; }
+
+/* Sub pages */
+.sub-header { padding: 48px 16px 24px; text-align: center; background: #fff; border-bottom: 1px solid #eef1f5; margin-bottom: 20px; }
+.pl-icon { font-size: 36px; margin-bottom: 8px; }
+.pl-title { font-size: 22px; font-weight: 850; color: var(--aksa-dark); margin-bottom: 8px; }
+.pl-desc { font-size: 13px; color: var(--text-light); max-width: 760px; margin: 0 auto; line-height: 1.7; padding: 0 8px; }
+
+/* Grammar */
+.grammar-shell { max-width: 1120px; margin: 0 auto 40px; padding: 0 12px; display: grid; gap: 24px; }
+.section-card { background: #fff; border: 1px solid #e8ecf1; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); overflow: hidden; }
+.section-head { padding: 18px 20px 0; display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; flex-wrap: wrap; }
+.section-kicker { font-size: 10px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+.section-title { font-size: 20px; font-weight: 900; color: #111827; margin-bottom: 4px; }
+.section-desc { font-size: 12px; color: var(--ink-muted); line-height: 1.7; max-width: 700px; }
+.section-metric { background: rgba(245,247,250,0.92); color: #344054; border: 1px solid rgba(214,223,235,0.95); border-radius: 999px; padding: 6px 12px; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.grammar-container { padding: 16px 20px 20px; display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 600px) { .grammar-container { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.grammar-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04); display: flex; flex-direction: column; min-height: 100%; border: 1px solid #e8ecf1; }
+.grammar-cover { height: 110px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
+.cover-1 { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); }
+.cover-2 { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+.cover-3 { background: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%); }
+.cover-4 { background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%); }
+.cover-icon { font-size: 28px; margin-bottom: 4px; }
+.cover-title { font-size: 14px; font-weight: bold; letter-spacing: 1px; }
+.grammar-body { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; }
+.g-title { font-size: 16px; font-weight: 850; color: var(--aksa-dark); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+.g-rule-box { background: #f6f8fb; border-left: 4px solid #111827; padding: 10px 11px; border-radius: 10px; margin-bottom: 12px; }
+.g-formula { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-weight: 700; color: #b54708; margin-bottom: 4px; }
+.g-explanation { font-size: 12px; color: var(--text-main); line-height: 1.65; margin-bottom: 12px; }
+.g-examples-title { font-size: 10px; font-weight: 800; color: #98a2b3; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+.g-example-list { list-style: none; padding: 0; display: grid; gap: 8px; margin-top: auto; }
+.g-example-list li { padding: 10px 11px; border: 1px solid #edf0f5; background: rgba(255,255,255,0.96); border-radius: 12px; display: flex; flex-direction: column; gap: 4px; }
+.ex-en { font-size: 13px; font-weight: 600; color: var(--text-main); line-height: 1.4; }
+.ex-zh { font-size: 11px; color: var(--text-light); }
+.ex-audio-btn { align-self: flex-start; background: #eef2f7; border: 1px solid #dde3ec; border-radius: 999px; padding: 5px 10px; font-size: 10px; font-weight: 700; color: #475467; cursor: pointer; margin-top: 3px; display: inline-flex; align-items: center; gap: 4px; -webkit-tap-highlight-color: transparent; }
+.g-tip-toggle { align-self: flex-start; margin-top: 10px; background: #111827; color: #fff; border: none; border-radius: 999px; padding: 6px 11px; font-size: 10px; font-weight: 800; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.g-tip-box { display: none; margin-top: 10px; padding: 10px 11px; border-radius: 12px; background: #fffaf0; border: 1px solid #f6dfae; font-size: 11px; color: #8a5d08; line-height: 1.65; }
+.g-tip-box.active { display: block; }
+
+/* Office Phrases */
+.office-practice-panel { padding: 16px 20px 24px; }
+.office-practice-head { background: #fafbfc; border-radius: 12px; padding: 18px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid #e8ecf1; }
+.office-title { font-size: 18px; font-weight: 900; color: var(--aksa-dark); margin-bottom: 4px; }
+.office-desc { font-size: 12px; color: var(--text-light); line-height: 1.6; }
+.speech-status { display: flex; gap: 6px; flex-wrap: wrap; }
+.status-pill { border-radius: 18px; padding: 6px 10px; font-size: 11px; font-weight: 700; background: #eef2f7; color: #536171; border: 1px solid rgba(214,223,235,0.92); }
+.status-pill.ok { background: #e8f5e9; color: #2e7d32; }
+.status-pill.warn { background: #fff4de; color: #9a6500; }
+.office-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 600px) { .office-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); } }
+.office-card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border: 1px solid #e8ecf1; display: flex; flex-direction: column; gap: 8px; min-height: 170px; }
+.office-en { font-size: 14px; font-weight: 700; color: var(--text-dark); line-height: 1.45; word-break: break-word; overflow-wrap: anywhere; }
+.office-zh { font-size: 11px; color: var(--text-light); line-height: 1.5; }
+.office-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* Pagination */
+.pagination { display: flex; justify-content: center; align-items: center; gap: 12px; margin: 18px auto 36px; flex-wrap: wrap; padding: 0 12px; }
+.page-btn { background: rgba(255,255,255,0.94); border: 1px solid #dde3ec; border-radius: 999px; padding: 8px 16px; font-size: 12px; font-weight: 700; color: var(--text-main); cursor: pointer; box-shadow: 0 6px 14px rgba(15,23,42,0.05); -webkit-tap-highlight-color: transparent; }
+.page-btn:disabled { opacity: 0.4; cursor: default; }
+.page-btn:active:not(:disabled) { background: #f0f2f5; }
+.page-info { font-size: 12px; color: var(--text-light); font-weight: 700; }
+
+/* Word Grid */
+.word-grid { display: grid; grid-template-columns: 1fr; gap: 12px; max-width: 1120px; margin: 0 auto; padding: 0 12px 16px; }
+@media (min-width: 600px) { .word-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .word-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); } }
+.word-controls { display: flex; justify-content: center; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; padding: 0 12px; }
+.cat-btn { background: rgba(255,255,255,0.92); border: 1px solid #dde3ec; padding: 8px 14px; border-radius: 999px; font-size: 12px; font-weight: 700; cursor: pointer; color: var(--text-main); transition: all 0.2s; box-shadow: 0 6px 14px rgba(15,23,42,0.05); -webkit-tap-highlight-color: transparent; white-space: nowrap; }
+.cat-btn.active { background: var(--aksa-dark); color: #fff; border-color: var(--aksa-dark); }
+.search-bar { padding: 8px 14px; border-radius: 999px; border: 1px solid #dde3ec; width: 100%; max-width: 100%; font-size: 13px; outline: none; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.04); -webkit-appearance: none; }
+@media (min-width: 500px) { .search-bar { max-width: 260px; } }
+.word-card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border: 1px solid #e8ecf1; display: flex; flex-direction: column; position: relative; overflow: hidden; min-height: 170px; }
+.word-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--aksa-dark); }
+@media (min-width: 769px) { .word-card:hover { transform: translateY(-3px); } }
+.word-header-row { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; flex-wrap: wrap; gap: 8px; }
+.word-info { flex: 1; padding-right: 8px; min-width: 0; }
+.word-title { font-size: 15px; font-weight: 800; color: var(--text-dark); margin-bottom: 4px; word-break: break-word; overflow-wrap: anywhere; }
+.word-ipa { font-size: 11px; color: #4f46e5; font-weight: 700; margin-bottom: 5px; word-break: break-all; }
+.word-zh { font-size: 12px; color: var(--text-light); display: flex; align-items: center; flex-wrap: wrap; gap: 4px; line-height: 1.55; }
+.pinyin-txt { color: #94a3b8; font-size: 10px; font-style: italic; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.5px; }
+.word-actions { display: flex; flex-direction: row; gap: 6px; align-items: center; flex-shrink: 0; }
+@media (max-width: 400px) { .word-actions { width: 100%; justify-content: flex-start; } }
+.btn-listen-simple, .btn-listen { background: #eef2f7; border: 1px solid #dde3ec; border-radius: 999px; padding: 7px 12px; font-size: 11px; font-weight: 700; cursor: pointer; color: #344054; display: flex; align-items: center; gap: 4px; -webkit-tap-highlight-color: transparent; white-space: nowrap; }
+.btn-listen { padding: 5px 10px; }
+.btn-speak { background: linear-gradient(135deg, #111827, #374151); color: #fff; border: none; border-radius: 999px; padding: 6px 10px; font-size: 11px; font-weight: 700; cursor: pointer; box-shadow: 0 8px 14px rgba(17,24,39,0.18); display: flex; align-items: center; gap: 4px; -webkit-tap-highlight-color: transparent; white-space: nowrap; }
+
+/* Voice Memo */
+.eval-result { display: none; font-size: 11px; font-weight: 600; padding: 6px 8px; border-radius: 6px; margin-top: 10px; width: 100%; text-align: center; }
+.eval-result.success { display: block; background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+.eval-result.error { display: block; background: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
+.voice-memo-panel { display: none; background: #1c1c1e; color: #fff; border-radius: 10px; padding: 12px; margin-top: 12px; align-items: center; justify-content: space-between; box-shadow: inset 0 2px 10px rgba(0,0,0,0.5); flex-wrap: wrap; gap: 8px; }
+.memo-left { display: flex; flex-direction: column; align-items: flex-start; }
+.memo-timer { font-family: monospace; font-size: 15px; font-weight: bold; color: #fff; letter-spacing: 1px; margin-bottom: 4px; }
+.memo-status { font-size: 10px; color: #ff453a; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; display: flex; align-items: center; gap: 4px; }
+.status-dot { width: 6px; height: 6px; background: #ff453a; border-radius: 50%; animation: blink 1s infinite; }
+.waveform { display: flex; align-items: center; gap: 2px; height: 26px; }
+.wave-bar { width: 3px; background: #ff453a; border-radius: 2px; height: 4px; transition: height 0.1s ease; }
+.voice-memo-panel.active .wave-bar { animation: waveAnim 0.6s infinite alternate ease-in-out; }
+.voice-memo-panel.paused .wave-bar { animation: none !important; height: 4px !important; background: #888; }
+.voice-memo-panel.paused .status-dot { animation: none; background: #888; }
+.voice-memo-panel.paused .memo-status { color: #888; }
+.memo-controls { display: flex; gap: 8px; }
+.ctrl-btn { width: 34px; height: 34px; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; cursor: pointer; font-size: 14px; -webkit-tap-highlight-color: transparent; }
+.btn-pause { background: #333; color: #fff; }
+.btn-done { background: #fff; color: #000; }
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+@keyframes waveAnim { 0% { height: 4px; } 100% { height: 24px; } }
+.wave-bar:nth-child(1) { animation-delay: 0.0s; } .wave-bar:nth-child(2) { animation-delay: 0.1s; }
+.wave-bar:nth-child(3) { animation-delay: 0.2s; } .wave-bar:nth-child(4) { animation-delay: 0.3s; }
+.wave-bar:nth-child(5) { animation-delay: 0.4s; } .wave-bar:nth-child(6) { animation-delay: 0.5s; }
+.wave-bar:nth-child(7) { animation-delay: 0.6s; }
+
+/* Topics */
+.topic-grid { display: grid; grid-template-columns: 1fr; gap: 14px; padding-bottom: 32px; }
+@media (min-width: 600px) { .topic-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .topic-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); } }
+.topic-card { background: #fff; border: 1px solid #e8ecf1; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); overflow: hidden; display: flex; flex-direction: column; min-height: 220px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.topic-card:active { transform: scale(0.98); }
+.topic-top { padding: 14px 16px 12px; border-bottom: 1px solid var(--line-soft); background: #fafbfc; }
+.topic-label { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; padding: 4px 8px; font-size: 10px; font-weight: 800; color: #475467; background: #eef2f7; margin-bottom: 10px; }
+.topic-label.festival { background: #fff1f3; color: #b42318; }
+.topic-label.news { background: #ecfdf3; color: #027a48; }
+.topic-card-title { font-size: 15px; font-weight: 900; color: #101828; line-height: 1.35; margin-bottom: 6px; }
+.topic-date { font-size: 11px; font-weight: 750; color: var(--gold); }
+.topic-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.topic-summary { font-size: 12px; color: var(--ink-muted); line-height: 1.65; }
+.topic-vocab { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.topic-vocab span { font-size: 10px; font-weight: 750; color: #344054; background: #f2f4f7; border-radius: 999px; padding: 5px 8px; }
+.topic-detail { display: none; background: #fff; border: 1px solid #e8ecf1; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 16px; overflow: hidden; }
+.topic-detail.active { display: block; }
+.topic-detail-head { padding: 18px 20px 14px; background: #fafbfc; border-bottom: 1px solid var(--line-soft); display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+.topic-detail-title { font-size: 20px; font-weight: 900; color: #111827; margin-bottom: 4px; }
+.topic-detail-sub { font-size: 13px; color: var(--ink-muted); line-height: 1.7; max-width: 760px; }
+.topic-detail-body { padding: 18px 20px 22px; display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 900px) { .topic-detail-body { grid-template-columns: minmax(0, 1.55fr) minmax(260px, 0.95fr); } }
+.topic-article { display: grid; gap: 12px; }
+.topic-section-title { font-size: 11px; font-weight: 850; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; }
+.topic-paragraph { font-size: 13px; line-height: 1.8; color: #344054; }
+.topic-sidebar { display: grid; gap: 14px; align-content: start; }
+.topic-panel { background: #f8fafc; border: 1px solid #e8edf5; border-radius: 14px; padding: 14px; }
+.topic-panel h4 { font-size: 12px; font-weight: 850; color: #111827; margin-bottom: 8px; }
+.topic-word-list, .topic-question-list { display: grid; gap: 7px; }
+.topic-word-item { display: grid; gap: 2px; padding: 8px 10px; background: rgba(255,255,255,0.92); border: 1px solid #e7ecf4; border-radius: 10px; }
+.topic-word-en { font-size: 11px; font-weight: 800; color: #111827; }
+.topic-word-zh { font-size: 11px; color: #667085; }
+.topic-question-item { font-size: 12px; line-height: 1.6; color: #344054; padding: 8px 10px; background: rgba(255,255,255,0.92); border: 1px solid #e7ecf4; border-radius: 10px; }
+.topic-answer { display: none; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e5e7eb; font-size: 11px; color: #667085; }
+.topic-answer.open { display: block; }
+.topic-answer-btn { margin-top: 6px; background: #eef2f7; border: 1px solid #dde3ec; border-radius: 999px; padding: 5px 8px; font-size: 10px; font-weight: 800; color: #475467; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.topic-close { background: rgba(255,255,255,0.94); border: 1px solid #dbe3ee; border-radius: 999px; padding: 7px 12px; font-size: 11px; font-weight: 800; cursor: pointer; color: #344054; -webkit-tap-highlight-color: transparent; }
+
+/* AI */
+/* AI section removed */
+
+footer { position: relative; width: 100%; text-align: center; padding: 32px 16px 16px; font-size: 11px; color: #a0aab5; }
+
+/* Mobile: horizontal scroll lesson menu */
+@media (max-width: 819px) {
+  .lesson-menu { display: flex; overflow-x: auto; gap: 6px; padding: 8px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; border-radius: 14px; }
+  .lesson-menu-title { display: none; }
+  .lesson-tab { flex: 0 0 auto; min-width: 130px; scroll-snap-align: start; white-space: nowrap; padding: 10px 14px; }
+}
+
+/* Ad block */
+a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[style*="z-index: 2147483647"] { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; width: 0 !important; }
+</style>
+</head>
+<body>
+
+<div id="login-modal" class="modal-overlay">
+  <div class="modal-card">
+    <div class="home-logo-bw" style="margin-bottom:16px;transform:scale(0.8)">
+      <div class="logo-container-bw"><div class="logo-aksa-text">aksa</div><div class="logo-pg-text">POWER<br>GENERATION</div></div>
+    </div>
+    <h2 class="modal-title">Welcome to English Hub</h2>
+    <p class="modal-desc">Please set up your profile to track your progress locally on this device.</p>
+    <div class="input-group"><label>Your Name</label><input type="text" id="input-name" placeholder="e.g. Jason Bo" required autocomplete="name"></div>
+    <div class="input-group"><label>Department / Position</label><input type="text" id="input-dept" placeholder="e.g. Domestic Sales" required autocomplete="organization"></div>
+    <button class="btn-submit" onclick="saveProfile()">Start Learning</button>
+  </div>
+</div>
+
+<button class="back-btn" id="backBtn" onclick="openView('view-home')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> Back</button>
+
+
+<nav class="bottom-nav" id="bottomNav">
+  <button class="bottom-nav-btn active" data-view="view-home" onclick="openView('view-home')"><span class="nav-icon">🏠</span><span class="nav-label">Home</span></button>
+  <button class="bottom-nav-btn" data-view="view-dialogue" onclick="openView('view-dialogue')"><span class="nav-icon">💬</span><span class="nav-label">Dialogue</span></button>
+  <button class="bottom-nav-btn" data-view="view-pronunciation" onclick="openView('view-pronunciation')"><span class="nav-icon">🎙️</span><span class="nav-label">Pronounce</span></button>
+  <button class="bottom-nav-btn" data-view="view-grammar" onclick="openView('view-grammar')"><span class="nav-icon">📝</span><span class="nav-label">Grammar</span></button>
+  <button class="bottom-nav-btn" data-view="view-weekly" onclick="openView('view-weekly')"><span class="nav-icon">🌐</span><span class="nav-label">Topics</span></button>
+</nav>
+
+<div id="view-home" class="page-view active">
+  <div class="profile-btn" id="home-avatar-btn" onclick="openView('view-dashboard')">?</div>
+  <div class="home-hero-bg">
+    <div class="home-logo-bw"><div class="logo-container-bw"><div class="logo-aksa-text">aksa</div><div class="logo-pg-text">POWER<br>GENERATION</div></div></div>
+    <div class="home-badge">April - June 2026</div>
+    <h1 class="home-title">AKSA ENGLISH HUB</h1>
+    <div class="home-slogan">Power Your English · Power Our Future</div>
+  </div>
+  <div class="module-grid">
+    <div class="module-card" onclick="openView('view-dialogue')"><div class="mc-icon">☕</div><div class="mc-title">1. Daily Dialogue</div><div class="mc-desc">A lesson-style conversation library with clickable contents, current office themes and practical bilingual lines.</div><div class="mc-footer"><span style="color:#999">Module 01</span><span class="tag-ready">Ready</span></div></div>
+    <div class="module-card" onclick="openView('view-pronunciation')"><div class="mc-icon">🎙️</div><div class="mc-title">2. Pronunciation AI</div><div class="mc-desc">AI-driven Voice Memo testing. Features Bilingual Audio & Real-time Scoring.</div><div class="mc-footer"><span style="color:#999">Module 02</span><span class="tag-ai">Interactive</span></div></div>
+    <div class="module-card" onclick="openView('view-grammar')"><div class="mc-icon">✏️</div><div class="mc-title">3. Grammar Clinic</div><div class="mc-desc">Essential email templates and professional etiquette for engineers and sales.</div><div class="mc-footer"><span style="color:#999">Module 03</span><span class="tag-ready">Reference</span></div></div>
+    <div class="module-card" onclick="openView('view-weekly')"><div class="mc-icon">🌸</div><div class="mc-title">4. Weekly Topics</div><div class="mc-desc">Recent workplace news and Chinese festival topics for warm-up discussions, meetings and English Corner sharing.</div><div class="mc-footer"><span style="color:#999">Module 04</span><span class="tag-spring">Updated</span></div></div>
+  </div>
+  <footer>&copy; 2026 AKSA Power Generation &nbsp;·&nbsp; Developed by Jason Bo</footer>
+</div>
+
+<div id="view-dashboard" class="page-view">
+  <div class="dash-header">
+    <div class="user-avatar-lg" id="dash-avatar-lg">?</div>
+    <div class="user-name" id="dash-name">Guest User</div>
+    <div class="user-dept" id="dash-dept" style="margin-bottom:12px">AKSA Employee</div>
+    <button class="btn-reset-profile" onclick="resetProfile()">🔄 Switch Account</button>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-val" id="dash-streak">0</div><div class="stat-label">🔥 Days Streak</div></div>
+    <div class="stat-card"><div class="stat-val" id="dash-words">0</div><div class="stat-label">🎙️ Words Practiced</div></div>
+    <div class="stat-card"><div class="stat-val" id="dash-score">0</div><div class="stat-label">🎯 Avg Score</div></div>
+  </div>
+  <div class="dash-content">
+    <div class="progress-card">
+      <div class="progress-header"><span>Weekly Target</span><span id="dash-pct">0%</span></div>
+      <div class="progress-bar-bg"><div class="progress-bar-fill" id="dash-bar"></div></div>
+      <div class="progress-desc" style="margin-top:8px">Practice <span id="dash-remain">50</span> more words to hit goal.</div>
+    </div>
+    <button class="btn-checkin" id="btn-checkin" onclick="handleCheckIn()">✅ Daily Check-in</button>
+    <button class="btn-export" onclick="exportReport()">📤 Export Learning Report</button>
+    <div id="report-toast" style="display:none; margin-top:12px; padding:12px; background:#e8f5e9; color:#2e7d32; border-radius:10px; text-align:center; font-weight:700; font-size:13px;"></div>
+  </div>
+</div>
+
+<div id="view-dialogue" class="page-view">
+  <div class="hero"><div class="hero-inner"><h1>Conversation <em>Library</em></h1><p class="hero-sub">Workplace dialogues adapted from current office topics. Choose a lesson, then click any line to hear it in British English.</p><div class="time-chip" id="dialogueHeroMeta">AKSA English Corner · Office English</div></div></div>
+  <div class="lesson-shell"><div class="lesson-layout"><div class="lesson-menu"><div class="lesson-menu-title">Textbook Contents</div><div id="lessonMenu"></div></div><div class="lesson-board"><div class="lesson-head"><div><div class="lesson-title" id="lessonTitle">Lesson</div><div class="lesson-summary" id="lessonSummary"></div></div><div class="lesson-chip" id="lessonSource">Office Topic</div></div><div class="controls"><button class="btn-play" onclick="playAll()">▶ Play All</button><button class="btn-stop" onclick="stopAll()">■ Stop</button></div><div class="dialogue" id="dialogue"></div></div></div></div>
+</div>
+
+<div id="view-pronunciation" class="page-view">
+  <div class="sub-header"><div class="pl-icon">🎙️</div><h2 class="pl-title">Pronunciation Assessment</h2><p class="pl-desc">Each card includes the English term, IPA, Chinese meaning and pinyin. Click "Listen" for audio, then "Speak" to test your own pronunciation.</p></div>
+  <div class="word-controls"><button class="cat-btn active" id="btn-cat-tech" onclick="switchCategory('tech')">AKSA Technical (300)</button><button class="cat-btn" id="btn-cat-daily" onclick="switchCategory('daily')">Daily Life & Office (1000)</button><input type="text" class="search-bar" id="wordSearch" placeholder="Search words..." oninput="handleSearch()"></div>
+  <div class="word-grid" id="wordGrid"></div>
+  <div id="paginationContainer"></div>
+  <footer>&copy; 2026 AKSA Power Generation &nbsp;·&nbsp; Developed by Jason Bo</footer>
+</div>
+
+<div id="view-grammar" class="page-view">
+  <div class="sub-header"><div class="pl-icon">✏️</div><h2 class="pl-title">Grammar Clinic</h2><p class="pl-desc">Two study zones: office grammar reference and a Daily Office Speaking library for repeated listening and speaking practice.</p></div>
+  <div class="grammar-shell">
+    <section class="section-card"><div class="section-head"><div><div class="section-kicker">Grammar Reference</div><div class="section-title">Office Grammar Essentials</div><div class="section-desc">Clear examples for email writing, meeting updates, customer replies, time expressions and professional tone.</div></div><div class="section-metric" id="grammarMetric">12 grammar cards</div></div><div class="grammar-container" id="grammarGrid"></div></section>
+    <section class="section-card"><div class="office-practice-panel"><div class="office-practice-head"><div><div class="section-kicker">Speaking Bank</div><div class="office-title">Daily Office Speaking 1000</div><div class="office-desc">A larger sentence bank for greetings, meetings, approvals, deadlines, logistics, customer service and internal communication.</div></div><div class="section-metric" id="officeMetric">1000 speaking lines</div></div><div class="speech-status" id="speechStatus"><span class="status-pill" id="ttsStatus">TTS checking</span><span class="status-pill" id="recStatus">Mic checking</span></div><div id="officePhraseGrid" class="office-grid"></div><div id="officePagination"></div></div></section>
+  </div>
+</div>
+
+<div id="view-weekly" class="page-view">
+  <div class="sub-header"><div class="pl-icon">🌐</div><h2 class="pl-title">Culture Exchange Topics</h2><p class="pl-desc">Recent workplace news and China festival topics for small talk, meetings and English Corner sharing.</p></div>
+  <div class="content" style="max-width:1000px"><div class="topic-detail" id="topicDetail"></div><div class="topic-grid" id="topicGrid"></div></div>
+</div>
+
+
+<script>
+// ================= USER DATA =================
+let userData = { name: "", dept: "", streak: 0, wordsPracticed: 0, avgScore: 0, lastCheckInDate: null };
+
+function checkOnboarding() {
+  const stored = localStorage.getItem('aksa_user_data');
+  if (stored) { userData = JSON.parse(stored); updateDashboardUI(); }
+  else { document.getElementById('login-modal').style.display = 'flex'; }
+}
+
+function resetProfile() {
+  if (confirm("Are you sure you want to reset your account?")) { localStorage.removeItem('aksa_user_data'); location.reload(); }
+}
+
+function saveProfile() {
+  const nameVal = document.getElementById('input-name').value.trim();
+  const deptVal = document.getElementById('input-dept').value.trim();
+  if (!nameVal || !deptVal) { alert("Please enter your name and department."); return; }
+  userData.name = nameVal; userData.dept = deptVal;
+  localStorage.setItem('aksa_user_data', JSON.stringify(userData));
+  document.getElementById('login-modal').style.display = 'none';
+  updateDashboardUI();
+}
+
+function getInitials(name) {
+  if (!name) return "?";
+  return name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
+}
+
+function updateDashboardUI() {
+  document.getElementById('home-avatar-btn').innerText = getInitials(userData.name);
+  document.getElementById('dash-avatar-lg').innerText = getInitials(userData.name);
+  document.getElementById('dash-name').innerText = userData.name || 'Guest User';
+  document.getElementById('dash-dept').innerText = userData.dept || 'AKSA Employee';
+  document.getElementById('dash-streak').innerText = userData.streak;
+  document.getElementById('dash-words').innerText = userData.wordsPracticed;
+  document.getElementById('dash-score').innerText = userData.avgScore || '--';
+  let target = 50;
+  let pct = Math.min(Math.round((userData.wordsPracticed / target) * 100), 100);
+  document.getElementById('dash-pct').innerText = pct + '%';
+  document.getElementById('dash-bar').style.width = pct + '%';
+  document.getElementById('dash-remain').innerText = Math.max(target - userData.wordsPracticed, 0);
+  const btn = document.getElementById('btn-checkin');
+  const today = new Date().toDateString();
+  if (userData.lastCheckInDate === today) { btn.innerHTML = "🎉 Checked-in Today"; btn.classList.add('done'); }
+  else { btn.innerHTML = "✅ Daily Check-in"; btn.classList.remove('done'); }
+}
+
+function handleCheckIn() {
+  const today = new Date().toDateString();
+  if (userData.lastCheckInDate !== today) {
+    userData.streak += 1; userData.lastCheckInDate = today;
+    localStorage.setItem('aksa_user_data', JSON.stringify(userData));
+    updateDashboardUI();
+    alert("✅ Check-in Successful!");
+  }
+}
+
+function recordWordPractice(isPerfect) {
+  userData.wordsPracticed += 1;
+  var currentTotalScore = userData.avgScore * (userData.wordsPracticed - 1);
+  var newScore = isPerfect ? 100 : 70;
+  userData.avgScore = Math.round((currentTotalScore + newScore) / userData.wordsPracticed);
+  localStorage.setItem('aksa_user_data', JSON.stringify(userData));
+}
+
+function exportReport() {
+  if (!userData.name) { alert('Please set up your profile first.'); return; }
+  var now = new Date();
+  var dateStr = now.getFullYear() + '-' +
+    String(now.getMonth() + 1).padStart(2, '0') + '-' +
+    String(now.getDate()).padStart(2, '0') + ' ' +
+    String(now.getHours()).padStart(2, '0') + ':' +
+    String(now.getMinutes()).padStart(2, '0');
+
+  var report = [
+    '═══════════════════════',
+    '  AKSA ENGLISH HUB',
+    '  Learning Report',
+    '═══════════════════════',
+    '',
+    'Name:       ' + userData.name,
+    'Department: ' + userData.dept,
+    'Export Date: ' + dateStr,
+    '',
+    '─── Progress ───',
+    '🔥 Day Streak:      ' + userData.streak,
+    '🎙️ Words Practiced: ' + userData.wordsPracticed,
+    '🎯 Average Score:   ' + (userData.avgScore || '--') + '%',
+    '📅 Last Check-in:   ' + (userData.lastCheckInDate || 'Never'),
+    '',
+    '───────────────────────',
+    'Generated by AKSA English Hub',
+    'aksa-english-hub'
+  ].join('\n');
+
+  // Try mobile share sheet (WeChat, email, etc.)
+  if (navigator.share && navigator.canShare) {
+    var shareData = {
+      title: 'AKSA English Hub - ' + userData.name + ' Learning Report',
+      text: report
+    };
+    if (navigator.canShare(shareData)) {
+      navigator.share(shareData).catch(function() {
+        fallbackCopy(report);
+      });
+      return;
+    }
+  }
+  fallbackCopy(report);
+}
+
+function fallbackCopy(text) {
+  // Copy to clipboard
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function() {
+      showToast('✅ Report copied! You can now paste it into WeChat or email.');
+    }).catch(function() {
+      showTextArea(text);
+    });
+  } else {
+    showTextArea(text);
+  }
+}
+
+function showTextArea(text) {
+  var toast = document.getElementById('report-toast');
+  if (!toast) return;
+  toast.style.display = 'block';
+  toast.style.background = '#fff';
+  toast.style.color = '#333';
+  toast.style.border = '1px solid #ddd';
+  toast.style.whiteSpace = 'pre-wrap';
+  toast.style.textAlign = 'left';
+  toast.style.fontFamily = 'monospace';
+  toast.style.fontSize = '12px';
+  toast.innerHTML = '<b style="font-size:13px;">📋 Select & Copy below, then send to admin:</b><br><br>' + escapeHtml(text);
+  toast.scrollIntoView({ behavior: 'smooth' });
+}
+
+function showToast(msg) {
+  var toast = document.getElementById('report-toast');
+  if (!toast) return;
+  toast.style.display = 'block';
+  toast.style.background = '#e8f5e9';
+  toast.style.color = '#2e7d32';
+  toast.style.border = 'none';
+  toast.style.whiteSpace = 'normal';
+  toast.style.textAlign = 'center';
+  toast.style.fontFamily = 'inherit';
+  toast.style.fontSize = '13px';
+  toast.innerText = msg;
+  setTimeout(function() {
+    if (toast) toast.style.display = 'none';
+  }, 4000);
+}
+
+function updateBottomNav(viewId) {
+  document.querySelectorAll('.bottom-nav-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.view === viewId);
+  });
+}
+
+function openView(viewId) {
+  if (viewId !== 'view-dialogue') stopAll();
+  document.querySelectorAll('.page-view').forEach(v => v.classList.remove('active'));
+  document.getElementById(viewId).classList.add('active');
+  updateBottomNav(viewId);
+  var backBtn = document.getElementById('backBtn');
+  if (viewId === 'view-home') {
+    backBtn.style.display = 'none';
+    updateDashboardUI();
+  } else {
+    backBtn.style.display = 'flex';
+    backBtn.classList.add('light-mode');
+    if (viewId === 'view-dialogue') {
+      backBtn.classList.remove('light-mode');
+      document.querySelectorAll('.line').forEach(function(el, i) {
+        el.classList.remove('visible');
+        setTimeout(function() { el.classList.add('visible'); }, 70 + i * 55);
+      });
+    }
+    if (viewId === 'view-dashboard') updateDashboardUI();
+  }
+  window.scrollTo(0, 0);
+}
+
+// ================= DIALOGUE DATA =================
+const conversationLessons = [
+  { title: "Pantry Small Talk", tag: "Warm-up", meta: "Friday · 8:30 AM · Pantry", source: "Office Life", summary: "A light conversation about sleep, coding and the canteen. Good for daily greetings and casual humour.", lines: [["H","Morning, Jason. How did you sleep?","早上好，Jason。昨晚睡得怎么样？"],["ME","Morning! Honestly, not great. I was coding until two in the morning.","早上好！说实话，不太好。我敲代码敲到凌晨两点。"],["H","Two in the morning? Was it at least for something useful?","凌晨两点？至少是为了有用的事吧？"],["ME","Yes, I was finishing the web tool for the English Corner.","是的，我在完善英语角的网页工具。"],["H","Excellent work. By the way, did you try the canteen lunch yesterday?","干得不错。对了，你昨天去食堂吃午饭了吗？"],["ME","Yes, I did. It was awful, but at least the soup was warm.","吃了。味道不太行，但至少汤是热的。"]] },
+  { title: "AI Meeting Notes", tag: "News Talk", meta: "Monday · 9:10 AM · Meeting Room", source: "AI at Work", summary: "Inspired by current workplace discussions about AI assistants, meeting summaries and responsible review.", lines: [["H","Did you see the news about companies using AI to summarise meetings?","你看到公司用 AI 总结会议的新闻了吗？"],["ME","Yes. It sounds useful, especially when the meeting has too many action items.","看到了。听起来很实用，尤其是会议行动项太多的时候。"],["H","True, but we still need a person to check the final notes.","没错，但最终纪要还是需要人来检查。"],["ME","Absolutely. AI can draft the summary, but we should confirm the decisions ourselves.","当然。AI 可以起草总结，但决定内容我们要自己确认。"],["H","Let's try it for the weekly sales meeting and compare the result.","那我们在每周销售会上试一下，再对比结果。"],["ME","Good idea. I will prepare a short template for action items.","好主意。我会准备一个行动项简短模板。"]] },
+  { title: "Return-to-Office Update", tag: "News Talk", meta: "Tuesday · 10:00 AM · Open Office", source: "Workplace Policy", summary: "A practical conversation about hybrid work, office attendance and team coordination.", lines: [["H","Some global companies are asking people to come back to the office more often.","一些全球公司正在要求员工更频繁地回办公室上班。"],["ME","I can understand why. It is easier to solve urgent problems face to face.","我能理解。紧急问题面对面更容易解决。"],["H","Yes, but people also value flexibility after getting used to hybrid work.","是的，但习惯混合办公后，大家也很重视灵活性。"],["ME","Maybe the best answer is to set clear office days for team tasks.","也许最好的办法是为团队任务设定明确的到岗日。"],["H","Exactly. We should use office time for collaboration, not just sitting at a desk.","正是。办公室时间应该用于协作，而不是只坐在工位上。"],["ME","I will suggest that in our department meeting.","我会在部门会议上提这个建议。"]] },
+  { title: "Before Qingming Festival", tag: "Festival", meta: "April · Before Holiday · Reception", source: "China Holiday", summary: "A short dialogue for explaining Qingming Festival and making polite holiday arrangements.", lines: [["H","I noticed Qingming Festival is coming. What do people usually do?","我注意到清明节快到了。人们通常会做什么？"],["ME","Many families visit ancestors' graves and spend time outdoors in spring.","很多家庭会扫墓祭祖，也会在春天踏青。"],["H","That sounds meaningful. Will the office schedule change?","听起来很有意义。办公室日程会有变化吗？"],["ME","Yes, we should confirm urgent tasks before the holiday starts.","会的，我们应该在假期开始前确认紧急任务。"],["H","Please send a reminder to the team this afternoon.","请今天下午给团队发个提醒。"],["ME","Sure. I will include the holiday dates and contact window.","好的。我会写上放假日期和联系时间。"]] },
+  { title: "Dragon Boat Gifts", tag: "Festival", meta: "June · Customer Visit · Sales Office", source: "China Holiday", summary: "A customer-service dialogue about Dragon Boat Festival culture, gifts and delivery timing.", lines: [["H","Our customer asked why people give rice dumplings in June.","客户问为什么六月大家会送粽子。"],["ME","It is connected with the Dragon Boat Festival, one of China's traditional holidays.","这和端午节有关，端午是中国传统节日之一。"],["H","Should we mention it in the greeting email?","我们要在问候邮件里提一下吗？"],["ME","Yes. A short greeting will sound warm and professional.","可以。简短问候会显得亲切又专业。"],["H","Please also check whether deliveries may be delayed around the holiday.","也请确认假期前后发货是否会延迟。"],["ME","No problem. I will ask logistics and update the customer today.","没问题。我会问物流，并在今天回复客户。"]] },
+  { title: "Labour Day Planning", tag: "Festival", meta: "May · 4:20 PM · Admin Desk", source: "China Holiday", summary: "A workplace conversation about Labour Day travel, handover notes and emergency contacts.", lines: [["H","Labour Day is usually a busy travel period in China, right?","劳动节通常是中国很忙的出行高峰，对吗？"],["ME","Yes. Many people travel, so tickets and hotels can be difficult to book.","对。很多人会出行，所以票和酒店可能不好订。"],["H","Then we should finish the handover list early.","那我们应该早点完成交接清单。"],["ME","Agreed. I will mark the urgent orders and backup contacts.","同意。我会标出紧急订单和备用联系人。"],["H","Good. Let's make sure customers know who to call during the break.","很好。确保客户知道假期期间该联系谁。"],["ME","I will send the notice before Wednesday afternoon.","我会在周三下午前发出通知。"]] }
+];
+
+let activeLessonIndex = 0;
+
+function renderDialogueLibrary() {
+  const menu = document.getElementById('lessonMenu');
+  if (!menu) return;
+  menu.innerHTML = conversationLessons.map((lesson, idx) =>
+    '<button class="lesson-tab' + (idx === activeLessonIndex ? ' active' : '') + '" onclick="renderDialogueLesson(' + idx + ')"><span class="lesson-kicker">Lesson ' + (idx + 1) + ' · ' + escapeHtml(lesson.tag) + '</span><span class="lesson-name">' + escapeHtml(lesson.title) + '</span><span class="lesson-meta">' + escapeHtml(lesson.meta) + '</span></button>'
+  ).join('');
+  renderDialogueLesson(activeLessonIndex, true);
+}
+
+function renderDialogueLesson(idx, keepScroll) {
+  activeLessonIndex = idx; stopAll();
+  const lesson = conversationLessons[idx];
+  const title = document.getElementById('lessonTitle');
+  const summary = document.getElementById('lessonSummary');
+  const source = document.getElementById('lessonSource');
+  const meta = document.getElementById('dialogueHeroMeta');
+  const dialogue = document.getElementById('dialogue');
+  if (!lesson || !dialogue) return;
+  document.querySelectorAll('.lesson-tab').forEach((btn, i) => btn.classList.toggle('active', i === idx));
+  if (title) title.innerText = "Lesson " + (idx + 1) + ": " + lesson.title;
+  if (summary) summary.innerText = lesson.summary;
+  if (source) source.innerText = lesson.source;
+  if (meta) meta.innerText = lesson.meta;
+  dialogue.innerHTML = lesson.lines.map((line, i) => {
+    const isMe = line[0] === 'ME';
+    const avatar = isMe ? 'ME' : line[0];
+    return '<div class="line' + (isMe ? ' you' : '') + '" data-i="' + i + '"><div class="avatar ' + (isMe ? 'av-j' : 'av-h') + '">' + escapeHtml(avatar) + '</div><div class="bubble-col"><div class="spk">' + (isMe ? 'You' : 'Partner') + '</div><div class="bubble"><div class="en">' + escapeHtml(line[1]) + '</div><div class="zh">' + escapeHtml(line[2]) + '</div><button class="play-btn" onclick="playLine(' + i + ')">Listen</button></div></div></div>';
+  }).join('');
+  document.querySelectorAll('.line').forEach(function(el, i) {
+    el.classList.remove('visible');
+    setTimeout(function() { el.classList.add('visible'); }, 70 + i * 55);
+  });
+  if (!keepScroll) document.querySelector('.lesson-board').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ================= TTS ENGINE (iOS/Android compatible) =================
+var synth = window.speechSynthesis;
+var systemVoices = [];
+var currentIdx = -1, isPlayAll = false;
+var ttsTimer = null; // safety timeout for iOS Safari
+
+// Force-load voices — critical for Chrome/Edge which load voices async
+function loadVoices() {
+  systemVoices = synth.getVoices();
+  if (systemVoices.length === 0) {
+    // Chrome sometimes needs a kick: speak a silent utterance
+    var dummy = new SpeechSynthesisUtterance('');
+    dummy.volume = 0;
+    dummy.rate = 2;
+    synth.speak(dummy);
+    setTimeout(function() { systemVoices = synth.getVoices(); }, 50);
+  }
+}
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+// Also try immediate load (works on Safari/Firefox)
+setTimeout(loadVoices, 100);
+setTimeout(loadVoices, 500);
+
+function getBestMaleVoice() {
+  var voices = synth.getVoices();
+  if (voices.length === 0) return null;
+  // Priority: British male > US male > any English
+  var best = voices.find(function(v) {
+    return v.lang === 'en-GB' && /Daniel|Arthur|Oliver|Male/i.test(v.name);
+  });
+  if (best) return best;
+  best = voices.find(function(v) {
+    return (v.lang === 'en-US' || v.lang === 'en-GB') && /Samantha|Siri|Karen|Google|Male/i.test(v.name);
+  });
+  if (best) return best;
+  return voices.find(function(v) { return v.lang.startsWith('en'); }) || voices[0];
+}
+
+function getChineseVoice() {
+  var voices = synth.getVoices();
+  if (voices.length === 0) return null;
+  // Priority: zh-CN > zh-TW > zh-HK > any zh > fallback to first voice
+  var best = voices.find(function(v) { return v.lang === 'zh-CN'; });
+  if (best) return best;
+  best = voices.find(function(v) { return v.lang.startsWith('zh'); });
+  if (best) return best;
+  // No Chinese voice — use a female English voice as least-bad fallback
+  return voices.find(function(v) { return v.lang.startsWith('en') && /female|woman|samantha/i.test(v.name); }) || voices[0];
+}
+
+// Safety: reset TTS state after timeout (fixes iOS Safari stuck "Playing..." bug)
+function resetTtsBtn(btn, origText) {
+  if (btn) btn.innerHTML = origText;
+}
+function clearTtsTimer() {
+  if (ttsTimer) { clearTimeout(ttsTimer); ttsTimer = null; }
+}
+
+function speakSingleWord(word, btnEl) {
+  if (!synth) return;
+  synth.cancel();
+  loadVoices();
+  var u = new SpeechSynthesisUtterance(word);
+  u.lang = 'en-GB';
+  u.rate = 0.85;
+  u.volume = 1;
+  var v = getBestMaleVoice();
+  if (v) u.voice = v;
+  // Visual feedback if button element provided
+  if (btnEl) {
+    var origText = btnEl.innerHTML;
+    btnEl.innerHTML = '🔊 ...';
+    clearTtsTimer();
+    u.onend = u.onerror = function() { btnEl.innerHTML = origText; };
+    ttsTimer = setTimeout(function() { btnEl.innerHTML = origText; }, 8000);
+  }
+  synth.speak(u);
+}
+
+function speakBilingual(enWord, zhWord, btnId) {
+  if (!synth) return;
+  synth.cancel(); clearTtsTimer();
+  loadVoices();
+  var btn = document.getElementById(btnId);
+  if (!btn) return;
+  var origText = btn.innerHTML;
+  btn.innerHTML = '🔊 Playing...';
+
+  var uEn = new SpeechSynthesisUtterance(enWord);
+  uEn.lang = 'en-GB';
+  uEn.rate = 0.85;
+  uEn.volume = 1;
+  var vEn = getBestMaleVoice();
+  if (vEn) uEn.voice = vEn;
+
+  var uZh = new SpeechSynthesisUtterance(zhWord);
+  uZh.lang = 'zh-CN';
+  uZh.rate = 0.95;
+  uZh.volume = 1;
+  var vZh = getChineseVoice();
+  if (vZh) uZh.voice = vZh;
+
+  // iOS Safari fix: speech can get stuck and never fire onend
+  var safetyTimeout = setTimeout(function() {
+    btn.innerHTML = origText;
+    try { synth.cancel(); } catch(e) {}
+  }, 12000);
+
+  function reset() {
+    clearTimeout(safetyTimeout);
+    btn.innerHTML = origText;
+  }
+
+  uEn.onend = function() {
+    clearTimeout(safetyTimeout);
+    uZh.onend = uZh.onerror = reset;
+    // Re-arm safety for Chinese part
+    safetyTimeout = setTimeout(reset, 12000);
+    synth.speak(uZh);
+  };
+  uEn.onerror = reset;
+
+  synth.speak(uEn);
+}
+
+function escapeHtml(text) {
+  if (text == null) return '';
+  return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function escapeJs(text) {
+  // Full escaping for safe use inside '...' in onclick attributes
+  if (text == null) return '';
+  return String(text)
+    .replace(/\\/g, '\\\\')
+    .replace(/'/g, "\\'")
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '\\x3c')
+    .replace(/>/g, '\\x3e')
+    .replace(/\n/g, ' ')
+    .replace(/\r/g, '');
+}
+
+function getLineText(i) { return document.querySelectorAll('.line')[i].querySelector('.en').innerText.replace(/\*[^*]+\*/g, '').trim(); }
+function setBtn(i, act) { var b = document.querySelectorAll('.line')[i].querySelector('.play-btn'); if (act) { b.classList.add('playing'); b.innerText = 'Playing'; } else { b.classList.remove('playing'); b.innerText = 'Listen'; } }
+function speakLine(i, onEnd) {
+  if (!synth) return;
+  synth.cancel();
+  loadVoices();
+  clearTtsTimer();
+  var text = getLineText(i);
+  if (!text) { if (onEnd) onEnd(); return; }
+  var u = new SpeechSynthesisUtterance(text);
+  var v = getBestMaleVoice();
+  if (v) u.voice = v;
+  u.lang = 'en-GB';
+  u.rate = 0.90;
+  u.pitch = document.querySelectorAll('.line')[i].classList.contains('you') ? 1.15 : 0.85;
+  setBtn(i, true);
+  currentIdx = i;
+  document.querySelectorAll('.line')[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  var finished = false;
+  function done() {
+    if (finished) return;
+    finished = true;
+    clearTtsTimer();
+    setBtn(i, false);
+    currentIdx = -1;
+    if (onEnd) onEnd();
+  }
+  u.onend = u.onerror = done;
+  // iOS Safari safety: if onend never fires
+  ttsTimer = setTimeout(done, 15000);
+  synth.speak(u);
+}
+function playLine(i) { isPlayAll = false; if (currentIdx === i) { synth.cancel(); setBtn(i, false); currentIdx = -1; return; } if (currentIdx >= 0) setBtn(currentIdx, false); speakLine(i, null); }
+function playAll() { isPlayAll = true; var i = 0, tot = document.querySelectorAll('.line').length; function next() { if (!isPlayAll || i >= tot) return; speakLine(i++, function() { if (isPlayAll) setTimeout(next, 400); }); } next(); }
+function stopAll() { isPlayAll = false; try { synth.cancel(); } catch(e) {} clearTtsTimer(); if (currentIdx >= 0) { setBtn(currentIdx, false); currentIdx = -1; } }
+</script>
+<script>
+const techRawData = [
+  "Alternator|交流发电机|Jiāo liú fā diàn jī|ˈɔltərˌneɪtər",
+"Standby Power|备用功率|Bèi yòng gōng lǜ|ˈstændˈbaɪ paʊər",
+"Prime Power|主用功率|Zhǔ yòng gōng lǜ|praɪm paʊər",
+"Control Panel|控制面板|Kòng zhì miàn bǎn|kənˈtroʊl ˈpænəl",
+"Sound Attenuated Canopy|防音型静音箱|Fáng yīn xíng jìng yīn xiāng|saʊnd əˈtɛnjuˌeɪtɪd ˈkænəpi",
+"Circuit Breaker|断路器|Duàn lù qì|ˈsərkət ˈbreɪkər",
+"Automatic Transfer Switch|自动转换开关|Zì dòng zhuǎn huàn kāi guān|ˌɔtəˈmætɪk ˈtrænsfər swɪʧ",
+"Diesel Engine|柴油发动机|Chái yóu fā dòng jī|ˈdizəl ˈɪnʤən",
+"Exhaust Silencer|排气消音器|Pái qì xiāo yīn qì|ɪgˈzɔst ˈsaɪlənˌsər",
+"Coolant Heater|水套加热器|Shuǐ tào jiā rè qì|ˈkulənt ˈhitər",
+"Voltage Regulator|自动调压器|Zì dòng tiáo yā qì|ˈvoʊltɪʤ ˈrɛgjəˌleɪtər",
+"Radiator|散热器水箱|Sàn rè qì shuǐ xiāng|ˈreɪdiˌeɪtər",
+"Crankshaft|曲轴|Qū zhóu|ˈkræŋkˌʃæft",
+"Turbocharger|涡轮增压器|Wō lún zēng yā qì|turbocharger",
+"Synchronous|同步的|Tóng bù de|synchronous",
+"Three Phase|三相|Sān xiàng|θri feɪz",
+"Frequency|频率|Pín lǜ|ˈfrikwənsi",
+"Contactor|接触器|Jiē chù qì|contactor",
+"Power Factor|功率因数|Gōng lǜ yīn shù|paʊər ˈfæktər",
+"Emission|排放|Pái fàng|ɪˈmɪʃən",
+"Fuel Tank|燃油箱|Rán yóu xiāng|fjuəl tæŋk",
+"Lubrication|润滑|Rùn huá|ˌlubrɪˈkeɪʃən",
+"Governor|调速器|Tiáo sù qì|ˈgəvərnər",
+"Stator|定子|Dìng zǐ|stator",
+"Rotor|转子|Zhuǎn zǐ|ˈroʊtər",
+"Substation|变电站|Biàn diàn zhàn|ˈsəbˌsteɪʃən",
+"Cogeneration|热电联产|Rè diàn lián chǎn|ˈkoʊˈʤɛnərˈeɪʃən",
+"Trigeneration|冷热电三联产|Lěng rè diàn sān lián chǎn|trigeneration",
+"Load Bank|负载箱|Fù zài xiāng|loʊd bæŋk",
+"Busbar|母线排|Mǔ xiàn pái|busbar",
+"Insulation|绝缘|Jué yuán|ˌɪnsəˈleɪʃən",
+"Harmonic Distortion|谐波失真|Xié bō shī zhēn|hɑrˈmɑnɪk dɪˈstɔrʃən",
+"Current Transformer|电流互感器|Diàn liú hù gǎn qì|ˈkɑrənt trænsˈfɔrmər",
+"Kilovolt Ampere|千伏安|Qiān fú ān|kilovolt ˈæmˌpər",
+"Megawatt|兆瓦|Zhào wǎ|ˈmɛgəˌwɑt",
+"Microprocessor|微处理器|Wēi chǔ lǐ qì|ˌmaɪkroʊˈprɑsɛsər",
+"Rectifier|整流器|Zhěng liú qì|ˈrɛktəˌfaɪər",
+"Grid|电网|Diàn wǎng|grɪd",
+"Maintenance|维护保养|Wéi hù bǎo yǎng|ˈmeɪntənəns",
+"Commissioning|调试|Tiáo shì|kəˈmɪʃənɪŋ",
+"Assembly|装配|Zhuāng pèi|əˈsɛmbli",
+"Capability|能力与容量|Néng lì yǔ róng liàng|ˌkeɪpəˈbɪləti",
+"Torque|扭矩|Niǔ jǔ|tɔrk",
+"Viscosity|粘度|Nián dù|vɪˈskɑsəti",
+"Inverter|逆变器|Nì biàn qì|inverter",
+"Synchronization|同步并机|Tóng bù bìng jī|ˌsɪŋkrənəˈzeɪʃən",
+"Parallel System|并机系统|Bìng jī xì tǒng|ˈpɛrəˌlɛl ˈsɪstəm",
+"Enclosure|外壳与机箱|Wài ké yǔ jī xiāng|ɪnˈkloʊʒər",
+"Base Frame|底座|Dǐ zuò|beɪs freɪm",
+"Anti vibration Mount|减震垫|Jiǎn zhèn diàn|ˈænˌti vaɪˈbreɪʃən maʊnt",
+"Deep Sea Electronics|深海控制器|Shēn hǎi kòng zhì qì|diːp siː ɪˌlekˈtrɒnɪks",
+"Mitsubishi|三菱|Sān líng|ˌmɪt.suːˈbiː.ʃi",
+"Perkins|珀金斯|Pò jīn sī|ˈpɜːrkɪnz",
+"Cummins|康明斯|Kāng míng sī|ˈkʌmɪnz",
+"Doosan|斗山|Dǒu shān|ˈduː.sɑːn",
+"Emissions Standard|排放标准|Pái fàng biāo zhǔn|ɪˈmɪʃənz ˈstændərd",
+"Decibel|分贝|Fēn bèi|ˈdɛsəˌbɛl",
+"Exhaust Manifold|排气歧管|Pái qì qí guǎn|ɪgˈzɔst ˈmænɪˌfoʊld",
+"Alternating Current|交流电|Jiāo liú diàn|ˈɔltərˌneɪtɪŋ ˈkɑrənt",
+"Direct Current|直流电|Zhí liú diàn|dɪˈrɛkt ˈkɑrənt",
+"Neutral Line|中性线|Zhōng xìng xiàn|ˈnutrəl laɪn",
+"Earth Wire|接地线|Jiē dì xiàn|ərθ waɪər",
+"Short Circuit|短路|Duǎn lù|ʃɔrt ˈsərkət",
+"Overload|过载|Guò zài|ˈoʊvərˌloʊd",
+"Leakage|漏电|Lòu diàn|ˈlikɪʤ",
+"Protection|保护|Bǎo hù|prəˈtɛkʃən",
+"Alarm|警报|Jǐng bào|əˈlɑrm",
+"Fault|故障|Gù zhàng|fɔlt",
+"Diagnosis|诊断|Zhěn duàn|ˌdaɪəgˈnoʊsəs",
+"Sensor|传感器|Chuán gǎn qì|ˈsɛnsər",
+"Temperature|温度|Wēn dù|ˈtɛmpərəʧər",
+"Pressure|压力|Yā lì|ˈprɛʃər",
+"Oil Pressure|机油压力|Jī yóu yā lì|ɔɪl ˈprɛʃər",
+"Fuel Consumption|油耗|Hào yóu|fjuəl kənˈsəmʃən",
+"Running Hour|运行小时|Yùn xíng xiǎo shí|ˈrənɪŋ aʊər",
+"Service Kit|保养包|Bǎo yǎng bāo|ˈsərvɪs kɪt",
+"Filter|过滤器|Guò lǜ qì|ˈfɪltər",
+"Oil Filter|机油滤清器|Jī yóu lǜ qīng qì|ɔɪl ˈfɪltər",
+"Fuel Filter|燃油滤清器|Rán yóu lǜ qīng qì|fjuəl ˈfɪltər",
+"Air Filter|空气滤清器|Kōng qì lǜ qīng qì|ɛr ˈfɪltər",
+"Water Separator|油水分离器|Yóu shuǐ fēn lí qì|ˈwɔtər separator",
+"Belt|皮带|Pí dài|bɛlt",
+"Hose|软管|Ruǎn guǎn|hoʊz",
+"Gasket|垫片|Diàn piàn|ˈgæskət",
+"Seal|密封件|Mì fēng jiàn|sil",
+"Bearing|轴承|Zhóu chéng|ˈbɛrɪŋ",
+"Piston|活塞|Huó sāi|ˈpɪstən",
+"Cylinder|气缸|Qì gāng|ˈsɪlɪndər",
+"Head Gasket|缸垫|Gāng diàn|hɛd ˈgæskət",
+"Fuel Injection|燃油喷射|Rán yó pēn shè|fjuəl ˌɪnˈʤɛkʃən",
+"Nozzle|喷油嘴|Pēn yóu zuǐ|ˈnɑzəl",
+"Pump|泵|Bèng|pəmp",
+"Water Pump|水泵|Shuǐ bèng|ˈwɔtər pəmp",
+"Fuel Pump|燃油泵|Rán yóu bèng|fjuəl pəmp",
+"Oil Pump|机油泵|Jī yóu bèng|ɔɪl pəmp",
+"Charge Air|增压空气|Zēng yā kōng qì|ʧɑrʤ ɛr",
+"Aftercooler|中冷器|Zhōng lěng qì|aftercooler",
+"Jacket Water|缸套水|Gāng tào shuǐ|ˈʤækɪt ˈwɔtər",
+"Expansion Tank|膨胀水箱|Péng zhàng shuǐ xiāng|ɪkˈspænʧən tæŋk",
+"Charger|充电器|Chōng diàn qì|ˈʧɑrʤər",
+"Battery Charger|蓄电池充电器|Xù diàn chí chōng diàn qì|ˈbætəri ˈʧɑrʤər",
+"Earth Leakage|漏电保护|Lòu diàn bǎo hù|ərθ ˈlikɪʤ",
+"Phase Sequence|相序|Xiāng xù|feɪz ˈsikwəns",
+"Unbalance|不平衡|Bù píng héng|ənˈbæləns",
+"Surge|浪涌|Làng yǒng|sərʤ",
+"Lightning|雷击|Léi jī|ˈlaɪtnɪŋ",
+"Isolation Transformer|隔离变压器|Gé lí biàn yā qì|ˌaɪsəˈleɪʃən trænsˈfɔrmər",
+"UPS|不间断电源|Bù jiān duàn diàn yuán|ˌjuː.piːˈes",
+"Backup Power|后备电源|Hòu bèi diàn yuán|ˈbæˌkəp paʊər",
+"Peak Load|峰值负载|Fēng zhí fù zài|pik loʊd",
+"Base Load|基荷负载|Jī hé fù zài|beɪs loʊd",
+"Modbus|通讯协议|Tōng xùn xié yì|ˈmɒd.bʌs",
+"Protocol|协议|Xié yì|ˈproʊtəˌkɔl",
+"Communication|通讯|Tōng xùn|kəmˌjunəˈkeɪʃən",
+"Remote Monitoring|远程监控|Yuǎn chéng jiān kòng|rɪˈmoʊt ˈmɑnətərɪŋ",
+"Cloud Platform|云平台|Yún píng tái|klaʊd ˈplætˌfɔrm",
+"Data Logger|数据记录仪|Shù jù jì lù yí|ˈdætə ˈlɑgər",
+"Event Log|事件记录|Shì jiàn jì lù|ɪˈvɛnt lɔg",
+"Error Code|故障码|Gù zhàng mǎ|ˈɛrər koʊd",
+"Firmware|固件|Gù jiàn|firmware",
+"Software|软件|Ruǎn jiàn|ˈsɔfˌwɛr",
+"Hardware|硬件|Yìng jiàn|ˈhɑrdˌwɛr",
+"Display|显示屏|Xiǎn shì píng|dɪˈspleɪ",
+"Keypad|按键|àn jiàn|ˈkiˌpæd",
+"Interface|接口|Jiē kǒu|ˈɪnərˌfeɪs",
+"USB Port|USB接口|USB jiē kǒu|ˌjuː.esˈbiː pɔrt",
+"SD Card|存储卡|Cún chǔ kǎ|ˌesˈdiː kɑrd",
+"Clock|时钟|Shí zhōng|klɑk",
+"Buzzer|蜂鸣器|Fēng míng qì|ˈbəzər",
+"Relay|继电器|Jì diàn qì|ˈriˌleɪ",
+"Fuse|保险丝|Bǎo xiǎn sī|fjuz",
+"Terminal|端子|Duān zǐ|ˈtərmənəl",
+"Cable|电缆|Diàn lǎn|ˈkeɪbəl",
+"Wire|电线|Diàn xiàn|waɪər",
+"Conduit|线管|Xiàn guǎn|ˈkɑnʤuɪt",
+"Earthing|接地|Jiē dì|earthing",
+"Lighting|照明|Zhào míng|ˈlaɪtɪŋ",
+"Ventilation|通风|Tōng fēng|ˌvɛntɪˈleɪʃən",
+"Canopy Lock|箱体锁|Xiāng tǐ suǒ|ˈkænəpi lɑk",
+"Lifting Eye|吊耳|Diào ěr|ˈlɪftɪŋ aɪ",
+"Skid|滑橇|Huá qiāo|skɪd",
+"Frame|机架|Jī jià|freɪm",
+"Corrosion|腐蚀|Fǔ shí|kərˈoʊʒən",
+"Paint|喷漆|Pēn qī|peɪnt",
+"Powder Coating|喷塑|Pēn sù|ˈpaʊdər ˈkoʊtɪŋ",
+"Stainless Steel|不锈钢|Bú xiù gāng|ˈsteɪnləs stil",
+"Carbon Steel|碳钢|Tàn gāng|ˈkɑrbən stil",
+"Aluminum|铝|Lǚ|əˈlumənəm",
+"Copper|铜|Tóng|ˈkɑpər",
+"Inspection|检验|Jiǎn yàn|ˌɪnˈspɛkʃən",
+"Test Run|试运行|Shì yùn xíng|tɛst rən",
+"Warranty|保修|Bǎo xiū|ˈwɔrənti",
+"Spare Part|备件|Bèi jiàn|spɛr pɑrt",
+"Consumable|易耗品|Hào cái pǐn|kənˈsuməbəl",
+"Overhaul|大修|Dà xiū|ˈoʊvərˌhɔl",
+"Repair|维修|Wéi xiū|rɪˈpɛr",
+"Replacement|更换|Gēng huàn|rɪˈpleɪsmənt",
+"Adjustment|调整|Tiáo zhěng|əˈʤəstmənt",
+"Calibration|校准|Jiào zhǔn|ˌkæləˈbreɪʃən",
+"Level|液位|Yè wèi|ˈlɛvəl",
+"Cooling System|冷却系统|Lěng què xì tǒng|ˈkulɪŋ ˈsɪstəm",
+"Exhaust System|排气系统|Pái qì xì tǒng|ɪgˈzɔst ˈsɪstəm",
+"Intake System|进气系统|Jìn qì xì tǒng|ˈɪnˌteɪk ˈsɪstəm",
+"Fuel System|燃油系统|Rán yóu xì tǒng|fjuəl ˈsɪstəm",
+"Lubricating System|润滑系统|Rùn huá xì tǒng|ˈlubrəˌkeɪtɪŋ ˈsɪstəm",
+"Starting System|启动系统|Qǐ dòng xì tǒng|ˈstɑrtɪŋ ˈsɪstəm",
+"Control System|控制系统|Kòng zhì xì tǒng|kənˈtroʊl ˈsɪstəm",
+"Electrical System|电气系统|Diàn qì xì tǒng|ɪˈlɛktrɪkəl ˈsɪstəm",
+"Mechanical System|机械系统|Jī xiè xì tǒng|məˈkænɪkəl ˈsɪstəm",
+"Power Output|功率输出|Gōng lǜ shū chū|paʊər ˈaʊtˌpʊt",
+"Rated Voltage|额定电压|É dìng diàn yā|ˈreɪtɪd ˈvoʊltɪʤ",
+"Rated Current|额定电流|É dìng diàn liú|ˈreɪtɪd ˈkɑrənt",
+"Rated Speed|额定转速|É dìng zhuàn sù|ˈreɪtɪd spid",
+"Rated Frequency|额定频率|É dìng pín lǜ|ˈreɪtɪd ˈfrikwənsi",
+"Power Range|功率范围|Gōng lǜ fàn wéi|paʊər reɪnʤ",
+"Containerized|集装箱式|Jí zhuāng xiāng shì|kənˈteɪnərˌaɪzd",
+"Silent Type|静音型|Jìng yīn xíng|ˈsaɪlənt taɪp",
+"Open Type|开架式|Kāi jià shì|ˈoʊpən taɪp",
+"Mobile Type|移动式|Yí dòng shì|ˈmoʊbəl taɪp",
+"Stationary|固定式|Gù dìng shì|ˈsteɪʃəˌnɛri",
+"Auto Start|自动启动|Zì dòng qǐ dòng|ˈɔtoʊ stɑrt",
+"Remote Start|远程启动|Yuǎn chéng qǐ dòng|rɪˈmoʊt stɑrt",
+"Manual Start|手动启动|Shǒu dòng qǐ dòng|ˈmænjuəl stɑrt",
+"Mains Failure|市电中断|Shì diàn zhōng duàn|meɪnz ˈfeɪljər",
+"Auto Mains Failure|自动市电检测|Zì dòng shì diàn jiǎn cè|ˈɔtoʊ meɪnz ˈfeɪljər",
+"Load Sharing|负载分配|Fù zài fēn pèi|loʊd ˈʃɛrɪŋ",
+"Load Management|负载管理|Fù zài guǎn lǐ|loʊd ˈmænɪʤmənt",
+"Power Management|电源管理|Diàn yuán guǎn lǐ|paʊər ˈmænɪʤmənt",
+"Engine Speed|发动机转速|Fā dòng jī zhuàn sù|ˈɪnʤən spid",
+"Throttle|节气门|Jié qì mén|θˈrɑtəl",
+"Actuator|执行器|Zhí xíng qì|ˈækʧuˌeɪtər",
+"Solenoid|电磁阀|Diàn cí fá|solenoid",
+"Thermostat|节温器|Jié wēn qì|ˈθərməˌstæt",
+"Expansion Valve|膨胀阀|Péng zhàng fá|ɪkˈspænʧən vælv",
+"Check Valve|单向阀|Dān xiàng fá|ʧɛk vælv",
+"Relief Valve|溢流阀|Yì liú fá|rɪˈlif vælv",
+"Ball Valve|球阀|Qiú fá|bɔl vælv",
+"Gate Valve|闸阀|Zhá fá|geɪt vælv",
+"Pipe|管道|Guǎn dào|paɪp",
+"Elbow|弯头|Wān tóu|ˈɛlˌboʊ",
+"Coupling|接头|Jiē tóu|ˈkəplɪŋ",
+"Clamp|卡箍|Kǎ gū|klæmp",
+"Insulation Tape|绝缘胶带|Jué yuán jiāo dài|ˌɪnsəˈleɪʃən teɪp",
+"Cable Tie|扎带|Zhā dài|ˈkeɪbəl taɪ",
+"Label|标签|Biāo qiān|ˈleɪbəl",
+"Manual|说明书|Shuō míng shū|ˈmænjuəl",
+"Drawing|图纸|Tú zhǐ|drɔɪŋ",
+"Diagram|示意图|Shì yì tú|ˈdaɪəˌgræm",
+"Wiring Diagram|接线图|Jiē xiàn tú|ˈwaɪrɪŋ ˈdaɪəˌgræm",
+"Piping Diagram|管路图|Guǎn lù tú|ˈpaɪpɪŋ ˈdaɪəˌgræm",
+"Dimension|尺寸|Chǐ cùn|dɪˈmɛnʃən",
+"Weight|重量|Zhòng liàng|weɪt",
+"Volume|体积|Tǐ jī|ˈvɑljum",
+"Container|集装箱|Jí zhuāng xiāng|kənˈteɪnər",
+"Packing|包装|Bāo zhuāng|ˈpækɪŋ",
+"Shipping|发货|Fā huò|ˈʃɪpɪŋ",
+"Delivery|交货|Jiāo huò|dɪˈlɪvəri",
+"Lead Time|货期|Huò qī|lɛd taɪm",
+"Port|港口|Gǎng kǒu|pɔrt",
+"FOB Price|离岸价|Lí àn jià|fɔb praɪs",
+"CIF Price|到岸价|Dào àn jià|cif praɪs",
+"Quotation|报价单|Bào jià dān|kwoʊˈteɪʃən",
+"Proforma Invoice|形式发票|Xíng shì fā piào|proforma ˈɪnvɔɪs",
+"Commercial Invoice|商业发票|Shāng yè fā piào|kəˈmərʃəl ˈɪnvɔɪs",
+"Packing List|装箱单|Zhuāng xiāng dān|ˈpækɪŋ lɪst",
+"Bill of Lading|提单|Tí dān|bɪl əv ˈleɪdɪŋ",
+"Certificate|证书|Zhèng shū|sərˈtɪfɪkət",
+"CE Certificate|CE认证|CE rèn zhèng|ˌsiːˈiː sərˈtɪfɪkət",
+"ISO Certificate|ISO认证|ISO rèn zhèng|ˌaɪ.esˈoʊ sərˈtɪfɪkət",
+"Test Report|测试报告|Cè shì bào gào|tɛst rɪˈpɔrt",
+"Quality Control|质量控制|Zhì liàng kòng zhì|kˈwɑləti kənˈtroʊl",
+"Acceptance|验收|Yàn shōu|əkˈsɛptəns",
+"Handover|移交|Yí jiāo|ˈhændoʊvər",
+"Training|培训|Péi xùn|ˈtreɪnɪŋ",
+"Operation|操作|Cāo zuò|ˌɑpərˈeɪʃən",
+"Instruction|指示|Zhǐ shì|ˌɪnˈstrəkʃən",
+"Guideline|指南|Zhǐ nán|ˈgaɪˌdlaɪn",
+"Recommendation|建议|Jiàn yì|ˌrɛkəmənˈdeɪʃən",
+"Limitation|限制|Xiàn zhì|ˌlɪmɪˈteɪʃən",
+"Specification|规格|Guī gé|ˌspɛsɪfɪˈkeɪʃən",
+"Standard|标准|Biāo zhǔn|ˈstændərd",
+"Customized|定制的|Dìng zhì de|ˈkəstəˌmaɪzd",
+"Optional|可选的|Kě xuǎn de|ˈɔpʃənəl",
+"Accessory|附件|Fù jiàn|ækˈsɛsəri",
+"Extension|扩展|Kuò zhǎn|ɪkˈstɛnʃən",
+"Upgrade|升级|Shēng jí|ˈəpˈgreɪd",
+"Modernization|改造|Gǎi zào|ˌmɑdərnəˈzeɪʃən",
+"Retrofit|翻新|Fān xīn|ˈrɛtroʊˌfɪt",
+"Life Span|使用寿命|Shǐ yòng shòu mìng|laɪf spæn",
+"Durability|耐用性|Nài yòng xìng|dərəˈbɪlɪti",
+"Reliability|可靠性|Kě kào xìng|riˌlaɪəˈbɪləti",
+"Efficiency|效率|Xiào lǜ|ɪˈfɪʃənsi",
+"Performance|性能|Xìng néng|pərˈfɔrməns",
+"Economy|经济性|Jīng jì xìng|ɪˈkɑnəmi",
+"Environmental|环保的|Huán bǎo de|ɪnˌvaɪrənˈmɛnəl",
+"Low Noise|低噪音|Dī zào yīn|loʊ nɔɪz",
+"Low Fuel|低油耗|Dī hào yóu|loʊ fjuəl",
+"High Efficiency|高效率|Gāo xiào lǜ|haɪ ɪˈfɪʃənsi",
+"Compact Structure|结构紧凑|Jié gòu jǐn còu|ˈkɑmpækt ˈstrəkʧər",
+"Easy Operation|操作简便|Cāo zuò jiǎn biàn|ˈizi ˌɑpərˈeɪʃən",
+"Easy Maintenance|维护简便|Wéi hù jiǎn biàn|ˈizi ˈmeɪntənəns",
+"Safe Operation|安全运行|ān quán yùn xíng|seɪf ˌɑpərˈeɪʃən",
+"Fire Protection|防火|Fáng huǒ|faɪər prəˈtɛkʃən",
+"Explosion Proof|防爆|Fáng bào|ɪkˈsploʊʒən pruf",
+"Waterproof|防水|Fáng shuǐ|ˈwɔtərˌpruf",
+"Dustproof|防尘|Fáng chén|dustproof",
+"Weather Proof|全天候|Quán tiān hòu|ˈwɛðər pruf",
+"Outdoor Use|户外使用|Hù wài shǐ yòng|ˈaʊtˌdɔr juz",
+"Indoor Use|室内使用|Shì nèi shǐ yòng|ˈɪnˌdɔr juz",
+"Cold Climate|寒冷气候|Hán lěng qì hòu|koʊld ˈklaɪmɪt",
+"Hot Climate|炎热气候|Yán rè qì hòu|hɑt ˈklaɪmɪt",
+"High Altitude|高海拔|Gāo hǎi bá|haɪ ˈæltəˌtud",
+"Seismic Resistance|抗震|Kàng zhèn|ˈsaɪzmɪk rɪˈzɪstəns",
+"Wind Resistance|抗风|Kàng fēng|wɪnd rɪˈzɪstəns"
+];
+
+const dailyRawData = [
+  "Americano|美式咖啡|Měi shì kā fēi|əˌmɛrɪˈkɑnoʊ",
+"Espresso|浓缩咖啡|Nóng suō kā fēi|ˌɛˈsprɛsoʊ",
+"Latte|拿铁|Ná tiě|ˈlɑˌteɪ",
+"Green Tea|绿茶|Lǜ chá|grin ti",
+"Black Tea|红茶|Hóng chá|blæk ti",
+"Coffee Machine|咖啡机|Kā fēi jī|ˈkɔfi məˈʃin",
+"Mug|马克杯|Mǎ kè bēi|məg",
+"Napkin|餐巾纸|Cān jīn zhǐ|ˈnæpkɪn",
+"Microwave|微波炉|Wēi bō lú|ˈmaɪkrəˌweɪv",
+"Refrigerator|冰箱|Bīng xiāng|rɪˈfrɪʤərˌeɪtər",
+"Pantry|茶水间|Chá shuǐ jiān|ˈpæntri",
+"Lunchbox|午餐盒|Wǔ cān hé|lunchbox",
+"Breakfast|早餐|Zǎo cān|ˈbrɛkfəst",
+"Lunch|午餐|Wǔ cān|lənʧ",
+"Dinner|晚餐|Wǎn cān|ˈdɪnər",
+"Meeting|会议|Huì yì|ˈmitɪŋ",
+"Conference|大会|Dà huì|ˈkɑnfərəns",
+"Schedule|日程表|Rì chéng biǎo|ˈskɛʤʊl",
+"Appointment|预约|Yù yuē|əˈpɔɪntmənt",
+"Deadline|截止日期|Jié zhǐ rì qī|ˈdɛˌdlaɪn",
+"Project|项目|Xiàng mù|ˈprɑʤɛkt",
+"Presentation|演示汇报|Yǎn shì huì bào|ˌprɛzənˈteɪʃən",
+"Report|报告|Bào gào|rɪˈpɔrt",
+"Email|电子邮件|Diàn zǐ yóu jiàn|iˈmeɪl",
+"Document|文档|Wén dǎng|ˈdɑkjəmɛnt",
+"Printer|打印机|Dǎ yìn jī|ˈprɪnər",
+"Scanner|扫描仪|Sǎo miáo yí|ˈskænər",
+"Copier|复印机|Fù yìn jī|ˈkɑpiər",
+"Notebook|笔记本|Bǐ jì běn|ˈnoʊtˌbʊk",
+"Stapler|订书机|Dìng shū jī|ˈsteɪpələr",
+"Desk|办公桌|Bàn gōng zhuō|dɛsk",
+"Chair|椅子|Yǐ zi|ʧɛr",
+"Keyboard|键盘|Jiàn pán|ˈkiˌbɔrd",
+"Mouse|鼠标|Shǔ biāo|maʊs",
+"Monitor|显示器|Xiǎn shì qì|ˈmɑnətər",
+"Laptop|笔记本电脑|Bǐ jì běn diàn nǎo|ˈlæpˌtɑp",
+"Charger|充电器|Chōng diàn qì|ˈʧɑrʤər",
+"Battery|电池|Diàn chí|ˈbætəri",
+"Earphones|耳机|Ěr jī|ˈɪrˌfoʊnz",
+"Headset|头戴式耳机|Tóu dài shì ěr jī|ˈhɛdˌsɛt",
+"Boss|老板|Lǎo bǎn|bɔs",
+"Colleague|同事|Tóng shì|ˈkɑlig",
+"Manager|经理|Jīng lǐ|ˈmænɪʤər",
+"Director|总监|Zǒng jiān|dɪˈrɛktər",
+"Intern|实习生|Shí xí shēng|ˈɪntərn",
+"Employee|员工|Yuán gōng|ɪmˈplɔɪi",
+"Client|客户|Kè hù|klaɪənt",
+"Customer|顾客|Gù kè|ˈkəstəmər",
+"Visitor|访客|Fǎng kè|ˈvɪzɪtər",
+"Reception|前台|Qián tái|rɪˈsɛpʃən",
+"Supply Chain|供应链|Gōng yìng liàn|səˈplaɪ ʧeɪn",
+"Procurement|采购|Cǎi gòu|proʊˈkjʊrmənt",
+"Quality Assurance|质量保证|Zhì liàng bǎo zhèng|kˈwɑləti əˈʃʊrəns",
+"Warehouse|仓库|Cāng kù|ˈwɛˌrhaʊs",
+"Revenue|营收|Yíng shōu|ˈrɛvəˌnu",
+"Profit Margin|利润率|Lì rùn lǜ|ˈprɑfɪt ˈmɑrʤən",
+"Negotiation|谈判|Tán pàn|nɪˌgoʊʃiˈeɪʃən",
+"Compliance|合规|Hé guī|kəmˈplaɪəns",
+"Performance Review|绩效评估|Jì xiào píng gū|pərˈfɔrməns ˌrivˈju",
+"Budget|预算|Yù suàn|ˈbəʤɪt",
+"Agenda|议程|Yì chéng|əˈʤɛndə",
+"Minutes|会议纪要|Huì yì jì yào|ˈmɪnəts",
+"Summary|总结|Zǒng jié|ˈsəməri",
+"Feedback|反馈|Fǎn kuì|ˈfidˌbæk",
+"Comment|评论|Píng lùn|ˈkɑmɛnt",
+"Suggestion|建议|Jiàn yì|səˈʤɛsʧən",
+"Complaint|投诉|Tóu sù|kəmˈpleɪnt",
+"Request|请求|Qǐng qiú|rɪkˈwɛst",
+"Approval|批准|Pī zhǔn|əˈpruvəl",
+"Signature|签名|Qiān míng|ˈsɪgnəʧər",
+"Stamp|盖章|Gài zhāng|stæmp",
+"Contract|合同|Hé tong|ˈkɑnˌtrækt",
+"Agreement|协议|Xié yì|əˈgrimənt",
+"Invoice|发票|Fā piào|ˈɪnvɔɪs",
+"Receipt|收据|Shōu jù|rɪˈsit",
+"Payment|付款|Fù kuǎn|ˈpeɪmənt",
+"Transfer|转账|Zhuǎn zhàng|ˈtrænsfər",
+"Cash|现金|Xiàn jīn|kæʃ",
+"Credit Card|信用卡|Xìn yòng kǎ|ˈkrɛdɪt kɑrd",
+"Bank|银行|Yín háng|bæŋk",
+"Account|账户|Zhàng hù|əˈkaʊnt",
+"Balance|余额|Yú é|ˈbæləns",
+"Statement|对账单|Duì zhàng dān|ˈsteɪtmənt",
+"Tax|税|Shuì|tæks",
+"VAT|增值税|Zēng zhí shuì|ˌviː.eɪˈtiː",
+"Salary|薪水|Xīn shuǐ|ˈsæləri",
+"Bonus|奖金|Jiǎng jīn|ˈboʊnəs",
+"Allowance|补贴|Bǔ tiē|əˈlaʊəns",
+"Overtime|加班|Jiā bān|ˈoʊvərˌtaɪm",
+"Leave|休假|Xiū jià|liv",
+"Holiday|假期|Jià qī|ˈhɑlɪˌdeɪ",
+"Sick Leave|病假|Bìng jià|sɪk liv",
+"Annual Leave|年假|Nián jià|ˈænjuəl liv",
+"Absence|缺勤|Quē qín|ˈæbsəns",
+"Attendance|考勤|Kǎo qín|əˈtɛndəns",
+"Shift|班次|Bān cì|ʃɪft",
+"Roster|排班表|Pái bān biǎo|ˈrɑstər",
+"Recruitment|招聘|Zhāo pìn|rɪˈkrutmənt",
+"Interview|面试|Miàn shì|ˈɪntərvˌju",
+"Resume|简历|Jiǎn lì|ˈrɛzəˌmeɪ",
+"Qualification|资质|Zī zhì|kˌwɑləfəˈkeɪʃən",
+"Experience|经验|Jīng yàn|ɪkˈspɪriəns",
+"Skill|技能|Jì néng|skɪl",
+"Training Course|培训课程|Péi xùn kè chéng|ˈtreɪnɪŋ kɔrs",
+"Certificate|证书|Zhèng shū|sərˈtɪfɪkət",
+"Diploma|文凭|Wén píng|dɪˈploʊmɑ",
+"Degree|学位|Xué wèi|dɪˈgri",
+"Major|专业|Zhuān yè|ˈmeɪʤər",
+"Subject|科目|Kē mù|ˈsəbʤɪkt",
+"Study|学习|Xué xí|ˈstədi",
+"Practice|练习|Liàn xí|ˈpræktɪs",
+"Improve|提升|Tí shēng|ˌɪmˈpruv",
+"Progress|进步|Jìn bù|ˈprɑˌgrɛs",
+"Goal|目标|Mù biāo|goʊl",
+"Target|指标|Zhǐ biāo|ˈtərgət",
+"Mission|任务|Rèn wù|ˈmɪʃən",
+"Vision|愿景|Yuàn jǐng|ˈvɪʒən",
+"Value|价值观|Jià zhí guān|ˈvælju",
+"Culture|文化|Wén huà|ˈkəlʧər",
+"Team|团队|Tuán duì|tim",
+"Cooperation|合作|Hé zuò|kˌwɔpərˈeɪʃən",
+"Teamwork|团队协作|Tuán duì xié zuò|ˈtimˌwərk",
+"Leadership|领导力|Lǐng dǎo lì|ˈlidərˌʃɪp",
+"Responsibility|责任|Zé rèn|riˌspɑnsəˈbɪləti",
+"Duty|职责|Zhí zé|ˈduti",
+"Task|任务|Rèn wù|tæsk",
+"Job|工作|Gōng zuò|ʤɑb",
+"Position|职位|Zhí wèi|pəˈzɪʃən",
+"Department|部门|Bù mén|dɪˈpɑrtmənt",
+"HR|人力资源|Rén lì zī yuán|ˌeɪtʃˈɑːr",
+"Admin|行政|Xíng zhèng|ˈædmɪn",
+"Finance|财务|Cái wù|ˈfaɪˌnæns",
+"Sales|销售|Xiāo shòu|seɪlz",
+"Marketing|市场|Shì chǎng|ˈmɑrkətɪŋ",
+"Engineering|工程|Gōng chéng|ˈɛnʤəˈnɪrɪŋ",
+"Production|生产|Shēng chǎn|pərˈdəkʃən",
+"Logistics|物流|Wù liú|ləˈʤɪstɪks",
+"Security|保安|Bǎo ān|sɪˈkjʊrəti",
+"Cleaner|保洁|Bǎo jié|ˈklinər",
+"Office|办公室|Bàn gōng shì|ˈɔfəs",
+"Factory|工厂|Gōng chǎng|ˈfæktəri",
+"Workshop|车间|Chē jiān|ˈwərkˌʃɑp",
+"Site|现场|Xiàn chǎng|saɪt",
+"Branch|分公司|Fēn gōng sī|brænʧ",
+"Headquarters|总部|Zǒng bù|ˈhɛdˌkɔrtərz",
+"Group|集团|Jí tuán|grup",
+"Company|公司|Gōng sī|ˈkəmpəˌni",
+"Enterprise|企业|Qǐ yè|ˈɛnərˌpraɪz",
+"Organization|组织|Zǔ zhī|ˌɔrgənəˈzeɪʃən",
+"Partner|合作伙伴|Hé zuò huǒ bàn|ˈpɑrtnər",
+"Supplier|供应商|Gōng yìng shāng|səˈplaɪər",
+"Distributor|经销商|Jīng xiāo shāng|dɪˈstrɪbjətər",
+"Agent|代理|Dài lǐ|ˈeɪʤənt",
+"Retail|零售|Líng shòu|ˈriˌteɪl",
+"Wholesale|批发|Pī fā|ˈhoʊlˌseɪl",
+"Market|市场|Shì chǎng|ˈmɑrkɪt",
+"Industry|行业|Háng yè|ˈɪndəstri",
+"Trend|趋势|Qū shì|trɛnd",
+"Competition|竞争|Jìng zhēng|ˌkɑmpəˈtɪʃən",
+"Advantage|优势|Yōu shì|ædˈvæntɪʤ",
+"Strategy|策略|Cè lüè|ˈstrætəʤi",
+"Plan|计划|Jì huà|plæn",
+"Action|行动|Xíng dòng|ˈækʃən",
+"Decision|决策|Jué cè|dɪˈsɪʒən",
+"Analysis|分析|Fēn xī|æˈnælɪsɪs",
+"Data|数据|Shù jù|ˈdætə",
+"Chart|图表|Tú biǎo|ʧɑrt",
+"Graph|曲线图|Qǔ xiàn tú|græf",
+"Table|表格|Biǎo gé|ˈteɪbəl",
+"File|文件|Wén jiàn|faɪl",
+"Folder|文件夹|Wén jiàn jiā|ˈfoʊldər",
+"Archive|归档|Guī dàng|ˈɑrˌkaɪv",
+"Backup|备份|Bèi fèn|ˈbæˌkəp",
+"Delete|删除|Shān chú|dɪˈlit",
+"Edit|编辑|Biān jí|ˈɛdət",
+"Format|格式|Gé shì|ˈfɔrˌmæt",
+"Font|字体|Zì tǐ|fɑnt",
+"Size|尺寸|Chǐ cùn|saɪz",
+"Color|颜色|Yán sè|ˈkələr",
+"Layout|布局|Bù jú|leɪaʊt",
+"Design|设计|Shè jì|dɪˈzaɪn",
+"Template|模板|Mú bǎn|ˈtɛmplət",
+"Version|版本|Bǎn běn|ˈvərʒən",
+"Update|更新|Gēng xīn|ˈəpˌdeɪt",
+"Upgrade|升级|Shēng jí|ˈəpˈgreɪd",
+"Download|下载|Xià zài|ˈdaʊnˌloʊd",
+"Upload|上传|Shàng chuán|ˈəˌploʊd",
+"Internet|互联网|Hù lián wǎng|ˈɪntərˌnɛt",
+"Network|网络|Wǎng luò|ˈnɛtˌwərk",
+"WiFi|无线网络|Wú xiàn wǎng luò|ˈwaɪ.faɪ",
+"Signal|信号|Xìn hào|ˈsɪgnəl",
+"Connection|连接|Lián jiē|kəˈnɛkʃən",
+"Password|密码|Mì mǎ|ˈpæsˌwərd",
+"Login|登录|Dēng lù|login",
+"Logout|登出|Dēng chū|logout",
+"Account Lock|账户锁定|Zhàng hù suǒ dìng|əˈkaʊnt lɑk",
+"Security|安全|ān quán|sɪˈkjʊrəti",
+"Virus|病毒|Bìng dú|ˈvaɪrəs",
+"Firewall|防火墙|Fáng huǒ qiáng|ˈfaɪrwɑl",
+"Privacy|隐私|Yǐn sī|ˈpraɪvəsi",
+"Policy|政策|Zhèng cè|ˈpɑləsi",
+"Rule|规则|Guī zé|rul",
+"Regulation|规章制度|Guī zhāng zhì dù|ˌrɛgjəˈleɪʃən",
+"Discipline|纪律|Jì lǜ|ˈdɪsəplən",
+"Penalty|处罚|Chǔ fá|ˈpɛnəlti",
+"Reward|奖励|Jiǎng lì|rɪˈwɔrd",
+"Motivation|激励|Jī lì|ˌmoʊtəˈveɪʃən",
+"Morale|士气|Shì qì|məræl",
+"Environment|环境|Huán jìng|ɪnˈvaɪrənmənt",
+"Facility|设施|Shè shī|fəˈsɪlɪti",
+"Equipment|设备|Shè bèi|ɪkˈwɪpmənt",
+"Tool|工具|Gōng jù|tul",
+"Material|材料|Cái liào|məˈtɪriəl",
+"Stock|库存|Kù cún|stɑk",
+"Inventory|盘点|Pán diǎn|ˌɪnvənˈtɔri",
+"Order|订单|Dìng dān|ˈɔrdər",
+"Purchase|采购|Cǎi gòu|ˈpərʧəs",
+"Requisition|请购|Qǐng gòu|ˌrɛkwəˈzɪʃən",
+"Approval Flow|审批流程|Shěn pī liú chéng|əˈpruvəl floʊ",
+"Workflow|工作流程|Gōng zuò liú chéng|ˈwərkˌfloʊ",
+"Efficiency|效率|Xiào lǜ|ɪˈfɪʃənsi",
+"Productivity|生产力|Shēng chǎn lì|ˌproʊdəkˈtɪvɪti",
+"Quality|质量|Zhì liàng|kˈwɑləti",
+"Standard|标准|Biāo zhǔn|ˈstændərd",
+"Control|控制|Kòng zhì|kənˈtroʊl",
+"Inspection|检验|Jiǎn yàn|ˌɪnˈspɛkʃən",
+"Test|测试|Cè shì|tɛst",
+"Sample|样品|Yàng pǐn|ˈsæmpəl",
+"Prototype|样机|Yàng jī|ˈproʊtoʊˌtaɪp",
+"Mass Production|批量生产|Pī liàng shēng chǎn|mæs pərˈdəkʃən",
+"Assembly Line|流水线|Liú shuǐ xiàn|əˈsɛmbli laɪn",
+"Packaging|包装|Bāo zhuāng|ˈpækɪʤɪŋ",
+"Labeling|贴标签|Tiē biāo qiān|ˈleɪbəlɪŋ",
+"Barcode|条形码|Tiáo xíng mǎ|barcode",
+"QR Code|二维码|Èr wéi mǎ|qr koʊd",
+"Delivery|配送|Pèi sòng|dɪˈlɪvəri",
+"Shipping|装运|Zhuāng yùn|ˈʃɪpɪŋ",
+"Logistics|物流|Wù liú|ləˈʤɪstɪks",
+"Freight|运费|Yùn fèi|freɪt",
+"Customs|海关|Hǎi guān|ˈkəstəmz",
+"Declaration|申报|Shēn bào|ˌdɛklərˈeɪʃən",
+"Tariff|关税|Guān shuì|ˈtɛrəf",
+"Import|进口|Jìn kǒu|ˌɪmˈpɔrt",
+"Export|出口|Chū kǒu|ˈɛkspɔrt",
+"International|国际的|Guó jì de|ˌɪnərˈnæʃənɑl",
+"Global|全球的|Quán qiú de|ˈgloʊbəl",
+"Local|本地的|Běn dì de|ˈloʊkəl",
+"Domestic|国内的|Guó nèi de|dəˈmɛstɪk",
+"Oversea|海外的|Hǎi wài de|ˌoʊvərˈsi",
+"Abroad|国外|Guó wài|əˈbrɔd",
+"Travel|出差|Chū chāi|ˈtrævəl",
+"Trip|行程|Xíng chéng|trɪp",
+"Hotel|酒店|Jiǔ diàn|hoʊˈtɛl",
+"Flight|航班|Háng bān|flaɪt",
+"Train|火车|Huǒ chē|treɪn",
+"Bus|公交车|Gōng jiāo chē|bəs",
+"Taxi|出租车|Chū zū chē|ˈtæksi",
+"Subway|地铁|Dì tiě|ˈsəbˌweɪ",
+"Ticket|票|Piào|ˈtɪkɪt",
+"Reservation|预订|Yù dìng|ˌrɛzərˈveɪʃən",
+"Boarding Pass|登机牌|Dēng jī pái|ˈbɔrdɪŋ pæs",
+"Passport|护照|Hù zhào|ˈpæˌspɔrt",
+"Visa|签证|Qiān zhèng|ˈvizə",
+"Luggage|行李|Xíng lǐ|ˈləgɪʤ",
+"Briefcase|公文包|Gōng wén bāo|ˈbrifˌkeɪs",
+"Backpack|背包|Bèi bāo|ˈbækˌpæk",
+"Umbrella|雨伞|Yǔ sǎn|ˈəmˌbrɛlə",
+"Mask|口罩|Kǒu zhào|mæsk",
+"Gloves|手套|Shǒu tào|gləvz",
+"Coat|外套|Wài tào|koʊt",
+"Jacket|夹克|Jiá kè|ˈʤækɪt",
+"Shirt|衬衫|Chèn shān|ʃərt",
+"Pants|裤子|Kù zi|pænts",
+"Shoes|鞋子|Xié zi|ʃuz",
+"Uniform|工作服|Gōng zuò fú|ˈjunəˌfɔrm",
+"Greeting|问候|Wèn hòu|ˈgritɪŋ",
+"Introduction|介绍|Jiè shào|ˌɪntrəˈdəkʃən",
+"Small Talk|闲聊|Xián liáo|smɔl tɔk",
+"Conversation|对话|Duì huà|ˌkɑnvərˈseɪʃən",
+"Communication|沟通|Gōu tōng|kəmˌjunəˈkeɪʃən",
+"Discussion|讨论|Tǎo lùn|dɪˈskəʃən",
+"Debate|辩论|Biàn lùn|dəˈbeɪt",
+"Persuade|说服|Shuō fú|pərsˈweɪd",
+"Explain|解释|Jiě shì|ɪkˈspleɪn",
+"Clarify|澄清|Chéng qīng|ˈklɛrəˌfaɪ",
+"Confirm|确认|Què rèn|kənˈfərm",
+"Remind|提醒|Tí xǐng|riˈmaɪnd",
+"Notify|通知|Tōng zhī|ˈnoʊtəˌfaɪ",
+"Inform|告知|Gào zhī|ˌɪnˈfɔrm",
+"Advise|劝告|Quàn gào|ədˈvaɪz",
+"Warn|警告|Jǐng gào|wɔrn",
+"Apologize|道歉|Dào qiàn|əˈpɑləˌʤaɪz",
+"Thank|感谢|Gǎn xiè|θæŋk",
+"Congratulate|祝贺|Zhù hè|kənˈgræʧəˌleɪt",
+"Compliment|赞美|Zàn měi|ˈkɑmpləmɛnt",
+"Encourage|鼓励|Gǔ lì|ɪnˈkərəʤ",
+"Comfort|安慰|Ān wèi|ˈkəmfərt",
+"Forgive|原谅|Yuán liàng|fərˈgɪv",
+"Promise|承诺|Chéng nuò|ˈprɑməs",
+"Agree|同意|Tóng yì|əˈgri",
+"Disagree|不同意|Bù tóng yì|dɪsəˈgri",
+"Accept|接受|Jiē shòu|əkˈsɛpt",
+"Refuse|拒绝|Jù jué|ˈrɛfˌjuz",
+"Allow|允许|Yǔn xǔ|əˈlaʊ",
+"Forbid|禁止|Jìn zhǐ|fərˈbɪd",
+"Help|帮助|Bāng zhù|hɛlp",
+"Support|支持|Zhī chí|səˈpɔrt",
+"Trust|信任|Xìn rèn|trəst",
+"Doubt|怀疑|Huái yí|daʊt",
+"Worry|担心|Dān xīn|ˈwəri",
+"Fear|害怕|Hài pà|fɪr",
+"Happy|开心|Kāi xīn|ˈhæpi",
+"Sad|难过|Nán guò|sæd",
+"Angry|生气|Shēng qì|ˈæŋgri",
+"Tired|疲劳|Pí láo|taɪərd",
+"Hungry|饥饿|Jī è|ˈhəŋgri",
+"Thirsty|口渴|Kǒu kě|ˈθərsti",
+"Sleepy|困倦|Kùn juàn|sˈlipi",
+"Cold|冷|Lěng|koʊld",
+"Hot|热|Rè|hɑt",
+"Health|健康|Jiàn kāng|hɛlθ",
+"Exercise|运动|Yùn dòng|ˈɛksərˌsaɪz",
+"Diet|饮食|Yǐn shí|daɪət",
+"Vegetable|蔬菜|Shū cài|ˈvɛʤtəbəl",
+"Fruit|水果|Shuǐ guǒ|frut",
+"Meat|肉|Ròu|mit",
+"Rice|米饭|Mǐ fàn|raɪs",
+"Noodle|面条|Miàn tiáo|ˈnudəl",
+"Bread|面包|Miàn bāo|brɛd",
+"Egg|鸡蛋|Jī dàn|ɛg",
+"Milk|牛奶|Niú nǎi|mɪlk",
+"Water|水|Shuǐ|ˈwɔtər",
+"Juice|果汁|Guǒ zhī|ʤus",
+"Soup|汤|Tāng|sup",
+"Snack|零食|Líng shí|snæk",
+"Dessert|甜点|Tián diǎn|dɪˈzərt",
+"Canteen|食堂|Shí táng|kænˈtin",
+"Restaurant|餐厅|Cān tīng|ˈrɛˌstrɑnt",
+"Menu|菜单|Cài dān|ˈmɛnju",
+"Order Food|点餐|Diǎn cān|ˈɔrdər fud",
+"Delicious|美味|Měi wèi|dɪˈlɪʃəs",
+"Tasty|好吃|Hǎo chī|ˈteɪsti",
+"Awful|难吃|Nán chī|ˈɔfəl",
+"Spicy|辣|Là|ˈspaɪsi",
+"Sweet|甜|Tián|swit",
+"Sour|酸|Suān|saʊər",
+"Bitter|苦|Kǔ|ˈbɪtər",
+"Salty|咸|Xián|ˈsɔlti",
+"Fresh|新鲜|Xīn xiān|frɛʃ",
+"Stale|不新鲜|Bù xīn xiān|steɪl",
+"Cook|做饭|Zuò fàn|kʊk",
+"Boil|煮|Zhǔ|bɔɪl",
+"Fry|炒|Chǎo|fraɪ",
+"Roast|烤|Kǎo|roʊst",
+"Steam|蒸|Zhēng|stim",
+"Cut|切|Qiē|kət",
+"Wash|洗|Xǐ|wɑʃ",
+"Clean|清洁|Qīng jié|klin",
+"Mess|脏乱|Zāng luàn|mɛs",
+"Organize|整理|Zhěng lǐ|ˈɔrgəˌnaɪz",
+"Arrange|安排|Ān pái|əreɪnʤ",
+"Prepare|准备|Zhǔn bèi|priˈpɛr",
+"Start|开始|Kāi shǐ|stɑrt",
+"Finish|完成|Wán chéng|ˈfɪnɪʃ",
+"Pause|暂停|Zàn tíng|pɔz",
+"Continue|继续|Jì xù|kənˈtɪnju",
+"Repeat|重复|Chóng fù|rɪˈpit",
+"Remember|记住|Jì zhù|rɪˈmɛmbər",
+"Forget|忘记|Wàng jì|fərˈgɛt",
+"Learn|学习|Xué xí|lərn",
+"Teach|教|Jiāo|tiʧ",
+"Understand|理解|Lǐ jiě|ˌəndərˈstænd",
+"Know|知道|Zhī dào|noʊ",
+"Think|思考|Sī kǎo|θɪŋk",
+"Idea|主意|Zhǔ yi|aɪˈdiə",
+"Opinion|意见|Yì jiàn|əˈpɪnjən",
+"Mind|想法|Xiǎng fǎ|maɪnd",
+"Feel|感觉|Gǎn jué|fil",
+"Look|看|Kàn|lʊk",
+"See|看见|Kàn jiàn|si",
+"Watch|观看|Guān kàn|wɔʧ",
+"Listen|听|Tīng|ˈlɪsən",
+"Hear|听到|Tīng dào|hir",
+"Speak|说|Shuō|spik",
+"Talk|讲话|Jiǎng huà|tɔk",
+"Tell|告诉|Gào sù|tɛl",
+"Ask|询问|Xún wèn|æsk",
+"Answer|回答|Huí dá|ˈænsər",
+"Read|阅读|Yuè dú|rɛd",
+"Write|书写|Shū xiě|raɪt",
+"Draw|画画|Huà huà|drɔ",
+"Show|展示|Zhǎn shì|ʃoʊ",
+"Share|分享|Fēn xiǎng|ʃɛr",
+"Give|给|Gěi|gɪv",
+"Take|拿|Ná|teɪk",
+"Send|发送|Fā sòng|sɛnd",
+"Receive|接收|Jiē shōu|rɪˈsiv",
+"Open|打开|Dǎ kāi|ˈoʊpən",
+"Close|关闭|Guān bì|kloʊz",
+"Turn On|开启|Kāi qǐ|tərn ɔn",
+"Turn Off|关闭|Guān bì|tərn ɔf",
+"Push|推|Tuī|pʊʃ",
+"Pull|拉|Lā|pʊl",
+"Lift|抬起|Tái qǐ|lɪft",
+"Drop|掉落|Diào luò|drɔp",
+"Pick|捡起|Jiǎn qǐ|pɪk",
+"Hold|握住|Wò zhù|hoʊld",
+"Carry|搬运|Bān yùn|ˈkɛri",
+"Move|移动|Yí dòng|muv",
+"Stand|站立|Zhàn lì|stænd",
+"Sit|坐下|Zuò xià|sɪt",
+"Walk|走路|Zǒu lù|wɔk",
+"Run|跑步|Pǎo bù|rən",
+"Jump|跳跃|Tiào yuè|ʤəmp",
+"Climb|攀爬|Pān pá|klaɪm",
+"Drive|开车|Kāi chē|draɪv",
+"Ride|骑车|Qí chē|raɪd",
+"Fly|飞|Fēi|flaɪ",
+"Swim|游泳|Yóu yǒng|swɪm",
+"Stop|停止|Tíng zhǐ|stɑp",
+"Wait|等待|Děng dài|weɪt",
+"Hurry|快点|Kuài diǎn|ˈhəri",
+"Slow|慢点|Màn diǎn|sloʊ",
+"Early|早|Zǎo|ˈərli",
+"Late|晚|Wǎn|leɪt",
+"Now|现在|Xiàn zài|naʊ",
+"Today|今天|Jīn tiān|təˈdeɪ",
+"Tomorrow|明天|Míng tiān|təˈmɑˌroʊ",
+"Yesterday|昨天|Zuó tiān|ˈjɛstərˌdeɪ",
+"Morning|早上|Zǎo shang|ˈmɔrnɪŋ",
+"Afternoon|下午|Xià wǔ|ˌæftərˈnun",
+"Evening|晚上|Wǎn shang|ˈivnɪŋ",
+"Night|夜晚|Yè wǎn|naɪt",
+"Monday|周一|Zhōu yī|ˈmənˌdeɪ",
+"Tuesday|周二|Zhōu èr|ˈtuzˌdeɪ",
+"Wednesday|周三|Zhōu sān|ˈwɛnzˌdeɪ",
+"Thursday|周四|Zhōu sì|ˈθərzˌdeɪ",
+"Friday|周五|Zhōu wǔ|ˈfraɪˌdeɪ",
+"Saturday|周六|Zhōu liù|ˈsæˌtɪˌdeɪ",
+"Sunday|周日|Zhōu rì|ˈsənˌdi",
+"January|一月|Yī yuè|ˈʤænjuˌɛri",
+"February|二月|Èr yuè|ˈfɛbruˌɛri",
+"March|三月|Sān yuè|mɑrʧ",
+"April|四月|Sì yuè|ˈeɪprəl",
+"May|五月|Wǔ yuè|meɪ",
+"June|六月|Liù yuè|ʤun",
+"July|七月|Qī yuè|ˌʤuˈlaɪ",
+"August|八月|Bā yuè|ˈɔgəst",
+"September|九月|Jiǔ yuè|sɛpˈtɛmbər",
+"October|十月|Shí yuè|ɑkˈtoʊbər",
+"November|十一月|Shí yī yuè|noʊˈvɛmbər",
+"December|十二月|Shí èr yuè|dɪˈsɛmbər",
+"Spring|春天|Chūn tiān|spərɪŋ",
+"Summer|夏天|Xià tiān|ˈsəmər",
+"Autumn|秋天|Qiū tiān|ˈɔtəm",
+"Winter|冬天|Dōng tiān|ˈwɪntər",
+"Sunny|晴天|Qíng tiān|ˈsəni",
+"Rainy|雨天|Yǔ tiān|ˈreɪni",
+"Cloudy|阴天|Yīn tiān|ˈklaʊdi",
+"Windy|大风|Dà fēng|ˈwɪndi",
+"Snowy|下雪|Xià xuě|snoʊi",
+"Foggy|大雾|Dà wù|ˈfɑgi",
+"Weather|天气|Tiān qì|ˈwɛðər",
+"Temperature|温度|Wēn dù|ˈtɛmpərəʧər",
+"Degree|度数|Dù shù|dɪˈgri",
+"Clock|时钟|Shí zhōng|klɑk",
+"Watch|手表|Shǒu biǎo|wɔʧ",
+"Time|时间|Shí jiān|taɪm",
+"Minute|分钟|Fēn zhōng|ˈmɪnət",
+"Second|秒|Miǎo|ˈsɛkənd",
+"Hour|小时|Xiǎo shí|aʊər",
+"Day|天|Tiān|deɪ",
+"Week|周|Zhōu|wik",
+"Month|月|Yuè|mənθ",
+"Year|年|Nián|jɪr",
+"Date|日期|Rì qī|deɪt",
+"Birthday|生日|Shēng rì|ˈbərθˌdeɪ",
+"Anniversary|周年|Zhōu nián|ˌænəˈvərsəri",
+"Festival|节日|Jié rì|ˈfɛstɪvəl",
+"Celebration|庆祝|Qìng zhù|ˌsɛləˈbreɪʃən",
+"Party|派对|Pài duì|ˈpɑrti",
+"Gift|礼物|Lǐ wù|gɪft",
+"Card|卡片|Kǎ piàn|kɑrd",
+"Flower|花|Huā|flaʊər",
+"Tree|树|Shù|tri",
+"Grass|草|Cǎo|græs",
+"Sky|天空|Tiān kōng|skaɪ",
+"Sun|太阳|Tài yáng|sən",
+"Moon|月亮|Yuè liang|mun",
+"Star|星星|Xīng xing|stɑr",
+"Cloud|云|Yún|klaʊd",
+"Wind|风|Fēng|wɪnd",
+"Rain|雨|Yǔ|reɪn",
+"Snow|雪|Xuě|snoʊ",
+"River|河|Hé|ˈrɪvər",
+"Lake|湖|Hú|leɪk",
+"Sea|海|Hǎi|si",
+"Ocean|海洋|Hǎi yáng|ˈoʊʃən",
+"Mountain|山|Shān|ˈmaʊntən",
+"Forest|森林|Sēn lín|ˈfɔrɪst",
+"Park|公园|Gōng yuán|pɑrk",
+"City|城市|Chéng shì|ˈsɪti",
+"Town|城镇|Chéng zhèn|taʊn",
+"Village|村庄|Cūn zhuāng|ˈvɪlɪʤ",
+"Street|街道|Jiē dào|strit",
+"Road|马路|Mǎ lù|roʊd",
+"Building|建筑|Jiàn zhù|ˈbɪldɪŋ",
+"House|房子|Fáng zi|haʊs",
+"Room|房间|Fáng jiān|rum",
+"Door|门|Mén|dɔr",
+"Window|窗户|Chuāng hu|ˈwɪndoʊ",
+"Wall|墙|Qiáng|wɔl",
+"Floor|地板|Dì bǎn|flɔr",
+"Ceiling|天花板|Tiān huā bǎn|ˈsilɪŋ",
+"Light|灯|Dēng|laɪt",
+"Switch|开关|Kāi guān|swɪʧ",
+"Socket|插座|Chā zuò|ˈsɑkət",
+"Bed|床|Chuáng|bɛd",
+"Pillow|枕头|Zhěn tou|ˈpɪloʊ",
+"Blanket|毯子|Tǎn zi|ˈblæŋkɪt",
+"Table|桌子|Zhuō zi|ˈteɪbəl",
+"Sofa|沙发|Shā fā|ˈsoʊfə",
+"Cabinet|柜子|Guì zi|ˈkæbənət",
+"Mirror|镜子|Jìng zi|ˈmɪrər",
+"Towel|毛巾|Máo jīn|taʊəl",
+"Toothbrush|牙刷|Yá shuā|ˈtuθbrəʃ",
+"Toothpaste|牙膏|Yá gāo|ˈtuθˌpeɪst",
+"Soap|肥皂|Féi zào|soʊp",
+"Shampoo|洗发水|Xǐ fà shuǐ|ʃæmˈpu",
+"Shower|淋浴|Lín yù|ʃaʊər",
+"Bath|洗澡|Xǐ zǎo|bæθ",
+"Toilet|厕所|Cè suǒ|ˈtɔɪlət",
+"Paper|纸|Zhǐ|ˈpeɪpər",
+"Pen|钢笔|Gāng bǐ|pɛn",
+"Pencil|铅笔|Qiān bǐ|ˈpɛnsəl",
+"Eraser|橡皮|Xiàng pí|ɪˈreɪsər",
+"Ruler|尺子|Chǐ zi|ˈrulər",
+"Bag|包|Bāo|bæg",
+"Box|盒子|Hé zi|bɑks",
+"Book|书|Shū|bʊk",
+"Magazine|杂志|Zhì zhì|ˈmægəˌzin",
+"Newspaper|报纸|Bào zhǐ|ˈnuzˌpeɪpər",
+"Picture|图片|Tú piàn|ˈpɪkʧər",
+"Photo|照片|Zhào piàn|ˈfoʊˌtoʊ",
+"Camera|相机|Xiàng jī|ˈkæmərə",
+"Phone|电话|Diàn huà|foʊn",
+"Mobile|手机|Shǒu jī|ˈmoʊbəl",
+"App|应用|Yìng yòng|æp",
+"Game|游戏|Yóu xì|geɪm",
+"Music|音乐|Yīn yuè|mˈjuzɪk",
+"Song|歌|Gē|sɔŋ",
+"Movie|电影|Diàn yǐng|ˈmuvi",
+"Show|节目|Jié mù|ʃoʊ",
+"News|新闻|Xīn wén|nuz",
+"Radio|广播|Guǎng bō|ˈreɪdiˌoʊ",
+"TV|电视|Diàn shì|ˌtiːˈviː",
+"Screen|屏幕|Píng mù|skrin",
+"Button|按钮|àn niǔ|ˈbətən",
+"Battery|电池|Diàn chí|ˈbætəri",
+"Charge|充电|Chōng diàn|ʧɑrʤ",
+"Power|电量|Diàn liàng|paʊər",
+"Signal|信号|Xìn hào|ˈsɪgnəl",
+"Message|消息|Xiāo xī|ˈmɛsɪʤ",
+"Call|通话|Tōng huà|kɔl",
+"Video|视频|Shì pín|ˈvɪdioʊ",
+"Voice|语音|Yǔ yīn|vɔɪs",
+"Text|文字|Wén zì|tɛkst",
+"Chat|聊天|Liáo tiān|ʧæt",
+"Social Media|社交媒体|Shè jiāo méi tǐ|ˈsoʊʃəl ˈmidiə",
+"Friend|朋友|Péng you|frɛnd",
+"Family|家庭|Jiā tíng|ˈfæməli",
+"Parent|父母|Fù mǔ|ˈpɛrənt",
+"Child|孩子|Hái zi|ʧaɪld",
+"Brother|兄弟|Xiōng dì|ˈbrəðər",
+"Sister|姐妹|Jiě mèi|ˈsɪstər",
+"Relative|亲戚|Qīn qi|ˈrɛlətɪv",
+"Neighbor|邻居|Lín jū|ˈneɪbər",
+"Stranger|陌生人|Mò shēng rén|ˈstreɪnʤər",
+"People|人们|Rén men|ˈpipəl",
+"Person|人|Rén|ˈpərsən",
+"Man|男人|Nán rén|mæn",
+"Woman|女人|Nǚ rén|ˈwʊmən",
+"Boy|男孩|Nán hái|bɔɪ",
+"Girl|女孩|Nǚ hái|gərl",
+"Baby|婴儿|Yīng ér|ˈbeɪbi",
+"Adult|成年人|Chéng nián rén|ˈædəlt",
+"Kid|小孩|Xiǎo hái|kɪd",
+"Young|年轻|Nián qīng|jəŋ",
+"Old|年老|Nián lǎo|oʊld",
+"Height|身高|Shēn gāo|haɪt",
+"Weight|体重|Tǐ zhòng|weɪt",
+"Appearance|外貌|Wài mào|əˈpɪrəns",
+"Character|性格|Xìng gé|ˈkɛrɪktər",
+"Hobby|爱好|Ài hǎo|ˈhɑbi",
+"Interest|兴趣|Xìng qù|ˈɪntəˌrɛst",
+"Sport|运动|Yùn dòng|spɔrt",
+"Game|游戏|Yóu xì|geɪm",
+"Reading|阅读|Yuè dú|ˈrɛdɪŋ",
+"Writing|写作|Xiě zuò|ˈraɪtɪŋ",
+"Drawing|画画|Huà huà|drɔɪŋ",
+"Singing|唱歌|Chàng gē|ˈsɪŋɪŋ",
+"Dancing|跳舞|Tiào wǔ|ˈdænsɪŋ",
+"Cooking|做饭|Zuò fàn|ˈkʊkɪŋ",
+"Gardening|园艺|Yuán yì|ˈgɑrdənɪŋ",
+"Photography|摄影|Shè yǐng|fəˈtɑgrəfi",
+"Traveling|旅行|Lǚ xíng|ˈtrævəlɪŋ",
+"Fishing|钓鱼|Diào yú|ˈfɪʃɪŋ",
+"Shopping|购物|Gòu wù|ˈʃɑpɪŋ",
+"Movie|电影|Diàn yǐng|ˈmuvi",
+"Concert|演唱会|Yǎn chàng huì|ˈkɑnsərt",
+"Show|表演|Biǎo yǎn|ʃoʊ",
+"Park|公园|Gōng yuán|pɑrk",
+"Zoo|动物园|Dòng wù yuán|zu",
+"Library|图书馆|Tú shū guǎn|ˈlaɪbrɛˌri",
+"Museum|博物馆|Bó wù guǎn|mˈjuziəm",
+"Gym|健身房|Jiàn shēn fáng|ʤɪm",
+"Store|商店|Shāng diàn|stɔr",
+"Mall|商场|Shāng chǎng|mɔl",
+"Market|市场|Shì chǎng|ˈmɑrkɪt",
+"Shop|购物|Gòu wù|ʃɑp",
+"Buy|买|Mǎi|baɪ",
+"Sell|卖|Mài|sɛl",
+"Price|价格|Jià gé|praɪs",
+"Cheap|便宜|Pián yi|ʧip",
+"Expensive|昂贵|Áng guì|ɪkˈspɛnsɪv",
+"Discount|折扣|Zhé kòu|ˈdɪskaʊnt",
+"Sale|促销|Cù xiāo|seɪl",
+"Bill|账单|Zhàng dān|bɪl",
+"Cashier|收银员|Shōu yín yuán|kæˈʃɪr",
+"Bag|购物袋|Gòu wù dài|bæg",
+"Receipt|小票|Xiǎo piào|rɪˈsit",
+"Size|尺码|Chǐ mǎ|saɪz",
+"Color|颜色|Yán sè|ˈkələr",
+"Style|款式|Kuǎn shì|staɪl",
+"Quality|质量|Zhì liàng|kˈwɑləti",
+"Brand|品牌|Pǐn pái|brænd",
+"Model|型号|Xíng hào|ˈmɑdəl",
+"New|新的|Xīn de|nu",
+"Old|旧的|Jiù de|oʊld",
+"Good|好的|Hǎo de|gʊd",
+"Bad|坏的|Huài de|bæd",
+"Big|大的|Dà de|bɪg",
+"Small|小的|Xiǎo de|smɔl",
+"Long|长的|Cháng de|lɔŋ",
+"Short|短的|Duǎn de|ʃɔrt",
+"High|高的|Gāo de|haɪ",
+"Low|低的|Dī de|loʊ",
+"Wide|宽的|Kuān de|waɪd",
+"Narrow|窄的|Zhǎi de|ˈnɛroʊ",
+"Thick|厚的|Hòu de|θɪk",
+"Thin|薄的|Báo de|θɪn",
+"Full|满的|Mǎn de|fʊl",
+"Empty|空的|Kōng de|ˈɛmti",
+"Clean|干净的|Gān jìng de|klin",
+"Dirty|脏的|Zāng de|ˈdərti",
+"Fast|快的|Kuài de|fæst",
+"Slow|慢的|Màn de|sloʊ",
+"Early|早的|Zǎo de|ˈərli",
+"Late|晚的|Wǎn de|leɪt",
+"Easy|简单的|Jiǎn dān de|ˈizi",
+"Hard|困难的|Kùn nán de|hɑrd",
+"Strong|强壮的|Qiáng zhuàng de|strɔŋ",
+"Weak|虚弱的|Xū ruò de|wik",
+"Busy|忙碌的|Máng lù de|ˈbɪzi",
+"Free|空闲的|Kòng xián de|fri",
+"Right|正确的|Zhèng què de|raɪt",
+"Wrong|错误的|Cuò wù de|rɔŋ"
+];
+
+function parseData(arr) { return arr.map(item => { let parts = item.split('|'); return { en: parts[0], zh: parts[1], py: parts[2] || '', ipa: parts[3] || '' }; }); }
+
+// ================= 💡 PAGINATION ENGINE (翻页引擎) =================
+let currentCategory = 'tech';
+let currentSearchQuery = '';
+let currentPage = 1;
+const itemsPerPage = 20; // 每一页显示 20 个单词
+let filteredDict = [];
+
+// Handle Search Input globally
+function handleSearch() {
+  currentSearchQuery = document.getElementById('wordSearch').value.toLowerCase();
+  currentPage = 1; // 搜索时重置回第一页
+  renderPage();
+}
+
+function switchCategory(cat) { 
+  currentCategory = cat;
+  document.getElementById('btn-cat-tech').classList.remove('active');
+  document.getElementById('btn-cat-daily').classList.remove('active');
+  document.getElementById('btn-cat-' + cat).classList.add('active');
+  
+  // Clear search when switching tabs
+  document.getElementById('wordSearch').value = '';
+  currentSearchQuery = '';
+  currentPage = 1;
+  renderPage(); 
+}
+
+function renderPage(page) {
+  if (page) currentPage = page;
+  var grid = document.getElementById('wordGrid');
+  var paginationContainer = document.getElementById('paginationContainer');
+  
+  // 1. Get raw data
+  let rawData = currentCategory === 'tech' ? parseData(techRawData) : parseData(dailyRawData);
+  
+  // 2. Apply Search Filter
+  if (currentSearchQuery) {
+    filteredDict = rawData.filter(w => (w.en + " " + w.zh + " " + w.py).toLowerCase().includes(currentSearchQuery));
+  } else {
+    filteredDict = rawData;
+  }
+
+  // 3. Calculate Pages
+  const totalItems = filteredDict.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const pageData = filteredDict.slice(startIndex, endIndex);
+
+  // 4. Render Grid
+  var htmlStr = "";
+  if (pageData.length === 0) {
+    htmlStr = `<div style="grid-column: 1/-1; text-align:center; padding: 40px; color:#888; font-weight:bold;">No words found. Try a different search.</div>`;
+  } else {
+    pageData.forEach((word, localIdx) => {
+      let absoluteIdx = startIndex + localIdx; // Maintain unique IDs across pages
+      htmlStr += `
+        <div class="word-card" id="word-${absoluteIdx}">
+          <div style="width:100%">
+            <div class="word-header-row">
+              <div class="word-info">
+                <div class="word-title">${absoluteIdx + 1}. ${word.en}</div>
+                <div class="word-ipa">${word.ipa ? '/' + word.ipa + '/' : ''}</div>
+                <div class="word-zh">${word.zh} <span class="pinyin-txt">${word.py}</span></div>
+              </div>
+              <div class="word-actions">
+                <button id="btn-lis-${absoluteIdx}" class="btn-listen" onclick="speakBilingual('${word.en.replace(/'/g, "\\'")}', '${word.zh.replace(/'/g, "\\'")}', 'btn-lis-${absoluteIdx}')">🔊 Listen</button>
+                <button class="btn-speak" onclick="openMemoUI(${absoluteIdx}, '${word.en.replace(/'/g, "\\'")}')">🎤 Speak</button>
+              </div>
+            </div>
+            <div id="res-${absoluteIdx}" class="eval-result"></div>
+            <div id="memo-${absoluteIdx}" class="voice-memo-panel">
+              <div class="memo-left"><div class="memo-timer" id="timer-${absoluteIdx}">00:00</div><div class="memo-status" id="status-${absoluteIdx}"><span class="status-dot"></span> REC</div></div>
+              <div class="waveform"><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div></div>
+              <div class="memo-controls"><button class="ctrl-btn btn-pause" id="btn-pause-${absoluteIdx}" onclick="toggleMemoPause(${absoluteIdx})">⏸</button><button class="ctrl-btn btn-done" onclick="finishMemo(${absoluteIdx}, '${word.en.replace(/'/g, "\\'")}')">⏹</button></div>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+  }
+  grid.innerHTML = htmlStr;
+
+  // 5. Render Pagination UI
+  let pageHtml = `<div class="pagination">`;
+  if (currentPage > 1) {
+    pageHtml += `<button class="page-btn" onclick="renderPage(${currentPage - 1})">← Prev</button>`;
+  } else {
+    pageHtml += `<button class="page-btn" disabled>← Prev</button>`;
+  }
+  
+  pageHtml += `<span class="page-info">Page ${currentPage} of ${totalPages} (${totalItems} words)</span>`;
+  
+  if (currentPage < totalPages) {
+    pageHtml += `<button class="page-btn" onclick="renderPage(${currentPage + 1})">Next →</button>`;
+  } else {
+    pageHtml += `<button class="page-btn" disabled>Next →</button>`;
+  }
+  pageHtml += `</div>`;
+  
+  paginationContainer.innerHTML = pageHtml;
+}
+
+
+
+
+// ================= VOICE MEMO & EVALUATION ENGINE (cross-platform) =================
+let activeRec = null, activeMemoId = null, memoTimer = null, memoSeconds = 0, memoPaused = false, accumulatedTranscript = "";
+
+// Detect platform for user-friendly messaging
+function isIOS() { return /iPhone|iPad|iPod/i.test(navigator.userAgent); }
+function isSafari() { return /^((?!chrome|android).)*safari/i.test(navigator.userAgent); }
+function hasSpeechRecognition() { return !!(window.SpeechRecognition || window.webkitSpeechRecognition); }
+
+function formatTime(sec) {
+    var m = Math.floor(sec / 60).toString().padStart(2, '0');
+    var s = (sec % 60).toString().padStart(2, '0');
+    return m + ":" + s;
+}
+
+function closeAllMemos() {
+    memoPaused = true; // prevent onend auto-restart
+    if(activeRec) { try { activeRec.stop(); } catch(e) {} activeRec = null; }
+    if(memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+    activeMemoId = null; memoSeconds = 0; accumulatedTranscript = "";
+    document.querySelectorAll('.voice-memo-panel').forEach(function(p) { p.style.display = 'none'; p.classList.remove('active', 'paused'); });
+    document.querySelectorAll('.eval-result').forEach(function(r) { r.style.display = 'none'; });
+}
+
+function showRecError(idx, msg) {
+  var resDiv = document.getElementById('res-' + idx);
+  if (!resDiv) return;
+  resDiv.innerHTML = msg;
+  resDiv.className = "eval-result error";
+  resDiv.style.display = "block";
+}
+
+function isAndroid() { return /android/i.test(navigator.userAgent); }
+
+function openMemoUI(idx, targetWord) {
+  if (!hasSpeechRecognition()) {
+    var tip = isIOS()
+      ? '❌ iPhone/iPad Safari does not support speech recording. Please use Chrome or Edge on a computer or Android phone.<br><small>Tip: You can still use the 🔊 Listen button for practice.</small>'
+      : '❌ Your browser does not support speech recording. Please use Chrome or Edge on a computer or Android phone.';
+    showRecError(idx, tip);
+    return;
+  }
+  closeAllMemos();
+  activeMemoId = idx;
+  memoSeconds = 0;
+  memoPaused = false;
+  accumulatedTranscript = "";
+  var panel = document.getElementById('memo-' + idx);
+  if (!panel) { showRecError(idx, '❌ Recording panel not found. Please refresh the page.'); return; }
+  panel.style.display = 'flex';
+  panel.classList.add('active');
+  var timerEl = document.getElementById('timer-' + idx);
+  var statusEl = document.getElementById('status-' + idx);
+  var pauseBtn = document.getElementById('btn-pause-' + idx);
+  if (timerEl) timerEl.innerText = "00:00";
+  if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REQUESTING MIC...';
+  if (pauseBtn) pauseBtn.innerText = '⏸';
+
+  // Android fix: request mic permission via getUserMedia BEFORE SpeechRecognition
+  // Without this, Chrome/Edge on Android (Huawei/Xiaomi/OPPO etc.) may silently fail
+  var requestMic = (navigator.mediaDevices && navigator.mediaDevices.getUserMedia)
+    ? navigator.mediaDevices.getUserMedia({ audio: true })
+    : Promise.reject(new Error('getUserMedia not available'));
+
+  requestMic.then(function(stream) {
+    // Permission granted — stop stream, we just needed the permission prompt
+    if (stream) { stream.getTracks().forEach(function(t) { t.stop(); }); }
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> STARTING...';
+    // Now safe to start speech recognition
+    memoTimer = setInterval(function() {
+      if (!memoPaused) {
+        memoSeconds++;
+        var t = document.getElementById('timer-' + idx);
+        if (t) t.innerText = formatTime(memoSeconds);
+      }
+    }, 1000);
+    startRecognition(idx);
+  }).catch(function(err) {
+    // Microphone permission denied or hardware not available
+    panel.style.display = 'none';
+    panel.classList.remove('active', 'paused');
+    if (activeRec) { activeRec = null; }
+    var hint = isAndroid()
+      ? '❌ Microphone blocked. On Android: open phone Settings → Apps → Chrome (or Edge) → Permissions → Microphone → Allow. Then refresh this page. If still not working, check that Google Play Services is installed.'
+      : '❌ Microphone not accessible. Please allow microphone in browser settings (click 🔒 in address bar) and try again.';
+    showRecError(idx, hint);
+  });
+}
+
+function startRecognition(idx) {
+  var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var recId = (idx !== undefined) ? idx : activeMemoId;
+  try {
+    activeRec = new SpeechRecognition();
+  } catch(e) {
+    showRecError(recId, '❌ Could not start recording. Please try again.');
+    return;
+  }
+  activeRec.lang = 'en-US';
+  activeRec.continuous = true;
+  activeRec.interimResults = true;
+  activeRec.maxAlternatives = 1;
+  // Capture the ID in closure to avoid race conditions
+  var capturedId = recId;
+  var hasStarted = false;
+  var noSpeechCount = 0;
+  var MAX_NO_SPEECH = 3;
+
+  activeRec.onstart = function() {
+    hasStarted = true;
+    noSpeechCount = 0;
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC ● SPEAK NOW';
+    var resDiv = document.getElementById('res-' + capturedId);
+    if (resDiv) { resDiv.style.display = 'none'; }
+  };
+
+  activeRec.onspeechstart = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> HEARD! Converting...';
+  };
+
+  activeRec.onaudiostart = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> LISTENING';
+  };
+
+  activeRec.onaudioend = function() {
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> REC';
+  };
+
+  activeRec.onnomatch = function() {
+    // Speech was heard but not recognized — different from no-speech
+    var statusEl = document.getElementById('status-' + capturedId);
+    if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#ff0"></span> HEARD, RETRY...';
+  };
+
+  activeRec.onresult = function(e) {
+    for (var i = e.resultIndex; i < e.results.length; ++i) {
+      if (e.results[i].isFinal) accumulatedTranscript += e.results[i][0].transcript + " ";
+      if (!e.results[i].isFinal) {
+        var statusEl = document.getElementById('status-' + capturedId);
+        if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> ' + e.results[i][0].transcript.substring(0, 30);
+      }
+    }
+  };
+
+  activeRec.onerror = function(e) {
+    var id = capturedId;
+    if (e.error === 'no-speech') {
+      noSpeechCount++;
+      if (noSpeechCount >= MAX_NO_SPEECH) {
+        // Too many retries — likely Google speech servers unreachable (common in China)
+        var panel = document.getElementById('memo-' + id);
+        if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+        if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+        activeRec = null;
+        showRecError(id, '⚠️ No speech detected after ' + MAX_NO_SPEECH + ' tries.<br><br>This usually means Google speech servers are unreachable on this phone.<br><br>Workaround: use the 🔊 Listen button to hear pronunciation and practice by repeating aloud. Recording feature requires Google services.');
+        return;
+      }
+      // Show feedback and retry
+      var statusEl = document.getElementById('status-' + capturedId);
+      if (statusEl) statusEl.innerHTML = '<span class="status-dot"></span> RETRY ' + noSpeechCount + '/' + MAX_NO_SPEECH + '...';
+      if (!memoPaused && activeRec && memoTimer) {
+        setTimeout(function() {
+          if (activeRec && !memoPaused && memoTimer) {
+            try { activeRec.start(); } catch(e2) {}
+          }
+        }, 800);
+      }
+      return;
+    }
+    if (e.error === 'aborted') return;
+    if (e.error === 'network') {
+      var panel2 = document.getElementById('memo-' + id);
+      if (panel2) { panel2.style.display = 'none'; panel2.classList.remove('active', 'paused'); }
+      if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+      activeRec = null;
+      showRecError(id, '⚠️ Network error. Speech recognition needs a stable internet connection to Google servers. If you are in China, this feature may not work without VPN.');
+      return;
+    }
+    var errMap = {
+      'not-allowed': '❌ Microphone access denied. Click 🔒 in address bar → allow microphone → refresh page.',
+      'audio-capture': '❌ No microphone found. Please connect a microphone.',
+      'network': '⚠️ Network error. Speech recognition needs internet connection.'
+    };
+    var msg = errMap[e.error] || ('❌ Recording error: ' + (e.error || 'unknown'));
+    if (msg && id !== null) showRecError(id, msg);
+    // Clean up for fatal errors
+    var panel = document.getElementById('memo-' + id);
+    if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+    if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+    activeRec = null;
+  };
+
+  activeRec.onend = function() {
+    // continuous=true keeps recognition alive; only reaches here on manual stop
+    hasStarted = false;
+  };
+
+  // Must wrap start() - Chrome throws synchronously on permission denied
+  try {
+    activeRec.start();
+  } catch (e) {
+    var id = capturedId;
+    activeRec = null;
+    if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+    if (id !== null) {
+      var panel = document.getElementById('memo-' + id);
+      if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+      var startErrMsg = isAndroid()
+        ? '❌ Microphone not accessible. On your phone: Settings → Apps → Chrome/Edge → Permissions → Microphone → Allow. Also check that Google Play Services is installed. Then refresh.'
+        : '❌ Microphone not accessible. Click 🔒 in address bar → allow microphone → refresh page.';
+      showRecError(id, startErrMsg);
+    }
+  }
+}
+
+function toggleMemoPause(idx) {
+    var panel = document.getElementById('memo-' + idx);
+    var pauseBtn = document.getElementById('btn-pause-' + idx);
+    var statusTxt = document.getElementById('status-' + idx);
+    if (!panel) return;
+    if (!memoPaused) {
+        memoPaused = true;
+        panel.classList.remove('active');
+        panel.classList.add('paused');
+        if (pauseBtn) pauseBtn.innerText = '▶';
+        if (statusTxt) statusTxt.innerHTML = 'PAUSE';
+        if (activeRec) { try { activeRec.stop(); } catch(e) {} }
+    } else {
+        memoPaused = false;
+        panel.classList.remove('paused');
+        panel.classList.add('active');
+        if (pauseBtn) pauseBtn.innerText = '⏸';
+        if (statusTxt) statusTxt.innerHTML = '<span class="status-dot"></span> REC';
+        startRecognition(idx);
+    }
+}
+
+function finishMemo(idx, targetWord) {
+  var panel = document.getElementById('memo-' + idx);
+  var resDiv = document.getElementById('res-' + idx);
+  var recordedSeconds = memoSeconds;
+  var transcript = accumulatedTranscript;
+  if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+  if (activeRec) { try { activeRec.stop(); } catch(e) {} activeRec = null; }
+  if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+  activeMemoId = null; memoSeconds = 0; accumulatedTranscript = "";
+  memoPaused = false;
+
+  if (!resDiv) return;
+  setTimeout(function() {
+    var finalTrans = transcript.toLowerCase().replace(/[.,!?]/g, '').trim();
+    var tgt = targetWord.toLowerCase().trim();
+    resDiv.style.display = "block";
+    if (!finalTrans) { resDiv.innerHTML = "❌ No speech detected. Try speaking closer to the microphone."; resDiv.className = "eval-result error"; return; }
+
+    // Smart fuzzy matching: exact match > contains > partial word match
+    var tgtWords = tgt.split(/\s+/);
+    var heardWords = finalTrans.split(/\s+/);
+    var matchedWords = tgtWords.filter(function(tw) {
+      return heardWords.some(function(hw) { return hw.includes(tw) || tw.includes(hw); });
+    });
+    var matchRatio = matchedWords.length / tgtWords.length;
+    var isPerfect = finalTrans.includes(tgt) || tgt.includes(finalTrans) || matchRatio >= 0.6;
+
+    recordWordPractice(isPerfect);
+
+    if (isPerfect) {
+        resDiv.innerHTML = "✅ Good! [" + formatTime(recordedSeconds) + "]";
+        resDiv.className = "eval-result success";
+    } else {
+        resDiv.innerHTML = "❌ Heard: <b>'" + finalTrans + "'</b>. Expected: <b>" + tgt + "</b>. Try again!";
+        resDiv.className = "eval-result error";
+    }
+  }, 400);
+}
+
+const grammarData = [
+  { icon: "✉️", coverTitle: "Email Writing", coverClass: "cover-1", title: "Past Simple vs. Present Perfect", formula: ["Past Simple: finished past action", "Present Perfect: result matters now"], explanation: "Use past simple with a clear past time. Use present perfect when the current result or status is more important.", tip: "If your sentence includes yesterday, last week or a date, past simple is usually the safer choice.", examples: [["We shipped the generator yesterday.", "我们昨天发运了机组。"], ["We have shipped the generator, so the client can track it now.", "我们已经发货，所以客户现在可以查询物流。"]] },
+  { icon: "🤝", coverTitle: "Professional Tone", coverClass: "cover-2", title: "Polite Requests", formula: ["Could / Would you please + verb ... ?"], explanation: "Use soft request structures in email, chat and meetings when you need action from colleagues or customers.", tip: "When the request is sensitive, add please and a reason after it. The sentence sounds warmer and clearer.", examples: [["Could you please send me the quotation?", "您能把报价单发给我吗？"], ["Would you please confirm the delivery address?", "您可以确认一下收货地址吗？"]] },
+  { icon: "📝", coverTitle: "Reports", coverClass: "cover-3", title: "Active vs. Passive Voice", formula: ["Active: subject + verb + object", "Passive: be + past participle"], explanation: "Use active voice for responsibility and action. Use passive voice in reports when the process or result matters more than the actor.", tip: "If you need to show ownership, choose active voice. If you need a neutral report tone, passive often works better.", examples: [["Our team tested the generator for four hours.", "我们团队测试了机组四个小时。"], ["The generator was tested for four hours.", "机组被测试了四个小时。"]] },
+  { icon: "⏳", coverTitle: "Scheduling", coverClass: "cover-4", title: "Prepositions of Time", formula: ["In + month / year", "On + day / date", "At + exact time"], explanation: "These are basic but high-frequency forms for meeting invitations, delivery dates and appointments.", tip: "A fast memory trick: big time uses in, calendar points use on, and exact clock time uses at.", examples: [["The meeting is on Friday at 2 PM.", "会议在周五下午两点。"], ["We will start production in June.", "我们将在六月开始生产。"]] },
+  { icon: "📣", coverTitle: "Updates", coverClass: "cover-1", title: "Present Continuous for Current Work", formula: ["am / is / are + verb-ing"], explanation: "Use the present continuous when giving live progress updates about what is happening now.", tip: "This tense is great in meetings when you want to sound active and current, not vague.", examples: [["I am checking the final draft now.", "我现在正在检查最终稿。"], ["The warehouse team is preparing the shipment.", "仓库团队正在准备发货。"]] },
+  { icon: "📅", coverTitle: "Planning", coverClass: "cover-2", title: "Will vs. Be Going To", formula: ["Will: decision / promise now", "Be going to: planned action"], explanation: "Use will for quick decisions and promises. Use be going to for plans that already exist.", tip: "If the plan existed before this conversation, be going to usually sounds more natural.", examples: [["I will call the supplier after lunch.", "我午饭后会给供应商打电话。"], ["We are going to review the budget tomorrow morning.", "我们明早打算审预算。"]] },
+  { icon: "🔄", coverTitle: "Follow-up", coverClass: "cover-3", title: "Need To / Have To / Should", formula: ["Need to: necessary action", "Have to: external rule", "Should: recommendation"], explanation: "These modal-like structures help you sound precise about obligations and suggestions in office English.", tip: "Need to feels practical, have to feels imposed, and should feels advisory. That small difference changes tone a lot.", examples: [["We need to update the customer today.", "我们今天需要更新客户情况。"], ["You should attach the test report as well.", "你也应该附上测试报告。"]] },
+  { icon: "📞", coverTitle: "Calls", coverClass: "cover-4", title: "Indirect Questions", formula: ["Could you tell me ... ?", "Do you know whether ... ?"], explanation: "Indirect questions sound more polite on calls and in email threads, especially with customers.", tip: "If a direct question sounds too sharp, turn it into an indirect question to sound professional and calm.", examples: [["Could you tell me when the sample will arrive?", "您能告诉我样品什么时候到吗？"], ["Do you know whether the meeting room is available?", "你知道会议室是否可用吗？"]] },
+  { icon: "📦", coverTitle: "Logistics", coverClass: "cover-1", title: "Conditionals for Risk and Delay", formula: ["If + present, will + verb"], explanation: "Use the first conditional for real business situations such as delivery delays, approvals and production changes.", tip: "This pattern is one of the easiest ways to sound logical in project updates and risk discussions.", examples: [["If the parts arrive today, we will start assembly tonight.", "如果零件今天到，我们今晚就开始装配。"], ["If the client approves the sample, we will move to mass production.", "如果客户批准样品，我们就转入批量生产。"]] },
+  { icon: "📊", coverTitle: "Meetings", coverClass: "cover-2", title: "Comparatives for Reporting", formula: ["more / less + adjective", "-er than"], explanation: "Comparatives are useful when discussing price, speed, quality, output and market change.", tip: "Comparatives make business reporting feel concrete. Try to compare with last month, the old model or another option.", examples: [["This solution is more cost-effective than the old one.", "这个方案比旧方案更划算。"], ["Our response time is faster than last month.", "我们的响应速度比上个月更快。"]] },
+  { icon: "🧾", coverTitle: "Email Tone", coverClass: "cover-3", title: "Useful Linking Words", formula: ["because / so / however / therefore"], explanation: "Linking words improve clarity in reports, customer explanations and internal updates.", tip: "If your email feels abrupt, add one linking word between ideas and it instantly sounds more polished.", examples: [["The shipment was delayed because the supplier changed the packing date.", "发货延迟是因为供应商更改了装箱日期。"], ["The parts passed inspection, so we can continue production.", "零件通过了检验，所以我们可以继续生产。"]] },
+  { icon: "✅", coverTitle: "Confirmation", coverClass: "cover-4", title: "Confirming and Clarifying", formula: ["Just to confirm, ...", "Could you clarify ... ?"], explanation: "These phrases reduce mistakes in price confirmation, delivery arrangements and technical communication.", tip: "Use these phrases before a final action. They protect you from mistakes without sounding defensive.", examples: [["Just to confirm, the final price includes the controller.", "确认一下，最终价格包含控制器。"], ["Could you clarify which model the customer selected?", "您能澄清一下客户选择的是哪个型号吗？"]] }
+];
+
+const officeActions = [
+  ["join the meeting", "参加会议"], ["send the report", "发送报告"], ["check the email", "查看邮件"], ["update the schedule", "更新日程"],
+  ["print the document", "打印文件"], ["book the meeting room", "预订会议室"], ["confirm the price", "确认价格"], ["call the client", "给客户打电话"],
+  ["review the contract", "审核合同"], ["prepare the quotation", "准备报价单"], ["share the file", "分享文件"], ["arrange the delivery", "安排发货"],
+  ["follow up with the supplier", "跟进供应商"], ["reply to the customer", "回复客户"], ["finish the minutes", "完成会议纪要"], ["submit the application", "提交申请"],
+  ["check the inventory", "检查库存"], ["schedule the training", "安排培训"], ["test the sample", "测试样品"], ["clean up the desk", "整理办公桌"],
+  ["approve the payment", "批准付款"], ["track the shipment", "追踪货运"], ["update the customer", "更新客户情况"], ["send the reminder", "发送提醒"],
+  ["prepare the agenda", "准备议程"], ["confirm the order", "确认订单"], ["check the drawing", "检查图纸"], ["revise the proposal", "修改方案"],
+  ["book the flight", "预订航班"], ["arrange the pickup", "安排接送"], ["submit the expense form", "提交报销单"], ["close the ticket", "关闭工单"],
+  ["open the file", "打开文件"], ["restart the printer", "重启打印机"], ["draft the email", "起草邮件"], ["verify the data", "核对数据"],
+  ["organize the folder", "整理文件夹"], ["update the tracker", "更新跟踪表"], ["check the warranty", "检查保修情况"], ["prepare the handover", "准备交接"]
+];
+
+const officeObjects = [
+  ["the agenda", "议程"], ["the meeting minutes", "会议纪要"], ["the quotation", "报价单"], ["the invoice", "发票"],
+  ["the contract", "合同"], ["the delivery date", "交货日期"], ["the client request", "客户需求"], ["the supplier update", "供应商更新"],
+  ["the project timeline", "项目时间表"], ["the budget", "预算"], ["the approval form", "审批表"], ["the product sample", "产品样品"],
+  ["the test report", "测试报告"], ["the training plan", "培训计划"], ["the attendance record", "考勤记录"], ["the printer", "打印机"],
+  ["the WiFi connection", "无线网络连接"], ["the meeting room", "会议室"], ["the presentation", "演示文稿"], ["the action list", "行动清单"],
+  ["the delivery note", "送货单"], ["the packing list", "装箱单"], ["the production plan", "生产计划"], ["the payment status", "付款状态"],
+  ["the travel request", "出差申请"], ["the customer complaint", "客户投诉"], ["the quality issue", "质量问题"], ["the spare parts list", "备件清单"],
+  ["the technical drawing", "技术图纸"], ["the final version", "最终版本"], ["the weekly target", "周目标"], ["the shipping cost", "运费"],
+  ["the order number", "订单号"], ["the purchase request", "请购单"], ["the stock level", "库存水平"], ["the handover note", "交接说明"],
+  ["the price comparison", "价格对比"], ["the service schedule", "维保计划"], ["the approval email", "审批邮件"], ["the customer feedback", "客户反馈"]
+];
+
+const officePatterns = [
+  { make: a => ["Could you please " + a[0] + "?", "你能请" + a[1] + "吗？"], source: officeActions },
+  { make: a => ["I need to " + a[0] + " today.", "我今天需要" + a[1] + "。"], source: officeActions },
+  { make: a => ["Let's " + a[0] + " before lunch.", "我们午饭前" + a[1] + "吧。"], source: officeActions },
+  { make: a => ["Can we " + a[0] + " this afternoon?", "我们今天下午可以" + a[1] + "吗？"], source: officeActions },
+  { make: a => ["I will " + a[0] + " by the end of the day.", "我会在今天下班前" + a[1] + "。"], source: officeActions },
+  { make: a => ["Please remind me to " + a[0] + ".", "请提醒我" + a[1] + "。"], source: officeActions },
+  { make: a => ["We should " + a[0] + " as soon as possible.", "我们应该尽快" + a[1] + "。"], source: officeActions },
+  { make: a => ["Have you already " + a[0] + "?", "你已经" + a[1] + "了吗？"], source: officeActions },
+  { make: a => ["I can " + a[0] + " after the meeting.", "我可以在会后" + a[1] + "。"], source: officeActions },
+  { make: a => ["Please do not forget to " + a[0] + ".", "请别忘了" + a[1] + "。"], source: officeActions },
+  { make: a => ["We may need to " + a[0] + " again.", "我们可能需要再次" + a[1] + "。"], source: officeActions },
+  { make: a => ["Who is going to " + a[0] + "?", "谁来" + a[1] + "？"], source: officeActions },
+  { make: o => ["I am checking " + o[0] + ".", "我正在检查" + o[1] + "。"], source: officeObjects },
+  { make: o => ["There is an issue with " + o[0] + ".", o[1] + "有点问题。"], source: officeObjects },
+  { make: o => ["Could you help me with " + o[0] + "?", "你能帮我处理" + o[1] + "吗？"], source: officeObjects },
+  { make: o => ["The " + o[0].replace(/^the /, "") + " is ready.", o[1] + "已经准备好了。"], source: officeObjects },
+  { make: o => ["I have a question about " + o[0] + ".", "我有一个关于" + o[1] + "的问题。"], source: officeObjects },
+  { make: o => ["We need approval for " + o[0] + ".", "我们需要" + o[1] + "的审批。"], source: officeObjects },
+  { make: o => ["Please send me " + o[0] + ".", "请把" + o[1] + "发给我。"], source: officeObjects },
+  { make: o => ["I will follow up on " + o[0] + ".", "我会继续跟进" + o[1] + "。"], source: officeObjects },
+  { make: o => ["Thank you for working on " + o[0] + ".", "谢谢你处理" + o[1] + "。"], source: officeObjects },
+  { make: o => ["Can you confirm " + o[0] + "?", "你能确认一下" + o[1] + "吗？"], source: officeObjects },
+  { make: o => ["We discussed " + o[0] + " in the meeting.", "我们在会议上讨论了" + o[1] + "。"], source: officeObjects },
+  { make: o => ["Please update me on " + o[0] + ".", "请向我更新一下" + o[1] + "。"], source: officeObjects },
+  { make: o => ["The client is asking about " + o[0] + ".", "客户正在询问" + o[1] + "。"], source: officeObjects }
+];
+
+const officePhrases = officePatterns.flatMap(pattern => pattern.source.map(item => {
+  const phrase = pattern.make(item);
+  return { en: phrase[0], zh: phrase[1] };
+}));
+let officeCurrentPage = 1;
+const officeItemsPerPage = 20;
+
+function renderGrammar() {
+  const grid = document.getElementById('grammarGrid');
+  const metric = document.getElementById('grammarMetric');
+  if (!grid) return;
+  if (metric) metric.innerText = grammarData.length + ' grammar cards';
+  grid.innerHTML = grammarData.map((card, idx) => `
+    <div class="grammar-card">
+      <div class="grammar-cover ${card.coverClass}">
+        <div class="cover-icon">${card.icon}</div>
+        <div class="cover-title">${escapeHtml(card.coverTitle)}</div>
+      </div>
+      <div class="grammar-body">
+        <h3 class="g-title">${idx + 1}. ${escapeHtml(card.title)}</h3>
+        <div class="g-rule-box">${card.formula.map(line => `<div class="g-formula">${escapeHtml(line)}</div>`).join('')}</div>
+        <div class="g-explanation">${escapeHtml(card.explanation)}</div>
+        <div class="g-examples-title">Examples</div>
+        <ul class="g-example-list">
+          ${card.examples.map(example => `<li><div class="ex-en">${escapeHtml(example[0])}</div><div class="ex-zh">${escapeHtml(example[1])}</div><button class="ex-audio-btn" onclick="speakSingleWord('${escapeJs(example[0])}', this)">🔊 Listen</button></li>`).join('')}
+        </ul>
+        <button class="g-tip-toggle" onclick="toggleGrammarTip(${idx})">Show Tip</button>
+        <div class="g-tip-box" id="grammar-tip-${idx}">${escapeHtml(card.tip)}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function enableModuleTilt() {
+  document.querySelectorAll('.module-card').forEach(card => {
+    card.addEventListener('mousemove', function(e) {
+      const r = card.getBoundingClientRect();
+      const x = e.clientX - r.left;
+      const y = e.clientY - r.top;
+      const rx = ((y / r.height) - 0.5) * -5;
+      const ry = ((x / r.width) - 0.5) * 7;
+      card.style.transform = `translateY(-8px) rotateX(${rx}deg) rotateY(${ry}deg)`;
+    });
+    card.addEventListener('mouseleave', function() {
+      card.style.transform = '';
+    });
+  });
+}
+
+function toggleGrammarTip(idx) {
+  const el = document.getElementById('grammar-tip-' + idx);
+  if (!el) return;
+  el.classList.toggle('active');
+}
+
+function renderOfficePhrases(page) {
+  if (page) officeCurrentPage = page;
+  const grid = document.getElementById('officePhraseGrid');
+  const pager = document.getElementById('officePagination');
+  const metric = document.getElementById('officeMetric');
+  if (!grid || !pager) return;
+  const totalPages = Math.ceil(officePhrases.length / officeItemsPerPage);
+  if (metric) metric.innerText = officePhrases.length + ' speaking lines';
+  if (officeCurrentPage > totalPages) officeCurrentPage = totalPages;
+  const start = (officeCurrentPage - 1) * officeItemsPerPage;
+  const items = officePhrases.slice(start, start + officeItemsPerPage);
+
+  grid.innerHTML = items.map((item, i) => {
+    const idx = start + i;
+    const memoId = "office-" + idx;
+    return `
+      <div class="office-card">
+        <div class="office-en">${idx + 1}. ${escapeHtml(item.en)}</div>
+        <div class="office-zh">${escapeHtml(item.zh)}</div>
+        <div class="office-actions">
+          <button class="btn-listen-simple" onclick="speakSingleWord('${escapeJs(item.en)}', this)">🔊 Listen</button>
+          <button class="btn-speak" onclick="openMemoUI('${memoId}', '${escapeJs(item.en)}')">🎤 Speak</button>
+        </div>
+        <div id="res-${memoId}" class="eval-result"></div>
+        <div id="memo-${memoId}" class="voice-memo-panel">
+          <div class="memo-left"><div class="memo-timer" id="timer-${memoId}">00:00</div><div class="memo-status" id="status-${memoId}"><span class="status-dot"></span> REC</div></div>
+          <div class="waveform"><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div></div>
+          <div class="memo-controls"><button class="ctrl-btn btn-pause" id="btn-pause-${memoId}" onclick="toggleMemoPause('${memoId}')">⏸</button><button class="ctrl-btn btn-done" onclick="finishMemo('${memoId}', '${escapeJs(item.en)}')">⏹</button></div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  pager.innerHTML = `
+    <div class="pagination">
+      <button class="page-btn" ${officeCurrentPage === 1 ? 'disabled' : ''} onclick="renderOfficePhrases(${officeCurrentPage - 1})">← Prev</button>
+      <span class="page-info">Page ${officeCurrentPage} of ${totalPages} (${officePhrases.length} sentences)</span>
+      <button class="page-btn" ${officeCurrentPage === totalPages ? 'disabled' : ''} onclick="renderOfficePhrases(${officeCurrentPage + 1})">Next →</button>
+    </div>
+  `;
+}
+
+function updateSpeechStatus() {
+  var tts = document.getElementById('ttsStatus');
+  var rec = document.getElementById('recStatus');
+  if (!tts || !rec) return;
+  // TTS: load voices first
+  loadVoices();
+  setTimeout(function() {
+    var voiceCount = synth && synth.getVoices ? synth.getVoices().filter(function(v) { return v.lang && v.lang.startsWith('en'); }).length : 0;
+    if (tts) {
+      tts.className = voiceCount ? 'status-pill ok' : 'status-pill warn';
+      tts.innerText = voiceCount ? 'TTS ready: ' + voiceCount + ' English voice(s)' : 'TTS: tap any Listen button to activate';
+    }
+  }, 200);
+  // Speech Recognition
+  var hasRec = hasSpeechRecognition();
+  if (rec) {
+    rec.className = hasRec ? 'status-pill ok' : 'status-pill warn';
+    if (hasRec) {
+      rec.innerText = 'Speak check ready';
+    } else if (isIOS()) {
+      rec.innerText = 'iOS: recording not supported, use Chrome/Edge';
+    } else {
+      rec.innerText = 'Speak check needs Chrome/Edge';
+    }
+  }
+}
+
+
+const topicData = [
+  {
+    kind: "festival",
+    label: "China Festival",
+    title: "Qingming Festival",
+    zhTitle: "清明节",
+    date: "April 4-6, 2026",
+    summary: "Qingming is a traditional holiday for tomb-sweeping, family remembrance and spring outings. It is useful for explaining holiday leave and customer response timing.",
+    zhSummary: "清明节常和扫墓祭祖、踏青出游联系在一起，适合练习节假日安排、请假说明和客户回复时间。",
+    vocab: ["tomb-sweeping", "ancestor", "spring outing", "holiday notice"],
+    body: [
+      "Qingming Festival is one of the best cultural topics for office English because it combines tradition, family customs and practical holiday arrangements. Colleagues can use it to explain why response time may slow down during the holiday and how teams prepare handovers before a short break.",
+      "In English Corner, this topic also works well for intercultural sharing. Chinese employees can explain tomb-sweeping, remembrance and spring outings, while international colleagues can compare similar traditions in their own countries."
+    ],
+    questions: ["How would you explain Qingming Festival to an overseas customer in one minute?", "What should a team confirm before a short public holiday starts?", "Do you think cultural topics make office small talk easier? Why?"]
+  },
+  {
+    kind: "festival",
+    label: "China Festival",
+    title: "Labour Day Holiday",
+    zhTitle: "劳动节假期",
+    date: "May 1-5, 2026",
+    summary: "Labour Day is one of the busiest travel periods in China. In office English, it is a great topic for handovers, travel plans and emergency contacts.",
+    zhSummary: "劳动节是中国重要出行高峰，适合练习工作交接、出差安排、紧急联系人和节前通知。",
+    vocab: ["handover", "travel peak", "urgent order", "backup contact"],
+    body: [
+      "Labour Day is not only a holiday topic but also an operations topic. Offices often prepare internal handovers, customer notices and logistics checks before the break, especially when travel volume rises and delivery schedules become tighter.",
+      "This topic is useful in business English because it helps learners practice future plans, deadlines and emergency arrangements. It naturally connects with phrases like 'before the holiday', 'during the break' and 'when the office reopens'."
+    ],
+    questions: ["What tasks should be finished before a long holiday?", "How would you write a short holiday notice to customers?", "Does your team need a backup contact during public holidays?"]
+  },
+  {
+    kind: "festival",
+    label: "China Festival",
+    title: "Youth Day",
+    zhTitle: "青年节",
+    date: "May 4, 2026",
+    summary: "Youth Day is often linked to student development, energy and future careers. It works well for topics about interns, growth and training goals.",
+    zhSummary: "青年节常和年轻人才、实习生培养、成长目标和职业规划联系在一起。",
+    vocab: ["young talent", "intern", "training", "career path"],
+    body: [
+      "Youth Day can be linked to the workplace by talking about interns, young engineers and early-career training. It gives teams a softer topic for discussing growth, responsibility and long-term development.",
+      "For English practice, it is especially good for opinion questions. Learners can talk about what skills young employees need, how managers support growth and what a strong career path looks like."
+    ],
+    questions: ["What skills should young employees improve first in the workplace?", "How can a company support interns better?", "What is more important for growth: training or real project experience?"]
+  },
+  {
+    kind: "festival",
+    label: "China Festival",
+    title: "Dragon Boat Festival",
+    zhTitle: "端午节",
+    date: "June 19-21, 2026",
+    summary: "Dragon Boat Festival brings rice dumplings, cultural stories and holiday greetings. It is ideal for customer emails and small talk with international colleagues.",
+    zhSummary: "端午节适合练习粽子、节日问候、客户邮件和节前发货安排等话题。",
+    vocab: ["rice dumpling", "traditional holiday", "greeting email", "delivery timing"],
+    body: [
+      "Dragon Boat Festival is ideal for customer-facing English because it combines culture with communication. Teams can explain the holiday briefly, mention traditional food such as rice dumplings and send short greeting emails that sound warm but professional.",
+      "It is also a practical logistics topic. Sales and service teams may need to check whether shipments, site visits or support schedules change around the festival period."
+    ],
+    questions: ["How would you explain Dragon Boat Festival in simple English?", "Should holiday greetings to customers be formal or friendly?", "What delivery risks should be checked before a festival break?"]
+  },
+  {
+    kind: "festival",
+    label: "China Festival",
+    title: "Children's Day",
+    zhTitle: "儿童节",
+    date: "June 1, 2026",
+    summary: "Children's Day is widely recognised in China. Teams often use it for family-friendly messages, internal activities and social media greetings.",
+    zhSummary: "儿童节适合讨论家庭友好型活动、企业文化内容和轻松的节日祝福。",
+    vocab: ["family-friendly", "greeting post", "community", "celebration"],
+    body: [
+      "Children's Day is a lighter topic, but it still fits workplace English well. Companies may use it in social media posts, internal newsletters or employee activities that focus on family culture and community spirit.",
+      "In class discussion, learners can use this topic to practice descriptive language and company culture vocabulary instead of only technical or sales terms."
+    ],
+    questions: ["What kind of Children's Day activity would fit a company culture event?", "Do family-friendly events help team morale?", "How can you write a simple festive greeting for social media?"]
+  },
+  {
+    kind: "news",
+    label: "Workplace News",
+    title: "AI Meeting Notes in Office Work",
+    zhTitle: "AI 会议纪要工具",
+    date: "April 2026",
+    summary: "Companies are using AI tools to draft meeting summaries faster, but managers still need humans to review decisions, action items and customer-sensitive details.",
+    zhSummary: "越来越多公司使用 AI 起草会议纪要，但关键决定、行动项和客户敏感信息仍需要人工复核。",
+    vocab: ["AI summary", "action item", "review", "accuracy"],
+    body: [
+      "One visible workplace trend is using AI tools to summarise meetings. This can save time, especially when a team holds many internal or cross-border meetings every week. Drafting action items automatically also helps people follow the same structure.",
+      "However, office teams still need human review. AI summaries may miss tone, misunderstand decisions or present unclear responsibility lines. That makes this topic perfect for discussing efficiency versus accuracy in office English."
+    ],
+    questions: ["Would you trust AI to write your final meeting minutes?", "What parts of a meeting summary should always be checked by a person?", "Is speed more important than accuracy in routine office work?"]
+  },
+  {
+    kind: "news",
+    label: "Workplace News",
+    title: "Return-to-Office Becomes More Structured",
+    zhTitle: "返岗办公更有规则",
+    date: "April 2026",
+    summary: "Many organisations continue refining office attendance rules. The trend is moving from vague flexibility to clearer team days and collaboration-based scheduling.",
+    zhSummary: "许多公司继续优化到岗政策，从模糊的灵活办公转向更清晰的团队到岗日和协作安排。",
+    vocab: ["hybrid work", "team day", "attendance", "coordination"],
+    body: [
+      "Return-to-office policies are still changing in many organisations. Instead of asking everyone to come in every day, some companies are building clearer team schedules and choosing office days for collaboration, training and faster problem-solving.",
+      "This topic works well for speaking practice because it invites balanced opinions. Learners can compare flexibility, productivity, attendance rules and the value of face-to-face communication."
+    ],
+    questions: ["What kind of work is better in the office than at home?", "Should teams have fixed office days?", "How can managers make office time more meaningful?"]
+  },
+  {
+    kind: "news",
+    label: "Workplace News",
+    title: "Managers Focus on Productivity, Not Presence",
+    zhTitle: "关注产出而非坐班",
+    date: "April 2026",
+    summary: "Recent workplace reporting suggests teams are discussing not only where people work, but also how to measure output, speed and communication quality.",
+    zhSummary: "近期职场讨论不仅关注员工在哪里办公，也关注产出、响应速度和沟通质量。",
+    vocab: ["productivity", "output", "response time", "communication"],
+    body: [
+      "A growing management question is whether performance should be measured by presence or by results. Many teams now focus more on output, response time, delivery quality and communication discipline instead of simply checking whether someone is sitting at a desk.",
+      "For English learners, this is a strong discussion topic because it includes useful vocabulary for performance reviews, team management and goal setting."
+    ],
+    questions: ["What is the best way to measure productivity in office work?", "Can presence ever replace real output?", "How should managers talk about performance without sounding too harsh?"]
+  },
+  {
+    kind: "news",
+    label: "Workplace News",
+    title: "Upskilling for AI and Digital Tools",
+    zhTitle: "AI 与数字工具技能提升",
+    date: "Spring 2026",
+    summary: "Training remains a hot topic as employees are expected to use AI and automation tools more confidently. This links naturally to English Corner lessons about learning and improvement.",
+    zhSummary: "随着 AI 和自动化工具更常见，培训和技能提升仍然是很多团队的重点。",
+    vocab: ["upskilling", "automation", "training plan", "digital tools"],
+    body: [
+      "As AI and digital tools spread across departments, upskilling becomes part of normal office life. Teams are expected to learn new tools, understand automation and improve digital communication instead of waiting for change to slow down.",
+      "This topic is good for English Corner because it encourages learners to talk about goals, training plans, confidence and the difference between learning a tool and using it well at work."
+    ],
+    questions: ["What new skill should office workers learn this year?", "Is formal training better than self-study?", "How can a company encourage employees to keep learning?"]
+  },
+  {
+    kind: "news",
+    label: "Workplace News",
+    title: "Shorter Meetings, Clearer Decisions",
+    zhTitle: "更短会议，更清晰决策",
+    date: "Spring 2026",
+    summary: "A common office trend is reducing long meetings and keeping only the most important participants. This is useful for phrases about agendas, decisions and follow-up notes.",
+    zhSummary: "办公室里越来越强调缩短会议时间、减少参会人数，并把重点放在决策和后续行动上。",
+    vocab: ["agenda", "decision", "follow-up", "meeting efficiency"],
+    body: [
+      "Many teams are trying to shorten meetings and invite only the most relevant people. The goal is not just to save time, but to make sure each meeting ends with a clear decision, an owner and a follow-up deadline.",
+      "This topic helps learners practice meeting English: setting an agenda, summarising a decision, assigning actions and writing a short follow-up note after the discussion ends."
+    ],
+    questions: ["What makes a meeting feel too long?", "How can a chairperson keep a meeting efficient?", "What should happen immediately after a meeting ends?"]
+  }
+];
+
+let activeTopicIndex = -1;
+
+function renderTopics() {
+  const grid = document.getElementById('topicGrid');
+  const detail = document.getElementById('topicDetail');
+  if (!grid) return;
+  if (detail && activeTopicIndex >= 0) {
+    const topic = topicData[activeTopicIndex];
+    detail.classList.add('active');
+    detail.innerHTML = `
+      <div class="topic-detail-head">
+        <div>
+          <div class="topic-label ${topic.kind}">${escapeHtml(topic.label)}</div>
+          <div class="topic-detail-title">${escapeHtml(topic.title)}</div>
+          <div class="office-zh" style="font-size:14px; color:#667085; margin-bottom:6px;">${escapeHtml(topic.zhTitle)}</div>
+          <div class="topic-date">${escapeHtml(topic.date)}</div>
+          <div class="topic-detail-sub">${escapeHtml(topic.summary)}</div>
+        </div>
+        <button class="topic-close" onclick="closeTopicDetail()">Close</button>
+      </div>
+      <div class="topic-detail-body">
+        <div class="topic-article">
+          <div class="topic-section-title">Reading</div>
+          ${topic.body.map(p => `<div class="topic-paragraph">${escapeHtml(p)}</div>`).join('')}
+          <div class="topic-section-title">中文提示</div>
+          <div class="topic-paragraph">${escapeHtml(topic.zhSummary)}</div>
+        </div>
+        <div class="topic-sidebar">
+          <div class="topic-panel">
+            <h4>Key Vocabulary 生词</h4>
+            <div class="topic-word-list">
+              ${topic.vocab.map(word => `<div class="topic-word-item"><div class="topic-word-en">${escapeHtml(word)}</div><div class="topic-word-zh">${escapeHtml(getTopicWordZh(word))}</div></div>`).join('')}
+            </div>
+          </div>
+          <div class="topic-panel">
+            <h4>Discussion Questions 讨论问题</h4>
+            <div class="topic-question-list">
+              ${topic.questions.map((q, i) => `<div class="topic-question-item">${escapeHtml(q)}<button class="topic-answer-btn" onclick="toggleTopicAnswer(${i})">Show Starter</button><div class="topic-answer" id="topic-answer-${i}">${escapeHtml(getTopicAnswerStarter(q, topic))}</div></div>`).join('')}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  } else if (detail) {
+    detail.classList.remove('active');
+    detail.innerHTML = '';
+  }
+  grid.innerHTML = topicData.map((topic, idx) => `
+    <article class="topic-card" onclick="openTopicDetail(${idx})">
+      <div class="topic-top">
+        <div class="topic-label ${topic.kind}">${escapeHtml(topic.label)}</div>
+        <div class="topic-card-title">${escapeHtml(topic.title)}</div>
+        <div class="office-zh" style="font-size:13px; color:#667085; margin-top:-2px;">${escapeHtml(topic.zhTitle)}</div>
+        <div class="topic-date">${escapeHtml(topic.date)}</div>
+      </div>
+      <div class="topic-body">
+        <div class="topic-summary">${escapeHtml(topic.summary)}</div>
+        <div class="topic-summary" style="font-size:12px; color:#98a2b3;">${escapeHtml(topic.zhSummary)}</div>
+        <div class="topic-vocab">
+          ${topic.vocab.map(word => `<span>${escapeHtml(word)}</span>`).join('')}
+        </div>
+      </div>
+    </article>
+  `).join('');
+}
+
+function getTopicWordZh(word) {
+  const map = {
+    'tomb-sweeping': '扫墓祭祖', 'ancestor': '祖先', 'spring outing': '踏青', 'holiday notice': '节假日通知',
+    'handover': '工作交接', 'travel peak': '出行高峰', 'urgent order': '紧急订单', 'backup contact': '备用联系人',
+    'young talent': '年轻人才', 'intern': '实习生', 'training': '培训', 'career path': '职业路径',
+    'rice dumpling': '粽子', 'traditional holiday': '传统节日', 'greeting email': '问候邮件', 'delivery timing': '发货时间安排',
+    'family-friendly': '家庭友好型', 'greeting post': '问候帖文', 'community': '社群 / 社区氛围', 'celebration': '庆祝活动',
+    'AI summary': 'AI 总结', 'action item': '行动项', 'review': '复核', 'accuracy': '准确性',
+    'hybrid work': '混合办公', 'team day': '团队到岗日', 'attendance': '到岗 / 考勤', 'coordination': '协同安排',
+    'productivity': '生产力 / 效率', 'output': '产出', 'response time': '响应时间', 'communication': '沟通',
+    'upskilling': '技能提升', 'automation': '自动化', 'training plan': '培训计划', 'digital tools': '数字工具',
+    'agenda': '议程', 'decision': '决策', 'follow-up': '后续跟进', 'meeting efficiency': '会议效率'
+  };
+  return map[word] || '关键词';
+}
+
+function openTopicDetail(idx) {
+  activeTopicIndex = idx;
+  renderTopics();
+  const detail = document.getElementById('topicDetail');
+  if (detail) detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function closeTopicDetail() {
+  activeTopicIndex = -1;
+  renderTopics();
+}
+
+function getTopicAnswerStarter(question, topic) {
+  return `Starter: In my view, ${topic.title.toLowerCase()} is useful because ... / From a workplace perspective, I think ...`;
+}
+
+function toggleTopicAnswer(idx) {
+  const el = document.getElementById('topic-answer-' + idx);
+  if (!el) return;
+  el.classList.toggle('open');
+}
+
+// INIT
+window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderOfficePhrases(); enableModuleTilt(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); });
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('PWA Engine Activated!', reg))
+        .catch(err => console.log('PWA Engine Failed!', err));
+    });
+  }
+</script>
+<script src="capacitor-core.js"></script>
+<script src="capacitor-bridge.js"></script>
+</body>
+</html>
