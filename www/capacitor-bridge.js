@@ -89,22 +89,10 @@ startRecognition = function(idx) {
   if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> NATIVE REC ●';
 
   try {
-    Capacitor.Plugins.SpeechRecognition.start({
-      language: 'en-US',
-      maxResults: 1,
-      partialResults: true,
-      popup: false  // No Google popup — uses system engine
-    }).then(function() {
-      // Started successfully
-      hasStarted = true;
-      if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> SPEAK NOW';
-    }).catch(function(err) {
-      // Failed — fall back to Web Speech API
-      nativeSpeechAvailable = false;
-      _origStartRecognition(idx);
-    });
+    // Clean up any previous listener
+    if (capRecListener) { capRecListener.remove(); capRecListener = null; }
 
-    // Listen for partial results
+    // Register listener BEFORE start to avoid missing early results
     capRecListener = Capacitor.Plugins.SpeechRecognition.addListener('partialResults', function(data) {
       if (!capRecActive) return;
       if (data && data.matches && data.matches.length > 0) {
@@ -113,19 +101,31 @@ startRecognition = function(idx) {
       }
     });
 
+    Capacitor.Plugins.SpeechRecognition.start({
+      language: 'en-US',
+      maxResults: 1,
+      partialResults: true,
+      popup: false
+    }).then(function() {
+      hasStarted = true;
+      if (statusEl) statusEl.innerHTML = '<span class="status-dot" style="background:#0f0"></span> SPEAK NOW';
+    }).catch(function(err) {
+      // Failed — clean up and fall back to Web Speech API
+      if (capRecListener) { capRecListener.remove(); capRecListener = null; }
+      capRecActive = false;
+      nativeSpeechAvailable = false;
+      // Clean panel
+      var panel = document.getElementById('memo-' + capturedId);
+      if (panel) { panel.style.display = 'none'; panel.classList.remove('active', 'paused'); }
+      if (memoTimer) { clearInterval(memoTimer); memoTimer = null; }
+      showRecError(capturedId, '❌ Speech recognition not available on this device. Please check that your phone has a speech engine installed (e.g., Google Voice Typing or Samsung Voice Input).');
+    });
+
   } catch(e) {
+    if (capRecListener) { capRecListener.remove(); capRecListener = null; }
+    capRecActive = false;
     nativeSpeechAvailable = false;
     _origStartRecognition(idx);
-  }
-};
-
-// Override stopAll for Capacitor
-var _origStopAll = stopAll;
-var _capOrigStopAll = function() {
-  if (capRecActive && nativeSpeechAvailable) {
-    capRecActive = false;
-    if (capRecListener) { capRecListener.remove(); capRecListener = null; }
-    try { Capacitor.Plugins.SpeechRecognition.stop(); } catch(e) {}
   }
 };
 
