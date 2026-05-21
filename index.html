@@ -60,31 +60,11 @@ body { background: #f5f6f8; color: var(--text-main); min-height: 100vh; overflow
 .btn-submit { background: var(--aksa-dark); color: #fff; border: none; padding: 15px; width: 100%; border-radius: 12px; font-size: 15px; font-weight: 800; cursor: pointer; transition: transform 0.2s; margin-top: 8px; text-transform: uppercase; -webkit-tap-highlight-color: transparent; }
 .btn-submit:active { transform: scale(0.98); }
 
-/* Home */
-.home-hero-bg { background: #1a1a2e; padding: 48px 20px 80px; text-align: center; color: #fff; position: relative; overflow: hidden; }
-.home-hero-bg::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 70% 20%, rgba(255,255,255,0.05) 0%, transparent 60%); pointer-events: none; }
+/* Brand */
 .home-logo-bw { display: flex; align-items: center; justify-content: center; margin-bottom: 20px; }
 .logo-container-bw { display: flex; align-items: center; background-color: #1a1a1a; padding: 8px 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); color: #ffffff; border-radius: 8px; }
 .logo-aksa-text { font-size: 32px; font-weight: 900; line-height: 1; letter-spacing: -1px; margin-right: 10px; font-family: 'Arial Black', 'Montserrat', sans-serif; }
 .logo-pg-text { font-size: 13px; font-weight: 700; line-height: 1.1; text-align: left; font-family: Arial, sans-serif; }
-.home-badge { background: #ffffff; color: #111; padding: 4px 12px; border-radius: 20px; font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 16px; display: inline-block; font-family: 'Montserrat', sans-serif; }
-.home-title { font-size: 28px; font-weight: 900; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; }
-.home-slogan { font-size: 13px; font-weight: 700; color: #f5c98a; letter-spacing: 1.5px; margin-top: 8px; text-transform: uppercase; font-family: 'Montserrat', sans-serif; }
-@media (min-width: 600px) { .home-title { font-size: 36px; } .home-slogan { font-size: 15px; } }
-
-.module-grid { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 900px; margin: -40px auto 30px; padding: 0 16px; position: relative; z-index: 10; }
-@media (min-width: 600px) { .module-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 900px) { .module-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
-.module-card { background: #fff; border: 1px solid #e8ecf1; border-radius: 14px; padding: 22px 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; border-left: 4px solid transparent; display: flex; flex-direction: column; -webkit-tap-highlight-color: transparent; min-height: 170px; }
-.module-card:active { transform: scale(0.98); }
-@media (min-width: 769px) { .module-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); border-left-color: var(--aksa-dark); } }
-.mc-icon { font-size: 28px; margin-bottom: 14px; }
-.mc-title { font-size: 16px; font-weight: 700; color: var(--text-dark); margin-bottom: 6px; }
-.mc-desc { font-size: 12px; color: var(--text-light); line-height: 1.6; margin-bottom: 16px; flex-grow: 1; }
-.mc-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f0f0f0; padding-top: 12px; font-size: 10px; font-weight: 700; text-transform: uppercase; }
-.tag-ready { color: #2e7d32; background: #e8f5e9; padding: 4px 10px; border-radius: 12px; }
-.tag-ai { color: #1565c0; background: #e3f2fd; padding: 4px 10px; border-radius: 12px; }
-.tag-spring { color: #c2185b; background: #fce4ec; padding: 4px 10px; border-radius: 12px; }
 
 /* Dashboard */
 .dash-header { background: #1a1a2e; color: white; padding: 44px 16px 66px; text-align: center; position: relative; }
@@ -543,12 +523,6 @@ button:focus-visible, input:focus-visible, a:focus-visible {
   box-shadow: 0 16px 34px rgba(0,0,0,0.12);
 }
 
-#view-home > .home-hero-bg,
-#view-home > .module-grid,
-#view-home > footer:not(.landing-footer) {
-  display: none;
-}
-
 .landing-shell {
   width: 100%;
   overflow: hidden;
@@ -556,6 +530,7 @@ button:focus-visible, input:focus-visible, a:focus-visible {
 
 .landing-hero,
 .landing-features,
+.workplace-scenarios,
 .landing-showcase,
 .landing-cta,
 .landing-footer {
@@ -842,59 +817,6 @@ button:focus-visible, input:focus-visible, a:focus-visible {
   letter-spacing: 0;
 }
 
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
-}
-
-.feature-card {
-  min-height: 240px;
-  text-align: left;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 28px;
-  background: #fff;
-  box-shadow: 0 12px 34px rgba(0,0,0,0.05);
-  padding: 30px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 18px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.feature-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 24px 56px rgba(0,0,0,0.10);
-}
-
-.feature-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: #f5f5f7;
-  color: var(--apple-blue);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.feature-card strong {
-  color: #1d1d1f;
-  font-size: 22px;
-  line-height: 1.15;
-}
-
-.feature-card span:last-child {
-  color: #6e6e73;
-  font-size: 15px;
-  line-height: 1.55;
-}
-
 .landing-showcase {
   max-width: none;
   background: #f0f0f2;
@@ -1148,7 +1070,6 @@ button:focus-visible, input:focus-visible, a:focus-visible {
 
 .user-name,
 .modal-title,
-.home-title,
 .btn-checkin,
 .btn-export {
   font-family: inherit;
@@ -1186,14 +1107,17 @@ button:focus-visible, input:focus-visible, a:focus-visible {
     font-size: 58px;
   }
 
-  .feature-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .landing-showcase {
     grid-template-columns: 1fr;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .workplace-scenarios {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding-top: 92px;
+    padding-bottom: 92px;
   }
 
   .landing-showcase > div:first-child,
@@ -1243,6 +1167,7 @@ button:focus-visible, input:focus-visible, a:focus-visible {
 
   .landing-hero,
   .landing-features,
+  .workplace-scenarios,
   .landing-showcase,
   .landing-cta,
   .landing-footer {
@@ -1296,6 +1221,7 @@ button:focus-visible, input:focus-visible, a:focus-visible {
   }
 
   .landing-features,
+  .workplace-scenarios,
   .landing-showcase,
   .landing-cta {
     padding-top: 56px;
@@ -1308,14 +1234,6 @@ button:focus-visible, input:focus-visible, a:focus-visible {
   .pl-title,
   .hero h1 {
     font-size: 34px;
-  }
-
-  .feature-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .feature-card {
-    min-height: 190px;
   }
 
   .landing-showcase p:not(.eyebrow) {
@@ -1457,12 +1375,15 @@ button:focus-visible, input:focus-visible, a:focus-visible {
   --color-surface: #ffffff;
   --color-ink: #1d1d1f;
   --color-muted: #6e6e73;
+  --color-subtle: #86868b;
   --color-border: rgba(0,0,0,0.08);
   --color-dark: #000000;
-  --radius-lg: 24px;
-  --radius-md: 16px;
+  --radius-xl: 36px;
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-pill: 999px;
   --shadow-soft: 0 18px 48px rgba(0,0,0,0.08);
-  --shadow-hover: 0 24px 64px rgba(0,0,0,0.12);
+  --shadow-hover: 0 28px 72px rgba(0,0,0,0.12);
   --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
   --apple-blue: #1d1d1f;
   --apple-blue-dark: #000000;
@@ -1499,8 +1420,6 @@ body {
 .bottom-nav-btn,
 .primary-cta,
 .text-cta,
-.feature-card,
-.module-card,
 .lesson-tab,
 .cat-btn,
 .page-btn,
@@ -1556,8 +1475,6 @@ body {
 .bottom-nav-btn:active,
 .primary-cta:active,
 .text-cta:active,
-.feature-card:active,
-.module-card:active,
 .lesson-tab:active,
 .cat-btn:active,
 .page-btn:active,
@@ -1621,7 +1538,6 @@ body {
   color: var(--color-muted);
 }
 
-.feature-icon,
 .stat-val,
 .screen-head strong {
   color: var(--color-ink);
@@ -1681,7 +1597,88 @@ body {
   background: #f2f2f2;
 }
 
-.feature-card,
+.workplace-scenarios {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.96fr) minmax(340px, 1.04fr);
+  align-items: center;
+  gap: 56px;
+}
+
+.workplace-copy h2 {
+  max-width: 660px;
+  color: var(--color-ink);
+  font-size: clamp(36px, 4.8vw, 64px);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+  font-weight: 850;
+  text-wrap: balance;
+}
+
+.workplace-copy p:not(.eyebrow) {
+  max-width: 610px;
+  margin-top: 22px;
+  color: var(--color-muted);
+  font-size: 20px;
+  line-height: 1.48;
+  text-wrap: balance;
+}
+
+.scenario-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.scenario-pills span {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.76);
+  color: var(--color-ink);
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 800;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.04);
+}
+
+.landing-showcase {
+  padding-top: 136px;
+  padding-bottom: 136px;
+}
+
+.showcase-metrics {
+  gap: 18px;
+}
+
+.showcase-metrics div {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: rgba(255,255,255,0.72);
+  box-shadow: 0 12px 34px rgba(0,0,0,0.05);
+}
+
+.landing-cta {
+  padding-top: 148px;
+  padding-bottom: 146px;
+}
+
+.cta-subtitle {
+  color: var(--color-muted);
+  font-size: 20px;
+  line-height: 1.45;
+  margin: -12px auto 30px;
+}
+
+.landing-footer {
+  padding-bottom: 60px;
+}
+
 .word-card,
 .grammar-card,
 .topic-card,
@@ -1698,7 +1695,6 @@ body {
 }
 
 @media (min-width: 769px) {
-  .feature-card:hover,
   .word-card:hover,
   .grammar-card:hover,
   .topic-card:hover,
@@ -1713,7 +1709,6 @@ body {
   }
 }
 
-.feature-card:active,
 .word-card:active,
 .grammar-card:active,
 .topic-card:active,
@@ -1846,6 +1841,389 @@ body {
   }
 }
 
+/* Module showcase refinement */
+.landing-hero h1 {
+  max-width: 980px;
+  font-size: clamp(52px, 8vw, 96px);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  font-weight: 850;
+  text-wrap: balance;
+}
+
+.landing-subtitle {
+  max-width: 620px;
+  text-wrap: balance;
+}
+
+.section-heading h2 {
+  text-wrap: balance;
+}
+
+.section-subtitle {
+  max-width: 680px;
+  margin: 18px auto 0;
+  color: var(--color-muted);
+  font-size: 19px;
+  line-height: 1.48;
+  text-wrap: balance;
+}
+
+.module-showcase-head {
+  max-width: 1280px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.landing-features {
+  scroll-margin-top: 76px;
+}
+
+.module-showcase-head p {
+  color: var(--color-ink);
+  font-size: 15px;
+  font-weight: 850;
+}
+
+.module-showcase-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.module-arrow {
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: rgba(255,255,255,0.88);
+  color: var(--color-ink);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.05);
+  transition: transform 220ms var(--ease-out), background-color 220ms var(--ease-out), box-shadow 220ms var(--ease-out), opacity 220ms var(--ease-out);
+}
+
+.module-arrow:hover {
+  transform: translateY(-2px);
+  background: #f2f2f2;
+  box-shadow: var(--shadow-soft);
+}
+
+.module-arrow:active {
+  transform: scale(0.98);
+}
+
+.module-showcase-shell {
+  margin-left: calc((100vw - min(1280px, 100vw)) / -2);
+  margin-right: calc((100vw - min(1280px, 100vw)) / -2);
+}
+
+.module-showcase-rail {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: max(32px, calc((100vw - 1280px) / 2 + 32px));
+  padding: 10px max(32px, calc((100vw - 1280px) / 2 + 32px)) 34px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.module-showcase-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.module-showcase-card {
+  position: relative;
+  flex: 0 0 clamp(430px, 39vw, 580px);
+  min-height: 520px;
+  scroll-snap-align: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-soft);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 260ms var(--ease-out), box-shadow 260ms var(--ease-out), border-color 260ms var(--ease-out);
+}
+
+.module-showcase-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(0,0,0,0.14);
+}
+
+.module-showcase-card:active {
+  transform: scale(0.99);
+}
+
+.module-showcase-card-dark {
+  background: #1d1d1f;
+  color: #fff;
+}
+
+.module-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 34px;
+  color: var(--color-muted);
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+}
+
+.module-showcase-card-dark .module-card-meta {
+  color: rgba(255,255,255,0.66);
+}
+
+.module-card-meta span:first-child {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  color: var(--color-ink);
+}
+
+.module-showcase-card-dark .module-card-meta span:first-child {
+  background: rgba(255,255,255,0.14);
+  color: #fff;
+}
+
+.module-showcase-card h3 {
+  max-width: 360px;
+  color: inherit;
+  font-size: 42px;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 850;
+  text-wrap: balance;
+  margin-bottom: 18px;
+}
+
+.module-showcase-card p {
+  max-width: 340px;
+  color: var(--color-muted);
+  font-size: 16px;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+
+.module-showcase-card-dark p {
+  color: rgba(255,255,255,0.68);
+}
+
+.module-card-cta {
+  width: fit-content;
+  min-height: 44px;
+  margin-top: 28px;
+  border: 1px solid var(--color-dark);
+  border-radius: 999px;
+  background: var(--color-dark);
+  color: #fff;
+  padding: 11px 18px;
+  font-size: 14px;
+  font-weight: 850;
+  cursor: pointer;
+  transition: transform 220ms var(--ease-out), background-color 220ms var(--ease-out), border-color 220ms var(--ease-out), box-shadow 220ms var(--ease-out);
+}
+
+.module-card-cta:hover {
+  transform: translateY(-2px);
+  background: #2a2a2d;
+  border-color: #2a2a2d;
+  box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+}
+
+.module-card-cta:active {
+  transform: scale(0.98);
+}
+
+.module-showcase-card-dark .module-card-cta {
+  background: #fff;
+  color: #1d1d1f;
+  border-color: #fff;
+}
+
+.module-showcase-card-dark .module-card-cta:hover {
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.module-visual {
+  min-height: 152px;
+  margin-top: auto;
+  border-radius: 28px;
+  background: #f5f5f7;
+  border: 1px solid rgba(0,0,0,0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.module-showcase-card-dark .module-visual {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.visual-dialogue span,
+.visual-grammar span,
+.visual-topics span,
+.visual-dashboard span {
+  position: absolute;
+  border-radius: 999px;
+  background: #1d1d1f;
+  opacity: 0.85;
+}
+
+.visual-dialogue span:nth-child(1) { width: 62%; height: 18px; left: 28px; top: 38px; }
+.visual-dialogue span:nth-child(2) { width: 42%; height: 18px; right: 28px; top: 74px; opacity: 0.46; }
+.visual-dialogue span:nth-child(3) { width: 56%; height: 18px; left: 28px; top: 110px; opacity: 0.28; }
+
+.visual-pronunciation span {
+  position: absolute;
+  inset: 32px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, #1d1d1f 0 44%, transparent 45%),
+    conic-gradient(#fff 0 72%, rgba(255,255,255,0.18) 72% 100%);
+}
+
+.visual-grammar span:nth-child(1) { width: 72%; height: 12px; left: 28px; top: 42px; }
+.visual-grammar span:nth-child(2) { width: 52%; height: 12px; left: 28px; top: 76px; opacity: 0.36; }
+.visual-grammar span:nth-child(3) { width: 60%; height: 56px; left: 28px; bottom: 28px; border-radius: 18px; opacity: 0.16; }
+
+.visual-topics span:nth-child(1) { width: 118px; height: 118px; left: 30px; top: 18px; border-radius: 50%; opacity: 0.12; }
+.visual-topics span:nth-child(2) { width: 48%; height: 18px; right: 28px; top: 68px; opacity: 0.72; }
+
+.visual-dashboard span:nth-child(1) { width: 24%; height: 84px; left: 34px; bottom: 28px; border-radius: 18px 18px 8px 8px; opacity: 0.22; }
+.visual-dashboard span:nth-child(2) { width: 24%; height: 124px; left: 39%; bottom: 28px; border-radius: 18px 18px 8px 8px; opacity: 0.52; }
+.visual-dashboard span:nth-child(3) { width: 24%; height: 58px; right: 34px; bottom: 28px; border-radius: 18px 18px 8px 8px; opacity: 0.86; }
+
+.module-showcase-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.module-showcase-dots button {
+  width: 9px;
+  height: 9px;
+  min-height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.18);
+  cursor: pointer;
+  transition: width 220ms var(--ease-out), background-color 220ms var(--ease-out), transform 220ms var(--ease-out);
+}
+
+.module-showcase-dots button.active {
+  width: 28px;
+  border-radius: 999px;
+  background: #1d1d1f;
+}
+
+.module-showcase-dots button:active {
+  transform: scale(0.92);
+}
+
+.module-arrow:focus-visible,
+.module-card-cta:focus-visible,
+.module-showcase-rail:focus-visible,
+.module-showcase-dots button:focus-visible {
+  outline: 3px solid rgba(0,0,0,0.28);
+  outline-offset: 4px;
+}
+
+@media (max-width: 1024px) {
+  .module-showcase-card {
+    flex-basis: clamp(360px, 52vw, 430px);
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-hero h1 {
+    max-width: 620px;
+    font-size: clamp(48px, 13vw, 72px);
+    line-height: 0.98;
+  }
+
+  .section-subtitle {
+    font-size: 17px;
+  }
+
+  .module-showcase-head {
+    align-items: flex-start;
+  }
+
+  .module-showcase-controls {
+    display: none;
+  }
+
+  .module-showcase-shell {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .module-showcase-rail {
+    gap: 16px;
+    scroll-padding-inline: 20px;
+    padding: 8px 20px 26px;
+  }
+
+  .module-showcase-card {
+    flex-basis: min(88vw, 380px);
+    min-height: 470px;
+    padding: 24px;
+    border-radius: 30px;
+  }
+
+  .module-showcase-card h3 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 420px) {
+  .landing-hero h1 {
+    font-size: clamp(48px, 14vw, 58px);
+    letter-spacing: -0.055em;
+  }
+
+  .landing-subtitle {
+    max-width: 330px;
+  }
+
+  .module-showcase-card {
+    flex-basis: min(86vw, 344px);
+    min-height: 452px;
+  }
+
+  .module-visual {
+    min-height: 126px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .module-showcase-rail {
+    scroll-behavior: auto;
+  }
+}
+
 /* Ad block */
 a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[style*="z-index: 2147483647"] { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; width: 0 !important; }
 </style>
@@ -1937,14 +2315,77 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
     <section class="landing-features reveal-block" aria-labelledby="features-title">
       <div class="section-heading">
         <p class="eyebrow">Core modules</p>
-        <h2 id="features-title">Everything stays simple. Every practice has a purpose.</h2>
+        <h2 id="features-title">Simple practice.<br>Real purpose.</h2>
+        <p class="section-subtitle">Choose one focused module, practise in minutes, and use it in real workplace conversations.</p>
       </div>
-      <div class="feature-grid">
-        <button class="feature-card" type="button" onclick="openView('view-dialogue')"><span class="feature-icon">01</span><strong>Daily Dialogue</strong><span>Office conversations with bilingual lines and British English playback.</span></button>
-        <button class="feature-card" type="button" onclick="openView('view-pronunciation')"><span class="feature-icon">02</span><strong>Pronunciation AI</strong><span>Listen, record, and score workplace vocabulary with cloud evaluation.</span></button>
-        <button class="feature-card" type="button" onclick="openView('view-grammar')"><span class="feature-icon">03</span><strong>Grammar Clinic</strong><span>Concise grammar cards plus a large office speaking sentence bank.</span></button>
-        <button class="feature-card" type="button" onclick="openView('view-weekly')"><span class="feature-icon">04</span><strong>Weekly Topics</strong><span>Festival and workplace themes for English Corner discussion.</span></button>
-        <button class="feature-card" type="button" onclick="openView('view-dashboard')"><span class="feature-icon">05</span><strong>Dashboard</strong><span>Local progress, daily check-in, streaks, and learning report export.</span></button>
+      <div class="module-showcase-head">
+        <p>Module Showcase</p>
+        <div class="module-showcase-controls" aria-label="Module showcase controls">
+          <button class="module-arrow" type="button" aria-label="Previous module" onclick="scrollModuleShowcase(-1)">←</button>
+          <button class="module-arrow" type="button" aria-label="Next module" onclick="scrollModuleShowcase(1)">→</button>
+        </div>
+      </div>
+      <div class="module-showcase-shell">
+        <div class="module-showcase-rail" id="moduleShowcaseRail" tabindex="0" aria-label="AKSA English Hub module showcase">
+          <article class="module-showcase-card">
+            <div class="module-card-meta"><span>01</span><span>Speaking</span></div>
+            <h3>Start with real dialogue.</h3>
+            <p>Bilingual workplace conversations with clear listening and speaking practice.</p>
+            <button class="module-card-cta" type="button" onclick="openView('view-dialogue')">Open Dialogue</button>
+            <div class="module-visual visual-dialogue" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+          <article class="module-showcase-card module-showcase-card-dark">
+            <div class="module-card-meta"><span>02</span><span>Pronunciation</span></div>
+            <h3>Hear it. Say it. Improve it.</h3>
+            <p>Practice workplace vocabulary with listening, recording, and pronunciation feedback.</p>
+            <button class="module-card-cta" type="button" onclick="openView('view-pronunciation')">Start Practice</button>
+            <div class="module-visual visual-pronunciation" aria-hidden="true"><span></span></div>
+          </article>
+          <article class="module-showcase-card">
+            <div class="module-card-meta"><span>03</span><span>Grammar</span></div>
+            <h3>Grammar that works at work.</h3>
+            <p>Review useful grammar through concise rules and office-ready examples.</p>
+            <button class="module-card-cta" type="button" onclick="openView('view-grammar')">Review Grammar</button>
+            <div class="module-visual visual-grammar" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+          <article class="module-showcase-card">
+            <div class="module-card-meta"><span>04</span><span>Discussion</span></div>
+            <h3>New topics. Real conversations.</h3>
+            <p>Explore workplace and seasonal themes for English Corner discussion.</p>
+            <button class="module-card-cta" type="button" onclick="openView('view-weekly')">Explore Topics</button>
+            <div class="module-visual visual-topics" aria-hidden="true"><span></span><span></span></div>
+          </article>
+          <article class="module-showcase-card">
+            <div class="module-card-meta"><span>05</span><span>Progress</span></div>
+            <h3>Track daily progress.</h3>
+            <p>View check-ins, streaks, progress, and learning report exports.</p>
+            <button class="module-card-cta" type="button" onclick="openView('view-dashboard')">View Dashboard</button>
+            <div class="module-visual visual-dashboard" aria-hidden="true"><span></span><span></span><span></span></div>
+          </article>
+        </div>
+      </div>
+      <div class="module-showcase-dots" aria-label="Module showcase progress">
+        <button class="active" type="button" aria-label="Show module 1" onclick="scrollModuleShowcaseTo(0)"></button>
+        <button type="button" aria-label="Show module 2" onclick="scrollModuleShowcaseTo(1)"></button>
+        <button type="button" aria-label="Show module 3" onclick="scrollModuleShowcaseTo(2)"></button>
+        <button type="button" aria-label="Show module 4" onclick="scrollModuleShowcaseTo(3)"></button>
+        <button type="button" aria-label="Show module 5" onclick="scrollModuleShowcaseTo(4)"></button>
+      </div>
+    </section>
+
+    <section class="workplace-scenarios reveal-block" aria-labelledby="scenarios-title">
+      <div class="workplace-copy">
+        <p class="eyebrow">Workplace scenarios</p>
+        <h2 id="scenarios-title">Built for the English people actually use at work.</h2>
+        <p>Meetings, messages, presentations, small talk, reports, and follow-ups — all in one focused place.</p>
+      </div>
+      <div class="scenario-pills" aria-label="Workplace English scenarios">
+        <span>Meetings</span>
+        <span>Messages</span>
+        <span>Presentations</span>
+        <span>Small Talk</span>
+        <span>Reports</span>
+        <span>Follow-ups</span>
       </div>
     </section>
 
@@ -1952,10 +2393,10 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
       <div>
         <p class="eyebrow">Made for company teams</p>
         <h2 id="showcase-title">A calm workspace for repeatable English practice.</h2>
-        <p>AKSA English Hub keeps the learning path direct: choose a module, practice a sentence, hear the model voice, and track progress without leaving the page.</p>
+        <p>Choose a module, practise a sentence, hear the model voice, record your own answer, and track progress in one place.</p>
       </div>
       <div class="showcase-metrics" aria-label="Platform highlights">
-        <div><strong>5</strong><span>learning modules</span></div>
+        <div><strong>5</strong><span>focused modules</span></div>
         <div><strong>1000+</strong><span>office speaking lines</span></div>
         <div><strong>PWA + APK</strong><span>multi-device access</span></div>
       </div>
@@ -1963,7 +2404,8 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
 
     <section class="landing-cta reveal-block" aria-labelledby="cta-title">
       <p class="eyebrow">Start today</p>
-      <h2 id="cta-title">One clear place to practice before the next meeting.</h2>
+      <h2 id="cta-title">Ready for the next conversation?</h2>
+      <p class="cta-subtitle">Start with one sentence today.</p>
       <button class="primary-cta" type="button" onclick="openView('view-pronunciation')">Open Pronunciation AI</button>
     </section>
 
@@ -1979,19 +2421,6 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
       </div>
     </footer>
   </main>
-  <div class="home-hero-bg">
-    <div class="home-logo-bw"><div class="logo-container-bw"><div class="logo-aksa-text">aksa</div><div class="logo-pg-text">POWER<br>GENERATION</div></div></div>
-    <div class="home-badge">April - June 2026</div>
-    <h1 class="home-title">AKSA ENGLISH HUB</h1>
-    <div class="home-slogan">Power Your English · Power Our Future</div>
-  </div>
-  <div class="module-grid">
-    <div class="module-card" onclick="openView('view-dialogue')"><div class="mc-icon">☕</div><div class="mc-title">1. Daily Dialogue</div><div class="mc-desc">A lesson-style conversation library with clickable contents, current office themes and practical bilingual lines.</div><div class="mc-footer"><span style="color:#999">Module 01</span><span class="tag-ready">Ready</span></div></div>
-    <div class="module-card" onclick="openView('view-pronunciation')"><div class="mc-icon">🎙️</div><div class="mc-title">2. Pronunciation AI</div><div class="mc-desc">AI-driven Voice Memo testing. Features Bilingual Audio & Real-time Scoring.</div><div class="mc-footer"><span style="color:#999">Module 02</span><span class="tag-ai">Interactive</span></div></div>
-    <div class="module-card" onclick="openView('view-grammar')"><div class="mc-icon">✏️</div><div class="mc-title">3. Grammar Clinic</div><div class="mc-desc">Essential email templates and professional etiquette for engineers and sales.</div><div class="mc-footer"><span style="color:#999">Module 03</span><span class="tag-ready">Reference</span></div></div>
-    <div class="module-card" onclick="openView('view-weekly')"><div class="mc-icon">🌸</div><div class="mc-title">4. Weekly Topics</div><div class="mc-desc">Recent workplace news and Chinese festival topics for warm-up discussions, meetings and English Corner sharing.</div><div class="mc-footer"><span style="color:#999">Module 04</span><span class="tag-spring">Updated</span></div></div>
-  </div>
-  <footer>&copy; 2026 AKSA Power Generation &nbsp;·&nbsp; Developed by Jason Bo</footer>
 </div>
 
 <div id="view-dashboard" class="page-view">
@@ -3938,22 +4367,6 @@ function renderGrammar() {
   `).join('');
 }
 
-function enableModuleTilt() {
-  document.querySelectorAll('.module-card').forEach(card => {
-    card.addEventListener('mousemove', function(e) {
-      const r = card.getBoundingClientRect();
-      const x = e.clientX - r.left;
-      const y = e.clientY - r.top;
-      const rx = ((y / r.height) - 0.5) * -5;
-      const ry = ((x / r.width) - 0.5) * 7;
-      card.style.transform = `translateY(-8px) rotateX(${rx}deg) rotateY(${ry}deg)`;
-    });
-    card.addEventListener('mouseleave', function() {
-      card.style.transform = '';
-    });
-  });
-}
-
 function toggleGrammarTip(idx) {
   const el = document.getElementById('grammar-tip-' + idx);
   if (!el) return;
@@ -4292,8 +4705,90 @@ function toggleTopicAnswer(idx) {
   el.classList.toggle('open');
 }
 
+function getModuleShowcaseState() {
+  const rail = document.getElementById('moduleShowcaseRail');
+  if (!rail) return null;
+  const cards = Array.from(rail.querySelectorAll('.module-showcase-card'));
+  const dots = Array.from(document.querySelectorAll('.module-showcase-dots button'));
+  if (!cards.length) return null;
+  return { rail, cards, dots };
+}
+
+function getActiveModuleShowcaseIndex() {
+  const state = getModuleShowcaseState();
+  if (!state) return 0;
+  if (state.rail.scrollLeft < state.cards[0].offsetWidth * 0.16) return 0;
+  if (state.rail.scrollLeft + state.rail.clientWidth > state.rail.scrollWidth - state.cards[0].offsetWidth * 0.16) return state.cards.length - 1;
+  const railRect = state.rail.getBoundingClientRect();
+  const railCenter = railRect.left + railRect.width / 2;
+  let activeIndex = 0;
+  let closest = Infinity;
+  state.cards.forEach(function(card, index) {
+    const rect = card.getBoundingClientRect();
+    const cardCenter = rect.left + rect.width / 2;
+    const distance = Math.abs(cardCenter - railCenter);
+    if (distance < closest) {
+      closest = distance;
+      activeIndex = index;
+    }
+  });
+  return activeIndex;
+}
+
+function updateModuleShowcaseDots() {
+  const state = getModuleShowcaseState();
+  if (!state) return;
+  const activeIndex = getActiveModuleShowcaseIndex();
+  state.dots.forEach(function(dot, index) {
+    const active = index === activeIndex;
+    dot.classList.toggle('active', active);
+    dot.setAttribute('aria-current', active ? 'true' : 'false');
+  });
+}
+
+function scrollModuleShowcaseTo(index) {
+  const state = getModuleShowcaseState();
+  if (!state) return;
+  const target = state.cards[Math.max(0, Math.min(index, state.cards.length - 1))];
+  if (!target) return;
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', inline: 'center', block: 'nearest' });
+  setTimeout(updateModuleShowcaseDots, reduceMotion ? 0 : 260);
+}
+
+function scrollModuleShowcase(step) {
+  const state = getModuleShowcaseState();
+  if (!state) return;
+  scrollModuleShowcaseTo(getActiveModuleShowcaseIndex() + step);
+}
+
+function initModuleShowcase() {
+  const state = getModuleShowcaseState();
+  if (!state) return;
+  let ticking = false;
+  state.rail.addEventListener('scroll', function() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function() {
+      updateModuleShowcaseDots();
+      ticking = false;
+    });
+  }, { passive: true });
+  state.rail.addEventListener('wheel', function(event) {
+    if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+    const direction = event.deltaY > 0 ? 1 : -1;
+    const atStart = state.rail.scrollLeft <= 0;
+    const atEnd = state.rail.scrollLeft + state.rail.clientWidth >= state.rail.scrollWidth - 1;
+    if ((direction < 0 && atStart) || (direction > 0 && atEnd)) return;
+    event.preventDefault();
+    state.rail.scrollLeft += event.deltaY;
+  }, { passive: false });
+  window.addEventListener('resize', updateModuleShowcaseDots);
+  updateModuleShowcaseDots();
+}
+
 // INIT
-window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderOfficePhrases(); enableModuleTilt(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); });
+window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderOfficePhrases(); initModuleShowcase(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); });
 </script>
 <script src="speech-config.js"></script>
 <script src="speech-cloud.js"></script>
