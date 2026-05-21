@@ -10,9 +10,23 @@ const origins = (process.env.ALLOWED_ORIGINS || '*')
   .map((origin) => origin.trim())
   .filter(Boolean);
 
+function isAllowedOrigin(origin) {
+  if (!origin || origins.includes('*') || origins.includes(origin)) return true;
+
+  try {
+    const host = new URL(origin).hostname.toLowerCase();
+    if (host === 'localhost' || host === '127.0.0.1') return true;
+    if (host.endsWith('.edgeone.app')) return true;
+  } catch (err) {
+    return false;
+  }
+
+  return false;
+}
+
 app.use(cors({
   origin(origin, callback) {
-    if (!origin || origins.includes('*') || origins.includes(origin)) {
+    if (isAllowedOrigin(origin)) {
       callback(null, true);
       return;
     }

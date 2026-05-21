@@ -88,8 +88,5 @@ self.addEventListener('fetch', function(event) {
         return cached || fetched;
       })
     );
-  } else {
-    // Cross-origin: network-only (fonts, etc.)
-    event.respondWith(fetch(event.request));
   }
 });
