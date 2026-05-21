@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aksa-hub-v4';
+const CACHE_NAME = 'aksa-hub-v5';
 const urlsToCache = [
   './',
   './index.html',
