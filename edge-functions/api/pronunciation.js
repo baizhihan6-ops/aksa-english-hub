@@ -17,7 +17,7 @@ function jsonResponse(body, status) {
   });
 }
 
-export async function onRequest(context) {
+export default async function onRequest(context) {
   const request = context.request;
 
   if (request.method === 'OPTIONS') {
