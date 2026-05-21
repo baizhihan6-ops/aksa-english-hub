@@ -2218,6 +2218,129 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  #view-home .profile-btn {
+    display: none;
+  }
+
+  .brand-product {
+    display: inline-block !important;
+    max-width: 118px;
+    font-size: 13px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hero-brand-lockup {
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  .hero-brand-lockup .logo-container-bw {
+    display: none;
+  }
+
+  .hero-brand-label {
+    align-items: center;
+  }
+
+  .hero-brand-label strong {
+    font-size: 14px;
+  }
+
+  .hero-brand-label span {
+    font-size: 12px;
+  }
+
+  .landing-hero-copy {
+    width: 100%;
+  }
+
+  .landing-hero h1 {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .module-showcase-controls,
+  .module-arrow {
+    display: none !important;
+  }
+
+  .workplace-scenarios {
+    display: block;
+    grid-template-columns: 1fr !important;
+    width: 100%;
+    max-width: 100%;
+    gap: 0;
+  }
+
+  .workplace-copy {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .workplace-copy h2 {
+    max-width: 100%;
+    font-size: clamp(32px, 8.8vw, 42px);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+  }
+
+  .workplace-copy p:not(.eyebrow) {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.46;
+  }
+
+  .scenario-pills {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 24px;
+    justify-content: flex-start;
+  }
+
+  .scenario-pills span {
+    position: static;
+    white-space: nowrap;
+  }
+
+  .landing-hero h1,
+  .landing-subtitle,
+  .section-heading h2,
+  .section-subtitle,
+  .workplace-copy h2,
+  .workplace-copy p,
+  .landing-showcase h2,
+  .landing-showcase p,
+  .landing-cta h2,
+  .cta-subtitle {
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
+    text-wrap: balance;
+  }
+}
+
+@media (max-width: 420px) {
+  .top-nav-inner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .brand-product {
+    max-width: 102px;
+    font-size: 12px;
+  }
+
+  .landing-hero h1 {
+    max-width: 342px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .module-showcase-rail {
     scroll-behavior: auto;
