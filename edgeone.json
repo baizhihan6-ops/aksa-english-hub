@@ -1,0 +1,11 @@
+{
+  "installCommand": "echo skip install",
+  "buildCommand": "node scripts/edgeone-build.js",
+  "outputDirectory": "dist-edgeone",
+  "nodeVersion": "22.11.0",
+  "cloudFunctions": {
+    "nodejs": {
+      "maxDuration": 60
+    }
+  }
+}
