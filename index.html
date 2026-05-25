@@ -2464,18 +2464,23 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
 .nr-btn-speak { background: var(--aksa-blue); color: #fff; border: none; border-radius: 10px; padding: 10px 18px; font-size: 13px; font-weight: 700; cursor: pointer; }
 .nr-btn-speak.speaking { background: #e53935; }
 .nr-btn-close { background: #f0f0f0; color: var(--text-dark); border: none; border-radius: 10px; padding: 10px 18px; font-size: 13px; font-weight: 700; cursor: pointer; }
-.daily-quote { padding: 0 20px 8px; max-width: 900px; margin: 0 auto; }
-.dq-card { background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%); border-radius: 20px; padding: 24px; color: #fff; position: relative; overflow: hidden; }
-.dq-card::before { content: '\201C'; position: absolute; top: -10px; left: 16px; font-size: 80px; color: rgba(255,255,255,0.08); font-family: Georgia, serif; line-height: 1; }
-.dq-label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--aksa-green); margin-bottom: 12px; }
-.dq-text { font-size: 16px; font-weight: 600; line-height: 1.6; color: #fff; margin: 0 0 10px; font-style: normal; }
-.dq-zh { font-size: 13px; color: rgba(255,255,255,0.6); margin: 0 0 16px; line-height: 1.5; }
+.daily-quote { padding: 0 20px 12px; max-width: 900px; margin: 0 auto; }
+.dq-card { background: linear-gradient(145deg, #0d1b3e 0%, #162447 55%, #0d1b3e 100%); border-radius: 24px; padding: 28px 28px 20px; color: #fff; position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.18); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.dq-card:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(0,0,0,0.24); }
+.dq-card::before { content: '\201C'; position: absolute; top: -16px; right: 20px; font-size: 130px; color: rgba(255,255,255,0.04); font-family: Georgia, serif; line-height: 1; pointer-events: none; }
+.dq-card::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent 0%, rgba(232,184,109,0.7) 50%, transparent 100%); }
+.dq-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #e8b86d; margin-bottom: 14px; }
+.dq-text { font-size: 17px; font-weight: 500; line-height: 1.65; color: rgba(255,255,255,0.95); margin: 0 0 10px; font-style: italic; letter-spacing: 0.2px; animation: dqFadeIn 0.6s ease both; }
+.dq-zh { font-size: 13px; color: rgba(255,255,255,0.48); margin: 0 0 20px; line-height: 1.6; animation: dqFadeIn 0.8s ease both; }
 .dq-foot { display: flex; align-items: center; justify-content: space-between; }
-.dq-author { font-size: 12px; color: rgba(255,255,255,0.45); font-weight: 600; }
-.dq-actions { display: flex; gap: 8px; }
-.dq-btn-fav { background: rgba(255,255,255,0.1); border: none; border-radius: 8px; padding: 6px 12px; color: #fff; font-size: 14px; cursor: pointer; transition: background 0.2s; }
-.dq-btn-fav.saved { background: rgba(255,80,80,0.3); color: #ff8080; }
-.dq-btn-share { background: var(--aksa-green); border: none; border-radius: 8px; padding: 6px 14px; color: var(--aksa-dark); font-size: 12px; font-weight: 700; cursor: pointer; }
+.dq-author { font-size: 12px; color: rgba(255,255,255,0.3); font-weight: 500; letter-spacing: 0.5px; }
+.dq-actions { display: flex; gap: 8px; align-items: center; }
+.dq-btn-fav { background: transparent; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 6px 14px; color: rgba(255,255,255,0.55); font-size: 15px; cursor: pointer; transition: all 0.2s; }
+.dq-btn-fav:hover { background: rgba(255,255,255,0.07); color: #ff8080; border-color: rgba(255,128,128,0.35); }
+.dq-btn-fav.saved { background: rgba(255,80,80,0.15); color: #ff8080; border-color: rgba(255,80,80,0.3); }
+.dq-btn-share { background: rgba(232,184,109,0.15); border: 1px solid rgba(232,184,109,0.4); border-radius: 8px; padding: 6px 16px; color: #e8b86d; font-size: 12px; font-weight: 700; cursor: pointer; transition: all 0.2s; letter-spacing: 0.5px; }
+.dq-btn-share:hover { background: rgba(232,184,109,0.25); border-color: rgba(232,184,109,0.7); }
+@keyframes dqFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 </head>
 <body>
