@@ -5067,7 +5067,7 @@ async function loadDailyNews(force) {
   feed.innerHTML = '<div class="news-skeleton"></div>'.repeat(4);
   try {
     let res = await fetch('/api/news').catch(() => null);
-    if (!res || !res.ok) res = await fetch('/news.json');
+    if (!res || !res.ok) res = await fetch('news.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch(e) {}
