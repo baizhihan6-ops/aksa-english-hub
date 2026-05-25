@@ -1,0 +1,28 @@
+name: Daily News Health Check
+
+on:
+  schedule:
+    # Run at 08:00 UTC = 16:00 Beijing time, every day
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check China Daily RSS
+        run: |
+          echo "=== China Daily: China ==="
+          curl -s --max-time 10 "http://www.chinadaily.com.cn/rss/china_rss.xml" | head -c 800 || echo "WARN: feed unavailable"
+
+          echo "=== China Daily: World ==="
+          curl -s --max-time 10 "http://www.chinadaily.com.cn/rss/world_rss.xml" | head -c 800 || echo "WARN: feed unavailable"
+
+          echo "=== China Daily: Business ==="
+          curl -s --max-time 10 "http://www.chinadaily.com.cn/rss/bizchina_rss.xml" | head -c 800 || echo "WARN: feed unavailable"
+
+          echo "=== chinanews English ==="
+          curl -s --max-time 10 "http://www.chinanews.com.cn/rss/english.xml" | head -c 800 || echo "WARN: feed unavailable"
+
+      - name: Log check time
+        run: echo "News health check completed at $(date -u)"

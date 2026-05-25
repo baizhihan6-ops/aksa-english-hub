@@ -6,5 +6,11 @@ android/captures/
 android/local.properties
 server/.env
 dist-edgeone/
+dist-aliyun-fc/
 *.apk
 !AKSA-English-Hub.apk
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+.tef_dist/*
