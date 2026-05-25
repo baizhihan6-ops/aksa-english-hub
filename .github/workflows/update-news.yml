@@ -1,0 +1,107 @@
+name: Update News JSON
+
+on:
+  schedule:
+    # Every 6 hours: 01:00, 07:00, 13:00, 19:00 UTC
+    - cron: '0 1,7,13,19 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch RSS feeds and write news.json
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import json
+          import re
+          from datetime import datetime, timezone
+          from email.utils import parsedate_to_datetime
+
+          FEEDS = [
+            ('http://www.chinadaily.com.cn/rss/china_rss.xml',    'China Daily', 'China'),
+            ('http://www.chinadaily.com.cn/rss/world_rss.xml',    'China Daily', 'World'),
+            ('http://www.chinadaily.com.cn/rss/bizchina_rss.xml', 'China Daily', 'Business'),
+          ]
+
+          def strip_html(s):
+            s = re.sub(r'<[^>]+>', '', s or '')
+            s = re.sub(r'&[a-z]+;', ' ', s)
+            return s.strip()
+
+          def parse_date(s):
+            if not s:
+              return datetime.now(timezone.utc)
+            try:
+              return parsedate_to_datetime(s)
+            except Exception:
+              pass
+            try:
+              return datetime.fromisoformat(s.replace('Z', '+00:00'))
+            except Exception:
+              return datetime.now(timezone.utc)
+
+          def fetch_feed(url, src, cat):
+            try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)'})
+              with urllib.request.urlopen(req, timeout=10) as r:
+                xml_bytes = r.read()
+              root = ET.fromstring(xml_bytes)
+              dc_ns = 'http://purl.org/dc/elements/1.1/'
+              items = root.findall('.//item')[:5]
+              results = []
+              for item in items:
+                title = strip_html(item.findtext('title') or '')[:140]
+                desc  = strip_html(item.findtext('description') or '')[:180]
+                pub_raw = (
+                  item.findtext('pubDate') or
+                  item.findtext(f'{{{dc_ns}}}date') or
+                  datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
+                )
+                if len(title) > 5:
+                  results.append({
+                    'title':   title,
+                    'summary': desc,
+                    'pubDate': pub_raw,
+                    '_ts':     parse_date(pub_raw).timestamp(),
+                    'src':     src,
+                    'cat':     cat,
+                  })
+              print(f'  {src}/{cat}: {len(results)} articles')
+              return results
+            except Exception as e:
+              print(f'  WARN: {url} - {e}')
+              return []
+
+          articles = []
+          for url, src, cat in FEEDS:
+            articles.extend(fetch_feed(url, src, cat))
+
+          articles.sort(key=lambda a: a['_ts'], reverse=True)
+          for a in articles:
+            del a['_ts']
+          articles = articles[:8]
+
+          out = {'articles': articles, 'updated': datetime.now(timezone.utc).isoformat()}
+          with open('news.json', 'w', encoding='utf-8') as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+          print(f'Wrote {len(articles)} articles to news.json')
+          PYEOF
+
+      - name: Commit and push news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "chore: refresh news.json [skip ci]" && git push
