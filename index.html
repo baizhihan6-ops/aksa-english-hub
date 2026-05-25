@@ -2446,10 +2446,53 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
 .lb-rank { width: 32px; text-align: center; font-weight: 800; color: var(--ink-muted); }
 .lb-name { flex: 1; font-weight: 600; color: var(--text-dark); }
 .lb-days { font-weight: 800; color: var(--aksa-blue); }
+.news-reader-card { max-width: 560px; width: 100%; max-height: 85vh; overflow-y: auto; padding: 24px; }
+.news-reader-badges { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.news-reader-title { font-size: 17px; font-weight: 800; color: var(--text-dark); line-height: 1.4; margin-bottom: 14px; }
+.news-reader-body { font-size: 15px; line-height: 1.8; color: var(--text-main); margin-bottom: 16px; }
+.news-reader-body .w { cursor: pointer; border-radius: 3px; padding: 0 1px; transition: background 0.15s; }
+.news-reader-body .w:hover { background: #fff3cd; }
+.news-reader-body .w.active { background: #fff3cd; }
+.news-reader-vocab { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.vocab-chip { background: #eef2f7; border-radius: 20px; padding: 4px 12px; font-size: 12px; font-weight: 600; cursor: pointer; color: var(--aksa-blue); transition: background 0.15s; }
+.vocab-chip:hover, .vocab-chip.active { background: var(--aksa-blue); color: #fff; }
+.news-reader-def { background: #f8f9fa; border-radius: 12px; padding: 14px; margin-bottom: 14px; font-size: 13px; line-height: 1.6; }
+.nr-def-word { font-size: 15px; font-weight: 800; color: var(--text-dark); }
+.nr-def-pos { color: var(--ink-muted); font-style: italic; margin: 0 6px; }
+.nr-def-text { color: var(--text-main); }
+.news-reader-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 4px; }
+.nr-btn-speak { background: var(--aksa-blue); color: #fff; border: none; border-radius: 10px; padding: 10px 18px; font-size: 13px; font-weight: 700; cursor: pointer; }
+.nr-btn-speak.speaking { background: #e53935; }
+.nr-btn-close { background: #f0f0f0; color: var(--text-dark); border: none; border-radius: 10px; padding: 10px 18px; font-size: 13px; font-weight: 700; cursor: pointer; }
+.daily-quote { padding: 0 20px 8px; max-width: 900px; margin: 0 auto; }
+.dq-card { background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%); border-radius: 20px; padding: 24px; color: #fff; position: relative; overflow: hidden; }
+.dq-card::before { content: '\201C'; position: absolute; top: -10px; left: 16px; font-size: 80px; color: rgba(255,255,255,0.08); font-family: Georgia, serif; line-height: 1; }
+.dq-label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--aksa-green); margin-bottom: 12px; }
+.dq-text { font-size: 16px; font-weight: 600; line-height: 1.6; color: #fff; margin: 0 0 10px; font-style: normal; }
+.dq-zh { font-size: 13px; color: rgba(255,255,255,0.6); margin: 0 0 16px; line-height: 1.5; }
+.dq-foot { display: flex; align-items: center; justify-content: space-between; }
+.dq-author { font-size: 12px; color: rgba(255,255,255,0.45); font-weight: 600; }
+.dq-actions { display: flex; gap: 8px; }
+.dq-btn-fav { background: rgba(255,255,255,0.1); border: none; border-radius: 8px; padding: 6px 12px; color: #fff; font-size: 14px; cursor: pointer; transition: background 0.2s; }
+.dq-btn-fav.saved { background: rgba(255,80,80,0.3); color: #ff8080; }
+.dq-btn-share { background: var(--aksa-green); border: none; border-radius: 8px; padding: 6px 14px; color: var(--aksa-dark); font-size: 12px; font-weight: 700; cursor: pointer; }
 </style>
 </head>
 <body>
 
+<div id="news-reader-modal" class="modal-overlay" style="display:none" onclick="closeNewsReader(event)">
+  <div class="modal-card news-reader-card" onclick="event.stopPropagation()">
+    <div class="news-reader-badges" id="nr-badges"></div>
+    <h2 class="news-reader-title" id="nr-title"></h2>
+    <div class="news-reader-body" id="nr-body"></div>
+    <div class="news-reader-vocab" id="nr-vocab"></div>
+    <div class="news-reader-def" id="nr-def" style="display:none"></div>
+    <div class="news-reader-actions">
+      <button class="nr-btn-speak" id="nr-speak-btn" onclick="newsReaderSpeak()">▶ Read Aloud</button>
+      <button class="nr-btn-close" onclick="closeNewsReader()">Close</button>
+    </div>
+  </div>
+</div>
 <div id="login-modal" class="modal-overlay">
   <div class="modal-card">
     <div class="home-logo-bw" style="margin-bottom:16px;transform:scale(0.8)">
@@ -2591,6 +2634,21 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
         <button type="button" aria-label="Show module 3" onclick="scrollModuleShowcaseTo(2)"></button>
         <button type="button" aria-label="Show module 4" onclick="scrollModuleShowcaseTo(3)"></button>
         <button type="button" aria-label="Show module 5" onclick="scrollModuleShowcaseTo(4)"></button>
+      </div>
+    </section>
+
+    <section class="daily-quote reveal-block">
+      <div class="dq-card" id="dq-card">
+        <div class="dq-label">Quote of the Day</div>
+        <blockquote class="dq-text" id="dq-text"></blockquote>
+        <p class="dq-zh" id="dq-zh"></p>
+        <div class="dq-foot">
+          <span class="dq-author" id="dq-author"></span>
+          <div class="dq-actions">
+            <button class="dq-btn-fav" id="dq-fav-btn" onclick="toggleQuoteFav()" title="Save">♡</button>
+            <button class="dq-btn-share" onclick="shareQuote()" title="Share">Share</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -5062,15 +5120,16 @@ function renderNewsItems(data) {
     feed.innerHTML = '<p class="news-error">Could not load news right now. Try refreshing.</p>';
     return;
   }
-  feed.innerHTML = data.articles.map(a => `
-    <article class="news-card">
+  sessionStorage.setItem('aksa_news_articles', JSON.stringify(data.articles));
+  feed.innerHTML = data.articles.map((a, i) => `
+    <article class="news-card" onclick="openNewsReader(${i})" style="cursor:pointer">
       <div class="news-badges">
         <span class="news-src-badge">${escapeHtml(a.src)}</span>
         <span class="news-cat-badge">${escapeHtml(a.cat)}</span>
       </div>
       <h3 class="news-card-title">${escapeHtml(a.title)}</h3>
       ${a.summary ? `<p class="news-card-summary">${escapeHtml(a.summary)}…</p>` : ''}
-      <div class="news-card-foot">${newsTimeAgo(a.pubDate)}</div>
+      <div class="news-card-foot">${newsTimeAgo(a.pubDate)} · Tap to read</div>
     </article>
   `).join('');
 }
@@ -5122,8 +5181,170 @@ async function renderLeaderboard() {
   }
 }
 
+// ================= NEWS READER =================
+const STOP_WORDS = new Set('a an the is are was were be been being have has had do does did will would could should may might must shall can i we you he she it they this that these those of in on at to for from with by about as into through during'.split(' '));
+
+function extractVocab(text) {
+  const words = text.match(/\b[a-zA-Z]{5,}\b/g) || [];
+  const seen = new Set();
+  return words
+    .map(w => w.toLowerCase())
+    .filter(w => !STOP_WORDS.has(w) && !seen.has(w) && seen.add(w))
+    .slice(0, 8);
+}
+
+function tokenizeForReader(text) {
+  return text.replace(/\b([a-zA-Z]+)\b/g, '<span class="w" onclick="lookupWord(\'$1\', this)">$1</span>');
+}
+
+async function lookupWord(word, el) {
+  document.querySelectorAll('.w.active, .vocab-chip.active').forEach(e => e.classList.remove('active'));
+  if (el) el.classList.add('active');
+  document.querySelectorAll('.vocab-chip').forEach(c => { if (c.dataset.word === word.toLowerCase()) c.classList.add('active'); });
+  const def = document.getElementById('nr-def');
+  def.style.display = 'block';
+  def.innerHTML = '<span style="color:#aaa;font-size:13px">Looking up…</span>';
+  try {
+    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word.toLowerCase())}`);
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    const entry = data[0];
+    const meaning = entry.meanings?.[0];
+    const defText = meaning?.definitions?.[0]?.definition || 'No definition found.';
+    const pos = meaning?.partOfSpeech || '';
+    const phonetic = entry.phonetic || '';
+    def.innerHTML = `<span class="nr-def-word">${escapeHtml(entry.word)}</span><span class="nr-def-pos">${escapeHtml(pos)}</span>${phonetic ? `<span style="color:#aaa;font-size:12px">${escapeHtml(phonetic)}</span><br>` : ''}<span class="nr-def-text">${escapeHtml(defText)}</span>`;
+  } catch(e) {
+    def.innerHTML = `<span style="color:#aaa;font-size:13px">"${escapeHtml(word)}" — definition not available.</span>`;
+  }
+}
+
+function openNewsReader(idx) {
+  const raw = sessionStorage.getItem('aksa_news_articles');
+  if (!raw) return;
+  const articles = JSON.parse(raw);
+  const a = articles[idx];
+  if (!a) return;
+  document.getElementById('nr-badges').innerHTML =
+    `<span class="news-src-badge">${escapeHtml(a.src)}</span><span class="news-cat-badge">${escapeHtml(a.cat)}</span><span style="color:#aaa;font-size:12px;margin-left:4px">${newsTimeAgo(a.pubDate)}</span>`;
+  document.getElementById('nr-title').textContent = a.title;
+  document.getElementById('nr-body').innerHTML = tokenizeForReader(escapeHtml(a.summary || a.title));
+  const fullText = a.title + (a.summary ? ' ' + a.summary : '');
+  const vocab = extractVocab(fullText);
+  document.getElementById('nr-vocab').innerHTML = vocab.length
+    ? vocab.map(w => `<span class="vocab-chip" data-word="${w}" onclick="lookupWord('${w}', this)">${w}</span>`).join('')
+    : '';
+  document.getElementById('nr-def').style.display = 'none';
+  document.getElementById('nr-def').innerHTML = '';
+  const btn = document.getElementById('nr-speak-btn');
+  btn.textContent = '▶ Read Aloud'; btn.classList.remove('speaking');
+  document.getElementById('news-reader-modal').style.display = 'flex';
+  speechSynthesis.cancel();
+}
+
+function closeNewsReader(e) {
+  if (e && e.target !== document.getElementById('news-reader-modal')) return;
+  document.getElementById('news-reader-modal').style.display = 'none';
+  speechSynthesis.cancel();
+}
+
+let _nrSpeaking = false;
+function newsReaderSpeak() {
+  const btn = document.getElementById('nr-speak-btn');
+  if (_nrSpeaking) {
+    speechSynthesis.cancel(); _nrSpeaking = false;
+    btn.textContent = '▶ Read Aloud'; btn.classList.remove('speaking'); return;
+  }
+  const titleEl = document.getElementById('nr-title');
+  const bodyEl  = document.getElementById('nr-body');
+  const text = (titleEl?.textContent || '') + '. ' + (bodyEl?.innerText || '');
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = 'en-GB'; utt.rate = 0.9;
+  utt.onend = () => { _nrSpeaking = false; btn.textContent = '▶ Read Aloud'; btn.classList.remove('speaking'); };
+  speechSynthesis.speak(utt);
+  _nrSpeaking = true;
+  btn.textContent = '■ Stop'; btn.classList.add('speaking');
+}
+
+// ================= DAILY QUOTE =================
+const DAILY_QUOTES = [
+  { en: "The secret of getting ahead is getting started.", zh: "成功的秘诀在于开始行动。", author: "Mark Twain" },
+  { en: "Your time is limited, so don't waste it living someone else's life.", zh: "你的时间有限，不要浪费在重复别人的生活上。", author: "Steve Jobs" },
+  { en: "It does not matter how slowly you go as long as you do not stop.", zh: "只要不停下来，走得多慢都没关系。", author: "Confucius" },
+  { en: "The only way to do great work is to love what you do.", zh: "做出卓越工作的唯一途径，是热爱你所做的事。", author: "Steve Jobs" },
+  { en: "Success is not final, failure is not fatal: it is the courage to continue that counts.", zh: "成功不是终点，失败也不是终结，继续前行的勇气才最重要。", author: "Winston Churchill" },
+  { en: "In the middle of difficulty lies opportunity.", zh: "困难之中蕴藏着机遇。", author: "Albert Einstein" },
+  { en: "Believe you can and you're halfway there.", zh: "相信自己能行，你就已经成功了一半。", author: "Theodore Roosevelt" },
+  { en: "The best time to plant a tree was 20 years ago. The second best time is now.", zh: "种树最好的时机是二十年前，其次是现在。", author: "Chinese Proverb" },
+  { en: "A smooth sea never made a skilled sailor.", zh: "平静的海洋造就不出出色的水手。", author: "Franklin D. Roosevelt" },
+  { en: "Don't watch the clock; do what it does. Keep going.", zh: "别盯着时钟，学它的样子——不停运转。", author: "Sam Levenson" },
+  { en: "The harder I work, the luckier I get.", zh: "我越努力，运气越好。", author: "Gary Player" },
+  { en: "Coming together is a beginning, staying together is progress, working together is success.", zh: "聚在一起是开始，坚持在一起是进步，共同合作才是成功。", author: "Henry Ford" },
+  { en: "You miss 100% of the shots you don't take.", zh: "你不射门，就有百分之百的机会错失进球。", author: "Wayne Gretzky" },
+  { en: "Whether you think you can or think you can't, you're right.", zh: "无论你认为自己能还是不能，你都是对的。", author: "Henry Ford" },
+  { en: "The only person you are destined to become is the person you decide to be.", zh: "你注定要成为的那个人，就是你自己决定要成为的人。", author: "Ralph Waldo Emerson" },
+  { en: "Go confidently in the direction of your dreams.", zh: "满怀自信，朝梦想的方向前进。", author: "Henry David Thoreau" },
+  { en: "Quality is not an act, it is a habit.", zh: "质量不是一种行为，而是一种习惯。", author: "Aristotle" },
+  { en: "Innovation distinguishes between a leader and a follower.", zh: "创新是领导者与追随者之间的区别。", author: "Steve Jobs" },
+  { en: "A goal without a plan is just a wish.", zh: "没有计划的目标只是一个愿望。", author: "Antoine de Saint-Exupéry" },
+  { en: "The expert in anything was once a beginner.", zh: "任何领域的专家，都曾经是初学者。", author: "Helen Hayes" },
+  { en: "Small steps every day lead to big results.", zh: "每天的小步积累，成就巨大的成果。", author: "Unknown" },
+  { en: "Communication is the most important skill any leader can possess.", zh: "沟通是领导者最重要的技能。", author: "Richard Branson" },
+  { en: "Opportunities don't happen. You create them.", zh: "机会不是等来的，是你自己创造的。", author: "Chris Grosser" },
+  { en: "Your most unhappy customers are your greatest source of learning.", zh: "最不满意的客户是你最大的学习来源。", author: "Bill Gates" },
+  { en: "Strive not to be a success, but rather to be of value.", zh: "不要追求成功，而要追求创造价值。", author: "Albert Einstein" },
+  { en: "It always seems impossible until it's done.", zh: "每件事在完成之前，看起来总是不可能的。", author: "Nelson Mandela" },
+  { en: "The future belongs to those who believe in the beauty of their dreams.", zh: "未来属于那些相信梦想之美好的人。", author: "Eleanor Roosevelt" },
+  { en: "Learning never exhausts the mind.", zh: "学习永远不会让头脑疲惫。", author: "Leonardo da Vinci" },
+  { en: "Energy and persistence conquer all things.", zh: "活力与坚持能征服一切。", author: "Benjamin Franklin" },
+  { en: "Do what you can, with what you have, where you are.", zh: "用你现有的，在你所在之处，做你力所能及的事。", author: "Theodore Roosevelt" },
+];
+
+function getTodayQuote() {
+  const start = new Date(2026, 0, 1);
+  const dayIdx = Math.floor((Date.now() - start.getTime()) / 86400000);
+  return DAILY_QUOTES[((dayIdx % DAILY_QUOTES.length) + DAILY_QUOTES.length) % DAILY_QUOTES.length];
+}
+
+function renderDailyQuote() {
+  const q = getTodayQuote();
+  if (!q) return;
+  const savedList = JSON.parse(localStorage.getItem('aksa_saved_quotes') || '[]');
+  const isSaved = savedList.includes(q.en);
+  document.getElementById('dq-text').textContent = q.en;
+  document.getElementById('dq-zh').textContent = q.zh;
+  document.getElementById('dq-author').textContent = '— ' + q.author;
+  const btn = document.getElementById('dq-fav-btn');
+  btn.textContent = isSaved ? '♥' : '♡';
+  btn.classList.toggle('saved', isSaved);
+}
+
+function toggleQuoteFav() {
+  const q = getTodayQuote();
+  const saved = JSON.parse(localStorage.getItem('aksa_saved_quotes') || '[]');
+  const idx = saved.indexOf(q.en);
+  if (idx >= 0) saved.splice(idx, 1); else saved.push(q.en);
+  localStorage.setItem('aksa_saved_quotes', JSON.stringify(saved));
+  renderDailyQuote();
+}
+
+function shareQuote() {
+  const q = getTodayQuote();
+  const text = `"${q.en}"\n${q.zh}\n— ${q.author}\n\nvia AKSA English Hub`;
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.dq-btn-share');
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = orig; }, 1500);
+    }).catch(() => alert(text));
+  }
+}
+
 // INIT
-window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderTodaysPick(); renderOfficePhrases(); initModuleShowcase(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); loadDailyNews(false); });
+window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderTodaysPick(); renderOfficePhrases(); initModuleShowcase(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); loadDailyNews(false); renderDailyQuote(); });
 </script>
 <script src="leaderboard.js"></script>
 <script src="speech-config.js"></script>
