@@ -2439,6 +2439,13 @@ body {
 
 /* Ad block */
 a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[style*="z-index: 2147483647"] { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; height: 0 !important; width: 0 !important; }
+.leaderboard-section { margin: 16px; }
+.leaderboard-title { font-size: 15px; font-weight: 800; margin-bottom: 10px; color: var(--text-dark); }
+.lb-row { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #fff; border-radius: 12px; margin-bottom: 6px; box-shadow: var(--shadow-sm); font-size: 14px; }
+.lb-row.lb-me { background: #e8f5e9; border: 1px solid #a5d6a7; }
+.lb-rank { width: 32px; text-align: center; font-weight: 800; color: var(--ink-muted); }
+.lb-name { flex: 1; font-weight: 600; color: var(--text-dark); }
+.lb-days { font-weight: 800; color: var(--aksa-blue); }
 </style>
 </head>
 <body>
@@ -2452,6 +2459,7 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
     <p class="modal-desc">Please set up your profile to track your progress locally on this device.</p>
     <div class="input-group"><label>Your Name</label><input type="text" id="input-name" placeholder="e.g. Jason Bo" required autocomplete="name"></div>
     <div class="input-group"><label>Department / Position</label><input type="text" id="input-dept" placeholder="e.g. Domestic Sales" required autocomplete="organization"></div>
+    <div class="input-group"><label>Invite Code <span style="color:#aaa;font-weight:400;font-size:12px">（可选，用于排行榜）</span></label><input type="text" id="input-code" placeholder="e.g. AKSA01" autocomplete="off" style="text-transform:uppercase"></div>
     <button class="btn-submit" onclick="saveProfile()">Start Learning</button>
   </div>
 </div>
@@ -2659,6 +2667,10 @@ a[href*="tiiny.host"], a[href*="tiiny.site"], div[style*="z-index: 9999"], div[s
     <button class="btn-export" onclick="exportReport()">📤 Export Learning Report</button>
     <div id="report-toast" style="display:none; margin-top:12px; padding:12px; background:#e8f5e9; color:#2e7d32; border-radius:10px; text-align:center; font-weight:700; font-size:13px;"></div>
   </div>
+  <div class="leaderboard-section">
+    <div class="leaderboard-title">🏆 Team Check-in Leaderboard</div>
+    <div id="leaderboard-list"><p style="color:#aaa;font-size:13px;text-align:center;padding:12px">Open Dashboard to load rankings.</p></div>
+  </div>
 </div>
 
 <div id="view-dialogue" class="page-view">
@@ -2709,8 +2721,12 @@ function resetProfile() {
 function saveProfile() {
   const nameVal = document.getElementById('input-name').value.trim();
   const deptVal = document.getElementById('input-dept').value.trim();
+  const codeVal = (document.getElementById('input-code').value || '').trim().toUpperCase();
   if (!nameVal || !deptVal) { alert("Please enter your name and department."); return; }
-  userData.name = nameVal; userData.dept = deptVal;
+  if (codeVal && typeof MEMBERS !== 'undefined' && !MEMBERS[codeVal]) {
+    alert('邀请码无效，请向管理员确认。'); return;
+  }
+  userData.name = nameVal; userData.dept = deptVal; userData.code = codeVal || null;
   localStorage.setItem('aksa_user_data', JSON.stringify(userData));
   document.getElementById('login-modal').style.display = 'none';
   updateDashboardUI();
@@ -2740,13 +2756,17 @@ function updateDashboardUI() {
   else { btn.innerHTML = "✅ Daily Check-in"; btn.classList.remove('done'); }
 }
 
-function handleCheckIn() {
+async function handleCheckIn() {
   const today = new Date().toDateString();
-  if (userData.lastCheckInDate !== today) {
-    userData.streak += 1; userData.lastCheckInDate = today;
-    localStorage.setItem('aksa_user_data', JSON.stringify(userData));
-    updateDashboardUI();
-    alert("✅ Check-in Successful!");
+  if (userData.lastCheckInDate === today) return;
+  userData.streak += 1; userData.lastCheckInDate = today;
+  localStorage.setItem('aksa_user_data', JSON.stringify(userData));
+  updateDashboardUI();
+  alert("✅ Check-in Successful!");
+  if (userData.code && typeof checkInToLeanCloud !== 'undefined') {
+    try { await checkInToLeanCloud(userData.code, userData.name); }
+    catch(e) { console.warn('Leaderboard sync failed:', e); }
+    renderLeaderboard();
   }
 }
 
@@ -2892,6 +2912,7 @@ function openView(viewId) {
     if (viewId === 'view-dashboard') updateDashboardUI();
   }
   window.scrollTo(0, 0);
+  if (viewId === 'view-dashboard') renderLeaderboard();
 }
 
 // ================= DIALOGUE DATA =================
@@ -5077,9 +5098,34 @@ async function loadDailyNews(force) {
   }
 }
 
+async function renderLeaderboard() {
+  const el = document.getElementById('leaderboard-list');
+  if (!el) return;
+  if (typeof getLeaderboard === 'undefined') return;
+  el.innerHTML = '<p style="color:#aaa;font-size:13px;text-align:center;padding:12px">Loading...</p>';
+  try {
+    const rankings = await getLeaderboard();
+    if (!rankings.length) {
+      el.innerHTML = '<p style="color:#aaa;font-size:13px;text-align:center;padding:12px">No check-ins yet. Be the first!</p>';
+      return;
+    }
+    const medal = ['🥇','🥈','🥉'];
+    el.innerHTML = rankings.map((r, i) => `
+      <div class="lb-row ${userData.code && r.name === userData.name ? 'lb-me' : ''}">
+        <span class="lb-rank">${medal[i] || '#' + (i + 1)}</span>
+        <span class="lb-name">${r.name}</span>
+        <span class="lb-days">${r.days} days</span>
+      </div>
+    `).join('');
+  } catch(e) {
+    el.innerHTML = '<p style="color:#aaa;font-size:13px;text-align:center;padding:12px">Could not load leaderboard.</p>';
+  }
+}
+
 // INIT
 window.addEventListener('DOMContentLoaded', () => { checkOnboarding(); renderDialogueLibrary(); renderPage(); renderGrammar(); renderTopics(); renderTodaysPick(); renderOfficePhrases(); initModuleShowcase(); updateSpeechStatus(); setTimeout(updateSpeechStatus, 600); loadDailyNews(false); });
 </script>
+<script src="leaderboard.js"></script>
 <script src="speech-config.js"></script>
 <script src="speech-cloud.js"></script>
 <script>
