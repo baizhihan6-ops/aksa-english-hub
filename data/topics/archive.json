@@ -1,0 +1,502 @@
+[
+  {
+    "id": "archive-01-qingming-festival",
+    "date": "2026-09-18",
+    "displayDate": "April 4-6, 2026",
+    "category": "culture",
+    "label": "China Festival",
+    "titleEn": "Qingming Festival",
+    "titleZh": "清明节",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Qingming is a traditional holiday for tomb-sweeping, family remembrance and spring outings. It is useful for explaining holiday leave and customer response timing.",
+    "summaryZh": "清明节常和扫墓祭祖、踏青出游联系在一起，适合练习节假日安排、请假说明和客户回复时间。",
+    "body": [
+      "Qingming Festival is one of the best cultural topics for office English because it combines tradition, family customs and practical holiday arrangements. Colleagues can use it to explain why response time may slow down during the holiday and how teams prepare handovers before a short break.",
+      "In English Corner, this topic also works well for intercultural sharing. Chinese employees can explain tomb-sweeping, remembrance and spring outings, while international colleagues can compare similar traditions in their own countries."
+    ],
+    "vocabulary": [
+      {
+        "en": "tomb-sweeping",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "ancestor",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "spring outing",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "holiday notice",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How would you explain Qingming Festival to an overseas customer in one minute?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "What should a team confirm before a short public holiday starts?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Do you think cultural topics make office small talk easier? Why?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-02-labour-day-holiday",
+    "date": "2026-09-18",
+    "displayDate": "May 1-5, 2026",
+    "category": "culture",
+    "label": "China Festival",
+    "titleEn": "Labour Day Holiday",
+    "titleZh": "劳动节假期",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Labour Day is one of the busiest travel periods in China. In office English, it is a great topic for handovers, travel plans and emergency contacts.",
+    "summaryZh": "劳动节是中国重要出行高峰，适合练习工作交接、出差安排、紧急联系人和节前通知。",
+    "body": [
+      "Labour Day is not only a holiday topic but also an operations topic. Offices often prepare internal handovers, customer notices and logistics checks before the break, especially when travel volume rises and delivery schedules become tighter.",
+      "This topic is useful in business English because it helps learners practice future plans, deadlines and emergency arrangements. It naturally connects with phrases like 'before the holiday', 'during the break' and 'when the office reopens'."
+    ],
+    "vocabulary": [
+      {
+        "en": "handover",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "travel peak",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "urgent order",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "backup contact",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What tasks should be finished before a long holiday?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How would you write a short holiday notice to customers?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Does your team need a backup contact during public holidays?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-03-youth-day",
+    "date": "2026-09-18",
+    "displayDate": "May 4, 2026",
+    "category": "culture",
+    "label": "China Festival",
+    "titleEn": "Youth Day",
+    "titleZh": "青年节",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Youth Day is often linked to student development, energy and future careers. It works well for topics about interns, growth and training goals.",
+    "summaryZh": "青年节常和年轻人才、实习生培养、成长目标和职业规划联系在一起。",
+    "body": [
+      "Youth Day can be linked to the workplace by talking about interns, young engineers and early-career training. It gives teams a softer topic for discussing growth, responsibility and long-term development.",
+      "For English practice, it is especially good for opinion questions. Learners can talk about what skills young employees need, how managers support growth and what a strong career path looks like."
+    ],
+    "vocabulary": [
+      {
+        "en": "young talent",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "intern",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "training",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "career path",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What skills should young employees improve first in the workplace?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How can a company support interns better?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "What is more important for growth: training or real project experience?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-04-dragon-boat-festival",
+    "date": "2026-09-18",
+    "displayDate": "June 19-21, 2026",
+    "category": "culture",
+    "label": "China Festival",
+    "titleEn": "Dragon Boat Festival",
+    "titleZh": "端午节",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Dragon Boat Festival brings rice dumplings, cultural stories and holiday greetings. It is ideal for customer emails and small talk with international colleagues.",
+    "summaryZh": "端午节适合练习粽子、节日问候、客户邮件和节前发货安排等话题。",
+    "body": [
+      "Dragon Boat Festival is ideal for customer-facing English because it combines culture with communication. Teams can explain the holiday briefly, mention traditional food such as rice dumplings and send short greeting emails that sound warm but professional.",
+      "It is also a practical logistics topic. Sales and service teams may need to check whether shipments, site visits or support schedules change around the festival period."
+    ],
+    "vocabulary": [
+      {
+        "en": "rice dumpling",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "traditional holiday",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "greeting email",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "delivery timing",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How would you explain Dragon Boat Festival in simple English?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Should holiday greetings to customers be formal or friendly?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "What delivery risks should be checked before a festival break?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-05-children-s-day",
+    "date": "2026-09-18",
+    "displayDate": "June 1, 2026",
+    "category": "culture",
+    "label": "China Festival",
+    "titleEn": "Children's Day",
+    "titleZh": "儿童节",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Children's Day is widely recognised in China. Teams often use it for family-friendly messages, internal activities and social media greetings.",
+    "summaryZh": "儿童节适合讨论家庭友好型活动、企业文化内容和轻松的节日祝福。",
+    "body": [
+      "Children's Day is a lighter topic, but it still fits workplace English well. Companies may use it in social media posts, internal newsletters or employee activities that focus on family culture and community spirit.",
+      "In class discussion, learners can use this topic to practice descriptive language and company culture vocabulary instead of only technical or sales terms."
+    ],
+    "vocabulary": [
+      {
+        "en": "family-friendly",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "greeting post",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "community",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "celebration",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What kind of Children's Day activity would fit a company culture event?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Do family-friendly events help team morale?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How can you write a simple festive greeting for social media?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-06-ai-meeting-notes-in-office-work",
+    "date": "2026-09-18",
+    "displayDate": "April 2026",
+    "category": "world",
+    "label": "Workplace News",
+    "titleEn": "AI Meeting Notes in Office Work",
+    "titleZh": "AI 会议纪要工具",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Companies are using AI tools to draft meeting summaries faster, but managers still need humans to review decisions, action items and customer-sensitive details.",
+    "summaryZh": "越来越多公司使用 AI 起草会议纪要，但关键决定、行动项和客户敏感信息仍需要人工复核。",
+    "body": [
+      "One visible workplace trend is using AI tools to summarise meetings. This can save time, especially when a team holds many internal or cross-border meetings every week. Drafting action items automatically also helps people follow the same structure.",
+      "However, office teams still need human review. AI summaries may miss tone, misunderstand decisions or present unclear responsibility lines. That makes this topic perfect for discussing efficiency versus accuracy in office English."
+    ],
+    "vocabulary": [
+      {
+        "en": "AI summary",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "action item",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "review",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "accuracy",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Would you trust AI to write your final meeting minutes?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "What parts of a meeting summary should always be checked by a person?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Is speed more important than accuracy in routine office work?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-07-return-to-office-becomes-more-structured",
+    "date": "2026-09-18",
+    "displayDate": "April 2026",
+    "category": "world",
+    "label": "Workplace News",
+    "titleEn": "Return-to-Office Becomes More Structured",
+    "titleZh": "返岗办公更有规则",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Many organisations continue refining office attendance rules. The trend is moving from vague flexibility to clearer team days and collaboration-based scheduling.",
+    "summaryZh": "许多公司继续优化到岗政策，从模糊的灵活办公转向更清晰的团队到岗日和协作安排。",
+    "body": [
+      "Return-to-office policies are still changing in many organisations. Instead of asking everyone to come in every day, some companies are building clearer team schedules and choosing office days for collaboration, training and faster problem-solving.",
+      "This topic works well for speaking practice because it invites balanced opinions. Learners can compare flexibility, productivity, attendance rules and the value of face-to-face communication."
+    ],
+    "vocabulary": [
+      {
+        "en": "hybrid work",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "team day",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "attendance",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "coordination",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What kind of work is better in the office than at home?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Should teams have fixed office days?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How can managers make office time more meaningful?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-08-managers-focus-on-productivity-not-presence",
+    "date": "2026-09-18",
+    "displayDate": "April 2026",
+    "category": "world",
+    "label": "Workplace News",
+    "titleEn": "Managers Focus on Productivity, Not Presence",
+    "titleZh": "关注产出而非坐班",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Recent workplace reporting suggests teams are discussing not only where people work, but also how to measure output, speed and communication quality.",
+    "summaryZh": "近期职场讨论不仅关注员工在哪里办公，也关注产出、响应速度和沟通质量。",
+    "body": [
+      "A growing management question is whether performance should be measured by presence or by results. Many teams now focus more on output, response time, delivery quality and communication discipline instead of simply checking whether someone is sitting at a desk.",
+      "For English learners, this is a strong discussion topic because it includes useful vocabulary for performance reviews, team management and goal setting."
+    ],
+    "vocabulary": [
+      {
+        "en": "productivity",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "output",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "response time",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "communication",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the best way to measure productivity in office work?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Can presence ever replace real output?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How should managers talk about performance without sounding too harsh?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-09-upskilling-for-ai-and-digital-tools",
+    "date": "2026-09-18",
+    "displayDate": "Spring 2026",
+    "category": "world",
+    "label": "Workplace News",
+    "titleEn": "Upskilling for AI and Digital Tools",
+    "titleZh": "AI 与数字工具技能提升",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "Training remains a hot topic as employees are expected to use AI and automation tools more confidently. This links naturally to English Corner lessons about learning and improvement.",
+    "summaryZh": "随着 AI 和自动化工具更常见，培训和技能提升仍然是很多团队的重点。",
+    "body": [
+      "As AI and digital tools spread across departments, upskilling becomes part of normal office life. Teams are expected to learn new tools, understand automation and improve digital communication instead of waiting for change to slow down.",
+      "This topic is good for English Corner because it encourages learners to talk about goals, training plans, confidence and the difference between learning a tool and using it well at work."
+    ],
+    "vocabulary": [
+      {
+        "en": "upskilling",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "automation",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "training plan",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "digital tools",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What new skill should office workers learn this year?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "Is formal training better than self-study?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How can a company encourage employees to keep learning?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  },
+  {
+    "id": "archive-10-shorter-meetings-clearer-decisions",
+    "date": "2026-09-18",
+    "displayDate": "Spring 2026",
+    "category": "world",
+    "label": "Workplace News",
+    "titleEn": "Shorter Meetings, Clearer Decisions",
+    "titleZh": "更短会议，更清晰决策",
+    "sourceName": "AKSA English Hub Archive",
+    "sourceUrl": "",
+    "publishedAt": "",
+    "summaryEn": "A common office trend is reducing long meetings and keeping only the most important participants. This is useful for phrases about agendas, decisions and follow-up notes.",
+    "summaryZh": "办公室里越来越强调缩短会议时间、减少参会人数，并把重点放在决策和后续行动上。",
+    "body": [
+      "Many teams are trying to shorten meetings and invite only the most relevant people. The goal is not just to save time, but to make sure each meeting ends with a clear decision, an owner and a follow-up deadline.",
+      "This topic helps learners practice meeting English: setting an agenda, summarising a decision, assigning actions and writing a short follow-up note after the discussion ends."
+    ],
+    "vocabulary": [
+      {
+        "en": "agenda",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "decision",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "follow-up",
+        "zh": "查看正文语境"
+      },
+      {
+        "en": "meeting efficiency",
+        "zh": "查看正文语境"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What makes a meeting feel too long?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "How can a chairperson keep a meeting efficient?",
+        "starter": "I think this matters because..."
+      },
+      {
+        "question": "What should happen immediately after a meeting ends?",
+        "starter": "I think this matters because..."
+      }
+    ]
+  }
+]

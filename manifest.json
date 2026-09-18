@@ -1,11 +1,11 @@
 {
   "name": "AKSA English Hub",
   "short_name": "AKSA Hub",
-  "description": "AKSA Power Generation English Learning Platform",
+  "description": "Generator-set, workplace and daily English learning for AKSA teams.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f4f6f9",
-  "theme_color": "#1e1e1e",
+  "background_color": "#f4f4f1",
+  "theme_color": "#080808",
   "icons": [
     {
       "src": "icon.png",

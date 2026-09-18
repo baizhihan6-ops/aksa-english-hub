@@ -1,16 +1,6 @@
 node_modules/
-android/build/
-android/app/build/
-android/.gradle/
-android/captures/
-android/local.properties
-server/.env
-dist-edgeone/
-dist-aliyun-fc/
-*.apk
-!AKSA-English-Hub.apk
-
-# Tencent Cloud EdgeOne
 .env
-.edgeone/*
-.tef_dist/*
+.playwright-cli/
+test-results/
+qa/
+output/

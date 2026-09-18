@@ -1,0 +1,193 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T08:00:00+08:00",
+  "status": "complete",
+  "items": [
+    {
+      "id": "2026-09-19-industry-data-centre-power",
+      "date": "2026-09-19",
+      "category": "industry",
+      "label": "Genset & Standby Power",
+      "titleEn": "Data-centre growth is changing backup-power planning",
+      "titleZh": "数据中心增长正在改变备用电源规划",
+      "sourceName": "Cummins",
+      "sourceUrl": "https://www.cummins.com/en-na/news/2026/06/10/powering-data-center-surge",
+      "publishedAt": "2026-06-10",
+      "fetchedAt": "2026-09-19T08:00:00+08:00",
+      "summaryEn": "Data-centre operators are planning for larger and less predictable loads while grid connections can take years. The discussion highlights bridge-to-grid strategies, onsite generation, battery storage and diesel generator sets kept for redundancy. For genset teams, the commercial question is moving from a single product to an integrated reliability plan.",
+      "summaryZh": "数据中心负载增长更快、波动更大，而电网接入可能需要数年。行业正在讨论过渡供电、现场发电、储能以及用于冗余的柴油发电机组。对机组团队来说，客户需求正从单一产品转向整体可靠性方案。",
+      "vocabulary": [
+        {
+          "en": "backup power",
+          "zh": "备用电源"
+        },
+        {
+          "en": "bridge-to-grid",
+          "zh": "电网接入前的过渡供电"
+        },
+        {
+          "en": "onsite generation",
+          "zh": "现场发电"
+        },
+        {
+          "en": "redundancy",
+          "zh": "冗余"
+        },
+        {
+          "en": "load fluctuation",
+          "zh": "负载波动"
+        },
+        {
+          "en": "grid connection",
+          "zh": "电网接入"
+        },
+        {
+          "en": "battery storage",
+          "zh": "电池储能"
+        },
+        {
+          "en": "mission-critical",
+          "zh": "关键任务型的"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why do data centres still need diesel backup when batteries are installed?",
+          "starter": "Diesel backup remains important because..."
+        },
+        {
+          "question": "What should a supplier clarify before proposing a bridge-to-grid system?",
+          "starter": "The supplier should first confirm..."
+        },
+        {
+          "question": "How could this trend change generator-set sales conversations?",
+          "starter": "Sales conversations may become more focused on..."
+        }
+      ]
+    },
+    {
+      "id": "2026-09-19-world-unga-high-level-week",
+      "date": "2026-09-19",
+      "category": "world",
+      "label": "International Focus",
+      "titleEn": "World leaders prepare for UN High-level Week 2026",
+      "titleZh": "各国领导人准备参加2026年联合国大会高级别周",
+      "sourceName": "United Nations",
+      "sourceUrl": "https://www.un.org/en/high-level-week-2026",
+      "publishedAt": "2026-09-16",
+      "fetchedAt": "2026-09-19T08:00:00+08:00",
+      "summaryEn": "The United Nations High-level Week runs from 18 to 28 September, with the General Debate beginning on 22 September. The agenda covers sustainable development, climate action, sea-level rise, pandemic preparedness, peace and equality. It offers practical English for discussing priorities, cooperation and international decision-making.",
+      "summaryZh": "联合国大会高级别周于9月18日至28日举行，一般性辩论从9月22日开始。议程涵盖可持续发展、气候行动、海平面上升、疫情防范、和平与平等，适合练习“优先事项、合作与国际决策”等商务英语。",
+      "vocabulary": [
+        {
+          "en": "General Debate",
+          "zh": "一般性辩论"
+        },
+        {
+          "en": "high-level meeting",
+          "zh": "高级别会议"
+        },
+        {
+          "en": "collective action",
+          "zh": "集体行动"
+        },
+        {
+          "en": "sustainable development",
+          "zh": "可持续发展"
+        },
+        {
+          "en": "preparedness",
+          "zh": "防范准备"
+        },
+        {
+          "en": "sea-level rise",
+          "zh": "海平面上升"
+        },
+        {
+          "en": "political declaration",
+          "zh": "政治宣言"
+        },
+        {
+          "en": "global cooperation",
+          "zh": "全球合作"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which issue should receive the most attention during High-level Week?",
+          "starter": "The most urgent issue is..."
+        },
+        {
+          "question": "Why are international meetings useful even when countries disagree?",
+          "starter": "These meetings are useful because..."
+        },
+        {
+          "question": "How can companies follow global policy discussions more effectively?",
+          "starter": "Companies can monitor..."
+        }
+      ]
+    },
+    {
+      "id": "2026-09-19-culture-international-day-of-peace",
+      "date": "2026-09-19",
+      "category": "culture",
+      "label": "Festival & Culture",
+      "titleEn": "International Day of Peace: language for respectful dialogue",
+      "titleZh": "国际和平日：练习尊重与对话的表达",
+      "sourceName": "United Nations",
+      "sourceUrl": "https://www.un.org/en/events/peaceday/2014/",
+      "publishedAt": "2026-09-21",
+      "fetchedAt": "2026-09-19T08:00:00+08:00",
+      "summaryEn": "The International Day of Peace is observed on 21 September and promotes non-violence, dialogue and public awareness. In workplace English, it is a useful prompt for practising respectful disagreement, active listening and language that helps teams find common ground.",
+      "summaryZh": "国际和平日为每年9月21日，倡导非暴力、对话和公众意识。在职场英语中，这一主题适合练习尊重地表达不同意见、积极倾听以及帮助团队寻找共同点的语言。",
+      "vocabulary": [
+        {
+          "en": "non-violence",
+          "zh": "非暴力"
+        },
+        {
+          "en": "ceasefire",
+          "zh": "停火"
+        },
+        {
+          "en": "common ground",
+          "zh": "共同点"
+        },
+        {
+          "en": "respectful dialogue",
+          "zh": "尊重的对话"
+        },
+        {
+          "en": "active listening",
+          "zh": "积极倾听"
+        },
+        {
+          "en": "resolve a conflict",
+          "zh": "解决冲突"
+        },
+        {
+          "en": "raise awareness",
+          "zh": "提高意识"
+        },
+        {
+          "en": "shared responsibility",
+          "zh": "共同责任"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What language helps you disagree without making a discussion personal?",
+          "starter": "A respectful way to disagree is..."
+        },
+        {
+          "question": "How can active listening improve teamwork?",
+          "starter": "Active listening helps a team by..."
+        },
+        {
+          "question": "What small action can create more constructive meetings?",
+          "starter": "One practical action is..."
+        }
+      ]
+    }
+  ]
+}

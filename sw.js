@@ -1,92 +1,40 @@
-const CACHE_NAME = 'aksa-hub-v6';
-const urlsToCache = [
+const CACHE_NAME = 'aksa-english-corner-v9';
+const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
   './icon.png',
-  './speech-cloud.js'
+  './assets/site.css',
+  './assets/aksa-diesel-generator-hero-bw.webp',
+  './app.js',
+  './word-challenge.js',
+  './topics.js',
+  './data/words.js',
+  './data/phrases.js',
+  './data/lessons.js',
+  './data/topics/bootstrap.js',
+  './data/topics/index.json',
+  './data/topics/archive.json',
+  './data/topics/2026-09-19.json'
 ];
 
-// Install: cache core files
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('AKSA Hub: caching core files');
-        return cache.addAll(urlsToCache);
-      })
-      .then(function() {
-        return self.skipWaiting();
-      })
-  );
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
 });
 
-// Activate: clean up old caches
-self.addEventListener('activate', function(event) {
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.filter(function(name) {
-          return name !== CACHE_NAME;
-        }).map(function(name) {
-          console.log('AKSA Hub: deleting old cache', name);
-          return caches.delete(name);
-        })
-      );
-    }).then(function() {
-      return self.clients.claim();
-    })
-  );
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(names => Promise.all(names.filter(name => name !== CACHE_NAME).map(name => caches.delete(name)))).then(() => self.clients.claim()));
 });
 
-// Fetch: keep the app shell fresh, fall back to cache when offline.
-self.addEventListener('fetch', function(event) {
-  var url = new URL(event.request.url);
-  var indexUrl = new URL('./index.html', self.location.href).toString();
-
-  if (url.origin === self.location.origin) {
-    if (url.pathname.endsWith('/speech-config.js') || url.pathname.includes('/api/')) {
-      event.respondWith(fetch(event.request));
-      return;
-    }
-
-    var isPageRequest = event.request.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('/index.html');
-    if (isPageRequest) {
-      event.respondWith(
-        fetch(event.request).then(function(response) {
-          if (response && response.status === 200) {
-            var clone = response.clone();
-            caches.open(CACHE_NAME).then(function(cache) {
-              cache.put(event.request, clone);
-              cache.put(indexUrl, response.clone());
-            });
-          }
-          return response;
-        }).catch(function() {
-          return caches.match(event.request).then(function(cached) {
-            return cached || caches.match(indexUrl);
-          });
-        })
-      );
-      return;
-    }
-
-    // Stale-while-revalidate for same-origin assets.
-    event.respondWith(
-      caches.match(event.request).then(function(cached) {
-        var fetched = fetch(event.request).then(function(response) {
-          if (response && response.status === 200) {
-            var clone = response.clone();
-            caches.open(CACHE_NAME).then(function(cache) {
-              cache.put(event.request, clone);
-            });
-          }
-          return response;
-        }).catch(function() {
-          return cached;
-        });
-        return cached || fetched;
-      })
-    );
-  }
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) return;
+  const navigation = event.request.mode === 'navigate';
+  event.respondWith(
+    fetch(event.request).then(response => {
+      if (response && response.ok) caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
+      return response;
+    }).catch(() => caches.match(event.request).then(cached => cached || (navigation ? caches.match('./index.html') : undefined)))
+  );
 });
