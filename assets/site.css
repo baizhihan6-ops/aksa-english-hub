@@ -614,7 +614,7 @@ body.profile-locked > :not(.profile-gate) { visibility: hidden; }
   .profile-gate-copy > p:last-child { margin-top: 20px; font-size: 12px; }
   .profile-form { align-self: start; justify-self: stretch; }
   .profile-fields label { padding: 18px 0; }
-  .profile-fields input { font-size: 28px; }
+  .profile-fields input { font-size: 24px; }
   .profile-gate-footer span:last-child { display: none; }
   .signal-locator { left: auto; right: -56px; bottom: 28%; width: 150px; }
   .hero-copy h1 { font-size: 54px; }

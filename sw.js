@@ -1,4 +1,4 @@
-const CACHE_NAME = 'aksa-english-corner-v9';
+const CACHE_NAME = 'aksa-english-corner-v10';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,7 +6,14 @@ const APP_SHELL = [
   './icon.png',
   './assets/site.css',
   './assets/aksa-diesel-generator-hero-bw.webp',
+  './assets/icons/volume-2.svg',
+  './assets/icons/square.svg',
+  './assets/icons/arrow-right.svg',
+  './assets/icons/arrow-up-right.svg',
+  './assets/icons/star.svg',
   './app.js',
+  './audio.js',
+  './profile.js',
   './word-challenge.js',
   './topics.js',
   './data/words.js',
