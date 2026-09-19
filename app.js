@@ -8,6 +8,8 @@
   var TOPICS = window.AKSATopics ? window.AKSATopics.flattenBootstrap(TOPIC_BOOTSTRAP) : [];
   var Challenge = window.AKSAChallenge;
   var Profile = window.AKSAProfile;
+  var Audio = window.AKSAAudio;
+  var audioController = Audio.createController(window);
   var STORE_KEY = 'aksa-english-corner-v2';
   var toastTimer = null;
   var profileReturnRoute = 'home';
@@ -99,6 +101,10 @@
     });
   }
 
+  function icon(name) {
+    return '<span class="ui-icon icon-' + name + '" aria-hidden="true"></span>';
+  }
+
   function showToast(message) {
     var toast = document.getElementById('toast');
     if (!toast) return;
@@ -120,43 +126,39 @@
   }
 
   function ttsAvailable() {
-    return 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
-  }
-
-  function preferredVoice() {
-    if (!ttsAvailable()) return null;
-    var voices = window.speechSynthesis.getVoices();
-    return voices.find(function(voice) { return voice.lang === 'en-GB'; }) || voices.find(function(voice) { return /^en/i.test(voice.lang); }) || null;
+    return audioController.isAvailable();
   }
 
   function speak(text, button, onEnd) {
-    if (!ttsAvailable()) {
-      showToast('Speech playback is not available in this browser.');
-      if (onEnd) onEnd();
-      return false;
-    }
-    window.speechSynthesis.cancel();
-    var utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-GB';
-    utterance.rate = .88;
-    var voice = preferredVoice();
-    if (voice) utterance.voice = voice;
-    var original = button ? button.textContent : '';
-    if (button) {
-      button.classList.add('playing');
-      button.textContent = '■';
-    }
-    function finish() {
+    var original = button ? button.innerHTML : '';
+    var finished = false;
+    function reset() {
+      if (finished) return;
+      finished = true;
       if (button) {
         button.classList.remove('playing');
-        button.textContent = original;
+        button.removeAttribute('aria-pressed');
+        button.innerHTML = original;
       }
+    }
+    function finish() {
+      reset();
       if (onEnd) onEnd();
     }
-    utterance.onend = finish;
-    utterance.onerror = finish;
-    window.speechSynthesis.speak(utterance);
-    return true;
+    return audioController.speak(text, {
+      onStart: function() {
+        if (!button) return;
+        button.classList.add('playing');
+        button.setAttribute('aria-pressed', 'true');
+        button.innerHTML = icon('square') + '<span class="sr-only">Stop playback</span>';
+      },
+      onEnd: finish,
+      onCancel: reset,
+      onError: function() {
+        reset();
+        showToast('Sound could not start. Turn up media volume and tap the play button again.');
+      }
+    });
   }
 
   function bindRouteButtons(scope) {
@@ -171,7 +173,7 @@
 
   function navigate(route, replace) {
     var next = validRoutes.includes(route) ? route : 'home';
-    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    audioController.cancel();
     document.querySelectorAll('.view').forEach(function(view) { view.classList.toggle('active', view.dataset.view === next); });
     document.querySelectorAll('.main-nav [data-route]').forEach(function(button) { button.classList.toggle('active', button.dataset.route === next); });
     document.getElementById('mainNav').classList.remove('open');
@@ -250,7 +252,7 @@
     document.getElementById('lessonFocus').innerHTML = lesson.focus.map(function(item) { return '<span>' + escapeHtml(item) + '</span>'; }).join('');
     var lines = document.getElementById('dialogueLines');
     lines.innerHTML = lesson.lines.map(function(line, i) {
-      return '<div class="dialogue-line"><span class="speaker">' + escapeHtml(line.speaker) + '</span><div><div class="en">' + escapeHtml(line.en) + '</div><div class="zh">' + escapeHtml(line.zh) + '</div></div><button class="listen-button" type="button" data-line="' + i + '" aria-label="Listen to this line">▶</button></div>';
+      return '<div class="dialogue-line"><span class="speaker">' + escapeHtml(line.speaker) + '</span><div><div class="en">' + escapeHtml(line.en) + '</div><div class="zh">' + escapeHtml(line.zh) + '</div></div><button class="listen-button" type="button" data-line="' + i + '" aria-label="Listen to this line">' + icon('volume-2') + '</button></div>';
     }).join('');
     lines.querySelectorAll('[data-line]').forEach(function(button) {
       button.addEventListener('click', function() { speak(lesson.lines[Number(button.dataset.line)].en, button); });
@@ -273,7 +275,7 @@
       }
       next();
     });
-    document.getElementById('stopLesson').addEventListener('click', function() { lessonPlayback = false; if (window.speechSynthesis) window.speechSynthesis.cancel(); });
+    document.getElementById('stopLesson').addEventListener('click', function() { lessonPlayback = false; audioController.cancel(); });
     renderLesson(0);
   }
 
@@ -316,11 +318,11 @@
     var list = document.getElementById('vocabularyList');
     if (vocabState.type === 'words') {
       list.innerHTML = current.map(function(word) {
-        return '<article class="word-row"><div class="word-term"><h3>' + escapeHtml(word.term) + '</h3><p>' + escapeHtml(word.ipa) + '</p></div><div class="word-details"><p class="translation">' + escapeHtml(word.zh) + '</p><p class="example-en">' + escapeHtml(word.example.en) + '</p><p class="example-zh">' + escapeHtml(word.example.zh) + '</p></div><div class="word-actions"><button class="listen-button" type="button" data-speak="' + escapeHtml(word.id) + '" aria-label="Listen to ' + escapeHtml(word.term) + '">▶</button><button class="favorite-button' + (isFavorite(word.id) ? ' active' : '') + '" type="button" data-favorite="' + escapeHtml(word.id) + '" aria-label="' + (isFavorite(word.id) ? 'Remove from review' : 'Add to review') + '">☆</button></div></article>';
+        return '<article class="word-row"><div class="word-term"><h3>' + escapeHtml(word.term) + '</h3><p>' + escapeHtml(word.ipa) + '</p></div><div class="word-details"><p class="translation">' + escapeHtml(word.zh) + '</p><p class="example-en">' + escapeHtml(word.example.en) + '</p><p class="example-zh">' + escapeHtml(word.example.zh) + '</p></div><div class="word-actions"><button class="listen-button" type="button" data-speak="' + escapeHtml(word.id) + '" aria-label="Listen to ' + escapeHtml(word.term) + '">' + icon('volume-2') + '</button><button class="favorite-button' + (isFavorite(word.id) ? ' active' : '') + '" type="button" data-favorite="' + escapeHtml(word.id) + '" aria-label="' + (isFavorite(word.id) ? 'Remove from review' : 'Add to review') + '">' + icon('star') + '</button></div></article>';
       }).join('');
     } else {
       list.innerHTML = current.map(function(item) {
-        return '<article class="phrase-row"><span class="scenario">' + escapeHtml(item.scenario) + '</span><div><h3>' + escapeHtml(item.en) + '</h3><p class="example-zh">' + escapeHtml(item.zh) + '</p></div><button class="listen-button" type="button" data-phrase="' + escapeHtml(item.id) + '" aria-label="Listen to phrase">▶</button></article>';
+        return '<article class="phrase-row"><span class="scenario">' + escapeHtml(item.scenario) + '</span><div><h3>' + escapeHtml(item.en) + '</h3><p class="example-zh">' + escapeHtml(item.zh) + '</p></div><button class="listen-button" type="button" data-phrase="' + escapeHtml(item.id) + '" aria-label="Listen to phrase">' + icon('volume-2') + '</button></article>';
       }).join('');
     }
     list.querySelectorAll('[data-speak]').forEach(function(button) {
@@ -330,7 +332,7 @@
     list.querySelectorAll('[data-phrase]').forEach(function(button) {
       button.addEventListener('click', function() { var item = PHRASES.find(function(entry) { return entry.id === button.dataset.phrase; }); if (item) speak(item.en, button); });
     });
-    document.getElementById('vocabularyPagination').innerHTML = '<button type="button" data-page="prev"' + (vocabState.page === 1 ? ' disabled' : '') + '>← Previous</button><span>Page ' + vocabState.page + ' of ' + pages + '</span><button type="button" data-page="next"' + (vocabState.page === pages ? ' disabled' : '') + '>Next →</button>';
+    document.getElementById('vocabularyPagination').innerHTML = '<button type="button" data-page="prev"' + (vocabState.page === 1 ? ' disabled' : '') + '>' + icon('arrow-left') + ' Previous</button><span>Page ' + vocabState.page + ' of ' + pages + '</span><button type="button" data-page="next"' + (vocabState.page === pages ? ' disabled' : '') + '>Next ' + icon('arrow-right') + '</button>';
     document.querySelectorAll('#vocabularyPagination [data-page]').forEach(function(button) {
       button.addEventListener('click', function() { vocabState.page += button.dataset.page === 'next' ? 1 : -1; renderVocabulary(); document.querySelector('.tab-bar').scrollIntoView(); });
     });
@@ -364,7 +366,7 @@
 
   function renderGrammar() {
     document.getElementById('grammarList').innerHTML = grammarData.map(function(item) {
-      return '<article class="grammar-item"><span class="grammar-number">' + item[0] + '</span><div><h2>' + escapeHtml(item[1]) + '</h2><p class="grammar-rule">' + escapeHtml(item[2]) + '</p></div><div class="grammar-examples">' + item[3].map(function(example) { return '<div class="grammar-example"><span>' + escapeHtml(example) + '</span><button class="listen-button" type="button" data-example="' + escapeHtml(example) + '" aria-label="Listen to example">▶</button></div>'; }).join('') + '</div></article>';
+      return '<article class="grammar-item"><span class="grammar-number">' + item[0] + '</span><div><h2>' + escapeHtml(item[1]) + '</h2><p class="grammar-rule">' + escapeHtml(item[2]) + '</p></div><div class="grammar-examples">' + item[3].map(function(example) { return '<div class="grammar-example"><span>' + escapeHtml(example) + '</span><button class="listen-button" type="button" data-example="' + escapeHtml(example) + '" aria-label="Listen to example">' + icon('volume-2') + '</button></div>'; }).join('') + '</div></article>';
     }).join('');
     document.querySelectorAll('[data-example]').forEach(function(button) { button.addEventListener('click', function() { speak(button.dataset.example, button); }); });
   }
@@ -394,10 +396,10 @@
     document.getElementById('challengeSetup').hidden = true;
     document.getElementById('challengeResults').hidden = true;
     document.getElementById('challengeStage').hidden = false;
-    nextQuestion();
+    nextQuestion(true);
   }
 
-  function nextQuestion() {
+  function nextQuestion(autoPlay) {
     session.index += 1;
     if (session.index >= session.words.length) { finishChallenge(); return; }
     var word = session.words[session.index];
@@ -407,10 +409,10 @@
     session.attempt = 0;
     session.selectedTiles = [];
     session.type = Challenge.resolveQuestionType(session.settings.mode, progress.mastery || 0, ttsAvailable());
-    renderQuestion();
+    renderQuestion(false, Boolean(autoPlay));
   }
 
-  function renderQuestion(hint) {
+  function renderQuestion(hint, autoPlay) {
     var word = session.current;
     var panel = document.getElementById('questionPanel');
     document.getElementById('challengeFeedback').hidden = true;
@@ -420,10 +422,10 @@
     if (session.type === 'listening') {
       var choices = Challenge.buildChoices(word, WORDS);
       session.choices = choices;
-      panel.innerHTML = '<p class="question-type">Listening / Choose the word</p><h2 class="question-prompt">Listen carefully.</h2><button class="listen-main" id="challengeListen" type="button">Play</button><div class="choice-grid">' + choices.map(function(item, index) { return '<button class="choice-button" type="button" data-choice="' + escapeHtml(item.id) + '"><span>' + (index + 1) + '</span> ' + escapeHtml(item.term) + '</button>'; }).join('') + '</div>';
+      panel.innerHTML = '<p class="question-type">Listening / Choose the word</p><h2 class="question-prompt">Listen carefully.</h2><button class="listen-main" id="challengeListen" type="button" aria-label="Play pronunciation">' + icon('volume-2') + '<span class="sr-only">Play pronunciation</span></button><div class="choice-grid">' + choices.map(function(item, index) { return '<button class="choice-button" type="button" data-choice="' + escapeHtml(item.id) + '"><span>' + (index + 1) + '</span> ' + escapeHtml(item.term) + '</button>'; }).join('') + '</div>';
       document.getElementById('challengeListen').addEventListener('click', function() { speak(word.term, document.getElementById('challengeListen')); });
       panel.querySelectorAll('[data-choice]').forEach(function(button) { button.addEventListener('click', function() { completeAnswer(button.dataset.choice === word.id); }); });
-      setTimeout(function() { if (session && !session.answered) speak(word.term); }, 180);
+      if (autoPlay) speak(word.term, document.getElementById('challengeListen'));
       return;
     }
     if (session.type === 'typed') {
@@ -464,7 +466,7 @@
     if (session.attempt === 1) {
       showToast('Not yet. Use the first-letter hint and try once more.');
       session.selectedTiles = [];
-      renderQuestion(true);
+      renderQuestion(true, false);
     } else completeAnswer(false);
   }
 
@@ -491,11 +493,11 @@
   function renderFeedback(correct, word, mastery) {
     var feedback = document.getElementById('challengeFeedback');
     feedback.className = 'challenge-feedback ' + (correct ? 'feedback-correct' : 'feedback-wrong');
-    feedback.innerHTML = '<div class="feedback-status"><span class="feedback-mark">' + (correct ? '✓' : '×') + '</span><span>' + (correct ? 'Correct' : 'Review this word') + ' / Mastery ' + mastery + '</span></div><h3 class="feedback-answer">' + escapeHtml(word.term) + '</h3><p>' + escapeHtml(word.zh) + '</p><div class="feedback-example"><p class="example-en">' + escapeHtml(word.example.en) + '</p><p class="example-zh">' + escapeHtml(word.example.zh) + '</p></div><div class="feedback-actions"><button class="icon-text-button" id="feedbackListen" type="button">Listen</button><button class="icon-text-button" id="feedbackFavorite" type="button">' + (isFavorite(word.id) ? 'Remove from review' : 'Add to review') + '</button><button class="button button-dark" id="nextQuestion" type="button">' + (session.index + 1 === session.words.length ? 'View result' : 'Next question') + ' →</button></div>';
+    feedback.innerHTML = '<div class="feedback-status"><span class="feedback-mark">' + (correct ? '✓' : '×') + '</span><span>' + (correct ? 'Correct' : 'Review this word') + ' / Mastery ' + mastery + '</span></div><h3 class="feedback-answer">' + escapeHtml(word.term) + '</h3><p>' + escapeHtml(word.zh) + '</p><div class="feedback-example"><p class="example-en">' + escapeHtml(word.example.en) + '</p><p class="example-zh">' + escapeHtml(word.example.zh) + '</p></div><div class="feedback-actions"><button class="icon-text-button" id="feedbackListen" type="button">' + icon('volume-2') + ' Listen</button><button class="icon-text-button" id="feedbackFavorite" type="button">' + (isFavorite(word.id) ? 'Remove from review' : 'Add to review') + '</button><button class="button button-dark" id="nextQuestion" type="button">' + (session.index + 1 === session.words.length ? 'View result' : 'Next question') + ' ' + icon('arrow-right') + '</button></div>';
     feedback.hidden = false;
     document.getElementById('feedbackListen').addEventListener('click', function() { speak(word.term + '. ' + word.example.en, document.getElementById('feedbackListen')); });
     document.getElementById('feedbackFavorite').addEventListener('click', function() { var index = store.favorites.indexOf(word.id); if (index >= 0) store.favorites.splice(index, 1); else store.favorites.push(word.id); saveStore(); document.getElementById('feedbackFavorite').textContent = isFavorite(word.id) ? 'Remove from review' : 'Add to review'; });
-    document.getElementById('nextQuestion').addEventListener('click', nextQuestion);
+    document.getElementById('nextQuestion').addEventListener('click', function() { nextQuestion(true); });
     feedback.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
   }
 
@@ -556,7 +558,7 @@
 
   function renderHomeTopics() {
     document.getElementById('homeToday').innerHTML = latestTopics().map(function(item, index) {
-      return '<article class="today-card" tabindex="0" role="button" data-home-topic="' + escapeHtml(item.id) + '"><time>' + escapeHtml(item.date) + '</time><div><span class="topic-type">0' + (index + 1) + ' / ' + escapeHtml(item.label) + '</span><h3>' + escapeHtml(item.titleEn) + '</h3><p>' + escapeHtml(item.summaryEn) + '</p></div><span class="row-arrow">↗</span></article>';
+      return '<article class="today-card" tabindex="0" role="button" data-home-topic="' + escapeHtml(item.id) + '"><time>' + escapeHtml(item.date) + '</time><div><span class="topic-type">0' + (index + 1) + ' / ' + escapeHtml(item.label) + '</span><h3>' + escapeHtml(item.titleEn) + '</h3><p>' + escapeHtml(item.summaryEn) + '</p></div><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></article>';
     }).join('');
     document.querySelectorAll('[data-home-topic]').forEach(function(card) {
       function open() { openTopic(card.dataset.homeTopic); }
@@ -572,7 +574,7 @@
     document.getElementById('topicsUpdated').textContent = 'Last successful update: ' + formatDate((TOPIC_BOOTSTRAP.index.lastSuccessfulUpdate || '').slice(0, 10)) + '. Previous topics remain available.';
     var list = document.getElementById('topicsList');
     list.innerHTML = items.length ? items.map(function(item, index) {
-      return '<button class="topic-row" type="button" data-topic="' + escapeHtml(item.id) + '" data-index="' + String(index + 1).padStart(2, '0') + '"><time>' + escapeHtml(item.date) + '</time><span class="topic-category">' + escapeHtml(item.label || item.category) + '</span><div><h2>' + escapeHtml(item.titleEn) + '</h2><p>' + escapeHtml(item.summaryEn) + '</p></div><span class="row-arrow">↗</span></button>';
+      return '<button class="topic-row" type="button" data-topic="' + escapeHtml(item.id) + '" data-index="' + String(index + 1).padStart(2, '0') + '"><time>' + escapeHtml(item.date) + '</time><span class="topic-category">' + escapeHtml(item.label || item.category) + '</span><div><h2>' + escapeHtml(item.titleEn) + '</h2><p>' + escapeHtml(item.summaryEn) + '</p></div><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>';
     }).join('') : '<div class="empty-state">No topics match these filters. Clear one filter or try another keyword.</div>';
     list.querySelectorAll('[data-topic]').forEach(function(button) { button.addEventListener('click', function() { openTopic(button.dataset.topic); }); });
   }
@@ -586,7 +588,7 @@
     document.getElementById('topicsBrowser').hidden = true;
     var detail = document.getElementById('topicDetail');
     detail.hidden = false;
-    detail.innerHTML = '<button class="text-button detail-back" id="topicBack" type="button">← Back to archive</button><p class="section-code">' + escapeHtml(item.label || item.category) + ' / ' + escapeHtml(item.date) + '</p><h1>' + escapeHtml(item.titleEn) + '</h1><p class="zh-title">' + escapeHtml(item.titleZh) + '</p><div class="topic-meta"><span>' + escapeHtml(item.sourceName || 'AKSA English Hub') + '</span><span>Published ' + escapeHtml(item.publishedAt || item.displayDate || item.date) + '</span></div><div class="topic-summary"><p>' + escapeHtml(item.summaryEn) + '</p><p>' + escapeHtml(item.summaryZh) + '</p>' + (item.body ? item.body.map(function(text) { return '<p>' + escapeHtml(text) + '</p>'; }).join('') : '') + '</div><div class="topic-learning"><section><p class="mini-heading">Key vocabulary</p><ul class="vocab-list">' + (item.vocabulary || []).map(function(entry) { return '<li><strong>' + escapeHtml(entry.en) + '</strong><span>' + escapeHtml(entry.zh) + '</span></li>'; }).join('') + '</ul></section><section><p class="mini-heading">Discussion questions</p><ol class="question-list">' + (item.questions || []).map(function(entry) { var question = typeof entry === 'string' ? entry : entry.question; var starter = typeof entry === 'string' ? 'I think this matters because...' : entry.starter; return '<li><strong>' + escapeHtml(question) + '</strong><p>' + escapeHtml(starter) + '</p></li>'; }).join('') + '</ol></section></div>' + (item.sourceUrl ? '<a class="source-link" href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener">Open original source ↗</a>' : '');
+    detail.innerHTML = '<button class="text-button detail-back" id="topicBack" type="button">' + icon('arrow-left') + ' Back to archive</button><p class="section-code">' + escapeHtml(item.label || item.category) + ' / ' + escapeHtml(item.date) + '</p><h1>' + escapeHtml(item.titleEn) + '</h1><p class="zh-title">' + escapeHtml(item.titleZh) + '</p><div class="topic-meta"><span>' + escapeHtml(item.sourceName || 'AKSA English Hub') + '</span><span>Published ' + escapeHtml(item.publishedAt || item.displayDate || item.date) + '</span></div><div class="topic-summary"><p>' + escapeHtml(item.summaryEn) + '</p><p>' + escapeHtml(item.summaryZh) + '</p>' + (item.body ? item.body.map(function(text) { return '<p>' + escapeHtml(text) + '</p>'; }).join('') : '') + '</div><div class="topic-learning"><section><p class="mini-heading">Key vocabulary</p><ul class="vocab-list">' + (item.vocabulary || []).map(function(entry) { return '<li><strong>' + escapeHtml(entry.en) + '</strong><span>' + escapeHtml(entry.zh) + '</span></li>'; }).join('') + '</ul></section><section><p class="mini-heading">Discussion questions</p><ol class="question-list">' + (item.questions || []).map(function(entry) { var question = typeof entry === 'string' ? entry : entry.question; var starter = typeof entry === 'string' ? 'I think this matters because...' : entry.starter; return '<li><strong>' + escapeHtml(question) + '</strong><p>' + escapeHtml(starter) + '</p></li>'; }).join('') + '</ol></section></div>' + (item.sourceUrl ? '<a class="source-link" href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener">Open original source ' + icon('arrow-up-right') + '</a>' : '');
     document.getElementById('topicBack').addEventListener('click', closeTopic);
     window.scrollTo({ top: 0, behavior: 'auto' });
   }

@@ -70,8 +70,8 @@
           <h1>AKSA<br>ENGLISH<br>CORNER</h1>
           <p class="hero-intro">Generator-set terminology, workplace dialogue and daily English practice in one focused learning space.</p>
           <div class="hero-actions">
-            <button class="button button-light" type="button" data-route="challenge">Start Challenge <span aria-hidden="true">↗</span></button>
-            <button class="button button-ghost" type="button" data-route="dialogue">Open Dialogue <span aria-hidden="true">→</span></button>
+            <button class="button button-light" type="button" data-route="challenge">Start Challenge <span class="ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>
+            <button class="button button-ghost" type="button" data-route="dialogue">Open Dialogue <span class="ui-icon icon-arrow-right" aria-hidden="true"></span></button>
           </div>
         </div>
         <div class="hero-meta">
@@ -95,10 +95,10 @@
           <p>Choose a focused route. Your practice history and review queue stay on this device.</p>
         </div>
         <div class="editorial-list" id="homeRoutes">
-          <button class="editorial-row" type="button" data-route="vocabulary"><span class="row-index">01</span><span><strong>Vocabulary & Examples</strong><small id="homeWordCount">1,882 terms</small></span><span class="row-arrow">↗</span></button>
-          <button class="editorial-row" type="button" data-route="dialogue"><span class="row-index">02</span><span><strong>Dialogue Lessons</strong><small id="homeLessonCount">14 lessons</small></span><span class="row-arrow">↗</span></button>
-          <button class="editorial-row" type="button" data-route="challenge"><span class="row-index">03</span><span><strong>Word Challenge</strong><small>Spelling / Listening / Mixed</small></span><span class="row-arrow">↗</span></button>
-          <button class="editorial-row" type="button" data-route="topics"><span class="row-index">04</span><span><strong>Daily Topics</strong><small>Industry / World / Culture</small></span><span class="row-arrow">↗</span></button>
+          <button class="editorial-row" type="button" data-route="vocabulary"><span class="row-index">01</span><span><strong>Vocabulary & Examples</strong><small id="homeWordCount">1,882 terms</small></span><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>
+          <button class="editorial-row" type="button" data-route="dialogue"><span class="row-index">02</span><span><strong>Dialogue Lessons</strong><small id="homeLessonCount">14 lessons</small></span><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>
+          <button class="editorial-row" type="button" data-route="challenge"><span class="row-index">03</span><span><strong>Word Challenge</strong><small>Spelling / Listening / Mixed</small></span><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>
+          <button class="editorial-row" type="button" data-route="topics"><span class="row-index">04</span><span><strong>Daily Topics</strong><small>Industry / World / Culture</small></span><span class="row-arrow ui-icon icon-arrow-up-right" aria-hidden="true"></span></button>
         </div>
       </section>
 
@@ -106,7 +106,7 @@
         <div class="band-heading">
           <p class="section-code">03 / TODAY</p>
           <h2 id="today-title">Three ideas for today’s English Corner.</h2>
-          <button class="text-button light" type="button" data-route="topics">View archive <span aria-hidden="true">→</span></button>
+          <button class="text-button light" type="button" data-route="topics">View archive <span class="ui-icon icon-arrow-right" aria-hidden="true"></span></button>
         </div>
         <div class="today-grid" id="homeToday"></div>
       </section>
@@ -121,7 +121,7 @@
           <div><strong id="homeDue">0</strong><span>Due today</span></div>
           <div><strong id="homeAccuracy">—</strong><span>Recent accuracy</span></div>
         </div>
-        <button class="button button-dark" type="button" data-route="challenge">Continue learning <span aria-hidden="true">→</span></button>
+        <button class="button button-dark" type="button" data-route="challenge">Continue learning <span class="ui-icon icon-arrow-right" aria-hidden="true"></span></button>
       </section>
     </section>
 
@@ -183,11 +183,11 @@
           <div class="setup-section"><p class="mini-heading">01 / Vocabulary range</p><div class="option-grid" data-setting="category"><button class="active" type="button" data-value="all">All</button><button type="button" data-value="technical">Technical</button><button type="button" data-value="office">Office</button><button type="button" data-value="daily">Daily</button></div></div>
           <div class="setup-section"><p class="mini-heading">02 / Mode</p><div class="option-grid three" data-setting="mode"><button class="active" type="button" data-value="mixed">Mixed</button><button type="button" data-value="spelling">Spelling</button><button type="button" data-value="listening">Listening</button></div></div>
           <div class="setup-section"><p class="mini-heading">03 / Questions</p><div class="option-grid two" data-setting="count"><button class="active" type="button" data-value="10">10</button><button type="button" data-value="20">20</button></div></div>
-          <button class="button button-dark wide" id="startChallenge" type="button">Start challenge <span aria-hidden="true">→</span></button>
+          <button class="button button-dark wide" id="startChallenge" type="button">Start challenge <span class="ui-icon icon-arrow-right" aria-hidden="true"></span></button>
         </section>
 
         <section class="challenge-stage" id="challengeStage" hidden>
-          <div class="challenge-topline"><button class="text-button" id="exitChallenge" type="button">← Exit</button><span id="challengeProgressText">1 / 10</span><span id="challengeScore">0 correct</span></div>
+          <div class="challenge-topline"><button class="text-button" id="exitChallenge" type="button"><span class="ui-icon icon-arrow-left" aria-hidden="true"></span> Exit</button><span id="challengeProgressText">1 / 10</span><span id="challengeScore">0 correct</span></div>
           <div class="progress-line"><span id="challengeProgressBar"></span></div>
           <div class="question-panel" id="questionPanel"></div>
           <div class="challenge-feedback" id="challengeFeedback" aria-live="polite" hidden></div>
@@ -240,7 +240,7 @@
         </section>
         <div class="dashboard-metrics" id="dashboardMetrics"></div>
         <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">Recent performance</p><h2>Last seven completed sessions</h2></div></div><div class="score-chart" id="scoreChart"></div></section>
-        <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">Review queue</p><h2>Words to revisit</h2></div><button class="text-button" type="button" data-route="challenge">Start review →</button></div><div class="review-list" id="reviewList"></div></section>
+        <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">Review queue</p><h2>Words to revisit</h2></div><button class="text-button" type="button" data-route="challenge">Start review <span class="ui-icon icon-arrow-right" aria-hidden="true"></span></button></div><div class="review-list" id="reviewList"></div></section>
         <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">History</p><h2>Completed sessions</h2></div><button class="text-button" id="clearProgress" type="button">Clear local data</button></div><div class="history-list" id="historyList"></div></section>
       </div>
     </section>
@@ -257,6 +257,7 @@
   <script src="word-challenge.js"></script>
   <script src="topics.js"></script>
   <script src="profile.js"></script>
+  <script src="audio.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

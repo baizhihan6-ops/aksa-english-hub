@@ -41,3 +41,13 @@ test('profile gate uses the approved vertical Signal Grid form', () => {
   assert.match(css, /\.profile-fields\s*\{[^}]*grid-template-columns:\s*1fr/s);
   assert.doesNotMatch(html, /Invite Code|input-code/i);
 });
+
+test('audio controls use local monochrome icons and gesture-safe playback', () => {
+  const source = read('index.html') + '\n' + read('app.js');
+  for (const icon of ['volume-2.svg', 'square.svg', 'arrow-right.svg', 'arrow-up-right.svg', 'star.svg']) {
+    assert.ok(fs.existsSync(path.join(root, 'assets', 'icons', icon)), `missing local icon: ${icon}`);
+  }
+  assert.match(read('index.html'), /<script src="audio\.js"><\/script>/);
+  assert.doesNotMatch(source, /[▶↗→☆←]/, 'emoji-like control glyphs must not be used');
+  assert.doesNotMatch(read('app.js'), /setTimeout\([^)]*speak/s, 'listening playback must stay inside the tap event');
+});

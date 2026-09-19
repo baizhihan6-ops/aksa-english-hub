@@ -23,6 +23,7 @@
     "fast-xml-parser": "^5.8.0"
   },
   "devDependencies": {
+    "lucide-static": "^0.468.0",
     "phonemize": "^2.0.1"
   }
 }
