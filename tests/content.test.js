@@ -20,6 +20,31 @@ test('vocabulary meets the approved size and field contract', () => {
   }
 });
 
+test('vocabulary uses British IPA rather than spelling placeholders', () => {
+  const words = require('../data/words.js');
+  const ipaVowel = /[iɪeɛæaɑɒɔoʊuʌəɜɞɐɚɝ]/;
+  const forbiddenSpellings = ['turbocharger', 'synchronous', 'contactor', 'stator', 'trigeneration', 'busbar', 'inverter', 'login', 'logout'];
+  for (const word of words) {
+    assert.match(word.ipa, /^\/[^/]+\/$/, `${word.term} needs one IPA slash pair`);
+    assert.match(word.ipa, ipaVowel, `${word.term} needs an IPA vowel`);
+    const ipaPlain = word.ipa.toLowerCase().replace(/[^a-z]/g, '');
+    const termPlain = word.term.toLowerCase().replace(/[^a-z]/g, '');
+    assert.notEqual(ipaPlain, termPlain, `${word.term} still uses plain spelling as IPA`);
+    for (const spelling of forbiddenSpellings) assert.doesNotMatch(word.ipa.toLowerCase(), new RegExp(spelling), `${word.term} contains a spelling placeholder`);
+  }
+
+  const expected = {
+    Alternator: '/ˈɔːltəneɪtə/',
+    'Standby Power': '/ˈstændbaɪ ˈpaʊə/',
+    Turbocharger: '/ˈtɜːbəʊˌtʃɑːdʒə/',
+    Synchronous: '/ˈsɪŋkrənəs/',
+    Busbar: '/ˈbʌsbɑː/'
+  };
+  for (const [term, ipa] of Object.entries(expected)) {
+    assert.equal(words.find(item => item.term === term).ipa, ipa);
+  }
+});
+
 test('phrase bank contains at least 2000 unique bilingual expressions', () => {
   const phrases = require('../data/phrases.js');
   assert.ok(phrases.length >= 2000, `expected at least 2000 phrases, received ${phrases.length}`);
@@ -46,4 +71,3 @@ test('Topics index is append-only shaped and includes all three daily categories
   assert.deepEqual(new Set(current.items.map(item => item.category)), new Set(['industry', 'world', 'culture']));
   assert.ok(current.items.every(item => item.sourceUrl && item.summaryEn && item.summaryZh));
 });
-

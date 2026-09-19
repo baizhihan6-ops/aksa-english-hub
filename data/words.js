@@ -7,7 +7,7 @@
   {
     "id": "technical-alternator",
     "term": "Alternator",
-    "ipa": "/ˈɔltərˌneɪtər/",
+    "ipa": "/ˈɔːltəneɪtə/",
     "zh": "交流发电机",
     "pinyin": "Jiāo liú fā diàn jī",
     "category": "technical",
@@ -21,7 +21,7 @@
   {
     "id": "technical-standby-power",
     "term": "Standby Power",
-    "ipa": "/ˈstændˈbaɪ paʊər/",
+    "ipa": "/ˈstændbaɪ ˈpaʊə/",
     "zh": "备用功率",
     "pinyin": "Bèi yòng gōng lǜ",
     "category": "technical",
@@ -35,7 +35,7 @@
   {
     "id": "technical-prime-power",
     "term": "Prime Power",
-    "ipa": "/praɪm paʊər/",
+    "ipa": "/pɹˈaɪm ˈpaʊə/",
     "zh": "主用功率",
     "pinyin": "Zhǔ yòng gōng lǜ",
     "category": "technical",
@@ -49,7 +49,7 @@
   {
     "id": "technical-control-panel",
     "term": "Control Panel",
-    "ipa": "/kənˈtroʊl ˈpænəl/",
+    "ipa": "/kəntɹˈəʊl pˈænəl/",
     "zh": "控制面板",
     "pinyin": "Kòng zhì miàn bǎn",
     "category": "technical",
@@ -63,7 +63,7 @@
   {
     "id": "technical-sound-attenuated-canopy",
     "term": "Sound Attenuated Canopy",
-    "ipa": "/saʊnd əˈtɛnjuˌeɪtɪd ˈkænəpi/",
+    "ipa": "/sˈaʊnd əˈtɛnjueɪtɪd kˈænəpi/",
     "zh": "防音型静音箱",
     "pinyin": "Fáng yīn xíng jìng yīn xiāng",
     "category": "technical",
@@ -77,7 +77,7 @@
   {
     "id": "technical-circuit-breaker",
     "term": "Circuit Breaker",
-    "ipa": "/ˈsərkət ˈbreɪkər/",
+    "ipa": "/sˈɜːkɪt ˈbreɪkə/",
     "zh": "断路器",
     "pinyin": "Duàn lù qì",
     "category": "technical",
@@ -91,7 +91,7 @@
   {
     "id": "technical-automatic-transfer-switch",
     "term": "Automatic Transfer Switch",
-    "ipa": "/ˌɔtəˈmætɪk ˈtrænsfər swɪʧ/",
+    "ipa": "/ˌɔːtəmˈætɪk tɹænsfˈɜː swˈɪtʃ/",
     "zh": "自动转换开关",
     "pinyin": "Zì dòng zhuǎn huàn kāi guān",
     "category": "technical",
@@ -105,7 +105,7 @@
   {
     "id": "technical-diesel-engine",
     "term": "Diesel Engine",
-    "ipa": "/ˈdizəl ˈɪnʤən/",
+    "ipa": "/dˈiːzəl ˈɛndʒɪn/",
     "zh": "柴油发动机",
     "pinyin": "Chái yóu fā dòng jī",
     "category": "technical",
@@ -119,7 +119,7 @@
   {
     "id": "technical-exhaust-silencer",
     "term": "Exhaust Silencer",
-    "ipa": "/ɪgˈzɔst ˈsaɪlənˌsər/",
+    "ipa": "/ɪgzˈɔːst ˈsaɪlənsə/",
     "zh": "排气消音器",
     "pinyin": "Pái qì xiāo yīn qì",
     "category": "technical",
@@ -133,7 +133,7 @@
   {
     "id": "technical-coolant-heater",
     "term": "Coolant Heater",
-    "ipa": "/ˈkulənt ˈhitər/",
+    "ipa": "/ˈkuːlənt hˈiːtə/",
     "zh": "水套加热器",
     "pinyin": "Shuǐ tào jiā rè qì",
     "category": "technical",
@@ -147,7 +147,7 @@
   {
     "id": "technical-voltage-regulator",
     "term": "Voltage Regulator",
-    "ipa": "/ˈvoʊltɪʤ ˈrɛgjəˌleɪtər/",
+    "ipa": "/vˈəʊltɪdʒ ˈrɛɡjʊleɪtə/",
     "zh": "自动调压器",
     "pinyin": "Zì dòng tiáo yā qì",
     "category": "technical",
@@ -161,7 +161,7 @@
   {
     "id": "technical-radiator",
     "term": "Radiator",
-    "ipa": "/ˈreɪdiˌeɪtər/",
+    "ipa": "/ɹˈeɪdɪˌeɪtə/",
     "zh": "散热器水箱",
     "pinyin": "Sàn rè qì shuǐ xiāng",
     "category": "technical",
@@ -175,7 +175,7 @@
   {
     "id": "technical-crankshaft",
     "term": "Crankshaft",
-    "ipa": "/ˈkræŋkˌʃæft/",
+    "ipa": "/ˈkræŋkʃɑːft/",
     "zh": "曲轴",
     "pinyin": "Qū zhóu",
     "category": "technical",
@@ -189,7 +189,7 @@
   {
     "id": "technical-turbocharger",
     "term": "Turbocharger",
-    "ipa": "/turbocharger/",
+    "ipa": "/ˈtɜːbəʊˌtʃɑːdʒə/",
     "zh": "涡轮增压器",
     "pinyin": "Wō lún zēng yā qì",
     "category": "technical",
@@ -203,7 +203,7 @@
   {
     "id": "technical-synchronous",
     "term": "Synchronous",
-    "ipa": "/synchronous/",
+    "ipa": "/ˈsɪŋkrənəs/",
     "zh": "同步的",
     "pinyin": "Tóng bù de",
     "category": "technical",
@@ -217,7 +217,7 @@
   {
     "id": "technical-three-phase",
     "term": "Three Phase",
-    "ipa": "/θri feɪz/",
+    "ipa": "/θɹˈiː fˈeɪz/",
     "zh": "三相",
     "pinyin": "Sān xiàng",
     "category": "technical",
@@ -231,7 +231,7 @@
   {
     "id": "technical-frequency",
     "term": "Frequency",
-    "ipa": "/ˈfrikwənsi/",
+    "ipa": "/fɹˈiːkwənsi/",
     "zh": "频率",
     "pinyin": "Pín lǜ",
     "category": "technical",
@@ -245,7 +245,7 @@
   {
     "id": "technical-contactor",
     "term": "Contactor",
-    "ipa": "/contactor/",
+    "ipa": "/kənˈtæktə/",
     "zh": "接触器",
     "pinyin": "Jiē chù qì",
     "category": "technical",
@@ -259,7 +259,7 @@
   {
     "id": "technical-power-factor",
     "term": "Power Factor",
-    "ipa": "/paʊər ˈfæktər/",
+    "ipa": "/ˈpaʊə fˈæktə/",
     "zh": "功率因数",
     "pinyin": "Gōng lǜ yīn shù",
     "category": "technical",
@@ -273,7 +273,7 @@
   {
     "id": "technical-emission",
     "term": "Emission",
-    "ipa": "/ɪˈmɪʃən/",
+    "ipa": "/ɪmˈɪʃən/",
     "zh": "排放",
     "pinyin": "Pái fàng",
     "category": "technical",
@@ -287,7 +287,7 @@
   {
     "id": "technical-fuel-tank",
     "term": "Fuel Tank",
-    "ipa": "/fjuəl tæŋk/",
+    "ipa": "/fjˈuːəl tˈæŋk/",
     "zh": "燃油箱",
     "pinyin": "Rán yóu xiāng",
     "category": "technical",
@@ -301,7 +301,7 @@
   {
     "id": "technical-lubrication",
     "term": "Lubrication",
-    "ipa": "/ˌlubrɪˈkeɪʃən/",
+    "ipa": "/ˌluːbrɪˈkeɪʃən/",
     "zh": "润滑",
     "pinyin": "Rùn huá",
     "category": "technical",
@@ -315,7 +315,7 @@
   {
     "id": "technical-governor",
     "term": "Governor",
-    "ipa": "/ˈgəvərnər/",
+    "ipa": "/gˈɐvənə/",
     "zh": "调速器",
     "pinyin": "Tiáo sù qì",
     "category": "technical",
@@ -329,7 +329,7 @@
   {
     "id": "technical-stator",
     "term": "Stator",
-    "ipa": "/stator/",
+    "ipa": "/ˈsteɪtə/",
     "zh": "定子",
     "pinyin": "Dìng zǐ",
     "category": "technical",
@@ -343,7 +343,7 @@
   {
     "id": "technical-rotor",
     "term": "Rotor",
-    "ipa": "/ˈroʊtər/",
+    "ipa": "/ˈrəʊtə/",
     "zh": "转子",
     "pinyin": "Zhuǎn zǐ",
     "category": "technical",
@@ -357,7 +357,7 @@
   {
     "id": "technical-substation",
     "term": "Substation",
-    "ipa": "/ˈsəbˌsteɪʃən/",
+    "ipa": "/ˈsʌbˌsteɪʃən/",
     "zh": "变电站",
     "pinyin": "Biàn diàn zhàn",
     "category": "technical",
@@ -371,7 +371,7 @@
   {
     "id": "technical-cogeneration",
     "term": "Cogeneration",
-    "ipa": "/ˈkoʊˈʤɛnərˈeɪʃən/",
+    "ipa": "/ˌkəʊdʒɛnəˈreɪʃən/",
     "zh": "热电联产",
     "pinyin": "Rè diàn lián chǎn",
     "category": "technical",
@@ -385,7 +385,7 @@
   {
     "id": "technical-trigeneration",
     "term": "Trigeneration",
-    "ipa": "/trigeneration/",
+    "ipa": "/ˌtraɪdʒɛnəˈreɪʃən/",
     "zh": "冷热电三联产",
     "pinyin": "Lěng rè diàn sān lián chǎn",
     "category": "technical",
@@ -399,7 +399,7 @@
   {
     "id": "technical-load-bank",
     "term": "Load Bank",
-    "ipa": "/loʊd bæŋk/",
+    "ipa": "/lˈəʊd bˈæŋk/",
     "zh": "负载箱",
     "pinyin": "Fù zài xiāng",
     "category": "technical",
@@ -413,7 +413,7 @@
   {
     "id": "technical-busbar",
     "term": "Busbar",
-    "ipa": "/busbar/",
+    "ipa": "/ˈbʌsbɑː/",
     "zh": "母线排",
     "pinyin": "Mǔ xiàn pái",
     "category": "technical",
@@ -427,7 +427,7 @@
   {
     "id": "technical-insulation",
     "term": "Insulation",
-    "ipa": "/ˌɪnsəˈleɪʃən/",
+    "ipa": "/ˌɪnsjʊlˈeɪʃən/",
     "zh": "绝缘",
     "pinyin": "Jué yuán",
     "category": "technical",
@@ -441,7 +441,7 @@
   {
     "id": "technical-harmonic-distortion",
     "term": "Harmonic Distortion",
-    "ipa": "/hɑrˈmɑnɪk dɪˈstɔrʃən/",
+    "ipa": "/hɑːˈmɒnɪk dɪˈstɔːʃən/",
     "zh": "谐波失真",
     "pinyin": "Xié bō shī zhēn",
     "category": "technical",
@@ -455,7 +455,7 @@
   {
     "id": "technical-current-transformer",
     "term": "Current Transformer",
-    "ipa": "/ˈkɑrənt trænsˈfɔrmər/",
+    "ipa": "/kˈɐɹənt trænsˈfɔːmə/",
     "zh": "电流互感器",
     "pinyin": "Diàn liú hù gǎn qì",
     "category": "technical",
@@ -469,7 +469,7 @@
   {
     "id": "technical-kilovolt-ampere",
     "term": "Kilovolt Ampere",
-    "ipa": "/kilovolt ˈæmˌpər/",
+    "ipa": "/ˈkɪləʊvəʊlt ˈæmpɛə/",
     "zh": "千伏安",
     "pinyin": "Qiān fú ān",
     "category": "technical",
@@ -483,7 +483,7 @@
   {
     "id": "technical-megawatt",
     "term": "Megawatt",
-    "ipa": "/ˈmɛgəˌwɑt/",
+    "ipa": "/ˈmɛɡəwɒt/",
     "zh": "兆瓦",
     "pinyin": "Zhào wǎ",
     "category": "technical",
@@ -497,7 +497,7 @@
   {
     "id": "technical-microprocessor",
     "term": "Microprocessor",
-    "ipa": "/ˌmaɪkroʊˈprɑsɛsər/",
+    "ipa": "/ˌmaɪkrəʊˈprəʊsɛsə/",
     "zh": "微处理器",
     "pinyin": "Wēi chǔ lǐ qì",
     "category": "technical",
@@ -511,7 +511,7 @@
   {
     "id": "technical-rectifier",
     "term": "Rectifier",
-    "ipa": "/ˈrɛktəˌfaɪər/",
+    "ipa": "/ˈrɛktɪfaɪə/",
     "zh": "整流器",
     "pinyin": "Zhěng liú qì",
     "category": "technical",
@@ -525,7 +525,7 @@
   {
     "id": "technical-grid",
     "term": "Grid",
-    "ipa": "/grɪd/",
+    "ipa": "/gɹˈɪd/",
     "zh": "电网",
     "pinyin": "Diàn wǎng",
     "category": "technical",
@@ -539,7 +539,7 @@
   {
     "id": "technical-maintenance",
     "term": "Maintenance",
-    "ipa": "/ˈmeɪntənəns/",
+    "ipa": "/mˈeɪntnəns/",
     "zh": "维护保养",
     "pinyin": "Wéi hù bǎo yǎng",
     "category": "technical",
@@ -567,7 +567,7 @@
   {
     "id": "technical-assembly",
     "term": "Assembly",
-    "ipa": "/əˈsɛmbli/",
+    "ipa": "/əsˈɛmbli/",
     "zh": "装配",
     "pinyin": "Zhuāng pèi",
     "category": "technical",
@@ -581,7 +581,7 @@
   {
     "id": "technical-capability",
     "term": "Capability",
-    "ipa": "/ˌkeɪpəˈbɪləti/",
+    "ipa": "/kˌeɪpəbˈɪlɪti/",
     "zh": "能力与容量",
     "pinyin": "Néng lì yǔ róng liàng",
     "category": "technical",
@@ -595,7 +595,7 @@
   {
     "id": "technical-torque",
     "term": "Torque",
-    "ipa": "/tɔrk/",
+    "ipa": "/tˈɔːk/",
     "zh": "扭矩",
     "pinyin": "Niǔ jǔ",
     "category": "technical",
@@ -609,7 +609,7 @@
   {
     "id": "technical-viscosity",
     "term": "Viscosity",
-    "ipa": "/vɪˈskɑsəti/",
+    "ipa": "/vɪˈskɒsɪti/",
     "zh": "粘度",
     "pinyin": "Nián dù",
     "category": "technical",
@@ -623,7 +623,7 @@
   {
     "id": "technical-inverter",
     "term": "Inverter",
-    "ipa": "/inverter/",
+    "ipa": "/ɪnˈvɜːtə/",
     "zh": "逆变器",
     "pinyin": "Nì biàn qì",
     "category": "technical",
@@ -637,7 +637,7 @@
   {
     "id": "technical-synchronization",
     "term": "Synchronization",
-    "ipa": "/ˌsɪŋkrənəˈzeɪʃən/",
+    "ipa": "/ˌsɪŋkrənaɪˈzeɪʃən/",
     "zh": "同步并机",
     "pinyin": "Tóng bù bìng jī",
     "category": "technical",
@@ -651,7 +651,7 @@
   {
     "id": "technical-parallel-system",
     "term": "Parallel System",
-    "ipa": "/ˈpɛrəˌlɛl ˈsɪstəm/",
+    "ipa": "/pˈæɹəlˌɛl sˈɪstəm/",
     "zh": "并机系统",
     "pinyin": "Bìng jī xì tǒng",
     "category": "technical",
@@ -665,7 +665,7 @@
   {
     "id": "technical-enclosure",
     "term": "Enclosure",
-    "ipa": "/ɪnˈkloʊʒər/",
+    "ipa": "/ɪnklˈəʊʒə/",
     "zh": "外壳与机箱",
     "pinyin": "Wài ké yǔ jī xiāng",
     "category": "technical",
@@ -679,7 +679,7 @@
   {
     "id": "technical-base-frame",
     "term": "Base Frame",
-    "ipa": "/beɪs freɪm/",
+    "ipa": "/bˈeɪs fɹˈeɪm/",
     "zh": "底座",
     "pinyin": "Dǐ zuò",
     "category": "technical",
@@ -693,7 +693,7 @@
   {
     "id": "technical-anti-vibration-mount",
     "term": "Anti vibration Mount",
-    "ipa": "/ˈænˌti vaɪˈbreɪʃən maʊnt/",
+    "ipa": "/ˈænti vaɪˈbreɪʃən mˈaʊnt/",
     "zh": "减震垫",
     "pinyin": "Jiǎn zhèn diàn",
     "category": "technical",
@@ -707,7 +707,7 @@
   {
     "id": "technical-deep-sea-electronics",
     "term": "Deep Sea Electronics",
-    "ipa": "/diːp siː ɪˌlekˈtrɒnɪks/",
+    "ipa": "/dˈiːp sˈiː ɪlˌɛktɹˈɒnɪks/",
     "zh": "深海控制器",
     "pinyin": "Shēn hǎi kòng zhì qì",
     "category": "technical",
@@ -721,7 +721,7 @@
   {
     "id": "technical-mitsubishi",
     "term": "Mitsubishi",
-    "ipa": "/ˌmɪt.suːˈbiː.ʃi/",
+    "ipa": "/mˌɪtsʊbˈɪʃi/",
     "zh": "三菱",
     "pinyin": "Sān líng",
     "category": "technical",
@@ -735,7 +735,7 @@
   {
     "id": "technical-perkins",
     "term": "Perkins",
-    "ipa": "/ˈpɜːrkɪnz/",
+    "ipa": "/ˈpɜːkɪnz/",
     "zh": "珀金斯",
     "pinyin": "Pò jīn sī",
     "category": "technical",
@@ -763,7 +763,7 @@
   {
     "id": "technical-doosan",
     "term": "Doosan",
-    "ipa": "/ˈduː.sɑːn/",
+    "ipa": "/ˈduːsæn/",
     "zh": "斗山",
     "pinyin": "Dǒu shān",
     "category": "technical",
@@ -777,7 +777,7 @@
   {
     "id": "technical-emissions-standard",
     "term": "Emissions Standard",
-    "ipa": "/ɪˈmɪʃənz ˈstændərd/",
+    "ipa": "/ɪmˈɪʃənz stˈændəd/",
     "zh": "排放标准",
     "pinyin": "Pái fàng biāo zhǔn",
     "category": "technical",
@@ -791,7 +791,7 @@
   {
     "id": "technical-decibel",
     "term": "Decibel",
-    "ipa": "/ˈdɛsəˌbɛl/",
+    "ipa": "/ˈdɛsɪbɛl/",
     "zh": "分贝",
     "pinyin": "Fēn bèi",
     "category": "technical",
@@ -805,7 +805,7 @@
   {
     "id": "technical-exhaust-manifold",
     "term": "Exhaust Manifold",
-    "ipa": "/ɪgˈzɔst ˈmænɪˌfoʊld/",
+    "ipa": "/ɪgzˈɔːst ˈmænɪfəʊld/",
     "zh": "排气歧管",
     "pinyin": "Pái qì qí guǎn",
     "category": "technical",
@@ -819,7 +819,7 @@
   {
     "id": "technical-alternating-current",
     "term": "Alternating Current",
-    "ipa": "/ˈɔltərˌneɪtɪŋ ˈkɑrənt/",
+    "ipa": "/ˈɔːltəneɪtɪŋ kˈɐɹənt/",
     "zh": "交流电",
     "pinyin": "Jiāo liú diàn",
     "category": "technical",
@@ -833,7 +833,7 @@
   {
     "id": "technical-direct-current",
     "term": "Direct Current",
-    "ipa": "/dɪˈrɛkt ˈkɑrənt/",
+    "ipa": "/daɪɹˈɛkt kˈɐɹənt/",
     "zh": "直流电",
     "pinyin": "Zhí liú diàn",
     "category": "technical",
@@ -847,7 +847,7 @@
   {
     "id": "technical-neutral-line",
     "term": "Neutral Line",
-    "ipa": "/ˈnutrəl laɪn/",
+    "ipa": "/njˈuːtɹəl lˈaɪn/",
     "zh": "中性线",
     "pinyin": "Zhōng xìng xiàn",
     "category": "technical",
@@ -861,7 +861,7 @@
   {
     "id": "technical-earth-wire",
     "term": "Earth Wire",
-    "ipa": "/ərθ waɪər/",
+    "ipa": "/ˈɜːθ wˈaɪə/",
     "zh": "接地线",
     "pinyin": "Jiē dì xiàn",
     "category": "technical",
@@ -875,7 +875,7 @@
   {
     "id": "technical-short-circuit",
     "term": "Short Circuit",
-    "ipa": "/ʃɔrt ˈsərkət/",
+    "ipa": "/ʃˈɔːt sˈɜːkɪt/",
     "zh": "短路",
     "pinyin": "Duǎn lù",
     "category": "technical",
@@ -889,7 +889,7 @@
   {
     "id": "technical-overload",
     "term": "Overload",
-    "ipa": "/ˈoʊvərˌloʊd/",
+    "ipa": "/ˈəʊvələʊd/",
     "zh": "过载",
     "pinyin": "Guò zài",
     "category": "technical",
@@ -903,7 +903,7 @@
   {
     "id": "technical-leakage",
     "term": "Leakage",
-    "ipa": "/ˈlikɪʤ/",
+    "ipa": "/ˈliːkɪdʒ/",
     "zh": "漏电",
     "pinyin": "Lòu diàn",
     "category": "technical",
@@ -917,7 +917,7 @@
   {
     "id": "technical-protection",
     "term": "Protection",
-    "ipa": "/prəˈtɛkʃən/",
+    "ipa": "/pɹətˈɛkʃən/",
     "zh": "保护",
     "pinyin": "Bǎo hù",
     "category": "technical",
@@ -931,7 +931,7 @@
   {
     "id": "technical-alarm",
     "term": "Alarm",
-    "ipa": "/əˈlɑrm/",
+    "ipa": "/əlˈɑːm/",
     "zh": "警报",
     "pinyin": "Jǐng bào",
     "category": "technical",
@@ -945,7 +945,7 @@
   {
     "id": "technical-fault",
     "term": "Fault",
-    "ipa": "/fɔlt/",
+    "ipa": "/fˈɔːlt/",
     "zh": "故障",
     "pinyin": "Gù zhàng",
     "category": "technical",
@@ -959,7 +959,7 @@
   {
     "id": "technical-diagnosis",
     "term": "Diagnosis",
-    "ipa": "/ˌdaɪəgˈnoʊsəs/",
+    "ipa": "/dˌaɪəgnˈəʊsɪs/",
     "zh": "诊断",
     "pinyin": "Zhěn duàn",
     "category": "technical",
@@ -973,7 +973,7 @@
   {
     "id": "technical-sensor",
     "term": "Sensor",
-    "ipa": "/ˈsɛnsər/",
+    "ipa": "/sˈɛnsə/",
     "zh": "传感器",
     "pinyin": "Chuán gǎn qì",
     "category": "technical",
@@ -987,7 +987,7 @@
   {
     "id": "technical-temperature",
     "term": "Temperature",
-    "ipa": "/ˈtɛmpərəʧər/",
+    "ipa": "/tˈɛmpɹətʃə/",
     "zh": "温度",
     "pinyin": "Wēn dù",
     "category": "technical",
@@ -1001,7 +1001,7 @@
   {
     "id": "technical-pressure",
     "term": "Pressure",
-    "ipa": "/ˈprɛʃər/",
+    "ipa": "/pɹˈɛʃə/",
     "zh": "压力",
     "pinyin": "Yā lì",
     "category": "technical",
@@ -1015,7 +1015,7 @@
   {
     "id": "technical-oil-pressure",
     "term": "Oil Pressure",
-    "ipa": "/ɔɪl ˈprɛʃər/",
+    "ipa": "/ˈɔɪl pɹˈɛʃə/",
     "zh": "机油压力",
     "pinyin": "Jī yóu yā lì",
     "category": "technical",
@@ -1029,7 +1029,7 @@
   {
     "id": "technical-fuel-consumption",
     "term": "Fuel Consumption",
-    "ipa": "/fjuəl kənˈsəmʃən/",
+    "ipa": "/fjˈuːəl kənsˈɐmʃən/",
     "zh": "油耗",
     "pinyin": "Hào yóu",
     "category": "technical",
@@ -1043,7 +1043,7 @@
   {
     "id": "technical-running-hour",
     "term": "Running Hour",
-    "ipa": "/ˈrənɪŋ aʊər/",
+    "ipa": "/ɹˈɐnɪŋ ˈaʊə/",
     "zh": "运行小时",
     "pinyin": "Yùn xíng xiǎo shí",
     "category": "technical",
@@ -1057,7 +1057,7 @@
   {
     "id": "technical-service-kit",
     "term": "Service Kit",
-    "ipa": "/ˈsərvɪs kɪt/",
+    "ipa": "/sˈɜːvɪs kˈɪt/",
     "zh": "保养包",
     "pinyin": "Bǎo yǎng bāo",
     "category": "technical",
@@ -1071,7 +1071,7 @@
   {
     "id": "technical-filter",
     "term": "Filter",
-    "ipa": "/ˈfɪltər/",
+    "ipa": "/fˈɪltə/",
     "zh": "过滤器",
     "pinyin": "Guò lǜ qì",
     "category": "technical",
@@ -1085,7 +1085,7 @@
   {
     "id": "technical-oil-filter",
     "term": "Oil Filter",
-    "ipa": "/ɔɪl ˈfɪltər/",
+    "ipa": "/ˈɔɪl fˈɪltə/",
     "zh": "机油滤清器",
     "pinyin": "Jī yóu lǜ qīng qì",
     "category": "technical",
@@ -1099,7 +1099,7 @@
   {
     "id": "technical-fuel-filter",
     "term": "Fuel Filter",
-    "ipa": "/fjuəl ˈfɪltər/",
+    "ipa": "/fjˈuːəl fˈɪltə/",
     "zh": "燃油滤清器",
     "pinyin": "Rán yóu lǜ qīng qì",
     "category": "technical",
@@ -1113,7 +1113,7 @@
   {
     "id": "technical-air-filter",
     "term": "Air Filter",
-    "ipa": "/ɛr ˈfɪltər/",
+    "ipa": "/ˈɛə fˈɪltə/",
     "zh": "空气滤清器",
     "pinyin": "Kōng qì lǜ qīng qì",
     "category": "technical",
@@ -1127,7 +1127,7 @@
   {
     "id": "technical-water-separator",
     "term": "Water Separator",
-    "ipa": "/ˈwɔtər separator/",
+    "ipa": "/wˈɔːtə ˈsɛpəreɪtə/",
     "zh": "油水分离器",
     "pinyin": "Yóu shuǐ fēn lí qì",
     "category": "technical",
@@ -1141,7 +1141,7 @@
   {
     "id": "technical-belt",
     "term": "Belt",
-    "ipa": "/bɛlt/",
+    "ipa": "/bˈɛlt/",
     "zh": "皮带",
     "pinyin": "Pí dài",
     "category": "technical",
@@ -1155,7 +1155,7 @@
   {
     "id": "technical-hose",
     "term": "Hose",
-    "ipa": "/hoʊz/",
+    "ipa": "/hˈəʊz/",
     "zh": "软管",
     "pinyin": "Ruǎn guǎn",
     "category": "technical",
@@ -1169,7 +1169,7 @@
   {
     "id": "technical-gasket",
     "term": "Gasket",
-    "ipa": "/ˈgæskət/",
+    "ipa": "/ˈɡæskɪt/",
     "zh": "垫片",
     "pinyin": "Diàn piàn",
     "category": "technical",
@@ -1183,7 +1183,7 @@
   {
     "id": "technical-seal",
     "term": "Seal",
-    "ipa": "/sil/",
+    "ipa": "/sˈiːl/",
     "zh": "密封件",
     "pinyin": "Mì fēng jiàn",
     "category": "technical",
@@ -1197,7 +1197,7 @@
   {
     "id": "technical-bearing",
     "term": "Bearing",
-    "ipa": "/ˈbɛrɪŋ/",
+    "ipa": "/bˈɛəɹɪŋ/",
     "zh": "轴承",
     "pinyin": "Zhóu chéng",
     "category": "technical",
@@ -1225,7 +1225,7 @@
   {
     "id": "technical-cylinder",
     "term": "Cylinder",
-    "ipa": "/ˈsɪlɪndər/",
+    "ipa": "/sˈɪlɪndə/",
     "zh": "气缸",
     "pinyin": "Qì gāng",
     "category": "technical",
@@ -1239,7 +1239,7 @@
   {
     "id": "technical-head-gasket",
     "term": "Head Gasket",
-    "ipa": "/hɛd ˈgæskət/",
+    "ipa": "/hˈɛd ˈɡæskɪt/",
     "zh": "缸垫",
     "pinyin": "Gāng diàn",
     "category": "technical",
@@ -1253,7 +1253,7 @@
   {
     "id": "technical-fuel-injection",
     "term": "Fuel Injection",
-    "ipa": "/fjuəl ˌɪnˈʤɛkʃən/",
+    "ipa": "/fjˈuːəl ɪndʒˈɛkʃən/",
     "zh": "燃油喷射",
     "pinyin": "Rán yó pēn shè",
     "category": "technical",
@@ -1267,7 +1267,7 @@
   {
     "id": "technical-nozzle",
     "term": "Nozzle",
-    "ipa": "/ˈnɑzəl/",
+    "ipa": "/ˈnɒzəl/",
     "zh": "喷油嘴",
     "pinyin": "Pēn yóu zuǐ",
     "category": "technical",
@@ -1281,7 +1281,7 @@
   {
     "id": "technical-pump",
     "term": "Pump",
-    "ipa": "/pəmp/",
+    "ipa": "/pˈɐmp/",
     "zh": "泵",
     "pinyin": "Bèng",
     "category": "technical",
@@ -1295,7 +1295,7 @@
   {
     "id": "technical-water-pump",
     "term": "Water Pump",
-    "ipa": "/ˈwɔtər pəmp/",
+    "ipa": "/wˈɔːtə pˈɐmp/",
     "zh": "水泵",
     "pinyin": "Shuǐ bèng",
     "category": "technical",
@@ -1309,7 +1309,7 @@
   {
     "id": "technical-fuel-pump",
     "term": "Fuel Pump",
-    "ipa": "/fjuəl pəmp/",
+    "ipa": "/fjˈuːəl pˈɐmp/",
     "zh": "燃油泵",
     "pinyin": "Rán yóu bèng",
     "category": "technical",
@@ -1323,7 +1323,7 @@
   {
     "id": "technical-oil-pump",
     "term": "Oil Pump",
-    "ipa": "/ɔɪl pəmp/",
+    "ipa": "/ˈɔɪl pˈɐmp/",
     "zh": "机油泵",
     "pinyin": "Jī yóu bèng",
     "category": "technical",
@@ -1337,7 +1337,7 @@
   {
     "id": "technical-charge-air",
     "term": "Charge Air",
-    "ipa": "/ʧɑrʤ ɛr/",
+    "ipa": "/tʃˈɑːdʒ ˈɛə/",
     "zh": "增压空气",
     "pinyin": "Zēng yā kōng qì",
     "category": "technical",
@@ -1351,7 +1351,7 @@
   {
     "id": "technical-aftercooler",
     "term": "Aftercooler",
-    "ipa": "/aftercooler/",
+    "ipa": "/ˈɑːftəˌkuːlə/",
     "zh": "中冷器",
     "pinyin": "Zhōng lěng qì",
     "category": "technical",
@@ -1365,7 +1365,7 @@
   {
     "id": "technical-jacket-water",
     "term": "Jacket Water",
-    "ipa": "/ˈʤækɪt ˈwɔtər/",
+    "ipa": "/dʒˈækɪt wˈɔːtə/",
     "zh": "缸套水",
     "pinyin": "Gāng tào shuǐ",
     "category": "technical",
@@ -1379,7 +1379,7 @@
   {
     "id": "technical-expansion-tank",
     "term": "Expansion Tank",
-    "ipa": "/ɪkˈspænʧən tæŋk/",
+    "ipa": "/ɪkspˈænʃən tˈæŋk/",
     "zh": "膨胀水箱",
     "pinyin": "Péng zhàng shuǐ xiāng",
     "category": "technical",
@@ -1393,7 +1393,7 @@
   {
     "id": "technical-charger",
     "term": "Charger",
-    "ipa": "/ˈʧɑrʤər/",
+    "ipa": "/tʃˈɑːdʒə/",
     "zh": "充电器",
     "pinyin": "Chōng diàn qì",
     "category": "technical",
@@ -1407,7 +1407,7 @@
   {
     "id": "technical-battery-charger",
     "term": "Battery Charger",
-    "ipa": "/ˈbætəri ˈʧɑrʤər/",
+    "ipa": "/bˈætəɹi tʃˈɑːdʒə/",
     "zh": "蓄电池充电器",
     "pinyin": "Xù diàn chí chōng diàn qì",
     "category": "technical",
@@ -1421,7 +1421,7 @@
   {
     "id": "technical-earth-leakage",
     "term": "Earth Leakage",
-    "ipa": "/ərθ ˈlikɪʤ/",
+    "ipa": "/ˈɜːθ ˈliːkɪdʒ/",
     "zh": "漏电保护",
     "pinyin": "Lòu diàn bǎo hù",
     "category": "technical",
@@ -1435,7 +1435,7 @@
   {
     "id": "technical-phase-sequence",
     "term": "Phase Sequence",
-    "ipa": "/feɪz ˈsikwəns/",
+    "ipa": "/fˈeɪz sˈiːkwəns/",
     "zh": "相序",
     "pinyin": "Xiāng xù",
     "category": "technical",
@@ -1449,7 +1449,7 @@
   {
     "id": "technical-unbalance",
     "term": "Unbalance",
-    "ipa": "/ənˈbæləns/",
+    "ipa": "/ˌʌnˈbæləns/",
     "zh": "不平衡",
     "pinyin": "Bù píng héng",
     "category": "technical",
@@ -1463,7 +1463,7 @@
   {
     "id": "technical-surge",
     "term": "Surge",
-    "ipa": "/sərʤ/",
+    "ipa": "/sˈɜːdʒ/",
     "zh": "浪涌",
     "pinyin": "Làng yǒng",
     "category": "technical",
@@ -1477,7 +1477,7 @@
   {
     "id": "technical-lightning",
     "term": "Lightning",
-    "ipa": "/ˈlaɪtnɪŋ/",
+    "ipa": "/lˈaɪtnɪŋ/",
     "zh": "雷击",
     "pinyin": "Léi jī",
     "category": "technical",
@@ -1491,7 +1491,7 @@
   {
     "id": "technical-isolation-transformer",
     "term": "Isolation Transformer",
-    "ipa": "/ˌaɪsəˈleɪʃən trænsˈfɔrmər/",
+    "ipa": "/ˌaɪsəlˈeɪʃən trænsˈfɔːmə/",
     "zh": "隔离变压器",
     "pinyin": "Gé lí biàn yā qì",
     "category": "technical",
@@ -1505,7 +1505,7 @@
   {
     "id": "technical-ups",
     "term": "UPS",
-    "ipa": "/ˌjuː.piːˈes/",
+    "ipa": "/ˈɐps/",
     "zh": "不间断电源",
     "pinyin": "Bù jiān duàn diàn yuán",
     "category": "technical",
@@ -1519,7 +1519,7 @@
   {
     "id": "technical-backup-power",
     "term": "Backup Power",
-    "ipa": "/ˈbæˌkəp paʊər/",
+    "ipa": "/bˈækˌɐp ˈpaʊə/",
     "zh": "后备电源",
     "pinyin": "Hòu bèi diàn yuán",
     "category": "technical",
@@ -1533,7 +1533,7 @@
   {
     "id": "technical-peak-load",
     "term": "Peak Load",
-    "ipa": "/pik loʊd/",
+    "ipa": "/pˈiːk lˈəʊd/",
     "zh": "峰值负载",
     "pinyin": "Fēng zhí fù zài",
     "category": "technical",
@@ -1547,7 +1547,7 @@
   {
     "id": "technical-base-load",
     "term": "Base Load",
-    "ipa": "/beɪs loʊd/",
+    "ipa": "/bˈeɪs lˈəʊd/",
     "zh": "基荷负载",
     "pinyin": "Jī hé fù zài",
     "category": "technical",
@@ -1561,7 +1561,7 @@
   {
     "id": "technical-modbus",
     "term": "Modbus",
-    "ipa": "/ˈmɒd.bʌs/",
+    "ipa": "/ˈmɒdbʌs/",
     "zh": "通讯协议",
     "pinyin": "Tōng xùn xié yì",
     "category": "technical",
@@ -1575,7 +1575,7 @@
   {
     "id": "technical-protocol",
     "term": "Protocol",
-    "ipa": "/ˈproʊtəˌkɔl/",
+    "ipa": "/pɹˈəʊtəkˌɒl/",
     "zh": "协议",
     "pinyin": "Xié yì",
     "category": "technical",
@@ -1589,7 +1589,7 @@
   {
     "id": "technical-communication",
     "term": "Communication",
-    "ipa": "/kəmˌjunəˈkeɪʃən/",
+    "ipa": "/kəmjˌuːnɪkˈeɪʃən/",
     "zh": "通讯",
     "pinyin": "Tōng xùn",
     "category": "technical",
@@ -1603,7 +1603,7 @@
   {
     "id": "technical-remote-monitoring",
     "term": "Remote Monitoring",
-    "ipa": "/rɪˈmoʊt ˈmɑnətərɪŋ/",
+    "ipa": "/ɹɪmˈəʊt mˈɒnɪtəɹɪŋ/",
     "zh": "远程监控",
     "pinyin": "Yuǎn chéng jiān kòng",
     "category": "technical",
@@ -1617,7 +1617,7 @@
   {
     "id": "technical-cloud-platform",
     "term": "Cloud Platform",
-    "ipa": "/klaʊd ˈplætˌfɔrm/",
+    "ipa": "/klˈaʊd plˈætfˌɔːm/",
     "zh": "云平台",
     "pinyin": "Yún píng tái",
     "category": "technical",
@@ -1631,7 +1631,7 @@
   {
     "id": "technical-data-logger",
     "term": "Data Logger",
-    "ipa": "/ˈdætə ˈlɑgər/",
+    "ipa": "/dˈeɪtə ˈlɒɡə/",
     "zh": "数据记录仪",
     "pinyin": "Shù jù jì lù yí",
     "category": "technical",
@@ -1645,7 +1645,7 @@
   {
     "id": "technical-event-log",
     "term": "Event Log",
-    "ipa": "/ɪˈvɛnt lɔg/",
+    "ipa": "/ɪvˈɛnt lˈɒg/",
     "zh": "事件记录",
     "pinyin": "Shì jiàn jì lù",
     "category": "technical",
@@ -1659,7 +1659,7 @@
   {
     "id": "technical-error-code",
     "term": "Error Code",
-    "ipa": "/ˈɛrər koʊd/",
+    "ipa": "/ˈɛɹə kˈəʊd/",
     "zh": "故障码",
     "pinyin": "Gù zhàng mǎ",
     "category": "technical",
@@ -1673,7 +1673,7 @@
   {
     "id": "technical-firmware",
     "term": "Firmware",
-    "ipa": "/firmware/",
+    "ipa": "/fˈɜːmwˌɛə/",
     "zh": "固件",
     "pinyin": "Gù jiàn",
     "category": "technical",
@@ -1687,7 +1687,7 @@
   {
     "id": "technical-software",
     "term": "Software",
-    "ipa": "/ˈsɔfˌwɛr/",
+    "ipa": "/sˈɒfwˌɛə/",
     "zh": "软件",
     "pinyin": "Ruǎn jiàn",
     "category": "technical",
@@ -1701,7 +1701,7 @@
   {
     "id": "technical-hardware",
     "term": "Hardware",
-    "ipa": "/ˈhɑrdˌwɛr/",
+    "ipa": "/hˈɑːdwˌɛə/",
     "zh": "硬件",
     "pinyin": "Yìng jiàn",
     "category": "technical",
@@ -1715,7 +1715,7 @@
   {
     "id": "technical-display",
     "term": "Display",
-    "ipa": "/dɪˈspleɪ/",
+    "ipa": "/dɪsplˈeɪ/",
     "zh": "显示屏",
     "pinyin": "Xiǎn shì píng",
     "category": "technical",
@@ -1729,7 +1729,7 @@
   {
     "id": "technical-keypad",
     "term": "Keypad",
-    "ipa": "/ˈkiˌpæd/",
+    "ipa": "/ˈkiːpæd/",
     "zh": "按键",
     "pinyin": "àn jiàn",
     "category": "technical",
@@ -1743,7 +1743,7 @@
   {
     "id": "technical-interface",
     "term": "Interface",
-    "ipa": "/ˈɪnərˌfeɪs/",
+    "ipa": "/ˈɪntəfˌeɪs/",
     "zh": "接口",
     "pinyin": "Jiē kǒu",
     "category": "technical",
@@ -1757,7 +1757,7 @@
   {
     "id": "technical-usb-port",
     "term": "USB Port",
-    "ipa": "/ˌjuː.esˈbiː pɔrt/",
+    "ipa": "/ˌjuːɛsˈbiː pˈɔːt/",
     "zh": "USB接口",
     "pinyin": "USB jiē kǒu",
     "category": "technical",
@@ -1771,7 +1771,7 @@
   {
     "id": "technical-sd-card",
     "term": "SD Card",
-    "ipa": "/ˌesˈdiː kɑrd/",
+    "ipa": "/ˌɛsˈdiː kˈɑːd/",
     "zh": "存储卡",
     "pinyin": "Cún chǔ kǎ",
     "category": "technical",
@@ -1785,7 +1785,7 @@
   {
     "id": "technical-clock",
     "term": "Clock",
-    "ipa": "/klɑk/",
+    "ipa": "/klˈɒk/",
     "zh": "时钟",
     "pinyin": "Shí zhōng",
     "category": "technical",
@@ -1799,7 +1799,7 @@
   {
     "id": "technical-buzzer",
     "term": "Buzzer",
-    "ipa": "/ˈbəzər/",
+    "ipa": "/ˈbʌzə/",
     "zh": "蜂鸣器",
     "pinyin": "Fēng míng qì",
     "category": "technical",
@@ -1813,7 +1813,7 @@
   {
     "id": "technical-relay",
     "term": "Relay",
-    "ipa": "/ˈriˌleɪ/",
+    "ipa": "/ɹˈiːleɪ/",
     "zh": "继电器",
     "pinyin": "Jì diàn qì",
     "category": "technical",
@@ -1827,7 +1827,7 @@
   {
     "id": "technical-fuse",
     "term": "Fuse",
-    "ipa": "/fjuz/",
+    "ipa": "/fjˈuːz/",
     "zh": "保险丝",
     "pinyin": "Bǎo xiǎn sī",
     "category": "technical",
@@ -1841,7 +1841,7 @@
   {
     "id": "technical-terminal",
     "term": "Terminal",
-    "ipa": "/ˈtərmənəl/",
+    "ipa": "/tˈɜːmɪnəl/",
     "zh": "端子",
     "pinyin": "Duān zǐ",
     "category": "technical",
@@ -1855,7 +1855,7 @@
   {
     "id": "technical-cable",
     "term": "Cable",
-    "ipa": "/ˈkeɪbəl/",
+    "ipa": "/kˈeɪbəl/",
     "zh": "电缆",
     "pinyin": "Diàn lǎn",
     "category": "technical",
@@ -1869,7 +1869,7 @@
   {
     "id": "technical-wire",
     "term": "Wire",
-    "ipa": "/waɪər/",
+    "ipa": "/wˈaɪə/",
     "zh": "电线",
     "pinyin": "Diàn xiàn",
     "category": "technical",
@@ -1883,7 +1883,7 @@
   {
     "id": "technical-conduit",
     "term": "Conduit",
-    "ipa": "/ˈkɑnʤuɪt/",
+    "ipa": "/ˈkɒndjuɪt/",
     "zh": "线管",
     "pinyin": "Xiàn guǎn",
     "category": "technical",
@@ -1897,7 +1897,7 @@
   {
     "id": "technical-earthing",
     "term": "Earthing",
-    "ipa": "/earthing/",
+    "ipa": "/ˈɜːθɪŋ/",
     "zh": "接地",
     "pinyin": "Jiē dì",
     "category": "technical",
@@ -1911,7 +1911,7 @@
   {
     "id": "technical-lighting",
     "term": "Lighting",
-    "ipa": "/ˈlaɪtɪŋ/",
+    "ipa": "/lˈaɪtɪŋ/",
     "zh": "照明",
     "pinyin": "Zhào míng",
     "category": "technical",
@@ -1939,7 +1939,7 @@
   {
     "id": "technical-canopy-lock",
     "term": "Canopy Lock",
-    "ipa": "/ˈkænəpi lɑk/",
+    "ipa": "/kˈænəpi lˈɒk/",
     "zh": "箱体锁",
     "pinyin": "Xiāng tǐ suǒ",
     "category": "technical",
@@ -1953,7 +1953,7 @@
   {
     "id": "technical-lifting-eye",
     "term": "Lifting Eye",
-    "ipa": "/ˈlɪftɪŋ aɪ/",
+    "ipa": "/lˈɪftɪŋ ˈaɪ/",
     "zh": "吊耳",
     "pinyin": "Diào ěr",
     "category": "technical",
@@ -1967,7 +1967,7 @@
   {
     "id": "technical-skid",
     "term": "Skid",
-    "ipa": "/skɪd/",
+    "ipa": "/skˈɪd/",
     "zh": "滑橇",
     "pinyin": "Huá qiāo",
     "category": "technical",
@@ -1981,7 +1981,7 @@
   {
     "id": "technical-frame",
     "term": "Frame",
-    "ipa": "/freɪm/",
+    "ipa": "/fɹˈeɪm/",
     "zh": "机架",
     "pinyin": "Jī jià",
     "category": "technical",
@@ -1995,7 +1995,7 @@
   {
     "id": "technical-corrosion",
     "term": "Corrosion",
-    "ipa": "/kərˈoʊʒən/",
+    "ipa": "/kəˈrəʊʒən/",
     "zh": "腐蚀",
     "pinyin": "Fǔ shí",
     "category": "technical",
@@ -2009,7 +2009,7 @@
   {
     "id": "technical-paint",
     "term": "Paint",
-    "ipa": "/peɪnt/",
+    "ipa": "/pˈeɪnt/",
     "zh": "喷漆",
     "pinyin": "Pēn qī",
     "category": "technical",
@@ -2023,7 +2023,7 @@
   {
     "id": "technical-powder-coating",
     "term": "Powder Coating",
-    "ipa": "/ˈpaʊdər ˈkoʊtɪŋ/",
+    "ipa": "/pˈaʊdə kˈəʊtɪŋ/",
     "zh": "喷塑",
     "pinyin": "Pēn sù",
     "category": "technical",
@@ -2037,7 +2037,7 @@
   {
     "id": "technical-stainless-steel",
     "term": "Stainless Steel",
-    "ipa": "/ˈsteɪnləs stil/",
+    "ipa": "/stˈeɪnlɪs stˈiːl/",
     "zh": "不锈钢",
     "pinyin": "Bú xiù gāng",
     "category": "technical",
@@ -2051,7 +2051,7 @@
   {
     "id": "technical-carbon-steel",
     "term": "Carbon Steel",
-    "ipa": "/ˈkɑrbən stil/",
+    "ipa": "/kˈɑːbən stˈiːl/",
     "zh": "碳钢",
     "pinyin": "Tàn gāng",
     "category": "technical",
@@ -2065,7 +2065,7 @@
   {
     "id": "technical-aluminum",
     "term": "Aluminum",
-    "ipa": "/əˈlumənəm/",
+    "ipa": "/əlˈuːmɪnəm/",
     "zh": "铝",
     "pinyin": "Lǚ",
     "category": "technical",
@@ -2079,7 +2079,7 @@
   {
     "id": "technical-copper",
     "term": "Copper",
-    "ipa": "/ˈkɑpər/",
+    "ipa": "/kˈɒpə/",
     "zh": "铜",
     "pinyin": "Tóng",
     "category": "technical",
@@ -2093,7 +2093,7 @@
   {
     "id": "technical-inspection",
     "term": "Inspection",
-    "ipa": "/ˌɪnˈspɛkʃən/",
+    "ipa": "/ɪnspˈɛkʃən/",
     "zh": "检验",
     "pinyin": "Jiǎn yàn",
     "category": "technical",
@@ -2107,7 +2107,7 @@
   {
     "id": "technical-test-run",
     "term": "Test Run",
-    "ipa": "/tɛst rən/",
+    "ipa": "/tˈɛst ɹˈɐn/",
     "zh": "试运行",
     "pinyin": "Shì yùn xíng",
     "category": "technical",
@@ -2121,7 +2121,7 @@
   {
     "id": "technical-warranty",
     "term": "Warranty",
-    "ipa": "/ˈwɔrənti/",
+    "ipa": "/wˈɒɹənti/",
     "zh": "保修",
     "pinyin": "Bǎo xiū",
     "category": "technical",
@@ -2135,7 +2135,7 @@
   {
     "id": "technical-spare-part",
     "term": "Spare Part",
-    "ipa": "/spɛr pɑrt/",
+    "ipa": "/spˈɛə pˈɑːt/",
     "zh": "备件",
     "pinyin": "Bèi jiàn",
     "category": "technical",
@@ -2149,7 +2149,7 @@
   {
     "id": "technical-consumable",
     "term": "Consumable",
-    "ipa": "/kənˈsuməbəl/",
+    "ipa": "/kənˈsjuːməbəl/",
     "zh": "易耗品",
     "pinyin": "Hào cái pǐn",
     "category": "technical",
@@ -2163,7 +2163,7 @@
   {
     "id": "technical-overhaul",
     "term": "Overhaul",
-    "ipa": "/ˈoʊvərˌhɔl/",
+    "ipa": "/ˈəʊvəhɔːl/",
     "zh": "大修",
     "pinyin": "Dà xiū",
     "category": "technical",
@@ -2177,7 +2177,7 @@
   {
     "id": "technical-repair",
     "term": "Repair",
-    "ipa": "/rɪˈpɛr/",
+    "ipa": "/ɹɪpˈɛə/",
     "zh": "维修",
     "pinyin": "Wéi xiū",
     "category": "technical",
@@ -2191,7 +2191,7 @@
   {
     "id": "technical-replacement",
     "term": "Replacement",
-    "ipa": "/rɪˈpleɪsmənt/",
+    "ipa": "/ɹɪplˈeɪsmənt/",
     "zh": "更换",
     "pinyin": "Gēng huàn",
     "category": "technical",
@@ -2205,7 +2205,7 @@
   {
     "id": "technical-adjustment",
     "term": "Adjustment",
-    "ipa": "/əˈʤəstmənt/",
+    "ipa": "/ədʒˈɐstmənt/",
     "zh": "调整",
     "pinyin": "Tiáo zhěng",
     "category": "technical",
@@ -2219,7 +2219,7 @@
   {
     "id": "technical-calibration",
     "term": "Calibration",
-    "ipa": "/ˌkæləˈbreɪʃən/",
+    "ipa": "/kˌælɪbɹˈeɪʃən/",
     "zh": "校准",
     "pinyin": "Jiào zhǔn",
     "category": "technical",
@@ -2233,7 +2233,7 @@
   {
     "id": "technical-level",
     "term": "Level",
-    "ipa": "/ˈlɛvəl/",
+    "ipa": "/lˈɛvəl/",
     "zh": "液位",
     "pinyin": "Yè wèi",
     "category": "technical",
@@ -2247,7 +2247,7 @@
   {
     "id": "technical-cooling-system",
     "term": "Cooling System",
-    "ipa": "/ˈkulɪŋ ˈsɪstəm/",
+    "ipa": "/kˈuːlɪŋ sˈɪstəm/",
     "zh": "冷却系统",
     "pinyin": "Lěng què xì tǒng",
     "category": "technical",
@@ -2261,7 +2261,7 @@
   {
     "id": "technical-exhaust-system",
     "term": "Exhaust System",
-    "ipa": "/ɪgˈzɔst ˈsɪstəm/",
+    "ipa": "/ɪgzˈɔːst sˈɪstəm/",
     "zh": "排气系统",
     "pinyin": "Pái qì xì tǒng",
     "category": "technical",
@@ -2275,7 +2275,7 @@
   {
     "id": "technical-intake-system",
     "term": "Intake System",
-    "ipa": "/ˈɪnˌteɪk ˈsɪstəm/",
+    "ipa": "/ˈɪntˌeɪk sˈɪstəm/",
     "zh": "进气系统",
     "pinyin": "Jìn qì xì tǒng",
     "category": "technical",
@@ -2289,7 +2289,7 @@
   {
     "id": "technical-fuel-system",
     "term": "Fuel System",
-    "ipa": "/fjuəl ˈsɪstəm/",
+    "ipa": "/fjˈuːəl sˈɪstəm/",
     "zh": "燃油系统",
     "pinyin": "Rán yóu xì tǒng",
     "category": "technical",
@@ -2303,7 +2303,7 @@
   {
     "id": "technical-lubricating-system",
     "term": "Lubricating System",
-    "ipa": "/ˈlubrəˌkeɪtɪŋ ˈsɪstəm/",
+    "ipa": "/ˈluːbrɪkeɪtɪŋ sˈɪstəm/",
     "zh": "润滑系统",
     "pinyin": "Rùn huá xì tǒng",
     "category": "technical",
@@ -2317,7 +2317,7 @@
   {
     "id": "technical-starting-system",
     "term": "Starting System",
-    "ipa": "/ˈstɑrtɪŋ ˈsɪstəm/",
+    "ipa": "/stˈɑːtɪŋ sˈɪstəm/",
     "zh": "启动系统",
     "pinyin": "Qǐ dòng xì tǒng",
     "category": "technical",
@@ -2331,7 +2331,7 @@
   {
     "id": "technical-control-system",
     "term": "Control System",
-    "ipa": "/kənˈtroʊl ˈsɪstəm/",
+    "ipa": "/kəntɹˈəʊl sˈɪstəm/",
     "zh": "控制系统",
     "pinyin": "Kòng zhì xì tǒng",
     "category": "technical",
@@ -2345,7 +2345,7 @@
   {
     "id": "technical-electrical-system",
     "term": "Electrical System",
-    "ipa": "/ɪˈlɛktrɪkəl ˈsɪstəm/",
+    "ipa": "/ɪlˈɛktɹɪkəl sˈɪstəm/",
     "zh": "电气系统",
     "pinyin": "Diàn qì xì tǒng",
     "category": "technical",
@@ -2359,7 +2359,7 @@
   {
     "id": "technical-mechanical-system",
     "term": "Mechanical System",
-    "ipa": "/məˈkænɪkəl ˈsɪstəm/",
+    "ipa": "/mɪkˈænɪkəl sˈɪstəm/",
     "zh": "机械系统",
     "pinyin": "Jī xiè xì tǒng",
     "category": "technical",
@@ -2373,7 +2373,7 @@
   {
     "id": "technical-power-output",
     "term": "Power Output",
-    "ipa": "/paʊər ˈaʊtˌpʊt/",
+    "ipa": "/ˈpaʊə ˈaʊtpˌʊt/",
     "zh": "功率输出",
     "pinyin": "Gōng lǜ shū chū",
     "category": "technical",
@@ -2387,7 +2387,7 @@
   {
     "id": "technical-rated-voltage",
     "term": "Rated Voltage",
-    "ipa": "/ˈreɪtɪd ˈvoʊltɪʤ/",
+    "ipa": "/ɹˈeɪtɪd vˈəʊltɪdʒ/",
     "zh": "额定电压",
     "pinyin": "É dìng diàn yā",
     "category": "technical",
@@ -2401,7 +2401,7 @@
   {
     "id": "technical-rated-current",
     "term": "Rated Current",
-    "ipa": "/ˈreɪtɪd ˈkɑrənt/",
+    "ipa": "/ɹˈeɪtɪd kˈɐɹənt/",
     "zh": "额定电流",
     "pinyin": "É dìng diàn liú",
     "category": "technical",
@@ -2415,7 +2415,7 @@
   {
     "id": "technical-rated-speed",
     "term": "Rated Speed",
-    "ipa": "/ˈreɪtɪd spid/",
+    "ipa": "/ɹˈeɪtɪd spˈiːd/",
     "zh": "额定转速",
     "pinyin": "É dìng zhuàn sù",
     "category": "technical",
@@ -2429,7 +2429,7 @@
   {
     "id": "technical-rated-frequency",
     "term": "Rated Frequency",
-    "ipa": "/ˈreɪtɪd ˈfrikwənsi/",
+    "ipa": "/ɹˈeɪtɪd fɹˈiːkwənsi/",
     "zh": "额定频率",
     "pinyin": "É dìng pín lǜ",
     "category": "technical",
@@ -2443,7 +2443,7 @@
   {
     "id": "technical-power-range",
     "term": "Power Range",
-    "ipa": "/paʊər reɪnʤ/",
+    "ipa": "/ˈpaʊə ɹˈeɪndʒ/",
     "zh": "功率范围",
     "pinyin": "Gōng lǜ fàn wéi",
     "category": "technical",
@@ -2457,7 +2457,7 @@
   {
     "id": "technical-containerized",
     "term": "Containerized",
-    "ipa": "/kənˈteɪnərˌaɪzd/",
+    "ipa": "/kənˈteɪnəraɪzd/",
     "zh": "集装箱式",
     "pinyin": "Jí zhuāng xiāng shì",
     "category": "technical",
@@ -2471,7 +2471,7 @@
   {
     "id": "technical-silent-type",
     "term": "Silent Type",
-    "ipa": "/ˈsaɪlənt taɪp/",
+    "ipa": "/sˈaɪlənt tˈaɪp/",
     "zh": "静音型",
     "pinyin": "Jìng yīn xíng",
     "category": "technical",
@@ -2485,7 +2485,7 @@
   {
     "id": "technical-open-type",
     "term": "Open Type",
-    "ipa": "/ˈoʊpən taɪp/",
+    "ipa": "/ˈəʊpən tˈaɪp/",
     "zh": "开架式",
     "pinyin": "Kāi jià shì",
     "category": "technical",
@@ -2499,7 +2499,7 @@
   {
     "id": "technical-mobile-type",
     "term": "Mobile Type",
-    "ipa": "/ˈmoʊbəl taɪp/",
+    "ipa": "/mˈəʊbaɪl tˈaɪp/",
     "zh": "移动式",
     "pinyin": "Yí dòng shì",
     "category": "technical",
@@ -2513,7 +2513,7 @@
   {
     "id": "technical-stationary",
     "term": "Stationary",
-    "ipa": "/ˈsteɪʃəˌnɛri/",
+    "ipa": "/ˈsteɪʃənəri/",
     "zh": "固定式",
     "pinyin": "Gù dìng shì",
     "category": "technical",
@@ -2527,7 +2527,7 @@
   {
     "id": "technical-auto-start",
     "term": "Auto Start",
-    "ipa": "/ˈɔtoʊ stɑrt/",
+    "ipa": "/ˈɔːtəʊ stˈɑːt/",
     "zh": "自动启动",
     "pinyin": "Zì dòng qǐ dòng",
     "category": "technical",
@@ -2541,7 +2541,7 @@
   {
     "id": "technical-remote-start",
     "term": "Remote Start",
-    "ipa": "/rɪˈmoʊt stɑrt/",
+    "ipa": "/ɹɪmˈəʊt stˈɑːt/",
     "zh": "远程启动",
     "pinyin": "Yuǎn chéng qǐ dòng",
     "category": "technical",
@@ -2555,7 +2555,7 @@
   {
     "id": "technical-manual-start",
     "term": "Manual Start",
-    "ipa": "/ˈmænjuəl stɑrt/",
+    "ipa": "/mˈænjʊəl stˈɑːt/",
     "zh": "手动启动",
     "pinyin": "Shǒu dòng qǐ dòng",
     "category": "technical",
@@ -2569,7 +2569,7 @@
   {
     "id": "technical-mains-failure",
     "term": "Mains Failure",
-    "ipa": "/meɪnz ˈfeɪljər/",
+    "ipa": "/mˈeɪnz fˈeɪljə/",
     "zh": "市电中断",
     "pinyin": "Shì diàn zhōng duàn",
     "category": "technical",
@@ -2583,7 +2583,7 @@
   {
     "id": "technical-auto-mains-failure",
     "term": "Auto Mains Failure",
-    "ipa": "/ˈɔtoʊ meɪnz ˈfeɪljər/",
+    "ipa": "/ˈɔːtəʊ mˈeɪnz fˈeɪljə/",
     "zh": "自动市电检测",
     "pinyin": "Zì dòng shì diàn jiǎn cè",
     "category": "technical",
@@ -2597,7 +2597,7 @@
   {
     "id": "technical-load-sharing",
     "term": "Load Sharing",
-    "ipa": "/loʊd ˈʃɛrɪŋ/",
+    "ipa": "/lˈəʊd ʃˈɛəɹɪŋ/",
     "zh": "负载分配",
     "pinyin": "Fù zài fēn pèi",
     "category": "technical",
@@ -2611,7 +2611,7 @@
   {
     "id": "technical-load-management",
     "term": "Load Management",
-    "ipa": "/loʊd ˈmænɪʤmənt/",
+    "ipa": "/lˈəʊd mˈænɪdʒmənt/",
     "zh": "负载管理",
     "pinyin": "Fù zài guǎn lǐ",
     "category": "technical",
@@ -2625,7 +2625,7 @@
   {
     "id": "technical-power-management",
     "term": "Power Management",
-    "ipa": "/paʊər ˈmænɪʤmənt/",
+    "ipa": "/ˈpaʊə mˈænɪdʒmənt/",
     "zh": "电源管理",
     "pinyin": "Diàn yuán guǎn lǐ",
     "category": "technical",
@@ -2639,7 +2639,7 @@
   {
     "id": "technical-engine-speed",
     "term": "Engine Speed",
-    "ipa": "/ˈɪnʤən spid/",
+    "ipa": "/ˈɛndʒɪn spˈiːd/",
     "zh": "发动机转速",
     "pinyin": "Fā dòng jī zhuàn sù",
     "category": "technical",
@@ -2653,7 +2653,7 @@
   {
     "id": "technical-throttle",
     "term": "Throttle",
-    "ipa": "/θˈrɑtəl/",
+    "ipa": "/ˈθrɒtəl/",
     "zh": "节气门",
     "pinyin": "Jié qì mén",
     "category": "technical",
@@ -2667,7 +2667,7 @@
   {
     "id": "technical-actuator",
     "term": "Actuator",
-    "ipa": "/ˈækʧuˌeɪtər/",
+    "ipa": "/ˈæktjueɪtə/",
     "zh": "执行器",
     "pinyin": "Zhí xíng qì",
     "category": "technical",
@@ -2681,7 +2681,7 @@
   {
     "id": "technical-solenoid",
     "term": "Solenoid",
-    "ipa": "/solenoid/",
+    "ipa": "/ˈsəʊlənɔɪd/",
     "zh": "电磁阀",
     "pinyin": "Diàn cí fá",
     "category": "technical",
@@ -2695,7 +2695,7 @@
   {
     "id": "technical-thermostat",
     "term": "Thermostat",
-    "ipa": "/ˈθərməˌstæt/",
+    "ipa": "/ˈθɜːməstæt/",
     "zh": "节温器",
     "pinyin": "Jié wēn qì",
     "category": "technical",
@@ -2709,7 +2709,7 @@
   {
     "id": "technical-expansion-valve",
     "term": "Expansion Valve",
-    "ipa": "/ɪkˈspænʧən vælv/",
+    "ipa": "/ɪkspˈænʃən vˈælv/",
     "zh": "膨胀阀",
     "pinyin": "Péng zhàng fá",
     "category": "technical",
@@ -2723,7 +2723,7 @@
   {
     "id": "technical-check-valve",
     "term": "Check Valve",
-    "ipa": "/ʧɛk vælv/",
+    "ipa": "/tʃˈɛk vˈælv/",
     "zh": "单向阀",
     "pinyin": "Dān xiàng fá",
     "category": "technical",
@@ -2737,7 +2737,7 @@
   {
     "id": "technical-relief-valve",
     "term": "Relief Valve",
-    "ipa": "/rɪˈlif vælv/",
+    "ipa": "/ɹɪlˈiːf vˈælv/",
     "zh": "溢流阀",
     "pinyin": "Yì liú fá",
     "category": "technical",
@@ -2751,7 +2751,7 @@
   {
     "id": "technical-ball-valve",
     "term": "Ball Valve",
-    "ipa": "/bɔl vælv/",
+    "ipa": "/bˈɔːl vˈælv/",
     "zh": "球阀",
     "pinyin": "Qiú fá",
     "category": "technical",
@@ -2765,7 +2765,7 @@
   {
     "id": "technical-gate-valve",
     "term": "Gate Valve",
-    "ipa": "/geɪt vælv/",
+    "ipa": "/gˈeɪt vˈælv/",
     "zh": "闸阀",
     "pinyin": "Zhá fá",
     "category": "technical",
@@ -2779,7 +2779,7 @@
   {
     "id": "technical-pipe",
     "term": "Pipe",
-    "ipa": "/paɪp/",
+    "ipa": "/pˈaɪp/",
     "zh": "管道",
     "pinyin": "Guǎn dào",
     "category": "technical",
@@ -2793,7 +2793,7 @@
   {
     "id": "technical-elbow",
     "term": "Elbow",
-    "ipa": "/ˈɛlˌboʊ/",
+    "ipa": "/ˈɛlbˌəʊ/",
     "zh": "弯头",
     "pinyin": "Wān tóu",
     "category": "technical",
@@ -2807,7 +2807,7 @@
   {
     "id": "technical-coupling",
     "term": "Coupling",
-    "ipa": "/ˈkəplɪŋ/",
+    "ipa": "/ˈkʌplɪŋ/",
     "zh": "接头",
     "pinyin": "Jiē tóu",
     "category": "technical",
@@ -2821,7 +2821,7 @@
   {
     "id": "technical-clamp",
     "term": "Clamp",
-    "ipa": "/klæmp/",
+    "ipa": "/klˈæmp/",
     "zh": "卡箍",
     "pinyin": "Kǎ gū",
     "category": "technical",
@@ -2835,7 +2835,7 @@
   {
     "id": "technical-insulation-tape",
     "term": "Insulation Tape",
-    "ipa": "/ˌɪnsəˈleɪʃən teɪp/",
+    "ipa": "/ˌɪnsjʊlˈeɪʃən tˈeɪp/",
     "zh": "绝缘胶带",
     "pinyin": "Jué yuán jiāo dài",
     "category": "technical",
@@ -2849,7 +2849,7 @@
   {
     "id": "technical-cable-tie",
     "term": "Cable Tie",
-    "ipa": "/ˈkeɪbəl taɪ/",
+    "ipa": "/kˈeɪbəl tˈaɪ/",
     "zh": "扎带",
     "pinyin": "Zhā dài",
     "category": "technical",
@@ -2863,7 +2863,7 @@
   {
     "id": "technical-label",
     "term": "Label",
-    "ipa": "/ˈleɪbəl/",
+    "ipa": "/lˈeɪbəl/",
     "zh": "标签",
     "pinyin": "Biāo qiān",
     "category": "technical",
@@ -2877,7 +2877,7 @@
   {
     "id": "technical-manual",
     "term": "Manual",
-    "ipa": "/ˈmænjuəl/",
+    "ipa": "/mˈænjʊəl/",
     "zh": "说明书",
     "pinyin": "Shuō míng shū",
     "category": "technical",
@@ -2891,7 +2891,7 @@
   {
     "id": "technical-drawing",
     "term": "Drawing",
-    "ipa": "/drɔɪŋ/",
+    "ipa": "/dɹˈɔːɪŋ/",
     "zh": "图纸",
     "pinyin": "Tú zhǐ",
     "category": "technical",
@@ -2905,7 +2905,7 @@
   {
     "id": "technical-diagram",
     "term": "Diagram",
-    "ipa": "/ˈdaɪəˌgræm/",
+    "ipa": "/dˈaɪəgɹˌæm/",
     "zh": "示意图",
     "pinyin": "Shì yì tú",
     "category": "technical",
@@ -2919,7 +2919,7 @@
   {
     "id": "technical-wiring-diagram",
     "term": "Wiring Diagram",
-    "ipa": "/ˈwaɪrɪŋ ˈdaɪəˌgræm/",
+    "ipa": "/wˈaɪɹɪŋ dˈaɪəgɹˌæm/",
     "zh": "接线图",
     "pinyin": "Jiē xiàn tú",
     "category": "technical",
@@ -2933,7 +2933,7 @@
   {
     "id": "technical-piping-diagram",
     "term": "Piping Diagram",
-    "ipa": "/ˈpaɪpɪŋ ˈdaɪəˌgræm/",
+    "ipa": "/ˈpaɪpɪŋ dˈaɪəgɹˌæm/",
     "zh": "管路图",
     "pinyin": "Guǎn lù tú",
     "category": "technical",
@@ -2947,7 +2947,7 @@
   {
     "id": "technical-dimension",
     "term": "Dimension",
-    "ipa": "/dɪˈmɛnʃən/",
+    "ipa": "/daɪmˈɛnʃən/",
     "zh": "尺寸",
     "pinyin": "Chǐ cùn",
     "category": "technical",
@@ -2961,7 +2961,7 @@
   {
     "id": "technical-weight",
     "term": "Weight",
-    "ipa": "/weɪt/",
+    "ipa": "/wˈeɪt/",
     "zh": "重量",
     "pinyin": "Zhòng liàng",
     "category": "technical",
@@ -2975,7 +2975,7 @@
   {
     "id": "technical-volume",
     "term": "Volume",
-    "ipa": "/ˈvɑljum/",
+    "ipa": "/vˈɒljuːm/",
     "zh": "体积",
     "pinyin": "Tǐ jī",
     "category": "technical",
@@ -2989,7 +2989,7 @@
   {
     "id": "technical-container",
     "term": "Container",
-    "ipa": "/kənˈteɪnər/",
+    "ipa": "/kəntˈeɪnə/",
     "zh": "集装箱",
     "pinyin": "Jí zhuāng xiāng",
     "category": "technical",
@@ -3003,7 +3003,7 @@
   {
     "id": "technical-packing",
     "term": "Packing",
-    "ipa": "/ˈpækɪŋ/",
+    "ipa": "/pˈækɪŋ/",
     "zh": "包装",
     "pinyin": "Bāo zhuāng",
     "category": "technical",
@@ -3017,7 +3017,7 @@
   {
     "id": "technical-shipping",
     "term": "Shipping",
-    "ipa": "/ˈʃɪpɪŋ/",
+    "ipa": "/ʃˈɪpɪŋ/",
     "zh": "发货",
     "pinyin": "Fā huò",
     "category": "technical",
@@ -3031,7 +3031,7 @@
   {
     "id": "technical-delivery",
     "term": "Delivery",
-    "ipa": "/dɪˈlɪvəri/",
+    "ipa": "/dɪlˈɪvəɹi/",
     "zh": "交货",
     "pinyin": "Jiāo huò",
     "category": "technical",
@@ -3045,7 +3045,7 @@
   {
     "id": "technical-lead-time",
     "term": "Lead Time",
-    "ipa": "/lɛd taɪm/",
+    "ipa": "/lˈiːd tˈaɪm/",
     "zh": "货期",
     "pinyin": "Huò qī",
     "category": "technical",
@@ -3059,7 +3059,7 @@
   {
     "id": "technical-port",
     "term": "Port",
-    "ipa": "/pɔrt/",
+    "ipa": "/pˈɔːt/",
     "zh": "港口",
     "pinyin": "Gǎng kǒu",
     "category": "technical",
@@ -3073,7 +3073,7 @@
   {
     "id": "technical-fob-price",
     "term": "FOB Price",
-    "ipa": "/fɔb praɪs/",
+    "ipa": "/ˌɛfəʊˈbiː pɹˈaɪs/",
     "zh": "离岸价",
     "pinyin": "Lí àn jià",
     "category": "technical",
@@ -3087,7 +3087,7 @@
   {
     "id": "technical-cif-price",
     "term": "CIF Price",
-    "ipa": "/cif praɪs/",
+    "ipa": "/ˌsiːaɪˈɛf pɹˈaɪs/",
     "zh": "到岸价",
     "pinyin": "Dào àn jià",
     "category": "technical",
@@ -3101,7 +3101,7 @@
   {
     "id": "technical-quotation",
     "term": "Quotation",
-    "ipa": "/kwoʊˈteɪʃən/",
+    "ipa": "/kwəʊtˈeɪʃən/",
     "zh": "报价单",
     "pinyin": "Bào jià dān",
     "category": "technical",
@@ -3115,7 +3115,7 @@
   {
     "id": "technical-proforma-invoice",
     "term": "Proforma Invoice",
-    "ipa": "/proforma ˈɪnvɔɪs/",
+    "ipa": "/ˌprəʊˈfɔːmə ˈɪnvˌɔɪs/",
     "zh": "形式发票",
     "pinyin": "Xíng shì fā piào",
     "category": "technical",
@@ -3129,7 +3129,7 @@
   {
     "id": "technical-commercial-invoice",
     "term": "Commercial Invoice",
-    "ipa": "/kəˈmərʃəl ˈɪnvɔɪs/",
+    "ipa": "/kəmˈɜːʃəl ˈɪnvˌɔɪs/",
     "zh": "商业发票",
     "pinyin": "Shāng yè fā piào",
     "category": "technical",
@@ -3143,7 +3143,7 @@
   {
     "id": "technical-packing-list",
     "term": "Packing List",
-    "ipa": "/ˈpækɪŋ lɪst/",
+    "ipa": "/pˈækɪŋ lˈɪst/",
     "zh": "装箱单",
     "pinyin": "Zhuāng xiāng dān",
     "category": "technical",
@@ -3157,7 +3157,7 @@
   {
     "id": "technical-bill-of-lading",
     "term": "Bill of Lading",
-    "ipa": "/bɪl əv ˈleɪdɪŋ/",
+    "ipa": "/bˈɪl əv ˈleɪdɪŋ/",
     "zh": "提单",
     "pinyin": "Tí dān",
     "category": "technical",
@@ -3171,7 +3171,7 @@
   {
     "id": "technical-certificate",
     "term": "Certificate",
-    "ipa": "/sərˈtɪfɪkət/",
+    "ipa": "/sətˈɪfɪkɪt/",
     "zh": "证书",
     "pinyin": "Zhèng shū",
     "category": "technical",
@@ -3185,7 +3185,7 @@
   {
     "id": "technical-ce-certificate",
     "term": "CE Certificate",
-    "ipa": "/ˌsiːˈiː sərˈtɪfɪkət/",
+    "ipa": "/ˌsiːˈiː sətˈɪfɪkɪt/",
     "zh": "CE认证",
     "pinyin": "CE rèn zhèng",
     "category": "technical",
@@ -3199,7 +3199,7 @@
   {
     "id": "technical-iso-certificate",
     "term": "ISO Certificate",
-    "ipa": "/ˌaɪ.esˈoʊ sərˈtɪfɪkət/",
+    "ipa": "/ˈaɪsəʊ sətˈɪfɪkɪt/",
     "zh": "ISO认证",
     "pinyin": "ISO rèn zhèng",
     "category": "technical",
@@ -3213,7 +3213,7 @@
   {
     "id": "technical-test-report",
     "term": "Test Report",
-    "ipa": "/tɛst rɪˈpɔrt/",
+    "ipa": "/tˈɛst ɹɪpˈɔːt/",
     "zh": "测试报告",
     "pinyin": "Cè shì bào gào",
     "category": "technical",
@@ -3227,7 +3227,7 @@
   {
     "id": "technical-quality-control",
     "term": "Quality Control",
-    "ipa": "/kˈwɑləti kənˈtroʊl/",
+    "ipa": "/kwˈɒlɪti kəntɹˈəʊl/",
     "zh": "质量控制",
     "pinyin": "Zhì liàng kòng zhì",
     "category": "technical",
@@ -3241,7 +3241,7 @@
   {
     "id": "technical-acceptance",
     "term": "Acceptance",
-    "ipa": "/əkˈsɛptəns/",
+    "ipa": "/əksˈɛptəns/",
     "zh": "验收",
     "pinyin": "Yàn shōu",
     "category": "technical",
@@ -3255,7 +3255,7 @@
   {
     "id": "technical-handover",
     "term": "Handover",
-    "ipa": "/ˈhændoʊvər/",
+    "ipa": "/ˈhændəʊvə/",
     "zh": "移交",
     "pinyin": "Yí jiāo",
     "category": "technical",
@@ -3269,7 +3269,7 @@
   {
     "id": "technical-training",
     "term": "Training",
-    "ipa": "/ˈtreɪnɪŋ/",
+    "ipa": "/tɹˈeɪnɪŋ/",
     "zh": "培训",
     "pinyin": "Péi xùn",
     "category": "technical",
@@ -3283,7 +3283,7 @@
   {
     "id": "technical-operation",
     "term": "Operation",
-    "ipa": "/ˌɑpərˈeɪʃən/",
+    "ipa": "/ˌɒpəɹˈeɪʃən/",
     "zh": "操作",
     "pinyin": "Cāo zuò",
     "category": "technical",
@@ -3297,7 +3297,7 @@
   {
     "id": "technical-instruction",
     "term": "Instruction",
-    "ipa": "/ˌɪnˈstrəkʃən/",
+    "ipa": "/ɪnstɹˈɐkʃən/",
     "zh": "指示",
     "pinyin": "Zhǐ shì",
     "category": "technical",
@@ -3311,7 +3311,7 @@
   {
     "id": "technical-guideline",
     "term": "Guideline",
-    "ipa": "/ˈgaɪˌdlaɪn/",
+    "ipa": "/gˈaɪdlˌaɪn/",
     "zh": "指南",
     "pinyin": "Zhǐ nán",
     "category": "technical",
@@ -3325,7 +3325,7 @@
   {
     "id": "technical-recommendation",
     "term": "Recommendation",
-    "ipa": "/ˌrɛkəmənˈdeɪʃən/",
+    "ipa": "/ɹˌɛkəməndˈeɪʃən/",
     "zh": "建议",
     "pinyin": "Jiàn yì",
     "category": "technical",
@@ -3339,7 +3339,7 @@
   {
     "id": "technical-limitation",
     "term": "Limitation",
-    "ipa": "/ˌlɪmɪˈteɪʃən/",
+    "ipa": "/lˌɪmɪtˈeɪʃən/",
     "zh": "限制",
     "pinyin": "Xiàn zhì",
     "category": "technical",
@@ -3353,7 +3353,7 @@
   {
     "id": "technical-specification",
     "term": "Specification",
-    "ipa": "/ˌspɛsɪfɪˈkeɪʃən/",
+    "ipa": "/spˌɛsɪfɪkˈeɪʃən/",
     "zh": "规格",
     "pinyin": "Guī gé",
     "category": "technical",
@@ -3367,7 +3367,7 @@
   {
     "id": "technical-standard",
     "term": "Standard",
-    "ipa": "/ˈstændərd/",
+    "ipa": "/stˈændəd/",
     "zh": "标准",
     "pinyin": "Biāo zhǔn",
     "category": "technical",
@@ -3381,7 +3381,7 @@
   {
     "id": "technical-customized",
     "term": "Customized",
-    "ipa": "/ˈkəstəˌmaɪzd/",
+    "ipa": "/kˈɐstəmˌaɪzd/",
     "zh": "定制的",
     "pinyin": "Dìng zhì de",
     "category": "technical",
@@ -3395,7 +3395,7 @@
   {
     "id": "technical-optional",
     "term": "Optional",
-    "ipa": "/ˈɔpʃənəl/",
+    "ipa": "/ˈɒpʃənəl/",
     "zh": "可选的",
     "pinyin": "Kě xuǎn de",
     "category": "technical",
@@ -3409,7 +3409,7 @@
   {
     "id": "technical-accessory",
     "term": "Accessory",
-    "ipa": "/ækˈsɛsəri/",
+    "ipa": "/æksˈɛsəɹi/",
     "zh": "附件",
     "pinyin": "Fù jiàn",
     "category": "technical",
@@ -3423,7 +3423,7 @@
   {
     "id": "technical-extension",
     "term": "Extension",
-    "ipa": "/ɪkˈstɛnʃən/",
+    "ipa": "/ɪkstˈɛnʃən/",
     "zh": "扩展",
     "pinyin": "Kuò zhǎn",
     "category": "technical",
@@ -3437,7 +3437,7 @@
   {
     "id": "technical-upgrade",
     "term": "Upgrade",
-    "ipa": "/ˈəpˈgreɪd/",
+    "ipa": "/ˈɐpgɹˌeɪd/",
     "zh": "升级",
     "pinyin": "Shēng jí",
     "category": "technical",
@@ -3451,7 +3451,7 @@
   {
     "id": "technical-modernization",
     "term": "Modernization",
-    "ipa": "/ˌmɑdərnəˈzeɪʃən/",
+    "ipa": "/ˌmɒdənaɪˈzeɪʃən/",
     "zh": "改造",
     "pinyin": "Gǎi zào",
     "category": "technical",
@@ -3465,7 +3465,7 @@
   {
     "id": "technical-retrofit",
     "term": "Retrofit",
-    "ipa": "/ˈrɛtroʊˌfɪt/",
+    "ipa": "/ɹˈɛtɹəʊfˌɪt/",
     "zh": "翻新",
     "pinyin": "Fān xīn",
     "category": "technical",
@@ -3479,7 +3479,7 @@
   {
     "id": "technical-life-span",
     "term": "Life Span",
-    "ipa": "/laɪf spæn/",
+    "ipa": "/lˈaɪf spˈæn/",
     "zh": "使用寿命",
     "pinyin": "Shǐ yòng shòu mìng",
     "category": "technical",
@@ -3493,7 +3493,7 @@
   {
     "id": "technical-durability",
     "term": "Durability",
-    "ipa": "/dərəˈbɪlɪti/",
+    "ipa": "/ˌdjʊərəˈbɪləti/",
     "zh": "耐用性",
     "pinyin": "Nài yòng xìng",
     "category": "technical",
@@ -3507,7 +3507,7 @@
   {
     "id": "technical-reliability",
     "term": "Reliability",
-    "ipa": "/riˌlaɪəˈbɪləti/",
+    "ipa": "/ɹɪlˌaɪəbˈɪlɪti/",
     "zh": "可靠性",
     "pinyin": "Kě kào xìng",
     "category": "technical",
@@ -3521,7 +3521,7 @@
   {
     "id": "technical-efficiency",
     "term": "Efficiency",
-    "ipa": "/ɪˈfɪʃənsi/",
+    "ipa": "/ɪfˈɪʃənsi/",
     "zh": "效率",
     "pinyin": "Xiào lǜ",
     "category": "technical",
@@ -3535,7 +3535,7 @@
   {
     "id": "technical-performance",
     "term": "Performance",
-    "ipa": "/pərˈfɔrməns/",
+    "ipa": "/pəfˈɔːməns/",
     "zh": "性能",
     "pinyin": "Xìng néng",
     "category": "technical",
@@ -3549,7 +3549,7 @@
   {
     "id": "technical-economy",
     "term": "Economy",
-    "ipa": "/ɪˈkɑnəmi/",
+    "ipa": "/ɪkˈɒnəmi/",
     "zh": "经济性",
     "pinyin": "Jīng jì xìng",
     "category": "technical",
@@ -3563,7 +3563,7 @@
   {
     "id": "technical-environmental",
     "term": "Environmental",
-    "ipa": "/ɪnˌvaɪrənˈmɛnəl/",
+    "ipa": "/ɪnvˌaɪɹənmˈɛntəl/",
     "zh": "环保的",
     "pinyin": "Huán bǎo de",
     "category": "technical",
@@ -3577,7 +3577,7 @@
   {
     "id": "technical-low-noise",
     "term": "Low Noise",
-    "ipa": "/loʊ nɔɪz/",
+    "ipa": "/lˈəʊ nˈɔɪz/",
     "zh": "低噪音",
     "pinyin": "Dī zào yīn",
     "category": "technical",
@@ -3591,7 +3591,7 @@
   {
     "id": "technical-low-fuel",
     "term": "Low Fuel",
-    "ipa": "/loʊ fjuəl/",
+    "ipa": "/lˈəʊ fjˈuːəl/",
     "zh": "低油耗",
     "pinyin": "Dī hào yóu",
     "category": "technical",
@@ -3605,7 +3605,7 @@
   {
     "id": "technical-high-efficiency",
     "term": "High Efficiency",
-    "ipa": "/haɪ ɪˈfɪʃənsi/",
+    "ipa": "/hˈaɪ ɪfˈɪʃənsi/",
     "zh": "高效率",
     "pinyin": "Gāo xiào lǜ",
     "category": "technical",
@@ -3619,7 +3619,7 @@
   {
     "id": "technical-compact-structure",
     "term": "Compact Structure",
-    "ipa": "/ˈkɑmpækt ˈstrəkʧər/",
+    "ipa": "/kˈɒmpækt stɹˈɐktʃə/",
     "zh": "结构紧凑",
     "pinyin": "Jié gòu jǐn còu",
     "category": "technical",
@@ -3633,7 +3633,7 @@
   {
     "id": "technical-easy-operation",
     "term": "Easy Operation",
-    "ipa": "/ˈizi ˌɑpərˈeɪʃən/",
+    "ipa": "/ˈiːzi ˌɒpəɹˈeɪʃən/",
     "zh": "操作简便",
     "pinyin": "Cāo zuò jiǎn biàn",
     "category": "technical",
@@ -3647,7 +3647,7 @@
   {
     "id": "technical-easy-maintenance",
     "term": "Easy Maintenance",
-    "ipa": "/ˈizi ˈmeɪntənəns/",
+    "ipa": "/ˈiːzi mˈeɪntnəns/",
     "zh": "维护简便",
     "pinyin": "Wéi hù jiǎn biàn",
     "category": "technical",
@@ -3661,7 +3661,7 @@
   {
     "id": "technical-safe-operation",
     "term": "Safe Operation",
-    "ipa": "/seɪf ˌɑpərˈeɪʃən/",
+    "ipa": "/sˈeɪf ˌɒpəɹˈeɪʃən/",
     "zh": "安全运行",
     "pinyin": "ān quán yùn xíng",
     "category": "technical",
@@ -3675,7 +3675,7 @@
   {
     "id": "technical-fire-protection",
     "term": "Fire Protection",
-    "ipa": "/faɪər prəˈtɛkʃən/",
+    "ipa": "/fˈaɪə pɹətˈɛkʃən/",
     "zh": "防火",
     "pinyin": "Fáng huǒ",
     "category": "technical",
@@ -3689,7 +3689,7 @@
   {
     "id": "technical-explosion-proof",
     "term": "Explosion Proof",
-    "ipa": "/ɪkˈsploʊʒən pruf/",
+    "ipa": "/ɪksplˈəʊʒən pɹˈuːf/",
     "zh": "防爆",
     "pinyin": "Fáng bào",
     "category": "technical",
@@ -3703,7 +3703,7 @@
   {
     "id": "technical-waterproof",
     "term": "Waterproof",
-    "ipa": "/ˈwɔtərˌpruf/",
+    "ipa": "/wˈɔːtəpɹˌuːf/",
     "zh": "防水",
     "pinyin": "Fáng shuǐ",
     "category": "technical",
@@ -3717,7 +3717,7 @@
   {
     "id": "technical-dustproof",
     "term": "Dustproof",
-    "ipa": "/dustproof/",
+    "ipa": "/ˈdʌstpruːf/",
     "zh": "防尘",
     "pinyin": "Fáng chén",
     "category": "technical",
@@ -3731,7 +3731,7 @@
   {
     "id": "technical-weather-proof",
     "term": "Weather Proof",
-    "ipa": "/ˈwɛðər pruf/",
+    "ipa": "/wˈɛðə pɹˈuːf/",
     "zh": "全天候",
     "pinyin": "Quán tiān hòu",
     "category": "technical",
@@ -3745,7 +3745,7 @@
   {
     "id": "technical-outdoor-use",
     "term": "Outdoor Use",
-    "ipa": "/ˈaʊtˌdɔr juz/",
+    "ipa": "/ˈaʊtdˌɔː jˈuːs/",
     "zh": "户外使用",
     "pinyin": "Hù wài shǐ yòng",
     "category": "technical",
@@ -3759,7 +3759,7 @@
   {
     "id": "technical-indoor-use",
     "term": "Indoor Use",
-    "ipa": "/ˈɪnˌdɔr juz/",
+    "ipa": "/ˈɪndˌɔː jˈuːs/",
     "zh": "室内使用",
     "pinyin": "Shì nèi shǐ yòng",
     "category": "technical",
@@ -3773,7 +3773,7 @@
   {
     "id": "technical-cold-climate",
     "term": "Cold Climate",
-    "ipa": "/koʊld ˈklaɪmɪt/",
+    "ipa": "/kˈəʊld klˈaɪmɪt/",
     "zh": "寒冷气候",
     "pinyin": "Hán lěng qì hòu",
     "category": "technical",
@@ -3787,7 +3787,7 @@
   {
     "id": "technical-hot-climate",
     "term": "Hot Climate",
-    "ipa": "/hɑt ˈklaɪmɪt/",
+    "ipa": "/hˈɒt klˈaɪmɪt/",
     "zh": "炎热气候",
     "pinyin": "Yán rè qì hòu",
     "category": "technical",
@@ -3801,7 +3801,7 @@
   {
     "id": "technical-high-altitude",
     "term": "High Altitude",
-    "ipa": "/haɪ ˈæltəˌtud/",
+    "ipa": "/hˈaɪ ˈæltɪtjˌuːd/",
     "zh": "高海拔",
     "pinyin": "Gāo hǎi bá",
     "category": "technical",
@@ -3815,7 +3815,7 @@
   {
     "id": "technical-seismic-resistance",
     "term": "Seismic Resistance",
-    "ipa": "/ˈsaɪzmɪk rɪˈzɪstəns/",
+    "ipa": "/ˈsaɪzmɪk ɹɪzˈɪstəns/",
     "zh": "抗震",
     "pinyin": "Kàng zhèn",
     "category": "technical",
@@ -3829,7 +3829,7 @@
   {
     "id": "technical-wind-resistance",
     "term": "Wind Resistance",
-    "ipa": "/wɪnd rɪˈzɪstəns/",
+    "ipa": "/wˈɪnd ɹɪzˈɪstəns/",
     "zh": "抗风",
     "pinyin": "Kàng fēng",
     "category": "technical",
@@ -3843,7 +3843,7 @@
   {
     "id": "daily-americano",
     "term": "Americano",
-    "ipa": "/əˌmɛrɪˈkɑnoʊ/",
+    "ipa": "/əˌmɛrɪˈkɑːnəʊ/",
     "zh": "美式咖啡",
     "pinyin": "Měi shì kā fēi",
     "category": "daily",
@@ -3857,7 +3857,7 @@
   {
     "id": "daily-espresso",
     "term": "Espresso",
-    "ipa": "/ˌɛˈsprɛsoʊ/",
+    "ipa": "/ɛspɹˈɛsəʊ/",
     "zh": "浓缩咖啡",
     "pinyin": "Nóng suō kā fēi",
     "category": "daily",
@@ -3871,7 +3871,7 @@
   {
     "id": "daily-latte",
     "term": "Latte",
-    "ipa": "/ˈlɑˌteɪ/",
+    "ipa": "/ˈlæteɪ/",
     "zh": "拿铁",
     "pinyin": "Ná tiě",
     "category": "daily",
@@ -3885,7 +3885,7 @@
   {
     "id": "daily-green-tea",
     "term": "Green Tea",
-    "ipa": "/grin ti/",
+    "ipa": "/gɹˈiːn tˈiː/",
     "zh": "绿茶",
     "pinyin": "Lǜ chá",
     "category": "daily",
@@ -3899,7 +3899,7 @@
   {
     "id": "daily-black-tea",
     "term": "Black Tea",
-    "ipa": "/blæk ti/",
+    "ipa": "/blˈæk tˈiː/",
     "zh": "红茶",
     "pinyin": "Hóng chá",
     "category": "daily",
@@ -3913,7 +3913,7 @@
   {
     "id": "daily-coffee-machine",
     "term": "Coffee Machine",
-    "ipa": "/ˈkɔfi məˈʃin/",
+    "ipa": "/kˈɒfi məʃˈiːn/",
     "zh": "咖啡机",
     "pinyin": "Kā fēi jī",
     "category": "daily",
@@ -3927,7 +3927,7 @@
   {
     "id": "daily-mug",
     "term": "Mug",
-    "ipa": "/məg/",
+    "ipa": "/mˈɐg/",
     "zh": "马克杯",
     "pinyin": "Mǎ kè bēi",
     "category": "daily",
@@ -3955,7 +3955,7 @@
   {
     "id": "daily-microwave",
     "term": "Microwave",
-    "ipa": "/ˈmaɪkrəˌweɪv/",
+    "ipa": "/mˈaɪkɹəwˌeɪv/",
     "zh": "微波炉",
     "pinyin": "Wēi bō lú",
     "category": "daily",
@@ -3969,7 +3969,7 @@
   {
     "id": "daily-refrigerator",
     "term": "Refrigerator",
-    "ipa": "/rɪˈfrɪʤərˌeɪtər/",
+    "ipa": "/ɹɪfɹˈɪdʒəɹˌeɪtə/",
     "zh": "冰箱",
     "pinyin": "Bīng xiāng",
     "category": "daily",
@@ -3983,7 +3983,7 @@
   {
     "id": "daily-pantry",
     "term": "Pantry",
-    "ipa": "/ˈpæntri/",
+    "ipa": "/pˈæntɹi/",
     "zh": "茶水间",
     "pinyin": "Chá shuǐ jiān",
     "category": "daily",
@@ -3997,7 +3997,7 @@
   {
     "id": "daily-lunchbox",
     "term": "Lunchbox",
-    "ipa": "/lunchbox/",
+    "ipa": "/ˈlʌntʃbɒks/",
     "zh": "午餐盒",
     "pinyin": "Wǔ cān hé",
     "category": "daily",
@@ -4011,7 +4011,7 @@
   {
     "id": "daily-breakfast",
     "term": "Breakfast",
-    "ipa": "/ˈbrɛkfəst/",
+    "ipa": "/bɹˈɛkfəst/",
     "zh": "早餐",
     "pinyin": "Zǎo cān",
     "category": "daily",
@@ -4025,7 +4025,7 @@
   {
     "id": "daily-lunch",
     "term": "Lunch",
-    "ipa": "/lənʧ/",
+    "ipa": "/lˈɐntʃ/",
     "zh": "午餐",
     "pinyin": "Wǔ cān",
     "category": "daily",
@@ -4039,7 +4039,7 @@
   {
     "id": "daily-dinner",
     "term": "Dinner",
-    "ipa": "/ˈdɪnər/",
+    "ipa": "/dˈɪnə/",
     "zh": "晚餐",
     "pinyin": "Wǎn cān",
     "category": "daily",
@@ -4053,7 +4053,7 @@
   {
     "id": "office-meeting",
     "term": "Meeting",
-    "ipa": "/ˈmitɪŋ/",
+    "ipa": "/mˈiːtɪŋ/",
     "zh": "会议",
     "pinyin": "Huì yì",
     "category": "office",
@@ -4067,7 +4067,7 @@
   {
     "id": "office-conference",
     "term": "Conference",
-    "ipa": "/ˈkɑnfərəns/",
+    "ipa": "/kˈɒnfɹəns/",
     "zh": "大会",
     "pinyin": "Dà huì",
     "category": "office",
@@ -4081,7 +4081,7 @@
   {
     "id": "office-schedule",
     "term": "Schedule",
-    "ipa": "/ˈskɛʤʊl/",
+    "ipa": "/ʃˈɛdʒuːl/",
     "zh": "日程表",
     "pinyin": "Rì chéng biǎo",
     "category": "office",
@@ -4095,7 +4095,7 @@
   {
     "id": "office-appointment",
     "term": "Appointment",
-    "ipa": "/əˈpɔɪntmənt/",
+    "ipa": "/əpˈɔɪntmənt/",
     "zh": "预约",
     "pinyin": "Yù yuē",
     "category": "office",
@@ -4109,7 +4109,7 @@
   {
     "id": "office-deadline",
     "term": "Deadline",
-    "ipa": "/ˈdɛˌdlaɪn/",
+    "ipa": "/dˈɛdlˌaɪn/",
     "zh": "截止日期",
     "pinyin": "Jié zhǐ rì qī",
     "category": "office",
@@ -4123,7 +4123,7 @@
   {
     "id": "office-project",
     "term": "Project",
-    "ipa": "/ˈprɑʤɛkt/",
+    "ipa": "/pɹˈɒdʒɛkt/",
     "zh": "项目",
     "pinyin": "Xiàng mù",
     "category": "office",
@@ -4137,7 +4137,7 @@
   {
     "id": "office-presentation",
     "term": "Presentation",
-    "ipa": "/ˌprɛzənˈteɪʃən/",
+    "ipa": "/pɹˌɛzəntˈeɪʃən/",
     "zh": "演示汇报",
     "pinyin": "Yǎn shì huì bào",
     "category": "office",
@@ -4151,7 +4151,7 @@
   {
     "id": "office-report",
     "term": "Report",
-    "ipa": "/rɪˈpɔrt/",
+    "ipa": "/ɹɪpˈɔːt/",
     "zh": "报告",
     "pinyin": "Bào gào",
     "category": "office",
@@ -4165,7 +4165,7 @@
   {
     "id": "office-email",
     "term": "Email",
-    "ipa": "/iˈmeɪl/",
+    "ipa": "/ˈiːmeɪl/",
     "zh": "电子邮件",
     "pinyin": "Diàn zǐ yóu jiàn",
     "category": "office",
@@ -4179,7 +4179,7 @@
   {
     "id": "office-document",
     "term": "Document",
-    "ipa": "/ˈdɑkjəmɛnt/",
+    "ipa": "/dˈɒkjʊmɛnt/",
     "zh": "文档",
     "pinyin": "Wén dǎng",
     "category": "office",
@@ -4193,7 +4193,7 @@
   {
     "id": "daily-printer",
     "term": "Printer",
-    "ipa": "/ˈprɪnər/",
+    "ipa": "/pɹˈɪntə/",
     "zh": "打印机",
     "pinyin": "Dǎ yìn jī",
     "category": "daily",
@@ -4207,7 +4207,7 @@
   {
     "id": "daily-scanner",
     "term": "Scanner",
-    "ipa": "/ˈskænər/",
+    "ipa": "/skˈænə/",
     "zh": "扫描仪",
     "pinyin": "Sǎo miáo yí",
     "category": "daily",
@@ -4221,7 +4221,7 @@
   {
     "id": "daily-copier",
     "term": "Copier",
-    "ipa": "/ˈkɑpiər/",
+    "ipa": "/kˈɒpɪə/",
     "zh": "复印机",
     "pinyin": "Fù yìn jī",
     "category": "daily",
@@ -4235,7 +4235,7 @@
   {
     "id": "daily-notebook",
     "term": "Notebook",
-    "ipa": "/ˈnoʊtˌbʊk/",
+    "ipa": "/nˈəʊtbˌʊk/",
     "zh": "笔记本",
     "pinyin": "Bǐ jì běn",
     "category": "daily",
@@ -4249,7 +4249,7 @@
   {
     "id": "daily-stapler",
     "term": "Stapler",
-    "ipa": "/ˈsteɪpələr/",
+    "ipa": "/ˈsteɪplə/",
     "zh": "订书机",
     "pinyin": "Dìng shū jī",
     "category": "daily",
@@ -4263,7 +4263,7 @@
   {
     "id": "daily-desk",
     "term": "Desk",
-    "ipa": "/dɛsk/",
+    "ipa": "/dˈɛsk/",
     "zh": "办公桌",
     "pinyin": "Bàn gōng zhuō",
     "category": "daily",
@@ -4277,7 +4277,7 @@
   {
     "id": "daily-chair",
     "term": "Chair",
-    "ipa": "/ʧɛr/",
+    "ipa": "/tʃˈɛə/",
     "zh": "椅子",
     "pinyin": "Yǐ zi",
     "category": "daily",
@@ -4291,7 +4291,7 @@
   {
     "id": "daily-keyboard",
     "term": "Keyboard",
-    "ipa": "/ˈkiˌbɔrd/",
+    "ipa": "/kˈiːbˌɔːd/",
     "zh": "键盘",
     "pinyin": "Jiàn pán",
     "category": "daily",
@@ -4305,7 +4305,7 @@
   {
     "id": "daily-mouse",
     "term": "Mouse",
-    "ipa": "/maʊs/",
+    "ipa": "/mˈaʊs/",
     "zh": "鼠标",
     "pinyin": "Shǔ biāo",
     "category": "daily",
@@ -4319,7 +4319,7 @@
   {
     "id": "daily-monitor",
     "term": "Monitor",
-    "ipa": "/ˈmɑnətər/",
+    "ipa": "/mˈɒnɪtə/",
     "zh": "显示器",
     "pinyin": "Xiǎn shì qì",
     "category": "daily",
@@ -4333,7 +4333,7 @@
   {
     "id": "daily-laptop",
     "term": "Laptop",
-    "ipa": "/ˈlæpˌtɑp/",
+    "ipa": "/lˈæptˌɒp/",
     "zh": "笔记本电脑",
     "pinyin": "Bǐ jì běn diàn nǎo",
     "category": "daily",
@@ -4347,7 +4347,7 @@
   {
     "id": "daily-charger",
     "term": "Charger",
-    "ipa": "/ˈʧɑrʤər/",
+    "ipa": "/tʃˈɑːdʒə/",
     "zh": "充电器",
     "pinyin": "Chōng diàn qì",
     "category": "daily",
@@ -4361,7 +4361,7 @@
   {
     "id": "daily-battery",
     "term": "Battery",
-    "ipa": "/ˈbætəri/",
+    "ipa": "/bˈætəɹi/",
     "zh": "电池",
     "pinyin": "Diàn chí",
     "category": "daily",
@@ -4375,7 +4375,7 @@
   {
     "id": "daily-earphones",
     "term": "Earphones",
-    "ipa": "/ˈɪrˌfoʊnz/",
+    "ipa": "/ˈɪəfˌəʊnz/",
     "zh": "耳机",
     "pinyin": "Ěr jī",
     "category": "daily",
@@ -4389,7 +4389,7 @@
   {
     "id": "daily-headset",
     "term": "Headset",
-    "ipa": "/ˈhɛdˌsɛt/",
+    "ipa": "/hˈɛdsˌɛt/",
     "zh": "头戴式耳机",
     "pinyin": "Tóu dài shì ěr jī",
     "category": "daily",
@@ -4403,7 +4403,7 @@
   {
     "id": "daily-boss",
     "term": "Boss",
-    "ipa": "/bɔs/",
+    "ipa": "/bˈɒs/",
     "zh": "老板",
     "pinyin": "Lǎo bǎn",
     "category": "daily",
@@ -4417,7 +4417,7 @@
   {
     "id": "daily-colleague",
     "term": "Colleague",
-    "ipa": "/ˈkɑlig/",
+    "ipa": "/kˈɒliːg/",
     "zh": "同事",
     "pinyin": "Tóng shì",
     "category": "daily",
@@ -4431,7 +4431,7 @@
   {
     "id": "office-manager",
     "term": "Manager",
-    "ipa": "/ˈmænɪʤər/",
+    "ipa": "/mˈænɪdʒə/",
     "zh": "经理",
     "pinyin": "Jīng lǐ",
     "category": "office",
@@ -4445,7 +4445,7 @@
   {
     "id": "office-director",
     "term": "Director",
-    "ipa": "/dɪˈrɛktər/",
+    "ipa": "/daɪɹˈɛktə/",
     "zh": "总监",
     "pinyin": "Zǒng jiān",
     "category": "office",
@@ -4459,7 +4459,7 @@
   {
     "id": "daily-intern",
     "term": "Intern",
-    "ipa": "/ˈɪntərn/",
+    "ipa": "/ɪntˈɜːn/",
     "zh": "实习生",
     "pinyin": "Shí xí shēng",
     "category": "daily",
@@ -4473,7 +4473,7 @@
   {
     "id": "office-employee",
     "term": "Employee",
-    "ipa": "/ɪmˈplɔɪi/",
+    "ipa": "/ɛmplˈɔɪi/",
     "zh": "员工",
     "pinyin": "Yuán gōng",
     "category": "office",
@@ -4487,7 +4487,7 @@
   {
     "id": "office-client",
     "term": "Client",
-    "ipa": "/klaɪənt/",
+    "ipa": "/klˈaɪənt/",
     "zh": "客户",
     "pinyin": "Kè hù",
     "category": "office",
@@ -4501,7 +4501,7 @@
   {
     "id": "office-customer",
     "term": "Customer",
-    "ipa": "/ˈkəstəmər/",
+    "ipa": "/kˈɐstəmə/",
     "zh": "顾客",
     "pinyin": "Gù kè",
     "category": "office",
@@ -4515,7 +4515,7 @@
   {
     "id": "daily-visitor",
     "term": "Visitor",
-    "ipa": "/ˈvɪzɪtər/",
+    "ipa": "/vˈɪzɪtə/",
     "zh": "访客",
     "pinyin": "Fǎng kè",
     "category": "daily",
@@ -4529,7 +4529,7 @@
   {
     "id": "daily-reception",
     "term": "Reception",
-    "ipa": "/rɪˈsɛpʃən/",
+    "ipa": "/ɹɪsˈɛpʃən/",
     "zh": "前台",
     "pinyin": "Qián tái",
     "category": "daily",
@@ -4543,7 +4543,7 @@
   {
     "id": "daily-supply-chain",
     "term": "Supply Chain",
-    "ipa": "/səˈplaɪ ʧeɪn/",
+    "ipa": "/səplˈaɪ tʃˈeɪn/",
     "zh": "供应链",
     "pinyin": "Gōng yìng liàn",
     "category": "daily",
@@ -4557,7 +4557,7 @@
   {
     "id": "office-procurement",
     "term": "Procurement",
-    "ipa": "/proʊˈkjʊrmənt/",
+    "ipa": "/pɹəkjˈʊəmənt/",
     "zh": "采购",
     "pinyin": "Cǎi gòu",
     "category": "office",
@@ -4571,7 +4571,7 @@
   {
     "id": "office-quality-assurance",
     "term": "Quality Assurance",
-    "ipa": "/kˈwɑləti əˈʃʊrəns/",
+    "ipa": "/kwˈɒlɪti əʃˈʊəɹəns/",
     "zh": "质量保证",
     "pinyin": "Zhì liàng bǎo zhèng",
     "category": "office",
@@ -4585,7 +4585,7 @@
   {
     "id": "office-warehouse",
     "term": "Warehouse",
-    "ipa": "/ˈwɛˌrhaʊs/",
+    "ipa": "/wˈɛəhˌaʊs/",
     "zh": "仓库",
     "pinyin": "Cāng kù",
     "category": "office",
@@ -4599,7 +4599,7 @@
   {
     "id": "daily-revenue",
     "term": "Revenue",
-    "ipa": "/ˈrɛvəˌnu/",
+    "ipa": "/ɹˈɛvənjˌuː/",
     "zh": "营收",
     "pinyin": "Yíng shōu",
     "category": "daily",
@@ -4613,7 +4613,7 @@
   {
     "id": "daily-profit-margin",
     "term": "Profit Margin",
-    "ipa": "/ˈprɑfɪt ˈmɑrʤən/",
+    "ipa": "/pɹˈɒfɪt mˈɑːdʒɪn/",
     "zh": "利润率",
     "pinyin": "Lì rùn lǜ",
     "category": "daily",
@@ -4627,7 +4627,7 @@
   {
     "id": "daily-negotiation",
     "term": "Negotiation",
-    "ipa": "/nɪˌgoʊʃiˈeɪʃən/",
+    "ipa": "/nɪgˌəʊʃɪˈeɪʃən/",
     "zh": "谈判",
     "pinyin": "Tán pàn",
     "category": "daily",
@@ -4641,7 +4641,7 @@
   {
     "id": "daily-compliance",
     "term": "Compliance",
-    "ipa": "/kəmˈplaɪəns/",
+    "ipa": "/kəmplˈaɪəns/",
     "zh": "合规",
     "pinyin": "Hé guī",
     "category": "daily",
@@ -4655,7 +4655,7 @@
   {
     "id": "daily-performance-review",
     "term": "Performance Review",
-    "ipa": "/pərˈfɔrməns ˌrivˈju/",
+    "ipa": "/pəfˈɔːməns ɹɪvjˈuː/",
     "zh": "绩效评估",
     "pinyin": "Jì xiào píng gū",
     "category": "daily",
@@ -4669,7 +4669,7 @@
   {
     "id": "office-budget",
     "term": "Budget",
-    "ipa": "/ˈbəʤɪt/",
+    "ipa": "/bˈɐdʒɪt/",
     "zh": "预算",
     "pinyin": "Yù suàn",
     "category": "office",
@@ -4683,7 +4683,7 @@
   {
     "id": "office-agenda",
     "term": "Agenda",
-    "ipa": "/əˈʤɛndə/",
+    "ipa": "/ədʒˈɛndə/",
     "zh": "议程",
     "pinyin": "Yì chéng",
     "category": "office",
@@ -4697,7 +4697,7 @@
   {
     "id": "daily-minutes",
     "term": "Minutes",
-    "ipa": "/ˈmɪnəts/",
+    "ipa": "/mˈɪnɪts/",
     "zh": "会议纪要",
     "pinyin": "Huì yì jì yào",
     "category": "daily",
@@ -4711,7 +4711,7 @@
   {
     "id": "daily-summary",
     "term": "Summary",
-    "ipa": "/ˈsəməri/",
+    "ipa": "/sˈɐməɹi/",
     "zh": "总结",
     "pinyin": "Zǒng jié",
     "category": "daily",
@@ -4725,7 +4725,7 @@
   {
     "id": "office-feedback",
     "term": "Feedback",
-    "ipa": "/ˈfidˌbæk/",
+    "ipa": "/fˈiːdbˌæk/",
     "zh": "反馈",
     "pinyin": "Fǎn kuì",
     "category": "office",
@@ -4739,7 +4739,7 @@
   {
     "id": "daily-comment",
     "term": "Comment",
-    "ipa": "/ˈkɑmɛnt/",
+    "ipa": "/kˈɒmɛnt/",
     "zh": "评论",
     "pinyin": "Píng lùn",
     "category": "daily",
@@ -4753,7 +4753,7 @@
   {
     "id": "daily-suggestion",
     "term": "Suggestion",
-    "ipa": "/səˈʤɛsʧən/",
+    "ipa": "/sədʒˈɛstʃən/",
     "zh": "建议",
     "pinyin": "Jiàn yì",
     "category": "daily",
@@ -4767,7 +4767,7 @@
   {
     "id": "daily-complaint",
     "term": "Complaint",
-    "ipa": "/kəmˈpleɪnt/",
+    "ipa": "/kəmplˈeɪnt/",
     "zh": "投诉",
     "pinyin": "Tóu sù",
     "category": "daily",
@@ -4781,7 +4781,7 @@
   {
     "id": "daily-request",
     "term": "Request",
-    "ipa": "/rɪkˈwɛst/",
+    "ipa": "/ɹɪkwˈɛst/",
     "zh": "请求",
     "pinyin": "Qǐng qiú",
     "category": "daily",
@@ -4795,7 +4795,7 @@
   {
     "id": "office-approval",
     "term": "Approval",
-    "ipa": "/əˈpruvəl/",
+    "ipa": "/əpɹˈuːvəl/",
     "zh": "批准",
     "pinyin": "Pī zhǔn",
     "category": "office",
@@ -4809,7 +4809,7 @@
   {
     "id": "daily-signature",
     "term": "Signature",
-    "ipa": "/ˈsɪgnəʧər/",
+    "ipa": "/sˈɪgnətʃə/",
     "zh": "签名",
     "pinyin": "Qiān míng",
     "category": "daily",
@@ -4823,7 +4823,7 @@
   {
     "id": "daily-stamp",
     "term": "Stamp",
-    "ipa": "/stæmp/",
+    "ipa": "/stˈæmp/",
     "zh": "盖章",
     "pinyin": "Gài zhāng",
     "category": "daily",
@@ -4837,7 +4837,7 @@
   {
     "id": "office-contract",
     "term": "Contract",
-    "ipa": "/ˈkɑnˌtrækt/",
+    "ipa": "/kəntɹˈækt/",
     "zh": "合同",
     "pinyin": "Hé tong",
     "category": "office",
@@ -4851,7 +4851,7 @@
   {
     "id": "daily-agreement",
     "term": "Agreement",
-    "ipa": "/əˈgrimənt/",
+    "ipa": "/əgɹˈiːmənt/",
     "zh": "协议",
     "pinyin": "Xié yì",
     "category": "daily",
@@ -4865,7 +4865,7 @@
   {
     "id": "office-invoice",
     "term": "Invoice",
-    "ipa": "/ˈɪnvɔɪs/",
+    "ipa": "/ˈɪnvˌɔɪs/",
     "zh": "发票",
     "pinyin": "Fā piào",
     "category": "office",
@@ -4879,7 +4879,7 @@
   {
     "id": "daily-receipt",
     "term": "Receipt",
-    "ipa": "/rɪˈsit/",
+    "ipa": "/ɹɪsˈiːt/",
     "zh": "收据",
     "pinyin": "Shōu jù",
     "category": "daily",
@@ -4893,7 +4893,7 @@
   {
     "id": "office-payment",
     "term": "Payment",
-    "ipa": "/ˈpeɪmənt/",
+    "ipa": "/pˈeɪmənt/",
     "zh": "付款",
     "pinyin": "Fù kuǎn",
     "category": "office",
@@ -4907,7 +4907,7 @@
   {
     "id": "daily-transfer",
     "term": "Transfer",
-    "ipa": "/ˈtrænsfər/",
+    "ipa": "/tɹænsfˈɜː/",
     "zh": "转账",
     "pinyin": "Zhuǎn zhàng",
     "category": "daily",
@@ -4921,7 +4921,7 @@
   {
     "id": "daily-cash",
     "term": "Cash",
-    "ipa": "/kæʃ/",
+    "ipa": "/kˈæʃ/",
     "zh": "现金",
     "pinyin": "Xiàn jīn",
     "category": "daily",
@@ -4935,7 +4935,7 @@
   {
     "id": "daily-credit-card",
     "term": "Credit Card",
-    "ipa": "/ˈkrɛdɪt kɑrd/",
+    "ipa": "/kɹˈɛdɪt kˈɑːd/",
     "zh": "信用卡",
     "pinyin": "Xìn yòng kǎ",
     "category": "daily",
@@ -4949,7 +4949,7 @@
   {
     "id": "daily-bank",
     "term": "Bank",
-    "ipa": "/bæŋk/",
+    "ipa": "/bˈæŋk/",
     "zh": "银行",
     "pinyin": "Yín háng",
     "category": "daily",
@@ -4963,7 +4963,7 @@
   {
     "id": "daily-account",
     "term": "Account",
-    "ipa": "/əˈkaʊnt/",
+    "ipa": "/əkˈaʊnt/",
     "zh": "账户",
     "pinyin": "Zhàng hù",
     "category": "daily",
@@ -4977,7 +4977,7 @@
   {
     "id": "daily-balance",
     "term": "Balance",
-    "ipa": "/ˈbæləns/",
+    "ipa": "/bˈæləns/",
     "zh": "余额",
     "pinyin": "Yú é",
     "category": "daily",
@@ -4991,7 +4991,7 @@
   {
     "id": "daily-statement",
     "term": "Statement",
-    "ipa": "/ˈsteɪtmənt/",
+    "ipa": "/stˈeɪtmənt/",
     "zh": "对账单",
     "pinyin": "Duì zhàng dān",
     "category": "daily",
@@ -5005,7 +5005,7 @@
   {
     "id": "daily-tax",
     "term": "Tax",
-    "ipa": "/tæks/",
+    "ipa": "/tˈæks/",
     "zh": "税",
     "pinyin": "Shuì",
     "category": "daily",
@@ -5019,7 +5019,7 @@
   {
     "id": "daily-vat",
     "term": "VAT",
-    "ipa": "/ˌviː.eɪˈtiː/",
+    "ipa": "/vˈæt/",
     "zh": "增值税",
     "pinyin": "Zēng zhí shuì",
     "category": "daily",
@@ -5033,7 +5033,7 @@
   {
     "id": "daily-salary",
     "term": "Salary",
-    "ipa": "/ˈsæləri/",
+    "ipa": "/sˈæləɹi/",
     "zh": "薪水",
     "pinyin": "Xīn shuǐ",
     "category": "daily",
@@ -5047,7 +5047,7 @@
   {
     "id": "daily-bonus",
     "term": "Bonus",
-    "ipa": "/ˈboʊnəs/",
+    "ipa": "/bˈəʊnəs/",
     "zh": "奖金",
     "pinyin": "Jiǎng jīn",
     "category": "daily",
@@ -5061,7 +5061,7 @@
   {
     "id": "daily-allowance",
     "term": "Allowance",
-    "ipa": "/əˈlaʊəns/",
+    "ipa": "/əlˈaʊəns/",
     "zh": "补贴",
     "pinyin": "Bǔ tiē",
     "category": "daily",
@@ -5075,7 +5075,7 @@
   {
     "id": "daily-overtime",
     "term": "Overtime",
-    "ipa": "/ˈoʊvərˌtaɪm/",
+    "ipa": "/ˈəʊvətˌaɪm/",
     "zh": "加班",
     "pinyin": "Jiā bān",
     "category": "daily",
@@ -5089,7 +5089,7 @@
   {
     "id": "daily-leave",
     "term": "Leave",
-    "ipa": "/liv/",
+    "ipa": "/lˈiːv/",
     "zh": "休假",
     "pinyin": "Xiū jià",
     "category": "daily",
@@ -5103,7 +5103,7 @@
   {
     "id": "daily-holiday",
     "term": "Holiday",
-    "ipa": "/ˈhɑlɪˌdeɪ/",
+    "ipa": "/hˈɒlɪdˌeɪ/",
     "zh": "假期",
     "pinyin": "Jià qī",
     "category": "daily",
@@ -5117,7 +5117,7 @@
   {
     "id": "daily-sick-leave",
     "term": "Sick Leave",
-    "ipa": "/sɪk liv/",
+    "ipa": "/sˈɪk lˈiːv/",
     "zh": "病假",
     "pinyin": "Bìng jià",
     "category": "daily",
@@ -5131,7 +5131,7 @@
   {
     "id": "daily-annual-leave",
     "term": "Annual Leave",
-    "ipa": "/ˈænjuəl liv/",
+    "ipa": "/ˈænjʊəl lˈiːv/",
     "zh": "年假",
     "pinyin": "Nián jià",
     "category": "daily",
@@ -5159,7 +5159,7 @@
   {
     "id": "daily-attendance",
     "term": "Attendance",
-    "ipa": "/əˈtɛndəns/",
+    "ipa": "/ətˈɛndəns/",
     "zh": "考勤",
     "pinyin": "Kǎo qín",
     "category": "daily",
@@ -5173,7 +5173,7 @@
   {
     "id": "daily-shift",
     "term": "Shift",
-    "ipa": "/ʃɪft/",
+    "ipa": "/ʃˈɪft/",
     "zh": "班次",
     "pinyin": "Bān cì",
     "category": "daily",
@@ -5187,7 +5187,7 @@
   {
     "id": "daily-roster",
     "term": "Roster",
-    "ipa": "/ˈrɑstər/",
+    "ipa": "/ɹˈɒstə/",
     "zh": "排班表",
     "pinyin": "Pái bān biǎo",
     "category": "daily",
@@ -5201,7 +5201,7 @@
   {
     "id": "daily-recruitment",
     "term": "Recruitment",
-    "ipa": "/rɪˈkrutmənt/",
+    "ipa": "/ɹɪkɹˈuːtmənt/",
     "zh": "招聘",
     "pinyin": "Zhāo pìn",
     "category": "daily",
@@ -5215,7 +5215,7 @@
   {
     "id": "daily-interview",
     "term": "Interview",
-    "ipa": "/ˈɪntərvˌju/",
+    "ipa": "/ˈɪntəvjˌuː/",
     "zh": "面试",
     "pinyin": "Miàn shì",
     "category": "daily",
@@ -5229,7 +5229,7 @@
   {
     "id": "daily-resume",
     "term": "Resume",
-    "ipa": "/ˈrɛzəˌmeɪ/",
+    "ipa": "/ɹɪzjˈuːm/",
     "zh": "简历",
     "pinyin": "Jiǎn lì",
     "category": "daily",
@@ -5243,7 +5243,7 @@
   {
     "id": "daily-qualification",
     "term": "Qualification",
-    "ipa": "/kˌwɑləfəˈkeɪʃən/",
+    "ipa": "/kwˌɒlɪfɪkˈeɪʃən/",
     "zh": "资质",
     "pinyin": "Zī zhì",
     "category": "daily",
@@ -5257,7 +5257,7 @@
   {
     "id": "daily-experience",
     "term": "Experience",
-    "ipa": "/ɪkˈspɪriəns/",
+    "ipa": "/ɪkspˈɪəɹɪəns/",
     "zh": "经验",
     "pinyin": "Jīng yàn",
     "category": "daily",
@@ -5271,7 +5271,7 @@
   {
     "id": "daily-skill",
     "term": "Skill",
-    "ipa": "/skɪl/",
+    "ipa": "/skˈɪl/",
     "zh": "技能",
     "pinyin": "Jì néng",
     "category": "daily",
@@ -5285,7 +5285,7 @@
   {
     "id": "office-training-course",
     "term": "Training Course",
-    "ipa": "/ˈtreɪnɪŋ kɔrs/",
+    "ipa": "/tɹˈeɪnɪŋ kˈɔːs/",
     "zh": "培训课程",
     "pinyin": "Péi xùn kè chéng",
     "category": "office",
@@ -5299,7 +5299,7 @@
   {
     "id": "daily-certificate",
     "term": "Certificate",
-    "ipa": "/sərˈtɪfɪkət/",
+    "ipa": "/sətˈɪfɪkɪt/",
     "zh": "证书",
     "pinyin": "Zhèng shū",
     "category": "daily",
@@ -5313,7 +5313,7 @@
   {
     "id": "daily-diploma",
     "term": "Diploma",
-    "ipa": "/dɪˈploʊmɑ/",
+    "ipa": "/dɪplˈəʊmə/",
     "zh": "文凭",
     "pinyin": "Wén píng",
     "category": "daily",
@@ -5327,7 +5327,7 @@
   {
     "id": "daily-degree",
     "term": "Degree",
-    "ipa": "/dɪˈgri/",
+    "ipa": "/dɪgɹˈiː/",
     "zh": "学位",
     "pinyin": "Xué wèi",
     "category": "daily",
@@ -5341,7 +5341,7 @@
   {
     "id": "daily-major",
     "term": "Major",
-    "ipa": "/ˈmeɪʤər/",
+    "ipa": "/mˈeɪdʒə/",
     "zh": "专业",
     "pinyin": "Zhuān yè",
     "category": "daily",
@@ -5355,7 +5355,7 @@
   {
     "id": "daily-subject",
     "term": "Subject",
-    "ipa": "/ˈsəbʤɪkt/",
+    "ipa": "/səbdʒˈɛkt/",
     "zh": "科目",
     "pinyin": "Kē mù",
     "category": "daily",
@@ -5369,7 +5369,7 @@
   {
     "id": "daily-study",
     "term": "Study",
-    "ipa": "/ˈstədi/",
+    "ipa": "/stˈɐdi/",
     "zh": "学习",
     "pinyin": "Xué xí",
     "category": "daily",
@@ -5383,7 +5383,7 @@
   {
     "id": "daily-practice",
     "term": "Practice",
-    "ipa": "/ˈpræktɪs/",
+    "ipa": "/pɹˈæktɪs/",
     "zh": "练习",
     "pinyin": "Liàn xí",
     "category": "daily",
@@ -5397,7 +5397,7 @@
   {
     "id": "daily-improve",
     "term": "Improve",
-    "ipa": "/ˌɪmˈpruv/",
+    "ipa": "/ɪmpɹˈuːv/",
     "zh": "提升",
     "pinyin": "Tí shēng",
     "category": "daily",
@@ -5411,7 +5411,7 @@
   {
     "id": "daily-progress",
     "term": "Progress",
-    "ipa": "/ˈprɑˌgrɛs/",
+    "ipa": "/pɹˈəʊgɹˌɛs/",
     "zh": "进步",
     "pinyin": "Jìn bù",
     "category": "daily",
@@ -5425,7 +5425,7 @@
   {
     "id": "daily-goal",
     "term": "Goal",
-    "ipa": "/goʊl/",
+    "ipa": "/gˈəʊl/",
     "zh": "目标",
     "pinyin": "Mù biāo",
     "category": "daily",
@@ -5439,7 +5439,7 @@
   {
     "id": "daily-target",
     "term": "Target",
-    "ipa": "/ˈtərgət/",
+    "ipa": "/tˈɑːgɪt/",
     "zh": "指标",
     "pinyin": "Zhǐ biāo",
     "category": "daily",
@@ -5453,7 +5453,7 @@
   {
     "id": "daily-mission",
     "term": "Mission",
-    "ipa": "/ˈmɪʃən/",
+    "ipa": "/mˈɪʃən/",
     "zh": "任务",
     "pinyin": "Rèn wù",
     "category": "daily",
@@ -5467,7 +5467,7 @@
   {
     "id": "daily-vision",
     "term": "Vision",
-    "ipa": "/ˈvɪʒən/",
+    "ipa": "/vˈɪʒən/",
     "zh": "愿景",
     "pinyin": "Yuàn jǐng",
     "category": "daily",
@@ -5481,7 +5481,7 @@
   {
     "id": "daily-value",
     "term": "Value",
-    "ipa": "/ˈvælju/",
+    "ipa": "/vˈæljuː/",
     "zh": "价值观",
     "pinyin": "Jià zhí guān",
     "category": "daily",
@@ -5495,7 +5495,7 @@
   {
     "id": "daily-culture",
     "term": "Culture",
-    "ipa": "/ˈkəlʧər/",
+    "ipa": "/kˈɐltʃə/",
     "zh": "文化",
     "pinyin": "Wén huà",
     "category": "daily",
@@ -5509,7 +5509,7 @@
   {
     "id": "daily-team",
     "term": "Team",
-    "ipa": "/tim/",
+    "ipa": "/tˈiːm/",
     "zh": "团队",
     "pinyin": "Tuán duì",
     "category": "daily",
@@ -5523,7 +5523,7 @@
   {
     "id": "daily-cooperation",
     "term": "Cooperation",
-    "ipa": "/kˌwɔpərˈeɪʃən/",
+    "ipa": "/kəʊˌɒpəɹˈeɪʃən/",
     "zh": "合作",
     "pinyin": "Hé zuò",
     "category": "daily",
@@ -5537,7 +5537,7 @@
   {
     "id": "daily-teamwork",
     "term": "Teamwork",
-    "ipa": "/ˈtimˌwərk/",
+    "ipa": "/ˈtiːmwɜːk/",
     "zh": "团队协作",
     "pinyin": "Tuán duì xié zuò",
     "category": "daily",
@@ -5551,7 +5551,7 @@
   {
     "id": "daily-leadership",
     "term": "Leadership",
-    "ipa": "/ˈlidərˌʃɪp/",
+    "ipa": "/lˈiːdəʃˌɪp/",
     "zh": "领导力",
     "pinyin": "Lǐng dǎo lì",
     "category": "daily",
@@ -5565,7 +5565,7 @@
   {
     "id": "daily-responsibility",
     "term": "Responsibility",
-    "ipa": "/riˌspɑnsəˈbɪləti/",
+    "ipa": "/ɹɪspˌɒnsɪbˈɪlɪti/",
     "zh": "责任",
     "pinyin": "Zé rèn",
     "category": "daily",
@@ -5579,7 +5579,7 @@
   {
     "id": "daily-duty",
     "term": "Duty",
-    "ipa": "/ˈduti/",
+    "ipa": "/djˈuːti/",
     "zh": "职责",
     "pinyin": "Zhí zé",
     "category": "daily",
@@ -5593,7 +5593,7 @@
   {
     "id": "daily-task",
     "term": "Task",
-    "ipa": "/tæsk/",
+    "ipa": "/tˈɑːsk/",
     "zh": "任务",
     "pinyin": "Rèn wù",
     "category": "daily",
@@ -5607,7 +5607,7 @@
   {
     "id": "daily-job",
     "term": "Job",
-    "ipa": "/ʤɑb/",
+    "ipa": "/dʒˈɒb/",
     "zh": "工作",
     "pinyin": "Gōng zuò",
     "category": "daily",
@@ -5621,7 +5621,7 @@
   {
     "id": "daily-position",
     "term": "Position",
-    "ipa": "/pəˈzɪʃən/",
+    "ipa": "/pəzˈɪʃən/",
     "zh": "职位",
     "pinyin": "Zhí wèi",
     "category": "daily",
@@ -5635,7 +5635,7 @@
   {
     "id": "office-department",
     "term": "Department",
-    "ipa": "/dɪˈpɑrtmənt/",
+    "ipa": "/dɪpˈɑːtmənt/",
     "zh": "部门",
     "pinyin": "Bù mén",
     "category": "office",
@@ -5649,7 +5649,7 @@
   {
     "id": "daily-hr",
     "term": "HR",
-    "ipa": "/ˌeɪtʃˈɑːr/",
+    "ipa": "/ˌeɪtʃˈɑː/",
     "zh": "人力资源",
     "pinyin": "Rén lì zī yuán",
     "category": "daily",
@@ -5677,7 +5677,7 @@
   {
     "id": "office-finance",
     "term": "Finance",
-    "ipa": "/ˈfaɪˌnæns/",
+    "ipa": "/fˈaɪnˌæns/",
     "zh": "财务",
     "pinyin": "Cái wù",
     "category": "office",
@@ -5691,7 +5691,7 @@
   {
     "id": "office-sales",
     "term": "Sales",
-    "ipa": "/seɪlz/",
+    "ipa": "/sˈeɪlz/",
     "zh": "销售",
     "pinyin": "Xiāo shòu",
     "category": "office",
@@ -5705,7 +5705,7 @@
   {
     "id": "office-marketing",
     "term": "Marketing",
-    "ipa": "/ˈmɑrkətɪŋ/",
+    "ipa": "/mˈɑːkɪtɪŋ/",
     "zh": "市场",
     "pinyin": "Shì chǎng",
     "category": "office",
@@ -5719,7 +5719,7 @@
   {
     "id": "daily-engineering",
     "term": "Engineering",
-    "ipa": "/ˈɛnʤəˈnɪrɪŋ/",
+    "ipa": "/ˌɛndʒɪnˈɪəɹɪŋ/",
     "zh": "工程",
     "pinyin": "Gōng chéng",
     "category": "daily",
@@ -5733,7 +5733,7 @@
   {
     "id": "daily-production",
     "term": "Production",
-    "ipa": "/pərˈdəkʃən/",
+    "ipa": "/pɹədˈɐkʃən/",
     "zh": "生产",
     "pinyin": "Shēng chǎn",
     "category": "daily",
@@ -5747,7 +5747,7 @@
   {
     "id": "office-logistics",
     "term": "Logistics",
-    "ipa": "/ləˈʤɪstɪks/",
+    "ipa": "/lədʒˈɪstɪks/",
     "zh": "物流",
     "pinyin": "Wù liú",
     "category": "office",
@@ -5761,7 +5761,7 @@
   {
     "id": "daily-security",
     "term": "Security",
-    "ipa": "/sɪˈkjʊrəti/",
+    "ipa": "/sɪkjˈʊəɹɪti/",
     "zh": "保安",
     "pinyin": "Bǎo ān",
     "category": "daily",
@@ -5775,7 +5775,7 @@
   {
     "id": "daily-cleaner",
     "term": "Cleaner",
-    "ipa": "/ˈklinər/",
+    "ipa": "/klˈiːnə/",
     "zh": "保洁",
     "pinyin": "Bǎo jié",
     "category": "daily",
@@ -5789,7 +5789,7 @@
   {
     "id": "office-office",
     "term": "Office",
-    "ipa": "/ˈɔfəs/",
+    "ipa": "/ˈɒfɪs/",
     "zh": "办公室",
     "pinyin": "Bàn gōng shì",
     "category": "office",
@@ -5803,7 +5803,7 @@
   {
     "id": "daily-factory",
     "term": "Factory",
-    "ipa": "/ˈfæktəri/",
+    "ipa": "/fˈæktəɹi/",
     "zh": "工厂",
     "pinyin": "Gōng chǎng",
     "category": "daily",
@@ -5817,7 +5817,7 @@
   {
     "id": "daily-workshop",
     "term": "Workshop",
-    "ipa": "/ˈwərkˌʃɑp/",
+    "ipa": "/wˈɜːkʃˌɒp/",
     "zh": "车间",
     "pinyin": "Chē jiān",
     "category": "daily",
@@ -5831,7 +5831,7 @@
   {
     "id": "daily-site",
     "term": "Site",
-    "ipa": "/saɪt/",
+    "ipa": "/sˈaɪt/",
     "zh": "现场",
     "pinyin": "Xiàn chǎng",
     "category": "daily",
@@ -5845,7 +5845,7 @@
   {
     "id": "daily-branch",
     "term": "Branch",
-    "ipa": "/brænʧ/",
+    "ipa": "/bɹˈɑːntʃ/",
     "zh": "分公司",
     "pinyin": "Fēn gōng sī",
     "category": "daily",
@@ -5859,7 +5859,7 @@
   {
     "id": "daily-headquarters",
     "term": "Headquarters",
-    "ipa": "/ˈhɛdˌkɔrtərz/",
+    "ipa": "/hˌɛdkwˈɔːtəz/",
     "zh": "总部",
     "pinyin": "Zǒng bù",
     "category": "daily",
@@ -5873,7 +5873,7 @@
   {
     "id": "daily-group",
     "term": "Group",
-    "ipa": "/grup/",
+    "ipa": "/gɹˈuːp/",
     "zh": "集团",
     "pinyin": "Jí tuán",
     "category": "daily",
@@ -5887,7 +5887,7 @@
   {
     "id": "daily-company",
     "term": "Company",
-    "ipa": "/ˈkəmpəˌni/",
+    "ipa": "/kˈɐmpəni/",
     "zh": "公司",
     "pinyin": "Gōng sī",
     "category": "daily",
@@ -5901,7 +5901,7 @@
   {
     "id": "daily-enterprise",
     "term": "Enterprise",
-    "ipa": "/ˈɛnərˌpraɪz/",
+    "ipa": "/ˈɛntəpɹˌaɪz/",
     "zh": "企业",
     "pinyin": "Qǐ yè",
     "category": "daily",
@@ -5915,7 +5915,7 @@
   {
     "id": "daily-organization",
     "term": "Organization",
-    "ipa": "/ˌɔrgənəˈzeɪʃən/",
+    "ipa": "/ˌɔːgənaɪzˈeɪʃən/",
     "zh": "组织",
     "pinyin": "Zǔ zhī",
     "category": "daily",
@@ -5929,7 +5929,7 @@
   {
     "id": "daily-partner",
     "term": "Partner",
-    "ipa": "/ˈpɑrtnər/",
+    "ipa": "/pˈɑːtnə/",
     "zh": "合作伙伴",
     "pinyin": "Hé zuò huǒ bàn",
     "category": "daily",
@@ -5943,7 +5943,7 @@
   {
     "id": "office-supplier",
     "term": "Supplier",
-    "ipa": "/səˈplaɪər/",
+    "ipa": "/səplˈaɪə/",
     "zh": "供应商",
     "pinyin": "Gōng yìng shāng",
     "category": "office",
@@ -5957,7 +5957,7 @@
   {
     "id": "daily-distributor",
     "term": "Distributor",
-    "ipa": "/dɪˈstrɪbjətər/",
+    "ipa": "/dɪstɹˈɪbjʊtə/",
     "zh": "经销商",
     "pinyin": "Jīng xiāo shāng",
     "category": "daily",
@@ -5971,7 +5971,7 @@
   {
     "id": "daily-agent",
     "term": "Agent",
-    "ipa": "/ˈeɪʤənt/",
+    "ipa": "/ˈeɪdʒənt/",
     "zh": "代理",
     "pinyin": "Dài lǐ",
     "category": "daily",
@@ -5985,7 +5985,7 @@
   {
     "id": "daily-retail",
     "term": "Retail",
-    "ipa": "/ˈriˌteɪl/",
+    "ipa": "/ɹˈiːtˌeɪl/",
     "zh": "零售",
     "pinyin": "Líng shòu",
     "category": "daily",
@@ -5999,7 +5999,7 @@
   {
     "id": "daily-wholesale",
     "term": "Wholesale",
-    "ipa": "/ˈhoʊlˌseɪl/",
+    "ipa": "/hˈəʊlsˌeɪl/",
     "zh": "批发",
     "pinyin": "Pī fā",
     "category": "daily",
@@ -6013,7 +6013,7 @@
   {
     "id": "daily-market",
     "term": "Market",
-    "ipa": "/ˈmɑrkɪt/",
+    "ipa": "/mˈɑːkɪt/",
     "zh": "市场",
     "pinyin": "Shì chǎng",
     "category": "daily",
@@ -6027,7 +6027,7 @@
   {
     "id": "daily-industry",
     "term": "Industry",
-    "ipa": "/ˈɪndəstri/",
+    "ipa": "/ˈɪndəstɹi/",
     "zh": "行业",
     "pinyin": "Háng yè",
     "category": "daily",
@@ -6041,7 +6041,7 @@
   {
     "id": "daily-trend",
     "term": "Trend",
-    "ipa": "/trɛnd/",
+    "ipa": "/tɹˈɛnd/",
     "zh": "趋势",
     "pinyin": "Qū shì",
     "category": "daily",
@@ -6055,7 +6055,7 @@
   {
     "id": "daily-competition",
     "term": "Competition",
-    "ipa": "/ˌkɑmpəˈtɪʃən/",
+    "ipa": "/kˌɒmpɪtˈɪʃən/",
     "zh": "竞争",
     "pinyin": "Jìng zhēng",
     "category": "daily",
@@ -6069,7 +6069,7 @@
   {
     "id": "daily-advantage",
     "term": "Advantage",
-    "ipa": "/ædˈvæntɪʤ/",
+    "ipa": "/ədvˈɑːntɪdʒ/",
     "zh": "优势",
     "pinyin": "Yōu shì",
     "category": "daily",
@@ -6083,7 +6083,7 @@
   {
     "id": "daily-strategy",
     "term": "Strategy",
-    "ipa": "/ˈstrætəʤi/",
+    "ipa": "/stɹˈætɪdʒi/",
     "zh": "策略",
     "pinyin": "Cè lüè",
     "category": "daily",
@@ -6097,7 +6097,7 @@
   {
     "id": "daily-plan",
     "term": "Plan",
-    "ipa": "/plæn/",
+    "ipa": "/plˈæn/",
     "zh": "计划",
     "pinyin": "Jì huà",
     "category": "daily",
@@ -6125,7 +6125,7 @@
   {
     "id": "daily-decision",
     "term": "Decision",
-    "ipa": "/dɪˈsɪʒən/",
+    "ipa": "/dɪsˈɪʒən/",
     "zh": "决策",
     "pinyin": "Jué cè",
     "category": "daily",
@@ -6139,7 +6139,7 @@
   {
     "id": "daily-analysis",
     "term": "Analysis",
-    "ipa": "/æˈnælɪsɪs/",
+    "ipa": "/ənˈælɪsɪs/",
     "zh": "分析",
     "pinyin": "Fēn xī",
     "category": "daily",
@@ -6153,7 +6153,7 @@
   {
     "id": "daily-data",
     "term": "Data",
-    "ipa": "/ˈdætə/",
+    "ipa": "/dˈeɪtə/",
     "zh": "数据",
     "pinyin": "Shù jù",
     "category": "daily",
@@ -6167,7 +6167,7 @@
   {
     "id": "daily-chart",
     "term": "Chart",
-    "ipa": "/ʧɑrt/",
+    "ipa": "/tʃˈɑːt/",
     "zh": "图表",
     "pinyin": "Tú biǎo",
     "category": "daily",
@@ -6181,7 +6181,7 @@
   {
     "id": "daily-graph",
     "term": "Graph",
-    "ipa": "/græf/",
+    "ipa": "/gɹˈɑːf/",
     "zh": "曲线图",
     "pinyin": "Qǔ xiàn tú",
     "category": "daily",
@@ -6195,7 +6195,7 @@
   {
     "id": "daily-table",
     "term": "Table",
-    "ipa": "/ˈteɪbəl/",
+    "ipa": "/tˈeɪbəl/",
     "zh": "表格",
     "pinyin": "Biǎo gé",
     "category": "daily",
@@ -6209,7 +6209,7 @@
   {
     "id": "daily-file",
     "term": "File",
-    "ipa": "/faɪl/",
+    "ipa": "/fˈaɪl/",
     "zh": "文件",
     "pinyin": "Wén jiàn",
     "category": "daily",
@@ -6223,7 +6223,7 @@
   {
     "id": "daily-folder",
     "term": "Folder",
-    "ipa": "/ˈfoʊldər/",
+    "ipa": "/fˈəʊldə/",
     "zh": "文件夹",
     "pinyin": "Wén jiàn jiā",
     "category": "daily",
@@ -6237,7 +6237,7 @@
   {
     "id": "daily-archive",
     "term": "Archive",
-    "ipa": "/ˈɑrˌkaɪv/",
+    "ipa": "/ˈɑːkˌaɪv/",
     "zh": "归档",
     "pinyin": "Guī dàng",
     "category": "daily",
@@ -6251,7 +6251,7 @@
   {
     "id": "daily-backup",
     "term": "Backup",
-    "ipa": "/ˈbæˌkəp/",
+    "ipa": "/bˈækˌɐp/",
     "zh": "备份",
     "pinyin": "Bèi fèn",
     "category": "daily",
@@ -6265,7 +6265,7 @@
   {
     "id": "daily-delete",
     "term": "Delete",
-    "ipa": "/dɪˈlit/",
+    "ipa": "/dɪlˈiːt/",
     "zh": "删除",
     "pinyin": "Shān chú",
     "category": "daily",
@@ -6279,7 +6279,7 @@
   {
     "id": "daily-edit",
     "term": "Edit",
-    "ipa": "/ˈɛdət/",
+    "ipa": "/ˈɛdɪt/",
     "zh": "编辑",
     "pinyin": "Biān jí",
     "category": "daily",
@@ -6293,7 +6293,7 @@
   {
     "id": "daily-format",
     "term": "Format",
-    "ipa": "/ˈfɔrˌmæt/",
+    "ipa": "/fˈɔːmˌæt/",
     "zh": "格式",
     "pinyin": "Gé shì",
     "category": "daily",
@@ -6307,7 +6307,7 @@
   {
     "id": "daily-font",
     "term": "Font",
-    "ipa": "/fɑnt/",
+    "ipa": "/fˈɒnt/",
     "zh": "字体",
     "pinyin": "Zì tǐ",
     "category": "daily",
@@ -6321,7 +6321,7 @@
   {
     "id": "daily-size",
     "term": "Size",
-    "ipa": "/saɪz/",
+    "ipa": "/sˈaɪz/",
     "zh": "尺寸",
     "pinyin": "Chǐ cùn",
     "category": "daily",
@@ -6335,7 +6335,7 @@
   {
     "id": "daily-color",
     "term": "Color",
-    "ipa": "/ˈkələr/",
+    "ipa": "/kˈɐlə/",
     "zh": "颜色",
     "pinyin": "Yán sè",
     "category": "daily",
@@ -6349,7 +6349,7 @@
   {
     "id": "daily-layout",
     "term": "Layout",
-    "ipa": "/leɪaʊt/",
+    "ipa": "/lˈeɪˌaʊt/",
     "zh": "布局",
     "pinyin": "Bù jú",
     "category": "daily",
@@ -6363,7 +6363,7 @@
   {
     "id": "daily-design",
     "term": "Design",
-    "ipa": "/dɪˈzaɪn/",
+    "ipa": "/dɪzˈaɪn/",
     "zh": "设计",
     "pinyin": "Shè jì",
     "category": "daily",
@@ -6377,7 +6377,7 @@
   {
     "id": "daily-template",
     "term": "Template",
-    "ipa": "/ˈtɛmplət/",
+    "ipa": "/tˈɛmpleɪt/",
     "zh": "模板",
     "pinyin": "Mú bǎn",
     "category": "daily",
@@ -6391,7 +6391,7 @@
   {
     "id": "daily-version",
     "term": "Version",
-    "ipa": "/ˈvərʒən/",
+    "ipa": "/vˈɜːʒən/",
     "zh": "版本",
     "pinyin": "Bǎn běn",
     "category": "daily",
@@ -6405,7 +6405,7 @@
   {
     "id": "daily-update",
     "term": "Update",
-    "ipa": "/ˈəpˌdeɪt/",
+    "ipa": "/ˈɐpdˌeɪt/",
     "zh": "更新",
     "pinyin": "Gēng xīn",
     "category": "daily",
@@ -6419,7 +6419,7 @@
   {
     "id": "daily-upgrade",
     "term": "Upgrade",
-    "ipa": "/ˈəpˈgreɪd/",
+    "ipa": "/ˈɐpgɹˌeɪd/",
     "zh": "升级",
     "pinyin": "Shēng jí",
     "category": "daily",
@@ -6433,7 +6433,7 @@
   {
     "id": "daily-download",
     "term": "Download",
-    "ipa": "/ˈdaʊnˌloʊd/",
+    "ipa": "/dˈaʊnlˌəʊd/",
     "zh": "下载",
     "pinyin": "Xià zài",
     "category": "daily",
@@ -6447,7 +6447,7 @@
   {
     "id": "daily-upload",
     "term": "Upload",
-    "ipa": "/ˈəˌploʊd/",
+    "ipa": "/ˈɐplˌəʊd/",
     "zh": "上传",
     "pinyin": "Shàng chuán",
     "category": "daily",
@@ -6461,7 +6461,7 @@
   {
     "id": "daily-internet",
     "term": "Internet",
-    "ipa": "/ˈɪntərˌnɛt/",
+    "ipa": "/ˈɪntənˌɛt/",
     "zh": "互联网",
     "pinyin": "Hù lián wǎng",
     "category": "daily",
@@ -6475,7 +6475,7 @@
   {
     "id": "daily-network",
     "term": "Network",
-    "ipa": "/ˈnɛtˌwərk/",
+    "ipa": "/nˈɛtwˌɜːk/",
     "zh": "网络",
     "pinyin": "Wǎng luò",
     "category": "daily",
@@ -6489,7 +6489,7 @@
   {
     "id": "daily-wifi",
     "term": "WiFi",
-    "ipa": "/ˈwaɪ.faɪ/",
+    "ipa": "/wˈaɪfaɪ/",
     "zh": "无线网络",
     "pinyin": "Wú xiàn wǎng luò",
     "category": "daily",
@@ -6503,7 +6503,7 @@
   {
     "id": "daily-signal",
     "term": "Signal",
-    "ipa": "/ˈsɪgnəl/",
+    "ipa": "/sˈɪgnəl/",
     "zh": "信号",
     "pinyin": "Xìn hào",
     "category": "daily",
@@ -6517,7 +6517,7 @@
   {
     "id": "daily-connection",
     "term": "Connection",
-    "ipa": "/kəˈnɛkʃən/",
+    "ipa": "/kənˈɛkʃən/",
     "zh": "连接",
     "pinyin": "Lián jiē",
     "category": "daily",
@@ -6531,7 +6531,7 @@
   {
     "id": "daily-password",
     "term": "Password",
-    "ipa": "/ˈpæsˌwərd/",
+    "ipa": "/pˈɑːswˌɜːd/",
     "zh": "密码",
     "pinyin": "Mì mǎ",
     "category": "daily",
@@ -6545,7 +6545,7 @@
   {
     "id": "daily-login",
     "term": "Login",
-    "ipa": "/login/",
+    "ipa": "/ˈlɒɡɪn/",
     "zh": "登录",
     "pinyin": "Dēng lù",
     "category": "daily",
@@ -6559,7 +6559,7 @@
   {
     "id": "daily-logout",
     "term": "Logout",
-    "ipa": "/logout/",
+    "ipa": "/ˈlɒɡaʊt/",
     "zh": "登出",
     "pinyin": "Dēng chū",
     "category": "daily",
@@ -6573,7 +6573,7 @@
   {
     "id": "daily-account-lock",
     "term": "Account Lock",
-    "ipa": "/əˈkaʊnt lɑk/",
+    "ipa": "/əkˈaʊnt lˈɒk/",
     "zh": "账户锁定",
     "pinyin": "Zhàng hù suǒ dìng",
     "category": "daily",
@@ -6587,7 +6587,7 @@
   {
     "id": "daily-security-2",
     "term": "Security",
-    "ipa": "/sɪˈkjʊrəti/",
+    "ipa": "/sɪkjˈʊəɹɪti/",
     "zh": "安全",
     "pinyin": "ān quán",
     "category": "daily",
@@ -6601,7 +6601,7 @@
   {
     "id": "daily-virus",
     "term": "Virus",
-    "ipa": "/ˈvaɪrəs/",
+    "ipa": "/vˈaɪɹəs/",
     "zh": "病毒",
     "pinyin": "Bìng dú",
     "category": "daily",
@@ -6615,7 +6615,7 @@
   {
     "id": "daily-firewall",
     "term": "Firewall",
-    "ipa": "/ˈfaɪrwɑl/",
+    "ipa": "/fˈaɪwˌɔːl/",
     "zh": "防火墙",
     "pinyin": "Fáng huǒ qiáng",
     "category": "daily",
@@ -6629,7 +6629,7 @@
   {
     "id": "daily-privacy",
     "term": "Privacy",
-    "ipa": "/ˈpraɪvəsi/",
+    "ipa": "/pɹˈaɪvəsi/",
     "zh": "隐私",
     "pinyin": "Yǐn sī",
     "category": "daily",
@@ -6643,7 +6643,7 @@
   {
     "id": "daily-policy",
     "term": "Policy",
-    "ipa": "/ˈpɑləsi/",
+    "ipa": "/pˈɒlɪsi/",
     "zh": "政策",
     "pinyin": "Zhèng cè",
     "category": "daily",
@@ -6657,7 +6657,7 @@
   {
     "id": "daily-rule",
     "term": "Rule",
-    "ipa": "/rul/",
+    "ipa": "/ɹˈuːl/",
     "zh": "规则",
     "pinyin": "Guī zé",
     "category": "daily",
@@ -6671,7 +6671,7 @@
   {
     "id": "daily-regulation",
     "term": "Regulation",
-    "ipa": "/ˌrɛgjəˈleɪʃən/",
+    "ipa": "/ɹˌɛgjʊlˈeɪʃən/",
     "zh": "规章制度",
     "pinyin": "Guī zhāng zhì dù",
     "category": "daily",
@@ -6685,7 +6685,7 @@
   {
     "id": "daily-discipline",
     "term": "Discipline",
-    "ipa": "/ˈdɪsəplən/",
+    "ipa": "/dˈɪsɪplɪn/",
     "zh": "纪律",
     "pinyin": "Jì lǜ",
     "category": "daily",
@@ -6699,7 +6699,7 @@
   {
     "id": "daily-penalty",
     "term": "Penalty",
-    "ipa": "/ˈpɛnəlti/",
+    "ipa": "/pˈɛnəlti/",
     "zh": "处罚",
     "pinyin": "Chǔ fá",
     "category": "daily",
@@ -6713,7 +6713,7 @@
   {
     "id": "daily-reward",
     "term": "Reward",
-    "ipa": "/rɪˈwɔrd/",
+    "ipa": "/ɹɪwˈɔːd/",
     "zh": "奖励",
     "pinyin": "Jiǎng lì",
     "category": "daily",
@@ -6727,7 +6727,7 @@
   {
     "id": "daily-motivation",
     "term": "Motivation",
-    "ipa": "/ˌmoʊtəˈveɪʃən/",
+    "ipa": "/mˌəʊtɪvˈeɪʃən/",
     "zh": "激励",
     "pinyin": "Jī lì",
     "category": "daily",
@@ -6741,7 +6741,7 @@
   {
     "id": "daily-morale",
     "term": "Morale",
-    "ipa": "/məræl/",
+    "ipa": "/mɒɹˈɑːl/",
     "zh": "士气",
     "pinyin": "Shì qì",
     "category": "daily",
@@ -6755,7 +6755,7 @@
   {
     "id": "daily-environment",
     "term": "Environment",
-    "ipa": "/ɪnˈvaɪrənmənt/",
+    "ipa": "/ɪnvˈaɪɹənmənt/",
     "zh": "环境",
     "pinyin": "Huán jìng",
     "category": "daily",
@@ -6769,7 +6769,7 @@
   {
     "id": "daily-facility",
     "term": "Facility",
-    "ipa": "/fəˈsɪlɪti/",
+    "ipa": "/fəsˈɪlɪti/",
     "zh": "设施",
     "pinyin": "Shè shī",
     "category": "daily",
@@ -6783,7 +6783,7 @@
   {
     "id": "daily-equipment",
     "term": "Equipment",
-    "ipa": "/ɪkˈwɪpmənt/",
+    "ipa": "/ɪkwˈɪpmənt/",
     "zh": "设备",
     "pinyin": "Shè bèi",
     "category": "daily",
@@ -6797,7 +6797,7 @@
   {
     "id": "daily-tool",
     "term": "Tool",
-    "ipa": "/tul/",
+    "ipa": "/tˈuːl/",
     "zh": "工具",
     "pinyin": "Gōng jù",
     "category": "daily",
@@ -6811,7 +6811,7 @@
   {
     "id": "daily-material",
     "term": "Material",
-    "ipa": "/məˈtɪriəl/",
+    "ipa": "/mətˈɪəɹɪəl/",
     "zh": "材料",
     "pinyin": "Cái liào",
     "category": "daily",
@@ -6825,7 +6825,7 @@
   {
     "id": "daily-stock",
     "term": "Stock",
-    "ipa": "/stɑk/",
+    "ipa": "/stˈɒk/",
     "zh": "库存",
     "pinyin": "Kù cún",
     "category": "daily",
@@ -6839,7 +6839,7 @@
   {
     "id": "daily-inventory",
     "term": "Inventory",
-    "ipa": "/ˌɪnvənˈtɔri/",
+    "ipa": "/ˈɪnvəntəɹi/",
     "zh": "盘点",
     "pinyin": "Pán diǎn",
     "category": "daily",
@@ -6853,7 +6853,7 @@
   {
     "id": "office-order",
     "term": "Order",
-    "ipa": "/ˈɔrdər/",
+    "ipa": "/ˈɔːdə/",
     "zh": "订单",
     "pinyin": "Dìng dān",
     "category": "office",
@@ -6867,7 +6867,7 @@
   {
     "id": "daily-purchase",
     "term": "Purchase",
-    "ipa": "/ˈpərʧəs/",
+    "ipa": "/pˈɜːtʃɪs/",
     "zh": "采购",
     "pinyin": "Cǎi gòu",
     "category": "daily",
@@ -6881,7 +6881,7 @@
   {
     "id": "daily-requisition",
     "term": "Requisition",
-    "ipa": "/ˌrɛkwəˈzɪʃən/",
+    "ipa": "/ˌrɛkwɪˈzɪʃən/",
     "zh": "请购",
     "pinyin": "Qǐng gòu",
     "category": "daily",
@@ -6895,7 +6895,7 @@
   {
     "id": "office-approval-flow",
     "term": "Approval Flow",
-    "ipa": "/əˈpruvəl floʊ/",
+    "ipa": "/əpɹˈuːvəl flˈəʊ/",
     "zh": "审批流程",
     "pinyin": "Shěn pī liú chéng",
     "category": "office",
@@ -6909,7 +6909,7 @@
   {
     "id": "daily-workflow",
     "term": "Workflow",
-    "ipa": "/ˈwərkˌfloʊ/",
+    "ipa": "/wˈɜːkflˌəʊ/",
     "zh": "工作流程",
     "pinyin": "Gōng zuò liú chéng",
     "category": "daily",
@@ -6923,7 +6923,7 @@
   {
     "id": "daily-efficiency",
     "term": "Efficiency",
-    "ipa": "/ɪˈfɪʃənsi/",
+    "ipa": "/ɪfˈɪʃənsi/",
     "zh": "效率",
     "pinyin": "Xiào lǜ",
     "category": "daily",
@@ -6937,7 +6937,7 @@
   {
     "id": "daily-productivity",
     "term": "Productivity",
-    "ipa": "/ˌproʊdəkˈtɪvɪti/",
+    "ipa": "/pɹˌɒdɐktˈɪvɪti/",
     "zh": "生产力",
     "pinyin": "Shēng chǎn lì",
     "category": "daily",
@@ -6951,7 +6951,7 @@
   {
     "id": "office-quality",
     "term": "Quality",
-    "ipa": "/kˈwɑləti/",
+    "ipa": "/kwˈɒlɪti/",
     "zh": "质量",
     "pinyin": "Zhì liàng",
     "category": "office",
@@ -6965,7 +6965,7 @@
   {
     "id": "daily-standard",
     "term": "Standard",
-    "ipa": "/ˈstændərd/",
+    "ipa": "/stˈændəd/",
     "zh": "标准",
     "pinyin": "Biāo zhǔn",
     "category": "daily",
@@ -6979,7 +6979,7 @@
   {
     "id": "daily-control",
     "term": "Control",
-    "ipa": "/kənˈtroʊl/",
+    "ipa": "/kəntɹˈəʊl/",
     "zh": "控制",
     "pinyin": "Kòng zhì",
     "category": "daily",
@@ -6993,7 +6993,7 @@
   {
     "id": "daily-inspection",
     "term": "Inspection",
-    "ipa": "/ˌɪnˈspɛkʃən/",
+    "ipa": "/ɪnspˈɛkʃən/",
     "zh": "检验",
     "pinyin": "Jiǎn yàn",
     "category": "daily",
@@ -7007,7 +7007,7 @@
   {
     "id": "daily-test",
     "term": "Test",
-    "ipa": "/tɛst/",
+    "ipa": "/tˈɛst/",
     "zh": "测试",
     "pinyin": "Cè shì",
     "category": "daily",
@@ -7021,7 +7021,7 @@
   {
     "id": "daily-sample",
     "term": "Sample",
-    "ipa": "/ˈsæmpəl/",
+    "ipa": "/sˈæmpəl/",
     "zh": "样品",
     "pinyin": "Yàng pǐn",
     "category": "daily",
@@ -7035,7 +7035,7 @@
   {
     "id": "daily-prototype",
     "term": "Prototype",
-    "ipa": "/ˈproʊtoʊˌtaɪp/",
+    "ipa": "/pɹˈəʊtətˌaɪp/",
     "zh": "样机",
     "pinyin": "Yàng jī",
     "category": "daily",
@@ -7049,7 +7049,7 @@
   {
     "id": "daily-mass-production",
     "term": "Mass Production",
-    "ipa": "/mæs pərˈdəkʃən/",
+    "ipa": "/mˈæs pɹədˈɐkʃən/",
     "zh": "批量生产",
     "pinyin": "Pī liàng shēng chǎn",
     "category": "daily",
@@ -7063,7 +7063,7 @@
   {
     "id": "daily-assembly-line",
     "term": "Assembly Line",
-    "ipa": "/əˈsɛmbli laɪn/",
+    "ipa": "/əsˈɛmbli lˈaɪn/",
     "zh": "流水线",
     "pinyin": "Liú shuǐ xiàn",
     "category": "daily",
@@ -7077,7 +7077,7 @@
   {
     "id": "daily-packaging",
     "term": "Packaging",
-    "ipa": "/ˈpækɪʤɪŋ/",
+    "ipa": "/pˈækɪdʒɪŋ/",
     "zh": "包装",
     "pinyin": "Bāo zhuāng",
     "category": "daily",
@@ -7105,7 +7105,7 @@
   {
     "id": "daily-barcode",
     "term": "Barcode",
-    "ipa": "/barcode/",
+    "ipa": "/ˈbɑːkəʊd/",
     "zh": "条形码",
     "pinyin": "Tiáo xíng mǎ",
     "category": "daily",
@@ -7119,7 +7119,7 @@
   {
     "id": "daily-qr-code",
     "term": "QR Code",
-    "ipa": "/qr koʊd/",
+    "ipa": "/ˌkjuːˈɑː kˈəʊd/",
     "zh": "二维码",
     "pinyin": "Èr wéi mǎ",
     "category": "daily",
@@ -7133,7 +7133,7 @@
   {
     "id": "office-delivery",
     "term": "Delivery",
-    "ipa": "/dɪˈlɪvəri/",
+    "ipa": "/dɪlˈɪvəɹi/",
     "zh": "配送",
     "pinyin": "Pèi sòng",
     "category": "office",
@@ -7147,7 +7147,7 @@
   {
     "id": "daily-shipping",
     "term": "Shipping",
-    "ipa": "/ˈʃɪpɪŋ/",
+    "ipa": "/ʃˈɪpɪŋ/",
     "zh": "装运",
     "pinyin": "Zhuāng yùn",
     "category": "daily",
@@ -7161,7 +7161,7 @@
   {
     "id": "office-logistics-2",
     "term": "Logistics",
-    "ipa": "/ləˈʤɪstɪks/",
+    "ipa": "/lədʒˈɪstɪks/",
     "zh": "物流",
     "pinyin": "Wù liú",
     "category": "office",
@@ -7175,7 +7175,7 @@
   {
     "id": "daily-freight",
     "term": "Freight",
-    "ipa": "/freɪt/",
+    "ipa": "/fɹˈeɪt/",
     "zh": "运费",
     "pinyin": "Yùn fèi",
     "category": "daily",
@@ -7189,7 +7189,7 @@
   {
     "id": "daily-customs",
     "term": "Customs",
-    "ipa": "/ˈkəstəmz/",
+    "ipa": "/kˈɐstəmz/",
     "zh": "海关",
     "pinyin": "Hǎi guān",
     "category": "daily",
@@ -7203,7 +7203,7 @@
   {
     "id": "daily-declaration",
     "term": "Declaration",
-    "ipa": "/ˌdɛklərˈeɪʃən/",
+    "ipa": "/dˌɛkləɹˈeɪʃən/",
     "zh": "申报",
     "pinyin": "Shēn bào",
     "category": "daily",
@@ -7217,7 +7217,7 @@
   {
     "id": "daily-tariff",
     "term": "Tariff",
-    "ipa": "/ˈtɛrəf/",
+    "ipa": "/tˈæɹɪf/",
     "zh": "关税",
     "pinyin": "Guān shuì",
     "category": "daily",
@@ -7231,7 +7231,7 @@
   {
     "id": "daily-import",
     "term": "Import",
-    "ipa": "/ˌɪmˈpɔrt/",
+    "ipa": "/ˈɪmpˌɔːt/",
     "zh": "进口",
     "pinyin": "Jìn kǒu",
     "category": "daily",
@@ -7245,7 +7245,7 @@
   {
     "id": "daily-export",
     "term": "Export",
-    "ipa": "/ˈɛkspɔrt/",
+    "ipa": "/ˈɛkspˌɔːt/",
     "zh": "出口",
     "pinyin": "Chū kǒu",
     "category": "daily",
@@ -7259,7 +7259,7 @@
   {
     "id": "daily-international",
     "term": "International",
-    "ipa": "/ˌɪnərˈnæʃənɑl/",
+    "ipa": "/ˌɪntənˈæʃənəl/",
     "zh": "国际的",
     "pinyin": "Guó jì de",
     "category": "daily",
@@ -7273,7 +7273,7 @@
   {
     "id": "daily-global",
     "term": "Global",
-    "ipa": "/ˈgloʊbəl/",
+    "ipa": "/glˈəʊbəl/",
     "zh": "全球的",
     "pinyin": "Quán qiú de",
     "category": "daily",
@@ -7287,7 +7287,7 @@
   {
     "id": "daily-local",
     "term": "Local",
-    "ipa": "/ˈloʊkəl/",
+    "ipa": "/lˈəʊkəl/",
     "zh": "本地的",
     "pinyin": "Běn dì de",
     "category": "daily",
@@ -7301,7 +7301,7 @@
   {
     "id": "daily-domestic",
     "term": "Domestic",
-    "ipa": "/dəˈmɛstɪk/",
+    "ipa": "/dəmˈɛstɪk/",
     "zh": "国内的",
     "pinyin": "Guó nèi de",
     "category": "daily",
@@ -7315,7 +7315,7 @@
   {
     "id": "daily-oversea",
     "term": "Oversea",
-    "ipa": "/ˌoʊvərˈsi/",
+    "ipa": "/ˌəʊvəˈsiː/",
     "zh": "海外的",
     "pinyin": "Hǎi wài de",
     "category": "daily",
@@ -7329,7 +7329,7 @@
   {
     "id": "daily-abroad",
     "term": "Abroad",
-    "ipa": "/əˈbrɔd/",
+    "ipa": "/əbɹˈɔːd/",
     "zh": "国外",
     "pinyin": "Guó wài",
     "category": "daily",
@@ -7343,7 +7343,7 @@
   {
     "id": "daily-travel",
     "term": "Travel",
-    "ipa": "/ˈtrævəl/",
+    "ipa": "/tɹˈævəl/",
     "zh": "出差",
     "pinyin": "Chū chāi",
     "category": "daily",
@@ -7357,7 +7357,7 @@
   {
     "id": "daily-trip",
     "term": "Trip",
-    "ipa": "/trɪp/",
+    "ipa": "/tɹˈɪp/",
     "zh": "行程",
     "pinyin": "Xíng chéng",
     "category": "daily",
@@ -7371,7 +7371,7 @@
   {
     "id": "daily-hotel",
     "term": "Hotel",
-    "ipa": "/hoʊˈtɛl/",
+    "ipa": "/həʊtˈɛl/",
     "zh": "酒店",
     "pinyin": "Jiǔ diàn",
     "category": "daily",
@@ -7385,7 +7385,7 @@
   {
     "id": "daily-flight",
     "term": "Flight",
-    "ipa": "/flaɪt/",
+    "ipa": "/flˈaɪt/",
     "zh": "航班",
     "pinyin": "Háng bān",
     "category": "daily",
@@ -7399,7 +7399,7 @@
   {
     "id": "daily-train",
     "term": "Train",
-    "ipa": "/treɪn/",
+    "ipa": "/tɹˈeɪn/",
     "zh": "火车",
     "pinyin": "Huǒ chē",
     "category": "daily",
@@ -7413,7 +7413,7 @@
   {
     "id": "daily-bus",
     "term": "Bus",
-    "ipa": "/bəs/",
+    "ipa": "/bˈɐs/",
     "zh": "公交车",
     "pinyin": "Gōng jiāo chē",
     "category": "daily",
@@ -7427,7 +7427,7 @@
   {
     "id": "daily-taxi",
     "term": "Taxi",
-    "ipa": "/ˈtæksi/",
+    "ipa": "/tˈæksi/",
     "zh": "出租车",
     "pinyin": "Chū zū chē",
     "category": "daily",
@@ -7441,7 +7441,7 @@
   {
     "id": "daily-subway",
     "term": "Subway",
-    "ipa": "/ˈsəbˌweɪ/",
+    "ipa": "/sˈɐbwˌeɪ/",
     "zh": "地铁",
     "pinyin": "Dì tiě",
     "category": "daily",
@@ -7455,7 +7455,7 @@
   {
     "id": "daily-ticket",
     "term": "Ticket",
-    "ipa": "/ˈtɪkɪt/",
+    "ipa": "/tˈɪkɪt/",
     "zh": "票",
     "pinyin": "Piào",
     "category": "daily",
@@ -7469,7 +7469,7 @@
   {
     "id": "daily-reservation",
     "term": "Reservation",
-    "ipa": "/ˌrɛzərˈveɪʃən/",
+    "ipa": "/ɹˌɛzəvˈeɪʃən/",
     "zh": "预订",
     "pinyin": "Yù dìng",
     "category": "daily",
@@ -7483,7 +7483,7 @@
   {
     "id": "daily-boarding-pass",
     "term": "Boarding Pass",
-    "ipa": "/ˈbɔrdɪŋ pæs/",
+    "ipa": "/bˈɔːdɪŋ pˈɑːs/",
     "zh": "登机牌",
     "pinyin": "Dēng jī pái",
     "category": "daily",
@@ -7497,7 +7497,7 @@
   {
     "id": "daily-passport",
     "term": "Passport",
-    "ipa": "/ˈpæˌspɔrt/",
+    "ipa": "/pˈɑːspˌɔːt/",
     "zh": "护照",
     "pinyin": "Hù zhào",
     "category": "daily",
@@ -7511,7 +7511,7 @@
   {
     "id": "daily-visa",
     "term": "Visa",
-    "ipa": "/ˈvizə/",
+    "ipa": "/vˈiːzə/",
     "zh": "签证",
     "pinyin": "Qiān zhèng",
     "category": "daily",
@@ -7525,7 +7525,7 @@
   {
     "id": "daily-luggage",
     "term": "Luggage",
-    "ipa": "/ˈləgɪʤ/",
+    "ipa": "/lˈɐgɪdʒ/",
     "zh": "行李",
     "pinyin": "Xíng lǐ",
     "category": "daily",
@@ -7539,7 +7539,7 @@
   {
     "id": "daily-briefcase",
     "term": "Briefcase",
-    "ipa": "/ˈbrifˌkeɪs/",
+    "ipa": "/ˈbriːfkeɪs/",
     "zh": "公文包",
     "pinyin": "Gōng wén bāo",
     "category": "daily",
@@ -7553,7 +7553,7 @@
   {
     "id": "daily-backpack",
     "term": "Backpack",
-    "ipa": "/ˈbækˌpæk/",
+    "ipa": "/ˈbækpæk/",
     "zh": "背包",
     "pinyin": "Bèi bāo",
     "category": "daily",
@@ -7567,7 +7567,7 @@
   {
     "id": "daily-umbrella",
     "term": "Umbrella",
-    "ipa": "/ˈəmˌbrɛlə/",
+    "ipa": "/ɐmbɹˈɛlə/",
     "zh": "雨伞",
     "pinyin": "Yǔ sǎn",
     "category": "daily",
@@ -7581,7 +7581,7 @@
   {
     "id": "daily-mask",
     "term": "Mask",
-    "ipa": "/mæsk/",
+    "ipa": "/mˈɑːsk/",
     "zh": "口罩",
     "pinyin": "Kǒu zhào",
     "category": "daily",
@@ -7595,7 +7595,7 @@
   {
     "id": "daily-gloves",
     "term": "Gloves",
-    "ipa": "/gləvz/",
+    "ipa": "/glˈɐvz/",
     "zh": "手套",
     "pinyin": "Shǒu tào",
     "category": "daily",
@@ -7609,7 +7609,7 @@
   {
     "id": "daily-coat",
     "term": "Coat",
-    "ipa": "/koʊt/",
+    "ipa": "/kˈəʊt/",
     "zh": "外套",
     "pinyin": "Wài tào",
     "category": "daily",
@@ -7623,7 +7623,7 @@
   {
     "id": "daily-jacket",
     "term": "Jacket",
-    "ipa": "/ˈʤækɪt/",
+    "ipa": "/dʒˈækɪt/",
     "zh": "夹克",
     "pinyin": "Jiá kè",
     "category": "daily",
@@ -7637,7 +7637,7 @@
   {
     "id": "daily-shirt",
     "term": "Shirt",
-    "ipa": "/ʃərt/",
+    "ipa": "/ʃˈɜːt/",
     "zh": "衬衫",
     "pinyin": "Chèn shān",
     "category": "daily",
@@ -7651,7 +7651,7 @@
   {
     "id": "daily-pants",
     "term": "Pants",
-    "ipa": "/pænts/",
+    "ipa": "/pˈænts/",
     "zh": "裤子",
     "pinyin": "Kù zi",
     "category": "daily",
@@ -7665,7 +7665,7 @@
   {
     "id": "daily-shoes",
     "term": "Shoes",
-    "ipa": "/ʃuz/",
+    "ipa": "/ʃˈuːz/",
     "zh": "鞋子",
     "pinyin": "Xié zi",
     "category": "daily",
@@ -7679,7 +7679,7 @@
   {
     "id": "daily-uniform",
     "term": "Uniform",
-    "ipa": "/ˈjunəˌfɔrm/",
+    "ipa": "/jˈuːnɪfˌɔːm/",
     "zh": "工作服",
     "pinyin": "Gōng zuò fú",
     "category": "daily",
@@ -7693,7 +7693,7 @@
   {
     "id": "daily-greeting",
     "term": "Greeting",
-    "ipa": "/ˈgritɪŋ/",
+    "ipa": "/gɹˈiːtɪŋ/",
     "zh": "问候",
     "pinyin": "Wèn hòu",
     "category": "daily",
@@ -7707,7 +7707,7 @@
   {
     "id": "daily-introduction",
     "term": "Introduction",
-    "ipa": "/ˌɪntrəˈdəkʃən/",
+    "ipa": "/ˌɪntɹədˈɐkʃən/",
     "zh": "介绍",
     "pinyin": "Jiè shào",
     "category": "daily",
@@ -7721,7 +7721,7 @@
   {
     "id": "daily-small-talk",
     "term": "Small Talk",
-    "ipa": "/smɔl tɔk/",
+    "ipa": "/smˈɔːl tˈɔːk/",
     "zh": "闲聊",
     "pinyin": "Xián liáo",
     "category": "daily",
@@ -7735,7 +7735,7 @@
   {
     "id": "daily-conversation",
     "term": "Conversation",
-    "ipa": "/ˌkɑnvərˈseɪʃən/",
+    "ipa": "/kˌɒnvəsˈeɪʃən/",
     "zh": "对话",
     "pinyin": "Duì huà",
     "category": "daily",
@@ -7749,7 +7749,7 @@
   {
     "id": "daily-communication",
     "term": "Communication",
-    "ipa": "/kəmˌjunəˈkeɪʃən/",
+    "ipa": "/kəmjˌuːnɪkˈeɪʃən/",
     "zh": "沟通",
     "pinyin": "Gōu tōng",
     "category": "daily",
@@ -7763,7 +7763,7 @@
   {
     "id": "daily-discussion",
     "term": "Discussion",
-    "ipa": "/dɪˈskəʃən/",
+    "ipa": "/dɪskˈɐʃən/",
     "zh": "讨论",
     "pinyin": "Tǎo lùn",
     "category": "daily",
@@ -7777,7 +7777,7 @@
   {
     "id": "daily-debate",
     "term": "Debate",
-    "ipa": "/dəˈbeɪt/",
+    "ipa": "/dɪbˈeɪt/",
     "zh": "辩论",
     "pinyin": "Biàn lùn",
     "category": "daily",
@@ -7791,7 +7791,7 @@
   {
     "id": "daily-persuade",
     "term": "Persuade",
-    "ipa": "/pərsˈweɪd/",
+    "ipa": "/pəswˈeɪd/",
     "zh": "说服",
     "pinyin": "Shuō fú",
     "category": "daily",
@@ -7805,7 +7805,7 @@
   {
     "id": "daily-explain",
     "term": "Explain",
-    "ipa": "/ɪkˈspleɪn/",
+    "ipa": "/ɪksplˈeɪn/",
     "zh": "解释",
     "pinyin": "Jiě shì",
     "category": "daily",
@@ -7819,7 +7819,7 @@
   {
     "id": "daily-clarify",
     "term": "Clarify",
-    "ipa": "/ˈklɛrəˌfaɪ/",
+    "ipa": "/klˈæɹɪfˌaɪ/",
     "zh": "澄清",
     "pinyin": "Chéng qīng",
     "category": "daily",
@@ -7833,7 +7833,7 @@
   {
     "id": "daily-confirm",
     "term": "Confirm",
-    "ipa": "/kənˈfərm/",
+    "ipa": "/kənfˈɜːm/",
     "zh": "确认",
     "pinyin": "Què rèn",
     "category": "daily",
@@ -7847,7 +7847,7 @@
   {
     "id": "daily-remind",
     "term": "Remind",
-    "ipa": "/riˈmaɪnd/",
+    "ipa": "/ɹɪmˈaɪnd/",
     "zh": "提醒",
     "pinyin": "Tí xǐng",
     "category": "daily",
@@ -7861,7 +7861,7 @@
   {
     "id": "daily-notify",
     "term": "Notify",
-    "ipa": "/ˈnoʊtəˌfaɪ/",
+    "ipa": "/nˈəʊtɪfˌaɪ/",
     "zh": "通知",
     "pinyin": "Tōng zhī",
     "category": "daily",
@@ -7875,7 +7875,7 @@
   {
     "id": "daily-inform",
     "term": "Inform",
-    "ipa": "/ˌɪnˈfɔrm/",
+    "ipa": "/ɪnfˈɔːm/",
     "zh": "告知",
     "pinyin": "Gào zhī",
     "category": "daily",
@@ -7889,7 +7889,7 @@
   {
     "id": "daily-advise",
     "term": "Advise",
-    "ipa": "/ədˈvaɪz/",
+    "ipa": "/ədvˈaɪz/",
     "zh": "劝告",
     "pinyin": "Quàn gào",
     "category": "daily",
@@ -7903,7 +7903,7 @@
   {
     "id": "daily-warn",
     "term": "Warn",
-    "ipa": "/wɔrn/",
+    "ipa": "/wˈɔːn/",
     "zh": "警告",
     "pinyin": "Jǐng gào",
     "category": "daily",
@@ -7917,7 +7917,7 @@
   {
     "id": "daily-apologize",
     "term": "Apologize",
-    "ipa": "/əˈpɑləˌʤaɪz/",
+    "ipa": "/əpˈɒlədʒˌaɪz/",
     "zh": "道歉",
     "pinyin": "Dào qiàn",
     "category": "daily",
@@ -7931,7 +7931,7 @@
   {
     "id": "daily-thank",
     "term": "Thank",
-    "ipa": "/θæŋk/",
+    "ipa": "/θˈæŋk/",
     "zh": "感谢",
     "pinyin": "Gǎn xiè",
     "category": "daily",
@@ -7945,7 +7945,7 @@
   {
     "id": "daily-congratulate",
     "term": "Congratulate",
-    "ipa": "/kənˈgræʧəˌleɪt/",
+    "ipa": "/kənˈɡrætjʊleɪt/",
     "zh": "祝贺",
     "pinyin": "Zhù hè",
     "category": "daily",
@@ -7959,7 +7959,7 @@
   {
     "id": "daily-compliment",
     "term": "Compliment",
-    "ipa": "/ˈkɑmpləmɛnt/",
+    "ipa": "/kˈɒmplɪmənt/",
     "zh": "赞美",
     "pinyin": "Zàn měi",
     "category": "daily",
@@ -7973,7 +7973,7 @@
   {
     "id": "daily-encourage",
     "term": "Encourage",
-    "ipa": "/ɪnˈkərəʤ/",
+    "ipa": "/ɛnkˈɐɹɪdʒ/",
     "zh": "鼓励",
     "pinyin": "Gǔ lì",
     "category": "daily",
@@ -7987,7 +7987,7 @@
   {
     "id": "daily-comfort",
     "term": "Comfort",
-    "ipa": "/ˈkəmfərt/",
+    "ipa": "/kˈɐmfət/",
     "zh": "安慰",
     "pinyin": "Ān wèi",
     "category": "daily",
@@ -8001,7 +8001,7 @@
   {
     "id": "daily-forgive",
     "term": "Forgive",
-    "ipa": "/fərˈgɪv/",
+    "ipa": "/fəgˈɪv/",
     "zh": "原谅",
     "pinyin": "Yuán liàng",
     "category": "daily",
@@ -8015,7 +8015,7 @@
   {
     "id": "daily-promise",
     "term": "Promise",
-    "ipa": "/ˈprɑməs/",
+    "ipa": "/pɹˈɒmɪs/",
     "zh": "承诺",
     "pinyin": "Chéng nuò",
     "category": "daily",
@@ -8029,7 +8029,7 @@
   {
     "id": "daily-agree",
     "term": "Agree",
-    "ipa": "/əˈgri/",
+    "ipa": "/əgɹˈiː/",
     "zh": "同意",
     "pinyin": "Tóng yì",
     "category": "daily",
@@ -8043,7 +8043,7 @@
   {
     "id": "daily-disagree",
     "term": "Disagree",
-    "ipa": "/dɪsəˈgri/",
+    "ipa": "/dɪsəgɹˈiː/",
     "zh": "不同意",
     "pinyin": "Bù tóng yì",
     "category": "daily",
@@ -8057,7 +8057,7 @@
   {
     "id": "daily-accept",
     "term": "Accept",
-    "ipa": "/əkˈsɛpt/",
+    "ipa": "/əksˈɛpt/",
     "zh": "接受",
     "pinyin": "Jiē shòu",
     "category": "daily",
@@ -8071,7 +8071,7 @@
   {
     "id": "daily-refuse",
     "term": "Refuse",
-    "ipa": "/ˈrɛfˌjuz/",
+    "ipa": "/ɹɪfjˈuːz/",
     "zh": "拒绝",
     "pinyin": "Jù jué",
     "category": "daily",
@@ -8085,7 +8085,7 @@
   {
     "id": "daily-allow",
     "term": "Allow",
-    "ipa": "/əˈlaʊ/",
+    "ipa": "/əlˈaʊ/",
     "zh": "允许",
     "pinyin": "Yǔn xǔ",
     "category": "daily",
@@ -8099,7 +8099,7 @@
   {
     "id": "daily-forbid",
     "term": "Forbid",
-    "ipa": "/fərˈbɪd/",
+    "ipa": "/fəbˈɪd/",
     "zh": "禁止",
     "pinyin": "Jìn zhǐ",
     "category": "daily",
@@ -8113,7 +8113,7 @@
   {
     "id": "daily-help",
     "term": "Help",
-    "ipa": "/hɛlp/",
+    "ipa": "/hˈɛlp/",
     "zh": "帮助",
     "pinyin": "Bāng zhù",
     "category": "daily",
@@ -8127,7 +8127,7 @@
   {
     "id": "daily-support",
     "term": "Support",
-    "ipa": "/səˈpɔrt/",
+    "ipa": "/səpˈɔːt/",
     "zh": "支持",
     "pinyin": "Zhī chí",
     "category": "daily",
@@ -8141,7 +8141,7 @@
   {
     "id": "daily-trust",
     "term": "Trust",
-    "ipa": "/trəst/",
+    "ipa": "/tɹˈɐst/",
     "zh": "信任",
     "pinyin": "Xìn rèn",
     "category": "daily",
@@ -8155,7 +8155,7 @@
   {
     "id": "daily-doubt",
     "term": "Doubt",
-    "ipa": "/daʊt/",
+    "ipa": "/dˈaʊt/",
     "zh": "怀疑",
     "pinyin": "Huái yí",
     "category": "daily",
@@ -8169,7 +8169,7 @@
   {
     "id": "daily-worry",
     "term": "Worry",
-    "ipa": "/ˈwəri/",
+    "ipa": "/wˈɐɹi/",
     "zh": "担心",
     "pinyin": "Dān xīn",
     "category": "daily",
@@ -8183,7 +8183,7 @@
   {
     "id": "daily-fear",
     "term": "Fear",
-    "ipa": "/fɪr/",
+    "ipa": "/fˈɪə/",
     "zh": "害怕",
     "pinyin": "Hài pà",
     "category": "daily",
@@ -8197,7 +8197,7 @@
   {
     "id": "daily-happy",
     "term": "Happy",
-    "ipa": "/ˈhæpi/",
+    "ipa": "/hˈæpi/",
     "zh": "开心",
     "pinyin": "Kāi xīn",
     "category": "daily",
@@ -8211,7 +8211,7 @@
   {
     "id": "daily-sad",
     "term": "Sad",
-    "ipa": "/sæd/",
+    "ipa": "/sˈæd/",
     "zh": "难过",
     "pinyin": "Nán guò",
     "category": "daily",
@@ -8225,7 +8225,7 @@
   {
     "id": "daily-angry",
     "term": "Angry",
-    "ipa": "/ˈæŋgri/",
+    "ipa": "/ˈæŋgɹi/",
     "zh": "生气",
     "pinyin": "Shēng qì",
     "category": "daily",
@@ -8239,7 +8239,7 @@
   {
     "id": "daily-tired",
     "term": "Tired",
-    "ipa": "/taɪərd/",
+    "ipa": "/tˈaɪəd/",
     "zh": "疲劳",
     "pinyin": "Pí láo",
     "category": "daily",
@@ -8253,7 +8253,7 @@
   {
     "id": "daily-hungry",
     "term": "Hungry",
-    "ipa": "/ˈhəŋgri/",
+    "ipa": "/hˈɐŋgɹi/",
     "zh": "饥饿",
     "pinyin": "Jī è",
     "category": "daily",
@@ -8267,7 +8267,7 @@
   {
     "id": "daily-thirsty",
     "term": "Thirsty",
-    "ipa": "/ˈθərsti/",
+    "ipa": "/θˈɜːsti/",
     "zh": "口渴",
     "pinyin": "Kǒu kě",
     "category": "daily",
@@ -8281,7 +8281,7 @@
   {
     "id": "daily-sleepy",
     "term": "Sleepy",
-    "ipa": "/sˈlipi/",
+    "ipa": "/slˈiːpi/",
     "zh": "困倦",
     "pinyin": "Kùn juàn",
     "category": "daily",
@@ -8295,7 +8295,7 @@
   {
     "id": "daily-cold",
     "term": "Cold",
-    "ipa": "/koʊld/",
+    "ipa": "/kˈəʊld/",
     "zh": "冷",
     "pinyin": "Lěng",
     "category": "daily",
@@ -8309,7 +8309,7 @@
   {
     "id": "daily-hot",
     "term": "Hot",
-    "ipa": "/hɑt/",
+    "ipa": "/hˈɒt/",
     "zh": "热",
     "pinyin": "Rè",
     "category": "daily",
@@ -8323,7 +8323,7 @@
   {
     "id": "daily-health",
     "term": "Health",
-    "ipa": "/hɛlθ/",
+    "ipa": "/hˈɛlθ/",
     "zh": "健康",
     "pinyin": "Jiàn kāng",
     "category": "daily",
@@ -8337,7 +8337,7 @@
   {
     "id": "daily-exercise",
     "term": "Exercise",
-    "ipa": "/ˈɛksərˌsaɪz/",
+    "ipa": "/ˈɛksəsˌaɪz/",
     "zh": "运动",
     "pinyin": "Yùn dòng",
     "category": "daily",
@@ -8351,7 +8351,7 @@
   {
     "id": "daily-diet",
     "term": "Diet",
-    "ipa": "/daɪət/",
+    "ipa": "/dˈaɪət/",
     "zh": "饮食",
     "pinyin": "Yǐn shí",
     "category": "daily",
@@ -8365,7 +8365,7 @@
   {
     "id": "daily-vegetable",
     "term": "Vegetable",
-    "ipa": "/ˈvɛʤtəbəl/",
+    "ipa": "/vˈɛdʒtəbəl/",
     "zh": "蔬菜",
     "pinyin": "Shū cài",
     "category": "daily",
@@ -8379,7 +8379,7 @@
   {
     "id": "daily-fruit",
     "term": "Fruit",
-    "ipa": "/frut/",
+    "ipa": "/fɹˈuːt/",
     "zh": "水果",
     "pinyin": "Shuǐ guǒ",
     "category": "daily",
@@ -8393,7 +8393,7 @@
   {
     "id": "daily-meat",
     "term": "Meat",
-    "ipa": "/mit/",
+    "ipa": "/mˈiːt/",
     "zh": "肉",
     "pinyin": "Ròu",
     "category": "daily",
@@ -8407,7 +8407,7 @@
   {
     "id": "daily-rice",
     "term": "Rice",
-    "ipa": "/raɪs/",
+    "ipa": "/ɹˈaɪs/",
     "zh": "米饭",
     "pinyin": "Mǐ fàn",
     "category": "daily",
@@ -8421,7 +8421,7 @@
   {
     "id": "daily-noodle",
     "term": "Noodle",
-    "ipa": "/ˈnudəl/",
+    "ipa": "/nˈuːdəl/",
     "zh": "面条",
     "pinyin": "Miàn tiáo",
     "category": "daily",
@@ -8435,7 +8435,7 @@
   {
     "id": "daily-bread",
     "term": "Bread",
-    "ipa": "/brɛd/",
+    "ipa": "/bɹˈɛd/",
     "zh": "面包",
     "pinyin": "Miàn bāo",
     "category": "daily",
@@ -8449,7 +8449,7 @@
   {
     "id": "daily-egg",
     "term": "Egg",
-    "ipa": "/ɛg/",
+    "ipa": "/ˈɛg/",
     "zh": "鸡蛋",
     "pinyin": "Jī dàn",
     "category": "daily",
@@ -8463,7 +8463,7 @@
   {
     "id": "daily-milk",
     "term": "Milk",
-    "ipa": "/mɪlk/",
+    "ipa": "/mˈɪlk/",
     "zh": "牛奶",
     "pinyin": "Niú nǎi",
     "category": "daily",
@@ -8477,7 +8477,7 @@
   {
     "id": "daily-water",
     "term": "Water",
-    "ipa": "/ˈwɔtər/",
+    "ipa": "/wˈɔːtə/",
     "zh": "水",
     "pinyin": "Shuǐ",
     "category": "daily",
@@ -8491,7 +8491,7 @@
   {
     "id": "daily-juice",
     "term": "Juice",
-    "ipa": "/ʤus/",
+    "ipa": "/dʒˈuːs/",
     "zh": "果汁",
     "pinyin": "Guǒ zhī",
     "category": "daily",
@@ -8505,7 +8505,7 @@
   {
     "id": "daily-soup",
     "term": "Soup",
-    "ipa": "/sup/",
+    "ipa": "/sˈuːp/",
     "zh": "汤",
     "pinyin": "Tāng",
     "category": "daily",
@@ -8519,7 +8519,7 @@
   {
     "id": "daily-snack",
     "term": "Snack",
-    "ipa": "/snæk/",
+    "ipa": "/snˈæk/",
     "zh": "零食",
     "pinyin": "Líng shí",
     "category": "daily",
@@ -8533,7 +8533,7 @@
   {
     "id": "daily-dessert",
     "term": "Dessert",
-    "ipa": "/dɪˈzərt/",
+    "ipa": "/dɪzˈɜːt/",
     "zh": "甜点",
     "pinyin": "Tián diǎn",
     "category": "daily",
@@ -8547,7 +8547,7 @@
   {
     "id": "daily-canteen",
     "term": "Canteen",
-    "ipa": "/kænˈtin/",
+    "ipa": "/kæntˈiːn/",
     "zh": "食堂",
     "pinyin": "Shí táng",
     "category": "daily",
@@ -8561,7 +8561,7 @@
   {
     "id": "daily-restaurant",
     "term": "Restaurant",
-    "ipa": "/ˈrɛˌstrɑnt/",
+    "ipa": "/ɹˈɛstɹˌɒnt/",
     "zh": "餐厅",
     "pinyin": "Cān tīng",
     "category": "daily",
@@ -8575,7 +8575,7 @@
   {
     "id": "daily-menu",
     "term": "Menu",
-    "ipa": "/ˈmɛnju/",
+    "ipa": "/mˈɛnjuː/",
     "zh": "菜单",
     "pinyin": "Cài dān",
     "category": "daily",
@@ -8589,7 +8589,7 @@
   {
     "id": "office-order-food",
     "term": "Order Food",
-    "ipa": "/ˈɔrdər fud/",
+    "ipa": "/ˈɔːdə fˈuːd/",
     "zh": "点餐",
     "pinyin": "Diǎn cān",
     "category": "office",
@@ -8603,7 +8603,7 @@
   {
     "id": "daily-delicious",
     "term": "Delicious",
-    "ipa": "/dɪˈlɪʃəs/",
+    "ipa": "/dɪlˈɪʃəs/",
     "zh": "美味",
     "pinyin": "Měi wèi",
     "category": "daily",
@@ -8617,7 +8617,7 @@
   {
     "id": "daily-tasty",
     "term": "Tasty",
-    "ipa": "/ˈteɪsti/",
+    "ipa": "/tˈeɪsti/",
     "zh": "好吃",
     "pinyin": "Hǎo chī",
     "category": "daily",
@@ -8631,7 +8631,7 @@
   {
     "id": "daily-awful",
     "term": "Awful",
-    "ipa": "/ˈɔfəl/",
+    "ipa": "/ˈɔːfəl/",
     "zh": "难吃",
     "pinyin": "Nán chī",
     "category": "daily",
@@ -8645,7 +8645,7 @@
   {
     "id": "daily-spicy",
     "term": "Spicy",
-    "ipa": "/ˈspaɪsi/",
+    "ipa": "/spˈaɪsi/",
     "zh": "辣",
     "pinyin": "Là",
     "category": "daily",
@@ -8659,7 +8659,7 @@
   {
     "id": "daily-sweet",
     "term": "Sweet",
-    "ipa": "/swit/",
+    "ipa": "/swˈiːt/",
     "zh": "甜",
     "pinyin": "Tián",
     "category": "daily",
@@ -8673,7 +8673,7 @@
   {
     "id": "daily-sour",
     "term": "Sour",
-    "ipa": "/saʊər/",
+    "ipa": "/sˈaʊə/",
     "zh": "酸",
     "pinyin": "Suān",
     "category": "daily",
@@ -8687,7 +8687,7 @@
   {
     "id": "daily-bitter",
     "term": "Bitter",
-    "ipa": "/ˈbɪtər/",
+    "ipa": "/bˈɪtə/",
     "zh": "苦",
     "pinyin": "Kǔ",
     "category": "daily",
@@ -8701,7 +8701,7 @@
   {
     "id": "daily-salty",
     "term": "Salty",
-    "ipa": "/ˈsɔlti/",
+    "ipa": "/sˈɒlti/",
     "zh": "咸",
     "pinyin": "Xián",
     "category": "daily",
@@ -8715,7 +8715,7 @@
   {
     "id": "daily-fresh",
     "term": "Fresh",
-    "ipa": "/frɛʃ/",
+    "ipa": "/fɹˈɛʃ/",
     "zh": "新鲜",
     "pinyin": "Xīn xiān",
     "category": "daily",
@@ -8729,7 +8729,7 @@
   {
     "id": "daily-stale",
     "term": "Stale",
-    "ipa": "/steɪl/",
+    "ipa": "/stˈeɪl/",
     "zh": "不新鲜",
     "pinyin": "Bù xīn xiān",
     "category": "daily",
@@ -8743,7 +8743,7 @@
   {
     "id": "daily-cook",
     "term": "Cook",
-    "ipa": "/kʊk/",
+    "ipa": "/kˈʊk/",
     "zh": "做饭",
     "pinyin": "Zuò fàn",
     "category": "daily",
@@ -8757,7 +8757,7 @@
   {
     "id": "daily-boil",
     "term": "Boil",
-    "ipa": "/bɔɪl/",
+    "ipa": "/bˈɔɪl/",
     "zh": "煮",
     "pinyin": "Zhǔ",
     "category": "daily",
@@ -8771,7 +8771,7 @@
   {
     "id": "daily-fry",
     "term": "Fry",
-    "ipa": "/fraɪ/",
+    "ipa": "/fɹˈaɪ/",
     "zh": "炒",
     "pinyin": "Chǎo",
     "category": "daily",
@@ -8785,7 +8785,7 @@
   {
     "id": "daily-roast",
     "term": "Roast",
-    "ipa": "/roʊst/",
+    "ipa": "/ɹˈəʊst/",
     "zh": "烤",
     "pinyin": "Kǎo",
     "category": "daily",
@@ -8799,7 +8799,7 @@
   {
     "id": "daily-steam",
     "term": "Steam",
-    "ipa": "/stim/",
+    "ipa": "/stˈiːm/",
     "zh": "蒸",
     "pinyin": "Zhēng",
     "category": "daily",
@@ -8813,7 +8813,7 @@
   {
     "id": "daily-cut",
     "term": "Cut",
-    "ipa": "/kət/",
+    "ipa": "/kˈɐt/",
     "zh": "切",
     "pinyin": "Qiē",
     "category": "daily",
@@ -8827,7 +8827,7 @@
   {
     "id": "daily-wash",
     "term": "Wash",
-    "ipa": "/wɑʃ/",
+    "ipa": "/wˈɒʃ/",
     "zh": "洗",
     "pinyin": "Xǐ",
     "category": "daily",
@@ -8841,7 +8841,7 @@
   {
     "id": "daily-clean",
     "term": "Clean",
-    "ipa": "/klin/",
+    "ipa": "/klˈiːn/",
     "zh": "清洁",
     "pinyin": "Qīng jié",
     "category": "daily",
@@ -8855,7 +8855,7 @@
   {
     "id": "daily-mess",
     "term": "Mess",
-    "ipa": "/mɛs/",
+    "ipa": "/mˈɛs/",
     "zh": "脏乱",
     "pinyin": "Zāng luàn",
     "category": "daily",
@@ -8869,7 +8869,7 @@
   {
     "id": "daily-organize",
     "term": "Organize",
-    "ipa": "/ˈɔrgəˌnaɪz/",
+    "ipa": "/ˈɔːgənˌaɪz/",
     "zh": "整理",
     "pinyin": "Zhěng lǐ",
     "category": "daily",
@@ -8883,7 +8883,7 @@
   {
     "id": "daily-arrange",
     "term": "Arrange",
-    "ipa": "/əreɪnʤ/",
+    "ipa": "/əɹˈeɪndʒ/",
     "zh": "安排",
     "pinyin": "Ān pái",
     "category": "daily",
@@ -8897,7 +8897,7 @@
   {
     "id": "daily-prepare",
     "term": "Prepare",
-    "ipa": "/priˈpɛr/",
+    "ipa": "/pɹɪpˈɛə/",
     "zh": "准备",
     "pinyin": "Zhǔn bèi",
     "category": "daily",
@@ -8911,7 +8911,7 @@
   {
     "id": "daily-start",
     "term": "Start",
-    "ipa": "/stɑrt/",
+    "ipa": "/stˈɑːt/",
     "zh": "开始",
     "pinyin": "Kāi shǐ",
     "category": "daily",
@@ -8925,7 +8925,7 @@
   {
     "id": "daily-finish",
     "term": "Finish",
-    "ipa": "/ˈfɪnɪʃ/",
+    "ipa": "/fˈɪnɪʃ/",
     "zh": "完成",
     "pinyin": "Wán chéng",
     "category": "daily",
@@ -8939,7 +8939,7 @@
   {
     "id": "daily-pause",
     "term": "Pause",
-    "ipa": "/pɔz/",
+    "ipa": "/pˈɔːz/",
     "zh": "暂停",
     "pinyin": "Zàn tíng",
     "category": "daily",
@@ -8953,7 +8953,7 @@
   {
     "id": "daily-continue",
     "term": "Continue",
-    "ipa": "/kənˈtɪnju/",
+    "ipa": "/kəntˈɪnjuː/",
     "zh": "继续",
     "pinyin": "Jì xù",
     "category": "daily",
@@ -8967,7 +8967,7 @@
   {
     "id": "daily-repeat",
     "term": "Repeat",
-    "ipa": "/rɪˈpit/",
+    "ipa": "/ɹɪpˈiːt/",
     "zh": "重复",
     "pinyin": "Chóng fù",
     "category": "daily",
@@ -8981,7 +8981,7 @@
   {
     "id": "daily-remember",
     "term": "Remember",
-    "ipa": "/rɪˈmɛmbər/",
+    "ipa": "/ɹɪmˈɛmbə/",
     "zh": "记住",
     "pinyin": "Jì zhù",
     "category": "daily",
@@ -8995,7 +8995,7 @@
   {
     "id": "daily-forget",
     "term": "Forget",
-    "ipa": "/fərˈgɛt/",
+    "ipa": "/fəgˈɛt/",
     "zh": "忘记",
     "pinyin": "Wàng jì",
     "category": "daily",
@@ -9009,7 +9009,7 @@
   {
     "id": "daily-learn",
     "term": "Learn",
-    "ipa": "/lərn/",
+    "ipa": "/lˈɜːn/",
     "zh": "学习",
     "pinyin": "Xué xí",
     "category": "daily",
@@ -9023,7 +9023,7 @@
   {
     "id": "daily-teach",
     "term": "Teach",
-    "ipa": "/tiʧ/",
+    "ipa": "/tˈiːtʃ/",
     "zh": "教",
     "pinyin": "Jiāo",
     "category": "daily",
@@ -9037,7 +9037,7 @@
   {
     "id": "daily-understand",
     "term": "Understand",
-    "ipa": "/ˌəndərˈstænd/",
+    "ipa": "/ˌɐndəstˈænd/",
     "zh": "理解",
     "pinyin": "Lǐ jiě",
     "category": "daily",
@@ -9051,7 +9051,7 @@
   {
     "id": "daily-know",
     "term": "Know",
-    "ipa": "/noʊ/",
+    "ipa": "/nˈəʊ/",
     "zh": "知道",
     "pinyin": "Zhī dào",
     "category": "daily",
@@ -9065,7 +9065,7 @@
   {
     "id": "daily-think",
     "term": "Think",
-    "ipa": "/θɪŋk/",
+    "ipa": "/θˈɪŋk/",
     "zh": "思考",
     "pinyin": "Sī kǎo",
     "category": "daily",
@@ -9079,7 +9079,7 @@
   {
     "id": "daily-idea",
     "term": "Idea",
-    "ipa": "/aɪˈdiə/",
+    "ipa": "/aɪdˈɪə/",
     "zh": "主意",
     "pinyin": "Zhǔ yi",
     "category": "daily",
@@ -9093,7 +9093,7 @@
   {
     "id": "daily-opinion",
     "term": "Opinion",
-    "ipa": "/əˈpɪnjən/",
+    "ipa": "/əpˈɪnjən/",
     "zh": "意见",
     "pinyin": "Yì jiàn",
     "category": "daily",
@@ -9107,7 +9107,7 @@
   {
     "id": "daily-mind",
     "term": "Mind",
-    "ipa": "/maɪnd/",
+    "ipa": "/mˈaɪnd/",
     "zh": "想法",
     "pinyin": "Xiǎng fǎ",
     "category": "daily",
@@ -9121,7 +9121,7 @@
   {
     "id": "daily-feel",
     "term": "Feel",
-    "ipa": "/fil/",
+    "ipa": "/fˈiːl/",
     "zh": "感觉",
     "pinyin": "Gǎn jué",
     "category": "daily",
@@ -9135,7 +9135,7 @@
   {
     "id": "daily-look",
     "term": "Look",
-    "ipa": "/lʊk/",
+    "ipa": "/lˈʊk/",
     "zh": "看",
     "pinyin": "Kàn",
     "category": "daily",
@@ -9149,7 +9149,7 @@
   {
     "id": "daily-see",
     "term": "See",
-    "ipa": "/si/",
+    "ipa": "/sˈiː/",
     "zh": "看见",
     "pinyin": "Kàn jiàn",
     "category": "daily",
@@ -9163,7 +9163,7 @@
   {
     "id": "daily-watch",
     "term": "Watch",
-    "ipa": "/wɔʧ/",
+    "ipa": "/wˈɒtʃ/",
     "zh": "观看",
     "pinyin": "Guān kàn",
     "category": "daily",
@@ -9177,7 +9177,7 @@
   {
     "id": "daily-listen",
     "term": "Listen",
-    "ipa": "/ˈlɪsən/",
+    "ipa": "/lˈɪsən/",
     "zh": "听",
     "pinyin": "Tīng",
     "category": "daily",
@@ -9191,7 +9191,7 @@
   {
     "id": "daily-hear",
     "term": "Hear",
-    "ipa": "/hir/",
+    "ipa": "/hˈɪə/",
     "zh": "听到",
     "pinyin": "Tīng dào",
     "category": "daily",
@@ -9205,7 +9205,7 @@
   {
     "id": "daily-speak",
     "term": "Speak",
-    "ipa": "/spik/",
+    "ipa": "/spˈiːk/",
     "zh": "说",
     "pinyin": "Shuō",
     "category": "daily",
@@ -9219,7 +9219,7 @@
   {
     "id": "daily-talk",
     "term": "Talk",
-    "ipa": "/tɔk/",
+    "ipa": "/tˈɔːk/",
     "zh": "讲话",
     "pinyin": "Jiǎng huà",
     "category": "daily",
@@ -9233,7 +9233,7 @@
   {
     "id": "daily-tell",
     "term": "Tell",
-    "ipa": "/tɛl/",
+    "ipa": "/tˈɛl/",
     "zh": "告诉",
     "pinyin": "Gào sù",
     "category": "daily",
@@ -9247,7 +9247,7 @@
   {
     "id": "daily-ask",
     "term": "Ask",
-    "ipa": "/æsk/",
+    "ipa": "/ˈɑːsk/",
     "zh": "询问",
     "pinyin": "Xún wèn",
     "category": "daily",
@@ -9261,7 +9261,7 @@
   {
     "id": "daily-answer",
     "term": "Answer",
-    "ipa": "/ˈænsər/",
+    "ipa": "/ˈɑːnsə/",
     "zh": "回答",
     "pinyin": "Huí dá",
     "category": "daily",
@@ -9275,7 +9275,7 @@
   {
     "id": "daily-read",
     "term": "Read",
-    "ipa": "/rɛd/",
+    "ipa": "/ɹˈiːd/",
     "zh": "阅读",
     "pinyin": "Yuè dú",
     "category": "daily",
@@ -9289,7 +9289,7 @@
   {
     "id": "daily-write",
     "term": "Write",
-    "ipa": "/raɪt/",
+    "ipa": "/ɹˈaɪt/",
     "zh": "书写",
     "pinyin": "Shū xiě",
     "category": "daily",
@@ -9303,7 +9303,7 @@
   {
     "id": "daily-draw",
     "term": "Draw",
-    "ipa": "/drɔ/",
+    "ipa": "/dɹˈɔː/",
     "zh": "画画",
     "pinyin": "Huà huà",
     "category": "daily",
@@ -9317,7 +9317,7 @@
   {
     "id": "daily-show",
     "term": "Show",
-    "ipa": "/ʃoʊ/",
+    "ipa": "/ʃˈəʊ/",
     "zh": "展示",
     "pinyin": "Zhǎn shì",
     "category": "daily",
@@ -9331,7 +9331,7 @@
   {
     "id": "daily-share",
     "term": "Share",
-    "ipa": "/ʃɛr/",
+    "ipa": "/ʃˈɛə/",
     "zh": "分享",
     "pinyin": "Fēn xiǎng",
     "category": "daily",
@@ -9345,7 +9345,7 @@
   {
     "id": "daily-give",
     "term": "Give",
-    "ipa": "/gɪv/",
+    "ipa": "/gˈɪv/",
     "zh": "给",
     "pinyin": "Gěi",
     "category": "daily",
@@ -9359,7 +9359,7 @@
   {
     "id": "daily-take",
     "term": "Take",
-    "ipa": "/teɪk/",
+    "ipa": "/tˈeɪk/",
     "zh": "拿",
     "pinyin": "Ná",
     "category": "daily",
@@ -9373,7 +9373,7 @@
   {
     "id": "daily-send",
     "term": "Send",
-    "ipa": "/sɛnd/",
+    "ipa": "/sˈɛnd/",
     "zh": "发送",
     "pinyin": "Fā sòng",
     "category": "daily",
@@ -9387,7 +9387,7 @@
   {
     "id": "daily-receive",
     "term": "Receive",
-    "ipa": "/rɪˈsiv/",
+    "ipa": "/ɹɪsˈiːv/",
     "zh": "接收",
     "pinyin": "Jiē shōu",
     "category": "daily",
@@ -9401,7 +9401,7 @@
   {
     "id": "daily-open",
     "term": "Open",
-    "ipa": "/ˈoʊpən/",
+    "ipa": "/ˈəʊpən/",
     "zh": "打开",
     "pinyin": "Dǎ kāi",
     "category": "daily",
@@ -9415,7 +9415,7 @@
   {
     "id": "daily-close",
     "term": "Close",
-    "ipa": "/kloʊz/",
+    "ipa": "/klˈəʊs/",
     "zh": "关闭",
     "pinyin": "Guān bì",
     "category": "daily",
@@ -9429,7 +9429,7 @@
   {
     "id": "daily-turn-on",
     "term": "Turn On",
-    "ipa": "/tərn ɔn/",
+    "ipa": "/tˈɜːn ˈɒn/",
     "zh": "开启",
     "pinyin": "Kāi qǐ",
     "category": "daily",
@@ -9443,7 +9443,7 @@
   {
     "id": "daily-turn-off",
     "term": "Turn Off",
-    "ipa": "/tərn ɔf/",
+    "ipa": "/tˈɜːn ˈɒf/",
     "zh": "关闭",
     "pinyin": "Guān bì",
     "category": "daily",
@@ -9457,7 +9457,7 @@
   {
     "id": "daily-push",
     "term": "Push",
-    "ipa": "/pʊʃ/",
+    "ipa": "/pˈʊʃ/",
     "zh": "推",
     "pinyin": "Tuī",
     "category": "daily",
@@ -9471,7 +9471,7 @@
   {
     "id": "daily-pull",
     "term": "Pull",
-    "ipa": "/pʊl/",
+    "ipa": "/pˈʊl/",
     "zh": "拉",
     "pinyin": "Lā",
     "category": "daily",
@@ -9485,7 +9485,7 @@
   {
     "id": "daily-lift",
     "term": "Lift",
-    "ipa": "/lɪft/",
+    "ipa": "/lˈɪft/",
     "zh": "抬起",
     "pinyin": "Tái qǐ",
     "category": "daily",
@@ -9499,7 +9499,7 @@
   {
     "id": "daily-drop",
     "term": "Drop",
-    "ipa": "/drɔp/",
+    "ipa": "/dɹˈɒp/",
     "zh": "掉落",
     "pinyin": "Diào luò",
     "category": "daily",
@@ -9513,7 +9513,7 @@
   {
     "id": "daily-pick",
     "term": "Pick",
-    "ipa": "/pɪk/",
+    "ipa": "/pˈɪk/",
     "zh": "捡起",
     "pinyin": "Jiǎn qǐ",
     "category": "daily",
@@ -9527,7 +9527,7 @@
   {
     "id": "daily-hold",
     "term": "Hold",
-    "ipa": "/hoʊld/",
+    "ipa": "/hˈəʊld/",
     "zh": "握住",
     "pinyin": "Wò zhù",
     "category": "daily",
@@ -9541,7 +9541,7 @@
   {
     "id": "daily-carry",
     "term": "Carry",
-    "ipa": "/ˈkɛri/",
+    "ipa": "/kˈæɹi/",
     "zh": "搬运",
     "pinyin": "Bān yùn",
     "category": "daily",
@@ -9555,7 +9555,7 @@
   {
     "id": "daily-move",
     "term": "Move",
-    "ipa": "/muv/",
+    "ipa": "/mˈuːv/",
     "zh": "移动",
     "pinyin": "Yí dòng",
     "category": "daily",
@@ -9569,7 +9569,7 @@
   {
     "id": "daily-stand",
     "term": "Stand",
-    "ipa": "/stænd/",
+    "ipa": "/stˈænd/",
     "zh": "站立",
     "pinyin": "Zhàn lì",
     "category": "daily",
@@ -9583,7 +9583,7 @@
   {
     "id": "daily-sit",
     "term": "Sit",
-    "ipa": "/sɪt/",
+    "ipa": "/sˈɪt/",
     "zh": "坐下",
     "pinyin": "Zuò xià",
     "category": "daily",
@@ -9597,7 +9597,7 @@
   {
     "id": "daily-walk",
     "term": "Walk",
-    "ipa": "/wɔk/",
+    "ipa": "/wˈɔːk/",
     "zh": "走路",
     "pinyin": "Zǒu lù",
     "category": "daily",
@@ -9611,7 +9611,7 @@
   {
     "id": "daily-run",
     "term": "Run",
-    "ipa": "/rən/",
+    "ipa": "/ɹˈɐn/",
     "zh": "跑步",
     "pinyin": "Pǎo bù",
     "category": "daily",
@@ -9625,7 +9625,7 @@
   {
     "id": "daily-jump",
     "term": "Jump",
-    "ipa": "/ʤəmp/",
+    "ipa": "/dʒˈɐmp/",
     "zh": "跳跃",
     "pinyin": "Tiào yuè",
     "category": "daily",
@@ -9639,7 +9639,7 @@
   {
     "id": "daily-climb",
     "term": "Climb",
-    "ipa": "/klaɪm/",
+    "ipa": "/klˈaɪm/",
     "zh": "攀爬",
     "pinyin": "Pān pá",
     "category": "daily",
@@ -9653,7 +9653,7 @@
   {
     "id": "daily-drive",
     "term": "Drive",
-    "ipa": "/draɪv/",
+    "ipa": "/dɹˈaɪv/",
     "zh": "开车",
     "pinyin": "Kāi chē",
     "category": "daily",
@@ -9667,7 +9667,7 @@
   {
     "id": "daily-ride",
     "term": "Ride",
-    "ipa": "/raɪd/",
+    "ipa": "/ɹˈaɪd/",
     "zh": "骑车",
     "pinyin": "Qí chē",
     "category": "daily",
@@ -9681,7 +9681,7 @@
   {
     "id": "daily-fly",
     "term": "Fly",
-    "ipa": "/flaɪ/",
+    "ipa": "/flˈaɪ/",
     "zh": "飞",
     "pinyin": "Fēi",
     "category": "daily",
@@ -9695,7 +9695,7 @@
   {
     "id": "daily-swim",
     "term": "Swim",
-    "ipa": "/swɪm/",
+    "ipa": "/swˈɪm/",
     "zh": "游泳",
     "pinyin": "Yóu yǒng",
     "category": "daily",
@@ -9709,7 +9709,7 @@
   {
     "id": "daily-stop",
     "term": "Stop",
-    "ipa": "/stɑp/",
+    "ipa": "/stˈɒp/",
     "zh": "停止",
     "pinyin": "Tíng zhǐ",
     "category": "daily",
@@ -9723,7 +9723,7 @@
   {
     "id": "daily-wait",
     "term": "Wait",
-    "ipa": "/weɪt/",
+    "ipa": "/wˈeɪt/",
     "zh": "等待",
     "pinyin": "Děng dài",
     "category": "daily",
@@ -9737,7 +9737,7 @@
   {
     "id": "daily-hurry",
     "term": "Hurry",
-    "ipa": "/ˈhəri/",
+    "ipa": "/hˈɐɹi/",
     "zh": "快点",
     "pinyin": "Kuài diǎn",
     "category": "daily",
@@ -9751,7 +9751,7 @@
   {
     "id": "daily-slow",
     "term": "Slow",
-    "ipa": "/sloʊ/",
+    "ipa": "/slˈəʊ/",
     "zh": "慢点",
     "pinyin": "Màn diǎn",
     "category": "daily",
@@ -9765,7 +9765,7 @@
   {
     "id": "daily-early",
     "term": "Early",
-    "ipa": "/ˈərli/",
+    "ipa": "/ˈɜːli/",
     "zh": "早",
     "pinyin": "Zǎo",
     "category": "daily",
@@ -9779,7 +9779,7 @@
   {
     "id": "daily-late",
     "term": "Late",
-    "ipa": "/leɪt/",
+    "ipa": "/lˈeɪt/",
     "zh": "晚",
     "pinyin": "Wǎn",
     "category": "daily",
@@ -9793,7 +9793,7 @@
   {
     "id": "daily-now",
     "term": "Now",
-    "ipa": "/naʊ/",
+    "ipa": "/nˈaʊ/",
     "zh": "现在",
     "pinyin": "Xiàn zài",
     "category": "daily",
@@ -9807,7 +9807,7 @@
   {
     "id": "daily-today",
     "term": "Today",
-    "ipa": "/təˈdeɪ/",
+    "ipa": "/tədˈeɪ/",
     "zh": "今天",
     "pinyin": "Jīn tiān",
     "category": "daily",
@@ -9821,7 +9821,7 @@
   {
     "id": "daily-tomorrow",
     "term": "Tomorrow",
-    "ipa": "/təˈmɑˌroʊ/",
+    "ipa": "/təmˈɒɹˌəʊ/",
     "zh": "明天",
     "pinyin": "Míng tiān",
     "category": "daily",
@@ -9835,7 +9835,7 @@
   {
     "id": "daily-yesterday",
     "term": "Yesterday",
-    "ipa": "/ˈjɛstərˌdeɪ/",
+    "ipa": "/jˈɛstədi/",
     "zh": "昨天",
     "pinyin": "Zuó tiān",
     "category": "daily",
@@ -9849,7 +9849,7 @@
   {
     "id": "daily-morning",
     "term": "Morning",
-    "ipa": "/ˈmɔrnɪŋ/",
+    "ipa": "/mˈɔːnɪŋ/",
     "zh": "早上",
     "pinyin": "Zǎo shang",
     "category": "daily",
@@ -9863,7 +9863,7 @@
   {
     "id": "daily-afternoon",
     "term": "Afternoon",
-    "ipa": "/ˌæftərˈnun/",
+    "ipa": "/ˌɑːftənˈuːn/",
     "zh": "下午",
     "pinyin": "Xià wǔ",
     "category": "daily",
@@ -9877,7 +9877,7 @@
   {
     "id": "daily-evening",
     "term": "Evening",
-    "ipa": "/ˈivnɪŋ/",
+    "ipa": "/ˈiːvnɪŋ/",
     "zh": "晚上",
     "pinyin": "Wǎn shang",
     "category": "daily",
@@ -9891,7 +9891,7 @@
   {
     "id": "daily-night",
     "term": "Night",
-    "ipa": "/naɪt/",
+    "ipa": "/nˈaɪt/",
     "zh": "夜晚",
     "pinyin": "Yè wǎn",
     "category": "daily",
@@ -9905,7 +9905,7 @@
   {
     "id": "daily-monday",
     "term": "Monday",
-    "ipa": "/ˈmənˌdeɪ/",
+    "ipa": "/mˈɐndi/",
     "zh": "周一",
     "pinyin": "Zhōu yī",
     "category": "daily",
@@ -9919,7 +9919,7 @@
   {
     "id": "daily-tuesday",
     "term": "Tuesday",
-    "ipa": "/ˈtuzˌdeɪ/",
+    "ipa": "/tjˈuːzdi/",
     "zh": "周二",
     "pinyin": "Zhōu èr",
     "category": "daily",
@@ -9933,7 +9933,7 @@
   {
     "id": "daily-wednesday",
     "term": "Wednesday",
-    "ipa": "/ˈwɛnzˌdeɪ/",
+    "ipa": "/wˈɛnzdi/",
     "zh": "周三",
     "pinyin": "Zhōu sān",
     "category": "daily",
@@ -9947,7 +9947,7 @@
   {
     "id": "daily-thursday",
     "term": "Thursday",
-    "ipa": "/ˈθərzˌdeɪ/",
+    "ipa": "/θˈɜːzdi/",
     "zh": "周四",
     "pinyin": "Zhōu sì",
     "category": "daily",
@@ -9961,7 +9961,7 @@
   {
     "id": "daily-friday",
     "term": "Friday",
-    "ipa": "/ˈfraɪˌdeɪ/",
+    "ipa": "/fɹˈaɪdi/",
     "zh": "周五",
     "pinyin": "Zhōu wǔ",
     "category": "daily",
@@ -9975,7 +9975,7 @@
   {
     "id": "daily-saturday",
     "term": "Saturday",
-    "ipa": "/ˈsæˌtɪˌdeɪ/",
+    "ipa": "/sˈætədi/",
     "zh": "周六",
     "pinyin": "Zhōu liù",
     "category": "daily",
@@ -9989,7 +9989,7 @@
   {
     "id": "daily-sunday",
     "term": "Sunday",
-    "ipa": "/ˈsənˌdi/",
+    "ipa": "/sˈɐndi/",
     "zh": "周日",
     "pinyin": "Zhōu rì",
     "category": "daily",
@@ -10003,7 +10003,7 @@
   {
     "id": "daily-january",
     "term": "January",
-    "ipa": "/ˈʤænjuˌɛri/",
+    "ipa": "/dʒˈænjʊəɹi/",
     "zh": "一月",
     "pinyin": "Yī yuè",
     "category": "daily",
@@ -10017,7 +10017,7 @@
   {
     "id": "daily-february",
     "term": "February",
-    "ipa": "/ˈfɛbruˌɛri/",
+    "ipa": "/fˈɛbjʊəɹi/",
     "zh": "二月",
     "pinyin": "Èr yuè",
     "category": "daily",
@@ -10031,7 +10031,7 @@
   {
     "id": "daily-march",
     "term": "March",
-    "ipa": "/mɑrʧ/",
+    "ipa": "/mˈɑːtʃ/",
     "zh": "三月",
     "pinyin": "Sān yuè",
     "category": "daily",
@@ -10045,7 +10045,7 @@
   {
     "id": "daily-april",
     "term": "April",
-    "ipa": "/ˈeɪprəl/",
+    "ipa": "/ˈeɪpɹəl/",
     "zh": "四月",
     "pinyin": "Sì yuè",
     "category": "daily",
@@ -10059,7 +10059,7 @@
   {
     "id": "daily-may",
     "term": "May",
-    "ipa": "/meɪ/",
+    "ipa": "/mˈeɪ/",
     "zh": "五月",
     "pinyin": "Wǔ yuè",
     "category": "daily",
@@ -10073,7 +10073,7 @@
   {
     "id": "daily-june",
     "term": "June",
-    "ipa": "/ʤun/",
+    "ipa": "/dʒˈuːn/",
     "zh": "六月",
     "pinyin": "Liù yuè",
     "category": "daily",
@@ -10087,7 +10087,7 @@
   {
     "id": "daily-july",
     "term": "July",
-    "ipa": "/ˌʤuˈlaɪ/",
+    "ipa": "/dʒəlˈaɪ/",
     "zh": "七月",
     "pinyin": "Qī yuè",
     "category": "daily",
@@ -10101,7 +10101,7 @@
   {
     "id": "daily-august",
     "term": "August",
-    "ipa": "/ˈɔgəst/",
+    "ipa": "/ˈɔːgəst/",
     "zh": "八月",
     "pinyin": "Bā yuè",
     "category": "daily",
@@ -10115,7 +10115,7 @@
   {
     "id": "daily-september",
     "term": "September",
-    "ipa": "/sɛpˈtɛmbər/",
+    "ipa": "/sɛptˈɛmbə/",
     "zh": "九月",
     "pinyin": "Jiǔ yuè",
     "category": "daily",
@@ -10129,7 +10129,7 @@
   {
     "id": "daily-october",
     "term": "October",
-    "ipa": "/ɑkˈtoʊbər/",
+    "ipa": "/ɒktˈəʊbə/",
     "zh": "十月",
     "pinyin": "Shí yuè",
     "category": "daily",
@@ -10143,7 +10143,7 @@
   {
     "id": "daily-november",
     "term": "November",
-    "ipa": "/noʊˈvɛmbər/",
+    "ipa": "/nəʊvˈɛmbə/",
     "zh": "十一月",
     "pinyin": "Shí yī yuè",
     "category": "daily",
@@ -10157,7 +10157,7 @@
   {
     "id": "daily-december",
     "term": "December",
-    "ipa": "/dɪˈsɛmbər/",
+    "ipa": "/dɪsˈɛmbə/",
     "zh": "十二月",
     "pinyin": "Shí èr yuè",
     "category": "daily",
@@ -10171,7 +10171,7 @@
   {
     "id": "daily-spring",
     "term": "Spring",
-    "ipa": "/spərɪŋ/",
+    "ipa": "/spɹˈɪŋ/",
     "zh": "春天",
     "pinyin": "Chūn tiān",
     "category": "daily",
@@ -10185,7 +10185,7 @@
   {
     "id": "daily-summer",
     "term": "Summer",
-    "ipa": "/ˈsəmər/",
+    "ipa": "/sˈɐmə/",
     "zh": "夏天",
     "pinyin": "Xià tiān",
     "category": "daily",
@@ -10199,7 +10199,7 @@
   {
     "id": "daily-autumn",
     "term": "Autumn",
-    "ipa": "/ˈɔtəm/",
+    "ipa": "/ˈɔːtəm/",
     "zh": "秋天",
     "pinyin": "Qiū tiān",
     "category": "daily",
@@ -10213,7 +10213,7 @@
   {
     "id": "daily-winter",
     "term": "Winter",
-    "ipa": "/ˈwɪntər/",
+    "ipa": "/wˈɪntə/",
     "zh": "冬天",
     "pinyin": "Dōng tiān",
     "category": "daily",
@@ -10227,7 +10227,7 @@
   {
     "id": "daily-sunny",
     "term": "Sunny",
-    "ipa": "/ˈsəni/",
+    "ipa": "/sˈɐni/",
     "zh": "晴天",
     "pinyin": "Qíng tiān",
     "category": "daily",
@@ -10241,7 +10241,7 @@
   {
     "id": "daily-rainy",
     "term": "Rainy",
-    "ipa": "/ˈreɪni/",
+    "ipa": "/ɹˈeɪni/",
     "zh": "雨天",
     "pinyin": "Yǔ tiān",
     "category": "daily",
@@ -10255,7 +10255,7 @@
   {
     "id": "daily-cloudy",
     "term": "Cloudy",
-    "ipa": "/ˈklaʊdi/",
+    "ipa": "/klˈaʊdi/",
     "zh": "阴天",
     "pinyin": "Yīn tiān",
     "category": "daily",
@@ -10269,7 +10269,7 @@
   {
     "id": "daily-windy",
     "term": "Windy",
-    "ipa": "/ˈwɪndi/",
+    "ipa": "/wˈɪndi/",
     "zh": "大风",
     "pinyin": "Dà fēng",
     "category": "daily",
@@ -10283,7 +10283,7 @@
   {
     "id": "daily-snowy",
     "term": "Snowy",
-    "ipa": "/snoʊi/",
+    "ipa": "/snˈəʊi/",
     "zh": "下雪",
     "pinyin": "Xià xuě",
     "category": "daily",
@@ -10297,7 +10297,7 @@
   {
     "id": "daily-foggy",
     "term": "Foggy",
-    "ipa": "/ˈfɑgi/",
+    "ipa": "/fˈɒgi/",
     "zh": "大雾",
     "pinyin": "Dà wù",
     "category": "daily",
@@ -10311,7 +10311,7 @@
   {
     "id": "daily-weather",
     "term": "Weather",
-    "ipa": "/ˈwɛðər/",
+    "ipa": "/wˈɛðə/",
     "zh": "天气",
     "pinyin": "Tiān qì",
     "category": "daily",
@@ -10325,7 +10325,7 @@
   {
     "id": "daily-temperature",
     "term": "Temperature",
-    "ipa": "/ˈtɛmpərəʧər/",
+    "ipa": "/tˈɛmpɹətʃə/",
     "zh": "温度",
     "pinyin": "Wēn dù",
     "category": "daily",
@@ -10339,7 +10339,7 @@
   {
     "id": "daily-degree-2",
     "term": "Degree",
-    "ipa": "/dɪˈgri/",
+    "ipa": "/dɪgɹˈiː/",
     "zh": "度数",
     "pinyin": "Dù shù",
     "category": "daily",
@@ -10353,7 +10353,7 @@
   {
     "id": "daily-clock",
     "term": "Clock",
-    "ipa": "/klɑk/",
+    "ipa": "/klˈɒk/",
     "zh": "时钟",
     "pinyin": "Shí zhōng",
     "category": "daily",
@@ -10367,7 +10367,7 @@
   {
     "id": "daily-watch-2",
     "term": "Watch",
-    "ipa": "/wɔʧ/",
+    "ipa": "/wˈɒtʃ/",
     "zh": "手表",
     "pinyin": "Shǒu biǎo",
     "category": "daily",
@@ -10381,7 +10381,7 @@
   {
     "id": "daily-time",
     "term": "Time",
-    "ipa": "/taɪm/",
+    "ipa": "/tˈaɪm/",
     "zh": "时间",
     "pinyin": "Shí jiān",
     "category": "daily",
@@ -10395,7 +10395,7 @@
   {
     "id": "daily-minute",
     "term": "Minute",
-    "ipa": "/ˈmɪnət/",
+    "ipa": "/mˈɪnɪt/",
     "zh": "分钟",
     "pinyin": "Fēn zhōng",
     "category": "daily",
@@ -10409,7 +10409,7 @@
   {
     "id": "daily-second",
     "term": "Second",
-    "ipa": "/ˈsɛkənd/",
+    "ipa": "/sˈɛkənd/",
     "zh": "秒",
     "pinyin": "Miǎo",
     "category": "daily",
@@ -10423,7 +10423,7 @@
   {
     "id": "daily-hour",
     "term": "Hour",
-    "ipa": "/aʊər/",
+    "ipa": "/ˈaʊə/",
     "zh": "小时",
     "pinyin": "Xiǎo shí",
     "category": "daily",
@@ -10437,7 +10437,7 @@
   {
     "id": "daily-day",
     "term": "Day",
-    "ipa": "/deɪ/",
+    "ipa": "/dˈeɪ/",
     "zh": "天",
     "pinyin": "Tiān",
     "category": "daily",
@@ -10451,7 +10451,7 @@
   {
     "id": "daily-week",
     "term": "Week",
-    "ipa": "/wik/",
+    "ipa": "/wˈiːk/",
     "zh": "周",
     "pinyin": "Zhōu",
     "category": "daily",
@@ -10465,7 +10465,7 @@
   {
     "id": "daily-month",
     "term": "Month",
-    "ipa": "/mənθ/",
+    "ipa": "/mˈɐnθ/",
     "zh": "月",
     "pinyin": "Yuè",
     "category": "daily",
@@ -10479,7 +10479,7 @@
   {
     "id": "daily-year",
     "term": "Year",
-    "ipa": "/jɪr/",
+    "ipa": "/jˈɪə/",
     "zh": "年",
     "pinyin": "Nián",
     "category": "daily",
@@ -10493,7 +10493,7 @@
   {
     "id": "daily-date",
     "term": "Date",
-    "ipa": "/deɪt/",
+    "ipa": "/dˈeɪt/",
     "zh": "日期",
     "pinyin": "Rì qī",
     "category": "daily",
@@ -10507,7 +10507,7 @@
   {
     "id": "daily-birthday",
     "term": "Birthday",
-    "ipa": "/ˈbərθˌdeɪ/",
+    "ipa": "/bˈɜːθdˌeɪ/",
     "zh": "生日",
     "pinyin": "Shēng rì",
     "category": "daily",
@@ -10521,7 +10521,7 @@
   {
     "id": "daily-anniversary",
     "term": "Anniversary",
-    "ipa": "/ˌænəˈvərsəri/",
+    "ipa": "/ˌænɪvˈɜːsəɹi/",
     "zh": "周年",
     "pinyin": "Zhōu nián",
     "category": "daily",
@@ -10535,7 +10535,7 @@
   {
     "id": "daily-festival",
     "term": "Festival",
-    "ipa": "/ˈfɛstɪvəl/",
+    "ipa": "/fˈɛstɪvəl/",
     "zh": "节日",
     "pinyin": "Jié rì",
     "category": "daily",
@@ -10549,7 +10549,7 @@
   {
     "id": "daily-celebration",
     "term": "Celebration",
-    "ipa": "/ˌsɛləˈbreɪʃən/",
+    "ipa": "/sˌɛləbɹˈeɪʃən/",
     "zh": "庆祝",
     "pinyin": "Qìng zhù",
     "category": "daily",
@@ -10563,7 +10563,7 @@
   {
     "id": "daily-party",
     "term": "Party",
-    "ipa": "/ˈpɑrti/",
+    "ipa": "/pˈɑːti/",
     "zh": "派对",
     "pinyin": "Pài duì",
     "category": "daily",
@@ -10577,7 +10577,7 @@
   {
     "id": "daily-gift",
     "term": "Gift",
-    "ipa": "/gɪft/",
+    "ipa": "/gˈɪft/",
     "zh": "礼物",
     "pinyin": "Lǐ wù",
     "category": "daily",
@@ -10591,7 +10591,7 @@
   {
     "id": "daily-card",
     "term": "Card",
-    "ipa": "/kɑrd/",
+    "ipa": "/kˈɑːd/",
     "zh": "卡片",
     "pinyin": "Kǎ piàn",
     "category": "daily",
@@ -10605,7 +10605,7 @@
   {
     "id": "daily-flower",
     "term": "Flower",
-    "ipa": "/flaʊər/",
+    "ipa": "/flˈaʊə/",
     "zh": "花",
     "pinyin": "Huā",
     "category": "daily",
@@ -10619,7 +10619,7 @@
   {
     "id": "daily-tree",
     "term": "Tree",
-    "ipa": "/tri/",
+    "ipa": "/tɹˈiː/",
     "zh": "树",
     "pinyin": "Shù",
     "category": "daily",
@@ -10633,7 +10633,7 @@
   {
     "id": "daily-grass",
     "term": "Grass",
-    "ipa": "/græs/",
+    "ipa": "/gɹˈɑːs/",
     "zh": "草",
     "pinyin": "Cǎo",
     "category": "daily",
@@ -10647,7 +10647,7 @@
   {
     "id": "daily-sky",
     "term": "Sky",
-    "ipa": "/skaɪ/",
+    "ipa": "/skˈaɪ/",
     "zh": "天空",
     "pinyin": "Tiān kōng",
     "category": "daily",
@@ -10661,7 +10661,7 @@
   {
     "id": "daily-sun",
     "term": "Sun",
-    "ipa": "/sən/",
+    "ipa": "/sˈɐn/",
     "zh": "太阳",
     "pinyin": "Tài yáng",
     "category": "daily",
@@ -10675,7 +10675,7 @@
   {
     "id": "daily-moon",
     "term": "Moon",
-    "ipa": "/mun/",
+    "ipa": "/mˈuːn/",
     "zh": "月亮",
     "pinyin": "Yuè liang",
     "category": "daily",
@@ -10689,7 +10689,7 @@
   {
     "id": "daily-star",
     "term": "Star",
-    "ipa": "/stɑr/",
+    "ipa": "/stˈɑː/",
     "zh": "星星",
     "pinyin": "Xīng xing",
     "category": "daily",
@@ -10703,7 +10703,7 @@
   {
     "id": "daily-cloud",
     "term": "Cloud",
-    "ipa": "/klaʊd/",
+    "ipa": "/klˈaʊd/",
     "zh": "云",
     "pinyin": "Yún",
     "category": "daily",
@@ -10717,7 +10717,7 @@
   {
     "id": "daily-wind",
     "term": "Wind",
-    "ipa": "/wɪnd/",
+    "ipa": "/wˈɪnd/",
     "zh": "风",
     "pinyin": "Fēng",
     "category": "daily",
@@ -10731,7 +10731,7 @@
   {
     "id": "daily-rain",
     "term": "Rain",
-    "ipa": "/reɪn/",
+    "ipa": "/ɹˈeɪn/",
     "zh": "雨",
     "pinyin": "Yǔ",
     "category": "daily",
@@ -10745,7 +10745,7 @@
   {
     "id": "daily-snow",
     "term": "Snow",
-    "ipa": "/snoʊ/",
+    "ipa": "/snˈəʊ/",
     "zh": "雪",
     "pinyin": "Xuě",
     "category": "daily",
@@ -10759,7 +10759,7 @@
   {
     "id": "daily-river",
     "term": "River",
-    "ipa": "/ˈrɪvər/",
+    "ipa": "/ɹˈɪvə/",
     "zh": "河",
     "pinyin": "Hé",
     "category": "daily",
@@ -10773,7 +10773,7 @@
   {
     "id": "daily-lake",
     "term": "Lake",
-    "ipa": "/leɪk/",
+    "ipa": "/lˈeɪk/",
     "zh": "湖",
     "pinyin": "Hú",
     "category": "daily",
@@ -10787,7 +10787,7 @@
   {
     "id": "daily-sea",
     "term": "Sea",
-    "ipa": "/si/",
+    "ipa": "/sˈiː/",
     "zh": "海",
     "pinyin": "Hǎi",
     "category": "daily",
@@ -10801,7 +10801,7 @@
   {
     "id": "daily-ocean",
     "term": "Ocean",
-    "ipa": "/ˈoʊʃən/",
+    "ipa": "/ˈəʊʃən/",
     "zh": "海洋",
     "pinyin": "Hǎi yáng",
     "category": "daily",
@@ -10815,7 +10815,7 @@
   {
     "id": "daily-mountain",
     "term": "Mountain",
-    "ipa": "/ˈmaʊntən/",
+    "ipa": "/mˈaʊntɪn/",
     "zh": "山",
     "pinyin": "Shān",
     "category": "daily",
@@ -10829,7 +10829,7 @@
   {
     "id": "daily-forest",
     "term": "Forest",
-    "ipa": "/ˈfɔrɪst/",
+    "ipa": "/fˈɒɹɪst/",
     "zh": "森林",
     "pinyin": "Sēn lín",
     "category": "daily",
@@ -10843,7 +10843,7 @@
   {
     "id": "daily-park",
     "term": "Park",
-    "ipa": "/pɑrk/",
+    "ipa": "/pˈɑːk/",
     "zh": "公园",
     "pinyin": "Gōng yuán",
     "category": "daily",
@@ -10857,7 +10857,7 @@
   {
     "id": "daily-city",
     "term": "City",
-    "ipa": "/ˈsɪti/",
+    "ipa": "/sˈɪti/",
     "zh": "城市",
     "pinyin": "Chéng shì",
     "category": "daily",
@@ -10871,7 +10871,7 @@
   {
     "id": "daily-town",
     "term": "Town",
-    "ipa": "/taʊn/",
+    "ipa": "/tˈaʊn/",
     "zh": "城镇",
     "pinyin": "Chéng zhèn",
     "category": "daily",
@@ -10885,7 +10885,7 @@
   {
     "id": "daily-village",
     "term": "Village",
-    "ipa": "/ˈvɪlɪʤ/",
+    "ipa": "/vˈɪlɪdʒ/",
     "zh": "村庄",
     "pinyin": "Cūn zhuāng",
     "category": "daily",
@@ -10899,7 +10899,7 @@
   {
     "id": "daily-street",
     "term": "Street",
-    "ipa": "/strit/",
+    "ipa": "/stɹˈiːt/",
     "zh": "街道",
     "pinyin": "Jiē dào",
     "category": "daily",
@@ -10913,7 +10913,7 @@
   {
     "id": "daily-road",
     "term": "Road",
-    "ipa": "/roʊd/",
+    "ipa": "/ɹˈəʊd/",
     "zh": "马路",
     "pinyin": "Mǎ lù",
     "category": "daily",
@@ -10927,7 +10927,7 @@
   {
     "id": "daily-building",
     "term": "Building",
-    "ipa": "/ˈbɪldɪŋ/",
+    "ipa": "/bˈɪldɪŋ/",
     "zh": "建筑",
     "pinyin": "Jiàn zhù",
     "category": "daily",
@@ -10941,7 +10941,7 @@
   {
     "id": "daily-house",
     "term": "House",
-    "ipa": "/haʊs/",
+    "ipa": "/hˈaʊs/",
     "zh": "房子",
     "pinyin": "Fáng zi",
     "category": "daily",
@@ -10955,7 +10955,7 @@
   {
     "id": "daily-room",
     "term": "Room",
-    "ipa": "/rum/",
+    "ipa": "/ɹˈuːm/",
     "zh": "房间",
     "pinyin": "Fáng jiān",
     "category": "daily",
@@ -10969,7 +10969,7 @@
   {
     "id": "daily-door",
     "term": "Door",
-    "ipa": "/dɔr/",
+    "ipa": "/dˈɔː/",
     "zh": "门",
     "pinyin": "Mén",
     "category": "daily",
@@ -10983,7 +10983,7 @@
   {
     "id": "daily-window",
     "term": "Window",
-    "ipa": "/ˈwɪndoʊ/",
+    "ipa": "/wˈɪndəʊ/",
     "zh": "窗户",
     "pinyin": "Chuāng hu",
     "category": "daily",
@@ -10997,7 +10997,7 @@
   {
     "id": "daily-wall",
     "term": "Wall",
-    "ipa": "/wɔl/",
+    "ipa": "/wˈɔːl/",
     "zh": "墙",
     "pinyin": "Qiáng",
     "category": "daily",
@@ -11011,7 +11011,7 @@
   {
     "id": "daily-floor",
     "term": "Floor",
-    "ipa": "/flɔr/",
+    "ipa": "/flˈɔː/",
     "zh": "地板",
     "pinyin": "Dì bǎn",
     "category": "daily",
@@ -11025,7 +11025,7 @@
   {
     "id": "daily-ceiling",
     "term": "Ceiling",
-    "ipa": "/ˈsilɪŋ/",
+    "ipa": "/sˈiːlɪŋ/",
     "zh": "天花板",
     "pinyin": "Tiān huā bǎn",
     "category": "daily",
@@ -11039,7 +11039,7 @@
   {
     "id": "daily-light",
     "term": "Light",
-    "ipa": "/laɪt/",
+    "ipa": "/lˈaɪt/",
     "zh": "灯",
     "pinyin": "Dēng",
     "category": "daily",
@@ -11053,7 +11053,7 @@
   {
     "id": "daily-switch",
     "term": "Switch",
-    "ipa": "/swɪʧ/",
+    "ipa": "/swˈɪtʃ/",
     "zh": "开关",
     "pinyin": "Kāi guān",
     "category": "daily",
@@ -11067,7 +11067,7 @@
   {
     "id": "daily-socket",
     "term": "Socket",
-    "ipa": "/ˈsɑkət/",
+    "ipa": "/sˈɒkɪt/",
     "zh": "插座",
     "pinyin": "Chā zuò",
     "category": "daily",
@@ -11081,7 +11081,7 @@
   {
     "id": "daily-bed",
     "term": "Bed",
-    "ipa": "/bɛd/",
+    "ipa": "/bˈɛd/",
     "zh": "床",
     "pinyin": "Chuáng",
     "category": "daily",
@@ -11095,7 +11095,7 @@
   {
     "id": "daily-pillow",
     "term": "Pillow",
-    "ipa": "/ˈpɪloʊ/",
+    "ipa": "/pˈɪləʊ/",
     "zh": "枕头",
     "pinyin": "Zhěn tou",
     "category": "daily",
@@ -11109,7 +11109,7 @@
   {
     "id": "daily-blanket",
     "term": "Blanket",
-    "ipa": "/ˈblæŋkɪt/",
+    "ipa": "/blˈæŋkɪt/",
     "zh": "毯子",
     "pinyin": "Tǎn zi",
     "category": "daily",
@@ -11123,7 +11123,7 @@
   {
     "id": "daily-table-2",
     "term": "Table",
-    "ipa": "/ˈteɪbəl/",
+    "ipa": "/tˈeɪbəl/",
     "zh": "桌子",
     "pinyin": "Zhuō zi",
     "category": "daily",
@@ -11137,7 +11137,7 @@
   {
     "id": "daily-sofa",
     "term": "Sofa",
-    "ipa": "/ˈsoʊfə/",
+    "ipa": "/sˈəʊfə/",
     "zh": "沙发",
     "pinyin": "Shā fā",
     "category": "daily",
@@ -11151,7 +11151,7 @@
   {
     "id": "daily-cabinet",
     "term": "Cabinet",
-    "ipa": "/ˈkæbənət/",
+    "ipa": "/kˈæbɪnɪt/",
     "zh": "柜子",
     "pinyin": "Guì zi",
     "category": "daily",
@@ -11165,7 +11165,7 @@
   {
     "id": "daily-mirror",
     "term": "Mirror",
-    "ipa": "/ˈmɪrər/",
+    "ipa": "/mˈɪɹə/",
     "zh": "镜子",
     "pinyin": "Jìng zi",
     "category": "daily",
@@ -11179,7 +11179,7 @@
   {
     "id": "daily-towel",
     "term": "Towel",
-    "ipa": "/taʊəl/",
+    "ipa": "/tˈaʊəl/",
     "zh": "毛巾",
     "pinyin": "Máo jīn",
     "category": "daily",
@@ -11193,7 +11193,7 @@
   {
     "id": "daily-toothbrush",
     "term": "Toothbrush",
-    "ipa": "/ˈtuθbrəʃ/",
+    "ipa": "/ˈtuːθbrʌʃ/",
     "zh": "牙刷",
     "pinyin": "Yá shuā",
     "category": "daily",
@@ -11207,7 +11207,7 @@
   {
     "id": "daily-toothpaste",
     "term": "Toothpaste",
-    "ipa": "/ˈtuθˌpeɪst/",
+    "ipa": "/ˈtuːθpeɪst/",
     "zh": "牙膏",
     "pinyin": "Yá gāo",
     "category": "daily",
@@ -11221,7 +11221,7 @@
   {
     "id": "daily-soap",
     "term": "Soap",
-    "ipa": "/soʊp/",
+    "ipa": "/sˈəʊp/",
     "zh": "肥皂",
     "pinyin": "Féi zào",
     "category": "daily",
@@ -11235,7 +11235,7 @@
   {
     "id": "daily-shampoo",
     "term": "Shampoo",
-    "ipa": "/ʃæmˈpu/",
+    "ipa": "/ʃæmpˈuː/",
     "zh": "洗发水",
     "pinyin": "Xǐ fà shuǐ",
     "category": "daily",
@@ -11249,7 +11249,7 @@
   {
     "id": "daily-shower",
     "term": "Shower",
-    "ipa": "/ʃaʊər/",
+    "ipa": "/ʃˈaʊə/",
     "zh": "淋浴",
     "pinyin": "Lín yù",
     "category": "daily",
@@ -11263,7 +11263,7 @@
   {
     "id": "daily-bath",
     "term": "Bath",
-    "ipa": "/bæθ/",
+    "ipa": "/bˈɑːθ/",
     "zh": "洗澡",
     "pinyin": "Xǐ zǎo",
     "category": "daily",
@@ -11277,7 +11277,7 @@
   {
     "id": "daily-toilet",
     "term": "Toilet",
-    "ipa": "/ˈtɔɪlət/",
+    "ipa": "/tˈɔɪlɪt/",
     "zh": "厕所",
     "pinyin": "Cè suǒ",
     "category": "daily",
@@ -11291,7 +11291,7 @@
   {
     "id": "daily-paper",
     "term": "Paper",
-    "ipa": "/ˈpeɪpər/",
+    "ipa": "/pˈeɪpə/",
     "zh": "纸",
     "pinyin": "Zhǐ",
     "category": "daily",
@@ -11305,7 +11305,7 @@
   {
     "id": "daily-pen",
     "term": "Pen",
-    "ipa": "/pɛn/",
+    "ipa": "/pˈɛn/",
     "zh": "钢笔",
     "pinyin": "Gāng bǐ",
     "category": "daily",
@@ -11319,7 +11319,7 @@
   {
     "id": "daily-pencil",
     "term": "Pencil",
-    "ipa": "/ˈpɛnsəl/",
+    "ipa": "/pˈɛnsəl/",
     "zh": "铅笔",
     "pinyin": "Qiān bǐ",
     "category": "daily",
@@ -11333,7 +11333,7 @@
   {
     "id": "daily-eraser",
     "term": "Eraser",
-    "ipa": "/ɪˈreɪsər/",
+    "ipa": "/ɪˈreɪzə/",
     "zh": "橡皮",
     "pinyin": "Xiàng pí",
     "category": "daily",
@@ -11347,7 +11347,7 @@
   {
     "id": "daily-ruler",
     "term": "Ruler",
-    "ipa": "/ˈrulər/",
+    "ipa": "/ɹˈuːlə/",
     "zh": "尺子",
     "pinyin": "Chǐ zi",
     "category": "daily",
@@ -11361,7 +11361,7 @@
   {
     "id": "daily-bag",
     "term": "Bag",
-    "ipa": "/bæg/",
+    "ipa": "/bˈæg/",
     "zh": "包",
     "pinyin": "Bāo",
     "category": "daily",
@@ -11375,7 +11375,7 @@
   {
     "id": "daily-box",
     "term": "Box",
-    "ipa": "/bɑks/",
+    "ipa": "/bˈɒks/",
     "zh": "盒子",
     "pinyin": "Hé zi",
     "category": "daily",
@@ -11389,7 +11389,7 @@
   {
     "id": "daily-book",
     "term": "Book",
-    "ipa": "/bʊk/",
+    "ipa": "/bˈʊk/",
     "zh": "书",
     "pinyin": "Shū",
     "category": "daily",
@@ -11403,7 +11403,7 @@
   {
     "id": "daily-magazine",
     "term": "Magazine",
-    "ipa": "/ˈmægəˌzin/",
+    "ipa": "/mˈægəzˌiːn/",
     "zh": "杂志",
     "pinyin": "Zhì zhì",
     "category": "daily",
@@ -11417,7 +11417,7 @@
   {
     "id": "daily-newspaper",
     "term": "Newspaper",
-    "ipa": "/ˈnuzˌpeɪpər/",
+    "ipa": "/njˈuːzpˌeɪpə/",
     "zh": "报纸",
     "pinyin": "Bào zhǐ",
     "category": "daily",
@@ -11431,7 +11431,7 @@
   {
     "id": "daily-picture",
     "term": "Picture",
-    "ipa": "/ˈpɪkʧər/",
+    "ipa": "/pˈɪktʃə/",
     "zh": "图片",
     "pinyin": "Tú piàn",
     "category": "daily",
@@ -11445,7 +11445,7 @@
   {
     "id": "daily-photo",
     "term": "Photo",
-    "ipa": "/ˈfoʊˌtoʊ/",
+    "ipa": "/fˈəʊtˌəʊ/",
     "zh": "照片",
     "pinyin": "Zhào piàn",
     "category": "daily",
@@ -11459,7 +11459,7 @@
   {
     "id": "daily-camera",
     "term": "Camera",
-    "ipa": "/ˈkæmərə/",
+    "ipa": "/kˈæmɹə/",
     "zh": "相机",
     "pinyin": "Xiàng jī",
     "category": "daily",
@@ -11473,7 +11473,7 @@
   {
     "id": "daily-phone",
     "term": "Phone",
-    "ipa": "/foʊn/",
+    "ipa": "/fˈəʊn/",
     "zh": "电话",
     "pinyin": "Diàn huà",
     "category": "daily",
@@ -11487,7 +11487,7 @@
   {
     "id": "daily-mobile",
     "term": "Mobile",
-    "ipa": "/ˈmoʊbəl/",
+    "ipa": "/mˈəʊbaɪl/",
     "zh": "手机",
     "pinyin": "Shǒu jī",
     "category": "daily",
@@ -11501,7 +11501,7 @@
   {
     "id": "daily-app",
     "term": "App",
-    "ipa": "/æp/",
+    "ipa": "/ˈæp/",
     "zh": "应用",
     "pinyin": "Yìng yòng",
     "category": "daily",
@@ -11515,7 +11515,7 @@
   {
     "id": "daily-game",
     "term": "Game",
-    "ipa": "/geɪm/",
+    "ipa": "/gˈeɪm/",
     "zh": "游戏",
     "pinyin": "Yóu xì",
     "category": "daily",
@@ -11529,7 +11529,7 @@
   {
     "id": "daily-music",
     "term": "Music",
-    "ipa": "/mˈjuzɪk/",
+    "ipa": "/mjˈuːzɪk/",
     "zh": "音乐",
     "pinyin": "Yīn yuè",
     "category": "daily",
@@ -11543,7 +11543,7 @@
   {
     "id": "daily-song",
     "term": "Song",
-    "ipa": "/sɔŋ/",
+    "ipa": "/sˈɒŋ/",
     "zh": "歌",
     "pinyin": "Gē",
     "category": "daily",
@@ -11557,7 +11557,7 @@
   {
     "id": "daily-movie",
     "term": "Movie",
-    "ipa": "/ˈmuvi/",
+    "ipa": "/mˈuːvi/",
     "zh": "电影",
     "pinyin": "Diàn yǐng",
     "category": "daily",
@@ -11571,7 +11571,7 @@
   {
     "id": "daily-show-2",
     "term": "Show",
-    "ipa": "/ʃoʊ/",
+    "ipa": "/ʃˈəʊ/",
     "zh": "节目",
     "pinyin": "Jié mù",
     "category": "daily",
@@ -11585,7 +11585,7 @@
   {
     "id": "daily-news",
     "term": "News",
-    "ipa": "/nuz/",
+    "ipa": "/njˈuːz/",
     "zh": "新闻",
     "pinyin": "Xīn wén",
     "category": "daily",
@@ -11599,7 +11599,7 @@
   {
     "id": "daily-radio",
     "term": "Radio",
-    "ipa": "/ˈreɪdiˌoʊ/",
+    "ipa": "/ɹˈeɪdɪˌəʊ/",
     "zh": "广播",
     "pinyin": "Guǎng bō",
     "category": "daily",
@@ -11627,7 +11627,7 @@
   {
     "id": "daily-screen",
     "term": "Screen",
-    "ipa": "/skrin/",
+    "ipa": "/skɹˈiːn/",
     "zh": "屏幕",
     "pinyin": "Píng mù",
     "category": "daily",
@@ -11641,7 +11641,7 @@
   {
     "id": "daily-button",
     "term": "Button",
-    "ipa": "/ˈbətən/",
+    "ipa": "/bˈɐtən/",
     "zh": "按钮",
     "pinyin": "àn niǔ",
     "category": "daily",
@@ -11655,7 +11655,7 @@
   {
     "id": "daily-battery-2",
     "term": "Battery",
-    "ipa": "/ˈbætəri/",
+    "ipa": "/bˈætəɹi/",
     "zh": "电池",
     "pinyin": "Diàn chí",
     "category": "daily",
@@ -11669,7 +11669,7 @@
   {
     "id": "daily-charge",
     "term": "Charge",
-    "ipa": "/ʧɑrʤ/",
+    "ipa": "/tʃˈɑːdʒ/",
     "zh": "充电",
     "pinyin": "Chōng diàn",
     "category": "daily",
@@ -11683,7 +11683,7 @@
   {
     "id": "daily-power",
     "term": "Power",
-    "ipa": "/paʊər/",
+    "ipa": "/ˈpaʊə/",
     "zh": "电量",
     "pinyin": "Diàn liàng",
     "category": "daily",
@@ -11697,7 +11697,7 @@
   {
     "id": "daily-signal-2",
     "term": "Signal",
-    "ipa": "/ˈsɪgnəl/",
+    "ipa": "/sˈɪgnəl/",
     "zh": "信号",
     "pinyin": "Xìn hào",
     "category": "daily",
@@ -11711,7 +11711,7 @@
   {
     "id": "daily-message",
     "term": "Message",
-    "ipa": "/ˈmɛsɪʤ/",
+    "ipa": "/mˈɛsɪdʒ/",
     "zh": "消息",
     "pinyin": "Xiāo xī",
     "category": "daily",
@@ -11725,7 +11725,7 @@
   {
     "id": "daily-call",
     "term": "Call",
-    "ipa": "/kɔl/",
+    "ipa": "/kˈɔːl/",
     "zh": "通话",
     "pinyin": "Tōng huà",
     "category": "daily",
@@ -11739,7 +11739,7 @@
   {
     "id": "daily-video",
     "term": "Video",
-    "ipa": "/ˈvɪdioʊ/",
+    "ipa": "/vˈɪdɪəʊ/",
     "zh": "视频",
     "pinyin": "Shì pín",
     "category": "daily",
@@ -11753,7 +11753,7 @@
   {
     "id": "daily-voice",
     "term": "Voice",
-    "ipa": "/vɔɪs/",
+    "ipa": "/vˈɔɪs/",
     "zh": "语音",
     "pinyin": "Yǔ yīn",
     "category": "daily",
@@ -11767,7 +11767,7 @@
   {
     "id": "daily-text",
     "term": "Text",
-    "ipa": "/tɛkst/",
+    "ipa": "/tˈɛkst/",
     "zh": "文字",
     "pinyin": "Wén zì",
     "category": "daily",
@@ -11781,7 +11781,7 @@
   {
     "id": "daily-chat",
     "term": "Chat",
-    "ipa": "/ʧæt/",
+    "ipa": "/tʃˈæt/",
     "zh": "聊天",
     "pinyin": "Liáo tiān",
     "category": "daily",
@@ -11795,7 +11795,7 @@
   {
     "id": "daily-social-media",
     "term": "Social Media",
-    "ipa": "/ˈsoʊʃəl ˈmidiə/",
+    "ipa": "/sˈəʊʃəl mˈiːdɪə/",
     "zh": "社交媒体",
     "pinyin": "Shè jiāo méi tǐ",
     "category": "daily",
@@ -11809,7 +11809,7 @@
   {
     "id": "daily-friend",
     "term": "Friend",
-    "ipa": "/frɛnd/",
+    "ipa": "/fɹˈɛnd/",
     "zh": "朋友",
     "pinyin": "Péng you",
     "category": "daily",
@@ -11823,7 +11823,7 @@
   {
     "id": "daily-family",
     "term": "Family",
-    "ipa": "/ˈfæməli/",
+    "ipa": "/fˈæmli/",
     "zh": "家庭",
     "pinyin": "Jiā tíng",
     "category": "daily",
@@ -11837,7 +11837,7 @@
   {
     "id": "daily-parent",
     "term": "Parent",
-    "ipa": "/ˈpɛrənt/",
+    "ipa": "/pˈɛəɹənt/",
     "zh": "父母",
     "pinyin": "Fù mǔ",
     "category": "daily",
@@ -11851,7 +11851,7 @@
   {
     "id": "daily-child",
     "term": "Child",
-    "ipa": "/ʧaɪld/",
+    "ipa": "/tʃˈaɪld/",
     "zh": "孩子",
     "pinyin": "Hái zi",
     "category": "daily",
@@ -11865,7 +11865,7 @@
   {
     "id": "daily-brother",
     "term": "Brother",
-    "ipa": "/ˈbrəðər/",
+    "ipa": "/bɹˈɐðə/",
     "zh": "兄弟",
     "pinyin": "Xiōng dì",
     "category": "daily",
@@ -11879,7 +11879,7 @@
   {
     "id": "daily-sister",
     "term": "Sister",
-    "ipa": "/ˈsɪstər/",
+    "ipa": "/sˈɪstə/",
     "zh": "姐妹",
     "pinyin": "Jiě mèi",
     "category": "daily",
@@ -11893,7 +11893,7 @@
   {
     "id": "daily-relative",
     "term": "Relative",
-    "ipa": "/ˈrɛlətɪv/",
+    "ipa": "/ɹˈɛlətɪv/",
     "zh": "亲戚",
     "pinyin": "Qīn qi",
     "category": "daily",
@@ -11907,7 +11907,7 @@
   {
     "id": "daily-neighbor",
     "term": "Neighbor",
-    "ipa": "/ˈneɪbər/",
+    "ipa": "/nˈeɪbə/",
     "zh": "邻居",
     "pinyin": "Lín jū",
     "category": "daily",
@@ -11921,7 +11921,7 @@
   {
     "id": "daily-stranger",
     "term": "Stranger",
-    "ipa": "/ˈstreɪnʤər/",
+    "ipa": "/stɹˈeɪndʒə/",
     "zh": "陌生人",
     "pinyin": "Mò shēng rén",
     "category": "daily",
@@ -11935,7 +11935,7 @@
   {
     "id": "daily-people",
     "term": "People",
-    "ipa": "/ˈpipəl/",
+    "ipa": "/pˈiːpəl/",
     "zh": "人们",
     "pinyin": "Rén men",
     "category": "daily",
@@ -11949,7 +11949,7 @@
   {
     "id": "daily-person",
     "term": "Person",
-    "ipa": "/ˈpərsən/",
+    "ipa": "/pˈɜːsən/",
     "zh": "人",
     "pinyin": "Rén",
     "category": "daily",
@@ -11963,7 +11963,7 @@
   {
     "id": "daily-man",
     "term": "Man",
-    "ipa": "/mæn/",
+    "ipa": "/mˈæn/",
     "zh": "男人",
     "pinyin": "Nán rén",
     "category": "daily",
@@ -11977,7 +11977,7 @@
   {
     "id": "daily-woman",
     "term": "Woman",
-    "ipa": "/ˈwʊmən/",
+    "ipa": "/wˈʊmən/",
     "zh": "女人",
     "pinyin": "Nǚ rén",
     "category": "daily",
@@ -11991,7 +11991,7 @@
   {
     "id": "daily-boy",
     "term": "Boy",
-    "ipa": "/bɔɪ/",
+    "ipa": "/bˈɔɪ/",
     "zh": "男孩",
     "pinyin": "Nán hái",
     "category": "daily",
@@ -12005,7 +12005,7 @@
   {
     "id": "daily-girl",
     "term": "Girl",
-    "ipa": "/gərl/",
+    "ipa": "/gˈɜːl/",
     "zh": "女孩",
     "pinyin": "Nǚ hái",
     "category": "daily",
@@ -12019,7 +12019,7 @@
   {
     "id": "daily-baby",
     "term": "Baby",
-    "ipa": "/ˈbeɪbi/",
+    "ipa": "/bˈeɪbi/",
     "zh": "婴儿",
     "pinyin": "Yīng ér",
     "category": "daily",
@@ -12033,7 +12033,7 @@
   {
     "id": "daily-adult",
     "term": "Adult",
-    "ipa": "/ˈædəlt/",
+    "ipa": "/ədˈɐlt/",
     "zh": "成年人",
     "pinyin": "Chéng nián rén",
     "category": "daily",
@@ -12047,7 +12047,7 @@
   {
     "id": "daily-kid",
     "term": "Kid",
-    "ipa": "/kɪd/",
+    "ipa": "/kˈɪd/",
     "zh": "小孩",
     "pinyin": "Xiǎo hái",
     "category": "daily",
@@ -12061,7 +12061,7 @@
   {
     "id": "daily-young",
     "term": "Young",
-    "ipa": "/jəŋ/",
+    "ipa": "/jˈɐŋ/",
     "zh": "年轻",
     "pinyin": "Nián qīng",
     "category": "daily",
@@ -12075,7 +12075,7 @@
   {
     "id": "daily-old",
     "term": "Old",
-    "ipa": "/oʊld/",
+    "ipa": "/ˈəʊld/",
     "zh": "年老",
     "pinyin": "Nián lǎo",
     "category": "daily",
@@ -12089,7 +12089,7 @@
   {
     "id": "daily-height",
     "term": "Height",
-    "ipa": "/haɪt/",
+    "ipa": "/hˈaɪt/",
     "zh": "身高",
     "pinyin": "Shēn gāo",
     "category": "daily",
@@ -12103,7 +12103,7 @@
   {
     "id": "daily-weight",
     "term": "Weight",
-    "ipa": "/weɪt/",
+    "ipa": "/wˈeɪt/",
     "zh": "体重",
     "pinyin": "Tǐ zhòng",
     "category": "daily",
@@ -12117,7 +12117,7 @@
   {
     "id": "daily-appearance",
     "term": "Appearance",
-    "ipa": "/əˈpɪrəns/",
+    "ipa": "/əpˈɪəɹəns/",
     "zh": "外貌",
     "pinyin": "Wài mào",
     "category": "daily",
@@ -12131,7 +12131,7 @@
   {
     "id": "daily-character",
     "term": "Character",
-    "ipa": "/ˈkɛrɪktər/",
+    "ipa": "/kˈæɹɪktə/",
     "zh": "性格",
     "pinyin": "Xìng gé",
     "category": "daily",
@@ -12145,7 +12145,7 @@
   {
     "id": "daily-hobby",
     "term": "Hobby",
-    "ipa": "/ˈhɑbi/",
+    "ipa": "/hˈɒbi/",
     "zh": "爱好",
     "pinyin": "Ài hǎo",
     "category": "daily",
@@ -12159,7 +12159,7 @@
   {
     "id": "daily-interest",
     "term": "Interest",
-    "ipa": "/ˈɪntəˌrɛst/",
+    "ipa": "/ˈɪntɹɪst/",
     "zh": "兴趣",
     "pinyin": "Xìng qù",
     "category": "daily",
@@ -12173,7 +12173,7 @@
   {
     "id": "daily-sport",
     "term": "Sport",
-    "ipa": "/spɔrt/",
+    "ipa": "/spˈɔːt/",
     "zh": "运动",
     "pinyin": "Yùn dòng",
     "category": "daily",
@@ -12187,7 +12187,7 @@
   {
     "id": "daily-game-2",
     "term": "Game",
-    "ipa": "/geɪm/",
+    "ipa": "/gˈeɪm/",
     "zh": "游戏",
     "pinyin": "Yóu xì",
     "category": "daily",
@@ -12201,7 +12201,7 @@
   {
     "id": "daily-reading",
     "term": "Reading",
-    "ipa": "/ˈrɛdɪŋ/",
+    "ipa": "/ɹˈiːdɪŋ/",
     "zh": "阅读",
     "pinyin": "Yuè dú",
     "category": "daily",
@@ -12215,7 +12215,7 @@
   {
     "id": "daily-writing",
     "term": "Writing",
-    "ipa": "/ˈraɪtɪŋ/",
+    "ipa": "/ɹˈaɪtɪŋ/",
     "zh": "写作",
     "pinyin": "Xiě zuò",
     "category": "daily",
@@ -12229,7 +12229,7 @@
   {
     "id": "daily-drawing",
     "term": "Drawing",
-    "ipa": "/drɔɪŋ/",
+    "ipa": "/dɹˈɔːɪŋ/",
     "zh": "画画",
     "pinyin": "Huà huà",
     "category": "daily",
@@ -12243,7 +12243,7 @@
   {
     "id": "daily-singing",
     "term": "Singing",
-    "ipa": "/ˈsɪŋɪŋ/",
+    "ipa": "/sˈɪŋɪŋ/",
     "zh": "唱歌",
     "pinyin": "Chàng gē",
     "category": "daily",
@@ -12257,7 +12257,7 @@
   {
     "id": "daily-dancing",
     "term": "Dancing",
-    "ipa": "/ˈdænsɪŋ/",
+    "ipa": "/dˈɑːnsɪŋ/",
     "zh": "跳舞",
     "pinyin": "Tiào wǔ",
     "category": "daily",
@@ -12271,7 +12271,7 @@
   {
     "id": "daily-cooking",
     "term": "Cooking",
-    "ipa": "/ˈkʊkɪŋ/",
+    "ipa": "/kˈʊkɪŋ/",
     "zh": "做饭",
     "pinyin": "Zuò fàn",
     "category": "daily",
@@ -12285,7 +12285,7 @@
   {
     "id": "daily-gardening",
     "term": "Gardening",
-    "ipa": "/ˈgɑrdənɪŋ/",
+    "ipa": "/gˈɑːdnɪŋ/",
     "zh": "园艺",
     "pinyin": "Yuán yì",
     "category": "daily",
@@ -12299,7 +12299,7 @@
   {
     "id": "daily-photography",
     "term": "Photography",
-    "ipa": "/fəˈtɑgrəfi/",
+    "ipa": "/fətˈɒgɹəfi/",
     "zh": "摄影",
     "pinyin": "Shè yǐng",
     "category": "daily",
@@ -12313,7 +12313,7 @@
   {
     "id": "daily-traveling",
     "term": "Traveling",
-    "ipa": "/ˈtrævəlɪŋ/",
+    "ipa": "/tɹˈævəlɪŋ/",
     "zh": "旅行",
     "pinyin": "Lǚ xíng",
     "category": "daily",
@@ -12327,7 +12327,7 @@
   {
     "id": "daily-fishing",
     "term": "Fishing",
-    "ipa": "/ˈfɪʃɪŋ/",
+    "ipa": "/fˈɪʃɪŋ/",
     "zh": "钓鱼",
     "pinyin": "Diào yú",
     "category": "daily",
@@ -12341,7 +12341,7 @@
   {
     "id": "daily-shopping",
     "term": "Shopping",
-    "ipa": "/ˈʃɑpɪŋ/",
+    "ipa": "/ʃˈɒpɪŋ/",
     "zh": "购物",
     "pinyin": "Gòu wù",
     "category": "daily",
@@ -12355,7 +12355,7 @@
   {
     "id": "daily-movie-2",
     "term": "Movie",
-    "ipa": "/ˈmuvi/",
+    "ipa": "/mˈuːvi/",
     "zh": "电影",
     "pinyin": "Diàn yǐng",
     "category": "daily",
@@ -12369,7 +12369,7 @@
   {
     "id": "daily-concert",
     "term": "Concert",
-    "ipa": "/ˈkɑnsərt/",
+    "ipa": "/kˈɒnsət/",
     "zh": "演唱会",
     "pinyin": "Yǎn chàng huì",
     "category": "daily",
@@ -12383,7 +12383,7 @@
   {
     "id": "daily-show-3",
     "term": "Show",
-    "ipa": "/ʃoʊ/",
+    "ipa": "/ʃˈəʊ/",
     "zh": "表演",
     "pinyin": "Biǎo yǎn",
     "category": "daily",
@@ -12397,7 +12397,7 @@
   {
     "id": "daily-park-2",
     "term": "Park",
-    "ipa": "/pɑrk/",
+    "ipa": "/pˈɑːk/",
     "zh": "公园",
     "pinyin": "Gōng yuán",
     "category": "daily",
@@ -12411,7 +12411,7 @@
   {
     "id": "daily-zoo",
     "term": "Zoo",
-    "ipa": "/zu/",
+    "ipa": "/zˈuː/",
     "zh": "动物园",
     "pinyin": "Dòng wù yuán",
     "category": "daily",
@@ -12425,7 +12425,7 @@
   {
     "id": "daily-library",
     "term": "Library",
-    "ipa": "/ˈlaɪbrɛˌri/",
+    "ipa": "/lˈaɪbɹəɹi/",
     "zh": "图书馆",
     "pinyin": "Tú shū guǎn",
     "category": "daily",
@@ -12439,7 +12439,7 @@
   {
     "id": "daily-museum",
     "term": "Museum",
-    "ipa": "/mˈjuziəm/",
+    "ipa": "/mjuːzˈɪəm/",
     "zh": "博物馆",
     "pinyin": "Bó wù guǎn",
     "category": "daily",
@@ -12453,7 +12453,7 @@
   {
     "id": "daily-gym",
     "term": "Gym",
-    "ipa": "/ʤɪm/",
+    "ipa": "/dʒˈɪm/",
     "zh": "健身房",
     "pinyin": "Jiàn shēn fáng",
     "category": "daily",
@@ -12467,7 +12467,7 @@
   {
     "id": "daily-store",
     "term": "Store",
-    "ipa": "/stɔr/",
+    "ipa": "/stˈɔː/",
     "zh": "商店",
     "pinyin": "Shāng diàn",
     "category": "daily",
@@ -12481,7 +12481,7 @@
   {
     "id": "daily-mall",
     "term": "Mall",
-    "ipa": "/mɔl/",
+    "ipa": "/mˈɔːl/",
     "zh": "商场",
     "pinyin": "Shāng chǎng",
     "category": "daily",
@@ -12495,7 +12495,7 @@
   {
     "id": "daily-market-2",
     "term": "Market",
-    "ipa": "/ˈmɑrkɪt/",
+    "ipa": "/mˈɑːkɪt/",
     "zh": "市场",
     "pinyin": "Shì chǎng",
     "category": "daily",
@@ -12509,7 +12509,7 @@
   {
     "id": "daily-shop",
     "term": "Shop",
-    "ipa": "/ʃɑp/",
+    "ipa": "/ʃˈɒp/",
     "zh": "购物",
     "pinyin": "Gòu wù",
     "category": "daily",
@@ -12523,7 +12523,7 @@
   {
     "id": "daily-buy",
     "term": "Buy",
-    "ipa": "/baɪ/",
+    "ipa": "/bˈaɪ/",
     "zh": "买",
     "pinyin": "Mǎi",
     "category": "daily",
@@ -12537,7 +12537,7 @@
   {
     "id": "daily-sell",
     "term": "Sell",
-    "ipa": "/sɛl/",
+    "ipa": "/sˈɛl/",
     "zh": "卖",
     "pinyin": "Mài",
     "category": "daily",
@@ -12551,7 +12551,7 @@
   {
     "id": "daily-price",
     "term": "Price",
-    "ipa": "/praɪs/",
+    "ipa": "/pɹˈaɪs/",
     "zh": "价格",
     "pinyin": "Jià gé",
     "category": "daily",
@@ -12565,7 +12565,7 @@
   {
     "id": "daily-cheap",
     "term": "Cheap",
-    "ipa": "/ʧip/",
+    "ipa": "/tʃˈiːp/",
     "zh": "便宜",
     "pinyin": "Pián yi",
     "category": "daily",
@@ -12579,7 +12579,7 @@
   {
     "id": "daily-expensive",
     "term": "Expensive",
-    "ipa": "/ɪkˈspɛnsɪv/",
+    "ipa": "/ɪkspˈɛnsɪv/",
     "zh": "昂贵",
     "pinyin": "Áng guì",
     "category": "daily",
@@ -12593,7 +12593,7 @@
   {
     "id": "daily-discount",
     "term": "Discount",
-    "ipa": "/ˈdɪskaʊnt/",
+    "ipa": "/dˈɪskaʊnt/",
     "zh": "折扣",
     "pinyin": "Zhé kòu",
     "category": "daily",
@@ -12607,7 +12607,7 @@
   {
     "id": "daily-sale",
     "term": "Sale",
-    "ipa": "/seɪl/",
+    "ipa": "/sˈeɪl/",
     "zh": "促销",
     "pinyin": "Cù xiāo",
     "category": "daily",
@@ -12621,7 +12621,7 @@
   {
     "id": "daily-bill",
     "term": "Bill",
-    "ipa": "/bɪl/",
+    "ipa": "/bˈɪl/",
     "zh": "账单",
     "pinyin": "Zhàng dān",
     "category": "daily",
@@ -12635,7 +12635,7 @@
   {
     "id": "daily-cashier",
     "term": "Cashier",
-    "ipa": "/kæˈʃɪr/",
+    "ipa": "/kæˈʃɪə/",
     "zh": "收银员",
     "pinyin": "Shōu yín yuán",
     "category": "daily",
@@ -12649,7 +12649,7 @@
   {
     "id": "daily-bag-2",
     "term": "Bag",
-    "ipa": "/bæg/",
+    "ipa": "/bˈæg/",
     "zh": "购物袋",
     "pinyin": "Gòu wù dài",
     "category": "daily",
@@ -12663,7 +12663,7 @@
   {
     "id": "daily-receipt-2",
     "term": "Receipt",
-    "ipa": "/rɪˈsit/",
+    "ipa": "/ɹɪsˈiːt/",
     "zh": "小票",
     "pinyin": "Xiǎo piào",
     "category": "daily",
@@ -12677,7 +12677,7 @@
   {
     "id": "daily-size-2",
     "term": "Size",
-    "ipa": "/saɪz/",
+    "ipa": "/sˈaɪz/",
     "zh": "尺码",
     "pinyin": "Chǐ mǎ",
     "category": "daily",
@@ -12691,7 +12691,7 @@
   {
     "id": "daily-color-2",
     "term": "Color",
-    "ipa": "/ˈkələr/",
+    "ipa": "/kˈɐlə/",
     "zh": "颜色",
     "pinyin": "Yán sè",
     "category": "daily",
@@ -12705,7 +12705,7 @@
   {
     "id": "daily-style",
     "term": "Style",
-    "ipa": "/staɪl/",
+    "ipa": "/stˈaɪl/",
     "zh": "款式",
     "pinyin": "Kuǎn shì",
     "category": "daily",
@@ -12719,7 +12719,7 @@
   {
     "id": "office-quality-2",
     "term": "Quality",
-    "ipa": "/kˈwɑləti/",
+    "ipa": "/kwˈɒlɪti/",
     "zh": "质量",
     "pinyin": "Zhì liàng",
     "category": "office",
@@ -12733,7 +12733,7 @@
   {
     "id": "daily-brand",
     "term": "Brand",
-    "ipa": "/brænd/",
+    "ipa": "/bɹˈænd/",
     "zh": "品牌",
     "pinyin": "Pǐn pái",
     "category": "daily",
@@ -12747,7 +12747,7 @@
   {
     "id": "daily-model",
     "term": "Model",
-    "ipa": "/ˈmɑdəl/",
+    "ipa": "/mˈɒdəl/",
     "zh": "型号",
     "pinyin": "Xíng hào",
     "category": "daily",
@@ -12761,7 +12761,7 @@
   {
     "id": "daily-new",
     "term": "New",
-    "ipa": "/nu/",
+    "ipa": "/njˈuː/",
     "zh": "新的",
     "pinyin": "Xīn de",
     "category": "daily",
@@ -12775,7 +12775,7 @@
   {
     "id": "daily-old-2",
     "term": "Old",
-    "ipa": "/oʊld/",
+    "ipa": "/ˈəʊld/",
     "zh": "旧的",
     "pinyin": "Jiù de",
     "category": "daily",
@@ -12789,7 +12789,7 @@
   {
     "id": "daily-good",
     "term": "Good",
-    "ipa": "/gʊd/",
+    "ipa": "/gˈʊd/",
     "zh": "好的",
     "pinyin": "Hǎo de",
     "category": "daily",
@@ -12803,7 +12803,7 @@
   {
     "id": "daily-bad",
     "term": "Bad",
-    "ipa": "/bæd/",
+    "ipa": "/bˈæd/",
     "zh": "坏的",
     "pinyin": "Huài de",
     "category": "daily",
@@ -12817,7 +12817,7 @@
   {
     "id": "daily-big",
     "term": "Big",
-    "ipa": "/bɪg/",
+    "ipa": "/bˈɪg/",
     "zh": "大的",
     "pinyin": "Dà de",
     "category": "daily",
@@ -12831,7 +12831,7 @@
   {
     "id": "daily-small",
     "term": "Small",
-    "ipa": "/smɔl/",
+    "ipa": "/smˈɔːl/",
     "zh": "小的",
     "pinyin": "Xiǎo de",
     "category": "daily",
@@ -12845,7 +12845,7 @@
   {
     "id": "daily-long",
     "term": "Long",
-    "ipa": "/lɔŋ/",
+    "ipa": "/lˈɒŋ/",
     "zh": "长的",
     "pinyin": "Cháng de",
     "category": "daily",
@@ -12859,7 +12859,7 @@
   {
     "id": "daily-short",
     "term": "Short",
-    "ipa": "/ʃɔrt/",
+    "ipa": "/ʃˈɔːt/",
     "zh": "短的",
     "pinyin": "Duǎn de",
     "category": "daily",
@@ -12873,7 +12873,7 @@
   {
     "id": "daily-high",
     "term": "High",
-    "ipa": "/haɪ/",
+    "ipa": "/hˈaɪ/",
     "zh": "高的",
     "pinyin": "Gāo de",
     "category": "daily",
@@ -12887,7 +12887,7 @@
   {
     "id": "daily-low",
     "term": "Low",
-    "ipa": "/loʊ/",
+    "ipa": "/lˈəʊ/",
     "zh": "低的",
     "pinyin": "Dī de",
     "category": "daily",
@@ -12901,7 +12901,7 @@
   {
     "id": "daily-wide",
     "term": "Wide",
-    "ipa": "/waɪd/",
+    "ipa": "/wˈaɪd/",
     "zh": "宽的",
     "pinyin": "Kuān de",
     "category": "daily",
@@ -12915,7 +12915,7 @@
   {
     "id": "daily-narrow",
     "term": "Narrow",
-    "ipa": "/ˈnɛroʊ/",
+    "ipa": "/nˈæɹəʊ/",
     "zh": "窄的",
     "pinyin": "Zhǎi de",
     "category": "daily",
@@ -12929,7 +12929,7 @@
   {
     "id": "daily-thick",
     "term": "Thick",
-    "ipa": "/θɪk/",
+    "ipa": "/θˈɪk/",
     "zh": "厚的",
     "pinyin": "Hòu de",
     "category": "daily",
@@ -12943,7 +12943,7 @@
   {
     "id": "daily-thin",
     "term": "Thin",
-    "ipa": "/θɪn/",
+    "ipa": "/θˈɪn/",
     "zh": "薄的",
     "pinyin": "Báo de",
     "category": "daily",
@@ -12957,7 +12957,7 @@
   {
     "id": "daily-full",
     "term": "Full",
-    "ipa": "/fʊl/",
+    "ipa": "/fˈʊl/",
     "zh": "满的",
     "pinyin": "Mǎn de",
     "category": "daily",
@@ -12971,7 +12971,7 @@
   {
     "id": "daily-empty",
     "term": "Empty",
-    "ipa": "/ˈɛmti/",
+    "ipa": "/ˈɛmpti/",
     "zh": "空的",
     "pinyin": "Kōng de",
     "category": "daily",
@@ -12985,7 +12985,7 @@
   {
     "id": "daily-clean-2",
     "term": "Clean",
-    "ipa": "/klin/",
+    "ipa": "/klˈiːn/",
     "zh": "干净的",
     "pinyin": "Gān jìng de",
     "category": "daily",
@@ -12999,7 +12999,7 @@
   {
     "id": "daily-dirty",
     "term": "Dirty",
-    "ipa": "/ˈdərti/",
+    "ipa": "/dˈɜːti/",
     "zh": "脏的",
     "pinyin": "Zāng de",
     "category": "daily",
@@ -13013,7 +13013,7 @@
   {
     "id": "daily-fast",
     "term": "Fast",
-    "ipa": "/fæst/",
+    "ipa": "/fˈɑːst/",
     "zh": "快的",
     "pinyin": "Kuài de",
     "category": "daily",
@@ -13027,7 +13027,7 @@
   {
     "id": "daily-slow-2",
     "term": "Slow",
-    "ipa": "/sloʊ/",
+    "ipa": "/slˈəʊ/",
     "zh": "慢的",
     "pinyin": "Màn de",
     "category": "daily",
@@ -13041,7 +13041,7 @@
   {
     "id": "daily-early-2",
     "term": "Early",
-    "ipa": "/ˈərli/",
+    "ipa": "/ˈɜːli/",
     "zh": "早的",
     "pinyin": "Zǎo de",
     "category": "daily",
@@ -13055,7 +13055,7 @@
   {
     "id": "daily-late-2",
     "term": "Late",
-    "ipa": "/leɪt/",
+    "ipa": "/lˈeɪt/",
     "zh": "晚的",
     "pinyin": "Wǎn de",
     "category": "daily",
@@ -13069,7 +13069,7 @@
   {
     "id": "daily-easy",
     "term": "Easy",
-    "ipa": "/ˈizi/",
+    "ipa": "/ˈiːzi/",
     "zh": "简单的",
     "pinyin": "Jiǎn dān de",
     "category": "daily",
@@ -13083,7 +13083,7 @@
   {
     "id": "daily-hard",
     "term": "Hard",
-    "ipa": "/hɑrd/",
+    "ipa": "/hˈɑːd/",
     "zh": "困难的",
     "pinyin": "Kùn nán de",
     "category": "daily",
@@ -13097,7 +13097,7 @@
   {
     "id": "daily-strong",
     "term": "Strong",
-    "ipa": "/strɔŋ/",
+    "ipa": "/stɹˈɒŋ/",
     "zh": "强壮的",
     "pinyin": "Qiáng zhuàng de",
     "category": "daily",
@@ -13111,7 +13111,7 @@
   {
     "id": "daily-weak",
     "term": "Weak",
-    "ipa": "/wik/",
+    "ipa": "/wˈiːk/",
     "zh": "虚弱的",
     "pinyin": "Xū ruò de",
     "category": "daily",
@@ -13125,7 +13125,7 @@
   {
     "id": "daily-busy",
     "term": "Busy",
-    "ipa": "/ˈbɪzi/",
+    "ipa": "/bˈɪzi/",
     "zh": "忙碌的",
     "pinyin": "Máng lù de",
     "category": "daily",
@@ -13139,7 +13139,7 @@
   {
     "id": "daily-free",
     "term": "Free",
-    "ipa": "/fri/",
+    "ipa": "/fɹˈiː/",
     "zh": "空闲的",
     "pinyin": "Kòng xián de",
     "category": "daily",
@@ -13153,7 +13153,7 @@
   {
     "id": "daily-right",
     "term": "Right",
-    "ipa": "/raɪt/",
+    "ipa": "/ɹˈaɪt/",
     "zh": "正确的",
     "pinyin": "Zhèng què de",
     "category": "daily",
@@ -13167,7 +13167,7 @@
   {
     "id": "daily-wrong",
     "term": "Wrong",
-    "ipa": "/rɔŋ/",
+    "ipa": "/ɹˈɒŋ/",
     "zh": "错误的",
     "pinyin": "Cuò wù de",
     "category": "daily",
@@ -13181,7 +13181,7 @@
   {
     "id": "technical-alternator-inspection",
     "term": "Alternator inspection",
-    "ipa": "/ˈɔltərˌneɪtər ɪnˈspekʃən/",
+    "ipa": "/ˈɔːltəneɪtə ɪnspˈɛkʃən/",
     "zh": "交流发电机检查",
     "pinyin": "Jiāo liú fā diàn jī jiǎn chá",
     "category": "technical",
@@ -13195,7 +13195,7 @@
   {
     "id": "technical-standby-power-inspection",
     "term": "Standby Power inspection",
-    "ipa": "/ˈstændˈbaɪ paʊər ɪnˈspekʃən/",
+    "ipa": "/ˈstændbaɪ ˈpaʊə ɪnspˈɛkʃən/",
     "zh": "备用功率检查",
     "pinyin": "Bèi yòng gōng lǜ jiǎn chá",
     "category": "technical",
@@ -13209,7 +13209,7 @@
   {
     "id": "technical-prime-power-inspection",
     "term": "Prime Power inspection",
-    "ipa": "/praɪm paʊər ɪnˈspekʃən/",
+    "ipa": "/pɹˈaɪm ˈpaʊə ɪnspˈɛkʃən/",
     "zh": "主用功率检查",
     "pinyin": "Zhǔ yòng gōng lǜ jiǎn chá",
     "category": "technical",
@@ -13223,7 +13223,7 @@
   {
     "id": "technical-control-panel-inspection",
     "term": "Control Panel inspection",
-    "ipa": "/kənˈtroʊl ˈpænəl ɪnˈspekʃən/",
+    "ipa": "/kəntɹˈəʊl pˈænəl ɪnspˈɛkʃən/",
     "zh": "控制面板检查",
     "pinyin": "Kòng zhì miàn bǎn jiǎn chá",
     "category": "technical",
@@ -13237,7 +13237,7 @@
   {
     "id": "technical-sound-attenuated-canopy-inspection",
     "term": "Sound Attenuated Canopy inspection",
-    "ipa": "/saʊnd əˈtɛnjuˌeɪtɪd ˈkænəpi ɪnˈspekʃən/",
+    "ipa": "/sˈaʊnd əˈtɛnjueɪtɪd kˈænəpi ɪnspˈɛkʃən/",
     "zh": "防音型静音箱检查",
     "pinyin": "Fáng yīn xíng jìng yīn xiāng jiǎn chá",
     "category": "technical",
@@ -13251,7 +13251,7 @@
   {
     "id": "technical-circuit-breaker-inspection",
     "term": "Circuit Breaker inspection",
-    "ipa": "/ˈsərkət ˈbreɪkər ɪnˈspekʃən/",
+    "ipa": "/sˈɜːkɪt ˈbreɪkə ɪnspˈɛkʃən/",
     "zh": "断路器检查",
     "pinyin": "Duàn lù qì jiǎn chá",
     "category": "technical",
@@ -13265,7 +13265,7 @@
   {
     "id": "technical-automatic-transfer-switch-inspection",
     "term": "Automatic Transfer Switch inspection",
-    "ipa": "/ˌɔtəˈmætɪk ˈtrænsfər swɪʧ ɪnˈspekʃən/",
+    "ipa": "/ˌɔːtəmˈætɪk tɹænsfˈɜː swˈɪtʃ ɪnspˈɛkʃən/",
     "zh": "自动转换开关检查",
     "pinyin": "Zì dòng zhuǎn huàn kāi guān jiǎn chá",
     "category": "technical",
@@ -13279,7 +13279,7 @@
   {
     "id": "technical-diesel-engine-inspection",
     "term": "Diesel Engine inspection",
-    "ipa": "/ˈdizəl ˈɪnʤən ɪnˈspekʃən/",
+    "ipa": "/dˈiːzəl ˈɛndʒɪn ɪnspˈɛkʃən/",
     "zh": "柴油发动机检查",
     "pinyin": "Chái yóu fā dòng jī jiǎn chá",
     "category": "technical",
@@ -13293,7 +13293,7 @@
   {
     "id": "technical-exhaust-silencer-inspection",
     "term": "Exhaust Silencer inspection",
-    "ipa": "/ɪgˈzɔst ˈsaɪlənˌsər ɪnˈspekʃən/",
+    "ipa": "/ɪgzˈɔːst ˈsaɪlənsə ɪnspˈɛkʃən/",
     "zh": "排气消音器检查",
     "pinyin": "Pái qì xiāo yīn qì jiǎn chá",
     "category": "technical",
@@ -13307,7 +13307,7 @@
   {
     "id": "technical-coolant-heater-inspection",
     "term": "Coolant Heater inspection",
-    "ipa": "/ˈkulənt ˈhitər ɪnˈspekʃən/",
+    "ipa": "/ˈkuːlənt hˈiːtə ɪnspˈɛkʃən/",
     "zh": "水套加热器检查",
     "pinyin": "Shuǐ tào jiā rè qì jiǎn chá",
     "category": "technical",
@@ -13321,7 +13321,7 @@
   {
     "id": "technical-voltage-regulator-inspection",
     "term": "Voltage Regulator inspection",
-    "ipa": "/ˈvoʊltɪʤ ˈrɛgjəˌleɪtər ɪnˈspekʃən/",
+    "ipa": "/vˈəʊltɪdʒ ˈrɛɡjʊleɪtə ɪnspˈɛkʃən/",
     "zh": "自动调压器检查",
     "pinyin": "Zì dòng tiáo yā qì jiǎn chá",
     "category": "technical",
@@ -13335,7 +13335,7 @@
   {
     "id": "technical-radiator-inspection",
     "term": "Radiator inspection",
-    "ipa": "/ˈreɪdiˌeɪtər ɪnˈspekʃən/",
+    "ipa": "/ɹˈeɪdɪˌeɪtə ɪnspˈɛkʃən/",
     "zh": "散热器水箱检查",
     "pinyin": "Sàn rè qì shuǐ xiāng jiǎn chá",
     "category": "technical",
@@ -13349,7 +13349,7 @@
   {
     "id": "technical-crankshaft-inspection",
     "term": "Crankshaft inspection",
-    "ipa": "/ˈkræŋkˌʃæft ɪnˈspekʃən/",
+    "ipa": "/ˈkræŋkʃɑːft ɪnspˈɛkʃən/",
     "zh": "曲轴检查",
     "pinyin": "Qū zhóu jiǎn chá",
     "category": "technical",
@@ -13363,7 +13363,7 @@
   {
     "id": "technical-turbocharger-inspection",
     "term": "Turbocharger inspection",
-    "ipa": "/turbocharger ɪnˈspekʃən/",
+    "ipa": "/ˈtɜːbəʊˌtʃɑːdʒə ɪnspˈɛkʃən/",
     "zh": "涡轮增压器检查",
     "pinyin": "Wō lún zēng yā qì jiǎn chá",
     "category": "technical",
@@ -13377,7 +13377,7 @@
   {
     "id": "technical-synchronous-inspection",
     "term": "Synchronous inspection",
-    "ipa": "/synchronous ɪnˈspekʃən/",
+    "ipa": "/ˈsɪŋkrənəs ɪnspˈɛkʃən/",
     "zh": "同步的检查",
     "pinyin": "Tóng bù de jiǎn chá",
     "category": "technical",
@@ -13391,7 +13391,7 @@
   {
     "id": "technical-three-phase-inspection",
     "term": "Three Phase inspection",
-    "ipa": "/θri feɪz ɪnˈspekʃən/",
+    "ipa": "/θɹˈiː fˈeɪz ɪnspˈɛkʃən/",
     "zh": "三相检查",
     "pinyin": "Sān xiàng jiǎn chá",
     "category": "technical",
@@ -13405,7 +13405,7 @@
   {
     "id": "technical-frequency-inspection",
     "term": "Frequency inspection",
-    "ipa": "/ˈfrikwənsi ɪnˈspekʃən/",
+    "ipa": "/fɹˈiːkwənsi ɪnspˈɛkʃən/",
     "zh": "频率检查",
     "pinyin": "Pín lǜ jiǎn chá",
     "category": "technical",
@@ -13419,7 +13419,7 @@
   {
     "id": "technical-contactor-inspection",
     "term": "Contactor inspection",
-    "ipa": "/contactor ɪnˈspekʃən/",
+    "ipa": "/kənˈtæktə ɪnspˈɛkʃən/",
     "zh": "接触器检查",
     "pinyin": "Jiē chù qì jiǎn chá",
     "category": "technical",
@@ -13433,7 +13433,7 @@
   {
     "id": "technical-power-factor-inspection",
     "term": "Power Factor inspection",
-    "ipa": "/paʊər ˈfæktər ɪnˈspekʃən/",
+    "ipa": "/ˈpaʊə fˈæktə ɪnspˈɛkʃən/",
     "zh": "功率因数检查",
     "pinyin": "Gōng lǜ yīn shù jiǎn chá",
     "category": "technical",
@@ -13447,7 +13447,7 @@
   {
     "id": "technical-emission-inspection",
     "term": "Emission inspection",
-    "ipa": "/ɪˈmɪʃən ɪnˈspekʃən/",
+    "ipa": "/ɪmˈɪʃən ɪnspˈɛkʃən/",
     "zh": "排放检查",
     "pinyin": "Pái fàng jiǎn chá",
     "category": "technical",
@@ -13461,7 +13461,7 @@
   {
     "id": "technical-fuel-tank-inspection",
     "term": "Fuel Tank inspection",
-    "ipa": "/fjuəl tæŋk ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl tˈæŋk ɪnspˈɛkʃən/",
     "zh": "燃油箱检查",
     "pinyin": "Rán yóu xiāng jiǎn chá",
     "category": "technical",
@@ -13475,7 +13475,7 @@
   {
     "id": "technical-lubrication-inspection",
     "term": "Lubrication inspection",
-    "ipa": "/ˌlubrɪˈkeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌluːbrɪˈkeɪʃən ɪnspˈɛkʃən/",
     "zh": "润滑检查",
     "pinyin": "Rùn huá jiǎn chá",
     "category": "technical",
@@ -13489,7 +13489,7 @@
   {
     "id": "technical-governor-inspection",
     "term": "Governor inspection",
-    "ipa": "/ˈgəvərnər ɪnˈspekʃən/",
+    "ipa": "/gˈɐvənə ɪnspˈɛkʃən/",
     "zh": "调速器检查",
     "pinyin": "Tiáo sù qì jiǎn chá",
     "category": "technical",
@@ -13503,7 +13503,7 @@
   {
     "id": "technical-stator-inspection",
     "term": "Stator inspection",
-    "ipa": "/stator ɪnˈspekʃən/",
+    "ipa": "/ˈsteɪtə ɪnspˈɛkʃən/",
     "zh": "定子检查",
     "pinyin": "Dìng zǐ jiǎn chá",
     "category": "technical",
@@ -13517,7 +13517,7 @@
   {
     "id": "technical-rotor-inspection",
     "term": "Rotor inspection",
-    "ipa": "/ˈroʊtər ɪnˈspekʃən/",
+    "ipa": "/ˈrəʊtə ɪnspˈɛkʃən/",
     "zh": "转子检查",
     "pinyin": "Zhuǎn zǐ jiǎn chá",
     "category": "technical",
@@ -13531,7 +13531,7 @@
   {
     "id": "technical-substation-inspection",
     "term": "Substation inspection",
-    "ipa": "/ˈsəbˌsteɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˈsʌbˌsteɪʃən ɪnspˈɛkʃən/",
     "zh": "变电站检查",
     "pinyin": "Biàn diàn zhàn jiǎn chá",
     "category": "technical",
@@ -13545,7 +13545,7 @@
   {
     "id": "technical-cogeneration-inspection",
     "term": "Cogeneration inspection",
-    "ipa": "/ˈkoʊˈʤɛnərˈeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌkəʊdʒɛnəˈreɪʃən ɪnspˈɛkʃən/",
     "zh": "热电联产检查",
     "pinyin": "Rè diàn lián chǎn jiǎn chá",
     "category": "technical",
@@ -13559,7 +13559,7 @@
   {
     "id": "technical-trigeneration-inspection",
     "term": "Trigeneration inspection",
-    "ipa": "/trigeneration ɪnˈspekʃən/",
+    "ipa": "/ˌtraɪdʒɛnəˈreɪʃən ɪnspˈɛkʃən/",
     "zh": "冷热电三联产检查",
     "pinyin": "Lěng rè diàn sān lián chǎn jiǎn chá",
     "category": "technical",
@@ -13573,7 +13573,7 @@
   {
     "id": "technical-load-bank-inspection",
     "term": "Load Bank inspection",
-    "ipa": "/loʊd bæŋk ɪnˈspekʃən/",
+    "ipa": "/lˈəʊd bˈæŋk ɪnspˈɛkʃən/",
     "zh": "负载箱检查",
     "pinyin": "Fù zài xiāng jiǎn chá",
     "category": "technical",
@@ -13587,7 +13587,7 @@
   {
     "id": "technical-busbar-inspection",
     "term": "Busbar inspection",
-    "ipa": "/busbar ɪnˈspekʃən/",
+    "ipa": "/ˈbʌsbɑː ɪnspˈɛkʃən/",
     "zh": "母线排检查",
     "pinyin": "Mǔ xiàn pái jiǎn chá",
     "category": "technical",
@@ -13601,7 +13601,7 @@
   {
     "id": "technical-insulation-inspection",
     "term": "Insulation inspection",
-    "ipa": "/ˌɪnsəˈleɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌɪnsjʊlˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "绝缘检查",
     "pinyin": "Jué yuán jiǎn chá",
     "category": "technical",
@@ -13615,7 +13615,7 @@
   {
     "id": "technical-harmonic-distortion-inspection",
     "term": "Harmonic Distortion inspection",
-    "ipa": "/hɑrˈmɑnɪk dɪˈstɔrʃən ɪnˈspekʃən/",
+    "ipa": "/hɑːˈmɒnɪk dɪˈstɔːʃən ɪnspˈɛkʃən/",
     "zh": "谐波失真检查",
     "pinyin": "Xié bō shī zhēn jiǎn chá",
     "category": "technical",
@@ -13629,7 +13629,7 @@
   {
     "id": "technical-current-transformer-inspection",
     "term": "Current Transformer inspection",
-    "ipa": "/ˈkɑrənt trænsˈfɔrmər ɪnˈspekʃən/",
+    "ipa": "/kˈɐɹənt trænsˈfɔːmə ɪnspˈɛkʃən/",
     "zh": "电流互感器检查",
     "pinyin": "Diàn liú hù gǎn qì jiǎn chá",
     "category": "technical",
@@ -13643,7 +13643,7 @@
   {
     "id": "technical-kilovolt-ampere-inspection",
     "term": "Kilovolt Ampere inspection",
-    "ipa": "/kilovolt ˈæmˌpər ɪnˈspekʃən/",
+    "ipa": "/ˈkɪləʊvəʊlt ˈæmpɛə ɪnspˈɛkʃən/",
     "zh": "千伏安检查",
     "pinyin": "Qiān fú ān jiǎn chá",
     "category": "technical",
@@ -13657,7 +13657,7 @@
   {
     "id": "technical-megawatt-inspection",
     "term": "Megawatt inspection",
-    "ipa": "/ˈmɛgəˌwɑt ɪnˈspekʃən/",
+    "ipa": "/ˈmɛɡəwɒt ɪnspˈɛkʃən/",
     "zh": "兆瓦检查",
     "pinyin": "Zhào wǎ jiǎn chá",
     "category": "technical",
@@ -13671,7 +13671,7 @@
   {
     "id": "technical-microprocessor-inspection",
     "term": "Microprocessor inspection",
-    "ipa": "/ˌmaɪkroʊˈprɑsɛsər ɪnˈspekʃən/",
+    "ipa": "/ˌmaɪkrəʊˈprəʊsɛsə ɪnspˈɛkʃən/",
     "zh": "微处理器检查",
     "pinyin": "Wēi chǔ lǐ qì jiǎn chá",
     "category": "technical",
@@ -13685,7 +13685,7 @@
   {
     "id": "technical-rectifier-inspection",
     "term": "Rectifier inspection",
-    "ipa": "/ˈrɛktəˌfaɪər ɪnˈspekʃən/",
+    "ipa": "/ˈrɛktɪfaɪə ɪnspˈɛkʃən/",
     "zh": "整流器检查",
     "pinyin": "Zhěng liú qì jiǎn chá",
     "category": "technical",
@@ -13699,7 +13699,7 @@
   {
     "id": "technical-grid-inspection",
     "term": "Grid inspection",
-    "ipa": "/grɪd ɪnˈspekʃən/",
+    "ipa": "/gɹˈɪd ɪnspˈɛkʃən/",
     "zh": "电网检查",
     "pinyin": "Diàn wǎng jiǎn chá",
     "category": "technical",
@@ -13713,7 +13713,7 @@
   {
     "id": "technical-maintenance-inspection",
     "term": "Maintenance inspection",
-    "ipa": "/ˈmeɪntənəns ɪnˈspekʃən/",
+    "ipa": "/mˈeɪntnəns ɪnspˈɛkʃən/",
     "zh": "维护保养检查",
     "pinyin": "Wéi hù bǎo yǎng jiǎn chá",
     "category": "technical",
@@ -13727,7 +13727,7 @@
   {
     "id": "technical-commissioning-inspection",
     "term": "Commissioning inspection",
-    "ipa": "/kəˈmɪʃənɪŋ ɪnˈspekʃən/",
+    "ipa": "/kəˈmɪʃənɪŋ ɪnspˈɛkʃən/",
     "zh": "调试检查",
     "pinyin": "Tiáo shì jiǎn chá",
     "category": "technical",
@@ -13741,7 +13741,7 @@
   {
     "id": "technical-assembly-inspection",
     "term": "Assembly inspection",
-    "ipa": "/əˈsɛmbli ɪnˈspekʃən/",
+    "ipa": "/əsˈɛmbli ɪnspˈɛkʃən/",
     "zh": "装配检查",
     "pinyin": "Zhuāng pèi jiǎn chá",
     "category": "technical",
@@ -13755,7 +13755,7 @@
   {
     "id": "technical-capability-inspection",
     "term": "Capability inspection",
-    "ipa": "/ˌkeɪpəˈbɪləti ɪnˈspekʃən/",
+    "ipa": "/kˌeɪpəbˈɪlɪti ɪnspˈɛkʃən/",
     "zh": "能力与容量检查",
     "pinyin": "Néng lì yǔ róng liàng jiǎn chá",
     "category": "technical",
@@ -13769,7 +13769,7 @@
   {
     "id": "technical-torque-inspection",
     "term": "Torque inspection",
-    "ipa": "/tɔrk ɪnˈspekʃən/",
+    "ipa": "/tˈɔːk ɪnspˈɛkʃən/",
     "zh": "扭矩检查",
     "pinyin": "Niǔ jǔ jiǎn chá",
     "category": "technical",
@@ -13783,7 +13783,7 @@
   {
     "id": "technical-viscosity-inspection",
     "term": "Viscosity inspection",
-    "ipa": "/vɪˈskɑsəti ɪnˈspekʃən/",
+    "ipa": "/vɪˈskɒsɪti ɪnspˈɛkʃən/",
     "zh": "粘度检查",
     "pinyin": "Nián dù jiǎn chá",
     "category": "technical",
@@ -13797,7 +13797,7 @@
   {
     "id": "technical-inverter-inspection",
     "term": "Inverter inspection",
-    "ipa": "/inverter ɪnˈspekʃən/",
+    "ipa": "/ɪnˈvɜːtə ɪnspˈɛkʃən/",
     "zh": "逆变器检查",
     "pinyin": "Nì biàn qì jiǎn chá",
     "category": "technical",
@@ -13811,7 +13811,7 @@
   {
     "id": "technical-synchronization-inspection",
     "term": "Synchronization inspection",
-    "ipa": "/ˌsɪŋkrənəˈzeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌsɪŋkrənaɪˈzeɪʃən ɪnspˈɛkʃən/",
     "zh": "同步并机检查",
     "pinyin": "Tóng bù bìng jī jiǎn chá",
     "category": "technical",
@@ -13825,7 +13825,7 @@
   {
     "id": "technical-parallel-system-inspection",
     "term": "Parallel System inspection",
-    "ipa": "/ˈpɛrəˌlɛl ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/pˈæɹəlˌɛl sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "并机系统检查",
     "pinyin": "Bìng jī xì tǒng jiǎn chá",
     "category": "technical",
@@ -13839,7 +13839,7 @@
   {
     "id": "technical-enclosure-inspection",
     "term": "Enclosure inspection",
-    "ipa": "/ɪnˈkloʊʒər ɪnˈspekʃən/",
+    "ipa": "/ɪnklˈəʊʒə ɪnspˈɛkʃən/",
     "zh": "外壳与机箱检查",
     "pinyin": "Wài ké yǔ jī xiāng jiǎn chá",
     "category": "technical",
@@ -13853,7 +13853,7 @@
   {
     "id": "technical-base-frame-inspection",
     "term": "Base Frame inspection",
-    "ipa": "/beɪs freɪm ɪnˈspekʃən/",
+    "ipa": "/bˈeɪs fɹˈeɪm ɪnspˈɛkʃən/",
     "zh": "底座检查",
     "pinyin": "Dǐ zuò jiǎn chá",
     "category": "technical",
@@ -13867,7 +13867,7 @@
   {
     "id": "technical-anti-vibration-mount-inspection",
     "term": "Anti vibration Mount inspection",
-    "ipa": "/ˈænˌti vaɪˈbreɪʃən maʊnt ɪnˈspekʃən/",
+    "ipa": "/ˈænti vaɪˈbreɪʃən mˈaʊnt ɪnspˈɛkʃən/",
     "zh": "减震垫检查",
     "pinyin": "Jiǎn zhèn diàn jiǎn chá",
     "category": "technical",
@@ -13881,7 +13881,7 @@
   {
     "id": "technical-deep-sea-electronics-inspection",
     "term": "Deep Sea Electronics inspection",
-    "ipa": "/diːp siː ɪˌlekˈtrɒnɪks ɪnˈspekʃən/",
+    "ipa": "/dˈiːp sˈiː ɪlˌɛktɹˈɒnɪks ɪnspˈɛkʃən/",
     "zh": "深海控制器检查",
     "pinyin": "Shēn hǎi kòng zhì qì jiǎn chá",
     "category": "technical",
@@ -13895,7 +13895,7 @@
   {
     "id": "technical-mitsubishi-inspection",
     "term": "Mitsubishi inspection",
-    "ipa": "/ˌmɪt.suːˈbiː.ʃi ɪnˈspekʃən/",
+    "ipa": "/mˌɪtsʊbˈɪʃi ɪnspˈɛkʃən/",
     "zh": "三菱检查",
     "pinyin": "Sān líng jiǎn chá",
     "category": "technical",
@@ -13909,7 +13909,7 @@
   {
     "id": "technical-perkins-inspection",
     "term": "Perkins inspection",
-    "ipa": "/ˈpɜːrkɪnz ɪnˈspekʃən/",
+    "ipa": "/ˈpɜːkɪnz ɪnspˈɛkʃən/",
     "zh": "珀金斯检查",
     "pinyin": "Pò jīn sī jiǎn chá",
     "category": "technical",
@@ -13923,7 +13923,7 @@
   {
     "id": "technical-cummins-inspection",
     "term": "Cummins inspection",
-    "ipa": "/ˈkʌmɪnz ɪnˈspekʃən/",
+    "ipa": "/ˈkʌmɪnz ɪnspˈɛkʃən/",
     "zh": "康明斯检查",
     "pinyin": "Kāng míng sī jiǎn chá",
     "category": "technical",
@@ -13937,7 +13937,7 @@
   {
     "id": "technical-doosan-inspection",
     "term": "Doosan inspection",
-    "ipa": "/ˈduː.sɑːn ɪnˈspekʃən/",
+    "ipa": "/ˈduːsæn ɪnspˈɛkʃən/",
     "zh": "斗山检查",
     "pinyin": "Dǒu shān jiǎn chá",
     "category": "technical",
@@ -13951,7 +13951,7 @@
   {
     "id": "technical-emissions-standard-inspection",
     "term": "Emissions Standard inspection",
-    "ipa": "/ɪˈmɪʃənz ˈstændərd ɪnˈspekʃən/",
+    "ipa": "/ɪmˈɪʃənz stˈændəd ɪnspˈɛkʃən/",
     "zh": "排放标准检查",
     "pinyin": "Pái fàng biāo zhǔn jiǎn chá",
     "category": "technical",
@@ -13965,7 +13965,7 @@
   {
     "id": "technical-decibel-inspection",
     "term": "Decibel inspection",
-    "ipa": "/ˈdɛsəˌbɛl ɪnˈspekʃən/",
+    "ipa": "/ˈdɛsɪbɛl ɪnspˈɛkʃən/",
     "zh": "分贝检查",
     "pinyin": "Fēn bèi jiǎn chá",
     "category": "technical",
@@ -13979,7 +13979,7 @@
   {
     "id": "technical-exhaust-manifold-inspection",
     "term": "Exhaust Manifold inspection",
-    "ipa": "/ɪgˈzɔst ˈmænɪˌfoʊld ɪnˈspekʃən/",
+    "ipa": "/ɪgzˈɔːst ˈmænɪfəʊld ɪnspˈɛkʃən/",
     "zh": "排气歧管检查",
     "pinyin": "Pái qì qí guǎn jiǎn chá",
     "category": "technical",
@@ -13993,7 +13993,7 @@
   {
     "id": "technical-alternating-current-inspection",
     "term": "Alternating Current inspection",
-    "ipa": "/ˈɔltərˌneɪtɪŋ ˈkɑrənt ɪnˈspekʃən/",
+    "ipa": "/ˈɔːltəneɪtɪŋ kˈɐɹənt ɪnspˈɛkʃən/",
     "zh": "交流电检查",
     "pinyin": "Jiāo liú diàn jiǎn chá",
     "category": "technical",
@@ -14007,7 +14007,7 @@
   {
     "id": "technical-direct-current-inspection",
     "term": "Direct Current inspection",
-    "ipa": "/dɪˈrɛkt ˈkɑrənt ɪnˈspekʃən/",
+    "ipa": "/daɪɹˈɛkt kˈɐɹənt ɪnspˈɛkʃən/",
     "zh": "直流电检查",
     "pinyin": "Zhí liú diàn jiǎn chá",
     "category": "technical",
@@ -14021,7 +14021,7 @@
   {
     "id": "technical-neutral-line-inspection",
     "term": "Neutral Line inspection",
-    "ipa": "/ˈnutrəl laɪn ɪnˈspekʃən/",
+    "ipa": "/njˈuːtɹəl lˈaɪn ɪnspˈɛkʃən/",
     "zh": "中性线检查",
     "pinyin": "Zhōng xìng xiàn jiǎn chá",
     "category": "technical",
@@ -14035,7 +14035,7 @@
   {
     "id": "technical-earth-wire-inspection",
     "term": "Earth Wire inspection",
-    "ipa": "/ərθ waɪər ɪnˈspekʃən/",
+    "ipa": "/ˈɜːθ wˈaɪə ɪnspˈɛkʃən/",
     "zh": "接地线检查",
     "pinyin": "Jiē dì xiàn jiǎn chá",
     "category": "technical",
@@ -14049,7 +14049,7 @@
   {
     "id": "technical-short-circuit-inspection",
     "term": "Short Circuit inspection",
-    "ipa": "/ʃɔrt ˈsərkət ɪnˈspekʃən/",
+    "ipa": "/ʃˈɔːt sˈɜːkɪt ɪnspˈɛkʃən/",
     "zh": "短路检查",
     "pinyin": "Duǎn lù jiǎn chá",
     "category": "technical",
@@ -14063,7 +14063,7 @@
   {
     "id": "technical-overload-inspection",
     "term": "Overload inspection",
-    "ipa": "/ˈoʊvərˌloʊd ɪnˈspekʃən/",
+    "ipa": "/ˈəʊvələʊd ɪnspˈɛkʃən/",
     "zh": "过载检查",
     "pinyin": "Guò zài jiǎn chá",
     "category": "technical",
@@ -14077,7 +14077,7 @@
   {
     "id": "technical-leakage-inspection",
     "term": "Leakage inspection",
-    "ipa": "/ˈlikɪʤ ɪnˈspekʃən/",
+    "ipa": "/ˈliːkɪdʒ ɪnspˈɛkʃən/",
     "zh": "漏电检查",
     "pinyin": "Lòu diàn jiǎn chá",
     "category": "technical",
@@ -14091,7 +14091,7 @@
   {
     "id": "technical-protection-inspection",
     "term": "Protection inspection",
-    "ipa": "/prəˈtɛkʃən ɪnˈspekʃən/",
+    "ipa": "/pɹətˈɛkʃən ɪnspˈɛkʃən/",
     "zh": "保护检查",
     "pinyin": "Bǎo hù jiǎn chá",
     "category": "technical",
@@ -14105,7 +14105,7 @@
   {
     "id": "technical-alarm-inspection",
     "term": "Alarm inspection",
-    "ipa": "/əˈlɑrm ɪnˈspekʃən/",
+    "ipa": "/əlˈɑːm ɪnspˈɛkʃən/",
     "zh": "警报检查",
     "pinyin": "Jǐng bào jiǎn chá",
     "category": "technical",
@@ -14119,7 +14119,7 @@
   {
     "id": "technical-fault-inspection",
     "term": "Fault inspection",
-    "ipa": "/fɔlt ɪnˈspekʃən/",
+    "ipa": "/fˈɔːlt ɪnspˈɛkʃən/",
     "zh": "故障检查",
     "pinyin": "Gù zhàng jiǎn chá",
     "category": "technical",
@@ -14133,7 +14133,7 @@
   {
     "id": "technical-diagnosis-inspection",
     "term": "Diagnosis inspection",
-    "ipa": "/ˌdaɪəgˈnoʊsəs ɪnˈspekʃən/",
+    "ipa": "/dˌaɪəgnˈəʊsɪs ɪnspˈɛkʃən/",
     "zh": "诊断检查",
     "pinyin": "Zhěn duàn jiǎn chá",
     "category": "technical",
@@ -14147,7 +14147,7 @@
   {
     "id": "technical-sensor-inspection",
     "term": "Sensor inspection",
-    "ipa": "/ˈsɛnsər ɪnˈspekʃən/",
+    "ipa": "/sˈɛnsə ɪnspˈɛkʃən/",
     "zh": "传感器检查",
     "pinyin": "Chuán gǎn qì jiǎn chá",
     "category": "technical",
@@ -14161,7 +14161,7 @@
   {
     "id": "technical-temperature-inspection",
     "term": "Temperature inspection",
-    "ipa": "/ˈtɛmpərəʧər ɪnˈspekʃən/",
+    "ipa": "/tˈɛmpɹətʃə ɪnspˈɛkʃən/",
     "zh": "温度检查",
     "pinyin": "Wēn dù jiǎn chá",
     "category": "technical",
@@ -14175,7 +14175,7 @@
   {
     "id": "technical-pressure-inspection",
     "term": "Pressure inspection",
-    "ipa": "/ˈprɛʃər ɪnˈspekʃən/",
+    "ipa": "/pɹˈɛʃə ɪnspˈɛkʃən/",
     "zh": "压力检查",
     "pinyin": "Yā lì jiǎn chá",
     "category": "technical",
@@ -14189,7 +14189,7 @@
   {
     "id": "technical-oil-pressure-inspection",
     "term": "Oil Pressure inspection",
-    "ipa": "/ɔɪl ˈprɛʃər ɪnˈspekʃən/",
+    "ipa": "/ˈɔɪl pɹˈɛʃə ɪnspˈɛkʃən/",
     "zh": "机油压力检查",
     "pinyin": "Jī yóu yā lì jiǎn chá",
     "category": "technical",
@@ -14203,7 +14203,7 @@
   {
     "id": "technical-fuel-consumption-inspection",
     "term": "Fuel Consumption inspection",
-    "ipa": "/fjuəl kənˈsəmʃən ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl kənsˈɐmʃən ɪnspˈɛkʃən/",
     "zh": "油耗检查",
     "pinyin": "Hào yóu jiǎn chá",
     "category": "technical",
@@ -14217,7 +14217,7 @@
   {
     "id": "technical-running-hour-inspection",
     "term": "Running Hour inspection",
-    "ipa": "/ˈrənɪŋ aʊər ɪnˈspekʃən/",
+    "ipa": "/ɹˈɐnɪŋ ˈaʊə ɪnspˈɛkʃən/",
     "zh": "运行小时检查",
     "pinyin": "Yùn xíng xiǎo shí jiǎn chá",
     "category": "technical",
@@ -14231,7 +14231,7 @@
   {
     "id": "technical-service-kit-inspection",
     "term": "Service Kit inspection",
-    "ipa": "/ˈsərvɪs kɪt ɪnˈspekʃən/",
+    "ipa": "/sˈɜːvɪs kˈɪt ɪnspˈɛkʃən/",
     "zh": "保养包检查",
     "pinyin": "Bǎo yǎng bāo jiǎn chá",
     "category": "technical",
@@ -14245,7 +14245,7 @@
   {
     "id": "technical-filter-inspection",
     "term": "Filter inspection",
-    "ipa": "/ˈfɪltər ɪnˈspekʃən/",
+    "ipa": "/fˈɪltə ɪnspˈɛkʃən/",
     "zh": "过滤器检查",
     "pinyin": "Guò lǜ qì jiǎn chá",
     "category": "technical",
@@ -14259,7 +14259,7 @@
   {
     "id": "technical-oil-filter-inspection",
     "term": "Oil Filter inspection",
-    "ipa": "/ɔɪl ˈfɪltər ɪnˈspekʃən/",
+    "ipa": "/ˈɔɪl fˈɪltə ɪnspˈɛkʃən/",
     "zh": "机油滤清器检查",
     "pinyin": "Jī yóu lǜ qīng qì jiǎn chá",
     "category": "technical",
@@ -14273,7 +14273,7 @@
   {
     "id": "technical-fuel-filter-inspection",
     "term": "Fuel Filter inspection",
-    "ipa": "/fjuəl ˈfɪltər ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl fˈɪltə ɪnspˈɛkʃən/",
     "zh": "燃油滤清器检查",
     "pinyin": "Rán yóu lǜ qīng qì jiǎn chá",
     "category": "technical",
@@ -14287,7 +14287,7 @@
   {
     "id": "technical-air-filter-inspection",
     "term": "Air Filter inspection",
-    "ipa": "/ɛr ˈfɪltər ɪnˈspekʃən/",
+    "ipa": "/ˈɛə fˈɪltə ɪnspˈɛkʃən/",
     "zh": "空气滤清器检查",
     "pinyin": "Kōng qì lǜ qīng qì jiǎn chá",
     "category": "technical",
@@ -14301,7 +14301,7 @@
   {
     "id": "technical-water-separator-inspection",
     "term": "Water Separator inspection",
-    "ipa": "/ˈwɔtər separator ɪnˈspekʃən/",
+    "ipa": "/wˈɔːtə ˈsɛpəreɪtə ɪnspˈɛkʃən/",
     "zh": "油水分离器检查",
     "pinyin": "Yóu shuǐ fēn lí qì jiǎn chá",
     "category": "technical",
@@ -14315,7 +14315,7 @@
   {
     "id": "technical-belt-inspection",
     "term": "Belt inspection",
-    "ipa": "/bɛlt ɪnˈspekʃən/",
+    "ipa": "/bˈɛlt ɪnspˈɛkʃən/",
     "zh": "皮带检查",
     "pinyin": "Pí dài jiǎn chá",
     "category": "technical",
@@ -14329,7 +14329,7 @@
   {
     "id": "technical-hose-inspection",
     "term": "Hose inspection",
-    "ipa": "/hoʊz ɪnˈspekʃən/",
+    "ipa": "/hˈəʊz ɪnspˈɛkʃən/",
     "zh": "软管检查",
     "pinyin": "Ruǎn guǎn jiǎn chá",
     "category": "technical",
@@ -14343,7 +14343,7 @@
   {
     "id": "technical-gasket-inspection",
     "term": "Gasket inspection",
-    "ipa": "/ˈgæskət ɪnˈspekʃən/",
+    "ipa": "/ˈɡæskɪt ɪnspˈɛkʃən/",
     "zh": "垫片检查",
     "pinyin": "Diàn piàn jiǎn chá",
     "category": "technical",
@@ -14357,7 +14357,7 @@
   {
     "id": "technical-seal-inspection",
     "term": "Seal inspection",
-    "ipa": "/sil ɪnˈspekʃən/",
+    "ipa": "/sˈiːl ɪnspˈɛkʃən/",
     "zh": "密封件检查",
     "pinyin": "Mì fēng jiàn jiǎn chá",
     "category": "technical",
@@ -14371,7 +14371,7 @@
   {
     "id": "technical-bearing-inspection",
     "term": "Bearing inspection",
-    "ipa": "/ˈbɛrɪŋ ɪnˈspekʃən/",
+    "ipa": "/bˈɛəɹɪŋ ɪnspˈɛkʃən/",
     "zh": "轴承检查",
     "pinyin": "Zhóu chéng jiǎn chá",
     "category": "technical",
@@ -14385,7 +14385,7 @@
   {
     "id": "technical-piston-inspection",
     "term": "Piston inspection",
-    "ipa": "/ˈpɪstən ɪnˈspekʃən/",
+    "ipa": "/ˈpɪstən ɪnspˈɛkʃən/",
     "zh": "活塞检查",
     "pinyin": "Huó sāi jiǎn chá",
     "category": "technical",
@@ -14399,7 +14399,7 @@
   {
     "id": "technical-cylinder-inspection",
     "term": "Cylinder inspection",
-    "ipa": "/ˈsɪlɪndər ɪnˈspekʃən/",
+    "ipa": "/sˈɪlɪndə ɪnspˈɛkʃən/",
     "zh": "气缸检查",
     "pinyin": "Qì gāng jiǎn chá",
     "category": "technical",
@@ -14413,7 +14413,7 @@
   {
     "id": "technical-head-gasket-inspection",
     "term": "Head Gasket inspection",
-    "ipa": "/hɛd ˈgæskət ɪnˈspekʃən/",
+    "ipa": "/hˈɛd ˈɡæskɪt ɪnspˈɛkʃən/",
     "zh": "缸垫检查",
     "pinyin": "Gāng diàn jiǎn chá",
     "category": "technical",
@@ -14427,7 +14427,7 @@
   {
     "id": "technical-fuel-injection-inspection",
     "term": "Fuel Injection inspection",
-    "ipa": "/fjuəl ˌɪnˈʤɛkʃən ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl ɪndʒˈɛkʃən ɪnspˈɛkʃən/",
     "zh": "燃油喷射检查",
     "pinyin": "Rán yó pēn shè jiǎn chá",
     "category": "technical",
@@ -14441,7 +14441,7 @@
   {
     "id": "technical-nozzle-inspection",
     "term": "Nozzle inspection",
-    "ipa": "/ˈnɑzəl ɪnˈspekʃən/",
+    "ipa": "/ˈnɒzəl ɪnspˈɛkʃən/",
     "zh": "喷油嘴检查",
     "pinyin": "Pēn yóu zuǐ jiǎn chá",
     "category": "technical",
@@ -14455,7 +14455,7 @@
   {
     "id": "technical-pump-inspection",
     "term": "Pump inspection",
-    "ipa": "/pəmp ɪnˈspekʃən/",
+    "ipa": "/pˈɐmp ɪnspˈɛkʃən/",
     "zh": "泵检查",
     "pinyin": "Bèng jiǎn chá",
     "category": "technical",
@@ -14469,7 +14469,7 @@
   {
     "id": "technical-water-pump-inspection",
     "term": "Water Pump inspection",
-    "ipa": "/ˈwɔtər pəmp ɪnˈspekʃən/",
+    "ipa": "/wˈɔːtə pˈɐmp ɪnspˈɛkʃən/",
     "zh": "水泵检查",
     "pinyin": "Shuǐ bèng jiǎn chá",
     "category": "technical",
@@ -14483,7 +14483,7 @@
   {
     "id": "technical-fuel-pump-inspection",
     "term": "Fuel Pump inspection",
-    "ipa": "/fjuəl pəmp ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl pˈɐmp ɪnspˈɛkʃən/",
     "zh": "燃油泵检查",
     "pinyin": "Rán yóu bèng jiǎn chá",
     "category": "technical",
@@ -14497,7 +14497,7 @@
   {
     "id": "technical-oil-pump-inspection",
     "term": "Oil Pump inspection",
-    "ipa": "/ɔɪl pəmp ɪnˈspekʃən/",
+    "ipa": "/ˈɔɪl pˈɐmp ɪnspˈɛkʃən/",
     "zh": "机油泵检查",
     "pinyin": "Jī yóu bèng jiǎn chá",
     "category": "technical",
@@ -14511,7 +14511,7 @@
   {
     "id": "technical-charge-air-inspection",
     "term": "Charge Air inspection",
-    "ipa": "/ʧɑrʤ ɛr ɪnˈspekʃən/",
+    "ipa": "/tʃˈɑːdʒ ˈɛə ɪnspˈɛkʃən/",
     "zh": "增压空气检查",
     "pinyin": "Zēng yā kōng qì jiǎn chá",
     "category": "technical",
@@ -14525,7 +14525,7 @@
   {
     "id": "technical-aftercooler-inspection",
     "term": "Aftercooler inspection",
-    "ipa": "/aftercooler ɪnˈspekʃən/",
+    "ipa": "/ˈɑːftəˌkuːlə ɪnspˈɛkʃən/",
     "zh": "中冷器检查",
     "pinyin": "Zhōng lěng qì jiǎn chá",
     "category": "technical",
@@ -14539,7 +14539,7 @@
   {
     "id": "technical-jacket-water-inspection",
     "term": "Jacket Water inspection",
-    "ipa": "/ˈʤækɪt ˈwɔtər ɪnˈspekʃən/",
+    "ipa": "/dʒˈækɪt wˈɔːtə ɪnspˈɛkʃən/",
     "zh": "缸套水检查",
     "pinyin": "Gāng tào shuǐ jiǎn chá",
     "category": "technical",
@@ -14553,7 +14553,7 @@
   {
     "id": "technical-expansion-tank-inspection",
     "term": "Expansion Tank inspection",
-    "ipa": "/ɪkˈspænʧən tæŋk ɪnˈspekʃən/",
+    "ipa": "/ɪkspˈænʃən tˈæŋk ɪnspˈɛkʃən/",
     "zh": "膨胀水箱检查",
     "pinyin": "Péng zhàng shuǐ xiāng jiǎn chá",
     "category": "technical",
@@ -14567,7 +14567,7 @@
   {
     "id": "technical-charger-inspection",
     "term": "Charger inspection",
-    "ipa": "/ˈʧɑrʤər ɪnˈspekʃən/",
+    "ipa": "/tʃˈɑːdʒə ɪnspˈɛkʃən/",
     "zh": "充电器检查",
     "pinyin": "Chōng diàn qì jiǎn chá",
     "category": "technical",
@@ -14581,7 +14581,7 @@
   {
     "id": "technical-battery-charger-inspection",
     "term": "Battery Charger inspection",
-    "ipa": "/ˈbætəri ˈʧɑrʤər ɪnˈspekʃən/",
+    "ipa": "/bˈætəɹi tʃˈɑːdʒə ɪnspˈɛkʃən/",
     "zh": "蓄电池充电器检查",
     "pinyin": "Xù diàn chí chōng diàn qì jiǎn chá",
     "category": "technical",
@@ -14595,7 +14595,7 @@
   {
     "id": "technical-earth-leakage-inspection",
     "term": "Earth Leakage inspection",
-    "ipa": "/ərθ ˈlikɪʤ ɪnˈspekʃən/",
+    "ipa": "/ˈɜːθ ˈliːkɪdʒ ɪnspˈɛkʃən/",
     "zh": "漏电保护检查",
     "pinyin": "Lòu diàn bǎo hù jiǎn chá",
     "category": "technical",
@@ -14609,7 +14609,7 @@
   {
     "id": "technical-phase-sequence-inspection",
     "term": "Phase Sequence inspection",
-    "ipa": "/feɪz ˈsikwəns ɪnˈspekʃən/",
+    "ipa": "/fˈeɪz sˈiːkwəns ɪnspˈɛkʃən/",
     "zh": "相序检查",
     "pinyin": "Xiāng xù jiǎn chá",
     "category": "technical",
@@ -14623,7 +14623,7 @@
   {
     "id": "technical-unbalance-inspection",
     "term": "Unbalance inspection",
-    "ipa": "/ənˈbæləns ɪnˈspekʃən/",
+    "ipa": "/ˌʌnˈbæləns ɪnspˈɛkʃən/",
     "zh": "不平衡检查",
     "pinyin": "Bù píng héng jiǎn chá",
     "category": "technical",
@@ -14637,7 +14637,7 @@
   {
     "id": "technical-surge-inspection",
     "term": "Surge inspection",
-    "ipa": "/sərʤ ɪnˈspekʃən/",
+    "ipa": "/sˈɜːdʒ ɪnspˈɛkʃən/",
     "zh": "浪涌检查",
     "pinyin": "Làng yǒng jiǎn chá",
     "category": "technical",
@@ -14651,7 +14651,7 @@
   {
     "id": "technical-lightning-inspection",
     "term": "Lightning inspection",
-    "ipa": "/ˈlaɪtnɪŋ ɪnˈspekʃən/",
+    "ipa": "/lˈaɪtnɪŋ ɪnspˈɛkʃən/",
     "zh": "雷击检查",
     "pinyin": "Léi jī jiǎn chá",
     "category": "technical",
@@ -14665,7 +14665,7 @@
   {
     "id": "technical-isolation-transformer-inspection",
     "term": "Isolation Transformer inspection",
-    "ipa": "/ˌaɪsəˈleɪʃən trænsˈfɔrmər ɪnˈspekʃən/",
+    "ipa": "/ˌaɪsəlˈeɪʃən trænsˈfɔːmə ɪnspˈɛkʃən/",
     "zh": "隔离变压器检查",
     "pinyin": "Gé lí biàn yā qì jiǎn chá",
     "category": "technical",
@@ -14679,7 +14679,7 @@
   {
     "id": "technical-ups-inspection",
     "term": "UPS inspection",
-    "ipa": "/ˌjuː.piːˈes ɪnˈspekʃən/",
+    "ipa": "/ˈɐps ɪnspˈɛkʃən/",
     "zh": "不间断电源检查",
     "pinyin": "Bù jiān duàn diàn yuán jiǎn chá",
     "category": "technical",
@@ -14693,7 +14693,7 @@
   {
     "id": "technical-backup-power-inspection",
     "term": "Backup Power inspection",
-    "ipa": "/ˈbæˌkəp paʊər ɪnˈspekʃən/",
+    "ipa": "/bˈækˌɐp ˈpaʊə ɪnspˈɛkʃən/",
     "zh": "后备电源检查",
     "pinyin": "Hòu bèi diàn yuán jiǎn chá",
     "category": "technical",
@@ -14707,7 +14707,7 @@
   {
     "id": "technical-peak-load-inspection",
     "term": "Peak Load inspection",
-    "ipa": "/pik loʊd ɪnˈspekʃən/",
+    "ipa": "/pˈiːk lˈəʊd ɪnspˈɛkʃən/",
     "zh": "峰值负载检查",
     "pinyin": "Fēng zhí fù zài jiǎn chá",
     "category": "technical",
@@ -14721,7 +14721,7 @@
   {
     "id": "technical-base-load-inspection",
     "term": "Base Load inspection",
-    "ipa": "/beɪs loʊd ɪnˈspekʃən/",
+    "ipa": "/bˈeɪs lˈəʊd ɪnspˈɛkʃən/",
     "zh": "基荷负载检查",
     "pinyin": "Jī hé fù zài jiǎn chá",
     "category": "technical",
@@ -14735,7 +14735,7 @@
   {
     "id": "technical-modbus-inspection",
     "term": "Modbus inspection",
-    "ipa": "/ˈmɒd.bʌs ɪnˈspekʃən/",
+    "ipa": "/ˈmɒdbʌs ɪnspˈɛkʃən/",
     "zh": "通讯协议检查",
     "pinyin": "Tōng xùn xié yì jiǎn chá",
     "category": "technical",
@@ -14749,7 +14749,7 @@
   {
     "id": "technical-protocol-inspection",
     "term": "Protocol inspection",
-    "ipa": "/ˈproʊtəˌkɔl ɪnˈspekʃən/",
+    "ipa": "/pɹˈəʊtəkˌɒl ɪnspˈɛkʃən/",
     "zh": "协议检查",
     "pinyin": "Xié yì jiǎn chá",
     "category": "technical",
@@ -14763,7 +14763,7 @@
   {
     "id": "technical-communication-inspection",
     "term": "Communication inspection",
-    "ipa": "/kəmˌjunəˈkeɪʃən ɪnˈspekʃən/",
+    "ipa": "/kəmjˌuːnɪkˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "通讯检查",
     "pinyin": "Tōng xùn jiǎn chá",
     "category": "technical",
@@ -14777,7 +14777,7 @@
   {
     "id": "technical-remote-monitoring-inspection",
     "term": "Remote Monitoring inspection",
-    "ipa": "/rɪˈmoʊt ˈmɑnətərɪŋ ɪnˈspekʃən/",
+    "ipa": "/ɹɪmˈəʊt mˈɒnɪtəɹɪŋ ɪnspˈɛkʃən/",
     "zh": "远程监控检查",
     "pinyin": "Yuǎn chéng jiān kòng jiǎn chá",
     "category": "technical",
@@ -14791,7 +14791,7 @@
   {
     "id": "technical-cloud-platform-inspection",
     "term": "Cloud Platform inspection",
-    "ipa": "/klaʊd ˈplætˌfɔrm ɪnˈspekʃən/",
+    "ipa": "/klˈaʊd plˈætfˌɔːm ɪnspˈɛkʃən/",
     "zh": "云平台检查",
     "pinyin": "Yún píng tái jiǎn chá",
     "category": "technical",
@@ -14805,7 +14805,7 @@
   {
     "id": "technical-data-logger-inspection",
     "term": "Data Logger inspection",
-    "ipa": "/ˈdætə ˈlɑgər ɪnˈspekʃən/",
+    "ipa": "/dˈeɪtə ˈlɒɡə ɪnspˈɛkʃən/",
     "zh": "数据记录仪检查",
     "pinyin": "Shù jù jì lù yí jiǎn chá",
     "category": "technical",
@@ -14819,7 +14819,7 @@
   {
     "id": "technical-event-log-inspection",
     "term": "Event Log inspection",
-    "ipa": "/ɪˈvɛnt lɔg ɪnˈspekʃən/",
+    "ipa": "/ɪvˈɛnt lˈɒg ɪnspˈɛkʃən/",
     "zh": "事件记录检查",
     "pinyin": "Shì jiàn jì lù jiǎn chá",
     "category": "technical",
@@ -14833,7 +14833,7 @@
   {
     "id": "technical-error-code-inspection",
     "term": "Error Code inspection",
-    "ipa": "/ˈɛrər koʊd ɪnˈspekʃən/",
+    "ipa": "/ˈɛɹə kˈəʊd ɪnspˈɛkʃən/",
     "zh": "故障码检查",
     "pinyin": "Gù zhàng mǎ jiǎn chá",
     "category": "technical",
@@ -14847,7 +14847,7 @@
   {
     "id": "technical-firmware-inspection",
     "term": "Firmware inspection",
-    "ipa": "/firmware ɪnˈspekʃən/",
+    "ipa": "/fˈɜːmwˌɛə ɪnspˈɛkʃən/",
     "zh": "固件检查",
     "pinyin": "Gù jiàn jiǎn chá",
     "category": "technical",
@@ -14861,7 +14861,7 @@
   {
     "id": "technical-software-inspection",
     "term": "Software inspection",
-    "ipa": "/ˈsɔfˌwɛr ɪnˈspekʃən/",
+    "ipa": "/sˈɒfwˌɛə ɪnspˈɛkʃən/",
     "zh": "软件检查",
     "pinyin": "Ruǎn jiàn jiǎn chá",
     "category": "technical",
@@ -14875,7 +14875,7 @@
   {
     "id": "technical-hardware-inspection",
     "term": "Hardware inspection",
-    "ipa": "/ˈhɑrdˌwɛr ɪnˈspekʃən/",
+    "ipa": "/hˈɑːdwˌɛə ɪnspˈɛkʃən/",
     "zh": "硬件检查",
     "pinyin": "Yìng jiàn jiǎn chá",
     "category": "technical",
@@ -14889,7 +14889,7 @@
   {
     "id": "technical-display-inspection",
     "term": "Display inspection",
-    "ipa": "/dɪˈspleɪ ɪnˈspekʃən/",
+    "ipa": "/dɪsplˈeɪ ɪnspˈɛkʃən/",
     "zh": "显示屏检查",
     "pinyin": "Xiǎn shì píng jiǎn chá",
     "category": "technical",
@@ -14903,7 +14903,7 @@
   {
     "id": "technical-keypad-inspection",
     "term": "Keypad inspection",
-    "ipa": "/ˈkiˌpæd ɪnˈspekʃən/",
+    "ipa": "/ˈkiːpæd ɪnspˈɛkʃən/",
     "zh": "按键检查",
     "pinyin": "àn jiàn jiǎn chá",
     "category": "technical",
@@ -14917,7 +14917,7 @@
   {
     "id": "technical-interface-inspection",
     "term": "Interface inspection",
-    "ipa": "/ˈɪnərˌfeɪs ɪnˈspekʃən/",
+    "ipa": "/ˈɪntəfˌeɪs ɪnspˈɛkʃən/",
     "zh": "接口检查",
     "pinyin": "Jiē kǒu jiǎn chá",
     "category": "technical",
@@ -14931,7 +14931,7 @@
   {
     "id": "technical-usb-port-inspection",
     "term": "USB Port inspection",
-    "ipa": "/ˌjuː.esˈbiː pɔrt ɪnˈspekʃən/",
+    "ipa": "/ˌjuːɛsˈbiː pˈɔːt ɪnspˈɛkʃən/",
     "zh": "USB接口检查",
     "pinyin": "USB jiē kǒu jiǎn chá",
     "category": "technical",
@@ -14945,7 +14945,7 @@
   {
     "id": "technical-sd-card-inspection",
     "term": "SD Card inspection",
-    "ipa": "/ˌesˈdiː kɑrd ɪnˈspekʃən/",
+    "ipa": "/ˌɛsˈdiː kˈɑːd ɪnspˈɛkʃən/",
     "zh": "存储卡检查",
     "pinyin": "Cún chǔ kǎ jiǎn chá",
     "category": "technical",
@@ -14959,7 +14959,7 @@
   {
     "id": "technical-clock-inspection",
     "term": "Clock inspection",
-    "ipa": "/klɑk ɪnˈspekʃən/",
+    "ipa": "/klˈɒk ɪnspˈɛkʃən/",
     "zh": "时钟检查",
     "pinyin": "Shí zhōng jiǎn chá",
     "category": "technical",
@@ -14973,7 +14973,7 @@
   {
     "id": "technical-buzzer-inspection",
     "term": "Buzzer inspection",
-    "ipa": "/ˈbəzər ɪnˈspekʃən/",
+    "ipa": "/ˈbʌzə ɪnspˈɛkʃən/",
     "zh": "蜂鸣器检查",
     "pinyin": "Fēng míng qì jiǎn chá",
     "category": "technical",
@@ -14987,7 +14987,7 @@
   {
     "id": "technical-relay-inspection",
     "term": "Relay inspection",
-    "ipa": "/ˈriˌleɪ ɪnˈspekʃən/",
+    "ipa": "/ɹˈiːleɪ ɪnspˈɛkʃən/",
     "zh": "继电器检查",
     "pinyin": "Jì diàn qì jiǎn chá",
     "category": "technical",
@@ -15001,7 +15001,7 @@
   {
     "id": "technical-fuse-inspection",
     "term": "Fuse inspection",
-    "ipa": "/fjuz ɪnˈspekʃən/",
+    "ipa": "/fjˈuːz ɪnspˈɛkʃən/",
     "zh": "保险丝检查",
     "pinyin": "Bǎo xiǎn sī jiǎn chá",
     "category": "technical",
@@ -15015,7 +15015,7 @@
   {
     "id": "technical-terminal-inspection",
     "term": "Terminal inspection",
-    "ipa": "/ˈtərmənəl ɪnˈspekʃən/",
+    "ipa": "/tˈɜːmɪnəl ɪnspˈɛkʃən/",
     "zh": "端子检查",
     "pinyin": "Duān zǐ jiǎn chá",
     "category": "technical",
@@ -15029,7 +15029,7 @@
   {
     "id": "technical-cable-inspection",
     "term": "Cable inspection",
-    "ipa": "/ˈkeɪbəl ɪnˈspekʃən/",
+    "ipa": "/kˈeɪbəl ɪnspˈɛkʃən/",
     "zh": "电缆检查",
     "pinyin": "Diàn lǎn jiǎn chá",
     "category": "technical",
@@ -15043,7 +15043,7 @@
   {
     "id": "technical-wire-inspection",
     "term": "Wire inspection",
-    "ipa": "/waɪər ɪnˈspekʃən/",
+    "ipa": "/wˈaɪə ɪnspˈɛkʃən/",
     "zh": "电线检查",
     "pinyin": "Diàn xiàn jiǎn chá",
     "category": "technical",
@@ -15057,7 +15057,7 @@
   {
     "id": "technical-conduit-inspection",
     "term": "Conduit inspection",
-    "ipa": "/ˈkɑnʤuɪt ɪnˈspekʃən/",
+    "ipa": "/ˈkɒndjuɪt ɪnspˈɛkʃən/",
     "zh": "线管检查",
     "pinyin": "Xiàn guǎn jiǎn chá",
     "category": "technical",
@@ -15071,7 +15071,7 @@
   {
     "id": "technical-earthing-inspection",
     "term": "Earthing inspection",
-    "ipa": "/earthing ɪnˈspekʃən/",
+    "ipa": "/ˈɜːθɪŋ ɪnspˈɛkʃən/",
     "zh": "接地检查",
     "pinyin": "Jiē dì jiǎn chá",
     "category": "technical",
@@ -15085,7 +15085,7 @@
   {
     "id": "technical-lighting-inspection",
     "term": "Lighting inspection",
-    "ipa": "/ˈlaɪtɪŋ ɪnˈspekʃən/",
+    "ipa": "/lˈaɪtɪŋ ɪnspˈɛkʃən/",
     "zh": "照明检查",
     "pinyin": "Zhào míng jiǎn chá",
     "category": "technical",
@@ -15099,7 +15099,7 @@
   {
     "id": "technical-ventilation-inspection",
     "term": "Ventilation inspection",
-    "ipa": "/ˌvɛntɪˈleɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌvɛntɪˈleɪʃən ɪnspˈɛkʃən/",
     "zh": "通风检查",
     "pinyin": "Tōng fēng jiǎn chá",
     "category": "technical",
@@ -15113,7 +15113,7 @@
   {
     "id": "technical-canopy-lock-inspection",
     "term": "Canopy Lock inspection",
-    "ipa": "/ˈkænəpi lɑk ɪnˈspekʃən/",
+    "ipa": "/kˈænəpi lˈɒk ɪnspˈɛkʃən/",
     "zh": "箱体锁检查",
     "pinyin": "Xiāng tǐ suǒ jiǎn chá",
     "category": "technical",
@@ -15127,7 +15127,7 @@
   {
     "id": "technical-lifting-eye-inspection",
     "term": "Lifting Eye inspection",
-    "ipa": "/ˈlɪftɪŋ aɪ ɪnˈspekʃən/",
+    "ipa": "/lˈɪftɪŋ ˈaɪ ɪnspˈɛkʃən/",
     "zh": "吊耳检查",
     "pinyin": "Diào ěr jiǎn chá",
     "category": "technical",
@@ -15141,7 +15141,7 @@
   {
     "id": "technical-skid-inspection",
     "term": "Skid inspection",
-    "ipa": "/skɪd ɪnˈspekʃən/",
+    "ipa": "/skˈɪd ɪnspˈɛkʃən/",
     "zh": "滑橇检查",
     "pinyin": "Huá qiāo jiǎn chá",
     "category": "technical",
@@ -15155,7 +15155,7 @@
   {
     "id": "technical-frame-inspection",
     "term": "Frame inspection",
-    "ipa": "/freɪm ɪnˈspekʃən/",
+    "ipa": "/fɹˈeɪm ɪnspˈɛkʃən/",
     "zh": "机架检查",
     "pinyin": "Jī jià jiǎn chá",
     "category": "technical",
@@ -15169,7 +15169,7 @@
   {
     "id": "technical-corrosion-inspection",
     "term": "Corrosion inspection",
-    "ipa": "/kərˈoʊʒən ɪnˈspekʃən/",
+    "ipa": "/kəˈrəʊʒən ɪnspˈɛkʃən/",
     "zh": "腐蚀检查",
     "pinyin": "Fǔ shí jiǎn chá",
     "category": "technical",
@@ -15183,7 +15183,7 @@
   {
     "id": "technical-paint-inspection",
     "term": "Paint inspection",
-    "ipa": "/peɪnt ɪnˈspekʃən/",
+    "ipa": "/pˈeɪnt ɪnspˈɛkʃən/",
     "zh": "喷漆检查",
     "pinyin": "Pēn qī jiǎn chá",
     "category": "technical",
@@ -15197,7 +15197,7 @@
   {
     "id": "technical-powder-coating-inspection",
     "term": "Powder Coating inspection",
-    "ipa": "/ˈpaʊdər ˈkoʊtɪŋ ɪnˈspekʃən/",
+    "ipa": "/pˈaʊdə kˈəʊtɪŋ ɪnspˈɛkʃən/",
     "zh": "喷塑检查",
     "pinyin": "Pēn sù jiǎn chá",
     "category": "technical",
@@ -15211,7 +15211,7 @@
   {
     "id": "technical-stainless-steel-inspection",
     "term": "Stainless Steel inspection",
-    "ipa": "/ˈsteɪnləs stil ɪnˈspekʃən/",
+    "ipa": "/stˈeɪnlɪs stˈiːl ɪnspˈɛkʃən/",
     "zh": "不锈钢检查",
     "pinyin": "Bú xiù gāng jiǎn chá",
     "category": "technical",
@@ -15225,7 +15225,7 @@
   {
     "id": "technical-carbon-steel-inspection",
     "term": "Carbon Steel inspection",
-    "ipa": "/ˈkɑrbən stil ɪnˈspekʃən/",
+    "ipa": "/kˈɑːbən stˈiːl ɪnspˈɛkʃən/",
     "zh": "碳钢检查",
     "pinyin": "Tàn gāng jiǎn chá",
     "category": "technical",
@@ -15239,7 +15239,7 @@
   {
     "id": "technical-aluminum-inspection",
     "term": "Aluminum inspection",
-    "ipa": "/əˈlumənəm ɪnˈspekʃən/",
+    "ipa": "/əlˈuːmɪnəm ɪnspˈɛkʃən/",
     "zh": "铝检查",
     "pinyin": "Lǚ jiǎn chá",
     "category": "technical",
@@ -15253,7 +15253,7 @@
   {
     "id": "technical-copper-inspection",
     "term": "Copper inspection",
-    "ipa": "/ˈkɑpər ɪnˈspekʃən/",
+    "ipa": "/kˈɒpə ɪnspˈɛkʃən/",
     "zh": "铜检查",
     "pinyin": "Tóng jiǎn chá",
     "category": "technical",
@@ -15267,7 +15267,7 @@
   {
     "id": "technical-inspection-inspection",
     "term": "Inspection inspection",
-    "ipa": "/ˌɪnˈspɛkʃən ɪnˈspekʃən/",
+    "ipa": "/ɪnspˈɛkʃən ɪnspˈɛkʃən/",
     "zh": "检验检查",
     "pinyin": "Jiǎn yàn jiǎn chá",
     "category": "technical",
@@ -15281,7 +15281,7 @@
   {
     "id": "technical-test-run-inspection",
     "term": "Test Run inspection",
-    "ipa": "/tɛst rən ɪnˈspekʃən/",
+    "ipa": "/tˈɛst ɹˈɐn ɪnspˈɛkʃən/",
     "zh": "试运行检查",
     "pinyin": "Shì yùn xíng jiǎn chá",
     "category": "technical",
@@ -15295,7 +15295,7 @@
   {
     "id": "technical-warranty-inspection",
     "term": "Warranty inspection",
-    "ipa": "/ˈwɔrənti ɪnˈspekʃən/",
+    "ipa": "/wˈɒɹənti ɪnspˈɛkʃən/",
     "zh": "保修检查",
     "pinyin": "Bǎo xiū jiǎn chá",
     "category": "technical",
@@ -15309,7 +15309,7 @@
   {
     "id": "technical-spare-part-inspection",
     "term": "Spare Part inspection",
-    "ipa": "/spɛr pɑrt ɪnˈspekʃən/",
+    "ipa": "/spˈɛə pˈɑːt ɪnspˈɛkʃən/",
     "zh": "备件检查",
     "pinyin": "Bèi jiàn jiǎn chá",
     "category": "technical",
@@ -15323,7 +15323,7 @@
   {
     "id": "technical-consumable-inspection",
     "term": "Consumable inspection",
-    "ipa": "/kənˈsuməbəl ɪnˈspekʃən/",
+    "ipa": "/kənˈsjuːməbəl ɪnspˈɛkʃən/",
     "zh": "易耗品检查",
     "pinyin": "Hào cái pǐn jiǎn chá",
     "category": "technical",
@@ -15337,7 +15337,7 @@
   {
     "id": "technical-overhaul-inspection",
     "term": "Overhaul inspection",
-    "ipa": "/ˈoʊvərˌhɔl ɪnˈspekʃən/",
+    "ipa": "/ˈəʊvəhɔːl ɪnspˈɛkʃən/",
     "zh": "大修检查",
     "pinyin": "Dà xiū jiǎn chá",
     "category": "technical",
@@ -15351,7 +15351,7 @@
   {
     "id": "technical-repair-inspection",
     "term": "Repair inspection",
-    "ipa": "/rɪˈpɛr ɪnˈspekʃən/",
+    "ipa": "/ɹɪpˈɛə ɪnspˈɛkʃən/",
     "zh": "维修检查",
     "pinyin": "Wéi xiū jiǎn chá",
     "category": "technical",
@@ -15365,7 +15365,7 @@
   {
     "id": "technical-replacement-inspection",
     "term": "Replacement inspection",
-    "ipa": "/rɪˈpleɪsmənt ɪnˈspekʃən/",
+    "ipa": "/ɹɪplˈeɪsmənt ɪnspˈɛkʃən/",
     "zh": "更换检查",
     "pinyin": "Gēng huàn jiǎn chá",
     "category": "technical",
@@ -15379,7 +15379,7 @@
   {
     "id": "technical-adjustment-inspection",
     "term": "Adjustment inspection",
-    "ipa": "/əˈʤəstmənt ɪnˈspekʃən/",
+    "ipa": "/ədʒˈɐstmənt ɪnspˈɛkʃən/",
     "zh": "调整检查",
     "pinyin": "Tiáo zhěng jiǎn chá",
     "category": "technical",
@@ -15393,7 +15393,7 @@
   {
     "id": "technical-calibration-inspection",
     "term": "Calibration inspection",
-    "ipa": "/ˌkæləˈbreɪʃən ɪnˈspekʃən/",
+    "ipa": "/kˌælɪbɹˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "校准检查",
     "pinyin": "Jiào zhǔn jiǎn chá",
     "category": "technical",
@@ -15407,7 +15407,7 @@
   {
     "id": "technical-level-inspection",
     "term": "Level inspection",
-    "ipa": "/ˈlɛvəl ɪnˈspekʃən/",
+    "ipa": "/lˈɛvəl ɪnspˈɛkʃən/",
     "zh": "液位检查",
     "pinyin": "Yè wèi jiǎn chá",
     "category": "technical",
@@ -15421,7 +15421,7 @@
   {
     "id": "technical-cooling-system-inspection",
     "term": "Cooling System inspection",
-    "ipa": "/ˈkulɪŋ ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/kˈuːlɪŋ sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "冷却系统检查",
     "pinyin": "Lěng què xì tǒng jiǎn chá",
     "category": "technical",
@@ -15435,7 +15435,7 @@
   {
     "id": "technical-exhaust-system-inspection",
     "term": "Exhaust System inspection",
-    "ipa": "/ɪgˈzɔst ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/ɪgzˈɔːst sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "排气系统检查",
     "pinyin": "Pái qì xì tǒng jiǎn chá",
     "category": "technical",
@@ -15449,7 +15449,7 @@
   {
     "id": "technical-intake-system-inspection",
     "term": "Intake System inspection",
-    "ipa": "/ˈɪnˌteɪk ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/ˈɪntˌeɪk sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "进气系统检查",
     "pinyin": "Jìn qì xì tǒng jiǎn chá",
     "category": "technical",
@@ -15463,7 +15463,7 @@
   {
     "id": "technical-fuel-system-inspection",
     "term": "Fuel System inspection",
-    "ipa": "/fjuəl ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/fjˈuːəl sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "燃油系统检查",
     "pinyin": "Rán yóu xì tǒng jiǎn chá",
     "category": "technical",
@@ -15477,7 +15477,7 @@
   {
     "id": "technical-lubricating-system-inspection",
     "term": "Lubricating System inspection",
-    "ipa": "/ˈlubrəˌkeɪtɪŋ ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/ˈluːbrɪkeɪtɪŋ sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "润滑系统检查",
     "pinyin": "Rùn huá xì tǒng jiǎn chá",
     "category": "technical",
@@ -15491,7 +15491,7 @@
   {
     "id": "technical-starting-system-inspection",
     "term": "Starting System inspection",
-    "ipa": "/ˈstɑrtɪŋ ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/stˈɑːtɪŋ sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "启动系统检查",
     "pinyin": "Qǐ dòng xì tǒng jiǎn chá",
     "category": "technical",
@@ -15505,7 +15505,7 @@
   {
     "id": "technical-control-system-inspection",
     "term": "Control System inspection",
-    "ipa": "/kənˈtroʊl ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/kəntɹˈəʊl sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "控制系统检查",
     "pinyin": "Kòng zhì xì tǒng jiǎn chá",
     "category": "technical",
@@ -15519,7 +15519,7 @@
   {
     "id": "technical-electrical-system-inspection",
     "term": "Electrical System inspection",
-    "ipa": "/ɪˈlɛktrɪkəl ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/ɪlˈɛktɹɪkəl sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "电气系统检查",
     "pinyin": "Diàn qì xì tǒng jiǎn chá",
     "category": "technical",
@@ -15533,7 +15533,7 @@
   {
     "id": "technical-mechanical-system-inspection",
     "term": "Mechanical System inspection",
-    "ipa": "/məˈkænɪkəl ˈsɪstəm ɪnˈspekʃən/",
+    "ipa": "/mɪkˈænɪkəl sˈɪstəm ɪnspˈɛkʃən/",
     "zh": "机械系统检查",
     "pinyin": "Jī xiè xì tǒng jiǎn chá",
     "category": "technical",
@@ -15547,7 +15547,7 @@
   {
     "id": "technical-power-output-inspection",
     "term": "Power Output inspection",
-    "ipa": "/paʊər ˈaʊtˌpʊt ɪnˈspekʃən/",
+    "ipa": "/ˈpaʊə ˈaʊtpˌʊt ɪnspˈɛkʃən/",
     "zh": "功率输出检查",
     "pinyin": "Gōng lǜ shū chū jiǎn chá",
     "category": "technical",
@@ -15561,7 +15561,7 @@
   {
     "id": "technical-rated-voltage-inspection",
     "term": "Rated Voltage inspection",
-    "ipa": "/ˈreɪtɪd ˈvoʊltɪʤ ɪnˈspekʃən/",
+    "ipa": "/ɹˈeɪtɪd vˈəʊltɪdʒ ɪnspˈɛkʃən/",
     "zh": "额定电压检查",
     "pinyin": "É dìng diàn yā jiǎn chá",
     "category": "technical",
@@ -15575,7 +15575,7 @@
   {
     "id": "technical-rated-current-inspection",
     "term": "Rated Current inspection",
-    "ipa": "/ˈreɪtɪd ˈkɑrənt ɪnˈspekʃən/",
+    "ipa": "/ɹˈeɪtɪd kˈɐɹənt ɪnspˈɛkʃən/",
     "zh": "额定电流检查",
     "pinyin": "É dìng diàn liú jiǎn chá",
     "category": "technical",
@@ -15589,7 +15589,7 @@
   {
     "id": "technical-rated-speed-inspection",
     "term": "Rated Speed inspection",
-    "ipa": "/ˈreɪtɪd spid ɪnˈspekʃən/",
+    "ipa": "/ɹˈeɪtɪd spˈiːd ɪnspˈɛkʃən/",
     "zh": "额定转速检查",
     "pinyin": "É dìng zhuàn sù jiǎn chá",
     "category": "technical",
@@ -15603,7 +15603,7 @@
   {
     "id": "technical-rated-frequency-inspection",
     "term": "Rated Frequency inspection",
-    "ipa": "/ˈreɪtɪd ˈfrikwənsi ɪnˈspekʃən/",
+    "ipa": "/ɹˈeɪtɪd fɹˈiːkwənsi ɪnspˈɛkʃən/",
     "zh": "额定频率检查",
     "pinyin": "É dìng pín lǜ jiǎn chá",
     "category": "technical",
@@ -15617,7 +15617,7 @@
   {
     "id": "technical-power-range-inspection",
     "term": "Power Range inspection",
-    "ipa": "/paʊər reɪnʤ ɪnˈspekʃən/",
+    "ipa": "/ˈpaʊə ɹˈeɪndʒ ɪnspˈɛkʃən/",
     "zh": "功率范围检查",
     "pinyin": "Gōng lǜ fàn wéi jiǎn chá",
     "category": "technical",
@@ -15631,7 +15631,7 @@
   {
     "id": "technical-containerized-inspection",
     "term": "Containerized inspection",
-    "ipa": "/kənˈteɪnərˌaɪzd ɪnˈspekʃən/",
+    "ipa": "/kənˈteɪnəraɪzd ɪnspˈɛkʃən/",
     "zh": "集装箱式检查",
     "pinyin": "Jí zhuāng xiāng shì jiǎn chá",
     "category": "technical",
@@ -15645,7 +15645,7 @@
   {
     "id": "technical-silent-type-inspection",
     "term": "Silent Type inspection",
-    "ipa": "/ˈsaɪlənt taɪp ɪnˈspekʃən/",
+    "ipa": "/sˈaɪlənt tˈaɪp ɪnspˈɛkʃən/",
     "zh": "静音型检查",
     "pinyin": "Jìng yīn xíng jiǎn chá",
     "category": "technical",
@@ -15659,7 +15659,7 @@
   {
     "id": "technical-open-type-inspection",
     "term": "Open Type inspection",
-    "ipa": "/ˈoʊpən taɪp ɪnˈspekʃən/",
+    "ipa": "/ˈəʊpən tˈaɪp ɪnspˈɛkʃən/",
     "zh": "开架式检查",
     "pinyin": "Kāi jià shì jiǎn chá",
     "category": "technical",
@@ -15673,7 +15673,7 @@
   {
     "id": "technical-mobile-type-inspection",
     "term": "Mobile Type inspection",
-    "ipa": "/ˈmoʊbəl taɪp ɪnˈspekʃən/",
+    "ipa": "/mˈəʊbaɪl tˈaɪp ɪnspˈɛkʃən/",
     "zh": "移动式检查",
     "pinyin": "Yí dòng shì jiǎn chá",
     "category": "technical",
@@ -15687,7 +15687,7 @@
   {
     "id": "technical-stationary-inspection",
     "term": "Stationary inspection",
-    "ipa": "/ˈsteɪʃəˌnɛri ɪnˈspekʃən/",
+    "ipa": "/ˈsteɪʃənəri ɪnspˈɛkʃən/",
     "zh": "固定式检查",
     "pinyin": "Gù dìng shì jiǎn chá",
     "category": "technical",
@@ -15701,7 +15701,7 @@
   {
     "id": "technical-auto-start-inspection",
     "term": "Auto Start inspection",
-    "ipa": "/ˈɔtoʊ stɑrt ɪnˈspekʃən/",
+    "ipa": "/ˈɔːtəʊ stˈɑːt ɪnspˈɛkʃən/",
     "zh": "自动启动检查",
     "pinyin": "Zì dòng qǐ dòng jiǎn chá",
     "category": "technical",
@@ -15715,7 +15715,7 @@
   {
     "id": "technical-remote-start-inspection",
     "term": "Remote Start inspection",
-    "ipa": "/rɪˈmoʊt stɑrt ɪnˈspekʃən/",
+    "ipa": "/ɹɪmˈəʊt stˈɑːt ɪnspˈɛkʃən/",
     "zh": "远程启动检查",
     "pinyin": "Yuǎn chéng qǐ dòng jiǎn chá",
     "category": "technical",
@@ -15729,7 +15729,7 @@
   {
     "id": "technical-manual-start-inspection",
     "term": "Manual Start inspection",
-    "ipa": "/ˈmænjuəl stɑrt ɪnˈspekʃən/",
+    "ipa": "/mˈænjʊəl stˈɑːt ɪnspˈɛkʃən/",
     "zh": "手动启动检查",
     "pinyin": "Shǒu dòng qǐ dòng jiǎn chá",
     "category": "technical",
@@ -15743,7 +15743,7 @@
   {
     "id": "technical-mains-failure-inspection",
     "term": "Mains Failure inspection",
-    "ipa": "/meɪnz ˈfeɪljər ɪnˈspekʃən/",
+    "ipa": "/mˈeɪnz fˈeɪljə ɪnspˈɛkʃən/",
     "zh": "市电中断检查",
     "pinyin": "Shì diàn zhōng duàn jiǎn chá",
     "category": "technical",
@@ -15757,7 +15757,7 @@
   {
     "id": "technical-auto-mains-failure-inspection",
     "term": "Auto Mains Failure inspection",
-    "ipa": "/ˈɔtoʊ meɪnz ˈfeɪljər ɪnˈspekʃən/",
+    "ipa": "/ˈɔːtəʊ mˈeɪnz fˈeɪljə ɪnspˈɛkʃən/",
     "zh": "自动市电检测检查",
     "pinyin": "Zì dòng shì diàn jiǎn cè jiǎn chá",
     "category": "technical",
@@ -15771,7 +15771,7 @@
   {
     "id": "technical-load-sharing-inspection",
     "term": "Load Sharing inspection",
-    "ipa": "/loʊd ˈʃɛrɪŋ ɪnˈspekʃən/",
+    "ipa": "/lˈəʊd ʃˈɛəɹɪŋ ɪnspˈɛkʃən/",
     "zh": "负载分配检查",
     "pinyin": "Fù zài fēn pèi jiǎn chá",
     "category": "technical",
@@ -15785,7 +15785,7 @@
   {
     "id": "technical-load-management-inspection",
     "term": "Load Management inspection",
-    "ipa": "/loʊd ˈmænɪʤmənt ɪnˈspekʃən/",
+    "ipa": "/lˈəʊd mˈænɪdʒmənt ɪnspˈɛkʃən/",
     "zh": "负载管理检查",
     "pinyin": "Fù zài guǎn lǐ jiǎn chá",
     "category": "technical",
@@ -15799,7 +15799,7 @@
   {
     "id": "technical-power-management-inspection",
     "term": "Power Management inspection",
-    "ipa": "/paʊər ˈmænɪʤmənt ɪnˈspekʃən/",
+    "ipa": "/ˈpaʊə mˈænɪdʒmənt ɪnspˈɛkʃən/",
     "zh": "电源管理检查",
     "pinyin": "Diàn yuán guǎn lǐ jiǎn chá",
     "category": "technical",
@@ -15813,7 +15813,7 @@
   {
     "id": "technical-engine-speed-inspection",
     "term": "Engine Speed inspection",
-    "ipa": "/ˈɪnʤən spid ɪnˈspekʃən/",
+    "ipa": "/ˈɛndʒɪn spˈiːd ɪnspˈɛkʃən/",
     "zh": "发动机转速检查",
     "pinyin": "Fā dòng jī zhuàn sù jiǎn chá",
     "category": "technical",
@@ -15827,7 +15827,7 @@
   {
     "id": "technical-throttle-inspection",
     "term": "Throttle inspection",
-    "ipa": "/θˈrɑtəl ɪnˈspekʃən/",
+    "ipa": "/ˈθrɒtəl ɪnspˈɛkʃən/",
     "zh": "节气门检查",
     "pinyin": "Jié qì mén jiǎn chá",
     "category": "technical",
@@ -15841,7 +15841,7 @@
   {
     "id": "technical-actuator-inspection",
     "term": "Actuator inspection",
-    "ipa": "/ˈækʧuˌeɪtər ɪnˈspekʃən/",
+    "ipa": "/ˈæktjueɪtə ɪnspˈɛkʃən/",
     "zh": "执行器检查",
     "pinyin": "Zhí xíng qì jiǎn chá",
     "category": "technical",
@@ -15855,7 +15855,7 @@
   {
     "id": "technical-solenoid-inspection",
     "term": "Solenoid inspection",
-    "ipa": "/solenoid ɪnˈspekʃən/",
+    "ipa": "/ˈsəʊlənɔɪd ɪnspˈɛkʃən/",
     "zh": "电磁阀检查",
     "pinyin": "Diàn cí fá jiǎn chá",
     "category": "technical",
@@ -15869,7 +15869,7 @@
   {
     "id": "technical-thermostat-inspection",
     "term": "Thermostat inspection",
-    "ipa": "/ˈθərməˌstæt ɪnˈspekʃən/",
+    "ipa": "/ˈθɜːməstæt ɪnspˈɛkʃən/",
     "zh": "节温器检查",
     "pinyin": "Jié wēn qì jiǎn chá",
     "category": "technical",
@@ -15883,7 +15883,7 @@
   {
     "id": "technical-expansion-valve-inspection",
     "term": "Expansion Valve inspection",
-    "ipa": "/ɪkˈspænʧən vælv ɪnˈspekʃən/",
+    "ipa": "/ɪkspˈænʃən vˈælv ɪnspˈɛkʃən/",
     "zh": "膨胀阀检查",
     "pinyin": "Péng zhàng fá jiǎn chá",
     "category": "technical",
@@ -15897,7 +15897,7 @@
   {
     "id": "technical-check-valve-inspection",
     "term": "Check Valve inspection",
-    "ipa": "/ʧɛk vælv ɪnˈspekʃən/",
+    "ipa": "/tʃˈɛk vˈælv ɪnspˈɛkʃən/",
     "zh": "单向阀检查",
     "pinyin": "Dān xiàng fá jiǎn chá",
     "category": "technical",
@@ -15911,7 +15911,7 @@
   {
     "id": "technical-relief-valve-inspection",
     "term": "Relief Valve inspection",
-    "ipa": "/rɪˈlif vælv ɪnˈspekʃən/",
+    "ipa": "/ɹɪlˈiːf vˈælv ɪnspˈɛkʃən/",
     "zh": "溢流阀检查",
     "pinyin": "Yì liú fá jiǎn chá",
     "category": "technical",
@@ -15925,7 +15925,7 @@
   {
     "id": "technical-ball-valve-inspection",
     "term": "Ball Valve inspection",
-    "ipa": "/bɔl vælv ɪnˈspekʃən/",
+    "ipa": "/bˈɔːl vˈælv ɪnspˈɛkʃən/",
     "zh": "球阀检查",
     "pinyin": "Qiú fá jiǎn chá",
     "category": "technical",
@@ -15939,7 +15939,7 @@
   {
     "id": "technical-gate-valve-inspection",
     "term": "Gate Valve inspection",
-    "ipa": "/geɪt vælv ɪnˈspekʃən/",
+    "ipa": "/gˈeɪt vˈælv ɪnspˈɛkʃən/",
     "zh": "闸阀检查",
     "pinyin": "Zhá fá jiǎn chá",
     "category": "technical",
@@ -15953,7 +15953,7 @@
   {
     "id": "technical-pipe-inspection",
     "term": "Pipe inspection",
-    "ipa": "/paɪp ɪnˈspekʃən/",
+    "ipa": "/pˈaɪp ɪnspˈɛkʃən/",
     "zh": "管道检查",
     "pinyin": "Guǎn dào jiǎn chá",
     "category": "technical",
@@ -15967,7 +15967,7 @@
   {
     "id": "technical-elbow-inspection",
     "term": "Elbow inspection",
-    "ipa": "/ˈɛlˌboʊ ɪnˈspekʃən/",
+    "ipa": "/ˈɛlbˌəʊ ɪnspˈɛkʃən/",
     "zh": "弯头检查",
     "pinyin": "Wān tóu jiǎn chá",
     "category": "technical",
@@ -15981,7 +15981,7 @@
   {
     "id": "technical-coupling-inspection",
     "term": "Coupling inspection",
-    "ipa": "/ˈkəplɪŋ ɪnˈspekʃən/",
+    "ipa": "/ˈkʌplɪŋ ɪnspˈɛkʃən/",
     "zh": "接头检查",
     "pinyin": "Jiē tóu jiǎn chá",
     "category": "technical",
@@ -15995,7 +15995,7 @@
   {
     "id": "technical-clamp-inspection",
     "term": "Clamp inspection",
-    "ipa": "/klæmp ɪnˈspekʃən/",
+    "ipa": "/klˈæmp ɪnspˈɛkʃən/",
     "zh": "卡箍检查",
     "pinyin": "Kǎ gū jiǎn chá",
     "category": "technical",
@@ -16009,7 +16009,7 @@
   {
     "id": "technical-insulation-tape-inspection",
     "term": "Insulation Tape inspection",
-    "ipa": "/ˌɪnsəˈleɪʃən teɪp ɪnˈspekʃən/",
+    "ipa": "/ˌɪnsjʊlˈeɪʃən tˈeɪp ɪnspˈɛkʃən/",
     "zh": "绝缘胶带检查",
     "pinyin": "Jué yuán jiāo dài jiǎn chá",
     "category": "technical",
@@ -16023,7 +16023,7 @@
   {
     "id": "technical-cable-tie-inspection",
     "term": "Cable Tie inspection",
-    "ipa": "/ˈkeɪbəl taɪ ɪnˈspekʃən/",
+    "ipa": "/kˈeɪbəl tˈaɪ ɪnspˈɛkʃən/",
     "zh": "扎带检查",
     "pinyin": "Zhā dài jiǎn chá",
     "category": "technical",
@@ -16037,7 +16037,7 @@
   {
     "id": "technical-label-inspection",
     "term": "Label inspection",
-    "ipa": "/ˈleɪbəl ɪnˈspekʃən/",
+    "ipa": "/lˈeɪbəl ɪnspˈɛkʃən/",
     "zh": "标签检查",
     "pinyin": "Biāo qiān jiǎn chá",
     "category": "technical",
@@ -16051,7 +16051,7 @@
   {
     "id": "technical-manual-inspection",
     "term": "Manual inspection",
-    "ipa": "/ˈmænjuəl ɪnˈspekʃən/",
+    "ipa": "/mˈænjʊəl ɪnspˈɛkʃən/",
     "zh": "说明书检查",
     "pinyin": "Shuō míng shū jiǎn chá",
     "category": "technical",
@@ -16065,7 +16065,7 @@
   {
     "id": "technical-drawing-inspection",
     "term": "Drawing inspection",
-    "ipa": "/drɔɪŋ ɪnˈspekʃən/",
+    "ipa": "/dɹˈɔːɪŋ ɪnspˈɛkʃən/",
     "zh": "图纸检查",
     "pinyin": "Tú zhǐ jiǎn chá",
     "category": "technical",
@@ -16079,7 +16079,7 @@
   {
     "id": "technical-diagram-inspection",
     "term": "Diagram inspection",
-    "ipa": "/ˈdaɪəˌgræm ɪnˈspekʃən/",
+    "ipa": "/dˈaɪəgɹˌæm ɪnspˈɛkʃən/",
     "zh": "示意图检查",
     "pinyin": "Shì yì tú jiǎn chá",
     "category": "technical",
@@ -16093,7 +16093,7 @@
   {
     "id": "technical-wiring-diagram-inspection",
     "term": "Wiring Diagram inspection",
-    "ipa": "/ˈwaɪrɪŋ ˈdaɪəˌgræm ɪnˈspekʃən/",
+    "ipa": "/wˈaɪɹɪŋ dˈaɪəgɹˌæm ɪnspˈɛkʃən/",
     "zh": "接线图检查",
     "pinyin": "Jiē xiàn tú jiǎn chá",
     "category": "technical",
@@ -16107,7 +16107,7 @@
   {
     "id": "technical-piping-diagram-inspection",
     "term": "Piping Diagram inspection",
-    "ipa": "/ˈpaɪpɪŋ ˈdaɪəˌgræm ɪnˈspekʃən/",
+    "ipa": "/ˈpaɪpɪŋ dˈaɪəgɹˌæm ɪnspˈɛkʃən/",
     "zh": "管路图检查",
     "pinyin": "Guǎn lù tú jiǎn chá",
     "category": "technical",
@@ -16121,7 +16121,7 @@
   {
     "id": "technical-dimension-inspection",
     "term": "Dimension inspection",
-    "ipa": "/dɪˈmɛnʃən ɪnˈspekʃən/",
+    "ipa": "/daɪmˈɛnʃən ɪnspˈɛkʃən/",
     "zh": "尺寸检查",
     "pinyin": "Chǐ cùn jiǎn chá",
     "category": "technical",
@@ -16135,7 +16135,7 @@
   {
     "id": "technical-weight-inspection",
     "term": "Weight inspection",
-    "ipa": "/weɪt ɪnˈspekʃən/",
+    "ipa": "/wˈeɪt ɪnspˈɛkʃən/",
     "zh": "重量检查",
     "pinyin": "Zhòng liàng jiǎn chá",
     "category": "technical",
@@ -16149,7 +16149,7 @@
   {
     "id": "technical-volume-inspection",
     "term": "Volume inspection",
-    "ipa": "/ˈvɑljum ɪnˈspekʃən/",
+    "ipa": "/vˈɒljuːm ɪnspˈɛkʃən/",
     "zh": "体积检查",
     "pinyin": "Tǐ jī jiǎn chá",
     "category": "technical",
@@ -16163,7 +16163,7 @@
   {
     "id": "technical-container-inspection",
     "term": "Container inspection",
-    "ipa": "/kənˈteɪnər ɪnˈspekʃən/",
+    "ipa": "/kəntˈeɪnə ɪnspˈɛkʃən/",
     "zh": "集装箱检查",
     "pinyin": "Jí zhuāng xiāng jiǎn chá",
     "category": "technical",
@@ -16177,7 +16177,7 @@
   {
     "id": "technical-packing-inspection",
     "term": "Packing inspection",
-    "ipa": "/ˈpækɪŋ ɪnˈspekʃən/",
+    "ipa": "/pˈækɪŋ ɪnspˈɛkʃən/",
     "zh": "包装检查",
     "pinyin": "Bāo zhuāng jiǎn chá",
     "category": "technical",
@@ -16191,7 +16191,7 @@
   {
     "id": "technical-shipping-inspection",
     "term": "Shipping inspection",
-    "ipa": "/ˈʃɪpɪŋ ɪnˈspekʃən/",
+    "ipa": "/ʃˈɪpɪŋ ɪnspˈɛkʃən/",
     "zh": "发货检查",
     "pinyin": "Fā huò jiǎn chá",
     "category": "technical",
@@ -16205,7 +16205,7 @@
   {
     "id": "technical-delivery-inspection",
     "term": "Delivery inspection",
-    "ipa": "/dɪˈlɪvəri ɪnˈspekʃən/",
+    "ipa": "/dɪlˈɪvəɹi ɪnspˈɛkʃən/",
     "zh": "交货检查",
     "pinyin": "Jiāo huò jiǎn chá",
     "category": "technical",
@@ -16219,7 +16219,7 @@
   {
     "id": "technical-lead-time-inspection",
     "term": "Lead Time inspection",
-    "ipa": "/lɛd taɪm ɪnˈspekʃən/",
+    "ipa": "/lˈiːd tˈaɪm ɪnspˈɛkʃən/",
     "zh": "货期检查",
     "pinyin": "Huò qī jiǎn chá",
     "category": "technical",
@@ -16233,7 +16233,7 @@
   {
     "id": "technical-port-inspection",
     "term": "Port inspection",
-    "ipa": "/pɔrt ɪnˈspekʃən/",
+    "ipa": "/pˈɔːt ɪnspˈɛkʃən/",
     "zh": "港口检查",
     "pinyin": "Gǎng kǒu jiǎn chá",
     "category": "technical",
@@ -16247,7 +16247,7 @@
   {
     "id": "technical-fob-price-inspection",
     "term": "FOB Price inspection",
-    "ipa": "/fɔb praɪs ɪnˈspekʃən/",
+    "ipa": "/ˌɛfəʊˈbiː pɹˈaɪs ɪnspˈɛkʃən/",
     "zh": "离岸价检查",
     "pinyin": "Lí àn jià jiǎn chá",
     "category": "technical",
@@ -16261,7 +16261,7 @@
   {
     "id": "technical-cif-price-inspection",
     "term": "CIF Price inspection",
-    "ipa": "/cif praɪs ɪnˈspekʃən/",
+    "ipa": "/ˌsiːaɪˈɛf pɹˈaɪs ɪnspˈɛkʃən/",
     "zh": "到岸价检查",
     "pinyin": "Dào àn jià jiǎn chá",
     "category": "technical",
@@ -16275,7 +16275,7 @@
   {
     "id": "technical-quotation-inspection",
     "term": "Quotation inspection",
-    "ipa": "/kwoʊˈteɪʃən ɪnˈspekʃən/",
+    "ipa": "/kwəʊtˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "报价单检查",
     "pinyin": "Bào jià dān jiǎn chá",
     "category": "technical",
@@ -16289,7 +16289,7 @@
   {
     "id": "technical-proforma-invoice-inspection",
     "term": "Proforma Invoice inspection",
-    "ipa": "/proforma ˈɪnvɔɪs ɪnˈspekʃən/",
+    "ipa": "/ˌprəʊˈfɔːmə ˈɪnvˌɔɪs ɪnspˈɛkʃən/",
     "zh": "形式发票检查",
     "pinyin": "Xíng shì fā piào jiǎn chá",
     "category": "technical",
@@ -16303,7 +16303,7 @@
   {
     "id": "technical-commercial-invoice-inspection",
     "term": "Commercial Invoice inspection",
-    "ipa": "/kəˈmərʃəl ˈɪnvɔɪs ɪnˈspekʃən/",
+    "ipa": "/kəmˈɜːʃəl ˈɪnvˌɔɪs ɪnspˈɛkʃən/",
     "zh": "商业发票检查",
     "pinyin": "Shāng yè fā piào jiǎn chá",
     "category": "technical",
@@ -16317,7 +16317,7 @@
   {
     "id": "technical-packing-list-inspection",
     "term": "Packing List inspection",
-    "ipa": "/ˈpækɪŋ lɪst ɪnˈspekʃən/",
+    "ipa": "/pˈækɪŋ lˈɪst ɪnspˈɛkʃən/",
     "zh": "装箱单检查",
     "pinyin": "Zhuāng xiāng dān jiǎn chá",
     "category": "technical",
@@ -16331,7 +16331,7 @@
   {
     "id": "technical-bill-of-lading-inspection",
     "term": "Bill of Lading inspection",
-    "ipa": "/bɪl əv ˈleɪdɪŋ ɪnˈspekʃən/",
+    "ipa": "/bˈɪl əv ˈleɪdɪŋ ɪnspˈɛkʃən/",
     "zh": "提单检查",
     "pinyin": "Tí dān jiǎn chá",
     "category": "technical",
@@ -16345,7 +16345,7 @@
   {
     "id": "technical-certificate-inspection",
     "term": "Certificate inspection",
-    "ipa": "/sərˈtɪfɪkət ɪnˈspekʃən/",
+    "ipa": "/sətˈɪfɪkɪt ɪnspˈɛkʃən/",
     "zh": "证书检查",
     "pinyin": "Zhèng shū jiǎn chá",
     "category": "technical",
@@ -16359,7 +16359,7 @@
   {
     "id": "technical-ce-certificate-inspection",
     "term": "CE Certificate inspection",
-    "ipa": "/ˌsiːˈiː sərˈtɪfɪkət ɪnˈspekʃən/",
+    "ipa": "/ˌsiːˈiː sətˈɪfɪkɪt ɪnspˈɛkʃən/",
     "zh": "CE认证检查",
     "pinyin": "CE rèn zhèng jiǎn chá",
     "category": "technical",
@@ -16373,7 +16373,7 @@
   {
     "id": "technical-iso-certificate-inspection",
     "term": "ISO Certificate inspection",
-    "ipa": "/ˌaɪ.esˈoʊ sərˈtɪfɪkət ɪnˈspekʃən/",
+    "ipa": "/ˈaɪsəʊ sətˈɪfɪkɪt ɪnspˈɛkʃən/",
     "zh": "ISO认证检查",
     "pinyin": "ISO rèn zhèng jiǎn chá",
     "category": "technical",
@@ -16387,7 +16387,7 @@
   {
     "id": "technical-test-report-inspection",
     "term": "Test Report inspection",
-    "ipa": "/tɛst rɪˈpɔrt ɪnˈspekʃən/",
+    "ipa": "/tˈɛst ɹɪpˈɔːt ɪnspˈɛkʃən/",
     "zh": "测试报告检查",
     "pinyin": "Cè shì bào gào jiǎn chá",
     "category": "technical",
@@ -16401,7 +16401,7 @@
   {
     "id": "technical-quality-control-inspection",
     "term": "Quality Control inspection",
-    "ipa": "/kˈwɑləti kənˈtroʊl ɪnˈspekʃən/",
+    "ipa": "/kwˈɒlɪti kəntɹˈəʊl ɪnspˈɛkʃən/",
     "zh": "质量控制检查",
     "pinyin": "Zhì liàng kòng zhì jiǎn chá",
     "category": "technical",
@@ -16415,7 +16415,7 @@
   {
     "id": "technical-acceptance-inspection",
     "term": "Acceptance inspection",
-    "ipa": "/əkˈsɛptəns ɪnˈspekʃən/",
+    "ipa": "/əksˈɛptəns ɪnspˈɛkʃən/",
     "zh": "验收检查",
     "pinyin": "Yàn shōu jiǎn chá",
     "category": "technical",
@@ -16429,7 +16429,7 @@
   {
     "id": "technical-handover-inspection",
     "term": "Handover inspection",
-    "ipa": "/ˈhændoʊvər ɪnˈspekʃən/",
+    "ipa": "/ˈhændəʊvə ɪnspˈɛkʃən/",
     "zh": "移交检查",
     "pinyin": "Yí jiāo jiǎn chá",
     "category": "technical",
@@ -16443,7 +16443,7 @@
   {
     "id": "technical-training-inspection",
     "term": "Training inspection",
-    "ipa": "/ˈtreɪnɪŋ ɪnˈspekʃən/",
+    "ipa": "/tɹˈeɪnɪŋ ɪnspˈɛkʃən/",
     "zh": "培训检查",
     "pinyin": "Péi xùn jiǎn chá",
     "category": "technical",
@@ -16457,7 +16457,7 @@
   {
     "id": "technical-operation-inspection",
     "term": "Operation inspection",
-    "ipa": "/ˌɑpərˈeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌɒpəɹˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "操作检查",
     "pinyin": "Cāo zuò jiǎn chá",
     "category": "technical",
@@ -16471,7 +16471,7 @@
   {
     "id": "technical-instruction-inspection",
     "term": "Instruction inspection",
-    "ipa": "/ˌɪnˈstrəkʃən ɪnˈspekʃən/",
+    "ipa": "/ɪnstɹˈɐkʃən ɪnspˈɛkʃən/",
     "zh": "指示检查",
     "pinyin": "Zhǐ shì jiǎn chá",
     "category": "technical",
@@ -16485,7 +16485,7 @@
   {
     "id": "technical-guideline-inspection",
     "term": "Guideline inspection",
-    "ipa": "/ˈgaɪˌdlaɪn ɪnˈspekʃən/",
+    "ipa": "/gˈaɪdlˌaɪn ɪnspˈɛkʃən/",
     "zh": "指南检查",
     "pinyin": "Zhǐ nán jiǎn chá",
     "category": "technical",
@@ -16499,7 +16499,7 @@
   {
     "id": "technical-recommendation-inspection",
     "term": "Recommendation inspection",
-    "ipa": "/ˌrɛkəmənˈdeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ɹˌɛkəməndˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "建议检查",
     "pinyin": "Jiàn yì jiǎn chá",
     "category": "technical",
@@ -16513,7 +16513,7 @@
   {
     "id": "technical-limitation-inspection",
     "term": "Limitation inspection",
-    "ipa": "/ˌlɪmɪˈteɪʃən ɪnˈspekʃən/",
+    "ipa": "/lˌɪmɪtˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "限制检查",
     "pinyin": "Xiàn zhì jiǎn chá",
     "category": "technical",
@@ -16527,7 +16527,7 @@
   {
     "id": "technical-specification-inspection",
     "term": "Specification inspection",
-    "ipa": "/ˌspɛsɪfɪˈkeɪʃən ɪnˈspekʃən/",
+    "ipa": "/spˌɛsɪfɪkˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "规格检查",
     "pinyin": "Guī gé jiǎn chá",
     "category": "technical",
@@ -16541,7 +16541,7 @@
   {
     "id": "technical-standard-inspection",
     "term": "Standard inspection",
-    "ipa": "/ˈstændərd ɪnˈspekʃən/",
+    "ipa": "/stˈændəd ɪnspˈɛkʃən/",
     "zh": "标准检查",
     "pinyin": "Biāo zhǔn jiǎn chá",
     "category": "technical",
@@ -16555,7 +16555,7 @@
   {
     "id": "technical-customized-inspection",
     "term": "Customized inspection",
-    "ipa": "/ˈkəstəˌmaɪzd ɪnˈspekʃən/",
+    "ipa": "/kˈɐstəmˌaɪzd ɪnspˈɛkʃən/",
     "zh": "定制的检查",
     "pinyin": "Dìng zhì de jiǎn chá",
     "category": "technical",
@@ -16569,7 +16569,7 @@
   {
     "id": "technical-optional-inspection",
     "term": "Optional inspection",
-    "ipa": "/ˈɔpʃənəl ɪnˈspekʃən/",
+    "ipa": "/ˈɒpʃənəl ɪnspˈɛkʃən/",
     "zh": "可选的检查",
     "pinyin": "Kě xuǎn de jiǎn chá",
     "category": "technical",
@@ -16583,7 +16583,7 @@
   {
     "id": "technical-accessory-inspection",
     "term": "Accessory inspection",
-    "ipa": "/ækˈsɛsəri ɪnˈspekʃən/",
+    "ipa": "/æksˈɛsəɹi ɪnspˈɛkʃən/",
     "zh": "附件检查",
     "pinyin": "Fù jiàn jiǎn chá",
     "category": "technical",
@@ -16597,7 +16597,7 @@
   {
     "id": "technical-extension-inspection",
     "term": "Extension inspection",
-    "ipa": "/ɪkˈstɛnʃən ɪnˈspekʃən/",
+    "ipa": "/ɪkstˈɛnʃən ɪnspˈɛkʃən/",
     "zh": "扩展检查",
     "pinyin": "Kuò zhǎn jiǎn chá",
     "category": "technical",
@@ -16611,7 +16611,7 @@
   {
     "id": "technical-upgrade-inspection",
     "term": "Upgrade inspection",
-    "ipa": "/ˈəpˈgreɪd ɪnˈspekʃən/",
+    "ipa": "/ˈɐpgɹˌeɪd ɪnspˈɛkʃən/",
     "zh": "升级检查",
     "pinyin": "Shēng jí jiǎn chá",
     "category": "technical",
@@ -16625,7 +16625,7 @@
   {
     "id": "technical-modernization-inspection",
     "term": "Modernization inspection",
-    "ipa": "/ˌmɑdərnəˈzeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˌmɒdənaɪˈzeɪʃən ɪnspˈɛkʃən/",
     "zh": "改造检查",
     "pinyin": "Gǎi zào jiǎn chá",
     "category": "technical",
@@ -16639,7 +16639,7 @@
   {
     "id": "technical-retrofit-inspection",
     "term": "Retrofit inspection",
-    "ipa": "/ˈrɛtroʊˌfɪt ɪnˈspekʃən/",
+    "ipa": "/ɹˈɛtɹəʊfˌɪt ɪnspˈɛkʃən/",
     "zh": "翻新检查",
     "pinyin": "Fān xīn jiǎn chá",
     "category": "technical",
@@ -16653,7 +16653,7 @@
   {
     "id": "technical-life-span-inspection",
     "term": "Life Span inspection",
-    "ipa": "/laɪf spæn ɪnˈspekʃən/",
+    "ipa": "/lˈaɪf spˈæn ɪnspˈɛkʃən/",
     "zh": "使用寿命检查",
     "pinyin": "Shǐ yòng shòu mìng jiǎn chá",
     "category": "technical",
@@ -16667,7 +16667,7 @@
   {
     "id": "technical-durability-inspection",
     "term": "Durability inspection",
-    "ipa": "/dərəˈbɪlɪti ɪnˈspekʃən/",
+    "ipa": "/ˌdjʊərəˈbɪləti ɪnspˈɛkʃən/",
     "zh": "耐用性检查",
     "pinyin": "Nài yòng xìng jiǎn chá",
     "category": "technical",
@@ -16681,7 +16681,7 @@
   {
     "id": "technical-reliability-inspection",
     "term": "Reliability inspection",
-    "ipa": "/riˌlaɪəˈbɪləti ɪnˈspekʃən/",
+    "ipa": "/ɹɪlˌaɪəbˈɪlɪti ɪnspˈɛkʃən/",
     "zh": "可靠性检查",
     "pinyin": "Kě kào xìng jiǎn chá",
     "category": "technical",
@@ -16695,7 +16695,7 @@
   {
     "id": "technical-efficiency-inspection",
     "term": "Efficiency inspection",
-    "ipa": "/ɪˈfɪʃənsi ɪnˈspekʃən/",
+    "ipa": "/ɪfˈɪʃənsi ɪnspˈɛkʃən/",
     "zh": "效率检查",
     "pinyin": "Xiào lǜ jiǎn chá",
     "category": "technical",
@@ -16709,7 +16709,7 @@
   {
     "id": "technical-performance-inspection",
     "term": "Performance inspection",
-    "ipa": "/pərˈfɔrməns ɪnˈspekʃən/",
+    "ipa": "/pəfˈɔːməns ɪnspˈɛkʃən/",
     "zh": "性能检查",
     "pinyin": "Xìng néng jiǎn chá",
     "category": "technical",
@@ -16723,7 +16723,7 @@
   {
     "id": "technical-economy-inspection",
     "term": "Economy inspection",
-    "ipa": "/ɪˈkɑnəmi ɪnˈspekʃən/",
+    "ipa": "/ɪkˈɒnəmi ɪnspˈɛkʃən/",
     "zh": "经济性检查",
     "pinyin": "Jīng jì xìng jiǎn chá",
     "category": "technical",
@@ -16737,7 +16737,7 @@
   {
     "id": "technical-environmental-inspection",
     "term": "Environmental inspection",
-    "ipa": "/ɪnˌvaɪrənˈmɛnəl ɪnˈspekʃən/",
+    "ipa": "/ɪnvˌaɪɹənmˈɛntəl ɪnspˈɛkʃən/",
     "zh": "环保的检查",
     "pinyin": "Huán bǎo de jiǎn chá",
     "category": "technical",
@@ -16751,7 +16751,7 @@
   {
     "id": "technical-low-noise-inspection",
     "term": "Low Noise inspection",
-    "ipa": "/loʊ nɔɪz ɪnˈspekʃən/",
+    "ipa": "/lˈəʊ nˈɔɪz ɪnspˈɛkʃən/",
     "zh": "低噪音检查",
     "pinyin": "Dī zào yīn jiǎn chá",
     "category": "technical",
@@ -16765,7 +16765,7 @@
   {
     "id": "technical-low-fuel-inspection",
     "term": "Low Fuel inspection",
-    "ipa": "/loʊ fjuəl ɪnˈspekʃən/",
+    "ipa": "/lˈəʊ fjˈuːəl ɪnspˈɛkʃən/",
     "zh": "低油耗检查",
     "pinyin": "Dī hào yóu jiǎn chá",
     "category": "technical",
@@ -16779,7 +16779,7 @@
   {
     "id": "technical-high-efficiency-inspection",
     "term": "High Efficiency inspection",
-    "ipa": "/haɪ ɪˈfɪʃənsi ɪnˈspekʃən/",
+    "ipa": "/hˈaɪ ɪfˈɪʃənsi ɪnspˈɛkʃən/",
     "zh": "高效率检查",
     "pinyin": "Gāo xiào lǜ jiǎn chá",
     "category": "technical",
@@ -16793,7 +16793,7 @@
   {
     "id": "technical-compact-structure-inspection",
     "term": "Compact Structure inspection",
-    "ipa": "/ˈkɑmpækt ˈstrəkʧər ɪnˈspekʃən/",
+    "ipa": "/kˈɒmpækt stɹˈɐktʃə ɪnspˈɛkʃən/",
     "zh": "结构紧凑检查",
     "pinyin": "Jié gòu jǐn còu jiǎn chá",
     "category": "technical",
@@ -16807,7 +16807,7 @@
   {
     "id": "technical-easy-operation-inspection",
     "term": "Easy Operation inspection",
-    "ipa": "/ˈizi ˌɑpərˈeɪʃən ɪnˈspekʃən/",
+    "ipa": "/ˈiːzi ˌɒpəɹˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "操作简便检查",
     "pinyin": "Cāo zuò jiǎn biàn jiǎn chá",
     "category": "technical",
@@ -16821,7 +16821,7 @@
   {
     "id": "technical-easy-maintenance-inspection",
     "term": "Easy Maintenance inspection",
-    "ipa": "/ˈizi ˈmeɪntənəns ɪnˈspekʃən/",
+    "ipa": "/ˈiːzi mˈeɪntnəns ɪnspˈɛkʃən/",
     "zh": "维护简便检查",
     "pinyin": "Wéi hù jiǎn biàn jiǎn chá",
     "category": "technical",
@@ -16835,7 +16835,7 @@
   {
     "id": "technical-safe-operation-inspection",
     "term": "Safe Operation inspection",
-    "ipa": "/seɪf ˌɑpərˈeɪʃən ɪnˈspekʃən/",
+    "ipa": "/sˈeɪf ˌɒpəɹˈeɪʃən ɪnspˈɛkʃən/",
     "zh": "安全运行检查",
     "pinyin": "ān quán yùn xíng jiǎn chá",
     "category": "technical",
@@ -16849,7 +16849,7 @@
   {
     "id": "technical-fire-protection-inspection",
     "term": "Fire Protection inspection",
-    "ipa": "/faɪər prəˈtɛkʃən ɪnˈspekʃən/",
+    "ipa": "/fˈaɪə pɹətˈɛkʃən ɪnspˈɛkʃən/",
     "zh": "防火检查",
     "pinyin": "Fáng huǒ jiǎn chá",
     "category": "technical",
@@ -16863,7 +16863,7 @@
   {
     "id": "technical-explosion-proof-inspection",
     "term": "Explosion Proof inspection",
-    "ipa": "/ɪkˈsploʊʒən pruf ɪnˈspekʃən/",
+    "ipa": "/ɪksplˈəʊʒən pɹˈuːf ɪnspˈɛkʃən/",
     "zh": "防爆检查",
     "pinyin": "Fáng bào jiǎn chá",
     "category": "technical",
@@ -16877,7 +16877,7 @@
   {
     "id": "technical-waterproof-inspection",
     "term": "Waterproof inspection",
-    "ipa": "/ˈwɔtərˌpruf ɪnˈspekʃən/",
+    "ipa": "/wˈɔːtəpɹˌuːf ɪnspˈɛkʃən/",
     "zh": "防水检查",
     "pinyin": "Fáng shuǐ jiǎn chá",
     "category": "technical",
@@ -16891,7 +16891,7 @@
   {
     "id": "technical-dustproof-inspection",
     "term": "Dustproof inspection",
-    "ipa": "/dustproof ɪnˈspekʃən/",
+    "ipa": "/ˈdʌstpruːf ɪnspˈɛkʃən/",
     "zh": "防尘检查",
     "pinyin": "Fáng chén jiǎn chá",
     "category": "technical",
@@ -16905,7 +16905,7 @@
   {
     "id": "technical-weather-proof-inspection",
     "term": "Weather Proof inspection",
-    "ipa": "/ˈwɛðər pruf ɪnˈspekʃən/",
+    "ipa": "/wˈɛðə pɹˈuːf ɪnspˈɛkʃən/",
     "zh": "全天候检查",
     "pinyin": "Quán tiān hòu jiǎn chá",
     "category": "technical",
@@ -16919,7 +16919,7 @@
   {
     "id": "technical-outdoor-use-inspection",
     "term": "Outdoor Use inspection",
-    "ipa": "/ˈaʊtˌdɔr juz ɪnˈspekʃən/",
+    "ipa": "/ˈaʊtdˌɔː jˈuːs ɪnspˈɛkʃən/",
     "zh": "户外使用检查",
     "pinyin": "Hù wài shǐ yòng jiǎn chá",
     "category": "technical",
@@ -16933,7 +16933,7 @@
   {
     "id": "technical-indoor-use-inspection",
     "term": "Indoor Use inspection",
-    "ipa": "/ˈɪnˌdɔr juz ɪnˈspekʃən/",
+    "ipa": "/ˈɪndˌɔː jˈuːs ɪnspˈɛkʃən/",
     "zh": "室内使用检查",
     "pinyin": "Shì nèi shǐ yòng jiǎn chá",
     "category": "technical",
@@ -16947,7 +16947,7 @@
   {
     "id": "technical-cold-climate-inspection",
     "term": "Cold Climate inspection",
-    "ipa": "/koʊld ˈklaɪmɪt ɪnˈspekʃən/",
+    "ipa": "/kˈəʊld klˈaɪmɪt ɪnspˈɛkʃən/",
     "zh": "寒冷气候检查",
     "pinyin": "Hán lěng qì hòu jiǎn chá",
     "category": "technical",
@@ -16961,7 +16961,7 @@
   {
     "id": "technical-hot-climate-inspection",
     "term": "Hot Climate inspection",
-    "ipa": "/hɑt ˈklaɪmɪt ɪnˈspekʃən/",
+    "ipa": "/hˈɒt klˈaɪmɪt ɪnspˈɛkʃən/",
     "zh": "炎热气候检查",
     "pinyin": "Yán rè qì hòu jiǎn chá",
     "category": "technical",
@@ -16975,7 +16975,7 @@
   {
     "id": "technical-high-altitude-inspection",
     "term": "High Altitude inspection",
-    "ipa": "/haɪ ˈæltəˌtud ɪnˈspekʃən/",
+    "ipa": "/hˈaɪ ˈæltɪtjˌuːd ɪnspˈɛkʃən/",
     "zh": "高海拔检查",
     "pinyin": "Gāo hǎi bá jiǎn chá",
     "category": "technical",
@@ -16989,7 +16989,7 @@
   {
     "id": "technical-seismic-resistance-inspection",
     "term": "Seismic Resistance inspection",
-    "ipa": "/ˈsaɪzmɪk rɪˈzɪstəns ɪnˈspekʃən/",
+    "ipa": "/ˈsaɪzmɪk ɹɪzˈɪstəns ɪnspˈɛkʃən/",
     "zh": "抗震检查",
     "pinyin": "Kàng zhèn jiǎn chá",
     "category": "technical",
@@ -17003,7 +17003,7 @@
   {
     "id": "technical-wind-resistance-inspection",
     "term": "Wind Resistance inspection",
-    "ipa": "/wɪnd rɪˈzɪstəns ɪnˈspekʃən/",
+    "ipa": "/wˈɪnd ɹɪzˈɪstəns ɪnspˈɛkʃən/",
     "zh": "抗风检查",
     "pinyin": "Kàng fēng jiǎn chá",
     "category": "technical",
@@ -17017,7 +17017,7 @@
   {
     "id": "daily-confirm-the-americano",
     "term": "confirm the americano",
-    "ipa": "/kənˈfɜːm ðə əˌmɛrɪˈkɑnoʊ/",
+    "ipa": "/kənfˈɜːm ðə əˌmɛrɪˈkɑːnəʊ/",
     "zh": "确认美式咖啡",
     "pinyin": "Měi shì kā fēi",
     "category": "daily",
@@ -17031,7 +17031,7 @@
   {
     "id": "daily-prepare-the-espresso",
     "term": "prepare the espresso",
-    "ipa": "/prɪˈpeə ðə ˌɛˈsprɛsoʊ/",
+    "ipa": "/pɹɪpˈɛə ðə ɛspɹˈɛsəʊ/",
     "zh": "准备浓缩咖啡",
     "pinyin": "Nóng suō kā fēi",
     "category": "daily",
@@ -17045,7 +17045,7 @@
   {
     "id": "daily-check-the-latte",
     "term": "check the latte",
-    "ipa": "/tʃek ðə ˈlɑˌteɪ/",
+    "ipa": "/tʃˈɛk ðə ˈlæteɪ/",
     "zh": "检查拿铁",
     "pinyin": "Ná tiě",
     "category": "daily",
@@ -17059,7 +17059,7 @@
   {
     "id": "daily-update-the-green-tea",
     "term": "update the green tea",
-    "ipa": "/ʌpˈdeɪt ðə grin ti/",
+    "ipa": "/ˈɐpdˌeɪt ðə gɹˈiːn tˈiː/",
     "zh": "更新绿茶",
     "pinyin": "Lǜ chá",
     "category": "daily",
@@ -17073,7 +17073,7 @@
   {
     "id": "daily-discuss-the-black-tea",
     "term": "discuss the black tea",
-    "ipa": "/dɪˈskʌs ðə blæk ti/",
+    "ipa": "/dɪskˈɐs ðə blˈæk tˈiː/",
     "zh": "讨论红茶",
     "pinyin": "Hóng chá",
     "category": "daily",
@@ -17087,7 +17087,7 @@
   {
     "id": "daily-organise-the-coffee-machine",
     "term": "organise the coffee machine",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkɔfi məˈʃin/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈɒfi məʃˈiːn/",
     "zh": "整理咖啡机",
     "pinyin": "Kā fēi jī",
     "category": "daily",
@@ -17101,7 +17101,7 @@
   {
     "id": "daily-confirm-the-mug",
     "term": "confirm the mug",
-    "ipa": "/kənˈfɜːm ðə məg/",
+    "ipa": "/kənfˈɜːm ðə mˈɐg/",
     "zh": "确认马克杯",
     "pinyin": "Mǎ kè bēi",
     "category": "daily",
@@ -17115,7 +17115,7 @@
   {
     "id": "daily-prepare-the-napkin",
     "term": "prepare the napkin",
-    "ipa": "/prɪˈpeə ðə ˈnæpkɪn/",
+    "ipa": "/pɹɪpˈɛə ðə ˈnæpkɪn/",
     "zh": "准备餐巾纸",
     "pinyin": "Cān jīn zhǐ",
     "category": "daily",
@@ -17129,7 +17129,7 @@
   {
     "id": "daily-check-the-microwave",
     "term": "check the microwave",
-    "ipa": "/tʃek ðə ˈmaɪkrəˌweɪv/",
+    "ipa": "/tʃˈɛk ðə mˈaɪkɹəwˌeɪv/",
     "zh": "检查微波炉",
     "pinyin": "Wēi bō lú",
     "category": "daily",
@@ -17143,7 +17143,7 @@
   {
     "id": "daily-update-the-refrigerator",
     "term": "update the refrigerator",
-    "ipa": "/ʌpˈdeɪt ðə rɪˈfrɪʤərˌeɪtər/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹɪfɹˈɪdʒəɹˌeɪtə/",
     "zh": "更新冰箱",
     "pinyin": "Bīng xiāng",
     "category": "daily",
@@ -17157,7 +17157,7 @@
   {
     "id": "daily-discuss-the-pantry",
     "term": "discuss the pantry",
-    "ipa": "/dɪˈskʌs ðə ˈpæntri/",
+    "ipa": "/dɪskˈɐs ðə pˈæntɹi/",
     "zh": "讨论茶水间",
     "pinyin": "Chá shuǐ jiān",
     "category": "daily",
@@ -17171,7 +17171,7 @@
   {
     "id": "daily-organise-the-lunchbox",
     "term": "organise the lunchbox",
-    "ipa": "/ˈɔːɡənaɪz ðə lunchbox/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈlʌntʃbɒks/",
     "zh": "整理午餐盒",
     "pinyin": "Wǔ cān hé",
     "category": "daily",
@@ -17185,7 +17185,7 @@
   {
     "id": "daily-confirm-the-breakfast",
     "term": "confirm the breakfast",
-    "ipa": "/kənˈfɜːm ðə ˈbrɛkfəst/",
+    "ipa": "/kənfˈɜːm ðə bɹˈɛkfəst/",
     "zh": "确认早餐",
     "pinyin": "Zǎo cān",
     "category": "daily",
@@ -17199,7 +17199,7 @@
   {
     "id": "daily-prepare-the-lunch",
     "term": "prepare the lunch",
-    "ipa": "/prɪˈpeə ðə lənʧ/",
+    "ipa": "/pɹɪpˈɛə ðə lˈɐntʃ/",
     "zh": "准备午餐",
     "pinyin": "Wǔ cān",
     "category": "daily",
@@ -17213,7 +17213,7 @@
   {
     "id": "daily-check-the-dinner",
     "term": "check the dinner",
-    "ipa": "/tʃek ðə ˈdɪnər/",
+    "ipa": "/tʃˈɛk ðə dˈɪnə/",
     "zh": "检查晚餐",
     "pinyin": "Wǎn cān",
     "category": "daily",
@@ -17227,7 +17227,7 @@
   {
     "id": "office-update-the-meeting",
     "term": "update the meeting",
-    "ipa": "/ʌpˈdeɪt ðə ˈmitɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə mˈiːtɪŋ/",
     "zh": "更新会议",
     "pinyin": "Huì yì",
     "category": "office",
@@ -17241,7 +17241,7 @@
   {
     "id": "office-discuss-the-conference",
     "term": "discuss the conference",
-    "ipa": "/dɪˈskʌs ðə ˈkɑnfərəns/",
+    "ipa": "/dɪskˈɐs ðə kˈɒnfɹəns/",
     "zh": "讨论大会",
     "pinyin": "Dà huì",
     "category": "office",
@@ -17255,7 +17255,7 @@
   {
     "id": "office-organise-the-schedule",
     "term": "organise the schedule",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈskɛʤʊl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ʃˈɛdʒuːl/",
     "zh": "整理日程表",
     "pinyin": "Rì chéng biǎo",
     "category": "office",
@@ -17269,7 +17269,7 @@
   {
     "id": "office-confirm-the-appointment",
     "term": "confirm the appointment",
-    "ipa": "/kənˈfɜːm ðə əˈpɔɪntmənt/",
+    "ipa": "/kənfˈɜːm ðə əpˈɔɪntmənt/",
     "zh": "确认预约",
     "pinyin": "Yù yuē",
     "category": "office",
@@ -17283,7 +17283,7 @@
   {
     "id": "office-prepare-the-deadline",
     "term": "prepare the deadline",
-    "ipa": "/prɪˈpeə ðə ˈdɛˌdlaɪn/",
+    "ipa": "/pɹɪpˈɛə ðə dˈɛdlˌaɪn/",
     "zh": "准备截止日期",
     "pinyin": "Jié zhǐ rì qī",
     "category": "office",
@@ -17297,7 +17297,7 @@
   {
     "id": "office-check-the-project",
     "term": "check the project",
-    "ipa": "/tʃek ðə ˈprɑʤɛkt/",
+    "ipa": "/tʃˈɛk ðə pɹˈɒdʒɛkt/",
     "zh": "检查项目",
     "pinyin": "Xiàng mù",
     "category": "office",
@@ -17311,7 +17311,7 @@
   {
     "id": "office-update-the-presentation",
     "term": "update the presentation",
-    "ipa": "/ʌpˈdeɪt ðə ˌprɛzənˈteɪʃən/",
+    "ipa": "/ˈɐpdˌeɪt ðə pɹˌɛzəntˈeɪʃən/",
     "zh": "更新演示汇报",
     "pinyin": "Yǎn shì huì bào",
     "category": "office",
@@ -17325,7 +17325,7 @@
   {
     "id": "office-discuss-the-report",
     "term": "discuss the report",
-    "ipa": "/dɪˈskʌs ðə rɪˈpɔrt/",
+    "ipa": "/dɪskˈɐs ðə ɹɪpˈɔːt/",
     "zh": "讨论报告",
     "pinyin": "Bào gào",
     "category": "office",
@@ -17339,7 +17339,7 @@
   {
     "id": "office-organise-the-email",
     "term": "organise the email",
-    "ipa": "/ˈɔːɡənaɪz ðə iˈmeɪl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈiːmeɪl/",
     "zh": "整理电子邮件",
     "pinyin": "Diàn zǐ yóu jiàn",
     "category": "office",
@@ -17353,7 +17353,7 @@
   {
     "id": "office-confirm-the-document",
     "term": "confirm the document",
-    "ipa": "/kənˈfɜːm ðə ˈdɑkjəmɛnt/",
+    "ipa": "/kənfˈɜːm ðə dˈɒkjʊmɛnt/",
     "zh": "确认文档",
     "pinyin": "Wén dǎng",
     "category": "office",
@@ -17367,7 +17367,7 @@
   {
     "id": "daily-prepare-the-printer",
     "term": "prepare the printer",
-    "ipa": "/prɪˈpeə ðə ˈprɪnər/",
+    "ipa": "/pɹɪpˈɛə ðə pɹˈɪntə/",
     "zh": "准备打印机",
     "pinyin": "Dǎ yìn jī",
     "category": "daily",
@@ -17381,7 +17381,7 @@
   {
     "id": "daily-check-the-scanner",
     "term": "check the scanner",
-    "ipa": "/tʃek ðə ˈskænər/",
+    "ipa": "/tʃˈɛk ðə skˈænə/",
     "zh": "检查扫描仪",
     "pinyin": "Sǎo miáo yí",
     "category": "daily",
@@ -17395,7 +17395,7 @@
   {
     "id": "daily-update-the-copier",
     "term": "update the copier",
-    "ipa": "/ʌpˈdeɪt ðə ˈkɑpiər/",
+    "ipa": "/ˈɐpdˌeɪt ðə kˈɒpɪə/",
     "zh": "更新复印机",
     "pinyin": "Fù yìn jī",
     "category": "daily",
@@ -17409,7 +17409,7 @@
   {
     "id": "daily-discuss-the-notebook",
     "term": "discuss the notebook",
-    "ipa": "/dɪˈskʌs ðə ˈnoʊtˌbʊk/",
+    "ipa": "/dɪskˈɐs ðə nˈəʊtbˌʊk/",
     "zh": "讨论笔记本",
     "pinyin": "Bǐ jì běn",
     "category": "daily",
@@ -17423,7 +17423,7 @@
   {
     "id": "daily-organise-the-stapler",
     "term": "organise the stapler",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈsteɪpələr/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈsteɪplə/",
     "zh": "整理订书机",
     "pinyin": "Dìng shū jī",
     "category": "daily",
@@ -17437,7 +17437,7 @@
   {
     "id": "daily-confirm-the-desk",
     "term": "confirm the desk",
-    "ipa": "/kənˈfɜːm ðə dɛsk/",
+    "ipa": "/kənfˈɜːm ðə dˈɛsk/",
     "zh": "确认办公桌",
     "pinyin": "Bàn gōng zhuō",
     "category": "daily",
@@ -17451,7 +17451,7 @@
   {
     "id": "daily-prepare-the-chair",
     "term": "prepare the chair",
-    "ipa": "/prɪˈpeə ðə ʧɛr/",
+    "ipa": "/pɹɪpˈɛə ðə tʃˈɛə/",
     "zh": "准备椅子",
     "pinyin": "Yǐ zi",
     "category": "daily",
@@ -17465,7 +17465,7 @@
   {
     "id": "daily-check-the-keyboard",
     "term": "check the keyboard",
-    "ipa": "/tʃek ðə ˈkiˌbɔrd/",
+    "ipa": "/tʃˈɛk ðə kˈiːbˌɔːd/",
     "zh": "检查键盘",
     "pinyin": "Jiàn pán",
     "category": "daily",
@@ -17479,7 +17479,7 @@
   {
     "id": "daily-update-the-mouse",
     "term": "update the mouse",
-    "ipa": "/ʌpˈdeɪt ðə maʊs/",
+    "ipa": "/ˈɐpdˌeɪt ðə mˈaʊs/",
     "zh": "更新鼠标",
     "pinyin": "Shǔ biāo",
     "category": "daily",
@@ -17493,7 +17493,7 @@
   {
     "id": "daily-discuss-the-monitor",
     "term": "discuss the monitor",
-    "ipa": "/dɪˈskʌs ðə ˈmɑnətər/",
+    "ipa": "/dɪskˈɐs ðə mˈɒnɪtə/",
     "zh": "讨论显示器",
     "pinyin": "Xiǎn shì qì",
     "category": "daily",
@@ -17507,7 +17507,7 @@
   {
     "id": "daily-organise-the-laptop",
     "term": "organise the laptop",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈlæpˌtɑp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə lˈæptˌɒp/",
     "zh": "整理笔记本电脑",
     "pinyin": "Bǐ jì běn diàn nǎo",
     "category": "daily",
@@ -17521,7 +17521,7 @@
   {
     "id": "daily-confirm-the-charger",
     "term": "confirm the charger",
-    "ipa": "/kənˈfɜːm ðə ˈʧɑrʤər/",
+    "ipa": "/kənfˈɜːm ðə tʃˈɑːdʒə/",
     "zh": "确认充电器",
     "pinyin": "Chōng diàn qì",
     "category": "daily",
@@ -17535,7 +17535,7 @@
   {
     "id": "daily-prepare-the-battery",
     "term": "prepare the battery",
-    "ipa": "/prɪˈpeə ðə ˈbætəri/",
+    "ipa": "/pɹɪpˈɛə ðə bˈætəɹi/",
     "zh": "准备电池",
     "pinyin": "Diàn chí",
     "category": "daily",
@@ -17549,7 +17549,7 @@
   {
     "id": "daily-check-the-earphones",
     "term": "check the earphones",
-    "ipa": "/tʃek ðə ˈɪrˌfoʊnz/",
+    "ipa": "/tʃˈɛk ðə ˈɪəfˌəʊnz/",
     "zh": "检查耳机",
     "pinyin": "Ěr jī",
     "category": "daily",
@@ -17563,7 +17563,7 @@
   {
     "id": "daily-update-the-headset",
     "term": "update the headset",
-    "ipa": "/ʌpˈdeɪt ðə ˈhɛdˌsɛt/",
+    "ipa": "/ˈɐpdˌeɪt ðə hˈɛdsˌɛt/",
     "zh": "更新头戴式耳机",
     "pinyin": "Tóu dài shì ěr jī",
     "category": "daily",
@@ -17577,7 +17577,7 @@
   {
     "id": "daily-discuss-the-boss",
     "term": "discuss the boss",
-    "ipa": "/dɪˈskʌs ðə bɔs/",
+    "ipa": "/dɪskˈɐs ðə bˈɒs/",
     "zh": "讨论老板",
     "pinyin": "Lǎo bǎn",
     "category": "daily",
@@ -17591,7 +17591,7 @@
   {
     "id": "daily-organise-the-colleague",
     "term": "organise the colleague",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkɑlig/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈɒliːg/",
     "zh": "整理同事",
     "pinyin": "Tóng shì",
     "category": "daily",
@@ -17605,7 +17605,7 @@
   {
     "id": "office-confirm-the-manager",
     "term": "confirm the manager",
-    "ipa": "/kənˈfɜːm ðə ˈmænɪʤər/",
+    "ipa": "/kənfˈɜːm ðə mˈænɪdʒə/",
     "zh": "确认经理",
     "pinyin": "Jīng lǐ",
     "category": "office",
@@ -17619,7 +17619,7 @@
   {
     "id": "office-prepare-the-director",
     "term": "prepare the director",
-    "ipa": "/prɪˈpeə ðə dɪˈrɛktər/",
+    "ipa": "/pɹɪpˈɛə ðə daɪɹˈɛktə/",
     "zh": "准备总监",
     "pinyin": "Zǒng jiān",
     "category": "office",
@@ -17633,7 +17633,7 @@
   {
     "id": "daily-check-the-intern",
     "term": "check the intern",
-    "ipa": "/tʃek ðə ˈɪntərn/",
+    "ipa": "/tʃˈɛk ðə ɪntˈɜːn/",
     "zh": "检查实习生",
     "pinyin": "Shí xí shēng",
     "category": "daily",
@@ -17647,7 +17647,7 @@
   {
     "id": "office-update-the-employee",
     "term": "update the employee",
-    "ipa": "/ʌpˈdeɪt ðə ɪmˈplɔɪi/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɛmplˈɔɪi/",
     "zh": "更新员工",
     "pinyin": "Yuán gōng",
     "category": "office",
@@ -17661,7 +17661,7 @@
   {
     "id": "office-discuss-the-client",
     "term": "discuss the client",
-    "ipa": "/dɪˈskʌs ðə klaɪənt/",
+    "ipa": "/dɪskˈɐs ðə klˈaɪənt/",
     "zh": "讨论客户",
     "pinyin": "Kè hù",
     "category": "office",
@@ -17675,7 +17675,7 @@
   {
     "id": "office-organise-the-customer",
     "term": "organise the customer",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkəstəmər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈɐstəmə/",
     "zh": "整理顾客",
     "pinyin": "Gù kè",
     "category": "office",
@@ -17689,7 +17689,7 @@
   {
     "id": "daily-confirm-the-visitor",
     "term": "confirm the visitor",
-    "ipa": "/kənˈfɜːm ðə ˈvɪzɪtər/",
+    "ipa": "/kənfˈɜːm ðə vˈɪzɪtə/",
     "zh": "确认访客",
     "pinyin": "Fǎng kè",
     "category": "daily",
@@ -17703,7 +17703,7 @@
   {
     "id": "daily-prepare-the-reception",
     "term": "prepare the reception",
-    "ipa": "/prɪˈpeə ðə rɪˈsɛpʃən/",
+    "ipa": "/pɹɪpˈɛə ðə ɹɪsˈɛpʃən/",
     "zh": "准备前台",
     "pinyin": "Qián tái",
     "category": "daily",
@@ -17717,7 +17717,7 @@
   {
     "id": "daily-check-the-supply-chain",
     "term": "check the supply chain",
-    "ipa": "/tʃek ðə səˈplaɪ ʧeɪn/",
+    "ipa": "/tʃˈɛk ðə səplˈaɪ tʃˈeɪn/",
     "zh": "检查供应链",
     "pinyin": "Gōng yìng liàn",
     "category": "daily",
@@ -17731,7 +17731,7 @@
   {
     "id": "office-update-the-procurement",
     "term": "update the procurement",
-    "ipa": "/ʌpˈdeɪt ðə proʊˈkjʊrmənt/",
+    "ipa": "/ˈɐpdˌeɪt ðə pɹəkjˈʊəmənt/",
     "zh": "更新采购",
     "pinyin": "Cǎi gòu",
     "category": "office",
@@ -17745,7 +17745,7 @@
   {
     "id": "office-discuss-the-quality-assurance",
     "term": "discuss the quality assurance",
-    "ipa": "/dɪˈskʌs ðə kˈwɑləti əˈʃʊrəns/",
+    "ipa": "/dɪskˈɐs ðə kwˈɒlɪti əʃˈʊəɹəns/",
     "zh": "讨论质量保证",
     "pinyin": "Zhì liàng bǎo zhèng",
     "category": "office",
@@ -17759,7 +17759,7 @@
   {
     "id": "office-organise-the-warehouse",
     "term": "organise the warehouse",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈwɛˌrhaʊs/",
+    "ipa": "/ˈɔːgənˌaɪz ðə wˈɛəhˌaʊs/",
     "zh": "整理仓库",
     "pinyin": "Cāng kù",
     "category": "office",
@@ -17773,7 +17773,7 @@
   {
     "id": "daily-confirm-the-revenue",
     "term": "confirm the revenue",
-    "ipa": "/kənˈfɜːm ðə ˈrɛvəˌnu/",
+    "ipa": "/kənfˈɜːm ðə ɹˈɛvənjˌuː/",
     "zh": "确认营收",
     "pinyin": "Yíng shōu",
     "category": "daily",
@@ -17787,7 +17787,7 @@
   {
     "id": "daily-prepare-the-profit-margin",
     "term": "prepare the profit margin",
-    "ipa": "/prɪˈpeə ðə ˈprɑfɪt ˈmɑrʤən/",
+    "ipa": "/pɹɪpˈɛə ðə pɹˈɒfɪt mˈɑːdʒɪn/",
     "zh": "准备利润率",
     "pinyin": "Lì rùn lǜ",
     "category": "daily",
@@ -17801,7 +17801,7 @@
   {
     "id": "daily-check-the-negotiation",
     "term": "check the negotiation",
-    "ipa": "/tʃek ðə nɪˌgoʊʃiˈeɪʃən/",
+    "ipa": "/tʃˈɛk ðə nɪgˌəʊʃɪˈeɪʃən/",
     "zh": "检查谈判",
     "pinyin": "Tán pàn",
     "category": "daily",
@@ -17815,7 +17815,7 @@
   {
     "id": "daily-update-the-compliance",
     "term": "update the compliance",
-    "ipa": "/ʌpˈdeɪt ðə kəmˈplaɪəns/",
+    "ipa": "/ˈɐpdˌeɪt ðə kəmplˈaɪəns/",
     "zh": "更新合规",
     "pinyin": "Hé guī",
     "category": "daily",
@@ -17829,7 +17829,7 @@
   {
     "id": "daily-discuss-the-performance-review",
     "term": "discuss the performance review",
-    "ipa": "/dɪˈskʌs ðə pərˈfɔrməns ˌrivˈju/",
+    "ipa": "/dɪskˈɐs ðə pəfˈɔːməns ɹɪvjˈuː/",
     "zh": "讨论绩效评估",
     "pinyin": "Jì xiào píng gū",
     "category": "daily",
@@ -17843,7 +17843,7 @@
   {
     "id": "office-organise-the-budget",
     "term": "organise the budget",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈbəʤɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bˈɐdʒɪt/",
     "zh": "整理预算",
     "pinyin": "Yù suàn",
     "category": "office",
@@ -17857,7 +17857,7 @@
   {
     "id": "office-confirm-the-agenda",
     "term": "confirm the agenda",
-    "ipa": "/kənˈfɜːm ðə əˈʤɛndə/",
+    "ipa": "/kənfˈɜːm ðə ədʒˈɛndə/",
     "zh": "确认议程",
     "pinyin": "Yì chéng",
     "category": "office",
@@ -17871,7 +17871,7 @@
   {
     "id": "daily-prepare-the-minutes",
     "term": "prepare the minutes",
-    "ipa": "/prɪˈpeə ðə ˈmɪnəts/",
+    "ipa": "/pɹɪpˈɛə ðə mˈɪnɪts/",
     "zh": "准备会议纪要",
     "pinyin": "Huì yì jì yào",
     "category": "daily",
@@ -17885,7 +17885,7 @@
   {
     "id": "daily-check-the-summary",
     "term": "check the summary",
-    "ipa": "/tʃek ðə ˈsəməri/",
+    "ipa": "/tʃˈɛk ðə sˈɐməɹi/",
     "zh": "检查总结",
     "pinyin": "Zǒng jié",
     "category": "daily",
@@ -17899,7 +17899,7 @@
   {
     "id": "office-update-the-feedback",
     "term": "update the feedback",
-    "ipa": "/ʌpˈdeɪt ðə ˈfidˌbæk/",
+    "ipa": "/ˈɐpdˌeɪt ðə fˈiːdbˌæk/",
     "zh": "更新反馈",
     "pinyin": "Fǎn kuì",
     "category": "office",
@@ -17913,7 +17913,7 @@
   {
     "id": "daily-discuss-the-comment",
     "term": "discuss the comment",
-    "ipa": "/dɪˈskʌs ðə ˈkɑmɛnt/",
+    "ipa": "/dɪskˈɐs ðə kˈɒmɛnt/",
     "zh": "讨论评论",
     "pinyin": "Píng lùn",
     "category": "daily",
@@ -17927,7 +17927,7 @@
   {
     "id": "daily-organise-the-suggestion",
     "term": "organise the suggestion",
-    "ipa": "/ˈɔːɡənaɪz ðə səˈʤɛsʧən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sədʒˈɛstʃən/",
     "zh": "整理建议",
     "pinyin": "Jiàn yì",
     "category": "daily",
@@ -17941,7 +17941,7 @@
   {
     "id": "daily-confirm-the-complaint",
     "term": "confirm the complaint",
-    "ipa": "/kənˈfɜːm ðə kəmˈpleɪnt/",
+    "ipa": "/kənfˈɜːm ðə kəmplˈeɪnt/",
     "zh": "确认投诉",
     "pinyin": "Tóu sù",
     "category": "daily",
@@ -17955,7 +17955,7 @@
   {
     "id": "daily-prepare-the-request",
     "term": "prepare the request",
-    "ipa": "/prɪˈpeə ðə rɪkˈwɛst/",
+    "ipa": "/pɹɪpˈɛə ðə ɹɪkwˈɛst/",
     "zh": "准备请求",
     "pinyin": "Qǐng qiú",
     "category": "daily",
@@ -17969,7 +17969,7 @@
   {
     "id": "office-check-the-approval",
     "term": "check the approval",
-    "ipa": "/tʃek ðə əˈpruvəl/",
+    "ipa": "/tʃˈɛk ðə əpɹˈuːvəl/",
     "zh": "检查批准",
     "pinyin": "Pī zhǔn",
     "category": "office",
@@ -17983,7 +17983,7 @@
   {
     "id": "daily-update-the-signature",
     "term": "update the signature",
-    "ipa": "/ʌpˈdeɪt ðə ˈsɪgnəʧər/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈɪgnətʃə/",
     "zh": "更新签名",
     "pinyin": "Qiān míng",
     "category": "daily",
@@ -17997,7 +17997,7 @@
   {
     "id": "daily-discuss-the-stamp",
     "term": "discuss the stamp",
-    "ipa": "/dɪˈskʌs ðə stæmp/",
+    "ipa": "/dɪskˈɐs ðə stˈæmp/",
     "zh": "讨论盖章",
     "pinyin": "Gài zhāng",
     "category": "daily",
@@ -18011,7 +18011,7 @@
   {
     "id": "office-organise-the-contract",
     "term": "organise the contract",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkɑnˌtrækt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kəntɹˈækt/",
     "zh": "整理合同",
     "pinyin": "Hé tong",
     "category": "office",
@@ -18025,7 +18025,7 @@
   {
     "id": "daily-confirm-the-agreement",
     "term": "confirm the agreement",
-    "ipa": "/kənˈfɜːm ðə əˈgrimənt/",
+    "ipa": "/kənfˈɜːm ðə əgɹˈiːmənt/",
     "zh": "确认协议",
     "pinyin": "Xié yì",
     "category": "daily",
@@ -18039,7 +18039,7 @@
   {
     "id": "office-prepare-the-invoice",
     "term": "prepare the invoice",
-    "ipa": "/prɪˈpeə ðə ˈɪnvɔɪs/",
+    "ipa": "/pɹɪpˈɛə ðə ˈɪnvˌɔɪs/",
     "zh": "准备发票",
     "pinyin": "Fā piào",
     "category": "office",
@@ -18053,7 +18053,7 @@
   {
     "id": "daily-check-the-receipt",
     "term": "check the receipt",
-    "ipa": "/tʃek ðə rɪˈsit/",
+    "ipa": "/tʃˈɛk ðə ɹɪsˈiːt/",
     "zh": "检查收据",
     "pinyin": "Shōu jù",
     "category": "daily",
@@ -18067,7 +18067,7 @@
   {
     "id": "office-update-the-payment",
     "term": "update the payment",
-    "ipa": "/ʌpˈdeɪt ðə ˈpeɪmənt/",
+    "ipa": "/ˈɐpdˌeɪt ðə pˈeɪmənt/",
     "zh": "更新付款",
     "pinyin": "Fù kuǎn",
     "category": "office",
@@ -18081,7 +18081,7 @@
   {
     "id": "daily-discuss-the-transfer",
     "term": "discuss the transfer",
-    "ipa": "/dɪˈskʌs ðə ˈtrænsfər/",
+    "ipa": "/dɪskˈɐs ðə tɹænsfˈɜː/",
     "zh": "讨论转账",
     "pinyin": "Zhuǎn zhàng",
     "category": "daily",
@@ -18095,7 +18095,7 @@
   {
     "id": "daily-organise-the-cash",
     "term": "organise the cash",
-    "ipa": "/ˈɔːɡənaɪz ðə kæʃ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈæʃ/",
     "zh": "整理现金",
     "pinyin": "Xiàn jīn",
     "category": "daily",
@@ -18109,7 +18109,7 @@
   {
     "id": "daily-confirm-the-credit-card",
     "term": "confirm the credit card",
-    "ipa": "/kənˈfɜːm ðə ˈkrɛdɪt kɑrd/",
+    "ipa": "/kənfˈɜːm ðə kɹˈɛdɪt kˈɑːd/",
     "zh": "确认信用卡",
     "pinyin": "Xìn yòng kǎ",
     "category": "daily",
@@ -18123,7 +18123,7 @@
   {
     "id": "daily-prepare-the-bank",
     "term": "prepare the bank",
-    "ipa": "/prɪˈpeə ðə bæŋk/",
+    "ipa": "/pɹɪpˈɛə ðə bˈæŋk/",
     "zh": "准备银行",
     "pinyin": "Yín háng",
     "category": "daily",
@@ -18137,7 +18137,7 @@
   {
     "id": "daily-check-the-account",
     "term": "check the account",
-    "ipa": "/tʃek ðə əˈkaʊnt/",
+    "ipa": "/tʃˈɛk ðə əkˈaʊnt/",
     "zh": "检查账户",
     "pinyin": "Zhàng hù",
     "category": "daily",
@@ -18151,7 +18151,7 @@
   {
     "id": "daily-update-the-balance",
     "term": "update the balance",
-    "ipa": "/ʌpˈdeɪt ðə ˈbæləns/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈæləns/",
     "zh": "更新余额",
     "pinyin": "Yú é",
     "category": "daily",
@@ -18165,7 +18165,7 @@
   {
     "id": "daily-discuss-the-statement",
     "term": "discuss the statement",
-    "ipa": "/dɪˈskʌs ðə ˈsteɪtmənt/",
+    "ipa": "/dɪskˈɐs ðə stˈeɪtmənt/",
     "zh": "讨论对账单",
     "pinyin": "Duì zhàng dān",
     "category": "daily",
@@ -18179,7 +18179,7 @@
   {
     "id": "daily-organise-the-tax",
     "term": "organise the tax",
-    "ipa": "/ˈɔːɡənaɪz ðə tæks/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tˈæks/",
     "zh": "整理税",
     "pinyin": "Shuì",
     "category": "daily",
@@ -18193,7 +18193,7 @@
   {
     "id": "daily-confirm-the-vat",
     "term": "confirm the vat",
-    "ipa": "/kənˈfɜːm ðə ˌviː.eɪˈtiː/",
+    "ipa": "/kənfˈɜːm ðə vˈæt/",
     "zh": "确认增值税",
     "pinyin": "Zēng zhí shuì",
     "category": "daily",
@@ -18207,7 +18207,7 @@
   {
     "id": "daily-prepare-the-salary",
     "term": "prepare the salary",
-    "ipa": "/prɪˈpeə ðə ˈsæləri/",
+    "ipa": "/pɹɪpˈɛə ðə sˈæləɹi/",
     "zh": "准备薪水",
     "pinyin": "Xīn shuǐ",
     "category": "daily",
@@ -18221,7 +18221,7 @@
   {
     "id": "daily-check-the-bonus",
     "term": "check the bonus",
-    "ipa": "/tʃek ðə ˈboʊnəs/",
+    "ipa": "/tʃˈɛk ðə bˈəʊnəs/",
     "zh": "检查奖金",
     "pinyin": "Jiǎng jīn",
     "category": "daily",
@@ -18235,7 +18235,7 @@
   {
     "id": "daily-update-the-allowance",
     "term": "update the allowance",
-    "ipa": "/ʌpˈdeɪt ðə əˈlaʊəns/",
+    "ipa": "/ˈɐpdˌeɪt ðə əlˈaʊəns/",
     "zh": "更新补贴",
     "pinyin": "Bǔ tiē",
     "category": "daily",
@@ -18249,7 +18249,7 @@
   {
     "id": "daily-discuss-the-overtime",
     "term": "discuss the overtime",
-    "ipa": "/dɪˈskʌs ðə ˈoʊvərˌtaɪm/",
+    "ipa": "/dɪskˈɐs ðə ˈəʊvətˌaɪm/",
     "zh": "讨论加班",
     "pinyin": "Jiā bān",
     "category": "daily",
@@ -18263,7 +18263,7 @@
   {
     "id": "daily-organise-the-leave",
     "term": "organise the leave",
-    "ipa": "/ˈɔːɡənaɪz ðə liv/",
+    "ipa": "/ˈɔːgənˌaɪz ðə lˈiːv/",
     "zh": "整理休假",
     "pinyin": "Xiū jià",
     "category": "daily",
@@ -18277,7 +18277,7 @@
   {
     "id": "daily-confirm-the-holiday",
     "term": "confirm the holiday",
-    "ipa": "/kənˈfɜːm ðə ˈhɑlɪˌdeɪ/",
+    "ipa": "/kənfˈɜːm ðə hˈɒlɪdˌeɪ/",
     "zh": "确认假期",
     "pinyin": "Jià qī",
     "category": "daily",
@@ -18291,7 +18291,7 @@
   {
     "id": "daily-prepare-the-sick-leave",
     "term": "prepare the sick leave",
-    "ipa": "/prɪˈpeə ðə sɪk liv/",
+    "ipa": "/pɹɪpˈɛə ðə sˈɪk lˈiːv/",
     "zh": "准备病假",
     "pinyin": "Bìng jià",
     "category": "daily",
@@ -18305,7 +18305,7 @@
   {
     "id": "daily-check-the-annual-leave",
     "term": "check the annual leave",
-    "ipa": "/tʃek ðə ˈænjuəl liv/",
+    "ipa": "/tʃˈɛk ðə ˈænjʊəl lˈiːv/",
     "zh": "检查年假",
     "pinyin": "Nián jià",
     "category": "daily",
@@ -18319,7 +18319,7 @@
   {
     "id": "daily-update-the-absence",
     "term": "update the absence",
-    "ipa": "/ʌpˈdeɪt ðə ˈæbsəns/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈæbsəns/",
     "zh": "更新缺勤",
     "pinyin": "Quē qín",
     "category": "daily",
@@ -18333,7 +18333,7 @@
   {
     "id": "daily-discuss-the-attendance",
     "term": "discuss the attendance",
-    "ipa": "/dɪˈskʌs ðə əˈtɛndəns/",
+    "ipa": "/dɪskˈɐs ðə ətˈɛndəns/",
     "zh": "讨论考勤",
     "pinyin": "Kǎo qín",
     "category": "daily",
@@ -18347,7 +18347,7 @@
   {
     "id": "daily-organise-the-shift",
     "term": "organise the shift",
-    "ipa": "/ˈɔːɡənaɪz ðə ʃɪft/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ʃˈɪft/",
     "zh": "整理班次",
     "pinyin": "Bān cì",
     "category": "daily",
@@ -18361,7 +18361,7 @@
   {
     "id": "daily-confirm-the-roster",
     "term": "confirm the roster",
-    "ipa": "/kənˈfɜːm ðə ˈrɑstər/",
+    "ipa": "/kənfˈɜːm ðə ɹˈɒstə/",
     "zh": "确认排班表",
     "pinyin": "Pái bān biǎo",
     "category": "daily",
@@ -18375,7 +18375,7 @@
   {
     "id": "daily-prepare-the-recruitment",
     "term": "prepare the recruitment",
-    "ipa": "/prɪˈpeə ðə rɪˈkrutmənt/",
+    "ipa": "/pɹɪpˈɛə ðə ɹɪkɹˈuːtmənt/",
     "zh": "准备招聘",
     "pinyin": "Zhāo pìn",
     "category": "daily",
@@ -18389,7 +18389,7 @@
   {
     "id": "daily-check-the-interview",
     "term": "check the interview",
-    "ipa": "/tʃek ðə ˈɪntərvˌju/",
+    "ipa": "/tʃˈɛk ðə ˈɪntəvjˌuː/",
     "zh": "检查面试",
     "pinyin": "Miàn shì",
     "category": "daily",
@@ -18403,7 +18403,7 @@
   {
     "id": "daily-update-the-resume",
     "term": "update the resume",
-    "ipa": "/ʌpˈdeɪt ðə ˈrɛzəˌmeɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹɪzjˈuːm/",
     "zh": "更新简历",
     "pinyin": "Jiǎn lì",
     "category": "daily",
@@ -18417,7 +18417,7 @@
   {
     "id": "daily-discuss-the-qualification",
     "term": "discuss the qualification",
-    "ipa": "/dɪˈskʌs ðə kˌwɑləfəˈkeɪʃən/",
+    "ipa": "/dɪskˈɐs ðə kwˌɒlɪfɪkˈeɪʃən/",
     "zh": "讨论资质",
     "pinyin": "Zī zhì",
     "category": "daily",
@@ -18431,7 +18431,7 @@
   {
     "id": "daily-organise-the-experience",
     "term": "organise the experience",
-    "ipa": "/ˈɔːɡənaɪz ðə ɪkˈspɪriəns/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɪkspˈɪəɹɪəns/",
     "zh": "整理经验",
     "pinyin": "Jīng yàn",
     "category": "daily",
@@ -18445,7 +18445,7 @@
   {
     "id": "daily-confirm-the-skill",
     "term": "confirm the skill",
-    "ipa": "/kənˈfɜːm ðə skɪl/",
+    "ipa": "/kənfˈɜːm ðə skˈɪl/",
     "zh": "确认技能",
     "pinyin": "Jì néng",
     "category": "daily",
@@ -18459,7 +18459,7 @@
   {
     "id": "office-prepare-the-training-course",
     "term": "prepare the training course",
-    "ipa": "/prɪˈpeə ðə ˈtreɪnɪŋ kɔrs/",
+    "ipa": "/pɹɪpˈɛə ðə tɹˈeɪnɪŋ kˈɔːs/",
     "zh": "准备培训课程",
     "pinyin": "Péi xùn kè chéng",
     "category": "office",
@@ -18473,7 +18473,7 @@
   {
     "id": "daily-check-the-certificate",
     "term": "check the certificate",
-    "ipa": "/tʃek ðə sərˈtɪfɪkət/",
+    "ipa": "/tʃˈɛk ðə sətˈɪfɪkɪt/",
     "zh": "检查证书",
     "pinyin": "Zhèng shū",
     "category": "daily",
@@ -18487,7 +18487,7 @@
   {
     "id": "daily-update-the-diploma",
     "term": "update the diploma",
-    "ipa": "/ʌpˈdeɪt ðə dɪˈploʊmɑ/",
+    "ipa": "/ˈɐpdˌeɪt ðə dɪplˈəʊmə/",
     "zh": "更新文凭",
     "pinyin": "Wén píng",
     "category": "daily",
@@ -18501,7 +18501,7 @@
   {
     "id": "daily-discuss-the-degree",
     "term": "discuss the degree",
-    "ipa": "/dɪˈskʌs ðə dɪˈgri/",
+    "ipa": "/dɪskˈɐs ðə dɪgɹˈiː/",
     "zh": "讨论学位",
     "pinyin": "Xué wèi",
     "category": "daily",
@@ -18515,7 +18515,7 @@
   {
     "id": "daily-organise-the-major",
     "term": "organise the major",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈmeɪʤər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə mˈeɪdʒə/",
     "zh": "整理专业",
     "pinyin": "Zhuān yè",
     "category": "daily",
@@ -18529,7 +18529,7 @@
   {
     "id": "daily-confirm-the-subject",
     "term": "confirm the subject",
-    "ipa": "/kənˈfɜːm ðə ˈsəbʤɪkt/",
+    "ipa": "/kənfˈɜːm ðə səbdʒˈɛkt/",
     "zh": "确认科目",
     "pinyin": "Kē mù",
     "category": "daily",
@@ -18543,7 +18543,7 @@
   {
     "id": "daily-prepare-the-study",
     "term": "prepare the study",
-    "ipa": "/prɪˈpeə ðə ˈstədi/",
+    "ipa": "/pɹɪpˈɛə ðə stˈɐdi/",
     "zh": "准备学习",
     "pinyin": "Xué xí",
     "category": "daily",
@@ -18557,7 +18557,7 @@
   {
     "id": "daily-check-the-practice",
     "term": "check the practice",
-    "ipa": "/tʃek ðə ˈpræktɪs/",
+    "ipa": "/tʃˈɛk ðə pɹˈæktɪs/",
     "zh": "检查练习",
     "pinyin": "Liàn xí",
     "category": "daily",
@@ -18571,7 +18571,7 @@
   {
     "id": "daily-update-the-improve",
     "term": "update the improve",
-    "ipa": "/ʌpˈdeɪt ðə ˌɪmˈpruv/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɪmpɹˈuːv/",
     "zh": "更新提升",
     "pinyin": "Tí shēng",
     "category": "daily",
@@ -18585,7 +18585,7 @@
   {
     "id": "daily-discuss-the-progress",
     "term": "discuss the progress",
-    "ipa": "/dɪˈskʌs ðə ˈprɑˌgrɛs/",
+    "ipa": "/dɪskˈɐs ðə pɹˈəʊgɹˌɛs/",
     "zh": "讨论进步",
     "pinyin": "Jìn bù",
     "category": "daily",
@@ -18599,7 +18599,7 @@
   {
     "id": "daily-organise-the-goal",
     "term": "organise the goal",
-    "ipa": "/ˈɔːɡənaɪz ðə goʊl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə gˈəʊl/",
     "zh": "整理目标",
     "pinyin": "Mù biāo",
     "category": "daily",
@@ -18613,7 +18613,7 @@
   {
     "id": "daily-confirm-the-target",
     "term": "confirm the target",
-    "ipa": "/kənˈfɜːm ðə ˈtərgət/",
+    "ipa": "/kənfˈɜːm ðə tˈɑːgɪt/",
     "zh": "确认指标",
     "pinyin": "Zhǐ biāo",
     "category": "daily",
@@ -18627,7 +18627,7 @@
   {
     "id": "daily-prepare-the-mission",
     "term": "prepare the mission",
-    "ipa": "/prɪˈpeə ðə ˈmɪʃən/",
+    "ipa": "/pɹɪpˈɛə ðə mˈɪʃən/",
     "zh": "准备任务",
     "pinyin": "Rèn wù",
     "category": "daily",
@@ -18641,7 +18641,7 @@
   {
     "id": "daily-check-the-vision",
     "term": "check the vision",
-    "ipa": "/tʃek ðə ˈvɪʒən/",
+    "ipa": "/tʃˈɛk ðə vˈɪʒən/",
     "zh": "检查愿景",
     "pinyin": "Yuàn jǐng",
     "category": "daily",
@@ -18655,7 +18655,7 @@
   {
     "id": "daily-update-the-value",
     "term": "update the value",
-    "ipa": "/ʌpˈdeɪt ðə ˈvælju/",
+    "ipa": "/ˈɐpdˌeɪt ðə vˈæljuː/",
     "zh": "更新价值观",
     "pinyin": "Jià zhí guān",
     "category": "daily",
@@ -18669,7 +18669,7 @@
   {
     "id": "daily-discuss-the-culture",
     "term": "discuss the culture",
-    "ipa": "/dɪˈskʌs ðə ˈkəlʧər/",
+    "ipa": "/dɪskˈɐs ðə kˈɐltʃə/",
     "zh": "讨论文化",
     "pinyin": "Wén huà",
     "category": "daily",
@@ -18683,7 +18683,7 @@
   {
     "id": "daily-organise-the-team",
     "term": "organise the team",
-    "ipa": "/ˈɔːɡənaɪz ðə tim/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tˈiːm/",
     "zh": "整理团队",
     "pinyin": "Tuán duì",
     "category": "daily",
@@ -18697,7 +18697,7 @@
   {
     "id": "daily-confirm-the-cooperation",
     "term": "confirm the cooperation",
-    "ipa": "/kənˈfɜːm ðə kˌwɔpərˈeɪʃən/",
+    "ipa": "/kənfˈɜːm ðə kəʊˌɒpəɹˈeɪʃən/",
     "zh": "确认合作",
     "pinyin": "Hé zuò",
     "category": "daily",
@@ -18711,7 +18711,7 @@
   {
     "id": "daily-prepare-the-teamwork",
     "term": "prepare the teamwork",
-    "ipa": "/prɪˈpeə ðə ˈtimˌwərk/",
+    "ipa": "/pɹɪpˈɛə ðə ˈtiːmwɜːk/",
     "zh": "准备团队协作",
     "pinyin": "Tuán duì xié zuò",
     "category": "daily",
@@ -18725,7 +18725,7 @@
   {
     "id": "daily-check-the-leadership",
     "term": "check the leadership",
-    "ipa": "/tʃek ðə ˈlidərˌʃɪp/",
+    "ipa": "/tʃˈɛk ðə lˈiːdəʃˌɪp/",
     "zh": "检查领导力",
     "pinyin": "Lǐng dǎo lì",
     "category": "daily",
@@ -18739,7 +18739,7 @@
   {
     "id": "daily-update-the-responsibility",
     "term": "update the responsibility",
-    "ipa": "/ʌpˈdeɪt ðə riˌspɑnsəˈbɪləti/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹɪspˌɒnsɪbˈɪlɪti/",
     "zh": "更新责任",
     "pinyin": "Zé rèn",
     "category": "daily",
@@ -18753,7 +18753,7 @@
   {
     "id": "daily-discuss-the-duty",
     "term": "discuss the duty",
-    "ipa": "/dɪˈskʌs ðə ˈduti/",
+    "ipa": "/dɪskˈɐs ðə djˈuːti/",
     "zh": "讨论职责",
     "pinyin": "Zhí zé",
     "category": "daily",
@@ -18767,7 +18767,7 @@
   {
     "id": "daily-organise-the-task",
     "term": "organise the task",
-    "ipa": "/ˈɔːɡənaɪz ðə tæsk/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tˈɑːsk/",
     "zh": "整理任务",
     "pinyin": "Rèn wù",
     "category": "daily",
@@ -18781,7 +18781,7 @@
   {
     "id": "daily-confirm-the-job",
     "term": "confirm the job",
-    "ipa": "/kənˈfɜːm ðə ʤɑb/",
+    "ipa": "/kənfˈɜːm ðə dʒˈɒb/",
     "zh": "确认工作",
     "pinyin": "Gōng zuò",
     "category": "daily",
@@ -18795,7 +18795,7 @@
   {
     "id": "daily-prepare-the-position",
     "term": "prepare the position",
-    "ipa": "/prɪˈpeə ðə pəˈzɪʃən/",
+    "ipa": "/pɹɪpˈɛə ðə pəzˈɪʃən/",
     "zh": "准备职位",
     "pinyin": "Zhí wèi",
     "category": "daily",
@@ -18809,7 +18809,7 @@
   {
     "id": "office-check-the-department",
     "term": "check the department",
-    "ipa": "/tʃek ðə dɪˈpɑrtmənt/",
+    "ipa": "/tʃˈɛk ðə dɪpˈɑːtmənt/",
     "zh": "检查部门",
     "pinyin": "Bù mén",
     "category": "office",
@@ -18823,7 +18823,7 @@
   {
     "id": "daily-update-the-hr",
     "term": "update the hr",
-    "ipa": "/ʌpˈdeɪt ðə ˌeɪtʃˈɑːr/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˌeɪtʃˈɑː/",
     "zh": "更新人力资源",
     "pinyin": "Rén lì zī yuán",
     "category": "daily",
@@ -18837,7 +18837,7 @@
   {
     "id": "daily-discuss-the-admin",
     "term": "discuss the admin",
-    "ipa": "/dɪˈskʌs ðə ˈædmɪn/",
+    "ipa": "/dɪskˈɐs ðə ˈædmɪn/",
     "zh": "讨论行政",
     "pinyin": "Xíng zhèng",
     "category": "daily",
@@ -18851,7 +18851,7 @@
   {
     "id": "office-organise-the-finance",
     "term": "organise the finance",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈfaɪˌnæns/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fˈaɪnˌæns/",
     "zh": "整理财务",
     "pinyin": "Cái wù",
     "category": "office",
@@ -18865,7 +18865,7 @@
   {
     "id": "office-confirm-the-sales",
     "term": "confirm the sales",
-    "ipa": "/kənˈfɜːm ðə seɪlz/",
+    "ipa": "/kənfˈɜːm ðə sˈeɪlz/",
     "zh": "确认销售",
     "pinyin": "Xiāo shòu",
     "category": "office",
@@ -18879,7 +18879,7 @@
   {
     "id": "office-prepare-the-marketing",
     "term": "prepare the marketing",
-    "ipa": "/prɪˈpeə ðə ˈmɑrkətɪŋ/",
+    "ipa": "/pɹɪpˈɛə ðə mˈɑːkɪtɪŋ/",
     "zh": "准备市场",
     "pinyin": "Shì chǎng",
     "category": "office",
@@ -18893,7 +18893,7 @@
   {
     "id": "daily-check-the-engineering",
     "term": "check the engineering",
-    "ipa": "/tʃek ðə ˈɛnʤəˈnɪrɪŋ/",
+    "ipa": "/tʃˈɛk ðə ˌɛndʒɪnˈɪəɹɪŋ/",
     "zh": "检查工程",
     "pinyin": "Gōng chéng",
     "category": "daily",
@@ -18907,7 +18907,7 @@
   {
     "id": "daily-update-the-production",
     "term": "update the production",
-    "ipa": "/ʌpˈdeɪt ðə pərˈdəkʃən/",
+    "ipa": "/ˈɐpdˌeɪt ðə pɹədˈɐkʃən/",
     "zh": "更新生产",
     "pinyin": "Shēng chǎn",
     "category": "daily",
@@ -18921,7 +18921,7 @@
   {
     "id": "office-discuss-the-logistics",
     "term": "discuss the logistics",
-    "ipa": "/dɪˈskʌs ðə ləˈʤɪstɪks/",
+    "ipa": "/dɪskˈɐs ðə lədʒˈɪstɪks/",
     "zh": "讨论物流",
     "pinyin": "Wù liú",
     "category": "office",
@@ -18935,7 +18935,7 @@
   {
     "id": "daily-organise-the-security",
     "term": "organise the security",
-    "ipa": "/ˈɔːɡənaɪz ðə sɪˈkjʊrəti/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sɪkjˈʊəɹɪti/",
     "zh": "整理保安",
     "pinyin": "Bǎo ān",
     "category": "daily",
@@ -18949,7 +18949,7 @@
   {
     "id": "daily-confirm-the-cleaner",
     "term": "confirm the cleaner",
-    "ipa": "/kənˈfɜːm ðə ˈklinər/",
+    "ipa": "/kənfˈɜːm ðə klˈiːnə/",
     "zh": "确认保洁",
     "pinyin": "Bǎo jié",
     "category": "daily",
@@ -18963,7 +18963,7 @@
   {
     "id": "office-prepare-the-office",
     "term": "prepare the office",
-    "ipa": "/prɪˈpeə ðə ˈɔfəs/",
+    "ipa": "/pɹɪpˈɛə ðə ˈɒfɪs/",
     "zh": "准备办公室",
     "pinyin": "Bàn gōng shì",
     "category": "office",
@@ -18977,7 +18977,7 @@
   {
     "id": "daily-check-the-factory",
     "term": "check the factory",
-    "ipa": "/tʃek ðə ˈfæktəri/",
+    "ipa": "/tʃˈɛk ðə fˈæktəɹi/",
     "zh": "检查工厂",
     "pinyin": "Gōng chǎng",
     "category": "daily",
@@ -18991,7 +18991,7 @@
   {
     "id": "daily-update-the-workshop",
     "term": "update the workshop",
-    "ipa": "/ʌpˈdeɪt ðə ˈwərkˌʃɑp/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɜːkʃˌɒp/",
     "zh": "更新车间",
     "pinyin": "Chē jiān",
     "category": "daily",
@@ -19005,7 +19005,7 @@
   {
     "id": "daily-discuss-the-site",
     "term": "discuss the site",
-    "ipa": "/dɪˈskʌs ðə saɪt/",
+    "ipa": "/dɪskˈɐs ðə sˈaɪt/",
     "zh": "讨论现场",
     "pinyin": "Xiàn chǎng",
     "category": "daily",
@@ -19019,7 +19019,7 @@
   {
     "id": "daily-organise-the-branch",
     "term": "organise the branch",
-    "ipa": "/ˈɔːɡənaɪz ðə brænʧ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bɹˈɑːntʃ/",
     "zh": "整理分公司",
     "pinyin": "Fēn gōng sī",
     "category": "daily",
@@ -19033,7 +19033,7 @@
   {
     "id": "daily-confirm-the-headquarters",
     "term": "confirm the headquarters",
-    "ipa": "/kənˈfɜːm ðə ˈhɛdˌkɔrtərz/",
+    "ipa": "/kənfˈɜːm ðə hˌɛdkwˈɔːtəz/",
     "zh": "确认总部",
     "pinyin": "Zǒng bù",
     "category": "daily",
@@ -19047,7 +19047,7 @@
   {
     "id": "daily-prepare-the-group",
     "term": "prepare the group",
-    "ipa": "/prɪˈpeə ðə grup/",
+    "ipa": "/pɹɪpˈɛə ðə gɹˈuːp/",
     "zh": "准备集团",
     "pinyin": "Jí tuán",
     "category": "daily",
@@ -19061,7 +19061,7 @@
   {
     "id": "daily-check-the-company",
     "term": "check the company",
-    "ipa": "/tʃek ðə ˈkəmpəˌni/",
+    "ipa": "/tʃˈɛk ðə kˈɐmpəni/",
     "zh": "检查公司",
     "pinyin": "Gōng sī",
     "category": "daily",
@@ -19075,7 +19075,7 @@
   {
     "id": "daily-update-the-enterprise",
     "term": "update the enterprise",
-    "ipa": "/ʌpˈdeɪt ðə ˈɛnərˌpraɪz/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɛntəpɹˌaɪz/",
     "zh": "更新企业",
     "pinyin": "Qǐ yè",
     "category": "daily",
@@ -19089,7 +19089,7 @@
   {
     "id": "daily-discuss-the-organization",
     "term": "discuss the organization",
-    "ipa": "/dɪˈskʌs ðə ˌɔrgənəˈzeɪʃən/",
+    "ipa": "/dɪskˈɐs ðə ˌɔːgənaɪzˈeɪʃən/",
     "zh": "讨论组织",
     "pinyin": "Zǔ zhī",
     "category": "daily",
@@ -19103,7 +19103,7 @@
   {
     "id": "daily-organise-the-partner",
     "term": "organise the partner",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈpɑrtnər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə pˈɑːtnə/",
     "zh": "整理合作伙伴",
     "pinyin": "Hé zuò huǒ bàn",
     "category": "daily",
@@ -19117,7 +19117,7 @@
   {
     "id": "office-confirm-the-supplier",
     "term": "confirm the supplier",
-    "ipa": "/kənˈfɜːm ðə səˈplaɪər/",
+    "ipa": "/kənfˈɜːm ðə səplˈaɪə/",
     "zh": "确认供应商",
     "pinyin": "Gōng yìng shāng",
     "category": "office",
@@ -19131,7 +19131,7 @@
   {
     "id": "daily-prepare-the-distributor",
     "term": "prepare the distributor",
-    "ipa": "/prɪˈpeə ðə dɪˈstrɪbjətər/",
+    "ipa": "/pɹɪpˈɛə ðə dɪstɹˈɪbjʊtə/",
     "zh": "准备经销商",
     "pinyin": "Jīng xiāo shāng",
     "category": "daily",
@@ -19145,7 +19145,7 @@
   {
     "id": "daily-check-the-agent",
     "term": "check the agent",
-    "ipa": "/tʃek ðə ˈeɪʤənt/",
+    "ipa": "/tʃˈɛk ðə ˈeɪdʒənt/",
     "zh": "检查代理",
     "pinyin": "Dài lǐ",
     "category": "daily",
@@ -19159,7 +19159,7 @@
   {
     "id": "daily-update-the-retail",
     "term": "update the retail",
-    "ipa": "/ʌpˈdeɪt ðə ˈriˌteɪl/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹˈiːtˌeɪl/",
     "zh": "更新零售",
     "pinyin": "Líng shòu",
     "category": "daily",
@@ -19173,7 +19173,7 @@
   {
     "id": "daily-discuss-the-wholesale",
     "term": "discuss the wholesale",
-    "ipa": "/dɪˈskʌs ðə ˈhoʊlˌseɪl/",
+    "ipa": "/dɪskˈɐs ðə hˈəʊlsˌeɪl/",
     "zh": "讨论批发",
     "pinyin": "Pī fā",
     "category": "daily",
@@ -19187,7 +19187,7 @@
   {
     "id": "daily-organise-the-market",
     "term": "organise the market",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈmɑrkɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə mˈɑːkɪt/",
     "zh": "整理市场",
     "pinyin": "Shì chǎng",
     "category": "daily",
@@ -19201,7 +19201,7 @@
   {
     "id": "daily-confirm-the-industry",
     "term": "confirm the industry",
-    "ipa": "/kənˈfɜːm ðə ˈɪndəstri/",
+    "ipa": "/kənfˈɜːm ðə ˈɪndəstɹi/",
     "zh": "确认行业",
     "pinyin": "Háng yè",
     "category": "daily",
@@ -19215,7 +19215,7 @@
   {
     "id": "daily-prepare-the-trend",
     "term": "prepare the trend",
-    "ipa": "/prɪˈpeə ðə trɛnd/",
+    "ipa": "/pɹɪpˈɛə ðə tɹˈɛnd/",
     "zh": "准备趋势",
     "pinyin": "Qū shì",
     "category": "daily",
@@ -19229,7 +19229,7 @@
   {
     "id": "daily-check-the-competition",
     "term": "check the competition",
-    "ipa": "/tʃek ðə ˌkɑmpəˈtɪʃən/",
+    "ipa": "/tʃˈɛk ðə kˌɒmpɪtˈɪʃən/",
     "zh": "检查竞争",
     "pinyin": "Jìng zhēng",
     "category": "daily",
@@ -19243,7 +19243,7 @@
   {
     "id": "daily-update-the-advantage",
     "term": "update the advantage",
-    "ipa": "/ʌpˈdeɪt ðə ædˈvæntɪʤ/",
+    "ipa": "/ˈɐpdˌeɪt ðə ədvˈɑːntɪdʒ/",
     "zh": "更新优势",
     "pinyin": "Yōu shì",
     "category": "daily",
@@ -19257,7 +19257,7 @@
   {
     "id": "daily-discuss-the-strategy",
     "term": "discuss the strategy",
-    "ipa": "/dɪˈskʌs ðə ˈstrætəʤi/",
+    "ipa": "/dɪskˈɐs ðə stɹˈætɪdʒi/",
     "zh": "讨论策略",
     "pinyin": "Cè lüè",
     "category": "daily",
@@ -19271,7 +19271,7 @@
   {
     "id": "daily-organise-the-plan",
     "term": "organise the plan",
-    "ipa": "/ˈɔːɡənaɪz ðə plæn/",
+    "ipa": "/ˈɔːgənˌaɪz ðə plˈæn/",
     "zh": "整理计划",
     "pinyin": "Jì huà",
     "category": "daily",
@@ -19285,7 +19285,7 @@
   {
     "id": "daily-confirm-the-action",
     "term": "confirm the action",
-    "ipa": "/kənˈfɜːm ðə ˈækʃən/",
+    "ipa": "/kənfˈɜːm ðə ˈækʃən/",
     "zh": "确认行动",
     "pinyin": "Xíng dòng",
     "category": "daily",
@@ -19299,7 +19299,7 @@
   {
     "id": "daily-prepare-the-decision",
     "term": "prepare the decision",
-    "ipa": "/prɪˈpeə ðə dɪˈsɪʒən/",
+    "ipa": "/pɹɪpˈɛə ðə dɪsˈɪʒən/",
     "zh": "准备决策",
     "pinyin": "Jué cè",
     "category": "daily",
@@ -19313,7 +19313,7 @@
   {
     "id": "daily-check-the-analysis",
     "term": "check the analysis",
-    "ipa": "/tʃek ðə æˈnælɪsɪs/",
+    "ipa": "/tʃˈɛk ðə ənˈælɪsɪs/",
     "zh": "检查分析",
     "pinyin": "Fēn xī",
     "category": "daily",
@@ -19327,7 +19327,7 @@
   {
     "id": "daily-update-the-data",
     "term": "update the data",
-    "ipa": "/ʌpˈdeɪt ðə ˈdætə/",
+    "ipa": "/ˈɐpdˌeɪt ðə dˈeɪtə/",
     "zh": "更新数据",
     "pinyin": "Shù jù",
     "category": "daily",
@@ -19341,7 +19341,7 @@
   {
     "id": "daily-discuss-the-chart",
     "term": "discuss the chart",
-    "ipa": "/dɪˈskʌs ðə ʧɑrt/",
+    "ipa": "/dɪskˈɐs ðə tʃˈɑːt/",
     "zh": "讨论图表",
     "pinyin": "Tú biǎo",
     "category": "daily",
@@ -19355,7 +19355,7 @@
   {
     "id": "daily-organise-the-graph",
     "term": "organise the graph",
-    "ipa": "/ˈɔːɡənaɪz ðə græf/",
+    "ipa": "/ˈɔːgənˌaɪz ðə gɹˈɑːf/",
     "zh": "整理曲线图",
     "pinyin": "Qǔ xiàn tú",
     "category": "daily",
@@ -19369,7 +19369,7 @@
   {
     "id": "daily-confirm-the-table",
     "term": "confirm the table",
-    "ipa": "/kənˈfɜːm ðə ˈteɪbəl/",
+    "ipa": "/kənfˈɜːm ðə tˈeɪbəl/",
     "zh": "确认表格",
     "pinyin": "Biǎo gé",
     "category": "daily",
@@ -19383,7 +19383,7 @@
   {
     "id": "daily-prepare-the-file",
     "term": "prepare the file",
-    "ipa": "/prɪˈpeə ðə faɪl/",
+    "ipa": "/pɹɪpˈɛə ðə fˈaɪl/",
     "zh": "准备文件",
     "pinyin": "Wén jiàn",
     "category": "daily",
@@ -19397,7 +19397,7 @@
   {
     "id": "daily-check-the-folder",
     "term": "check the folder",
-    "ipa": "/tʃek ðə ˈfoʊldər/",
+    "ipa": "/tʃˈɛk ðə fˈəʊldə/",
     "zh": "检查文件夹",
     "pinyin": "Wén jiàn jiā",
     "category": "daily",
@@ -19411,7 +19411,7 @@
   {
     "id": "daily-update-the-archive",
     "term": "update the archive",
-    "ipa": "/ʌpˈdeɪt ðə ˈɑrˌkaɪv/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɑːkˌaɪv/",
     "zh": "更新归档",
     "pinyin": "Guī dàng",
     "category": "daily",
@@ -19425,7 +19425,7 @@
   {
     "id": "daily-discuss-the-backup",
     "term": "discuss the backup",
-    "ipa": "/dɪˈskʌs ðə ˈbæˌkəp/",
+    "ipa": "/dɪskˈɐs ðə bˈækˌɐp/",
     "zh": "讨论备份",
     "pinyin": "Bèi fèn",
     "category": "daily",
@@ -19439,7 +19439,7 @@
   {
     "id": "daily-organise-the-delete",
     "term": "organise the delete",
-    "ipa": "/ˈɔːɡənaɪz ðə dɪˈlit/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dɪlˈiːt/",
     "zh": "整理删除",
     "pinyin": "Shān chú",
     "category": "daily",
@@ -19453,7 +19453,7 @@
   {
     "id": "daily-confirm-the-edit",
     "term": "confirm the edit",
-    "ipa": "/kənˈfɜːm ðə ˈɛdət/",
+    "ipa": "/kənfˈɜːm ðə ˈɛdɪt/",
     "zh": "确认编辑",
     "pinyin": "Biān jí",
     "category": "daily",
@@ -19467,7 +19467,7 @@
   {
     "id": "daily-prepare-the-format",
     "term": "prepare the format",
-    "ipa": "/prɪˈpeə ðə ˈfɔrˌmæt/",
+    "ipa": "/pɹɪpˈɛə ðə fˈɔːmˌæt/",
     "zh": "准备格式",
     "pinyin": "Gé shì",
     "category": "daily",
@@ -19481,7 +19481,7 @@
   {
     "id": "daily-check-the-font",
     "term": "check the font",
-    "ipa": "/tʃek ðə fɑnt/",
+    "ipa": "/tʃˈɛk ðə fˈɒnt/",
     "zh": "检查字体",
     "pinyin": "Zì tǐ",
     "category": "daily",
@@ -19495,7 +19495,7 @@
   {
     "id": "daily-update-the-size",
     "term": "update the size",
-    "ipa": "/ʌpˈdeɪt ðə saɪz/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈaɪz/",
     "zh": "更新尺寸",
     "pinyin": "Chǐ cùn",
     "category": "daily",
@@ -19509,7 +19509,7 @@
   {
     "id": "daily-discuss-the-color",
     "term": "discuss the color",
-    "ipa": "/dɪˈskʌs ðə ˈkələr/",
+    "ipa": "/dɪskˈɐs ðə kˈɐlə/",
     "zh": "讨论颜色",
     "pinyin": "Yán sè",
     "category": "daily",
@@ -19523,7 +19523,7 @@
   {
     "id": "daily-organise-the-layout",
     "term": "organise the layout",
-    "ipa": "/ˈɔːɡənaɪz ðə leɪaʊt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə lˈeɪˌaʊt/",
     "zh": "整理布局",
     "pinyin": "Bù jú",
     "category": "daily",
@@ -19537,7 +19537,7 @@
   {
     "id": "daily-confirm-the-design",
     "term": "confirm the design",
-    "ipa": "/kənˈfɜːm ðə dɪˈzaɪn/",
+    "ipa": "/kənfˈɜːm ðə dɪzˈaɪn/",
     "zh": "确认设计",
     "pinyin": "Shè jì",
     "category": "daily",
@@ -19551,7 +19551,7 @@
   {
     "id": "daily-prepare-the-template",
     "term": "prepare the template",
-    "ipa": "/prɪˈpeə ðə ˈtɛmplət/",
+    "ipa": "/pɹɪpˈɛə ðə tˈɛmpleɪt/",
     "zh": "准备模板",
     "pinyin": "Mú bǎn",
     "category": "daily",
@@ -19565,7 +19565,7 @@
   {
     "id": "daily-check-the-version",
     "term": "check the version",
-    "ipa": "/tʃek ðə ˈvərʒən/",
+    "ipa": "/tʃˈɛk ðə vˈɜːʒən/",
     "zh": "检查版本",
     "pinyin": "Bǎn běn",
     "category": "daily",
@@ -19579,7 +19579,7 @@
   {
     "id": "daily-update-the-update",
     "term": "update the update",
-    "ipa": "/ʌpˈdeɪt ðə ˈəpˌdeɪt/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɐpdˌeɪt/",
     "zh": "更新更新",
     "pinyin": "Gēng xīn",
     "category": "daily",
@@ -19593,7 +19593,7 @@
   {
     "id": "daily-discuss-the-upgrade",
     "term": "discuss the upgrade",
-    "ipa": "/dɪˈskʌs ðə ˈəpˈgreɪd/",
+    "ipa": "/dɪskˈɐs ðə ˈɐpgɹˌeɪd/",
     "zh": "讨论升级",
     "pinyin": "Shēng jí",
     "category": "daily",
@@ -19607,7 +19607,7 @@
   {
     "id": "daily-organise-the-download",
     "term": "organise the download",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈdaʊnˌloʊd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dˈaʊnlˌəʊd/",
     "zh": "整理下载",
     "pinyin": "Xià zài",
     "category": "daily",
@@ -19621,7 +19621,7 @@
   {
     "id": "daily-confirm-the-upload",
     "term": "confirm the upload",
-    "ipa": "/kənˈfɜːm ðə ˈəˌploʊd/",
+    "ipa": "/kənfˈɜːm ðə ˈɐplˌəʊd/",
     "zh": "确认上传",
     "pinyin": "Shàng chuán",
     "category": "daily",
@@ -19635,7 +19635,7 @@
   {
     "id": "daily-prepare-the-internet",
     "term": "prepare the internet",
-    "ipa": "/prɪˈpeə ðə ˈɪntərˌnɛt/",
+    "ipa": "/pɹɪpˈɛə ðə ˈɪntənˌɛt/",
     "zh": "准备互联网",
     "pinyin": "Hù lián wǎng",
     "category": "daily",
@@ -19649,7 +19649,7 @@
   {
     "id": "daily-check-the-network",
     "term": "check the network",
-    "ipa": "/tʃek ðə ˈnɛtˌwərk/",
+    "ipa": "/tʃˈɛk ðə nˈɛtwˌɜːk/",
     "zh": "检查网络",
     "pinyin": "Wǎng luò",
     "category": "daily",
@@ -19663,7 +19663,7 @@
   {
     "id": "daily-update-the-wifi",
     "term": "update the wifi",
-    "ipa": "/ʌpˈdeɪt ðə ˈwaɪ.faɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈaɪfaɪ/",
     "zh": "更新无线网络",
     "pinyin": "Wú xiàn wǎng luò",
     "category": "daily",
@@ -19677,7 +19677,7 @@
   {
     "id": "daily-discuss-the-signal",
     "term": "discuss the signal",
-    "ipa": "/dɪˈskʌs ðə ˈsɪgnəl/",
+    "ipa": "/dɪskˈɐs ðə sˈɪgnəl/",
     "zh": "讨论信号",
     "pinyin": "Xìn hào",
     "category": "daily",
@@ -19691,7 +19691,7 @@
   {
     "id": "daily-organise-the-connection",
     "term": "organise the connection",
-    "ipa": "/ˈɔːɡənaɪz ðə kəˈnɛkʃən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kənˈɛkʃən/",
     "zh": "整理连接",
     "pinyin": "Lián jiē",
     "category": "daily",
@@ -19705,7 +19705,7 @@
   {
     "id": "daily-confirm-the-password",
     "term": "confirm the password",
-    "ipa": "/kənˈfɜːm ðə ˈpæsˌwərd/",
+    "ipa": "/kənfˈɜːm ðə pˈɑːswˌɜːd/",
     "zh": "确认密码",
     "pinyin": "Mì mǎ",
     "category": "daily",
@@ -19719,7 +19719,7 @@
   {
     "id": "daily-prepare-the-login",
     "term": "prepare the login",
-    "ipa": "/prɪˈpeə ðə login/",
+    "ipa": "/pɹɪpˈɛə ðə ˈlɒɡɪn/",
     "zh": "准备登录",
     "pinyin": "Dēng lù",
     "category": "daily",
@@ -19733,7 +19733,7 @@
   {
     "id": "daily-check-the-logout",
     "term": "check the logout",
-    "ipa": "/tʃek ðə logout/",
+    "ipa": "/tʃˈɛk ðə ˈlɒɡaʊt/",
     "zh": "检查登出",
     "pinyin": "Dēng chū",
     "category": "daily",
@@ -19747,7 +19747,7 @@
   {
     "id": "daily-update-the-account-lock",
     "term": "update the account lock",
-    "ipa": "/ʌpˈdeɪt ðə əˈkaʊnt lɑk/",
+    "ipa": "/ˈɐpdˌeɪt ðə əkˈaʊnt lˈɒk/",
     "zh": "更新账户锁定",
     "pinyin": "Zhàng hù suǒ dìng",
     "category": "daily",
@@ -19761,7 +19761,7 @@
   {
     "id": "daily-discuss-the-security",
     "term": "discuss the security",
-    "ipa": "/dɪˈskʌs ðə sɪˈkjʊrəti/",
+    "ipa": "/dɪskˈɐs ðə sɪkjˈʊəɹɪti/",
     "zh": "讨论安全",
     "pinyin": "ān quán",
     "category": "daily",
@@ -19775,7 +19775,7 @@
   {
     "id": "daily-organise-the-virus",
     "term": "organise the virus",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈvaɪrəs/",
+    "ipa": "/ˈɔːgənˌaɪz ðə vˈaɪɹəs/",
     "zh": "整理病毒",
     "pinyin": "Bìng dú",
     "category": "daily",
@@ -19789,7 +19789,7 @@
   {
     "id": "daily-confirm-the-firewall",
     "term": "confirm the firewall",
-    "ipa": "/kənˈfɜːm ðə ˈfaɪrwɑl/",
+    "ipa": "/kənfˈɜːm ðə fˈaɪwˌɔːl/",
     "zh": "确认防火墙",
     "pinyin": "Fáng huǒ qiáng",
     "category": "daily",
@@ -19803,7 +19803,7 @@
   {
     "id": "daily-prepare-the-privacy",
     "term": "prepare the privacy",
-    "ipa": "/prɪˈpeə ðə ˈpraɪvəsi/",
+    "ipa": "/pɹɪpˈɛə ðə pɹˈaɪvəsi/",
     "zh": "准备隐私",
     "pinyin": "Yǐn sī",
     "category": "daily",
@@ -19817,7 +19817,7 @@
   {
     "id": "daily-check-the-policy",
     "term": "check the policy",
-    "ipa": "/tʃek ðə ˈpɑləsi/",
+    "ipa": "/tʃˈɛk ðə pˈɒlɪsi/",
     "zh": "检查政策",
     "pinyin": "Zhèng cè",
     "category": "daily",
@@ -19831,7 +19831,7 @@
   {
     "id": "daily-update-the-rule",
     "term": "update the rule",
-    "ipa": "/ʌpˈdeɪt ðə rul/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹˈuːl/",
     "zh": "更新规则",
     "pinyin": "Guī zé",
     "category": "daily",
@@ -19845,7 +19845,7 @@
   {
     "id": "daily-discuss-the-regulation",
     "term": "discuss the regulation",
-    "ipa": "/dɪˈskʌs ðə ˌrɛgjəˈleɪʃən/",
+    "ipa": "/dɪskˈɐs ðə ɹˌɛgjʊlˈeɪʃən/",
     "zh": "讨论规章制度",
     "pinyin": "Guī zhāng zhì dù",
     "category": "daily",
@@ -19859,7 +19859,7 @@
   {
     "id": "daily-organise-the-discipline",
     "term": "organise the discipline",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈdɪsəplən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dˈɪsɪplɪn/",
     "zh": "整理纪律",
     "pinyin": "Jì lǜ",
     "category": "daily",
@@ -19873,7 +19873,7 @@
   {
     "id": "daily-confirm-the-penalty",
     "term": "confirm the penalty",
-    "ipa": "/kənˈfɜːm ðə ˈpɛnəlti/",
+    "ipa": "/kənfˈɜːm ðə pˈɛnəlti/",
     "zh": "确认处罚",
     "pinyin": "Chǔ fá",
     "category": "daily",
@@ -19887,7 +19887,7 @@
   {
     "id": "daily-prepare-the-reward",
     "term": "prepare the reward",
-    "ipa": "/prɪˈpeə ðə rɪˈwɔrd/",
+    "ipa": "/pɹɪpˈɛə ðə ɹɪwˈɔːd/",
     "zh": "准备奖励",
     "pinyin": "Jiǎng lì",
     "category": "daily",
@@ -19901,7 +19901,7 @@
   {
     "id": "daily-check-the-motivation",
     "term": "check the motivation",
-    "ipa": "/tʃek ðə ˌmoʊtəˈveɪʃən/",
+    "ipa": "/tʃˈɛk ðə mˌəʊtɪvˈeɪʃən/",
     "zh": "检查激励",
     "pinyin": "Jī lì",
     "category": "daily",
@@ -19915,7 +19915,7 @@
   {
     "id": "daily-update-the-morale",
     "term": "update the morale",
-    "ipa": "/ʌpˈdeɪt ðə məræl/",
+    "ipa": "/ˈɐpdˌeɪt ðə mɒɹˈɑːl/",
     "zh": "更新士气",
     "pinyin": "Shì qì",
     "category": "daily",
@@ -19929,7 +19929,7 @@
   {
     "id": "daily-discuss-the-environment",
     "term": "discuss the environment",
-    "ipa": "/dɪˈskʌs ðə ɪnˈvaɪrənmənt/",
+    "ipa": "/dɪskˈɐs ðə ɪnvˈaɪɹənmənt/",
     "zh": "讨论环境",
     "pinyin": "Huán jìng",
     "category": "daily",
@@ -19943,7 +19943,7 @@
   {
     "id": "daily-organise-the-facility",
     "term": "organise the facility",
-    "ipa": "/ˈɔːɡənaɪz ðə fəˈsɪlɪti/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fəsˈɪlɪti/",
     "zh": "整理设施",
     "pinyin": "Shè shī",
     "category": "daily",
@@ -19957,7 +19957,7 @@
   {
     "id": "daily-confirm-the-equipment",
     "term": "confirm the equipment",
-    "ipa": "/kənˈfɜːm ðə ɪkˈwɪpmənt/",
+    "ipa": "/kənfˈɜːm ðə ɪkwˈɪpmənt/",
     "zh": "确认设备",
     "pinyin": "Shè bèi",
     "category": "daily",
@@ -19971,7 +19971,7 @@
   {
     "id": "daily-prepare-the-tool",
     "term": "prepare the tool",
-    "ipa": "/prɪˈpeə ðə tul/",
+    "ipa": "/pɹɪpˈɛə ðə tˈuːl/",
     "zh": "准备工具",
     "pinyin": "Gōng jù",
     "category": "daily",
@@ -19985,7 +19985,7 @@
   {
     "id": "daily-check-the-material",
     "term": "check the material",
-    "ipa": "/tʃek ðə məˈtɪriəl/",
+    "ipa": "/tʃˈɛk ðə mətˈɪəɹɪəl/",
     "zh": "检查材料",
     "pinyin": "Cái liào",
     "category": "daily",
@@ -19999,7 +19999,7 @@
   {
     "id": "daily-update-the-stock",
     "term": "update the stock",
-    "ipa": "/ʌpˈdeɪt ðə stɑk/",
+    "ipa": "/ˈɐpdˌeɪt ðə stˈɒk/",
     "zh": "更新库存",
     "pinyin": "Kù cún",
     "category": "daily",
@@ -20013,7 +20013,7 @@
   {
     "id": "daily-discuss-the-inventory",
     "term": "discuss the inventory",
-    "ipa": "/dɪˈskʌs ðə ˌɪnvənˈtɔri/",
+    "ipa": "/dɪskˈɐs ðə ˈɪnvəntəɹi/",
     "zh": "讨论盘点",
     "pinyin": "Pán diǎn",
     "category": "daily",
@@ -20027,7 +20027,7 @@
   {
     "id": "office-organise-the-order",
     "term": "organise the order",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈɔrdər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈɔːdə/",
     "zh": "整理订单",
     "pinyin": "Dìng dān",
     "category": "office",
@@ -20041,7 +20041,7 @@
   {
     "id": "daily-confirm-the-purchase",
     "term": "confirm the purchase",
-    "ipa": "/kənˈfɜːm ðə ˈpərʧəs/",
+    "ipa": "/kənfˈɜːm ðə pˈɜːtʃɪs/",
     "zh": "确认采购",
     "pinyin": "Cǎi gòu",
     "category": "daily",
@@ -20055,7 +20055,7 @@
   {
     "id": "daily-prepare-the-requisition",
     "term": "prepare the requisition",
-    "ipa": "/prɪˈpeə ðə ˌrɛkwəˈzɪʃən/",
+    "ipa": "/pɹɪpˈɛə ðə ˌrɛkwɪˈzɪʃən/",
     "zh": "准备请购",
     "pinyin": "Qǐng gòu",
     "category": "daily",
@@ -20069,7 +20069,7 @@
   {
     "id": "office-check-the-approval-flow",
     "term": "check the approval flow",
-    "ipa": "/tʃek ðə əˈpruvəl floʊ/",
+    "ipa": "/tʃˈɛk ðə əpɹˈuːvəl flˈəʊ/",
     "zh": "检查审批流程",
     "pinyin": "Shěn pī liú chéng",
     "category": "office",
@@ -20083,7 +20083,7 @@
   {
     "id": "daily-update-the-workflow",
     "term": "update the workflow",
-    "ipa": "/ʌpˈdeɪt ðə ˈwərkˌfloʊ/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɜːkflˌəʊ/",
     "zh": "更新工作流程",
     "pinyin": "Gōng zuò liú chéng",
     "category": "daily",
@@ -20097,7 +20097,7 @@
   {
     "id": "daily-discuss-the-efficiency",
     "term": "discuss the efficiency",
-    "ipa": "/dɪˈskʌs ðə ɪˈfɪʃənsi/",
+    "ipa": "/dɪskˈɐs ðə ɪfˈɪʃənsi/",
     "zh": "讨论效率",
     "pinyin": "Xiào lǜ",
     "category": "daily",
@@ -20111,7 +20111,7 @@
   {
     "id": "daily-organise-the-productivity",
     "term": "organise the productivity",
-    "ipa": "/ˈɔːɡənaɪz ðə ˌproʊdəkˈtɪvɪti/",
+    "ipa": "/ˈɔːgənˌaɪz ðə pɹˌɒdɐktˈɪvɪti/",
     "zh": "整理生产力",
     "pinyin": "Shēng chǎn lì",
     "category": "daily",
@@ -20125,7 +20125,7 @@
   {
     "id": "office-confirm-the-quality",
     "term": "confirm the quality",
-    "ipa": "/kənˈfɜːm ðə kˈwɑləti/",
+    "ipa": "/kənfˈɜːm ðə kwˈɒlɪti/",
     "zh": "确认质量",
     "pinyin": "Zhì liàng",
     "category": "office",
@@ -20139,7 +20139,7 @@
   {
     "id": "daily-prepare-the-standard",
     "term": "prepare the standard",
-    "ipa": "/prɪˈpeə ðə ˈstændərd/",
+    "ipa": "/pɹɪpˈɛə ðə stˈændəd/",
     "zh": "准备标准",
     "pinyin": "Biāo zhǔn",
     "category": "daily",
@@ -20153,7 +20153,7 @@
   {
     "id": "daily-check-the-control",
     "term": "check the control",
-    "ipa": "/tʃek ðə kənˈtroʊl/",
+    "ipa": "/tʃˈɛk ðə kəntɹˈəʊl/",
     "zh": "检查控制",
     "pinyin": "Kòng zhì",
     "category": "daily",
@@ -20167,7 +20167,7 @@
   {
     "id": "daily-update-the-inspection",
     "term": "update the inspection",
-    "ipa": "/ʌpˈdeɪt ðə ˌɪnˈspɛkʃən/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɪnspˈɛkʃən/",
     "zh": "更新检验",
     "pinyin": "Jiǎn yàn",
     "category": "daily",
@@ -20181,7 +20181,7 @@
   {
     "id": "daily-discuss-the-test",
     "term": "discuss the test",
-    "ipa": "/dɪˈskʌs ðə tɛst/",
+    "ipa": "/dɪskˈɐs ðə tˈɛst/",
     "zh": "讨论测试",
     "pinyin": "Cè shì",
     "category": "daily",
@@ -20195,7 +20195,7 @@
   {
     "id": "daily-organise-the-sample",
     "term": "organise the sample",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈsæmpəl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈæmpəl/",
     "zh": "整理样品",
     "pinyin": "Yàng pǐn",
     "category": "daily",
@@ -20209,7 +20209,7 @@
   {
     "id": "daily-confirm-the-prototype",
     "term": "confirm the prototype",
-    "ipa": "/kənˈfɜːm ðə ˈproʊtoʊˌtaɪp/",
+    "ipa": "/kənfˈɜːm ðə pɹˈəʊtətˌaɪp/",
     "zh": "确认样机",
     "pinyin": "Yàng jī",
     "category": "daily",
@@ -20223,7 +20223,7 @@
   {
     "id": "daily-prepare-the-mass-production",
     "term": "prepare the mass production",
-    "ipa": "/prɪˈpeə ðə mæs pərˈdəkʃən/",
+    "ipa": "/pɹɪpˈɛə ðə mˈæs pɹədˈɐkʃən/",
     "zh": "准备批量生产",
     "pinyin": "Pī liàng shēng chǎn",
     "category": "daily",
@@ -20237,7 +20237,7 @@
   {
     "id": "daily-check-the-assembly-line",
     "term": "check the assembly line",
-    "ipa": "/tʃek ðə əˈsɛmbli laɪn/",
+    "ipa": "/tʃˈɛk ðə əsˈɛmbli lˈaɪn/",
     "zh": "检查流水线",
     "pinyin": "Liú shuǐ xiàn",
     "category": "daily",
@@ -20251,7 +20251,7 @@
   {
     "id": "daily-update-the-packaging",
     "term": "update the packaging",
-    "ipa": "/ʌpˈdeɪt ðə ˈpækɪʤɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə pˈækɪdʒɪŋ/",
     "zh": "更新包装",
     "pinyin": "Bāo zhuāng",
     "category": "daily",
@@ -20265,7 +20265,7 @@
   {
     "id": "daily-discuss-the-labeling",
     "term": "discuss the labeling",
-    "ipa": "/dɪˈskʌs ðə ˈleɪbəlɪŋ/",
+    "ipa": "/dɪskˈɐs ðə ˈleɪbəlɪŋ/",
     "zh": "讨论贴标签",
     "pinyin": "Tiē biāo qiān",
     "category": "daily",
@@ -20279,7 +20279,7 @@
   {
     "id": "daily-organise-the-barcode",
     "term": "organise the barcode",
-    "ipa": "/ˈɔːɡənaɪz ðə barcode/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈbɑːkəʊd/",
     "zh": "整理条形码",
     "pinyin": "Tiáo xíng mǎ",
     "category": "daily",
@@ -20293,7 +20293,7 @@
   {
     "id": "daily-confirm-the-qr-code",
     "term": "confirm the qr code",
-    "ipa": "/kənˈfɜːm ðə qr koʊd/",
+    "ipa": "/kənfˈɜːm ðə ˌkjuːˈɑː kˈəʊd/",
     "zh": "确认二维码",
     "pinyin": "Èr wéi mǎ",
     "category": "daily",
@@ -20307,7 +20307,7 @@
   {
     "id": "office-prepare-the-delivery",
     "term": "prepare the delivery",
-    "ipa": "/prɪˈpeə ðə dɪˈlɪvəri/",
+    "ipa": "/pɹɪpˈɛə ðə dɪlˈɪvəɹi/",
     "zh": "准备配送",
     "pinyin": "Pèi sòng",
     "category": "office",
@@ -20321,7 +20321,7 @@
   {
     "id": "daily-check-the-shipping",
     "term": "check the shipping",
-    "ipa": "/tʃek ðə ˈʃɪpɪŋ/",
+    "ipa": "/tʃˈɛk ðə ʃˈɪpɪŋ/",
     "zh": "检查装运",
     "pinyin": "Zhuāng yùn",
     "category": "daily",
@@ -20335,7 +20335,7 @@
   {
     "id": "office-update-the-logistics",
     "term": "update the logistics",
-    "ipa": "/ʌpˈdeɪt ðə ləˈʤɪstɪks/",
+    "ipa": "/ˈɐpdˌeɪt ðə lədʒˈɪstɪks/",
     "zh": "更新物流",
     "pinyin": "Wù liú",
     "category": "office",
@@ -20349,7 +20349,7 @@
   {
     "id": "daily-discuss-the-freight",
     "term": "discuss the freight",
-    "ipa": "/dɪˈskʌs ðə freɪt/",
+    "ipa": "/dɪskˈɐs ðə fɹˈeɪt/",
     "zh": "讨论运费",
     "pinyin": "Yùn fèi",
     "category": "daily",
@@ -20363,7 +20363,7 @@
   {
     "id": "daily-organise-the-customs",
     "term": "organise the customs",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkəstəmz/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈɐstəmz/",
     "zh": "整理海关",
     "pinyin": "Hǎi guān",
     "category": "daily",
@@ -20377,7 +20377,7 @@
   {
     "id": "daily-confirm-the-declaration",
     "term": "confirm the declaration",
-    "ipa": "/kənˈfɜːm ðə ˌdɛklərˈeɪʃən/",
+    "ipa": "/kənfˈɜːm ðə dˌɛkləɹˈeɪʃən/",
     "zh": "确认申报",
     "pinyin": "Shēn bào",
     "category": "daily",
@@ -20391,7 +20391,7 @@
   {
     "id": "daily-prepare-the-tariff",
     "term": "prepare the tariff",
-    "ipa": "/prɪˈpeə ðə ˈtɛrəf/",
+    "ipa": "/pɹɪpˈɛə ðə tˈæɹɪf/",
     "zh": "准备关税",
     "pinyin": "Guān shuì",
     "category": "daily",
@@ -20405,7 +20405,7 @@
   {
     "id": "daily-check-the-import",
     "term": "check the import",
-    "ipa": "/tʃek ðə ˌɪmˈpɔrt/",
+    "ipa": "/tʃˈɛk ðə ˈɪmpˌɔːt/",
     "zh": "检查进口",
     "pinyin": "Jìn kǒu",
     "category": "daily",
@@ -20419,7 +20419,7 @@
   {
     "id": "daily-update-the-export",
     "term": "update the export",
-    "ipa": "/ʌpˈdeɪt ðə ˈɛkspɔrt/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɛkspˌɔːt/",
     "zh": "更新出口",
     "pinyin": "Chū kǒu",
     "category": "daily",
@@ -20433,7 +20433,7 @@
   {
     "id": "daily-discuss-the-international",
     "term": "discuss the international",
-    "ipa": "/dɪˈskʌs ðə ˌɪnərˈnæʃənɑl/",
+    "ipa": "/dɪskˈɐs ðə ˌɪntənˈæʃənəl/",
     "zh": "讨论国际的",
     "pinyin": "Guó jì de",
     "category": "daily",
@@ -20447,7 +20447,7 @@
   {
     "id": "daily-organise-the-global",
     "term": "organise the global",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈgloʊbəl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə glˈəʊbəl/",
     "zh": "整理全球的",
     "pinyin": "Quán qiú de",
     "category": "daily",
@@ -20461,7 +20461,7 @@
   {
     "id": "daily-confirm-the-local",
     "term": "confirm the local",
-    "ipa": "/kənˈfɜːm ðə ˈloʊkəl/",
+    "ipa": "/kənfˈɜːm ðə lˈəʊkəl/",
     "zh": "确认本地的",
     "pinyin": "Běn dì de",
     "category": "daily",
@@ -20475,7 +20475,7 @@
   {
     "id": "daily-prepare-the-domestic",
     "term": "prepare the domestic",
-    "ipa": "/prɪˈpeə ðə dəˈmɛstɪk/",
+    "ipa": "/pɹɪpˈɛə ðə dəmˈɛstɪk/",
     "zh": "准备国内的",
     "pinyin": "Guó nèi de",
     "category": "daily",
@@ -20489,7 +20489,7 @@
   {
     "id": "daily-check-the-oversea",
     "term": "check the oversea",
-    "ipa": "/tʃek ðə ˌoʊvərˈsi/",
+    "ipa": "/tʃˈɛk ðə ˌəʊvəˈsiː/",
     "zh": "检查海外的",
     "pinyin": "Hǎi wài de",
     "category": "daily",
@@ -20503,7 +20503,7 @@
   {
     "id": "daily-update-the-abroad",
     "term": "update the abroad",
-    "ipa": "/ʌpˈdeɪt ðə əˈbrɔd/",
+    "ipa": "/ˈɐpdˌeɪt ðə əbɹˈɔːd/",
     "zh": "更新国外",
     "pinyin": "Guó wài",
     "category": "daily",
@@ -20517,7 +20517,7 @@
   {
     "id": "daily-discuss-the-travel",
     "term": "discuss the travel",
-    "ipa": "/dɪˈskʌs ðə ˈtrævəl/",
+    "ipa": "/dɪskˈɐs ðə tɹˈævəl/",
     "zh": "讨论出差",
     "pinyin": "Chū chāi",
     "category": "daily",
@@ -20531,7 +20531,7 @@
   {
     "id": "daily-organise-the-trip",
     "term": "organise the trip",
-    "ipa": "/ˈɔːɡənaɪz ðə trɪp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tɹˈɪp/",
     "zh": "整理行程",
     "pinyin": "Xíng chéng",
     "category": "daily",
@@ -20545,7 +20545,7 @@
   {
     "id": "daily-confirm-the-hotel",
     "term": "confirm the hotel",
-    "ipa": "/kənˈfɜːm ðə hoʊˈtɛl/",
+    "ipa": "/kənfˈɜːm ðə həʊtˈɛl/",
     "zh": "确认酒店",
     "pinyin": "Jiǔ diàn",
     "category": "daily",
@@ -20559,7 +20559,7 @@
   {
     "id": "daily-prepare-the-flight",
     "term": "prepare the flight",
-    "ipa": "/prɪˈpeə ðə flaɪt/",
+    "ipa": "/pɹɪpˈɛə ðə flˈaɪt/",
     "zh": "准备航班",
     "pinyin": "Háng bān",
     "category": "daily",
@@ -20573,7 +20573,7 @@
   {
     "id": "daily-check-the-train",
     "term": "check the train",
-    "ipa": "/tʃek ðə treɪn/",
+    "ipa": "/tʃˈɛk ðə tɹˈeɪn/",
     "zh": "检查火车",
     "pinyin": "Huǒ chē",
     "category": "daily",
@@ -20587,7 +20587,7 @@
   {
     "id": "daily-update-the-bus",
     "term": "update the bus",
-    "ipa": "/ʌpˈdeɪt ðə bəs/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈɐs/",
     "zh": "更新公交车",
     "pinyin": "Gōng jiāo chē",
     "category": "daily",
@@ -20601,7 +20601,7 @@
   {
     "id": "daily-discuss-the-taxi",
     "term": "discuss the taxi",
-    "ipa": "/dɪˈskʌs ðə ˈtæksi/",
+    "ipa": "/dɪskˈɐs ðə tˈæksi/",
     "zh": "讨论出租车",
     "pinyin": "Chū zū chē",
     "category": "daily",
@@ -20615,7 +20615,7 @@
   {
     "id": "daily-organise-the-subway",
     "term": "organise the subway",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈsəbˌweɪ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈɐbwˌeɪ/",
     "zh": "整理地铁",
     "pinyin": "Dì tiě",
     "category": "daily",
@@ -20629,7 +20629,7 @@
   {
     "id": "daily-confirm-the-ticket",
     "term": "confirm the ticket",
-    "ipa": "/kənˈfɜːm ðə ˈtɪkɪt/",
+    "ipa": "/kənfˈɜːm ðə tˈɪkɪt/",
     "zh": "确认票",
     "pinyin": "Piào",
     "category": "daily",
@@ -20643,7 +20643,7 @@
   {
     "id": "daily-prepare-the-reservation",
     "term": "prepare the reservation",
-    "ipa": "/prɪˈpeə ðə ˌrɛzərˈveɪʃən/",
+    "ipa": "/pɹɪpˈɛə ðə ɹˌɛzəvˈeɪʃən/",
     "zh": "准备预订",
     "pinyin": "Yù dìng",
     "category": "daily",
@@ -20657,7 +20657,7 @@
   {
     "id": "daily-check-the-boarding-pass",
     "term": "check the boarding pass",
-    "ipa": "/tʃek ðə ˈbɔrdɪŋ pæs/",
+    "ipa": "/tʃˈɛk ðə bˈɔːdɪŋ pˈɑːs/",
     "zh": "检查登机牌",
     "pinyin": "Dēng jī pái",
     "category": "daily",
@@ -20671,7 +20671,7 @@
   {
     "id": "daily-update-the-passport",
     "term": "update the passport",
-    "ipa": "/ʌpˈdeɪt ðə ˈpæˌspɔrt/",
+    "ipa": "/ˈɐpdˌeɪt ðə pˈɑːspˌɔːt/",
     "zh": "更新护照",
     "pinyin": "Hù zhào",
     "category": "daily",
@@ -20685,7 +20685,7 @@
   {
     "id": "daily-discuss-the-visa",
     "term": "discuss the visa",
-    "ipa": "/dɪˈskʌs ðə ˈvizə/",
+    "ipa": "/dɪskˈɐs ðə vˈiːzə/",
     "zh": "讨论签证",
     "pinyin": "Qiān zhèng",
     "category": "daily",
@@ -20699,7 +20699,7 @@
   {
     "id": "daily-organise-the-luggage",
     "term": "organise the luggage",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈləgɪʤ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə lˈɐgɪdʒ/",
     "zh": "整理行李",
     "pinyin": "Xíng lǐ",
     "category": "daily",
@@ -20713,7 +20713,7 @@
   {
     "id": "daily-confirm-the-briefcase",
     "term": "confirm the briefcase",
-    "ipa": "/kənˈfɜːm ðə ˈbrifˌkeɪs/",
+    "ipa": "/kənfˈɜːm ðə ˈbriːfkeɪs/",
     "zh": "确认公文包",
     "pinyin": "Gōng wén bāo",
     "category": "daily",
@@ -20727,7 +20727,7 @@
   {
     "id": "daily-prepare-the-backpack",
     "term": "prepare the backpack",
-    "ipa": "/prɪˈpeə ðə ˈbækˌpæk/",
+    "ipa": "/pɹɪpˈɛə ðə ˈbækpæk/",
     "zh": "准备背包",
     "pinyin": "Bèi bāo",
     "category": "daily",
@@ -20741,7 +20741,7 @@
   {
     "id": "daily-check-the-umbrella",
     "term": "check the umbrella",
-    "ipa": "/tʃek ðə ˈəmˌbrɛlə/",
+    "ipa": "/tʃˈɛk ðə ɐmbɹˈɛlə/",
     "zh": "检查雨伞",
     "pinyin": "Yǔ sǎn",
     "category": "daily",
@@ -20755,7 +20755,7 @@
   {
     "id": "daily-update-the-mask",
     "term": "update the mask",
-    "ipa": "/ʌpˈdeɪt ðə mæsk/",
+    "ipa": "/ˈɐpdˌeɪt ðə mˈɑːsk/",
     "zh": "更新口罩",
     "pinyin": "Kǒu zhào",
     "category": "daily",
@@ -20769,7 +20769,7 @@
   {
     "id": "daily-discuss-the-gloves",
     "term": "discuss the gloves",
-    "ipa": "/dɪˈskʌs ðə gləvz/",
+    "ipa": "/dɪskˈɐs ðə glˈɐvz/",
     "zh": "讨论手套",
     "pinyin": "Shǒu tào",
     "category": "daily",
@@ -20783,7 +20783,7 @@
   {
     "id": "daily-organise-the-coat",
     "term": "organise the coat",
-    "ipa": "/ˈɔːɡənaɪz ðə koʊt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈəʊt/",
     "zh": "整理外套",
     "pinyin": "Wài tào",
     "category": "daily",
@@ -20797,7 +20797,7 @@
   {
     "id": "daily-confirm-the-jacket",
     "term": "confirm the jacket",
-    "ipa": "/kənˈfɜːm ðə ˈʤækɪt/",
+    "ipa": "/kənfˈɜːm ðə dʒˈækɪt/",
     "zh": "确认夹克",
     "pinyin": "Jiá kè",
     "category": "daily",
@@ -20811,7 +20811,7 @@
   {
     "id": "daily-prepare-the-shirt",
     "term": "prepare the shirt",
-    "ipa": "/prɪˈpeə ðə ʃərt/",
+    "ipa": "/pɹɪpˈɛə ðə ʃˈɜːt/",
     "zh": "准备衬衫",
     "pinyin": "Chèn shān",
     "category": "daily",
@@ -20825,7 +20825,7 @@
   {
     "id": "daily-check-the-pants",
     "term": "check the pants",
-    "ipa": "/tʃek ðə pænts/",
+    "ipa": "/tʃˈɛk ðə pˈænts/",
     "zh": "检查裤子",
     "pinyin": "Kù zi",
     "category": "daily",
@@ -20839,7 +20839,7 @@
   {
     "id": "daily-update-the-shoes",
     "term": "update the shoes",
-    "ipa": "/ʌpˈdeɪt ðə ʃuz/",
+    "ipa": "/ˈɐpdˌeɪt ðə ʃˈuːz/",
     "zh": "更新鞋子",
     "pinyin": "Xié zi",
     "category": "daily",
@@ -20853,7 +20853,7 @@
   {
     "id": "daily-discuss-the-uniform",
     "term": "discuss the uniform",
-    "ipa": "/dɪˈskʌs ðə ˈjunəˌfɔrm/",
+    "ipa": "/dɪskˈɐs ðə jˈuːnɪfˌɔːm/",
     "zh": "讨论工作服",
     "pinyin": "Gōng zuò fú",
     "category": "daily",
@@ -20867,7 +20867,7 @@
   {
     "id": "daily-organise-the-greeting",
     "term": "organise the greeting",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈgritɪŋ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə gɹˈiːtɪŋ/",
     "zh": "整理问候",
     "pinyin": "Wèn hòu",
     "category": "daily",
@@ -20881,7 +20881,7 @@
   {
     "id": "daily-confirm-the-introduction",
     "term": "confirm the introduction",
-    "ipa": "/kənˈfɜːm ðə ˌɪntrəˈdəkʃən/",
+    "ipa": "/kənfˈɜːm ðə ˌɪntɹədˈɐkʃən/",
     "zh": "确认介绍",
     "pinyin": "Jiè shào",
     "category": "daily",
@@ -20895,7 +20895,7 @@
   {
     "id": "daily-prepare-the-small-talk",
     "term": "prepare the small talk",
-    "ipa": "/prɪˈpeə ðə smɔl tɔk/",
+    "ipa": "/pɹɪpˈɛə ðə smˈɔːl tˈɔːk/",
     "zh": "准备闲聊",
     "pinyin": "Xián liáo",
     "category": "daily",
@@ -20909,7 +20909,7 @@
   {
     "id": "daily-check-the-conversation",
     "term": "check the conversation",
-    "ipa": "/tʃek ðə ˌkɑnvərˈseɪʃən/",
+    "ipa": "/tʃˈɛk ðə kˌɒnvəsˈeɪʃən/",
     "zh": "检查对话",
     "pinyin": "Duì huà",
     "category": "daily",
@@ -20923,7 +20923,7 @@
   {
     "id": "daily-update-the-communication",
     "term": "update the communication",
-    "ipa": "/ʌpˈdeɪt ðə kəmˌjunəˈkeɪʃən/",
+    "ipa": "/ˈɐpdˌeɪt ðə kəmjˌuːnɪkˈeɪʃən/",
     "zh": "更新沟通",
     "pinyin": "Gōu tōng",
     "category": "daily",
@@ -20937,7 +20937,7 @@
   {
     "id": "daily-discuss-the-discussion",
     "term": "discuss the discussion",
-    "ipa": "/dɪˈskʌs ðə dɪˈskəʃən/",
+    "ipa": "/dɪskˈɐs ðə dɪskˈɐʃən/",
     "zh": "讨论讨论",
     "pinyin": "Tǎo lùn",
     "category": "daily",
@@ -20951,7 +20951,7 @@
   {
     "id": "daily-organise-the-debate",
     "term": "organise the debate",
-    "ipa": "/ˈɔːɡənaɪz ðə dəˈbeɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dɪbˈeɪt/",
     "zh": "整理辩论",
     "pinyin": "Biàn lùn",
     "category": "daily",
@@ -20965,7 +20965,7 @@
   {
     "id": "daily-confirm-the-persuade",
     "term": "confirm the persuade",
-    "ipa": "/kənˈfɜːm ðə pərsˈweɪd/",
+    "ipa": "/kənfˈɜːm ðə pəswˈeɪd/",
     "zh": "确认说服",
     "pinyin": "Shuō fú",
     "category": "daily",
@@ -20979,7 +20979,7 @@
   {
     "id": "daily-prepare-the-explain",
     "term": "prepare the explain",
-    "ipa": "/prɪˈpeə ðə ɪkˈspleɪn/",
+    "ipa": "/pɹɪpˈɛə ðə ɪksplˈeɪn/",
     "zh": "准备解释",
     "pinyin": "Jiě shì",
     "category": "daily",
@@ -20993,7 +20993,7 @@
   {
     "id": "daily-check-the-clarify",
     "term": "check the clarify",
-    "ipa": "/tʃek ðə ˈklɛrəˌfaɪ/",
+    "ipa": "/tʃˈɛk ðə klˈæɹɪfˌaɪ/",
     "zh": "检查澄清",
     "pinyin": "Chéng qīng",
     "category": "daily",
@@ -21007,7 +21007,7 @@
   {
     "id": "daily-update-the-confirm",
     "term": "update the confirm",
-    "ipa": "/ʌpˈdeɪt ðə kənˈfərm/",
+    "ipa": "/ˈɐpdˌeɪt ðə kənfˈɜːm/",
     "zh": "更新确认",
     "pinyin": "Què rèn",
     "category": "daily",
@@ -21021,7 +21021,7 @@
   {
     "id": "daily-discuss-the-remind",
     "term": "discuss the remind",
-    "ipa": "/dɪˈskʌs ðə riˈmaɪnd/",
+    "ipa": "/dɪskˈɐs ðə ɹɪmˈaɪnd/",
     "zh": "讨论提醒",
     "pinyin": "Tí xǐng",
     "category": "daily",
@@ -21035,7 +21035,7 @@
   {
     "id": "daily-organise-the-notify",
     "term": "organise the notify",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈnoʊtəˌfaɪ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə nˈəʊtɪfˌaɪ/",
     "zh": "整理通知",
     "pinyin": "Tōng zhī",
     "category": "daily",
@@ -21049,7 +21049,7 @@
   {
     "id": "daily-confirm-the-inform",
     "term": "confirm the inform",
-    "ipa": "/kənˈfɜːm ðə ˌɪnˈfɔrm/",
+    "ipa": "/kənfˈɜːm ðə ɪnfˈɔːm/",
     "zh": "确认告知",
     "pinyin": "Gào zhī",
     "category": "daily",
@@ -21063,7 +21063,7 @@
   {
     "id": "daily-prepare-the-advise",
     "term": "prepare the advise",
-    "ipa": "/prɪˈpeə ðə ədˈvaɪz/",
+    "ipa": "/pɹɪpˈɛə ðə ədvˈaɪz/",
     "zh": "准备劝告",
     "pinyin": "Quàn gào",
     "category": "daily",
@@ -21077,7 +21077,7 @@
   {
     "id": "daily-check-the-warn",
     "term": "check the warn",
-    "ipa": "/tʃek ðə wɔrn/",
+    "ipa": "/tʃˈɛk ðə wˈɔːn/",
     "zh": "检查警告",
     "pinyin": "Jǐng gào",
     "category": "daily",
@@ -21091,7 +21091,7 @@
   {
     "id": "daily-update-the-apologize",
     "term": "update the apologize",
-    "ipa": "/ʌpˈdeɪt ðə əˈpɑləˌʤaɪz/",
+    "ipa": "/ˈɐpdˌeɪt ðə əpˈɒlədʒˌaɪz/",
     "zh": "更新道歉",
     "pinyin": "Dào qiàn",
     "category": "daily",
@@ -21105,7 +21105,7 @@
   {
     "id": "daily-discuss-the-thank",
     "term": "discuss the thank",
-    "ipa": "/dɪˈskʌs ðə θæŋk/",
+    "ipa": "/dɪskˈɐs ðə θˈæŋk/",
     "zh": "讨论感谢",
     "pinyin": "Gǎn xiè",
     "category": "daily",
@@ -21119,7 +21119,7 @@
   {
     "id": "daily-organise-the-congratulate",
     "term": "organise the congratulate",
-    "ipa": "/ˈɔːɡənaɪz ðə kənˈgræʧəˌleɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kənˈɡrætjʊleɪt/",
     "zh": "整理祝贺",
     "pinyin": "Zhù hè",
     "category": "daily",
@@ -21133,7 +21133,7 @@
   {
     "id": "daily-confirm-the-compliment",
     "term": "confirm the compliment",
-    "ipa": "/kənˈfɜːm ðə ˈkɑmpləmɛnt/",
+    "ipa": "/kənfˈɜːm ðə kˈɒmplɪmənt/",
     "zh": "确认赞美",
     "pinyin": "Zàn měi",
     "category": "daily",
@@ -21147,7 +21147,7 @@
   {
     "id": "daily-prepare-the-encourage",
     "term": "prepare the encourage",
-    "ipa": "/prɪˈpeə ðə ɪnˈkərəʤ/",
+    "ipa": "/pɹɪpˈɛə ðə ɛnkˈɐɹɪdʒ/",
     "zh": "准备鼓励",
     "pinyin": "Gǔ lì",
     "category": "daily",
@@ -21161,7 +21161,7 @@
   {
     "id": "daily-check-the-comfort",
     "term": "check the comfort",
-    "ipa": "/tʃek ðə ˈkəmfərt/",
+    "ipa": "/tʃˈɛk ðə kˈɐmfət/",
     "zh": "检查安慰",
     "pinyin": "Ān wèi",
     "category": "daily",
@@ -21175,7 +21175,7 @@
   {
     "id": "daily-update-the-forgive",
     "term": "update the forgive",
-    "ipa": "/ʌpˈdeɪt ðə fərˈgɪv/",
+    "ipa": "/ˈɐpdˌeɪt ðə fəgˈɪv/",
     "zh": "更新原谅",
     "pinyin": "Yuán liàng",
     "category": "daily",
@@ -21189,7 +21189,7 @@
   {
     "id": "daily-discuss-the-promise",
     "term": "discuss the promise",
-    "ipa": "/dɪˈskʌs ðə ˈprɑməs/",
+    "ipa": "/dɪskˈɐs ðə pɹˈɒmɪs/",
     "zh": "讨论承诺",
     "pinyin": "Chéng nuò",
     "category": "daily",
@@ -21203,7 +21203,7 @@
   {
     "id": "daily-organise-the-agree",
     "term": "organise the agree",
-    "ipa": "/ˈɔːɡənaɪz ðə əˈgri/",
+    "ipa": "/ˈɔːgənˌaɪz ðə əgɹˈiː/",
     "zh": "整理同意",
     "pinyin": "Tóng yì",
     "category": "daily",
@@ -21217,7 +21217,7 @@
   {
     "id": "daily-confirm-the-disagree",
     "term": "confirm the disagree",
-    "ipa": "/kənˈfɜːm ðə dɪsəˈgri/",
+    "ipa": "/kənfˈɜːm ðə dɪsəgɹˈiː/",
     "zh": "确认不同意",
     "pinyin": "Bù tóng yì",
     "category": "daily",
@@ -21231,7 +21231,7 @@
   {
     "id": "daily-prepare-the-accept",
     "term": "prepare the accept",
-    "ipa": "/prɪˈpeə ðə əkˈsɛpt/",
+    "ipa": "/pɹɪpˈɛə ðə əksˈɛpt/",
     "zh": "准备接受",
     "pinyin": "Jiē shòu",
     "category": "daily",
@@ -21245,7 +21245,7 @@
   {
     "id": "daily-check-the-refuse",
     "term": "check the refuse",
-    "ipa": "/tʃek ðə ˈrɛfˌjuz/",
+    "ipa": "/tʃˈɛk ðə ɹɪfjˈuːz/",
     "zh": "检查拒绝",
     "pinyin": "Jù jué",
     "category": "daily",
@@ -21259,7 +21259,7 @@
   {
     "id": "daily-update-the-allow",
     "term": "update the allow",
-    "ipa": "/ʌpˈdeɪt ðə əˈlaʊ/",
+    "ipa": "/ˈɐpdˌeɪt ðə əlˈaʊ/",
     "zh": "更新允许",
     "pinyin": "Yǔn xǔ",
     "category": "daily",
@@ -21273,7 +21273,7 @@
   {
     "id": "daily-discuss-the-forbid",
     "term": "discuss the forbid",
-    "ipa": "/dɪˈskʌs ðə fərˈbɪd/",
+    "ipa": "/dɪskˈɐs ðə fəbˈɪd/",
     "zh": "讨论禁止",
     "pinyin": "Jìn zhǐ",
     "category": "daily",
@@ -21287,7 +21287,7 @@
   {
     "id": "daily-organise-the-help",
     "term": "organise the help",
-    "ipa": "/ˈɔːɡənaɪz ðə hɛlp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə hˈɛlp/",
     "zh": "整理帮助",
     "pinyin": "Bāng zhù",
     "category": "daily",
@@ -21301,7 +21301,7 @@
   {
     "id": "daily-confirm-the-support",
     "term": "confirm the support",
-    "ipa": "/kənˈfɜːm ðə səˈpɔrt/",
+    "ipa": "/kənfˈɜːm ðə səpˈɔːt/",
     "zh": "确认支持",
     "pinyin": "Zhī chí",
     "category": "daily",
@@ -21315,7 +21315,7 @@
   {
     "id": "daily-prepare-the-trust",
     "term": "prepare the trust",
-    "ipa": "/prɪˈpeə ðə trəst/",
+    "ipa": "/pɹɪpˈɛə ðə tɹˈɐst/",
     "zh": "准备信任",
     "pinyin": "Xìn rèn",
     "category": "daily",
@@ -21329,7 +21329,7 @@
   {
     "id": "daily-check-the-doubt",
     "term": "check the doubt",
-    "ipa": "/tʃek ðə daʊt/",
+    "ipa": "/tʃˈɛk ðə dˈaʊt/",
     "zh": "检查怀疑",
     "pinyin": "Huái yí",
     "category": "daily",
@@ -21343,7 +21343,7 @@
   {
     "id": "daily-update-the-worry",
     "term": "update the worry",
-    "ipa": "/ʌpˈdeɪt ðə ˈwəri/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɐɹi/",
     "zh": "更新担心",
     "pinyin": "Dān xīn",
     "category": "daily",
@@ -21357,7 +21357,7 @@
   {
     "id": "daily-discuss-the-fear",
     "term": "discuss the fear",
-    "ipa": "/dɪˈskʌs ðə fɪr/",
+    "ipa": "/dɪskˈɐs ðə fˈɪə/",
     "zh": "讨论害怕",
     "pinyin": "Hài pà",
     "category": "daily",
@@ -21371,7 +21371,7 @@
   {
     "id": "daily-organise-the-happy",
     "term": "organise the happy",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈhæpi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə hˈæpi/",
     "zh": "整理开心",
     "pinyin": "Kāi xīn",
     "category": "daily",
@@ -21385,7 +21385,7 @@
   {
     "id": "daily-confirm-the-sad",
     "term": "confirm the sad",
-    "ipa": "/kənˈfɜːm ðə sæd/",
+    "ipa": "/kənfˈɜːm ðə sˈæd/",
     "zh": "确认难过",
     "pinyin": "Nán guò",
     "category": "daily",
@@ -21399,7 +21399,7 @@
   {
     "id": "daily-prepare-the-angry",
     "term": "prepare the angry",
-    "ipa": "/prɪˈpeə ðə ˈæŋgri/",
+    "ipa": "/pɹɪpˈɛə ðə ˈæŋgɹi/",
     "zh": "准备生气",
     "pinyin": "Shēng qì",
     "category": "daily",
@@ -21413,7 +21413,7 @@
   {
     "id": "daily-check-the-tired",
     "term": "check the tired",
-    "ipa": "/tʃek ðə taɪərd/",
+    "ipa": "/tʃˈɛk ðə tˈaɪəd/",
     "zh": "检查疲劳",
     "pinyin": "Pí láo",
     "category": "daily",
@@ -21427,7 +21427,7 @@
   {
     "id": "daily-update-the-hungry",
     "term": "update the hungry",
-    "ipa": "/ʌpˈdeɪt ðə ˈhəŋgri/",
+    "ipa": "/ˈɐpdˌeɪt ðə hˈɐŋgɹi/",
     "zh": "更新饥饿",
     "pinyin": "Jī è",
     "category": "daily",
@@ -21441,7 +21441,7 @@
   {
     "id": "daily-discuss-the-thirsty",
     "term": "discuss the thirsty",
-    "ipa": "/dɪˈskʌs ðə ˈθərsti/",
+    "ipa": "/dɪskˈɐs ðə θˈɜːsti/",
     "zh": "讨论口渴",
     "pinyin": "Kǒu kě",
     "category": "daily",
@@ -21455,7 +21455,7 @@
   {
     "id": "daily-organise-the-sleepy",
     "term": "organise the sleepy",
-    "ipa": "/ˈɔːɡənaɪz ðə sˈlipi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə slˈiːpi/",
     "zh": "整理困倦",
     "pinyin": "Kùn juàn",
     "category": "daily",
@@ -21469,7 +21469,7 @@
   {
     "id": "daily-confirm-the-cold",
     "term": "confirm the cold",
-    "ipa": "/kənˈfɜːm ðə koʊld/",
+    "ipa": "/kənfˈɜːm ðə kˈəʊld/",
     "zh": "确认冷",
     "pinyin": "Lěng",
     "category": "daily",
@@ -21483,7 +21483,7 @@
   {
     "id": "daily-prepare-the-hot",
     "term": "prepare the hot",
-    "ipa": "/prɪˈpeə ðə hɑt/",
+    "ipa": "/pɹɪpˈɛə ðə hˈɒt/",
     "zh": "准备热",
     "pinyin": "Rè",
     "category": "daily",
@@ -21497,7 +21497,7 @@
   {
     "id": "daily-check-the-health",
     "term": "check the health",
-    "ipa": "/tʃek ðə hɛlθ/",
+    "ipa": "/tʃˈɛk ðə hˈɛlθ/",
     "zh": "检查健康",
     "pinyin": "Jiàn kāng",
     "category": "daily",
@@ -21511,7 +21511,7 @@
   {
     "id": "daily-update-the-exercise",
     "term": "update the exercise",
-    "ipa": "/ʌpˈdeɪt ðə ˈɛksərˌsaɪz/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɛksəsˌaɪz/",
     "zh": "更新运动",
     "pinyin": "Yùn dòng",
     "category": "daily",
@@ -21525,7 +21525,7 @@
   {
     "id": "daily-discuss-the-diet",
     "term": "discuss the diet",
-    "ipa": "/dɪˈskʌs ðə daɪət/",
+    "ipa": "/dɪskˈɐs ðə dˈaɪət/",
     "zh": "讨论饮食",
     "pinyin": "Yǐn shí",
     "category": "daily",
@@ -21539,7 +21539,7 @@
   {
     "id": "daily-organise-the-vegetable",
     "term": "organise the vegetable",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈvɛʤtəbəl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə vˈɛdʒtəbəl/",
     "zh": "整理蔬菜",
     "pinyin": "Shū cài",
     "category": "daily",
@@ -21553,7 +21553,7 @@
   {
     "id": "daily-confirm-the-fruit",
     "term": "confirm the fruit",
-    "ipa": "/kənˈfɜːm ðə frut/",
+    "ipa": "/kənfˈɜːm ðə fɹˈuːt/",
     "zh": "确认水果",
     "pinyin": "Shuǐ guǒ",
     "category": "daily",
@@ -21567,7 +21567,7 @@
   {
     "id": "daily-prepare-the-meat",
     "term": "prepare the meat",
-    "ipa": "/prɪˈpeə ðə mit/",
+    "ipa": "/pɹɪpˈɛə ðə mˈiːt/",
     "zh": "准备肉",
     "pinyin": "Ròu",
     "category": "daily",
@@ -21581,7 +21581,7 @@
   {
     "id": "daily-check-the-rice",
     "term": "check the rice",
-    "ipa": "/tʃek ðə raɪs/",
+    "ipa": "/tʃˈɛk ðə ɹˈaɪs/",
     "zh": "检查米饭",
     "pinyin": "Mǐ fàn",
     "category": "daily",
@@ -21595,7 +21595,7 @@
   {
     "id": "daily-update-the-noodle",
     "term": "update the noodle",
-    "ipa": "/ʌpˈdeɪt ðə ˈnudəl/",
+    "ipa": "/ˈɐpdˌeɪt ðə nˈuːdəl/",
     "zh": "更新面条",
     "pinyin": "Miàn tiáo",
     "category": "daily",
@@ -21609,7 +21609,7 @@
   {
     "id": "daily-discuss-the-bread",
     "term": "discuss the bread",
-    "ipa": "/dɪˈskʌs ðə brɛd/",
+    "ipa": "/dɪskˈɐs ðə bɹˈɛd/",
     "zh": "讨论面包",
     "pinyin": "Miàn bāo",
     "category": "daily",
@@ -21623,7 +21623,7 @@
   {
     "id": "daily-organise-the-egg",
     "term": "organise the egg",
-    "ipa": "/ˈɔːɡənaɪz ðə ɛg/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈɛg/",
     "zh": "整理鸡蛋",
     "pinyin": "Jī dàn",
     "category": "daily",
@@ -21637,7 +21637,7 @@
   {
     "id": "daily-confirm-the-milk",
     "term": "confirm the milk",
-    "ipa": "/kənˈfɜːm ðə mɪlk/",
+    "ipa": "/kənfˈɜːm ðə mˈɪlk/",
     "zh": "确认牛奶",
     "pinyin": "Niú nǎi",
     "category": "daily",
@@ -21651,7 +21651,7 @@
   {
     "id": "daily-prepare-the-water",
     "term": "prepare the water",
-    "ipa": "/prɪˈpeə ðə ˈwɔtər/",
+    "ipa": "/pɹɪpˈɛə ðə wˈɔːtə/",
     "zh": "准备水",
     "pinyin": "Shuǐ",
     "category": "daily",
@@ -21665,7 +21665,7 @@
   {
     "id": "daily-check-the-juice",
     "term": "check the juice",
-    "ipa": "/tʃek ðə ʤus/",
+    "ipa": "/tʃˈɛk ðə dʒˈuːs/",
     "zh": "检查果汁",
     "pinyin": "Guǒ zhī",
     "category": "daily",
@@ -21679,7 +21679,7 @@
   {
     "id": "daily-update-the-soup",
     "term": "update the soup",
-    "ipa": "/ʌpˈdeɪt ðə sup/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈuːp/",
     "zh": "更新汤",
     "pinyin": "Tāng",
     "category": "daily",
@@ -21693,7 +21693,7 @@
   {
     "id": "daily-discuss-the-snack",
     "term": "discuss the snack",
-    "ipa": "/dɪˈskʌs ðə snæk/",
+    "ipa": "/dɪskˈɐs ðə snˈæk/",
     "zh": "讨论零食",
     "pinyin": "Líng shí",
     "category": "daily",
@@ -21707,7 +21707,7 @@
   {
     "id": "daily-organise-the-dessert",
     "term": "organise the dessert",
-    "ipa": "/ˈɔːɡənaɪz ðə dɪˈzərt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dɪzˈɜːt/",
     "zh": "整理甜点",
     "pinyin": "Tián diǎn",
     "category": "daily",
@@ -21721,7 +21721,7 @@
   {
     "id": "daily-confirm-the-canteen",
     "term": "confirm the canteen",
-    "ipa": "/kənˈfɜːm ðə kænˈtin/",
+    "ipa": "/kənfˈɜːm ðə kæntˈiːn/",
     "zh": "确认食堂",
     "pinyin": "Shí táng",
     "category": "daily",
@@ -21735,7 +21735,7 @@
   {
     "id": "daily-prepare-the-restaurant",
     "term": "prepare the restaurant",
-    "ipa": "/prɪˈpeə ðə ˈrɛˌstrɑnt/",
+    "ipa": "/pɹɪpˈɛə ðə ɹˈɛstɹˌɒnt/",
     "zh": "准备餐厅",
     "pinyin": "Cān tīng",
     "category": "daily",
@@ -21749,7 +21749,7 @@
   {
     "id": "daily-check-the-menu",
     "term": "check the menu",
-    "ipa": "/tʃek ðə ˈmɛnju/",
+    "ipa": "/tʃˈɛk ðə mˈɛnjuː/",
     "zh": "检查菜单",
     "pinyin": "Cài dān",
     "category": "daily",
@@ -21763,7 +21763,7 @@
   {
     "id": "office-update-the-order-food",
     "term": "update the order food",
-    "ipa": "/ʌpˈdeɪt ðə ˈɔrdər fud/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɔːdə fˈuːd/",
     "zh": "更新点餐",
     "pinyin": "Diǎn cān",
     "category": "office",
@@ -21777,7 +21777,7 @@
   {
     "id": "daily-discuss-the-delicious",
     "term": "discuss the delicious",
-    "ipa": "/dɪˈskʌs ðə dɪˈlɪʃəs/",
+    "ipa": "/dɪskˈɐs ðə dɪlˈɪʃəs/",
     "zh": "讨论美味",
     "pinyin": "Měi wèi",
     "category": "daily",
@@ -21791,7 +21791,7 @@
   {
     "id": "daily-organise-the-tasty",
     "term": "organise the tasty",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈteɪsti/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tˈeɪsti/",
     "zh": "整理好吃",
     "pinyin": "Hǎo chī",
     "category": "daily",
@@ -21805,7 +21805,7 @@
   {
     "id": "daily-confirm-the-awful",
     "term": "confirm the awful",
-    "ipa": "/kənˈfɜːm ðə ˈɔfəl/",
+    "ipa": "/kənfˈɜːm ðə ˈɔːfəl/",
     "zh": "确认难吃",
     "pinyin": "Nán chī",
     "category": "daily",
@@ -21819,7 +21819,7 @@
   {
     "id": "daily-prepare-the-spicy",
     "term": "prepare the spicy",
-    "ipa": "/prɪˈpeə ðə ˈspaɪsi/",
+    "ipa": "/pɹɪpˈɛə ðə spˈaɪsi/",
     "zh": "准备辣",
     "pinyin": "Là",
     "category": "daily",
@@ -21833,7 +21833,7 @@
   {
     "id": "daily-check-the-sweet",
     "term": "check the sweet",
-    "ipa": "/tʃek ðə swit/",
+    "ipa": "/tʃˈɛk ðə swˈiːt/",
     "zh": "检查甜",
     "pinyin": "Tián",
     "category": "daily",
@@ -21847,7 +21847,7 @@
   {
     "id": "daily-update-the-sour",
     "term": "update the sour",
-    "ipa": "/ʌpˈdeɪt ðə saʊər/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈaʊə/",
     "zh": "更新酸",
     "pinyin": "Suān",
     "category": "daily",
@@ -21861,7 +21861,7 @@
   {
     "id": "daily-discuss-the-bitter",
     "term": "discuss the bitter",
-    "ipa": "/dɪˈskʌs ðə ˈbɪtər/",
+    "ipa": "/dɪskˈɐs ðə bˈɪtə/",
     "zh": "讨论苦",
     "pinyin": "Kǔ",
     "category": "daily",
@@ -21875,7 +21875,7 @@
   {
     "id": "daily-organise-the-salty",
     "term": "organise the salty",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈsɔlti/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈɒlti/",
     "zh": "整理咸",
     "pinyin": "Xián",
     "category": "daily",
@@ -21889,7 +21889,7 @@
   {
     "id": "daily-confirm-the-fresh",
     "term": "confirm the fresh",
-    "ipa": "/kənˈfɜːm ðə frɛʃ/",
+    "ipa": "/kənfˈɜːm ðə fɹˈɛʃ/",
     "zh": "确认新鲜",
     "pinyin": "Xīn xiān",
     "category": "daily",
@@ -21903,7 +21903,7 @@
   {
     "id": "daily-prepare-the-stale",
     "term": "prepare the stale",
-    "ipa": "/prɪˈpeə ðə steɪl/",
+    "ipa": "/pɹɪpˈɛə ðə stˈeɪl/",
     "zh": "准备不新鲜",
     "pinyin": "Bù xīn xiān",
     "category": "daily",
@@ -21917,7 +21917,7 @@
   {
     "id": "daily-check-the-cook",
     "term": "check the cook",
-    "ipa": "/tʃek ðə kʊk/",
+    "ipa": "/tʃˈɛk ðə kˈʊk/",
     "zh": "检查做饭",
     "pinyin": "Zuò fàn",
     "category": "daily",
@@ -21931,7 +21931,7 @@
   {
     "id": "daily-update-the-boil",
     "term": "update the boil",
-    "ipa": "/ʌpˈdeɪt ðə bɔɪl/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈɔɪl/",
     "zh": "更新煮",
     "pinyin": "Zhǔ",
     "category": "daily",
@@ -21945,7 +21945,7 @@
   {
     "id": "daily-discuss-the-fry",
     "term": "discuss the fry",
-    "ipa": "/dɪˈskʌs ðə fraɪ/",
+    "ipa": "/dɪskˈɐs ðə fɹˈaɪ/",
     "zh": "讨论炒",
     "pinyin": "Chǎo",
     "category": "daily",
@@ -21959,7 +21959,7 @@
   {
     "id": "daily-organise-the-roast",
     "term": "organise the roast",
-    "ipa": "/ˈɔːɡənaɪz ðə roʊst/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɹˈəʊst/",
     "zh": "整理烤",
     "pinyin": "Kǎo",
     "category": "daily",
@@ -21973,7 +21973,7 @@
   {
     "id": "daily-confirm-the-steam",
     "term": "confirm the steam",
-    "ipa": "/kənˈfɜːm ðə stim/",
+    "ipa": "/kənfˈɜːm ðə stˈiːm/",
     "zh": "确认蒸",
     "pinyin": "Zhēng",
     "category": "daily",
@@ -21987,7 +21987,7 @@
   {
     "id": "daily-prepare-the-cut",
     "term": "prepare the cut",
-    "ipa": "/prɪˈpeə ðə kət/",
+    "ipa": "/pɹɪpˈɛə ðə kˈɐt/",
     "zh": "准备切",
     "pinyin": "Qiē",
     "category": "daily",
@@ -22001,7 +22001,7 @@
   {
     "id": "daily-check-the-wash",
     "term": "check the wash",
-    "ipa": "/tʃek ðə wɑʃ/",
+    "ipa": "/tʃˈɛk ðə wˈɒʃ/",
     "zh": "检查洗",
     "pinyin": "Xǐ",
     "category": "daily",
@@ -22015,7 +22015,7 @@
   {
     "id": "daily-update-the-clean",
     "term": "update the clean",
-    "ipa": "/ʌpˈdeɪt ðə klin/",
+    "ipa": "/ˈɐpdˌeɪt ðə klˈiːn/",
     "zh": "更新清洁",
     "pinyin": "Qīng jié",
     "category": "daily",
@@ -22029,7 +22029,7 @@
   {
     "id": "daily-discuss-the-mess",
     "term": "discuss the mess",
-    "ipa": "/dɪˈskʌs ðə mɛs/",
+    "ipa": "/dɪskˈɐs ðə mˈɛs/",
     "zh": "讨论脏乱",
     "pinyin": "Zāng luàn",
     "category": "daily",
@@ -22043,7 +22043,7 @@
   {
     "id": "daily-organise-the-organize",
     "term": "organise the organize",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈɔrgəˌnaɪz/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈɔːgənˌaɪz/",
     "zh": "整理整理",
     "pinyin": "Zhěng lǐ",
     "category": "daily",
@@ -22057,7 +22057,7 @@
   {
     "id": "daily-confirm-the-arrange",
     "term": "confirm the arrange",
-    "ipa": "/kənˈfɜːm ðə əreɪnʤ/",
+    "ipa": "/kənfˈɜːm ðə əɹˈeɪndʒ/",
     "zh": "确认安排",
     "pinyin": "Ān pái",
     "category": "daily",
@@ -22071,7 +22071,7 @@
   {
     "id": "daily-prepare-the-prepare",
     "term": "prepare the prepare",
-    "ipa": "/prɪˈpeə ðə priˈpɛr/",
+    "ipa": "/pɹɪpˈɛə ðə pɹɪpˈɛə/",
     "zh": "准备准备",
     "pinyin": "Zhǔn bèi",
     "category": "daily",
@@ -22085,7 +22085,7 @@
   {
     "id": "daily-check-the-start",
     "term": "check the start",
-    "ipa": "/tʃek ðə stɑrt/",
+    "ipa": "/tʃˈɛk ðə stˈɑːt/",
     "zh": "检查开始",
     "pinyin": "Kāi shǐ",
     "category": "daily",
@@ -22099,7 +22099,7 @@
   {
     "id": "daily-update-the-finish",
     "term": "update the finish",
-    "ipa": "/ʌpˈdeɪt ðə ˈfɪnɪʃ/",
+    "ipa": "/ˈɐpdˌeɪt ðə fˈɪnɪʃ/",
     "zh": "更新完成",
     "pinyin": "Wán chéng",
     "category": "daily",
@@ -22113,7 +22113,7 @@
   {
     "id": "daily-discuss-the-pause",
     "term": "discuss the pause",
-    "ipa": "/dɪˈskʌs ðə pɔz/",
+    "ipa": "/dɪskˈɐs ðə pˈɔːz/",
     "zh": "讨论暂停",
     "pinyin": "Zàn tíng",
     "category": "daily",
@@ -22127,7 +22127,7 @@
   {
     "id": "daily-organise-the-continue",
     "term": "organise the continue",
-    "ipa": "/ˈɔːɡənaɪz ðə kənˈtɪnju/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kəntˈɪnjuː/",
     "zh": "整理继续",
     "pinyin": "Jì xù",
     "category": "daily",
@@ -22141,7 +22141,7 @@
   {
     "id": "daily-confirm-the-repeat",
     "term": "confirm the repeat",
-    "ipa": "/kənˈfɜːm ðə rɪˈpit/",
+    "ipa": "/kənfˈɜːm ðə ɹɪpˈiːt/",
     "zh": "确认重复",
     "pinyin": "Chóng fù",
     "category": "daily",
@@ -22155,7 +22155,7 @@
   {
     "id": "daily-prepare-the-remember",
     "term": "prepare the remember",
-    "ipa": "/prɪˈpeə ðə rɪˈmɛmbər/",
+    "ipa": "/pɹɪpˈɛə ðə ɹɪmˈɛmbə/",
     "zh": "准备记住",
     "pinyin": "Jì zhù",
     "category": "daily",
@@ -22169,7 +22169,7 @@
   {
     "id": "daily-check-the-forget",
     "term": "check the forget",
-    "ipa": "/tʃek ðə fərˈgɛt/",
+    "ipa": "/tʃˈɛk ðə fəgˈɛt/",
     "zh": "检查忘记",
     "pinyin": "Wàng jì",
     "category": "daily",
@@ -22183,7 +22183,7 @@
   {
     "id": "daily-update-the-learn",
     "term": "update the learn",
-    "ipa": "/ʌpˈdeɪt ðə lərn/",
+    "ipa": "/ˈɐpdˌeɪt ðə lˈɜːn/",
     "zh": "更新学习",
     "pinyin": "Xué xí",
     "category": "daily",
@@ -22197,7 +22197,7 @@
   {
     "id": "daily-discuss-the-teach",
     "term": "discuss the teach",
-    "ipa": "/dɪˈskʌs ðə tiʧ/",
+    "ipa": "/dɪskˈɐs ðə tˈiːtʃ/",
     "zh": "讨论教",
     "pinyin": "Jiāo",
     "category": "daily",
@@ -22211,7 +22211,7 @@
   {
     "id": "daily-organise-the-understand",
     "term": "organise the understand",
-    "ipa": "/ˈɔːɡənaɪz ðə ˌəndərˈstænd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˌɐndəstˈænd/",
     "zh": "整理理解",
     "pinyin": "Lǐ jiě",
     "category": "daily",
@@ -22225,7 +22225,7 @@
   {
     "id": "daily-confirm-the-know",
     "term": "confirm the know",
-    "ipa": "/kənˈfɜːm ðə noʊ/",
+    "ipa": "/kənfˈɜːm ðə nˈəʊ/",
     "zh": "确认知道",
     "pinyin": "Zhī dào",
     "category": "daily",
@@ -22239,7 +22239,7 @@
   {
     "id": "daily-prepare-the-think",
     "term": "prepare the think",
-    "ipa": "/prɪˈpeə ðə θɪŋk/",
+    "ipa": "/pɹɪpˈɛə ðə θˈɪŋk/",
     "zh": "准备思考",
     "pinyin": "Sī kǎo",
     "category": "daily",
@@ -22253,7 +22253,7 @@
   {
     "id": "daily-check-the-idea",
     "term": "check the idea",
-    "ipa": "/tʃek ðə aɪˈdiə/",
+    "ipa": "/tʃˈɛk ðə aɪdˈɪə/",
     "zh": "检查主意",
     "pinyin": "Zhǔ yi",
     "category": "daily",
@@ -22267,7 +22267,7 @@
   {
     "id": "daily-update-the-opinion",
     "term": "update the opinion",
-    "ipa": "/ʌpˈdeɪt ðə əˈpɪnjən/",
+    "ipa": "/ˈɐpdˌeɪt ðə əpˈɪnjən/",
     "zh": "更新意见",
     "pinyin": "Yì jiàn",
     "category": "daily",
@@ -22281,7 +22281,7 @@
   {
     "id": "daily-discuss-the-mind",
     "term": "discuss the mind",
-    "ipa": "/dɪˈskʌs ðə maɪnd/",
+    "ipa": "/dɪskˈɐs ðə mˈaɪnd/",
     "zh": "讨论想法",
     "pinyin": "Xiǎng fǎ",
     "category": "daily",
@@ -22295,7 +22295,7 @@
   {
     "id": "daily-organise-the-feel",
     "term": "organise the feel",
-    "ipa": "/ˈɔːɡənaɪz ðə fil/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fˈiːl/",
     "zh": "整理感觉",
     "pinyin": "Gǎn jué",
     "category": "daily",
@@ -22309,7 +22309,7 @@
   {
     "id": "daily-confirm-the-look",
     "term": "confirm the look",
-    "ipa": "/kənˈfɜːm ðə lʊk/",
+    "ipa": "/kənfˈɜːm ðə lˈʊk/",
     "zh": "确认看",
     "pinyin": "Kàn",
     "category": "daily",
@@ -22323,7 +22323,7 @@
   {
     "id": "daily-prepare-the-see",
     "term": "prepare the see",
-    "ipa": "/prɪˈpeə ðə si/",
+    "ipa": "/pɹɪpˈɛə ðə sˈiː/",
     "zh": "准备看见",
     "pinyin": "Kàn jiàn",
     "category": "daily",
@@ -22337,7 +22337,7 @@
   {
     "id": "daily-check-the-watch",
     "term": "check the watch",
-    "ipa": "/tʃek ðə wɔʧ/",
+    "ipa": "/tʃˈɛk ðə wˈɒtʃ/",
     "zh": "检查观看",
     "pinyin": "Guān kàn",
     "category": "daily",
@@ -22351,7 +22351,7 @@
   {
     "id": "daily-update-the-listen",
     "term": "update the listen",
-    "ipa": "/ʌpˈdeɪt ðə ˈlɪsən/",
+    "ipa": "/ˈɐpdˌeɪt ðə lˈɪsən/",
     "zh": "更新听",
     "pinyin": "Tīng",
     "category": "daily",
@@ -22365,7 +22365,7 @@
   {
     "id": "daily-discuss-the-hear",
     "term": "discuss the hear",
-    "ipa": "/dɪˈskʌs ðə hir/",
+    "ipa": "/dɪskˈɐs ðə hˈɪə/",
     "zh": "讨论听到",
     "pinyin": "Tīng dào",
     "category": "daily",
@@ -22379,7 +22379,7 @@
   {
     "id": "daily-organise-the-speak",
     "term": "organise the speak",
-    "ipa": "/ˈɔːɡənaɪz ðə spik/",
+    "ipa": "/ˈɔːgənˌaɪz ðə spˈiːk/",
     "zh": "整理说",
     "pinyin": "Shuō",
     "category": "daily",
@@ -22393,7 +22393,7 @@
   {
     "id": "daily-confirm-the-talk",
     "term": "confirm the talk",
-    "ipa": "/kənˈfɜːm ðə tɔk/",
+    "ipa": "/kənfˈɜːm ðə tˈɔːk/",
     "zh": "确认讲话",
     "pinyin": "Jiǎng huà",
     "category": "daily",
@@ -22407,7 +22407,7 @@
   {
     "id": "daily-prepare-the-tell",
     "term": "prepare the tell",
-    "ipa": "/prɪˈpeə ðə tɛl/",
+    "ipa": "/pɹɪpˈɛə ðə tˈɛl/",
     "zh": "准备告诉",
     "pinyin": "Gào sù",
     "category": "daily",
@@ -22421,7 +22421,7 @@
   {
     "id": "daily-check-the-ask",
     "term": "check the ask",
-    "ipa": "/tʃek ðə æsk/",
+    "ipa": "/tʃˈɛk ðə ˈɑːsk/",
     "zh": "检查询问",
     "pinyin": "Xún wèn",
     "category": "daily",
@@ -22435,7 +22435,7 @@
   {
     "id": "daily-update-the-answer",
     "term": "update the answer",
-    "ipa": "/ʌpˈdeɪt ðə ˈænsər/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɑːnsə/",
     "zh": "更新回答",
     "pinyin": "Huí dá",
     "category": "daily",
@@ -22449,7 +22449,7 @@
   {
     "id": "daily-discuss-the-read",
     "term": "discuss the read",
-    "ipa": "/dɪˈskʌs ðə rɛd/",
+    "ipa": "/dɪskˈɐs ðə ɹˈiːd/",
     "zh": "讨论阅读",
     "pinyin": "Yuè dú",
     "category": "daily",
@@ -22463,7 +22463,7 @@
   {
     "id": "daily-organise-the-write",
     "term": "organise the write",
-    "ipa": "/ˈɔːɡənaɪz ðə raɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɹˈaɪt/",
     "zh": "整理书写",
     "pinyin": "Shū xiě",
     "category": "daily",
@@ -22477,7 +22477,7 @@
   {
     "id": "daily-confirm-the-draw",
     "term": "confirm the draw",
-    "ipa": "/kənˈfɜːm ðə drɔ/",
+    "ipa": "/kənfˈɜːm ðə dɹˈɔː/",
     "zh": "确认画画",
     "pinyin": "Huà huà",
     "category": "daily",
@@ -22491,7 +22491,7 @@
   {
     "id": "daily-prepare-the-show",
     "term": "prepare the show",
-    "ipa": "/prɪˈpeə ðə ʃoʊ/",
+    "ipa": "/pɹɪpˈɛə ðə ʃˈəʊ/",
     "zh": "准备展示",
     "pinyin": "Zhǎn shì",
     "category": "daily",
@@ -22505,7 +22505,7 @@
   {
     "id": "daily-check-the-share",
     "term": "check the share",
-    "ipa": "/tʃek ðə ʃɛr/",
+    "ipa": "/tʃˈɛk ðə ʃˈɛə/",
     "zh": "检查分享",
     "pinyin": "Fēn xiǎng",
     "category": "daily",
@@ -22519,7 +22519,7 @@
   {
     "id": "daily-update-the-give",
     "term": "update the give",
-    "ipa": "/ʌpˈdeɪt ðə gɪv/",
+    "ipa": "/ˈɐpdˌeɪt ðə gˈɪv/",
     "zh": "更新给",
     "pinyin": "Gěi",
     "category": "daily",
@@ -22533,7 +22533,7 @@
   {
     "id": "daily-discuss-the-take",
     "term": "discuss the take",
-    "ipa": "/dɪˈskʌs ðə teɪk/",
+    "ipa": "/dɪskˈɐs ðə tˈeɪk/",
     "zh": "讨论拿",
     "pinyin": "Ná",
     "category": "daily",
@@ -22547,7 +22547,7 @@
   {
     "id": "daily-organise-the-send",
     "term": "organise the send",
-    "ipa": "/ˈɔːɡənaɪz ðə sɛnd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈɛnd/",
     "zh": "整理发送",
     "pinyin": "Fā sòng",
     "category": "daily",
@@ -22561,7 +22561,7 @@
   {
     "id": "daily-confirm-the-receive",
     "term": "confirm the receive",
-    "ipa": "/kənˈfɜːm ðə rɪˈsiv/",
+    "ipa": "/kənfˈɜːm ðə ɹɪsˈiːv/",
     "zh": "确认接收",
     "pinyin": "Jiē shōu",
     "category": "daily",
@@ -22575,7 +22575,7 @@
   {
     "id": "daily-prepare-the-open",
     "term": "prepare the open",
-    "ipa": "/prɪˈpeə ðə ˈoʊpən/",
+    "ipa": "/pɹɪpˈɛə ðə ˈəʊpən/",
     "zh": "准备打开",
     "pinyin": "Dǎ kāi",
     "category": "daily",
@@ -22589,7 +22589,7 @@
   {
     "id": "daily-check-the-close",
     "term": "check the close",
-    "ipa": "/tʃek ðə kloʊz/",
+    "ipa": "/tʃˈɛk ðə klˈəʊs/",
     "zh": "检查关闭",
     "pinyin": "Guān bì",
     "category": "daily",
@@ -22603,7 +22603,7 @@
   {
     "id": "daily-update-the-turn-on",
     "term": "update the turn on",
-    "ipa": "/ʌpˈdeɪt ðə tərn ɔn/",
+    "ipa": "/ˈɐpdˌeɪt ðə tˈɜːn ˈɒn/",
     "zh": "更新开启",
     "pinyin": "Kāi qǐ",
     "category": "daily",
@@ -22617,7 +22617,7 @@
   {
     "id": "daily-discuss-the-turn-off",
     "term": "discuss the turn off",
-    "ipa": "/dɪˈskʌs ðə tərn ɔf/",
+    "ipa": "/dɪskˈɐs ðə tˈɜːn ˈɒf/",
     "zh": "讨论关闭",
     "pinyin": "Guān bì",
     "category": "daily",
@@ -22631,7 +22631,7 @@
   {
     "id": "daily-organise-the-push",
     "term": "organise the push",
-    "ipa": "/ˈɔːɡənaɪz ðə pʊʃ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə pˈʊʃ/",
     "zh": "整理推",
     "pinyin": "Tuī",
     "category": "daily",
@@ -22645,7 +22645,7 @@
   {
     "id": "daily-confirm-the-pull",
     "term": "confirm the pull",
-    "ipa": "/kənˈfɜːm ðə pʊl/",
+    "ipa": "/kənfˈɜːm ðə pˈʊl/",
     "zh": "确认拉",
     "pinyin": "Lā",
     "category": "daily",
@@ -22659,7 +22659,7 @@
   {
     "id": "daily-prepare-the-lift",
     "term": "prepare the lift",
-    "ipa": "/prɪˈpeə ðə lɪft/",
+    "ipa": "/pɹɪpˈɛə ðə lˈɪft/",
     "zh": "准备抬起",
     "pinyin": "Tái qǐ",
     "category": "daily",
@@ -22673,7 +22673,7 @@
   {
     "id": "daily-check-the-drop",
     "term": "check the drop",
-    "ipa": "/tʃek ðə drɔp/",
+    "ipa": "/tʃˈɛk ðə dɹˈɒp/",
     "zh": "检查掉落",
     "pinyin": "Diào luò",
     "category": "daily",
@@ -22687,7 +22687,7 @@
   {
     "id": "daily-update-the-pick",
     "term": "update the pick",
-    "ipa": "/ʌpˈdeɪt ðə pɪk/",
+    "ipa": "/ˈɐpdˌeɪt ðə pˈɪk/",
     "zh": "更新捡起",
     "pinyin": "Jiǎn qǐ",
     "category": "daily",
@@ -22701,7 +22701,7 @@
   {
     "id": "daily-discuss-the-hold",
     "term": "discuss the hold",
-    "ipa": "/dɪˈskʌs ðə hoʊld/",
+    "ipa": "/dɪskˈɐs ðə hˈəʊld/",
     "zh": "讨论握住",
     "pinyin": "Wò zhù",
     "category": "daily",
@@ -22715,7 +22715,7 @@
   {
     "id": "daily-organise-the-carry",
     "term": "organise the carry",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈkɛri/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈæɹi/",
     "zh": "整理搬运",
     "pinyin": "Bān yùn",
     "category": "daily",
@@ -22729,7 +22729,7 @@
   {
     "id": "daily-confirm-the-move",
     "term": "confirm the move",
-    "ipa": "/kənˈfɜːm ðə muv/",
+    "ipa": "/kənfˈɜːm ðə mˈuːv/",
     "zh": "确认移动",
     "pinyin": "Yí dòng",
     "category": "daily",
@@ -22743,7 +22743,7 @@
   {
     "id": "daily-prepare-the-stand",
     "term": "prepare the stand",
-    "ipa": "/prɪˈpeə ðə stænd/",
+    "ipa": "/pɹɪpˈɛə ðə stˈænd/",
     "zh": "准备站立",
     "pinyin": "Zhàn lì",
     "category": "daily",
@@ -22757,7 +22757,7 @@
   {
     "id": "daily-check-the-sit",
     "term": "check the sit",
-    "ipa": "/tʃek ðə sɪt/",
+    "ipa": "/tʃˈɛk ðə sˈɪt/",
     "zh": "检查坐下",
     "pinyin": "Zuò xià",
     "category": "daily",
@@ -22771,7 +22771,7 @@
   {
     "id": "daily-update-the-walk",
     "term": "update the walk",
-    "ipa": "/ʌpˈdeɪt ðə wɔk/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɔːk/",
     "zh": "更新走路",
     "pinyin": "Zǒu lù",
     "category": "daily",
@@ -22785,7 +22785,7 @@
   {
     "id": "daily-discuss-the-run",
     "term": "discuss the run",
-    "ipa": "/dɪˈskʌs ðə rən/",
+    "ipa": "/dɪskˈɐs ðə ɹˈɐn/",
     "zh": "讨论跑步",
     "pinyin": "Pǎo bù",
     "category": "daily",
@@ -22799,7 +22799,7 @@
   {
     "id": "daily-organise-the-jump",
     "term": "organise the jump",
-    "ipa": "/ˈɔːɡənaɪz ðə ʤəmp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dʒˈɐmp/",
     "zh": "整理跳跃",
     "pinyin": "Tiào yuè",
     "category": "daily",
@@ -22813,7 +22813,7 @@
   {
     "id": "daily-confirm-the-climb",
     "term": "confirm the climb",
-    "ipa": "/kənˈfɜːm ðə klaɪm/",
+    "ipa": "/kənfˈɜːm ðə klˈaɪm/",
     "zh": "确认攀爬",
     "pinyin": "Pān pá",
     "category": "daily",
@@ -22827,7 +22827,7 @@
   {
     "id": "daily-prepare-the-drive",
     "term": "prepare the drive",
-    "ipa": "/prɪˈpeə ðə draɪv/",
+    "ipa": "/pɹɪpˈɛə ðə dɹˈaɪv/",
     "zh": "准备开车",
     "pinyin": "Kāi chē",
     "category": "daily",
@@ -22841,7 +22841,7 @@
   {
     "id": "daily-check-the-ride",
     "term": "check the ride",
-    "ipa": "/tʃek ðə raɪd/",
+    "ipa": "/tʃˈɛk ðə ɹˈaɪd/",
     "zh": "检查骑车",
     "pinyin": "Qí chē",
     "category": "daily",
@@ -22855,7 +22855,7 @@
   {
     "id": "daily-update-the-fly",
     "term": "update the fly",
-    "ipa": "/ʌpˈdeɪt ðə flaɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə flˈaɪ/",
     "zh": "更新飞",
     "pinyin": "Fēi",
     "category": "daily",
@@ -22869,7 +22869,7 @@
   {
     "id": "daily-discuss-the-swim",
     "term": "discuss the swim",
-    "ipa": "/dɪˈskʌs ðə swɪm/",
+    "ipa": "/dɪskˈɐs ðə swˈɪm/",
     "zh": "讨论游泳",
     "pinyin": "Yóu yǒng",
     "category": "daily",
@@ -22883,7 +22883,7 @@
   {
     "id": "daily-organise-the-stop",
     "term": "organise the stop",
-    "ipa": "/ˈɔːɡənaɪz ðə stɑp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə stˈɒp/",
     "zh": "整理停止",
     "pinyin": "Tíng zhǐ",
     "category": "daily",
@@ -22897,7 +22897,7 @@
   {
     "id": "daily-confirm-the-wait",
     "term": "confirm the wait",
-    "ipa": "/kənˈfɜːm ðə weɪt/",
+    "ipa": "/kənfˈɜːm ðə wˈeɪt/",
     "zh": "确认等待",
     "pinyin": "Děng dài",
     "category": "daily",
@@ -22911,7 +22911,7 @@
   {
     "id": "daily-prepare-the-hurry",
     "term": "prepare the hurry",
-    "ipa": "/prɪˈpeə ðə ˈhəri/",
+    "ipa": "/pɹɪpˈɛə ðə hˈɐɹi/",
     "zh": "准备快点",
     "pinyin": "Kuài diǎn",
     "category": "daily",
@@ -22925,7 +22925,7 @@
   {
     "id": "daily-check-the-slow",
     "term": "check the slow",
-    "ipa": "/tʃek ðə sloʊ/",
+    "ipa": "/tʃˈɛk ðə slˈəʊ/",
     "zh": "检查慢点",
     "pinyin": "Màn diǎn",
     "category": "daily",
@@ -22939,7 +22939,7 @@
   {
     "id": "daily-update-the-early",
     "term": "update the early",
-    "ipa": "/ʌpˈdeɪt ðə ˈərli/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɜːli/",
     "zh": "更新早",
     "pinyin": "Zǎo",
     "category": "daily",
@@ -22953,7 +22953,7 @@
   {
     "id": "daily-discuss-the-late",
     "term": "discuss the late",
-    "ipa": "/dɪˈskʌs ðə leɪt/",
+    "ipa": "/dɪskˈɐs ðə lˈeɪt/",
     "zh": "讨论晚",
     "pinyin": "Wǎn",
     "category": "daily",
@@ -22967,7 +22967,7 @@
   {
     "id": "daily-organise-the-now",
     "term": "organise the now",
-    "ipa": "/ˈɔːɡənaɪz ðə naʊ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə nˈaʊ/",
     "zh": "整理现在",
     "pinyin": "Xiàn zài",
     "category": "daily",
@@ -22981,7 +22981,7 @@
   {
     "id": "daily-confirm-the-today",
     "term": "confirm the today",
-    "ipa": "/kənˈfɜːm ðə təˈdeɪ/",
+    "ipa": "/kənfˈɜːm ðə tədˈeɪ/",
     "zh": "确认今天",
     "pinyin": "Jīn tiān",
     "category": "daily",
@@ -22995,7 +22995,7 @@
   {
     "id": "daily-prepare-the-tomorrow",
     "term": "prepare the tomorrow",
-    "ipa": "/prɪˈpeə ðə təˈmɑˌroʊ/",
+    "ipa": "/pɹɪpˈɛə ðə təmˈɒɹˌəʊ/",
     "zh": "准备明天",
     "pinyin": "Míng tiān",
     "category": "daily",
@@ -23009,7 +23009,7 @@
   {
     "id": "daily-check-the-yesterday",
     "term": "check the yesterday",
-    "ipa": "/tʃek ðə ˈjɛstərˌdeɪ/",
+    "ipa": "/tʃˈɛk ðə jˈɛstədi/",
     "zh": "检查昨天",
     "pinyin": "Zuó tiān",
     "category": "daily",
@@ -23023,7 +23023,7 @@
   {
     "id": "daily-update-the-morning",
     "term": "update the morning",
-    "ipa": "/ʌpˈdeɪt ðə ˈmɔrnɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə mˈɔːnɪŋ/",
     "zh": "更新早上",
     "pinyin": "Zǎo shang",
     "category": "daily",
@@ -23037,7 +23037,7 @@
   {
     "id": "daily-discuss-the-afternoon",
     "term": "discuss the afternoon",
-    "ipa": "/dɪˈskʌs ðə ˌæftərˈnun/",
+    "ipa": "/dɪskˈɐs ðə ˌɑːftənˈuːn/",
     "zh": "讨论下午",
     "pinyin": "Xià wǔ",
     "category": "daily",
@@ -23051,7 +23051,7 @@
   {
     "id": "daily-organise-the-evening",
     "term": "organise the evening",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈivnɪŋ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈiːvnɪŋ/",
     "zh": "整理晚上",
     "pinyin": "Wǎn shang",
     "category": "daily",
@@ -23065,7 +23065,7 @@
   {
     "id": "daily-confirm-the-night",
     "term": "confirm the night",
-    "ipa": "/kənˈfɜːm ðə naɪt/",
+    "ipa": "/kənfˈɜːm ðə nˈaɪt/",
     "zh": "确认夜晚",
     "pinyin": "Yè wǎn",
     "category": "daily",
@@ -23079,7 +23079,7 @@
   {
     "id": "daily-prepare-the-monday",
     "term": "prepare the monday",
-    "ipa": "/prɪˈpeə ðə ˈmənˌdeɪ/",
+    "ipa": "/pɹɪpˈɛə ðə mˈɐndi/",
     "zh": "准备周一",
     "pinyin": "Zhōu yī",
     "category": "daily",
@@ -23093,7 +23093,7 @@
   {
     "id": "daily-check-the-tuesday",
     "term": "check the tuesday",
-    "ipa": "/tʃek ðə ˈtuzˌdeɪ/",
+    "ipa": "/tʃˈɛk ðə tjˈuːzdi/",
     "zh": "检查周二",
     "pinyin": "Zhōu èr",
     "category": "daily",
@@ -23107,7 +23107,7 @@
   {
     "id": "daily-update-the-wednesday",
     "term": "update the wednesday",
-    "ipa": "/ʌpˈdeɪt ðə ˈwɛnzˌdeɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɛnzdi/",
     "zh": "更新周三",
     "pinyin": "Zhōu sān",
     "category": "daily",
@@ -23121,7 +23121,7 @@
   {
     "id": "daily-discuss-the-thursday",
     "term": "discuss the thursday",
-    "ipa": "/dɪˈskʌs ðə ˈθərzˌdeɪ/",
+    "ipa": "/dɪskˈɐs ðə θˈɜːzdi/",
     "zh": "讨论周四",
     "pinyin": "Zhōu sì",
     "category": "daily",
@@ -23135,7 +23135,7 @@
   {
     "id": "daily-organise-the-friday",
     "term": "organise the friday",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈfraɪˌdeɪ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fɹˈaɪdi/",
     "zh": "整理周五",
     "pinyin": "Zhōu wǔ",
     "category": "daily",
@@ -23149,7 +23149,7 @@
   {
     "id": "daily-confirm-the-saturday",
     "term": "confirm the saturday",
-    "ipa": "/kənˈfɜːm ðə ˈsæˌtɪˌdeɪ/",
+    "ipa": "/kənfˈɜːm ðə sˈætədi/",
     "zh": "确认周六",
     "pinyin": "Zhōu liù",
     "category": "daily",
@@ -23163,7 +23163,7 @@
   {
     "id": "daily-prepare-the-sunday",
     "term": "prepare the sunday",
-    "ipa": "/prɪˈpeə ðə ˈsənˌdi/",
+    "ipa": "/pɹɪpˈɛə ðə sˈɐndi/",
     "zh": "准备周日",
     "pinyin": "Zhōu rì",
     "category": "daily",
@@ -23177,7 +23177,7 @@
   {
     "id": "daily-check-the-january",
     "term": "check the january",
-    "ipa": "/tʃek ðə ˈʤænjuˌɛri/",
+    "ipa": "/tʃˈɛk ðə dʒˈænjʊəɹi/",
     "zh": "检查一月",
     "pinyin": "Yī yuè",
     "category": "daily",
@@ -23191,7 +23191,7 @@
   {
     "id": "daily-update-the-february",
     "term": "update the february",
-    "ipa": "/ʌpˈdeɪt ðə ˈfɛbruˌɛri/",
+    "ipa": "/ˈɐpdˌeɪt ðə fˈɛbjʊəɹi/",
     "zh": "更新二月",
     "pinyin": "Èr yuè",
     "category": "daily",
@@ -23205,7 +23205,7 @@
   {
     "id": "daily-discuss-the-march",
     "term": "discuss the march",
-    "ipa": "/dɪˈskʌs ðə mɑrʧ/",
+    "ipa": "/dɪskˈɐs ðə mˈɑːtʃ/",
     "zh": "讨论三月",
     "pinyin": "Sān yuè",
     "category": "daily",
@@ -23219,7 +23219,7 @@
   {
     "id": "daily-organise-the-april",
     "term": "organise the april",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈeɪprəl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈeɪpɹəl/",
     "zh": "整理四月",
     "pinyin": "Sì yuè",
     "category": "daily",
@@ -23233,7 +23233,7 @@
   {
     "id": "daily-confirm-the-may",
     "term": "confirm the may",
-    "ipa": "/kənˈfɜːm ðə meɪ/",
+    "ipa": "/kənfˈɜːm ðə mˈeɪ/",
     "zh": "确认五月",
     "pinyin": "Wǔ yuè",
     "category": "daily",
@@ -23247,7 +23247,7 @@
   {
     "id": "daily-prepare-the-june",
     "term": "prepare the june",
-    "ipa": "/prɪˈpeə ðə ʤun/",
+    "ipa": "/pɹɪpˈɛə ðə dʒˈuːn/",
     "zh": "准备六月",
     "pinyin": "Liù yuè",
     "category": "daily",
@@ -23261,7 +23261,7 @@
   {
     "id": "daily-check-the-july",
     "term": "check the july",
-    "ipa": "/tʃek ðə ˌʤuˈlaɪ/",
+    "ipa": "/tʃˈɛk ðə dʒəlˈaɪ/",
     "zh": "检查七月",
     "pinyin": "Qī yuè",
     "category": "daily",
@@ -23275,7 +23275,7 @@
   {
     "id": "daily-update-the-august",
     "term": "update the august",
-    "ipa": "/ʌpˈdeɪt ðə ˈɔgəst/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɔːgəst/",
     "zh": "更新八月",
     "pinyin": "Bā yuè",
     "category": "daily",
@@ -23289,7 +23289,7 @@
   {
     "id": "daily-discuss-the-september",
     "term": "discuss the september",
-    "ipa": "/dɪˈskʌs ðə sɛpˈtɛmbər/",
+    "ipa": "/dɪskˈɐs ðə sɛptˈɛmbə/",
     "zh": "讨论九月",
     "pinyin": "Jiǔ yuè",
     "category": "daily",
@@ -23303,7 +23303,7 @@
   {
     "id": "daily-organise-the-october",
     "term": "organise the october",
-    "ipa": "/ˈɔːɡənaɪz ðə ɑkˈtoʊbər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɒktˈəʊbə/",
     "zh": "整理十月",
     "pinyin": "Shí yuè",
     "category": "daily",
@@ -23317,7 +23317,7 @@
   {
     "id": "daily-confirm-the-november",
     "term": "confirm the november",
-    "ipa": "/kənˈfɜːm ðə noʊˈvɛmbər/",
+    "ipa": "/kənfˈɜːm ðə nəʊvˈɛmbə/",
     "zh": "确认十一月",
     "pinyin": "Shí yī yuè",
     "category": "daily",
@@ -23331,7 +23331,7 @@
   {
     "id": "daily-prepare-the-december",
     "term": "prepare the december",
-    "ipa": "/prɪˈpeə ðə dɪˈsɛmbər/",
+    "ipa": "/pɹɪpˈɛə ðə dɪsˈɛmbə/",
     "zh": "准备十二月",
     "pinyin": "Shí èr yuè",
     "category": "daily",
@@ -23345,7 +23345,7 @@
   {
     "id": "daily-check-the-spring",
     "term": "check the spring",
-    "ipa": "/tʃek ðə spərɪŋ/",
+    "ipa": "/tʃˈɛk ðə spɹˈɪŋ/",
     "zh": "检查春天",
     "pinyin": "Chūn tiān",
     "category": "daily",
@@ -23359,7 +23359,7 @@
   {
     "id": "daily-update-the-summer",
     "term": "update the summer",
-    "ipa": "/ʌpˈdeɪt ðə ˈsəmər/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈɐmə/",
     "zh": "更新夏天",
     "pinyin": "Xià tiān",
     "category": "daily",
@@ -23373,7 +23373,7 @@
   {
     "id": "daily-discuss-the-autumn",
     "term": "discuss the autumn",
-    "ipa": "/dɪˈskʌs ðə ˈɔtəm/",
+    "ipa": "/dɪskˈɐs ðə ˈɔːtəm/",
     "zh": "讨论秋天",
     "pinyin": "Qiū tiān",
     "category": "daily",
@@ -23387,7 +23387,7 @@
   {
     "id": "daily-organise-the-winter",
     "term": "organise the winter",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈwɪntər/",
+    "ipa": "/ˈɔːgənˌaɪz ðə wˈɪntə/",
     "zh": "整理冬天",
     "pinyin": "Dōng tiān",
     "category": "daily",
@@ -23401,7 +23401,7 @@
   {
     "id": "daily-confirm-the-sunny",
     "term": "confirm the sunny",
-    "ipa": "/kənˈfɜːm ðə ˈsəni/",
+    "ipa": "/kənfˈɜːm ðə sˈɐni/",
     "zh": "确认晴天",
     "pinyin": "Qíng tiān",
     "category": "daily",
@@ -23415,7 +23415,7 @@
   {
     "id": "daily-prepare-the-rainy",
     "term": "prepare the rainy",
-    "ipa": "/prɪˈpeə ðə ˈreɪni/",
+    "ipa": "/pɹɪpˈɛə ðə ɹˈeɪni/",
     "zh": "准备雨天",
     "pinyin": "Yǔ tiān",
     "category": "daily",
@@ -23429,7 +23429,7 @@
   {
     "id": "daily-check-the-cloudy",
     "term": "check the cloudy",
-    "ipa": "/tʃek ðə ˈklaʊdi/",
+    "ipa": "/tʃˈɛk ðə klˈaʊdi/",
     "zh": "检查阴天",
     "pinyin": "Yīn tiān",
     "category": "daily",
@@ -23443,7 +23443,7 @@
   {
     "id": "daily-update-the-windy",
     "term": "update the windy",
-    "ipa": "/ʌpˈdeɪt ðə ˈwɪndi/",
+    "ipa": "/ˈɐpdˌeɪt ðə wˈɪndi/",
     "zh": "更新大风",
     "pinyin": "Dà fēng",
     "category": "daily",
@@ -23457,7 +23457,7 @@
   {
     "id": "daily-discuss-the-snowy",
     "term": "discuss the snowy",
-    "ipa": "/dɪˈskʌs ðə snoʊi/",
+    "ipa": "/dɪskˈɐs ðə snˈəʊi/",
     "zh": "讨论下雪",
     "pinyin": "Xià xuě",
     "category": "daily",
@@ -23471,7 +23471,7 @@
   {
     "id": "daily-organise-the-foggy",
     "term": "organise the foggy",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈfɑgi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fˈɒgi/",
     "zh": "整理大雾",
     "pinyin": "Dà wù",
     "category": "daily",
@@ -23485,7 +23485,7 @@
   {
     "id": "daily-confirm-the-weather",
     "term": "confirm the weather",
-    "ipa": "/kənˈfɜːm ðə ˈwɛðər/",
+    "ipa": "/kənfˈɜːm ðə wˈɛðə/",
     "zh": "确认天气",
     "pinyin": "Tiān qì",
     "category": "daily",
@@ -23499,7 +23499,7 @@
   {
     "id": "daily-prepare-the-temperature",
     "term": "prepare the temperature",
-    "ipa": "/prɪˈpeə ðə ˈtɛmpərəʧər/",
+    "ipa": "/pɹɪpˈɛə ðə tˈɛmpɹətʃə/",
     "zh": "准备温度",
     "pinyin": "Wēn dù",
     "category": "daily",
@@ -23513,7 +23513,7 @@
   {
     "id": "daily-check-the-degree",
     "term": "check the degree",
-    "ipa": "/tʃek ðə dɪˈgri/",
+    "ipa": "/tʃˈɛk ðə dɪgɹˈiː/",
     "zh": "检查度数",
     "pinyin": "Dù shù",
     "category": "daily",
@@ -23527,7 +23527,7 @@
   {
     "id": "daily-update-the-clock",
     "term": "update the clock",
-    "ipa": "/ʌpˈdeɪt ðə klɑk/",
+    "ipa": "/ˈɐpdˌeɪt ðə klˈɒk/",
     "zh": "更新时钟",
     "pinyin": "Shí zhōng",
     "category": "daily",
@@ -23541,7 +23541,7 @@
   {
     "id": "daily-discuss-the-watch",
     "term": "discuss the watch",
-    "ipa": "/dɪˈskʌs ðə wɔʧ/",
+    "ipa": "/dɪskˈɐs ðə wˈɒtʃ/",
     "zh": "讨论手表",
     "pinyin": "Shǒu biǎo",
     "category": "daily",
@@ -23555,7 +23555,7 @@
   {
     "id": "daily-organise-the-time",
     "term": "organise the time",
-    "ipa": "/ˈɔːɡənaɪz ðə taɪm/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tˈaɪm/",
     "zh": "整理时间",
     "pinyin": "Shí jiān",
     "category": "daily",
@@ -23569,7 +23569,7 @@
   {
     "id": "daily-confirm-the-minute",
     "term": "confirm the minute",
-    "ipa": "/kənˈfɜːm ðə ˈmɪnət/",
+    "ipa": "/kənfˈɜːm ðə mˈɪnɪt/",
     "zh": "确认分钟",
     "pinyin": "Fēn zhōng",
     "category": "daily",
@@ -23583,7 +23583,7 @@
   {
     "id": "daily-prepare-the-second",
     "term": "prepare the second",
-    "ipa": "/prɪˈpeə ðə ˈsɛkənd/",
+    "ipa": "/pɹɪpˈɛə ðə sˈɛkənd/",
     "zh": "准备秒",
     "pinyin": "Miǎo",
     "category": "daily",
@@ -23597,7 +23597,7 @@
   {
     "id": "daily-check-the-hour",
     "term": "check the hour",
-    "ipa": "/tʃek ðə aʊər/",
+    "ipa": "/tʃˈɛk ðə ˈaʊə/",
     "zh": "检查小时",
     "pinyin": "Xiǎo shí",
     "category": "daily",
@@ -23611,7 +23611,7 @@
   {
     "id": "daily-update-the-day",
     "term": "update the day",
-    "ipa": "/ʌpˈdeɪt ðə deɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə dˈeɪ/",
     "zh": "更新天",
     "pinyin": "Tiān",
     "category": "daily",
@@ -23625,7 +23625,7 @@
   {
     "id": "daily-discuss-the-week",
     "term": "discuss the week",
-    "ipa": "/dɪˈskʌs ðə wik/",
+    "ipa": "/dɪskˈɐs ðə wˈiːk/",
     "zh": "讨论周",
     "pinyin": "Zhōu",
     "category": "daily",
@@ -23639,7 +23639,7 @@
   {
     "id": "daily-organise-the-month",
     "term": "organise the month",
-    "ipa": "/ˈɔːɡənaɪz ðə mənθ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə mˈɐnθ/",
     "zh": "整理月",
     "pinyin": "Yuè",
     "category": "daily",
@@ -23653,7 +23653,7 @@
   {
     "id": "daily-confirm-the-year",
     "term": "confirm the year",
-    "ipa": "/kənˈfɜːm ðə jɪr/",
+    "ipa": "/kənfˈɜːm ðə jˈɪə/",
     "zh": "确认年",
     "pinyin": "Nián",
     "category": "daily",
@@ -23667,7 +23667,7 @@
   {
     "id": "daily-prepare-the-date",
     "term": "prepare the date",
-    "ipa": "/prɪˈpeə ðə deɪt/",
+    "ipa": "/pɹɪpˈɛə ðə dˈeɪt/",
     "zh": "准备日期",
     "pinyin": "Rì qī",
     "category": "daily",
@@ -23681,7 +23681,7 @@
   {
     "id": "daily-check-the-birthday",
     "term": "check the birthday",
-    "ipa": "/tʃek ðə ˈbərθˌdeɪ/",
+    "ipa": "/tʃˈɛk ðə bˈɜːθdˌeɪ/",
     "zh": "检查生日",
     "pinyin": "Shēng rì",
     "category": "daily",
@@ -23695,7 +23695,7 @@
   {
     "id": "daily-update-the-anniversary",
     "term": "update the anniversary",
-    "ipa": "/ʌpˈdeɪt ðə ˌænəˈvərsəri/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˌænɪvˈɜːsəɹi/",
     "zh": "更新周年",
     "pinyin": "Zhōu nián",
     "category": "daily",
@@ -23709,7 +23709,7 @@
   {
     "id": "daily-discuss-the-festival",
     "term": "discuss the festival",
-    "ipa": "/dɪˈskʌs ðə ˈfɛstɪvəl/",
+    "ipa": "/dɪskˈɐs ðə fˈɛstɪvəl/",
     "zh": "讨论节日",
     "pinyin": "Jié rì",
     "category": "daily",
@@ -23723,7 +23723,7 @@
   {
     "id": "daily-organise-the-celebration",
     "term": "organise the celebration",
-    "ipa": "/ˈɔːɡənaɪz ðə ˌsɛləˈbreɪʃən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˌɛləbɹˈeɪʃən/",
     "zh": "整理庆祝",
     "pinyin": "Qìng zhù",
     "category": "daily",
@@ -23737,7 +23737,7 @@
   {
     "id": "daily-confirm-the-party",
     "term": "confirm the party",
-    "ipa": "/kənˈfɜːm ðə ˈpɑrti/",
+    "ipa": "/kənfˈɜːm ðə pˈɑːti/",
     "zh": "确认派对",
     "pinyin": "Pài duì",
     "category": "daily",
@@ -23751,7 +23751,7 @@
   {
     "id": "daily-prepare-the-gift",
     "term": "prepare the gift",
-    "ipa": "/prɪˈpeə ðə gɪft/",
+    "ipa": "/pɹɪpˈɛə ðə gˈɪft/",
     "zh": "准备礼物",
     "pinyin": "Lǐ wù",
     "category": "daily",
@@ -23765,7 +23765,7 @@
   {
     "id": "daily-check-the-card",
     "term": "check the card",
-    "ipa": "/tʃek ðə kɑrd/",
+    "ipa": "/tʃˈɛk ðə kˈɑːd/",
     "zh": "检查卡片",
     "pinyin": "Kǎ piàn",
     "category": "daily",
@@ -23779,7 +23779,7 @@
   {
     "id": "daily-update-the-flower",
     "term": "update the flower",
-    "ipa": "/ʌpˈdeɪt ðə flaʊər/",
+    "ipa": "/ˈɐpdˌeɪt ðə flˈaʊə/",
     "zh": "更新花",
     "pinyin": "Huā",
     "category": "daily",
@@ -23793,7 +23793,7 @@
   {
     "id": "daily-discuss-the-tree",
     "term": "discuss the tree",
-    "ipa": "/dɪˈskʌs ðə tri/",
+    "ipa": "/dɪskˈɐs ðə tɹˈiː/",
     "zh": "讨论树",
     "pinyin": "Shù",
     "category": "daily",
@@ -23807,7 +23807,7 @@
   {
     "id": "daily-organise-the-grass",
     "term": "organise the grass",
-    "ipa": "/ˈɔːɡənaɪz ðə græs/",
+    "ipa": "/ˈɔːgənˌaɪz ðə gɹˈɑːs/",
     "zh": "整理草",
     "pinyin": "Cǎo",
     "category": "daily",
@@ -23821,7 +23821,7 @@
   {
     "id": "daily-confirm-the-sky",
     "term": "confirm the sky",
-    "ipa": "/kənˈfɜːm ðə skaɪ/",
+    "ipa": "/kənfˈɜːm ðə skˈaɪ/",
     "zh": "确认天空",
     "pinyin": "Tiān kōng",
     "category": "daily",
@@ -23835,7 +23835,7 @@
   {
     "id": "daily-prepare-the-sun",
     "term": "prepare the sun",
-    "ipa": "/prɪˈpeə ðə sən/",
+    "ipa": "/pɹɪpˈɛə ðə sˈɐn/",
     "zh": "准备太阳",
     "pinyin": "Tài yáng",
     "category": "daily",
@@ -23849,7 +23849,7 @@
   {
     "id": "daily-check-the-moon",
     "term": "check the moon",
-    "ipa": "/tʃek ðə mun/",
+    "ipa": "/tʃˈɛk ðə mˈuːn/",
     "zh": "检查月亮",
     "pinyin": "Yuè liang",
     "category": "daily",
@@ -23863,7 +23863,7 @@
   {
     "id": "daily-update-the-star",
     "term": "update the star",
-    "ipa": "/ʌpˈdeɪt ðə stɑr/",
+    "ipa": "/ˈɐpdˌeɪt ðə stˈɑː/",
     "zh": "更新星星",
     "pinyin": "Xīng xing",
     "category": "daily",
@@ -23877,7 +23877,7 @@
   {
     "id": "daily-discuss-the-cloud",
     "term": "discuss the cloud",
-    "ipa": "/dɪˈskʌs ðə klaʊd/",
+    "ipa": "/dɪskˈɐs ðə klˈaʊd/",
     "zh": "讨论云",
     "pinyin": "Yún",
     "category": "daily",
@@ -23891,7 +23891,7 @@
   {
     "id": "daily-organise-the-wind",
     "term": "organise the wind",
-    "ipa": "/ˈɔːɡənaɪz ðə wɪnd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə wˈɪnd/",
     "zh": "整理风",
     "pinyin": "Fēng",
     "category": "daily",
@@ -23905,7 +23905,7 @@
   {
     "id": "daily-confirm-the-rain",
     "term": "confirm the rain",
-    "ipa": "/kənˈfɜːm ðə reɪn/",
+    "ipa": "/kənfˈɜːm ðə ɹˈeɪn/",
     "zh": "确认雨",
     "pinyin": "Yǔ",
     "category": "daily",
@@ -23919,7 +23919,7 @@
   {
     "id": "daily-prepare-the-snow",
     "term": "prepare the snow",
-    "ipa": "/prɪˈpeə ðə snoʊ/",
+    "ipa": "/pɹɪpˈɛə ðə snˈəʊ/",
     "zh": "准备雪",
     "pinyin": "Xuě",
     "category": "daily",
@@ -23933,7 +23933,7 @@
   {
     "id": "daily-check-the-river",
     "term": "check the river",
-    "ipa": "/tʃek ðə ˈrɪvər/",
+    "ipa": "/tʃˈɛk ðə ɹˈɪvə/",
     "zh": "检查河",
     "pinyin": "Hé",
     "category": "daily",
@@ -23947,7 +23947,7 @@
   {
     "id": "daily-update-the-lake",
     "term": "update the lake",
-    "ipa": "/ʌpˈdeɪt ðə leɪk/",
+    "ipa": "/ˈɐpdˌeɪt ðə lˈeɪk/",
     "zh": "更新湖",
     "pinyin": "Hú",
     "category": "daily",
@@ -23961,7 +23961,7 @@
   {
     "id": "daily-discuss-the-sea",
     "term": "discuss the sea",
-    "ipa": "/dɪˈskʌs ðə si/",
+    "ipa": "/dɪskˈɐs ðə sˈiː/",
     "zh": "讨论海",
     "pinyin": "Hǎi",
     "category": "daily",
@@ -23975,7 +23975,7 @@
   {
     "id": "daily-organise-the-ocean",
     "term": "organise the ocean",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈoʊʃən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈəʊʃən/",
     "zh": "整理海洋",
     "pinyin": "Hǎi yáng",
     "category": "daily",
@@ -23989,7 +23989,7 @@
   {
     "id": "daily-confirm-the-mountain",
     "term": "confirm the mountain",
-    "ipa": "/kənˈfɜːm ðə ˈmaʊntən/",
+    "ipa": "/kənfˈɜːm ðə mˈaʊntɪn/",
     "zh": "确认山",
     "pinyin": "Shān",
     "category": "daily",
@@ -24003,7 +24003,7 @@
   {
     "id": "daily-prepare-the-forest",
     "term": "prepare the forest",
-    "ipa": "/prɪˈpeə ðə ˈfɔrɪst/",
+    "ipa": "/pɹɪpˈɛə ðə fˈɒɹɪst/",
     "zh": "准备森林",
     "pinyin": "Sēn lín",
     "category": "daily",
@@ -24017,7 +24017,7 @@
   {
     "id": "daily-check-the-park",
     "term": "check the park",
-    "ipa": "/tʃek ðə pɑrk/",
+    "ipa": "/tʃˈɛk ðə pˈɑːk/",
     "zh": "检查公园",
     "pinyin": "Gōng yuán",
     "category": "daily",
@@ -24031,7 +24031,7 @@
   {
     "id": "daily-update-the-city",
     "term": "update the city",
-    "ipa": "/ʌpˈdeɪt ðə ˈsɪti/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈɪti/",
     "zh": "更新城市",
     "pinyin": "Chéng shì",
     "category": "daily",
@@ -24045,7 +24045,7 @@
   {
     "id": "daily-discuss-the-town",
     "term": "discuss the town",
-    "ipa": "/dɪˈskʌs ðə taʊn/",
+    "ipa": "/dɪskˈɐs ðə tˈaʊn/",
     "zh": "讨论城镇",
     "pinyin": "Chéng zhèn",
     "category": "daily",
@@ -24059,7 +24059,7 @@
   {
     "id": "daily-organise-the-village",
     "term": "organise the village",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈvɪlɪʤ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə vˈɪlɪdʒ/",
     "zh": "整理村庄",
     "pinyin": "Cūn zhuāng",
     "category": "daily",
@@ -24073,7 +24073,7 @@
   {
     "id": "daily-confirm-the-street",
     "term": "confirm the street",
-    "ipa": "/kənˈfɜːm ðə strit/",
+    "ipa": "/kənfˈɜːm ðə stɹˈiːt/",
     "zh": "确认街道",
     "pinyin": "Jiē dào",
     "category": "daily",
@@ -24087,7 +24087,7 @@
   {
     "id": "daily-prepare-the-road",
     "term": "prepare the road",
-    "ipa": "/prɪˈpeə ðə roʊd/",
+    "ipa": "/pɹɪpˈɛə ðə ɹˈəʊd/",
     "zh": "准备马路",
     "pinyin": "Mǎ lù",
     "category": "daily",
@@ -24101,7 +24101,7 @@
   {
     "id": "daily-check-the-building",
     "term": "check the building",
-    "ipa": "/tʃek ðə ˈbɪldɪŋ/",
+    "ipa": "/tʃˈɛk ðə bˈɪldɪŋ/",
     "zh": "检查建筑",
     "pinyin": "Jiàn zhù",
     "category": "daily",
@@ -24115,7 +24115,7 @@
   {
     "id": "daily-update-the-house",
     "term": "update the house",
-    "ipa": "/ʌpˈdeɪt ðə haʊs/",
+    "ipa": "/ˈɐpdˌeɪt ðə hˈaʊs/",
     "zh": "更新房子",
     "pinyin": "Fáng zi",
     "category": "daily",
@@ -24129,7 +24129,7 @@
   {
     "id": "daily-discuss-the-room",
     "term": "discuss the room",
-    "ipa": "/dɪˈskʌs ðə rum/",
+    "ipa": "/dɪskˈɐs ðə ɹˈuːm/",
     "zh": "讨论房间",
     "pinyin": "Fáng jiān",
     "category": "daily",
@@ -24143,7 +24143,7 @@
   {
     "id": "daily-organise-the-door",
     "term": "organise the door",
-    "ipa": "/ˈɔːɡənaɪz ðə dɔr/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dˈɔː/",
     "zh": "整理门",
     "pinyin": "Mén",
     "category": "daily",
@@ -24157,7 +24157,7 @@
   {
     "id": "daily-confirm-the-window",
     "term": "confirm the window",
-    "ipa": "/kənˈfɜːm ðə ˈwɪndoʊ/",
+    "ipa": "/kənfˈɜːm ðə wˈɪndəʊ/",
     "zh": "确认窗户",
     "pinyin": "Chuāng hu",
     "category": "daily",
@@ -24171,7 +24171,7 @@
   {
     "id": "daily-prepare-the-wall",
     "term": "prepare the wall",
-    "ipa": "/prɪˈpeə ðə wɔl/",
+    "ipa": "/pɹɪpˈɛə ðə wˈɔːl/",
     "zh": "准备墙",
     "pinyin": "Qiáng",
     "category": "daily",
@@ -24185,7 +24185,7 @@
   {
     "id": "daily-check-the-floor",
     "term": "check the floor",
-    "ipa": "/tʃek ðə flɔr/",
+    "ipa": "/tʃˈɛk ðə flˈɔː/",
     "zh": "检查地板",
     "pinyin": "Dì bǎn",
     "category": "daily",
@@ -24199,7 +24199,7 @@
   {
     "id": "daily-update-the-ceiling",
     "term": "update the ceiling",
-    "ipa": "/ʌpˈdeɪt ðə ˈsilɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈiːlɪŋ/",
     "zh": "更新天花板",
     "pinyin": "Tiān huā bǎn",
     "category": "daily",
@@ -24213,7 +24213,7 @@
   {
     "id": "daily-discuss-the-light",
     "term": "discuss the light",
-    "ipa": "/dɪˈskʌs ðə laɪt/",
+    "ipa": "/dɪskˈɐs ðə lˈaɪt/",
     "zh": "讨论灯",
     "pinyin": "Dēng",
     "category": "daily",
@@ -24227,7 +24227,7 @@
   {
     "id": "daily-organise-the-switch",
     "term": "organise the switch",
-    "ipa": "/ˈɔːɡənaɪz ðə swɪʧ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə swˈɪtʃ/",
     "zh": "整理开关",
     "pinyin": "Kāi guān",
     "category": "daily",
@@ -24241,7 +24241,7 @@
   {
     "id": "daily-confirm-the-socket",
     "term": "confirm the socket",
-    "ipa": "/kənˈfɜːm ðə ˈsɑkət/",
+    "ipa": "/kənfˈɜːm ðə sˈɒkɪt/",
     "zh": "确认插座",
     "pinyin": "Chā zuò",
     "category": "daily",
@@ -24255,7 +24255,7 @@
   {
     "id": "daily-prepare-the-bed",
     "term": "prepare the bed",
-    "ipa": "/prɪˈpeə ðə bɛd/",
+    "ipa": "/pɹɪpˈɛə ðə bˈɛd/",
     "zh": "准备床",
     "pinyin": "Chuáng",
     "category": "daily",
@@ -24269,7 +24269,7 @@
   {
     "id": "daily-check-the-pillow",
     "term": "check the pillow",
-    "ipa": "/tʃek ðə ˈpɪloʊ/",
+    "ipa": "/tʃˈɛk ðə pˈɪləʊ/",
     "zh": "检查枕头",
     "pinyin": "Zhěn tou",
     "category": "daily",
@@ -24283,7 +24283,7 @@
   {
     "id": "daily-update-the-blanket",
     "term": "update the blanket",
-    "ipa": "/ʌpˈdeɪt ðə ˈblæŋkɪt/",
+    "ipa": "/ˈɐpdˌeɪt ðə blˈæŋkɪt/",
     "zh": "更新毯子",
     "pinyin": "Tǎn zi",
     "category": "daily",
@@ -24297,7 +24297,7 @@
   {
     "id": "daily-discuss-the-table",
     "term": "discuss the table",
-    "ipa": "/dɪˈskʌs ðə ˈteɪbəl/",
+    "ipa": "/dɪskˈɐs ðə tˈeɪbəl/",
     "zh": "讨论桌子",
     "pinyin": "Zhuō zi",
     "category": "daily",
@@ -24311,7 +24311,7 @@
   {
     "id": "daily-organise-the-sofa",
     "term": "organise the sofa",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈsoʊfə/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈəʊfə/",
     "zh": "整理沙发",
     "pinyin": "Shā fā",
     "category": "daily",
@@ -24325,7 +24325,7 @@
   {
     "id": "daily-confirm-the-cabinet",
     "term": "confirm the cabinet",
-    "ipa": "/kənˈfɜːm ðə ˈkæbənət/",
+    "ipa": "/kənfˈɜːm ðə kˈæbɪnɪt/",
     "zh": "确认柜子",
     "pinyin": "Guì zi",
     "category": "daily",
@@ -24339,7 +24339,7 @@
   {
     "id": "daily-prepare-the-mirror",
     "term": "prepare the mirror",
-    "ipa": "/prɪˈpeə ðə ˈmɪrər/",
+    "ipa": "/pɹɪpˈɛə ðə mˈɪɹə/",
     "zh": "准备镜子",
     "pinyin": "Jìng zi",
     "category": "daily",
@@ -24353,7 +24353,7 @@
   {
     "id": "daily-check-the-towel",
     "term": "check the towel",
-    "ipa": "/tʃek ðə taʊəl/",
+    "ipa": "/tʃˈɛk ðə tˈaʊəl/",
     "zh": "检查毛巾",
     "pinyin": "Máo jīn",
     "category": "daily",
@@ -24367,7 +24367,7 @@
   {
     "id": "daily-update-the-toothbrush",
     "term": "update the toothbrush",
-    "ipa": "/ʌpˈdeɪt ðə ˈtuθbrəʃ/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈtuːθbrʌʃ/",
     "zh": "更新牙刷",
     "pinyin": "Yá shuā",
     "category": "daily",
@@ -24381,7 +24381,7 @@
   {
     "id": "daily-discuss-the-toothpaste",
     "term": "discuss the toothpaste",
-    "ipa": "/dɪˈskʌs ðə ˈtuθˌpeɪst/",
+    "ipa": "/dɪskˈɐs ðə ˈtuːθpeɪst/",
     "zh": "讨论牙膏",
     "pinyin": "Yá gāo",
     "category": "daily",
@@ -24395,7 +24395,7 @@
   {
     "id": "daily-organise-the-soap",
     "term": "organise the soap",
-    "ipa": "/ˈɔːɡənaɪz ðə soʊp/",
+    "ipa": "/ˈɔːgənˌaɪz ðə sˈəʊp/",
     "zh": "整理肥皂",
     "pinyin": "Féi zào",
     "category": "daily",
@@ -24409,7 +24409,7 @@
   {
     "id": "daily-confirm-the-shampoo",
     "term": "confirm the shampoo",
-    "ipa": "/kənˈfɜːm ðə ʃæmˈpu/",
+    "ipa": "/kənfˈɜːm ðə ʃæmpˈuː/",
     "zh": "确认洗发水",
     "pinyin": "Xǐ fà shuǐ",
     "category": "daily",
@@ -24423,7 +24423,7 @@
   {
     "id": "daily-prepare-the-shower",
     "term": "prepare the shower",
-    "ipa": "/prɪˈpeə ðə ʃaʊər/",
+    "ipa": "/pɹɪpˈɛə ðə ʃˈaʊə/",
     "zh": "准备淋浴",
     "pinyin": "Lín yù",
     "category": "daily",
@@ -24437,7 +24437,7 @@
   {
     "id": "daily-check-the-bath",
     "term": "check the bath",
-    "ipa": "/tʃek ðə bæθ/",
+    "ipa": "/tʃˈɛk ðə bˈɑːθ/",
     "zh": "检查洗澡",
     "pinyin": "Xǐ zǎo",
     "category": "daily",
@@ -24451,7 +24451,7 @@
   {
     "id": "daily-update-the-toilet",
     "term": "update the toilet",
-    "ipa": "/ʌpˈdeɪt ðə ˈtɔɪlət/",
+    "ipa": "/ˈɐpdˌeɪt ðə tˈɔɪlɪt/",
     "zh": "更新厕所",
     "pinyin": "Cè suǒ",
     "category": "daily",
@@ -24465,7 +24465,7 @@
   {
     "id": "daily-discuss-the-paper",
     "term": "discuss the paper",
-    "ipa": "/dɪˈskʌs ðə ˈpeɪpər/",
+    "ipa": "/dɪskˈɐs ðə pˈeɪpə/",
     "zh": "讨论纸",
     "pinyin": "Zhǐ",
     "category": "daily",
@@ -24479,7 +24479,7 @@
   {
     "id": "daily-organise-the-pen",
     "term": "organise the pen",
-    "ipa": "/ˈɔːɡənaɪz ðə pɛn/",
+    "ipa": "/ˈɔːgənˌaɪz ðə pˈɛn/",
     "zh": "整理钢笔",
     "pinyin": "Gāng bǐ",
     "category": "daily",
@@ -24493,7 +24493,7 @@
   {
     "id": "daily-confirm-the-pencil",
     "term": "confirm the pencil",
-    "ipa": "/kənˈfɜːm ðə ˈpɛnsəl/",
+    "ipa": "/kənfˈɜːm ðə pˈɛnsəl/",
     "zh": "确认铅笔",
     "pinyin": "Qiān bǐ",
     "category": "daily",
@@ -24507,7 +24507,7 @@
   {
     "id": "daily-prepare-the-eraser",
     "term": "prepare the eraser",
-    "ipa": "/prɪˈpeə ðə ɪˈreɪsər/",
+    "ipa": "/pɹɪpˈɛə ðə ɪˈreɪzə/",
     "zh": "准备橡皮",
     "pinyin": "Xiàng pí",
     "category": "daily",
@@ -24521,7 +24521,7 @@
   {
     "id": "daily-check-the-ruler",
     "term": "check the ruler",
-    "ipa": "/tʃek ðə ˈrulər/",
+    "ipa": "/tʃˈɛk ðə ɹˈuːlə/",
     "zh": "检查尺子",
     "pinyin": "Chǐ zi",
     "category": "daily",
@@ -24535,7 +24535,7 @@
   {
     "id": "daily-update-the-bag",
     "term": "update the bag",
-    "ipa": "/ʌpˈdeɪt ðə bæg/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈæg/",
     "zh": "更新包",
     "pinyin": "Bāo",
     "category": "daily",
@@ -24549,7 +24549,7 @@
   {
     "id": "daily-discuss-the-box",
     "term": "discuss the box",
-    "ipa": "/dɪˈskʌs ðə bɑks/",
+    "ipa": "/dɪskˈɐs ðə bˈɒks/",
     "zh": "讨论盒子",
     "pinyin": "Hé zi",
     "category": "daily",
@@ -24563,7 +24563,7 @@
   {
     "id": "daily-organise-the-book",
     "term": "organise the book",
-    "ipa": "/ˈɔːɡənaɪz ðə bʊk/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bˈʊk/",
     "zh": "整理书",
     "pinyin": "Shū",
     "category": "daily",
@@ -24577,7 +24577,7 @@
   {
     "id": "daily-confirm-the-magazine",
     "term": "confirm the magazine",
-    "ipa": "/kənˈfɜːm ðə ˈmægəˌzin/",
+    "ipa": "/kənfˈɜːm ðə mˈægəzˌiːn/",
     "zh": "确认杂志",
     "pinyin": "Zhì zhì",
     "category": "daily",
@@ -24591,7 +24591,7 @@
   {
     "id": "daily-prepare-the-newspaper",
     "term": "prepare the newspaper",
-    "ipa": "/prɪˈpeə ðə ˈnuzˌpeɪpər/",
+    "ipa": "/pɹɪpˈɛə ðə njˈuːzpˌeɪpə/",
     "zh": "准备报纸",
     "pinyin": "Bào zhǐ",
     "category": "daily",
@@ -24605,7 +24605,7 @@
   {
     "id": "daily-check-the-picture",
     "term": "check the picture",
-    "ipa": "/tʃek ðə ˈpɪkʧər/",
+    "ipa": "/tʃˈɛk ðə pˈɪktʃə/",
     "zh": "检查图片",
     "pinyin": "Tú piàn",
     "category": "daily",
@@ -24619,7 +24619,7 @@
   {
     "id": "daily-update-the-photo",
     "term": "update the photo",
-    "ipa": "/ʌpˈdeɪt ðə ˈfoʊˌtoʊ/",
+    "ipa": "/ˈɐpdˌeɪt ðə fˈəʊtˌəʊ/",
     "zh": "更新照片",
     "pinyin": "Zhào piàn",
     "category": "daily",
@@ -24633,7 +24633,7 @@
   {
     "id": "daily-discuss-the-camera",
     "term": "discuss the camera",
-    "ipa": "/dɪˈskʌs ðə ˈkæmərə/",
+    "ipa": "/dɪskˈɐs ðə kˈæmɹə/",
     "zh": "讨论相机",
     "pinyin": "Xiàng jī",
     "category": "daily",
@@ -24647,7 +24647,7 @@
   {
     "id": "daily-organise-the-phone",
     "term": "organise the phone",
-    "ipa": "/ˈɔːɡənaɪz ðə foʊn/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fˈəʊn/",
     "zh": "整理电话",
     "pinyin": "Diàn huà",
     "category": "daily",
@@ -24661,7 +24661,7 @@
   {
     "id": "daily-confirm-the-mobile",
     "term": "confirm the mobile",
-    "ipa": "/kənˈfɜːm ðə ˈmoʊbəl/",
+    "ipa": "/kənfˈɜːm ðə mˈəʊbaɪl/",
     "zh": "确认手机",
     "pinyin": "Shǒu jī",
     "category": "daily",
@@ -24675,7 +24675,7 @@
   {
     "id": "daily-prepare-the-app",
     "term": "prepare the app",
-    "ipa": "/prɪˈpeə ðə æp/",
+    "ipa": "/pɹɪpˈɛə ðə ˈæp/",
     "zh": "准备应用",
     "pinyin": "Yìng yòng",
     "category": "daily",
@@ -24689,7 +24689,7 @@
   {
     "id": "daily-check-the-game",
     "term": "check the game",
-    "ipa": "/tʃek ðə geɪm/",
+    "ipa": "/tʃˈɛk ðə gˈeɪm/",
     "zh": "检查游戏",
     "pinyin": "Yóu xì",
     "category": "daily",
@@ -24703,7 +24703,7 @@
   {
     "id": "daily-update-the-music",
     "term": "update the music",
-    "ipa": "/ʌpˈdeɪt ðə mˈjuzɪk/",
+    "ipa": "/ˈɐpdˌeɪt ðə mjˈuːzɪk/",
     "zh": "更新音乐",
     "pinyin": "Yīn yuè",
     "category": "daily",
@@ -24717,7 +24717,7 @@
   {
     "id": "daily-discuss-the-song",
     "term": "discuss the song",
-    "ipa": "/dɪˈskʌs ðə sɔŋ/",
+    "ipa": "/dɪskˈɐs ðə sˈɒŋ/",
     "zh": "讨论歌",
     "pinyin": "Gē",
     "category": "daily",
@@ -24731,7 +24731,7 @@
   {
     "id": "daily-organise-the-movie",
     "term": "organise the movie",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈmuvi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə mˈuːvi/",
     "zh": "整理电影",
     "pinyin": "Diàn yǐng",
     "category": "daily",
@@ -24745,7 +24745,7 @@
   {
     "id": "daily-confirm-the-show",
     "term": "confirm the show",
-    "ipa": "/kənˈfɜːm ðə ʃoʊ/",
+    "ipa": "/kənfˈɜːm ðə ʃˈəʊ/",
     "zh": "确认节目",
     "pinyin": "Jié mù",
     "category": "daily",
@@ -24759,7 +24759,7 @@
   {
     "id": "daily-prepare-the-news",
     "term": "prepare the news",
-    "ipa": "/prɪˈpeə ðə nuz/",
+    "ipa": "/pɹɪpˈɛə ðə njˈuːz/",
     "zh": "准备新闻",
     "pinyin": "Xīn wén",
     "category": "daily",
@@ -24773,7 +24773,7 @@
   {
     "id": "daily-check-the-radio",
     "term": "check the radio",
-    "ipa": "/tʃek ðə ˈreɪdiˌoʊ/",
+    "ipa": "/tʃˈɛk ðə ɹˈeɪdɪˌəʊ/",
     "zh": "检查广播",
     "pinyin": "Guǎng bō",
     "category": "daily",
@@ -24787,7 +24787,7 @@
   {
     "id": "daily-update-the-tv",
     "term": "update the tv",
-    "ipa": "/ʌpˈdeɪt ðə ˌtiːˈviː/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˌtiːˈviː/",
     "zh": "更新电视",
     "pinyin": "Diàn shì",
     "category": "daily",
@@ -24801,7 +24801,7 @@
   {
     "id": "daily-discuss-the-screen",
     "term": "discuss the screen",
-    "ipa": "/dɪˈskʌs ðə skrin/",
+    "ipa": "/dɪskˈɐs ðə skɹˈiːn/",
     "zh": "讨论屏幕",
     "pinyin": "Píng mù",
     "category": "daily",
@@ -24815,7 +24815,7 @@
   {
     "id": "daily-organise-the-button",
     "term": "organise the button",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈbətən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bˈɐtən/",
     "zh": "整理按钮",
     "pinyin": "àn niǔ",
     "category": "daily",
@@ -24829,7 +24829,7 @@
   {
     "id": "daily-confirm-the-battery",
     "term": "confirm the battery",
-    "ipa": "/kənˈfɜːm ðə ˈbætəri/",
+    "ipa": "/kənfˈɜːm ðə bˈætəɹi/",
     "zh": "确认电池",
     "pinyin": "Diàn chí",
     "category": "daily",
@@ -24843,7 +24843,7 @@
   {
     "id": "daily-prepare-the-charge",
     "term": "prepare the charge",
-    "ipa": "/prɪˈpeə ðə ʧɑrʤ/",
+    "ipa": "/pɹɪpˈɛə ðə tʃˈɑːdʒ/",
     "zh": "准备充电",
     "pinyin": "Chōng diàn",
     "category": "daily",
@@ -24857,7 +24857,7 @@
   {
     "id": "daily-check-the-power",
     "term": "check the power",
-    "ipa": "/tʃek ðə paʊər/",
+    "ipa": "/tʃˈɛk ðə ˈpaʊə/",
     "zh": "检查电量",
     "pinyin": "Diàn liàng",
     "category": "daily",
@@ -24871,7 +24871,7 @@
   {
     "id": "daily-update-the-signal",
     "term": "update the signal",
-    "ipa": "/ʌpˈdeɪt ðə ˈsɪgnəl/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈɪgnəl/",
     "zh": "更新信号",
     "pinyin": "Xìn hào",
     "category": "daily",
@@ -24885,7 +24885,7 @@
   {
     "id": "daily-discuss-the-message",
     "term": "discuss the message",
-    "ipa": "/dɪˈskʌs ðə ˈmɛsɪʤ/",
+    "ipa": "/dɪskˈɐs ðə mˈɛsɪdʒ/",
     "zh": "讨论消息",
     "pinyin": "Xiāo xī",
     "category": "daily",
@@ -24899,7 +24899,7 @@
   {
     "id": "daily-organise-the-call",
     "term": "organise the call",
-    "ipa": "/ˈɔːɡənaɪz ðə kɔl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə kˈɔːl/",
     "zh": "整理通话",
     "pinyin": "Tōng huà",
     "category": "daily",
@@ -24913,7 +24913,7 @@
   {
     "id": "daily-confirm-the-video",
     "term": "confirm the video",
-    "ipa": "/kənˈfɜːm ðə ˈvɪdioʊ/",
+    "ipa": "/kənfˈɜːm ðə vˈɪdɪəʊ/",
     "zh": "确认视频",
     "pinyin": "Shì pín",
     "category": "daily",
@@ -24927,7 +24927,7 @@
   {
     "id": "daily-prepare-the-voice",
     "term": "prepare the voice",
-    "ipa": "/prɪˈpeə ðə vɔɪs/",
+    "ipa": "/pɹɪpˈɛə ðə vˈɔɪs/",
     "zh": "准备语音",
     "pinyin": "Yǔ yīn",
     "category": "daily",
@@ -24941,7 +24941,7 @@
   {
     "id": "daily-check-the-text",
     "term": "check the text",
-    "ipa": "/tʃek ðə tɛkst/",
+    "ipa": "/tʃˈɛk ðə tˈɛkst/",
     "zh": "检查文字",
     "pinyin": "Wén zì",
     "category": "daily",
@@ -24955,7 +24955,7 @@
   {
     "id": "daily-update-the-chat",
     "term": "update the chat",
-    "ipa": "/ʌpˈdeɪt ðə ʧæt/",
+    "ipa": "/ˈɐpdˌeɪt ðə tʃˈæt/",
     "zh": "更新聊天",
     "pinyin": "Liáo tiān",
     "category": "daily",
@@ -24969,7 +24969,7 @@
   {
     "id": "daily-discuss-the-social-media",
     "term": "discuss the social media",
-    "ipa": "/dɪˈskʌs ðə ˈsoʊʃəl ˈmidiə/",
+    "ipa": "/dɪskˈɐs ðə sˈəʊʃəl mˈiːdɪə/",
     "zh": "讨论社交媒体",
     "pinyin": "Shè jiāo méi tǐ",
     "category": "daily",
@@ -24983,7 +24983,7 @@
   {
     "id": "daily-organise-the-friend",
     "term": "organise the friend",
-    "ipa": "/ˈɔːɡənaɪz ðə frɛnd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə fɹˈɛnd/",
     "zh": "整理朋友",
     "pinyin": "Péng you",
     "category": "daily",
@@ -24997,7 +24997,7 @@
   {
     "id": "daily-confirm-the-family",
     "term": "confirm the family",
-    "ipa": "/kənˈfɜːm ðə ˈfæməli/",
+    "ipa": "/kənfˈɜːm ðə fˈæmli/",
     "zh": "确认家庭",
     "pinyin": "Jiā tíng",
     "category": "daily",
@@ -25011,7 +25011,7 @@
   {
     "id": "daily-prepare-the-parent",
     "term": "prepare the parent",
-    "ipa": "/prɪˈpeə ðə ˈpɛrənt/",
+    "ipa": "/pɹɪpˈɛə ðə pˈɛəɹənt/",
     "zh": "准备父母",
     "pinyin": "Fù mǔ",
     "category": "daily",
@@ -25025,7 +25025,7 @@
   {
     "id": "daily-check-the-child",
     "term": "check the child",
-    "ipa": "/tʃek ðə ʧaɪld/",
+    "ipa": "/tʃˈɛk ðə tʃˈaɪld/",
     "zh": "检查孩子",
     "pinyin": "Hái zi",
     "category": "daily",
@@ -25039,7 +25039,7 @@
   {
     "id": "daily-update-the-brother",
     "term": "update the brother",
-    "ipa": "/ʌpˈdeɪt ðə ˈbrəðər/",
+    "ipa": "/ˈɐpdˌeɪt ðə bɹˈɐðə/",
     "zh": "更新兄弟",
     "pinyin": "Xiōng dì",
     "category": "daily",
@@ -25053,7 +25053,7 @@
   {
     "id": "daily-discuss-the-sister",
     "term": "discuss the sister",
-    "ipa": "/dɪˈskʌs ðə ˈsɪstər/",
+    "ipa": "/dɪskˈɐs ðə sˈɪstə/",
     "zh": "讨论姐妹",
     "pinyin": "Jiě mèi",
     "category": "daily",
@@ -25067,7 +25067,7 @@
   {
     "id": "daily-organise-the-relative",
     "term": "organise the relative",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈrɛlətɪv/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɹˈɛlətɪv/",
     "zh": "整理亲戚",
     "pinyin": "Qīn qi",
     "category": "daily",
@@ -25081,7 +25081,7 @@
   {
     "id": "daily-confirm-the-neighbor",
     "term": "confirm the neighbor",
-    "ipa": "/kənˈfɜːm ðə ˈneɪbər/",
+    "ipa": "/kənfˈɜːm ðə nˈeɪbə/",
     "zh": "确认邻居",
     "pinyin": "Lín jū",
     "category": "daily",
@@ -25095,7 +25095,7 @@
   {
     "id": "daily-prepare-the-stranger",
     "term": "prepare the stranger",
-    "ipa": "/prɪˈpeə ðə ˈstreɪnʤər/",
+    "ipa": "/pɹɪpˈɛə ðə stɹˈeɪndʒə/",
     "zh": "准备陌生人",
     "pinyin": "Mò shēng rén",
     "category": "daily",
@@ -25109,7 +25109,7 @@
   {
     "id": "daily-check-the-people",
     "term": "check the people",
-    "ipa": "/tʃek ðə ˈpipəl/",
+    "ipa": "/tʃˈɛk ðə pˈiːpəl/",
     "zh": "检查人们",
     "pinyin": "Rén men",
     "category": "daily",
@@ -25123,7 +25123,7 @@
   {
     "id": "daily-update-the-person",
     "term": "update the person",
-    "ipa": "/ʌpˈdeɪt ðə ˈpərsən/",
+    "ipa": "/ˈɐpdˌeɪt ðə pˈɜːsən/",
     "zh": "更新人",
     "pinyin": "Rén",
     "category": "daily",
@@ -25137,7 +25137,7 @@
   {
     "id": "daily-discuss-the-man",
     "term": "discuss the man",
-    "ipa": "/dɪˈskʌs ðə mæn/",
+    "ipa": "/dɪskˈɐs ðə mˈæn/",
     "zh": "讨论男人",
     "pinyin": "Nán rén",
     "category": "daily",
@@ -25151,7 +25151,7 @@
   {
     "id": "daily-organise-the-woman",
     "term": "organise the woman",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈwʊmən/",
+    "ipa": "/ˈɔːgənˌaɪz ðə wˈʊmən/",
     "zh": "整理女人",
     "pinyin": "Nǚ rén",
     "category": "daily",
@@ -25165,7 +25165,7 @@
   {
     "id": "daily-confirm-the-boy",
     "term": "confirm the boy",
-    "ipa": "/kənˈfɜːm ðə bɔɪ/",
+    "ipa": "/kənfˈɜːm ðə bˈɔɪ/",
     "zh": "确认男孩",
     "pinyin": "Nán hái",
     "category": "daily",
@@ -25179,7 +25179,7 @@
   {
     "id": "daily-prepare-the-girl",
     "term": "prepare the girl",
-    "ipa": "/prɪˈpeə ðə gərl/",
+    "ipa": "/pɹɪpˈɛə ðə gˈɜːl/",
     "zh": "准备女孩",
     "pinyin": "Nǚ hái",
     "category": "daily",
@@ -25193,7 +25193,7 @@
   {
     "id": "daily-check-the-baby",
     "term": "check the baby",
-    "ipa": "/tʃek ðə ˈbeɪbi/",
+    "ipa": "/tʃˈɛk ðə bˈeɪbi/",
     "zh": "检查婴儿",
     "pinyin": "Yīng ér",
     "category": "daily",
@@ -25207,7 +25207,7 @@
   {
     "id": "daily-update-the-adult",
     "term": "update the adult",
-    "ipa": "/ʌpˈdeɪt ðə ˈædəlt/",
+    "ipa": "/ˈɐpdˌeɪt ðə ədˈɐlt/",
     "zh": "更新成年人",
     "pinyin": "Chéng nián rén",
     "category": "daily",
@@ -25221,7 +25221,7 @@
   {
     "id": "daily-discuss-the-kid",
     "term": "discuss the kid",
-    "ipa": "/dɪˈskʌs ðə kɪd/",
+    "ipa": "/dɪskˈɐs ðə kˈɪd/",
     "zh": "讨论小孩",
     "pinyin": "Xiǎo hái",
     "category": "daily",
@@ -25235,7 +25235,7 @@
   {
     "id": "daily-organise-the-young",
     "term": "organise the young",
-    "ipa": "/ˈɔːɡənaɪz ðə jəŋ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə jˈɐŋ/",
     "zh": "整理年轻",
     "pinyin": "Nián qīng",
     "category": "daily",
@@ -25249,7 +25249,7 @@
   {
     "id": "daily-confirm-the-old",
     "term": "confirm the old",
-    "ipa": "/kənˈfɜːm ðə oʊld/",
+    "ipa": "/kənfˈɜːm ðə ˈəʊld/",
     "zh": "确认年老",
     "pinyin": "Nián lǎo",
     "category": "daily",
@@ -25263,7 +25263,7 @@
   {
     "id": "daily-prepare-the-height",
     "term": "prepare the height",
-    "ipa": "/prɪˈpeə ðə haɪt/",
+    "ipa": "/pɹɪpˈɛə ðə hˈaɪt/",
     "zh": "准备身高",
     "pinyin": "Shēn gāo",
     "category": "daily",
@@ -25277,7 +25277,7 @@
   {
     "id": "daily-check-the-weight",
     "term": "check the weight",
-    "ipa": "/tʃek ðə weɪt/",
+    "ipa": "/tʃˈɛk ðə wˈeɪt/",
     "zh": "检查体重",
     "pinyin": "Tǐ zhòng",
     "category": "daily",
@@ -25291,7 +25291,7 @@
   {
     "id": "daily-update-the-appearance",
     "term": "update the appearance",
-    "ipa": "/ʌpˈdeɪt ðə əˈpɪrəns/",
+    "ipa": "/ˈɐpdˌeɪt ðə əpˈɪəɹəns/",
     "zh": "更新外貌",
     "pinyin": "Wài mào",
     "category": "daily",
@@ -25305,7 +25305,7 @@
   {
     "id": "daily-discuss-the-character",
     "term": "discuss the character",
-    "ipa": "/dɪˈskʌs ðə ˈkɛrɪktər/",
+    "ipa": "/dɪskˈɐs ðə kˈæɹɪktə/",
     "zh": "讨论性格",
     "pinyin": "Xìng gé",
     "category": "daily",
@@ -25319,7 +25319,7 @@
   {
     "id": "daily-organise-the-hobby",
     "term": "organise the hobby",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈhɑbi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə hˈɒbi/",
     "zh": "整理爱好",
     "pinyin": "Ài hǎo",
     "category": "daily",
@@ -25333,7 +25333,7 @@
   {
     "id": "daily-confirm-the-interest",
     "term": "confirm the interest",
-    "ipa": "/kənˈfɜːm ðə ˈɪntəˌrɛst/",
+    "ipa": "/kənfˈɜːm ðə ˈɪntɹɪst/",
     "zh": "确认兴趣",
     "pinyin": "Xìng qù",
     "category": "daily",
@@ -25347,7 +25347,7 @@
   {
     "id": "daily-prepare-the-sport",
     "term": "prepare the sport",
-    "ipa": "/prɪˈpeə ðə spɔrt/",
+    "ipa": "/pɹɪpˈɛə ðə spˈɔːt/",
     "zh": "准备运动",
     "pinyin": "Yùn dòng",
     "category": "daily",
@@ -25361,7 +25361,7 @@
   {
     "id": "daily-check-the-game-2",
     "term": "check the game",
-    "ipa": "/tʃek ðə geɪm/",
+    "ipa": "/tʃˈɛk ðə gˈeɪm/",
     "zh": "检查游戏",
     "pinyin": "Yóu xì",
     "category": "daily",
@@ -25375,7 +25375,7 @@
   {
     "id": "daily-update-the-reading",
     "term": "update the reading",
-    "ipa": "/ʌpˈdeɪt ðə ˈrɛdɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə ɹˈiːdɪŋ/",
     "zh": "更新阅读",
     "pinyin": "Yuè dú",
     "category": "daily",
@@ -25389,7 +25389,7 @@
   {
     "id": "daily-discuss-the-writing",
     "term": "discuss the writing",
-    "ipa": "/dɪˈskʌs ðə ˈraɪtɪŋ/",
+    "ipa": "/dɪskˈɐs ðə ɹˈaɪtɪŋ/",
     "zh": "讨论写作",
     "pinyin": "Xiě zuò",
     "category": "daily",
@@ -25403,7 +25403,7 @@
   {
     "id": "daily-organise-the-drawing",
     "term": "organise the drawing",
-    "ipa": "/ˈɔːɡənaɪz ðə drɔɪŋ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə dɹˈɔːɪŋ/",
     "zh": "整理画画",
     "pinyin": "Huà huà",
     "category": "daily",
@@ -25417,7 +25417,7 @@
   {
     "id": "daily-confirm-the-singing",
     "term": "confirm the singing",
-    "ipa": "/kənˈfɜːm ðə ˈsɪŋɪŋ/",
+    "ipa": "/kənfˈɜːm ðə sˈɪŋɪŋ/",
     "zh": "确认唱歌",
     "pinyin": "Chàng gē",
     "category": "daily",
@@ -25431,7 +25431,7 @@
   {
     "id": "daily-prepare-the-dancing",
     "term": "prepare the dancing",
-    "ipa": "/prɪˈpeə ðə ˈdænsɪŋ/",
+    "ipa": "/pɹɪpˈɛə ðə dˈɑːnsɪŋ/",
     "zh": "准备跳舞",
     "pinyin": "Tiào wǔ",
     "category": "daily",
@@ -25445,7 +25445,7 @@
   {
     "id": "daily-check-the-cooking",
     "term": "check the cooking",
-    "ipa": "/tʃek ðə ˈkʊkɪŋ/",
+    "ipa": "/tʃˈɛk ðə kˈʊkɪŋ/",
     "zh": "检查做饭",
     "pinyin": "Zuò fàn",
     "category": "daily",
@@ -25459,7 +25459,7 @@
   {
     "id": "daily-update-the-gardening",
     "term": "update the gardening",
-    "ipa": "/ʌpˈdeɪt ðə ˈgɑrdənɪŋ/",
+    "ipa": "/ˈɐpdˌeɪt ðə gˈɑːdnɪŋ/",
     "zh": "更新园艺",
     "pinyin": "Yuán yì",
     "category": "daily",
@@ -25473,7 +25473,7 @@
   {
     "id": "daily-discuss-the-photography",
     "term": "discuss the photography",
-    "ipa": "/dɪˈskʌs ðə fəˈtɑgrəfi/",
+    "ipa": "/dɪskˈɐs ðə fətˈɒgɹəfi/",
     "zh": "讨论摄影",
     "pinyin": "Shè yǐng",
     "category": "daily",
@@ -25487,7 +25487,7 @@
   {
     "id": "daily-organise-the-traveling",
     "term": "organise the traveling",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈtrævəlɪŋ/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tɹˈævəlɪŋ/",
     "zh": "整理旅行",
     "pinyin": "Lǚ xíng",
     "category": "daily",
@@ -25501,7 +25501,7 @@
   {
     "id": "daily-confirm-the-fishing",
     "term": "confirm the fishing",
-    "ipa": "/kənˈfɜːm ðə ˈfɪʃɪŋ/",
+    "ipa": "/kənfˈɜːm ðə fˈɪʃɪŋ/",
     "zh": "确认钓鱼",
     "pinyin": "Diào yú",
     "category": "daily",
@@ -25515,7 +25515,7 @@
   {
     "id": "daily-prepare-the-shopping",
     "term": "prepare the shopping",
-    "ipa": "/prɪˈpeə ðə ˈʃɑpɪŋ/",
+    "ipa": "/pɹɪpˈɛə ðə ʃˈɒpɪŋ/",
     "zh": "准备购物",
     "pinyin": "Gòu wù",
     "category": "daily",
@@ -25529,7 +25529,7 @@
   {
     "id": "daily-check-the-movie",
     "term": "check the movie",
-    "ipa": "/tʃek ðə ˈmuvi/",
+    "ipa": "/tʃˈɛk ðə mˈuːvi/",
     "zh": "检查电影",
     "pinyin": "Diàn yǐng",
     "category": "daily",
@@ -25543,7 +25543,7 @@
   {
     "id": "daily-update-the-concert",
     "term": "update the concert",
-    "ipa": "/ʌpˈdeɪt ðə ˈkɑnsərt/",
+    "ipa": "/ˈɐpdˌeɪt ðə kˈɒnsət/",
     "zh": "更新演唱会",
     "pinyin": "Yǎn chàng huì",
     "category": "daily",
@@ -25557,7 +25557,7 @@
   {
     "id": "daily-discuss-the-show",
     "term": "discuss the show",
-    "ipa": "/dɪˈskʌs ðə ʃoʊ/",
+    "ipa": "/dɪskˈɐs ðə ʃˈəʊ/",
     "zh": "讨论表演",
     "pinyin": "Biǎo yǎn",
     "category": "daily",
@@ -25571,7 +25571,7 @@
   {
     "id": "daily-organise-the-park",
     "term": "organise the park",
-    "ipa": "/ˈɔːɡənaɪz ðə pɑrk/",
+    "ipa": "/ˈɔːgənˌaɪz ðə pˈɑːk/",
     "zh": "整理公园",
     "pinyin": "Gōng yuán",
     "category": "daily",
@@ -25585,7 +25585,7 @@
   {
     "id": "daily-confirm-the-zoo",
     "term": "confirm the zoo",
-    "ipa": "/kənˈfɜːm ðə zu/",
+    "ipa": "/kənfˈɜːm ðə zˈuː/",
     "zh": "确认动物园",
     "pinyin": "Dòng wù yuán",
     "category": "daily",
@@ -25599,7 +25599,7 @@
   {
     "id": "daily-prepare-the-library",
     "term": "prepare the library",
-    "ipa": "/prɪˈpeə ðə ˈlaɪbrɛˌri/",
+    "ipa": "/pɹɪpˈɛə ðə lˈaɪbɹəɹi/",
     "zh": "准备图书馆",
     "pinyin": "Tú shū guǎn",
     "category": "daily",
@@ -25613,7 +25613,7 @@
   {
     "id": "daily-check-the-museum",
     "term": "check the museum",
-    "ipa": "/tʃek ðə mˈjuziəm/",
+    "ipa": "/tʃˈɛk ðə mjuːzˈɪəm/",
     "zh": "检查博物馆",
     "pinyin": "Bó wù guǎn",
     "category": "daily",
@@ -25627,7 +25627,7 @@
   {
     "id": "daily-update-the-gym",
     "term": "update the gym",
-    "ipa": "/ʌpˈdeɪt ðə ʤɪm/",
+    "ipa": "/ˈɐpdˌeɪt ðə dʒˈɪm/",
     "zh": "更新健身房",
     "pinyin": "Jiàn shēn fáng",
     "category": "daily",
@@ -25641,7 +25641,7 @@
   {
     "id": "daily-discuss-the-store",
     "term": "discuss the store",
-    "ipa": "/dɪˈskʌs ðə stɔr/",
+    "ipa": "/dɪskˈɐs ðə stˈɔː/",
     "zh": "讨论商店",
     "pinyin": "Shāng diàn",
     "category": "daily",
@@ -25655,7 +25655,7 @@
   {
     "id": "daily-organise-the-mall",
     "term": "organise the mall",
-    "ipa": "/ˈɔːɡənaɪz ðə mɔl/",
+    "ipa": "/ˈɔːgənˌaɪz ðə mˈɔːl/",
     "zh": "整理商场",
     "pinyin": "Shāng chǎng",
     "category": "daily",
@@ -25669,7 +25669,7 @@
   {
     "id": "daily-confirm-the-market",
     "term": "confirm the market",
-    "ipa": "/kənˈfɜːm ðə ˈmɑrkɪt/",
+    "ipa": "/kənfˈɜːm ðə mˈɑːkɪt/",
     "zh": "确认市场",
     "pinyin": "Shì chǎng",
     "category": "daily",
@@ -25683,7 +25683,7 @@
   {
     "id": "daily-prepare-the-shop",
     "term": "prepare the shop",
-    "ipa": "/prɪˈpeə ðə ʃɑp/",
+    "ipa": "/pɹɪpˈɛə ðə ʃˈɒp/",
     "zh": "准备购物",
     "pinyin": "Gòu wù",
     "category": "daily",
@@ -25697,7 +25697,7 @@
   {
     "id": "daily-check-the-buy",
     "term": "check the buy",
-    "ipa": "/tʃek ðə baɪ/",
+    "ipa": "/tʃˈɛk ðə bˈaɪ/",
     "zh": "检查买",
     "pinyin": "Mǎi",
     "category": "daily",
@@ -25711,7 +25711,7 @@
   {
     "id": "daily-update-the-sell",
     "term": "update the sell",
-    "ipa": "/ʌpˈdeɪt ðə sɛl/",
+    "ipa": "/ˈɐpdˌeɪt ðə sˈɛl/",
     "zh": "更新卖",
     "pinyin": "Mài",
     "category": "daily",
@@ -25725,7 +25725,7 @@
   {
     "id": "daily-discuss-the-price",
     "term": "discuss the price",
-    "ipa": "/dɪˈskʌs ðə praɪs/",
+    "ipa": "/dɪskˈɐs ðə pɹˈaɪs/",
     "zh": "讨论价格",
     "pinyin": "Jià gé",
     "category": "daily",
@@ -25739,7 +25739,7 @@
   {
     "id": "daily-organise-the-cheap",
     "term": "organise the cheap",
-    "ipa": "/ˈɔːɡənaɪz ðə ʧip/",
+    "ipa": "/ˈɔːgənˌaɪz ðə tʃˈiːp/",
     "zh": "整理便宜",
     "pinyin": "Pián yi",
     "category": "daily",
@@ -25753,7 +25753,7 @@
   {
     "id": "daily-confirm-the-expensive",
     "term": "confirm the expensive",
-    "ipa": "/kənˈfɜːm ðə ɪkˈspɛnsɪv/",
+    "ipa": "/kənfˈɜːm ðə ɪkspˈɛnsɪv/",
     "zh": "确认昂贵",
     "pinyin": "Áng guì",
     "category": "daily",
@@ -25767,7 +25767,7 @@
   {
     "id": "daily-prepare-the-discount",
     "term": "prepare the discount",
-    "ipa": "/prɪˈpeə ðə ˈdɪskaʊnt/",
+    "ipa": "/pɹɪpˈɛə ðə dˈɪskaʊnt/",
     "zh": "准备折扣",
     "pinyin": "Zhé kòu",
     "category": "daily",
@@ -25781,7 +25781,7 @@
   {
     "id": "daily-check-the-sale",
     "term": "check the sale",
-    "ipa": "/tʃek ðə seɪl/",
+    "ipa": "/tʃˈɛk ðə sˈeɪl/",
     "zh": "检查促销",
     "pinyin": "Cù xiāo",
     "category": "daily",
@@ -25795,7 +25795,7 @@
   {
     "id": "daily-update-the-bill",
     "term": "update the bill",
-    "ipa": "/ʌpˈdeɪt ðə bɪl/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈɪl/",
     "zh": "更新账单",
     "pinyin": "Zhàng dān",
     "category": "daily",
@@ -25809,7 +25809,7 @@
   {
     "id": "daily-discuss-the-cashier",
     "term": "discuss the cashier",
-    "ipa": "/dɪˈskʌs ðə kæˈʃɪr/",
+    "ipa": "/dɪskˈɐs ðə kæˈʃɪə/",
     "zh": "讨论收银员",
     "pinyin": "Shōu yín yuán",
     "category": "daily",
@@ -25823,7 +25823,7 @@
   {
     "id": "daily-organise-the-bag",
     "term": "organise the bag",
-    "ipa": "/ˈɔːɡənaɪz ðə bæg/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bˈæg/",
     "zh": "整理购物袋",
     "pinyin": "Gòu wù dài",
     "category": "daily",
@@ -25837,7 +25837,7 @@
   {
     "id": "daily-confirm-the-receipt",
     "term": "confirm the receipt",
-    "ipa": "/kənˈfɜːm ðə rɪˈsit/",
+    "ipa": "/kənfˈɜːm ðə ɹɪsˈiːt/",
     "zh": "确认小票",
     "pinyin": "Xiǎo piào",
     "category": "daily",
@@ -25851,7 +25851,7 @@
   {
     "id": "daily-prepare-the-size",
     "term": "prepare the size",
-    "ipa": "/prɪˈpeə ðə saɪz/",
+    "ipa": "/pɹɪpˈɛə ðə sˈaɪz/",
     "zh": "准备尺码",
     "pinyin": "Chǐ mǎ",
     "category": "daily",
@@ -25865,7 +25865,7 @@
   {
     "id": "daily-check-the-color",
     "term": "check the color",
-    "ipa": "/tʃek ðə ˈkələr/",
+    "ipa": "/tʃˈɛk ðə kˈɐlə/",
     "zh": "检查颜色",
     "pinyin": "Yán sè",
     "category": "daily",
@@ -25879,7 +25879,7 @@
   {
     "id": "daily-update-the-style",
     "term": "update the style",
-    "ipa": "/ʌpˈdeɪt ðə staɪl/",
+    "ipa": "/ˈɐpdˌeɪt ðə stˈaɪl/",
     "zh": "更新款式",
     "pinyin": "Kuǎn shì",
     "category": "daily",
@@ -25893,7 +25893,7 @@
   {
     "id": "office-discuss-the-quality",
     "term": "discuss the quality",
-    "ipa": "/dɪˈskʌs ðə kˈwɑləti/",
+    "ipa": "/dɪskˈɐs ðə kwˈɒlɪti/",
     "zh": "讨论质量",
     "pinyin": "Zhì liàng",
     "category": "office",
@@ -25907,7 +25907,7 @@
   {
     "id": "daily-organise-the-brand",
     "term": "organise the brand",
-    "ipa": "/ˈɔːɡənaɪz ðə brænd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bɹˈænd/",
     "zh": "整理品牌",
     "pinyin": "Pǐn pái",
     "category": "daily",
@@ -25921,7 +25921,7 @@
   {
     "id": "daily-confirm-the-model",
     "term": "confirm the model",
-    "ipa": "/kənˈfɜːm ðə ˈmɑdəl/",
+    "ipa": "/kənfˈɜːm ðə mˈɒdəl/",
     "zh": "确认型号",
     "pinyin": "Xíng hào",
     "category": "daily",
@@ -25935,7 +25935,7 @@
   {
     "id": "daily-prepare-the-new",
     "term": "prepare the new",
-    "ipa": "/prɪˈpeə ðə nu/",
+    "ipa": "/pɹɪpˈɛə ðə njˈuː/",
     "zh": "准备新的",
     "pinyin": "Xīn de",
     "category": "daily",
@@ -25949,7 +25949,7 @@
   {
     "id": "daily-check-the-old",
     "term": "check the old",
-    "ipa": "/tʃek ðə oʊld/",
+    "ipa": "/tʃˈɛk ðə ˈəʊld/",
     "zh": "检查旧的",
     "pinyin": "Jiù de",
     "category": "daily",
@@ -25963,7 +25963,7 @@
   {
     "id": "daily-update-the-good",
     "term": "update the good",
-    "ipa": "/ʌpˈdeɪt ðə gʊd/",
+    "ipa": "/ˈɐpdˌeɪt ðə gˈʊd/",
     "zh": "更新好的",
     "pinyin": "Hǎo de",
     "category": "daily",
@@ -25977,7 +25977,7 @@
   {
     "id": "daily-discuss-the-bad",
     "term": "discuss the bad",
-    "ipa": "/dɪˈskʌs ðə bæd/",
+    "ipa": "/dɪskˈɐs ðə bˈæd/",
     "zh": "讨论坏的",
     "pinyin": "Huài de",
     "category": "daily",
@@ -25991,7 +25991,7 @@
   {
     "id": "daily-organise-the-big",
     "term": "organise the big",
-    "ipa": "/ˈɔːɡənaɪz ðə bɪg/",
+    "ipa": "/ˈɔːgənˌaɪz ðə bˈɪg/",
     "zh": "整理大的",
     "pinyin": "Dà de",
     "category": "daily",
@@ -26005,7 +26005,7 @@
   {
     "id": "daily-confirm-the-small",
     "term": "confirm the small",
-    "ipa": "/kənˈfɜːm ðə smɔl/",
+    "ipa": "/kənfˈɜːm ðə smˈɔːl/",
     "zh": "确认小的",
     "pinyin": "Xiǎo de",
     "category": "daily",
@@ -26019,7 +26019,7 @@
   {
     "id": "daily-prepare-the-long",
     "term": "prepare the long",
-    "ipa": "/prɪˈpeə ðə lɔŋ/",
+    "ipa": "/pɹɪpˈɛə ðə lˈɒŋ/",
     "zh": "准备长的",
     "pinyin": "Cháng de",
     "category": "daily",
@@ -26033,7 +26033,7 @@
   {
     "id": "daily-check-the-short",
     "term": "check the short",
-    "ipa": "/tʃek ðə ʃɔrt/",
+    "ipa": "/tʃˈɛk ðə ʃˈɔːt/",
     "zh": "检查短的",
     "pinyin": "Duǎn de",
     "category": "daily",
@@ -26047,7 +26047,7 @@
   {
     "id": "daily-update-the-high",
     "term": "update the high",
-    "ipa": "/ʌpˈdeɪt ðə haɪ/",
+    "ipa": "/ˈɐpdˌeɪt ðə hˈaɪ/",
     "zh": "更新高的",
     "pinyin": "Gāo de",
     "category": "daily",
@@ -26061,7 +26061,7 @@
   {
     "id": "daily-discuss-the-low",
     "term": "discuss the low",
-    "ipa": "/dɪˈskʌs ðə loʊ/",
+    "ipa": "/dɪskˈɐs ðə lˈəʊ/",
     "zh": "讨论低的",
     "pinyin": "Dī de",
     "category": "daily",
@@ -26075,7 +26075,7 @@
   {
     "id": "daily-organise-the-wide",
     "term": "organise the wide",
-    "ipa": "/ˈɔːɡənaɪz ðə waɪd/",
+    "ipa": "/ˈɔːgənˌaɪz ðə wˈaɪd/",
     "zh": "整理宽的",
     "pinyin": "Kuān de",
     "category": "daily",
@@ -26089,7 +26089,7 @@
   {
     "id": "daily-confirm-the-narrow",
     "term": "confirm the narrow",
-    "ipa": "/kənˈfɜːm ðə ˈnɛroʊ/",
+    "ipa": "/kənfˈɜːm ðə nˈæɹəʊ/",
     "zh": "确认窄的",
     "pinyin": "Zhǎi de",
     "category": "daily",
@@ -26103,7 +26103,7 @@
   {
     "id": "daily-prepare-the-thick",
     "term": "prepare the thick",
-    "ipa": "/prɪˈpeə ðə θɪk/",
+    "ipa": "/pɹɪpˈɛə ðə θˈɪk/",
     "zh": "准备厚的",
     "pinyin": "Hòu de",
     "category": "daily",
@@ -26117,7 +26117,7 @@
   {
     "id": "daily-check-the-thin",
     "term": "check the thin",
-    "ipa": "/tʃek ðə θɪn/",
+    "ipa": "/tʃˈɛk ðə θˈɪn/",
     "zh": "检查薄的",
     "pinyin": "Báo de",
     "category": "daily",
@@ -26131,7 +26131,7 @@
   {
     "id": "daily-update-the-full",
     "term": "update the full",
-    "ipa": "/ʌpˈdeɪt ðə fʊl/",
+    "ipa": "/ˈɐpdˌeɪt ðə fˈʊl/",
     "zh": "更新满的",
     "pinyin": "Mǎn de",
     "category": "daily",
@@ -26145,7 +26145,7 @@
   {
     "id": "daily-discuss-the-empty",
     "term": "discuss the empty",
-    "ipa": "/dɪˈskʌs ðə ˈɛmti/",
+    "ipa": "/dɪskˈɐs ðə ˈɛmpti/",
     "zh": "讨论空的",
     "pinyin": "Kōng de",
     "category": "daily",
@@ -26159,7 +26159,7 @@
   {
     "id": "daily-organise-the-clean",
     "term": "organise the clean",
-    "ipa": "/ˈɔːɡənaɪz ðə klin/",
+    "ipa": "/ˈɔːgənˌaɪz ðə klˈiːn/",
     "zh": "整理干净的",
     "pinyin": "Gān jìng de",
     "category": "daily",
@@ -26173,7 +26173,7 @@
   {
     "id": "daily-confirm-the-dirty",
     "term": "confirm the dirty",
-    "ipa": "/kənˈfɜːm ðə ˈdərti/",
+    "ipa": "/kənfˈɜːm ðə dˈɜːti/",
     "zh": "确认脏的",
     "pinyin": "Zāng de",
     "category": "daily",
@@ -26187,7 +26187,7 @@
   {
     "id": "daily-prepare-the-fast",
     "term": "prepare the fast",
-    "ipa": "/prɪˈpeə ðə fæst/",
+    "ipa": "/pɹɪpˈɛə ðə fˈɑːst/",
     "zh": "准备快的",
     "pinyin": "Kuài de",
     "category": "daily",
@@ -26201,7 +26201,7 @@
   {
     "id": "daily-check-the-slow-2",
     "term": "check the slow",
-    "ipa": "/tʃek ðə sloʊ/",
+    "ipa": "/tʃˈɛk ðə slˈəʊ/",
     "zh": "检查慢的",
     "pinyin": "Màn de",
     "category": "daily",
@@ -26215,7 +26215,7 @@
   {
     "id": "daily-update-the-early-2",
     "term": "update the early",
-    "ipa": "/ʌpˈdeɪt ðə ˈərli/",
+    "ipa": "/ˈɐpdˌeɪt ðə ˈɜːli/",
     "zh": "更新早的",
     "pinyin": "Zǎo de",
     "category": "daily",
@@ -26229,7 +26229,7 @@
   {
     "id": "daily-discuss-the-late-2",
     "term": "discuss the late",
-    "ipa": "/dɪˈskʌs ðə leɪt/",
+    "ipa": "/dɪskˈɐs ðə lˈeɪt/",
     "zh": "讨论晚的",
     "pinyin": "Wǎn de",
     "category": "daily",
@@ -26243,7 +26243,7 @@
   {
     "id": "daily-organise-the-easy",
     "term": "organise the easy",
-    "ipa": "/ˈɔːɡənaɪz ðə ˈizi/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ˈiːzi/",
     "zh": "整理简单的",
     "pinyin": "Jiǎn dān de",
     "category": "daily",
@@ -26257,7 +26257,7 @@
   {
     "id": "daily-confirm-the-hard",
     "term": "confirm the hard",
-    "ipa": "/kənˈfɜːm ðə hɑrd/",
+    "ipa": "/kənfˈɜːm ðə hˈɑːd/",
     "zh": "确认困难的",
     "pinyin": "Kùn nán de",
     "category": "daily",
@@ -26271,7 +26271,7 @@
   {
     "id": "daily-prepare-the-strong",
     "term": "prepare the strong",
-    "ipa": "/prɪˈpeə ðə strɔŋ/",
+    "ipa": "/pɹɪpˈɛə ðə stɹˈɒŋ/",
     "zh": "准备强壮的",
     "pinyin": "Qiáng zhuàng de",
     "category": "daily",
@@ -26285,7 +26285,7 @@
   {
     "id": "daily-check-the-weak",
     "term": "check the weak",
-    "ipa": "/tʃek ðə wik/",
+    "ipa": "/tʃˈɛk ðə wˈiːk/",
     "zh": "检查虚弱的",
     "pinyin": "Xū ruò de",
     "category": "daily",
@@ -26299,7 +26299,7 @@
   {
     "id": "daily-update-the-busy",
     "term": "update the busy",
-    "ipa": "/ʌpˈdeɪt ðə ˈbɪzi/",
+    "ipa": "/ˈɐpdˌeɪt ðə bˈɪzi/",
     "zh": "更新忙碌的",
     "pinyin": "Máng lù de",
     "category": "daily",
@@ -26313,7 +26313,7 @@
   {
     "id": "daily-discuss-the-free",
     "term": "discuss the free",
-    "ipa": "/dɪˈskʌs ðə fri/",
+    "ipa": "/dɪskˈɐs ðə fɹˈiː/",
     "zh": "讨论空闲的",
     "pinyin": "Kòng xián de",
     "category": "daily",
@@ -26327,7 +26327,7 @@
   {
     "id": "daily-organise-the-right",
     "term": "organise the right",
-    "ipa": "/ˈɔːɡənaɪz ðə raɪt/",
+    "ipa": "/ˈɔːgənˌaɪz ðə ɹˈaɪt/",
     "zh": "整理正确的",
     "pinyin": "Zhèng què de",
     "category": "daily",
@@ -26341,7 +26341,7 @@
   {
     "id": "daily-confirm-the-wrong",
     "term": "confirm the wrong",
-    "ipa": "/kənˈfɜːm ðə rɔŋ/",
+    "ipa": "/kənfˈɜːm ðə ɹˈɒŋ/",
     "zh": "确认错误的",
     "pinyin": "Cuò wù de",
     "category": "daily",
