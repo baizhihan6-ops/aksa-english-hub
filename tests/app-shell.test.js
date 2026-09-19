@@ -30,3 +30,14 @@ test('approved visual system remains monochrome and gradient-free', () => {
   assert.doesNotMatch(css, /\b(red|green|blue|purple|orange|pink|yellow|brown)\b/i);
 });
 
+test('profile gate uses the approved vertical Signal Grid form', () => {
+  const html = read('index.html');
+  const css = read('assets/site.css');
+  for (const id of ['profileGate', 'profileForm', 'profileName', 'profileDepartment', 'headerProfile', 'editProfile']) {
+    assert.match(html, new RegExp(`id="${id}"`), `missing #${id}`);
+  }
+  assert.match(html, /class="[^"]*signal-grid/);
+  assert.match(html, /class="profile-fields"[\s\S]*?<label[\s\S]*?profileName[\s\S]*?<\/label>[\s\S]*?<label[\s\S]*?profileDepartment[\s\S]*?<\/label>/);
+  assert.match(css, /\.profile-fields\s*\{[^}]*grid-template-columns:\s*1fr/s);
+  assert.doesNotMatch(html, /Invite Code|input-code/i);
+});

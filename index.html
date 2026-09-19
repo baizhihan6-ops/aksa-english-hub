@@ -11,7 +11,31 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
+<body class="profile-locked">
+  <section class="profile-gate" id="profileGate" aria-labelledby="profileGateTitle">
+    <div class="signal-grid" aria-hidden="true">
+      <div class="signal-grid-horizontal"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="signal-grid-vertical"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <i class="signal-line signal-line-one"></i><i class="signal-line signal-line-two"></i><i class="signal-line signal-line-three"></i>
+      <div class="signal-locator"><span></span></div>
+    </div>
+    <div class="profile-gate-topline"><strong>AKSA / ENGLISH CORNER</strong><span>LEARNING NETWORK · ONLINE</span></div>
+    <div class="profile-gate-copy">
+      <p class="section-code">IDENTITY / LOCAL ACCESS</p>
+      <h1 id="profileGateTitle">Connect to<br>English Corner.</h1>
+      <p>Build a learning record for this device. Your name, department and progress stay in this browser.</p>
+    </div>
+    <form class="profile-form" id="profileForm" novalidate>
+      <div class="profile-form-index"><span>01</span><span>PERSONAL CHANNEL</span></div>
+      <div class="profile-fields">
+        <label><span>Your Name</span><input id="profileName" name="name" type="text" autocomplete="name" required maxlength="60" placeholder="Enter your name"></label>
+        <label><span>Department / Position</span><input id="profileDepartment" name="department" type="text" autocomplete="organization-title" required maxlength="80" placeholder="Enter department or position"></label>
+      </div>
+      <p class="profile-form-error" id="profileFormError" role="alert"></p>
+      <button class="profile-submit" type="submit"><span>Connect to English Corner</span><span aria-hidden="true">ENTER / 01</span></button>
+    </form>
+    <div class="profile-gate-footer"><span>SYSTEM 2026.09</span><span>PRIVATE ON-DEVICE PROFILE</span></div>
+  </section>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header" id="siteHeader">
@@ -19,6 +43,7 @@
       <span class="brand-mark">AKSA</span>
       <span class="brand-sub">English Corner</span>
     </button>
+    <button class="header-profile" id="headerProfile" type="button" aria-label="Edit employee profile"><span id="headerProfileInitials">--</span><span id="headerProfileText">Profile</span></button>
     <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">
       <span></span><span></span><span></span><span class="sr-only">Menu</span>
     </button>
@@ -209,6 +234,10 @@
         <p>Review accuracy, mastery and the words that need attention next.</p>
       </header>
       <div class="dashboard-shell page-width">
+        <section class="dashboard-profile" aria-labelledby="dashboardProfileTitle">
+          <div><p class="mini-heading">Employee profile</p><h2 id="dashboardProfileTitle"><span id="dashboardProfileName">—</span></h2><p id="dashboardProfileDepartment">—</p></div>
+          <button class="text-button" id="editProfile" type="button">Edit profile</button>
+        </section>
         <div class="dashboard-metrics" id="dashboardMetrics"></div>
         <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">Recent performance</p><h2>Last seven completed sessions</h2></div></div><div class="score-chart" id="scoreChart"></div></section>
         <section class="dashboard-section"><div class="section-line"><div><p class="mini-heading">Review queue</p><h2>Words to revisit</h2></div><button class="text-button" type="button" data-route="challenge">Start review →</button></div><div class="review-list" id="reviewList"></div></section>

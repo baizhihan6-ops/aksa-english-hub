@@ -10,6 +10,7 @@
   var Profile = window.AKSAProfile;
   var STORE_KEY = 'aksa-english-corner-v2';
   var toastTimer = null;
+  var profileReturnRoute = 'home';
 
   function loadStore() {
     try {
@@ -30,6 +31,66 @@
       showToast('Progress works for this session, but this browser cannot save it permanently.');
       return false;
     }
+  }
+
+  function profileInitials(name) {
+    return String(name || '').trim().split(/\s+/).filter(Boolean).slice(0, 2).map(function(part) { return part.charAt(0).toUpperCase(); }).join('') || '--';
+  }
+
+  function renderProfile() {
+    var profile = Profile.normaliseProfile(store.profile);
+    var initials = profileInitials(profile && profile.name);
+    document.getElementById('headerProfileInitials').textContent = initials;
+    document.getElementById('headerProfileText').textContent = profile ? profile.name : 'Profile';
+    document.getElementById('dashboardProfileName').textContent = profile ? profile.name : '—';
+    document.getElementById('dashboardProfileDepartment').textContent = profile ? profile.department : '—';
+  }
+
+  function openProfileGate(mode) {
+    profileReturnRoute = mode === 'edit' ? (location.hash.slice(1) || 'home') : 'home';
+    var profile = Profile.normaliseProfile(store.profile);
+    var gate = document.getElementById('profileGate');
+    document.getElementById('profileName').value = profile ? profile.name : '';
+    document.getElementById('profileDepartment').value = profile ? profile.department : '';
+    document.getElementById('profileFormError').textContent = '';
+    gate.hidden = false;
+    document.body.classList.add('profile-locked');
+    document.getElementById('main').inert = true;
+    setTimeout(function() { document.getElementById('profileName').focus(); }, 40);
+  }
+
+  function closeProfileGate() {
+    document.getElementById('profileGate').hidden = true;
+    document.body.classList.remove('profile-locked');
+    document.getElementById('main').inert = false;
+  }
+
+  function saveProfile(event) {
+    event.preventDefault();
+    var profile = Profile.normaliseProfile({
+      name: document.getElementById('profileName').value,
+      department: document.getElementById('profileDepartment').value
+    });
+    if (!profile) {
+      document.getElementById('profileFormError').textContent = 'Please enter both your name and department / position.';
+      return;
+    }
+    store.profile = profile;
+    saveStore();
+    try { localStorage.removeItem('aksa_user_data'); } catch (ignored) {}
+    renderProfile();
+    closeProfileGate();
+    navigate(profileReturnRoute, true);
+    showToast('Profile saved on this device.');
+  }
+
+  function setupProfile() {
+    document.getElementById('profileForm').addEventListener('submit', saveProfile);
+    document.getElementById('headerProfile').addEventListener('click', function() { openProfileGate('edit'); });
+    document.getElementById('editProfile').addEventListener('click', function() { openProfileGate('edit'); });
+    renderProfile();
+    if (Profile.normaliseProfile(store.profile)) closeProfileGate();
+    else openProfileGate('initial');
   }
 
   function escapeHtml(value) {
@@ -571,6 +632,7 @@
   }
 
   function renderDashboard() {
+    renderProfile();
     var metrics = progressMetrics();
     document.getElementById('dashboardMetrics').innerHTML = [
       [metrics.accuracy == null ? '—' : metrics.accuracy + '%', 'Recent accuracy'], [metrics.mastered, 'Mastered words'], [metrics.due, 'Due for review'], [metrics.tested, 'Words tested']
@@ -599,6 +661,7 @@
   }
 
   function init() {
+    setupProfile();
     setupNavigation();
     setupHero();
     setupReveal();
