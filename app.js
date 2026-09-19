@@ -7,29 +7,16 @@
   var TOPIC_BOOTSTRAP = window.AKSA_TOPICS_BOOTSTRAP || { archive: [], days: {}, index: { days: [] } };
   var TOPICS = window.AKSATopics ? window.AKSATopics.flattenBootstrap(TOPIC_BOOTSTRAP) : [];
   var Challenge = window.AKSAChallenge;
+  var Profile = window.AKSAProfile;
   var STORE_KEY = 'aksa-english-corner-v2';
   var toastTimer = null;
 
-  function emptyStore() {
-    return { version: 2, progress: {}, sessions: [], dailySummaries: {}, favorites: [], incomplete: null };
-  }
-
   function loadStore() {
     try {
-      var raw = localStorage.getItem(STORE_KEY);
-      if (!raw) return emptyStore();
-      var value = JSON.parse(raw);
-      if (!value || typeof value !== 'object' || !value.progress || !Array.isArray(value.sessions)) throw new Error('Invalid data');
-      value.dailySummaries = value.dailySummaries || {};
-      value.favorites = Array.isArray(value.favorites) ? value.favorites : [];
-      return value;
+      return Profile.migrate(localStorage.getItem(STORE_KEY), localStorage.getItem('aksa_user_data'));
     } catch (error) {
-      try {
-        var broken = localStorage.getItem(STORE_KEY);
-        if (broken) localStorage.setItem(STORE_KEY + '-corrupt-' + Date.now(), broken);
-      } catch (ignored) {}
-      setTimeout(function() { showToast('Saved progress was damaged. A backup was kept and a new record was started.'); }, 200);
-      return emptyStore();
+      setTimeout(function() { showToast('This browser could not open the saved learning record.'); }, 200);
+      return Profile.emptyStore();
     }
   }
 
@@ -598,7 +585,7 @@
   function setupDashboard() {
     document.getElementById('clearProgress').addEventListener('click', function() {
       if (!window.confirm('Delete all learning history stored in this browser?')) return;
-      store = emptyStore(); saveStore(); renderDashboard(); renderVocabulary(); updateHomeMetrics(); showToast('Local learning history cleared.');
+      store = Profile.clearLearning(store); saveStore(); renderDashboard(); renderVocabulary(); updateHomeMetrics(); showToast('Local learning history cleared.');
     });
   }
 
